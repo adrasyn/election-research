@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+._*
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment
+.env
+.env.local
+
+# Python (when we add the data pipeline)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# Node (if any web tooling lands later)
+node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+*.zip
+*.tar.gz
+
+# Data caches (pipeline scratch space)
+.cache/
+data/raw/
+data/tmp/
+*.parquet.tmp
+
+# Claude Code session artifacts
+.claude/

@@ -1,0 +1,386 @@
+# ───────────────────────────────────────────────────────────────────
+# Australian political party colour registry
+# ───────────────────────────────────────────────────────────────────
+# Single source of truth for the dashboard's party identification.
+# The data pipeline joins this against AEC media-feed `PartyIdentifier`
+# elements to attach a stable display name, abbreviation and colour.
+#
+# Schema per entry:
+#   aec_code       : The party abbreviation as the AEC media feed emits
+#                    it. BEST GUESS in many cases — verify against the
+#                    real feed when the pipeline goes live. Items marked
+#                    "# REVIEW" need human confirmation.
+#   aec_name       : Full registered name in the AEC register. Best
+#                    guess, also subject to verification.
+#   display        : Short label shown in UI (≤ 16 chars where possible).
+#   abbr           : Three-letter brand abbreviation (may differ from
+#                    aec_code, e.g. "LIB" displayed but "LP" in feed).
+#   colour         : Hex used by the dashboard. Calibrated for the
+#                    charcoal dark background (#0a0d11). Derived from
+#                    the canonical Wikipedia template colour at ~70%
+#                    saturation and adjusted for distinguishability
+#                    against neighbouring parties.
+#   colour_canon   : Hex from Wikipedia's
+#                    Template:Australian_politics/party_colours.
+#                    Reference only; do NOT use directly in dashboard.
+#   colour_soft    : rgba(...) with ~16% alpha for use as background
+#                    tint. Mirrors the existing --alp-soft pattern.
+#   aliases        : Alternate names (rebrands, common short forms,
+#                    historical AEC codes). Used by the join.
+#   category       : major | minor | independent | other
+#   active         : true if currently registered with the AEC (as of
+#                    the 2025 federal election).
+#   notes          : Optional commentary, especially for rebrands.
+# ───────────────────────────────────────────────────────────────────
+
+parties:
+
+  # ═══════════════ MAJOR PARTIES ═══════════════
+
+  - aec_code: ALP
+    aec_name: Australian Labor Party
+    display: Labor
+    abbr: ALP
+    colour: "#d4253a"
+    colour_canon: "#F00011"
+    colour_soft: "rgba(212, 37, 58, 0.16)"
+    aliases: [Labor, Labour, ALP, Australian Labor Party]
+    category: major
+    active: true
+
+  - aec_code: LP
+    aec_name: Liberal Party of Australia
+    display: Liberal
+    abbr: LIB
+    colour: "#1746a8"
+    colour_canon: "#080CAB"
+    colour_soft: "rgba(23, 70, 168, 0.16)"
+    aliases: [Liberal, LP, LIB, Liberal Party]
+    category: major
+    coalition_family: liberal
+    active: true
+
+  - aec_code: LNP   # REVIEW: AEC may use "LNP" or "LNQ" historically
+    aec_name: Liberal National Party of Queensland
+    display: LNP
+    abbr: LNP
+    colour: "#2167cb"           # slightly lighter blue than LP
+    colour_canon: "#1456F1"
+    colour_soft: "rgba(33, 103, 203, 0.16)"
+    aliases: [Liberal National, LNP, LNQ]
+    category: major
+    coalition_family: liberal
+    active: true
+    notes: |
+      Queensland-specific Lib/Nat merger (2008). Functionally part of
+      the federal Coalition with LP and NP. Kept distinct so seat
+      identity is preserved in data.
+
+  - aec_code: NP    # REVIEW: AEC code might be "NAT" — confirm
+    aec_name: National Party of Australia
+    display: Nationals
+    abbr: NAT
+    colour: "#1d7846"           # green-with-blue-bias to separate from GRN
+    colour_canon: "#008000"     # named CSS "green" in template
+    colour_soft: "rgba(29, 120, 70, 0.16)"
+    aliases: [Nationals, National, NP, NAT, National Party]
+    category: major
+    coalition_family: nationals  # ONLY the Nationals retain rural-Coalition green
+    active: true
+    notes: |
+      Federal Coalition partner with LP and LNP. Wikipedia uses
+      named CSS green (#008000), too dark on charcoal — shifted
+      slightly toward teal to differentiate from Greens. The
+      Nationals are the ONLY Coalition member that stays green —
+      LP, LNP and CLP all sit in the Coalition blue family.
+
+  - aec_code: CLP
+    aec_name: Country Liberal Party (NT)
+    display: CLP
+    abbr: CLP
+    colour: "#2980d4"           # Coalition blue (slightly cyan to differ from LP/LNP)
+    colour_canon: "#FF7F00"     # Wikipedia uses orange — overridden per project decision
+    colour_soft: "rgba(41, 128, 212, 0.16)"
+    aliases: [Country Liberal, CLP]
+    category: major
+    coalition_family: liberal   # groups LP + LNP + CLP visually
+    active: true
+    notes: |
+      NT Coalition partner. Wikipedia canon is orange, but per project
+      decision (2026-05-08) all Liberal-aligned Coalition parties
+      (LP, LNP, CLP) sit in the blue family. Only the Nationals (NP)
+      retain their distinct rural-Coalition green.
+
+  - aec_code: GRN   # REVIEW: AEC code might be "AG" — confirm
+    aec_name: Australian Greens
+    display: Greens
+    abbr: GRN
+    colour: "#2da050"
+    colour_canon: "#10C25B"
+    colour_soft: "rgba(45, 160, 80, 0.16)"
+    aliases: [Greens, Australian Greens, GRN, AG]
+    category: major
+    active: true
+
+  # ═══════════════ MINOR PARTIES (active 2025) ═══════════════
+
+  - aec_code: ON    # REVIEW: AEC historically uses "PHON" too
+    aec_name: Pauline Hanson's One Nation
+    display: One Nation
+    abbr: ON
+    colour: "#ed6f1a"
+    colour_canon: "#f36c21"
+    colour_soft: "rgba(237, 111, 26, 0.16)"
+    aliases: [One Nation, PHON, ON, Pauline Hanson, Hanson]
+    category: minor
+    active: true
+
+  - aec_code: KAP
+    aec_name: Katter's Australian Party
+    display: Katter's Aus
+    abbr: KAP
+    colour: "#9e1a2f"           # darker red than ALP
+    colour_canon: "#B50204"
+    colour_soft: "rgba(158, 26, 47, 0.16)"
+    aliases: [Katter's Australian Party, Katter, KAP]
+    category: minor
+    active: true
+    notes: Distinct enough from ALP red — KAP is plum-leaning.
+
+  - aec_code: AJP
+    aec_name: Animal Justice Party
+    display: Animal Justice
+    abbr: AJP
+    colour: "#6a3a96"
+    colour_canon: "#5B2C86"
+    colour_soft: "rgba(106, 58, 150, 0.16)"
+    aliases: [Animal Justice, AJP]
+    category: minor
+    active: true
+
+  - aec_code: TOP   # REVIEW: AEC code uncertain — was "UAPP" for UAP
+    aec_name: Trumpet of Patriots
+    display: Trumpet of Patriots
+    abbr: TOP
+    colour: "#f4d226"
+    colour_canon: "#FFED00"
+    colour_soft: "rgba(244, 210, 38, 0.16)"
+    aliases: [Trumpet of Patriots, United Australia, UAP, UAPP, Palmer United, PUP]
+    category: minor
+    active: true
+    notes: |
+      Rebrand chain: Palmer United (PUP, 2013) → United Australia
+      (UAP/UAPP, 2018 revival) → Trumpet of Patriots (2025).
+      All map to the same yellow.
+
+  - aec_code: LCC   # REVIEW: state-specific codes also exist (LCQ, LCWA, LCSA)
+    aec_name: Legalise Cannabis Australia
+    display: Legalise Cannabis
+    abbr: LCC
+    colour: "#6db535"           # brighter than Greens, distinct hue
+    colour_canon: "#72C342"
+    colour_soft: "rgba(109, 181, 53, 0.16)"
+    aliases: [Legalise Cannabis, LCA, LCQ, LCWA, LCSA, HEMP]
+    category: minor
+    active: true
+
+  - aec_code: SFF   # REVIEW: AEC has used "SFP" and "SFFP" too
+    aec_name: Shooters, Fishers and Farmers Party
+    display: Shooters
+    abbr: SFF
+    colour: "#b3253a"           # brick red, distinct from ALP
+    colour_canon: "#E52B50"
+    colour_soft: "rgba(179, 37, 58, 0.16)"
+    aliases: [Shooters, Shooters Fishers Farmers, SFF, SFP, SFFP]
+    category: minor
+    active: true
+
+  - aec_code: LDP
+    aec_name: Liberal Democratic Party
+    display: Liberal Democrats
+    abbr: LDP
+    colour: "#e8b423"
+    colour_canon: "#fec327"
+    colour_soft: "rgba(232, 180, 35, 0.16)"
+    aliases: [Liberal Democrats, LDP, Liberty and Democracy]
+    category: minor
+    active: true
+
+  - aec_code: FFP   # REVIEW: AEC has used "FF" and "FFP"
+    aec_name: Family First Party
+    display: Family First
+    abbr: FFP
+    colour: "#4a4992"
+    colour_canon: "#5A58A6"
+    colour_soft: "rgba(74, 73, 146, 0.16)"
+    aliases: [Family First, FFP, FF]
+    category: minor
+    active: true
+    notes: Re-registered 2021 after original deregistered 2017.
+
+  - aec_code: DLP
+    aec_name: Democratic Labour Party
+    display: DLP
+    abbr: DLP
+    colour: "#d8923a"
+    colour_canon: "#ffb536"
+    colour_soft: "rgba(216, 146, 58, 0.16)"
+    aliases: [Democratic Labor, Democratic Labour, DLP]
+    category: minor
+    active: true
+
+  - aec_code: JLN
+    aec_name: Jacqui Lambie Network
+    display: Lambie Network
+    abbr: JLN
+    colour: "#ecbe2d"
+    colour_canon: "#FFCB08"
+    colour_soft: "rgba(236, 190, 45, 0.16)"
+    aliases: [Jacqui Lambie Network, Lambie, JLN]
+    category: minor
+    active: true
+
+  - aec_code: SUS   # REVIEW: AEC code uncertain
+    aec_name: Sustainable Australia Party
+    display: Sustainable Aus
+    abbr: SUS
+    colour: "#0a8855"
+    colour_canon: "#047E49"
+    colour_soft: "rgba(10, 136, 85, 0.16)"
+    aliases: [Sustainable Australia, Sustainable Population, SUS]
+    category: minor
+    active: true
+
+  - aec_code: ACS   # REVIEW: code uncertain
+    aec_name: Australian Christians
+    display: Christians
+    abbr: ACS
+    colour: "#f0d020"
+    colour_canon: "#ffdc00"
+    colour_soft: "rgba(240, 208, 32, 0.16)"
+    aliases: [Australian Christians, Christians, ACS]
+    category: minor
+    active: true
+
+  - aec_code: REA   # REVIEW: code uncertain — Reason Aus rebrand of Sex Party
+    aec_name: Reason Australia
+    display: Reason
+    abbr: REA
+    colour: "#c926f2"
+    colour_canon: "#C926F2"
+    colour_soft: "rgba(201, 38, 242, 0.16)"
+    aliases: [Reason, Reason Australia, Sex Party]
+    category: minor
+    active: false
+    notes: Deregistered 2022. Appears in 2010-2019 historical data.
+
+  - aec_code: FUS   # REVIEW
+    aec_name: Fusion Party
+    display: Fusion
+    abbr: FUS
+    colour: "#c926f2"
+    colour_canon: "#C926F2"
+    colour_soft: "rgba(201, 38, 242, 0.16)"
+    aliases: [Fusion, Fusion Party]
+    category: minor
+    active: true
+    notes: |
+      Merger of Pirate Party, Science Party, Vote Planet, Climate
+      Change Justice and Secular Party. Inherits magenta from those
+      progressive minor parties.
+
+  # ═══════════════ HISTORIC / DEFUNCT (appear in archive data) ═══════════════
+
+  - aec_code: DEM
+    aec_name: Australian Democrats
+    display: Democrats
+    abbr: DEM
+    colour: "#e8b80c"
+    colour_canon: "#FFCD00"
+    colour_soft: "rgba(232, 184, 12, 0.16)"
+    aliases: [Australian Democrats, Democrats, DEM]
+    category: minor
+    active: false
+    notes: Deregistered 2016, re-registered 2019 federal — verify.
+
+  - aec_code: NXT   # REVIEW: also "CA" (Centre Alliance rebrand)
+    aec_name: Nick Xenophon Team / Centre Alliance
+    display: Centre Alliance
+    abbr: CA
+    colour: "#d96820"
+    colour_canon: "#ff6300"
+    colour_soft: "rgba(217, 104, 32, 0.16)"
+    aliases: [Nick Xenophon Team, NXT, Centre Alliance, CA]
+    category: minor
+    active: true
+    notes: NXT rebranded to Centre Alliance in 2018.
+
+  - aec_code: CDP
+    aec_name: Christian Democratic Party
+    display: Christian Democrats
+    abbr: CDP
+    colour: "#702070"
+    colour_canon: "#800080"
+    colour_soft: "rgba(112, 32, 112, 0.16)"
+    aliases: [Christian Democratic Party, Call to Australia, CDP]
+    category: minor
+    active: false
+    notes: Deregistered 2022.
+
+  - aec_code: HJP   # REVIEW
+    aec_name: Derryn Hinch's Justice Party
+    display: Hinch Justice
+    abbr: HJP
+    colour: "#10355a"
+    colour_canon: "#002F5D"
+    colour_soft: "rgba(16, 53, 90, 0.16)"
+    aliases: [Derryn Hinch's Justice Party, DHJP, Hinch]
+    category: minor
+    active: false
+
+  # ═══════════════ INDEPENDENTS & FALLBACK ═══════════════
+
+  - aec_code: IND
+    aec_name: Independent
+    display: Independent
+    abbr: IND
+    colour: "#8e94a0"           # neutral grey, matches Wiki canon spirit
+    colour_canon: "#888888"
+    colour_soft: "rgba(142, 148, 160, 0.16)"
+    aliases: [Independent, Independents, IND, Teal, Climate 200, Teal independent]
+    category: independent
+    active: true
+    notes: |
+      Per user direction (2026-05-08): all independents — including
+      the Climate 200 / "Teal" cohort — share this neutral grey.
+      Teals are a movement, not a registered party.
+
+  - aec_code: UNG   # default fallback
+    aec_name: Ungrouped / Unmatched
+    display: Other
+    abbr: OTH
+    colour: "#6c6878"
+    colour_canon: "#888888"
+    colour_soft: "rgba(108, 104, 120, 0.16)"
+    aliases: [Other, Ungrouped, Unknown, OTH, UNG]
+    category: other
+    active: true
+    notes: |
+      Default fallback for any party not matched to an entry above.
+      Distinct from IND grey by being slightly more purple, so an
+      unmatched party doesn't accidentally read as "independent".
+
+# ───────────────────────────────────────────────────────────────────
+# REVIEW TASKS BEFORE SHIPPING
+# ───────────────────────────────────────────────────────────────────
+# 1. Verify every aec_code marked "# REVIEW" against the real AEC media
+#    feed by parsing the 2022 archive's eml-110 message and listing all
+#    PartyIdentifier ShortCode values that appear.
+# 2. Add any party that appears in the feed but isn't above.
+# 3. The colour_canon values come from Wikipedia's template — they're
+#    Wikipedia-curated, not AEC-official. Where a party has a published
+#    brand guide (most majors do), prefer the brand guide.
+# 4. Add a per-candidate override file (candidate_overrides.yaml) IF
+#    we ever want non-default colours per individual (e.g. a high-
+#    profile independent with their own brand). Per user direction
+#    above, Teals do NOT get overrides.

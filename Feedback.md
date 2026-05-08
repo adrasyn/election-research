@@ -1,0 +1,6 @@
+- change page title to 2025 election research - i don't want to suggest this website is connected with the aec
+- in the side panel, the result tag should match the colour of the winning party (in the bennelong example, "ALP RETAIN" should be ALP red)
+- in the historical trend chart, the final 2025 data point dot for labor is coloured blue for some reason, just keep it the same as the rest of the line
+- in the bar at the top of the screen, the text "2025 Federal Election" text in the Event drop down spills over three lines. Chamber text "House of Representatives" also spills over multiple lines.
+- also just want to confirm that the blob like Australia will be replaced with proper shape files for the final version?
+- in the side panel, the source box takes up a lot of space. rather than having it permanently visible, can you just put it at the bottom of the scroll area?

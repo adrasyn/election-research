@@ -1,0 +1,2526 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>2025 Election Research · Bennelong</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  /* ──────────────────────────────────────────────────────────
+     DESIGN TOKENS
+     ────────────────────────────────────────────────────────── */
+  :root {
+    /* Surfaces */
+    --bg-deep:       #07090d;
+    --bg-base:       #0a0d11;
+    --bg-elev-1:     #0f141b;
+    --bg-elev-2:     #141a23;
+    --bg-elev-3:     #1a212c;
+
+    /* Hairlines */
+    --line-faint:    #161c25;
+    --line:          #1f2733;
+    --line-strong:   #2c3645;
+
+    /* Text */
+    --t-1:           #e7ecf3;
+    --t-2:           #b1bac6;
+    --t-3:           #6b7684;
+    --t-4:           #424c59;
+    --t-5:           #2b333d;
+
+    /* Accents */
+    --accent:        #5da9ff;        /* electric cyan-blue, selection only */
+    --accent-soft:   rgba(93, 169, 255, 0.10);
+    --accent-edge:   rgba(93, 169, 255, 0.55);
+    --warm:          #f2a341;
+    --positive:      #4caf7a;        /* swing toward */
+    --negative:      #d8556a;        /* swing away */
+
+    /* Party — calibrated muted palette derived from Wikipedia canon
+       (see /parties.yaml for full registry + rationale). Coalition
+       Liberals (LP, LNP, CLP) sit in the blue family; Nationals only
+       retain the Coalition green. */
+    --alp:           #d4253a;
+    --alp-soft:      rgba(212, 37, 58, 0.16);
+    --lib:           #1746a8;
+    --lib-soft:      rgba(23, 70, 168, 0.16);
+    --lnp:           #2167cb;
+    --lnp-soft:      rgba(33, 103, 203, 0.16);
+    --clp:           #2980d4;
+    --clp-soft:      rgba(41, 128, 212, 0.16);
+    --nat:           #1d7846;
+    --nat-soft:      rgba(29, 120, 70, 0.16);
+    --grn:           #2da050;
+    --grn-soft:      rgba(45, 160, 80, 0.16);
+    --on:            #ed6f1a;
+    --on-soft:       rgba(237, 111, 26, 0.16);
+    --ajp:           #6a3a96;
+    --top:           #f4d226;
+    --kap:           #9e1a2f;
+    --ldp:           #e8b423;
+    --ffp:           #4a4992;
+    --jln:           #ecbe2d;
+    --sff:           #b3253a;
+    --dlp:           #d8923a;
+    --lcc:           #6db535;
+    --ind:           #8e94a0;       /* Independents — incl. Teals (per project decision) */
+    --oth:           #6c6878;       /* Default fallback for unmatched parties */
+
+    /* Geometry */
+    --radius:        2px;
+    --radius-md:     4px;
+    --radius-lg:     6px;
+
+    /* Motion */
+    --ease:          cubic-bezier(0.32, 0.72, 0.20, 1.00);
+    --ease-snap:     cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Type */
+    --sans: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     RESET + BASE
+     ────────────────────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg-base);
+    color: var(--t-1);
+    font-family: var(--sans);
+    font-feature-settings: 'ss01', 'cv11';
+    font-size: 13px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+  }
+  button { font: inherit; color: inherit; background: transparent; border: 0; padding: 0; cursor: pointer; }
+  input { font: inherit; color: inherit; background: transparent; border: 0; outline: 0; }
+  table { border-collapse: collapse; }
+
+  .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+  .num  { font-family: var(--mono); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+
+  /* ──────────────────────────────────────────────────────────
+     APP SHELL
+     ────────────────────────────────────────────────────────── */
+  .app {
+    display: grid;
+    grid-template-rows: 44px 24px 1fr 22px;
+    height: 100vh;
+    width: 100vw;
+    background: var(--bg-base);
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     TOP CHROME (header)
+     ────────────────────────────────────────────────────────── */
+  .chrome-top {
+    display: grid;
+    grid-template-columns: 232px auto minmax(220px, 1fr) auto 320px;
+    align-items: stretch;
+    border-bottom: 1px solid var(--line);
+    background: linear-gradient(to bottom, var(--bg-elev-1), var(--bg-base));
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 18px;
+    border-right: 1px solid var(--line);
+  }
+  .brand-glyph {
+    width: 22px; height: 22px;
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+  .brand-mark {
+    font-family: var(--mono);
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    color: var(--t-1);
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .brand-mark span {
+    color: var(--t-3);
+  }
+  .brand-sub {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    color: var(--t-4);
+    text-transform: uppercase;
+    margin-top: 3px;
+    line-height: 1;
+  }
+
+  .chrome-segment {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 16px;
+    border-right: 1px solid var(--line);
+    min-width: 0;
+  }
+  .chrome-segment:last-child { border-right: 0; }
+
+  .seg-label {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    color: var(--t-4);
+    text-transform: uppercase;
+    flex-shrink: 0;
+  }
+
+  .selector {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 26px;
+    padding: 0 10px;
+    background: var(--bg-elev-2);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    font-size: 12px;
+    color: var(--t-1);
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: border-color 0.15s var(--ease-snap), background 0.15s var(--ease-snap);
+  }
+  .seg-label { white-space: nowrap; flex-shrink: 0; }
+  .selector:hover { border-color: var(--t-4); background: var(--bg-elev-3); }
+  .selector .caret { color: var(--t-3); margin-left: 4px; font-size: 10px; }
+
+  .search {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 26px;
+    background: var(--bg-elev-2);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0 10px;
+  }
+  .search:focus-within { border-color: var(--accent-edge); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .search-icon {
+    color: var(--t-3);
+    font-size: 12px;
+    margin-right: 8px;
+  }
+  .search-input {
+    flex: 1;
+    font-size: 12px;
+    color: var(--t-1);
+  }
+  .search-input::placeholder { color: var(--t-4); }
+  .kbd {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-3);
+    background: var(--bg-elev-3);
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    padding: 1px 5px;
+    line-height: 1;
+  }
+
+  .chrome-spacer { border-right: 1px solid var(--line); }
+
+  .status {
+    justify-content: flex-end;
+    gap: 12px;
+  }
+  .status-led {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--positive);
+    box-shadow: 0 0 0 3px rgba(76, 175, 122, 0.12);
+  }
+  .status-pieces {
+    display: flex;
+    gap: 14px;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.04em;
+    color: var(--t-2);
+  }
+  .status-pieces .lbl { color: var(--t-4); margin-right: 5px; }
+
+  /* ──────────────────────────────────────────────────────────
+     SUBHEADER (breadcrumbs / context)
+     ────────────────────────────────────────────────────────── */
+  .chrome-sub {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg-deep);
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    color: var(--t-3);
+  }
+  .crumb {
+    padding: 0 14px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid var(--line-faint);
+    text-transform: uppercase;
+  }
+  .crumb.active { color: var(--t-1); background: var(--bg-elev-1); }
+  .crumb .arr { color: var(--t-5); margin: 0 8px; }
+  .sub-spacer { flex: 1; }
+  .sub-meta {
+    display: flex;
+    gap: 18px;
+    padding: 0 16px;
+    height: 100%;
+    align-items: center;
+    color: var(--t-3);
+  }
+  .sub-meta .item { display: flex; gap: 6px; }
+  .sub-meta .lbl { color: var(--t-5); }
+
+  /* ──────────────────────────────────────────────────────────
+     CANVAS (map area + overlays)
+     ────────────────────────────────────────────────────────── */
+  .canvas {
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(ellipse at 30% 35%, #0d141d 0%, var(--bg-base) 60%, var(--bg-deep) 100%);
+  }
+
+  /* Faint instrument grid - dot grid + diagonal accents */
+  .canvas::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(140, 160, 200, 0.045) 1px, transparent 0);
+    background-size: 22px 22px;
+    pointer-events: none;
+  }
+  .canvas::after {
+    content: "";
+    position: absolute; inset: 0;
+    background:
+      linear-gradient(0deg, transparent 0, transparent 99.7%, rgba(255,255,255,0.03) 100%) 0 0/100% 80px,
+      linear-gradient(90deg, transparent 0, transparent 99.7%, rgba(255,255,255,0.03) 100%) 0 0/80px 100%;
+    pointer-events: none;
+  }
+
+  .map-frame {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+  }
+  .map-svg {
+    width: 70%;
+    height: 78%;
+    max-width: 960px;
+    overflow: visible;
+  }
+
+  /* MAP styles */
+  .aus-outline {
+    fill: var(--bg-elev-1);
+    stroke: var(--line-strong);
+    stroke-width: 1;
+    stroke-linejoin: round;
+  }
+  .aus-shadow {
+    fill: rgba(0, 0, 0, 0.25);
+    filter: blur(8px);
+  }
+  .state-border {
+    stroke: var(--line-strong);
+    stroke-width: 0.6;
+    stroke-dasharray: 1.5 2.5;
+    fill: none;
+    opacity: 0.6;
+  }
+  .ocean-label {
+    font-family: var(--mono);
+    font-size: 7.5px;
+    fill: var(--t-5);
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+  }
+  .state-label {
+    font-family: var(--mono);
+    font-size: 8px;
+    fill: var(--t-4);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+  .seat-dot {
+    transition: r 0.15s var(--ease-snap), opacity 0.15s var(--ease-snap);
+    cursor: pointer;
+  }
+  .seat-dot:hover { r: 4.5; }
+  .seat-dot.alp { fill: var(--alp); }
+  .seat-dot.lib { fill: var(--lib); }
+  .seat-dot.grn { fill: var(--grn); }
+  .seat-dot.nat { fill: var(--nat); }
+  .seat-dot.ind { fill: var(--ind); }
+  .seat-dot.oth { fill: var(--oth); }
+
+  .seat-active {
+    fill: var(--alp);
+    stroke: var(--accent);
+    stroke-width: 1.4;
+  }
+  .seat-active-ring {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1;
+    opacity: 0.9;
+  }
+  .seat-active-ring.r2 {
+    opacity: 0.45;
+    stroke-dasharray: 2 3;
+  }
+  .seat-active-ring.r3 {
+    opacity: 0.25;
+  }
+  @keyframes pulse-ring {
+    0%   { r: 12; opacity: 0.5; }
+    100% { r: 26; opacity: 0; }
+  }
+  .pulse {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1;
+    animation: pulse-ring 3.6s var(--ease) infinite;
+    transform-origin: center;
+  }
+
+  /* Active seat crosshair - subtle perpendicular lines */
+  .crosshair {
+    stroke: var(--accent);
+    stroke-width: 0.5;
+    opacity: 0.35;
+  }
+
+  /* Compass / scale */
+  .scale-bar {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    color: var(--t-4);
+    letter-spacing: 0.1em;
+  }
+  .scale-bar-line {
+    width: 80px; height: 1px;
+    background: linear-gradient(to right, var(--t-4), var(--t-4) 50%, transparent 50%, transparent);
+    background-size: 8px 1px;
+    position: relative;
+  }
+  .scale-bar-line::before, .scale-bar-line::after {
+    content: ""; position: absolute;
+    width: 1px; height: 5px;
+    background: var(--t-4); top: -2px;
+  }
+  .scale-bar-line::before { left: 0; }
+  .scale-bar-line::after { right: 0; }
+
+  /* Corner readouts */
+  .readout {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 12px;
+    background: rgba(10, 13, 17, 0.7);
+    backdrop-filter: blur(6px);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    min-width: 180px;
+    pointer-events: none;
+  }
+  .readout-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--t-4);
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .readout-value {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--t-2);
+    letter-spacing: 0.04em;
+    line-height: 1.35;
+    white-space: pre-line;
+  }
+  .readout-value .em { color: var(--t-1); }
+  .readout-value .alp-c { color: var(--alp); }
+  .readout-value .accent { color: var(--accent); }
+
+  .readout-tl { top: 16px;  left: 16px; }
+  .readout-bl { bottom: 16px; left: 16px; }
+
+  .readout-tick { color: var(--positive); }
+  .readout-cross { color: var(--negative); }
+
+  /* Legend */
+  .legend {
+    position: absolute;
+    top: 16px;
+    right: calc(480px + 16px);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 12px;
+    background: rgba(10, 13, 17, 0.7);
+    backdrop-filter: blur(6px);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .legend-title {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--t-4);
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .legend-row {
+    display: grid;
+    grid-template-columns: 10px 1fr auto;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--t-2);
+    letter-spacing: 0.02em;
+  }
+  .legend-row .swatch {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+  }
+  .legend-row .count {
+    color: var(--t-3);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    min-width: 28px;
+  }
+
+  /* Map controls */
+  .map-controls {
+    position: absolute;
+    top: 16px;
+    right: calc(480px + 16px);
+    display: flex;
+    flex-direction: column;
+    background: rgba(10, 13, 17, 0.7);
+    backdrop-filter: blur(6px);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 92px;
+  }
+  .map-controls button {
+    width: 32px; height: 32px;
+    color: var(--t-2);
+    font-family: var(--mono);
+    font-size: 14px;
+    border-bottom: 1px solid var(--line);
+    transition: background 0.15s var(--ease-snap), color 0.15s var(--ease-snap);
+  }
+  .map-controls button:last-child { border-bottom: 0; }
+  .map-controls button:hover { background: var(--bg-elev-2); color: var(--t-1); }
+
+  /* ──────────────────────────────────────────────────────────
+     RIGHT PANEL
+     ────────────────────────────────────────────────────────── */
+  .panel {
+    position: absolute;
+    top: 0; right: 0; bottom: 0;
+    width: 480px;
+    background: var(--bg-elev-1);
+    border-left: 1px solid var(--line);
+    box-shadow: -24px 0 64px rgba(0,0,0,0.32);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transform: translateX(0);
+    animation: slide-in 700ms var(--ease) both;
+    z-index: 5;
+  }
+  @keyframes slide-in {
+    from { transform: translateX(36px); opacity: 0; }
+    to   { transform: translateX(0);    opacity: 1; }
+  }
+
+  .panel-close {
+    position: absolute;
+    top: 14px; right: 14px;
+    width: 24px; height: 24px;
+    color: var(--t-3);
+    font-family: var(--mono);
+    font-size: 14px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-elev-2);
+    transition: color 0.15s var(--ease-snap), border-color 0.15s var(--ease-snap);
+    z-index: 2;
+  }
+  .panel-close:hover { color: var(--t-1); border-color: var(--line-strong); }
+
+  /* Panel header — meta + title + subtitle only (stays pinned at top) */
+  .panel-head {
+    padding: 22px 22px 18px;
+    border-bottom: 1px solid var(--line);
+    background:
+      linear-gradient(to bottom, rgba(93, 169, 255, 0.04), transparent 70%),
+      var(--bg-elev-1);
+    position: relative;
+    flex-shrink: 0;
+  }
+  .panel-head::after {
+    content: "";
+    position: absolute; left: 0; right: 0; bottom: -1px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent-edge) 30%, var(--accent-edge) 70%, transparent);
+    opacity: 0.5;
+  }
+
+  /* Panel context — scrolls with the content (lives inside .panel-body) */
+  .panel-context {
+    padding: 18px 22px 18px;
+    background: var(--bg-elev-1);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .meta-strip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    color: var(--t-3);
+    text-transform: uppercase;
+  }
+  .meta-strip .sep { color: var(--t-5); }
+  .meta-tag {
+    display: inline-flex;
+    align-items: center;
+    height: 18px;
+    padding: 0 6px;
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    background: var(--bg-elev-2);
+    color: var(--t-2);
+    font-size: 9.5px;
+    letter-spacing: 0.14em;
+  }
+  .meta-tag.alp-tag { color: var(--alp); border-color: rgba(212, 37, 58, 0.45); background: var(--alp-soft); }
+  .meta-tag.gain   { color: var(--positive); border-color: rgba(76, 175, 122, 0.40); background: rgba(76, 175, 122, 0.08); }
+  .meta-tag.retain { color: var(--accent); border-color: var(--accent-edge); background: var(--accent-soft); }
+
+  .panel-title {
+    font-family: var(--sans);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--t-1);
+    margin: 0 0 6px;
+  }
+  .panel-sub {
+    font-size: 12px;
+    color: var(--t-3);
+    line-height: 1.5;
+    margin-bottom: 18px;
+    max-width: 380px;
+  }
+
+  /* Big stats triplet */
+  .triplet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    margin: 0 -22px 18px;
+  }
+  .panel-context .triplet { margin-top: 0; }
+  .triplet .cell {
+    padding: 12px 14px 14px;
+    border-right: 1px solid var(--line);
+    position: relative;
+  }
+  .triplet .cell:last-child { border-right: 0; }
+  .triplet .cell-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.20em;
+    color: var(--t-4);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .triplet .cell-value {
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--t-1);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .triplet .cell-value .unit {
+    font-size: 13px;
+    color: var(--t-3);
+    margin-left: 1px;
+  }
+  .triplet .cell-foot {
+    margin-top: 8px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.10em;
+    color: var(--t-3);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .triplet .cell-foot .arr { color: var(--positive); }
+  .triplet .cell-foot.alp-c .arr { color: var(--alp); }
+
+  /* MP row */
+  .mp-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 0 16px;
+  }
+  .mp-portrait {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--alp) 0%, #861624 100%);
+    color: white;
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,0.06);
+    flex-shrink: 0;
+    letter-spacing: 0.02em;
+  }
+  .mp-text { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+  .mp-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--t-1);
+  }
+  .mp-meta {
+    display: flex; align-items: center; gap: 8px;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.10em;
+    color: var(--t-3);
+    text-transform: uppercase;
+  }
+  .party-chip {
+    display: inline-flex; align-items: center;
+    height: 16px; padding: 0 6px;
+    border-radius: 2px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    line-height: 1;
+  }
+  .party-chip.alp { color: var(--alp); background: var(--alp-soft); border: 1px solid rgba(212, 37, 58, 0.40); }
+  .party-chip.lib { color: var(--lib); background: var(--lib-soft); border: 1px solid rgba(23, 70, 168, 0.40); }
+  .party-chip.grn { color: var(--grn); background: var(--grn-soft); border: 1px solid rgba(45, 160, 80, 0.40); }
+
+  /* Primary vote bar */
+  .primary {
+    margin-top: 4px;
+  }
+  .primary-track {
+    display: flex;
+    height: 8px;
+    border-radius: 1px;
+    overflow: hidden;
+    background: var(--bg-elev-3);
+  }
+  .primary-track > span {
+    height: 100%;
+    border-right: 1px solid var(--bg-base);
+  }
+  .primary-track > span:last-child { border-right: 0; }
+  .primary-labels {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .primary-labels .pl {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-3);
+    letter-spacing: 0.06em;
+    line-height: 1.2;
+  }
+  .primary-labels .pl .who {
+    color: var(--t-2);
+    margin-right: 4px;
+    text-transform: uppercase;
+  }
+  .primary-labels .pl .v {
+    color: var(--t-1);
+    font-size: 11.5px;
+  }
+  .primary-labels .pl.alp-c .who { color: var(--alp); }
+  .primary-labels .pl.lib-c .who { color: var(--lib); }
+  .primary-labels .pl.grn-c .who { color: var(--grn); }
+
+  /* ──────────────────────────────────────────────────────────
+     PILLAR TABS + CONTENT
+     ────────────────────────────────────────────────────────── */
+  .panel-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg-elev-1);
+    flex-shrink: 0;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    box-shadow: 0 8px 16px -10px rgba(0, 0, 0, 0.5);
+  }
+  .panel-tabs button {
+    height: 36px;
+    padding: 0 18px;
+    font-size: 11.5px;
+    color: var(--t-3);
+    border-right: 1px solid var(--line);
+    transition: color 0.15s var(--ease-snap), background 0.15s var(--ease-snap);
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .panel-tabs button:hover { color: var(--t-1); background: var(--bg-elev-2); }
+  .panel-tabs button.active { color: var(--t-1); background: var(--bg-base); }
+  .panel-tabs button.active::after {
+    content: "";
+    position: absolute; left: 0; right: 0; bottom: -1px;
+    height: 1px;
+    background: var(--accent);
+  }
+  .panel-tabs button .num-tag {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    color: var(--t-4);
+    letter-spacing: 0.06em;
+  }
+  .panel-tabs button.active .num-tag { color: var(--accent); }
+
+  .panel-body {
+    flex: 1;
+    overflow-y: auto;
+    background: var(--bg-base);
+    scrollbar-color: var(--line-strong) transparent;
+    scrollbar-width: thin;
+  }
+  .panel-body::-webkit-scrollbar { width: 8px; }
+  .panel-body::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 4px; }
+  .panel-body::-webkit-scrollbar-track { background: transparent; }
+
+  .pillar {
+    border-bottom: 1px solid var(--line);
+    padding: 22px 22px 26px;
+  }
+  .pillar:last-child { border-bottom: 0; }
+  .pillar-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 14px;
+  }
+  .pillar-title {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: var(--t-1);
+    margin: 0;
+  }
+  .pillar-meta {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.12em;
+    color: var(--t-4);
+    text-transform: uppercase;
+  }
+
+  /* Pillar 1: booth inset map */
+  .seat-inset {
+    background: var(--bg-elev-1);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    height: 200px;
+    margin-bottom: 14px;
+    position: relative;
+    overflow: hidden;
+  }
+  .seat-inset svg { width: 100%; height: 100%; display: block; }
+  .seat-inset::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: radial-gradient(circle at 1px 1px, rgba(140,160,200,0.06) 1px, transparent 0);
+    background-size: 14px 14px;
+    pointer-events: none;
+  }
+  .seat-shape {
+    fill: var(--bg-elev-2);
+    stroke: var(--line-strong);
+    stroke-width: 1;
+  }
+  .booth-dot {
+    transition: r 0.15s var(--ease-snap);
+    cursor: pointer;
+  }
+  .booth-dot:hover { r: 5; }
+  .seat-inset .micro-readout {
+    position: absolute;
+    bottom: 8px; right: 10px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    color: var(--t-4);
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+  }
+  .seat-inset .micro-readout-tl {
+    position: absolute;
+    top: 8px; left: 10px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    color: var(--t-4);
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+  }
+
+  /* Booth table */
+  .booth-table {
+    width: 100%;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--t-2);
+  }
+  .booth-table thead th {
+    text-align: left;
+    font-weight: 500;
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    color: var(--t-4);
+    padding: 8px 0 6px;
+    border-bottom: 1px solid var(--line);
+    text-transform: uppercase;
+  }
+  .booth-table thead th.r { text-align: right; }
+  .booth-table tbody td {
+    padding: 6px 0;
+    border-bottom: 1px solid var(--line-faint);
+    color: var(--t-2);
+  }
+  .booth-table tbody td.r { text-align: right; }
+  .booth-table tbody tr:hover td { background: var(--bg-elev-1); color: var(--t-1); }
+  .booth-table .booth-name { color: var(--t-1); font-family: var(--sans); font-size: 12px; font-weight: 400; }
+  .booth-table .swing-cell.pos { color: var(--positive); }
+  .booth-table .swing-cell.neg { color: var(--negative); }
+  .booth-table .winner-pip {
+    display: inline-block;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  .booth-table .winner-pip.alp { background: var(--alp); }
+  .booth-table .winner-pip.lib { background: var(--lib); }
+
+  .table-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-4);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .table-footer button {
+    color: var(--accent);
+    letter-spacing: 0.08em;
+  }
+  .table-footer button:hover { color: var(--t-1); }
+
+  /* Pillar 2: history */
+  .chart-wrap {
+    background: var(--bg-elev-1);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 14px 14px 10px;
+    margin-bottom: 14px;
+  }
+  .chart-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 8px;
+  }
+  .chart-title {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    color: var(--t-3);
+    text-transform: uppercase;
+  }
+  .chart-legend {
+    display: flex;
+    gap: 14px;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-3);
+    letter-spacing: 0.04em;
+  }
+  .chart-legend .ll {
+    display: flex; align-items: center; gap: 6px;
+  }
+  .chart-legend .ll .sw { width: 10px; height: 2px; }
+
+  .chart-svg { width: 100%; height: 145px; display: block; }
+  .chart-grid {
+    stroke: var(--line-faint);
+    stroke-width: 0.5;
+  }
+  .chart-50line {
+    stroke: var(--t-5);
+    stroke-width: 0.5;
+    stroke-dasharray: 2 3;
+  }
+  .chart-axis-label {
+    font-family: var(--mono);
+    font-size: 8.5px;
+    fill: var(--t-4);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .chart-line-alp { stroke: var(--alp); stroke-width: 1.6; fill: none; }
+  .chart-line-lib { stroke: var(--lib); stroke-width: 1.6; fill: none; }
+  .chart-fill-alp { fill: var(--alp-soft); }
+  .chart-fill-lib { fill: var(--lib-soft); }
+  .chart-pt {
+    fill: var(--bg-base);
+    stroke-width: 1.4;
+  }
+  .chart-pt.alp { stroke: var(--alp); }
+  .chart-pt.lib { stroke: var(--lib); }
+  .chart-pt.active {
+    stroke: var(--accent);
+    stroke-width: 1.6;
+  }
+  .chart-x-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    fill: var(--t-4);
+    letter-spacing: 0.04em;
+  }
+  .chart-x-label.active { fill: var(--accent); }
+
+  /* primary stack */
+  .stack-row {
+    display: grid;
+    grid-template-columns: 38px 1fr 50px;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--line-faint);
+    font-family: var(--mono);
+    font-size: 10.5px;
+  }
+  .stack-row:last-child { border-bottom: 0; }
+  .stack-row .yr { color: var(--t-3); }
+  .stack-row .yr.active { color: var(--accent); }
+  .stack-row .bar {
+    display: flex; height: 12px;
+    border-radius: 1px;
+    overflow: hidden;
+    background: var(--bg-elev-3);
+  }
+  .stack-row .bar > span {
+    height: 100%;
+    border-right: 1px solid var(--bg-base);
+  }
+  .stack-row .total {
+    text-align: right;
+    color: var(--t-2);
+  }
+
+  /* Pillar 3: demographics */
+  .demo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .demo-cell {
+    background: var(--bg-elev-1);
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-height: 70px;
+  }
+  .demo-cell.wide { grid-column: span 2; }
+  .demo-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    color: var(--t-4);
+    text-transform: uppercase;
+  }
+  .demo-value {
+    font-family: var(--mono);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--t-1);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .demo-value .unit {
+    font-size: 11px; color: var(--t-3);
+    margin-left: 2px;
+  }
+  .demo-foot {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-3);
+    letter-spacing: 0.04em;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .demo-foot .delta-pos { color: var(--positive); }
+  .demo-foot .delta-neg { color: var(--negative); }
+  .demo-foot .nat-marker {
+    flex-shrink: 0;
+    color: var(--t-4);
+  }
+
+  .demo-spark {
+    height: 22px;
+    margin-top: 4px;
+  }
+  .demo-spark svg { width: 100%; height: 100%; display: block; }
+  .spark-line { stroke: var(--accent); stroke-width: 1.4; fill: none; }
+  .spark-fill { fill: rgba(93, 169, 255, 0.10); }
+  .spark-mark {
+    stroke: var(--t-4);
+    stroke-width: 0.5;
+    stroke-dasharray: 1 2;
+  }
+
+  /* Ancestry / mix bars */
+  .mix-rows {
+    display: flex; flex-direction: column; gap: 7px;
+    margin-top: 4px;
+  }
+  .mix-row {
+    display: grid;
+    grid-template-columns: 110px 1fr 38px;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+  }
+  .mix-row .name {
+    color: var(--t-2);
+    font-size: 11px;
+  }
+  .mix-row .bar-track {
+    height: 5px;
+    background: var(--bg-elev-3);
+    border-radius: 1px;
+    overflow: hidden;
+    position: relative;
+  }
+  .mix-row .bar-track > span {
+    display: block;
+    height: 100%;
+    background: linear-gradient(to right, var(--accent), rgba(93, 169, 255, 0.6));
+  }
+  .mix-row .bar-track .nat {
+    position: absolute;
+    top: -2px; bottom: -2px;
+    width: 1px;
+    background: var(--t-3);
+  }
+  .mix-row .v {
+    text-align: right;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--t-1);
+  }
+
+  /* ──────────────────────────────────────────────────────────
+     PILLAR 4 — PREFERENCE DISTRIBUTION (Sankey waterfall)
+     ────────────────────────────────────────────────────────── */
+  .prefs-intro {
+    font-size: 11.5px;
+    color: var(--t-3);
+    line-height: 1.55;
+    margin-bottom: 16px;
+    padding: 9px 12px;
+    background: rgba(93, 169, 255, 0.04);
+    border-left: 2px solid var(--accent-edge);
+  }
+
+  .waterfall {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    margin-bottom: 12px;
+  }
+  .flow-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .wf-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .rh {
+    position: absolute;
+    left: 0; right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    color: var(--t-2);
+    text-transform: uppercase;
+    height: 14px;
+  }
+
+  .rb {
+    position: absolute;
+    left: 0; right: 0;
+    display: flex;
+    align-items: stretch;
+  }
+  .rb .s {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.94);
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: 0;
+    gap: 4px;
+  }
+  .rb .s.dim {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 9.5px;
+  }
+  .rb .s.large {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0 14px;
+    font-size: 11.5px;
+  }
+  .rb .s.large .row-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .rb .s.large .row-b {
+    font-size: 8.5px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 4px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Summary block below the waterfall */
+  .summary-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    margin: 14px 0 12px;
+  }
+  .result-row {
+    display: grid;
+    grid-template-columns: 110px 90px 1fr;
+    align-items: baseline;
+    background: var(--bg-elev-1);
+    padding: 9px 14px;
+    gap: 10px;
+  }
+  .result-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    color: var(--t-4);
+    text-transform: uppercase;
+  }
+  .result-val {
+    font-family: var(--mono);
+    font-size: 16px;
+    color: var(--t-1);
+    text-align: right;
+  }
+  .result-val.alp-c { color: var(--alp); }
+  .result-val.pos { color: var(--positive); }
+  .result-detail {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-3);
+  }
+
+  .legend-prefs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-3);
+    letter-spacing: 0.04em;
+  }
+  .legend-prefs .li {
+    display: flex; align-items: center; gap: 5px;
+  }
+  .legend-prefs .dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+  }
+  .legend-prefs .alp { background: var(--alp); }
+  .legend-prefs .lib { background: var(--lib); }
+  .legend-prefs .grn { background: var(--grn); }
+  .legend-prefs .ind { background: var(--ind); }
+  .legend-prefs .oth { background: var(--oth); }
+  .legend-prefs .flow-line {
+    width: 18px; height: 1.5px;
+    background: var(--t-3);
+    margin-right: 2px;
+  }
+
+  /* Panel footer */
+  .panel-foot {
+    padding: 12px 22px;
+    border-top: 1px solid var(--line);
+    background: var(--bg-deep);
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.06em;
+    color: var(--t-4);
+    line-height: 1.5;
+    flex-shrink: 0;
+  }
+  .panel-foot a { color: var(--t-3); text-decoration: none; }
+  .panel-foot a:hover { color: var(--accent); }
+
+  /* ──────────────────────────────────────────────────────────
+     BOTTOM CHROME (status bar)
+     ────────────────────────────────────────────────────────── */
+  .chrome-bottom {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--line);
+    background: var(--bg-deep);
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-4);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .chrome-bottom .seg {
+    padding: 0 14px;
+    height: 100%;
+    display: flex; align-items: center; gap: 8px;
+    border-right: 1px solid var(--line-faint);
+  }
+  .chrome-bottom .seg .lbl { color: var(--t-5); }
+  .chrome-bottom .seg .v { color: var(--t-2); }
+  .chrome-bottom .seg .v.acc { color: var(--accent); }
+  .chrome-bottom .grow { flex: 1; }
+
+  /* ──────────────────────────────────────────────────────────
+     UTILITIES
+     ────────────────────────────────────────────────────────── */
+  .stagger > * {
+    opacity: 0;
+    animation: rise 540ms var(--ease) forwards;
+  }
+  .stagger > *:nth-child(1) { animation-delay: 80ms; }
+  .stagger > *:nth-child(2) { animation-delay: 140ms; }
+  .stagger > *:nth-child(3) { animation-delay: 200ms; }
+  .stagger > *:nth-child(4) { animation-delay: 260ms; }
+  .stagger > *:nth-child(5) { animation-delay: 320ms; }
+  .stagger > *:nth-child(6) { animation-delay: 380ms; }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* selection */
+  ::selection { background: var(--accent-soft); color: var(--t-1); }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- ─────────────────────────────────────────
+       TOP CHROME
+       ───────────────────────────────────────── -->
+  <header class="chrome-top">
+    <div class="brand">
+      <svg class="brand-glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <circle cx="12" cy="12" r="9.5" />
+        <circle cx="12" cy="12" r="4.5" />
+        <line x1="12" y1="0" x2="12" y2="5" />
+        <line x1="12" y1="19" x2="12" y2="24" />
+        <line x1="0"  y1="12" x2="5"  y2="12" />
+        <line x1="19" y1="12" x2="24" y2="12" />
+      </svg>
+      <div>
+        <div class="brand-mark">ELECTION<span> · </span>RESEARCH</div>
+        <div class="brand-sub">CTH/H+R · v0.1 · ARCHIVE</div>
+      </div>
+    </div>
+
+    <div class="chrome-segment">
+      <span class="seg-label">EVENT</span>
+      <button class="selector">
+        <span>2025 Federal Election</span>
+        <span class="caret">▾</span>
+      </button>
+      <span class="seg-label" style="margin-left:auto">CHAMBER</span>
+      <button class="selector">
+        <span>House of Representatives</span>
+        <span class="caret">▾</span>
+      </button>
+    </div>
+
+    <div class="chrome-segment">
+      <div class="search">
+        <span class="search-icon">⌕</span>
+        <input class="search-input" placeholder="Search electorate, member, postcode…" />
+        <kbd class="kbd">⌘ K</kbd>
+      </div>
+    </div>
+
+    <div class="chrome-segment">
+      <span class="seg-label">FILTER</span>
+      <button class="selector">
+        <span>All seats</span>
+        <span class="caret">▾</span>
+      </button>
+      <button class="selector">
+        <span>2PP swing</span>
+        <span class="caret">▾</span>
+      </button>
+    </div>
+
+    <div class="chrome-segment status">
+      <div class="status-pieces">
+        <div><span class="lbl">DATA</span>FINAL</div>
+        <div><span class="lbl">SRC</span>AEC + ABS</div>
+        <div><span class="lbl">UPD</span>2025-06-09 11:00</div>
+      </div>
+      <div class="status-led" title="Data integrity OK"></div>
+    </div>
+  </header>
+
+  <!-- ─────────────────────────────────────────
+       SUBHEADER
+       ───────────────────────────────────────── -->
+  <div class="chrome-sub">
+    <div class="crumb">CTH/2025</div>
+    <div class="crumb"><span class="arr">›</span>NSW</div>
+    <div class="crumb active"><span class="arr">›</span>BENNELONG · DIV 014</div>
+    <div class="sub-spacer"></div>
+    <div class="sub-meta">
+      <div class="item"><span class="lbl">SEATS</span><span>150</span></div>
+      <div class="item"><span class="lbl">ENROLLED</span><span>18,098,797</span></div>
+      <div class="item"><span class="lbl">TURNOUT</span><span>89.55%</span></div>
+      <div class="item"><span class="lbl">2PP NAT</span><span style="color:var(--alp)">ALP 55.21%</span></div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       CANVAS (MAP + READOUTS + PANEL)
+       ───────────────────────────────────────── -->
+  <main class="canvas">
+
+    <!-- Map frame -->
+    <div class="map-frame">
+      <svg class="map-svg" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid meet">
+        <defs>
+          <filter id="seat-glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="1.6" />
+          </filter>
+          <radialGradient id="land-grad" cx="50%" cy="50%" r="65%">
+            <stop offset="0%"  stop-color="#1a212c" />
+            <stop offset="60%" stop-color="#131822" />
+            <stop offset="100%" stop-color="#0e131c" />
+          </radialGradient>
+        </defs>
+
+        <!-- Drop shadow for landmass -->
+        <path class="aus-shadow" d="
+          M 198 282 C 230 256 268 244 308 236
+          C 352 228 396 222 440 220
+          C 478 218 510 220 540 200
+          C 558 178 575 152 600 130
+          C 622 112 642 102 660 104
+          C 668 116 668 138 662 162
+          C 654 192 660 224 678 252
+          C 700 290 728 326 758 360
+          C 786 388 808 416 814 448
+          C 818 478 808 510 786 540
+          C 758 572 720 596 678 608
+          C 638 614 596 614 552 612
+          C 504 608 456 608 408 612
+          C 348 614 290 612 240 600
+          C 200 588 174 568 162 540
+          C 154 510 154 478 156 446
+          C 158 408 162 372 168 338
+          C 174 308 184 290 198 282 Z" />
+
+        <!-- Australia mainland -->
+        <path class="aus-outline" d="
+          M 200 280
+          C 232 254 270 242 310 234
+          C 352 226 392 220 432 218
+          C 472 215 502 215 530 198
+          C 548 174 564 148 590 128
+          C 614 110 636 102 654 104
+          C 663 117 663 138 657 162
+          C 650 190 656 222 672 250
+          C 694 287 720 322 750 354
+          C 778 382 800 412 808 444
+          C 812 474 802 506 782 538
+          C 754 570 716 594 676 606
+          C 636 612 594 612 550 610
+          C 504 606 456 606 408 610
+          C 348 614 290 612 240 598
+          C 200 586 174 566 162 538
+          C 156 510 156 476 158 444
+          C 160 406 164 372 170 338
+          C 176 308 186 290 200 280 Z
+        " fill="url(#land-grad)" />
+
+        <!-- Tasmania -->
+        <path class="aus-outline" d="
+          M 686 656
+          C 696 644 716 638 738 644
+          C 762 652 776 672 772 696
+          C 766 718 744 728 720 728
+          C 698 728 682 712 682 692
+          C 682 678 682 666 686 656 Z
+        " fill="url(#land-grad)" />
+
+        <!-- State borders (subtle dashed) -->
+        <g class="state-borders">
+          <line class="state-border" x1="430" y1="220" x2="430" y2="460" />
+          <line class="state-border" x1="430" y1="460" x2="430" y2="606" />
+          <line class="state-border" x1="528" y1="148" x2="528" y2="460" />
+          <line class="state-border" x1="430" y1="460" x2="568" y2="460" />
+          <line class="state-border" x1="568" y1="460" x2="568" y2="608" />
+          <path class="state-border" d="M 568 462 C 640 458 720 442 790 430" />
+          <path class="state-border" d="M 568 608 C 660 608 740 606 790 600" />
+        </g>
+
+        <!-- State labels -->
+        <text class="state-label" x="265" y="430">W A</text>
+        <text class="state-label" x="468" y="290">N T</text>
+        <text class="state-label" x="630" y="240">Q L D</text>
+        <text class="state-label" x="478" y="540">S A</text>
+        <text class="state-label" x="678" y="498">N S W</text>
+        <text class="state-label" x="650" y="600">V I C</text>
+        <text class="state-label" x="700" y="700">T A S</text>
+
+        <!-- Ocean labels -->
+        <text class="ocean-label" x="100" y="140" transform="rotate(-12 100 140)">I N D I A N   O C E A N</text>
+        <text class="ocean-label" x="820" y="320" transform="rotate(82 820 320)">C O R A L   S E A</text>
+        <text class="ocean-label" x="380" y="690">S O U T H E R N   O C E A N</text>
+
+        <!-- Electorate dots will be inserted here by JS -->
+        <g id="seat-dots"></g>
+
+        <!-- Active seat: Bennelong (Sydney inner-NW) approx (770, 478) -->
+        <g class="active-marker">
+          <!-- Crosshair lines extending to edges -->
+          <line class="crosshair" x1="770" y1="0"   x2="770" y2="478" />
+          <line class="crosshair" x1="770" y1="478" x2="770" y2="700" />
+          <line class="crosshair" x1="0"   y1="478" x2="770" y2="478" />
+          <line class="crosshair" x1="770" y1="478" x2="1000" y2="478" />
+
+          <!-- Pulse rings -->
+          <circle cx="770" cy="478" r="14" class="pulse" style="animation-delay: 0s" />
+          <circle cx="770" cy="478" r="14" class="pulse" style="animation-delay: 1.2s" />
+
+          <!-- Static rings -->
+          <circle class="seat-active-ring r3" cx="770" cy="478" r="22" />
+          <circle class="seat-active-ring r2" cx="770" cy="478" r="16" />
+          <circle class="seat-active-ring"    cx="770" cy="478" r="11" />
+
+          <!-- The active dot -->
+          <circle class="seat-active" cx="770" cy="478" r="4.5" />
+        </g>
+      </svg>
+    </div>
+
+    <!-- Top-left readout -->
+    <div class="readout readout-tl">
+      <div class="readout-label">Viewport · WGS84</div>
+      <div class="readout-value mono">−43.6° → −10.7° N
+113.3° → 153.6° E
+ZOOM <span class="em">0.8×</span> · PROJ EQUAL EARTH</div>
+    </div>
+
+    <!-- Bottom-left readout -->
+    <div class="readout readout-bl">
+      <div class="readout-label">Cursor · selection</div>
+      <div class="readout-value mono">
+SEAT     <span class="em">BENNELONG</span>     NSW · 014
+COORDS   <span class="accent">−33.78° S    151.08° E</span>
+WINNER   <span class="alp-c">▲ ALP</span>      MARGIN +8.81%
+SWING    <span class="readout-tick">+6.54% → ALP</span>
+BOOTHS   31      ENROLLED 95,420</div>
+    </div>
+
+    <!-- Legend -->
+    <div class="legend">
+      <div class="legend-title">2025 H/R · winner</div>
+      <div class="legend-row"><span class="swatch" style="background:var(--alp)"></span><span>Labor (ALP)</span><span class="count">94</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--lib)"></span><span>Liberal/LNP</span><span class="count">28</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--nat)"></span><span>Nationals</span><span class="count">15</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--grn)"></span><span>Greens</span><span class="count">01</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--ind)"></span><span>Independent</span><span class="count">11</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--oth)"></span><span>Other</span><span class="count">01</span></div>
+    </div>
+
+    <!-- Map controls -->
+    <div class="map-controls">
+      <button>+</button>
+      <button>−</button>
+      <button>⊙</button>
+      <button>⊞</button>
+    </div>
+
+    <!-- Scale bar -->
+    <div class="scale-bar" style="left: calc(50% - 240px);">
+      <span>0</span>
+      <span class="scale-bar-line"></span>
+      <span>500 KM</span>
+    </div>
+
+    <!-- ─────────────────────────────────────────
+         RIGHT PANEL (Bennelong)
+         ───────────────────────────────────────── -->
+    <aside class="panel">
+      <button class="panel-close" title="Close">×</button>
+
+      <header class="panel-head">
+        <div class="meta-strip">
+          <span>NSW</span>
+          <span class="sep">/</span>
+          <span>DIV 014</span>
+          <span class="sep">/</span>
+          <span class="meta-tag alp-tag">ALP RETAIN</span>
+        </div>
+
+        <h1 class="panel-title">Bennelong</h1>
+        <p class="panel-sub">Inner north-west Sydney. Held by Liberal 1949–2007 (John Howard), ALP 2007–10, Liberal 2010–22, ALP 2022–. Re-elected 2025 with increased margin amid national Labor swing.</p>
+      </header>
+
+      <div class="panel-body">
+
+        <section class="panel-context">
+          <div class="triplet">
+            <div class="cell">
+              <div class="cell-label">2PP Margin</div>
+              <div class="cell-value">+8.81<span class="unit">%</span></div>
+              <div class="cell-foot alp-c"><span class="arr">▲</span>ALP · 53,320 v 41,760</div>
+            </div>
+            <div class="cell">
+              <div class="cell-label">Swing</div>
+              <div class="cell-value">+6.54<span class="unit">%</span></div>
+              <div class="cell-foot"><span class="arr">→</span>ALP · vs 2022</div>
+            </div>
+            <div class="cell">
+              <div class="cell-label">Turnout</div>
+              <div class="cell-value">91.0<span class="unit">%</span></div>
+              <div class="cell-foot"><span class="arr" style="color:var(--t-4)">·</span>OF 95,420 ENROLLED</div>
+            </div>
+          </div>
+
+          <div class="mp-row">
+            <div class="mp-portrait">JL</div>
+            <div class="mp-text">
+              <div class="mp-name">Jerome Laxale</div>
+              <div class="mp-meta">
+                <span class="party-chip alp">ALP</span>
+                <span>ELECTED 2022 · RE-ELECTED 2025 · 2ND TERM</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="primary">
+            <div class="primary-track">
+              <span style="background:var(--alp); width:39.4%"></span>
+              <span style="background:var(--lib); width:36.5%"></span>
+              <span style="background:var(--grn); width:12.4%"></span>
+              <span style="background:var(--ind); width:6.8%"></span>
+              <span style="background:var(--oth); width:4.9%"></span>
+            </div>
+            <div class="primary-labels">
+              <div class="pl alp-c"><span class="who">ALP</span><span class="v">39.4</span></div>
+              <div class="pl lib-c"><span class="who">LIB</span><span class="v">36.5</span></div>
+              <div class="pl grn-c"><span class="who">GRN</span><span class="v">12.4</span></div>
+              <div class="pl"><span class="who">OTH</span><span class="v">11.7</span></div>
+            </div>
+          </div>
+        </section>
+
+        <nav class="panel-tabs">
+          <button class="active">Booths <span class="num-tag">31</span></button>
+          <button>History <span class="num-tag">6</span></button>
+          <button>Demographics <span class="num-tag">ABS</span></button>
+          <button>Preferences <span class="num-tag">5</span></button>
+        </nav>
+
+
+        <!-- ───────── PILLAR 1 — BOOTH ───────── -->
+        <section class="pillar">
+          <div class="pillar-head">
+            <h2 class="pillar-title">Booth-level results</h2>
+            <span class="pillar-meta">31 BOOTHS · 95,420 VOTES</span>
+          </div>
+
+          <div class="seat-inset">
+            <span class="micro-readout-tl">BENNELONG · 30 BOOTHS</span>
+            <svg viewBox="0 0 480 200" preserveAspectRatio="xMidYMid meet">
+              <!-- electorate outline (stylised) -->
+              <path class="seat-shape" d="
+                M 60 96
+                C 80 70  120 56  168 60
+                C 220 64  274 72  316 84
+                C 356 96  392 110 414 132
+                C 428 150 422 168 396 178
+                C 348 188 286 184 232 174
+                C 178 168 128 158 90 148
+                C 64 138  52 116  60 96 Z
+              " />
+              <!-- subtle inner river (Parramatta River) -->
+              <path d="M 80 104 C 120 110 180 116 240 122 C 300 128 360 134 400 142"
+                    stroke="rgba(93, 169, 255, 0.18)" stroke-width="1.4" fill="none" />
+
+              <!-- Booth dots, distributed -->
+              <g id="booth-dots"></g>
+            </svg>
+            <span class="micro-readout">2PP · WINNER</span>
+          </div>
+
+          <table class="booth-table">
+            <thead>
+              <tr>
+                <th>Booth</th>
+                <th class="r">2PP</th>
+                <th class="r">Swing</th>
+                <th class="r">Votes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="booth-name"><span class="winner-pip alp"></span>Eastwood Public</td>
+                <td class="r">ALP 56.4</td>
+                <td class="r swing-cell pos">+8.2</td>
+                <td class="r">3,218</td>
+              </tr>
+              <tr>
+                <td class="booth-name"><span class="winner-pip alp"></span>Ryde Civic Hall</td>
+                <td class="r">ALP 54.9</td>
+                <td class="r swing-cell pos">+6.7</td>
+                <td class="r">2,901</td>
+              </tr>
+              <tr>
+                <td class="booth-name"><span class="winner-pip alp"></span>Marsfield Public</td>
+                <td class="r">ALP 53.1</td>
+                <td class="r swing-cell pos">+7.4</td>
+                <td class="r">2,144</td>
+              </tr>
+              <tr>
+                <td class="booth-name"><span class="winner-pip alp"></span>Epping Heights</td>
+                <td class="r">ALP 51.7</td>
+                <td class="r swing-cell pos">+5.9</td>
+                <td class="r">2,038</td>
+              </tr>
+              <tr>
+                <td class="booth-name"><span class="winner-pip alp"></span>West Ryde Public</td>
+                <td class="r">ALP 50.8</td>
+                <td class="r swing-cell pos">+4.1</td>
+                <td class="r">1,887</td>
+              </tr>
+              <tr>
+                <td class="booth-name"><span class="winner-pip lib"></span>Ermington PS</td>
+                <td class="r">LIB 50.2</td>
+                <td class="r swing-cell pos">+3.6</td>
+                <td class="r">1,592</td>
+              </tr>
+              <tr>
+                <td class="booth-name"><span class="winner-pip lib"></span>North Ryde PS</td>
+                <td class="r">LIB 51.9</td>
+                <td class="r swing-cell pos">+2.8</td>
+                <td class="r">1,461</td>
+              </tr>
+              <tr>
+                <td class="booth-name"><span class="winner-pip lib"></span>Denistone East PS</td>
+                <td class="r">LIB 53.4</td>
+                <td class="r swing-cell pos">+5.1</td>
+                <td class="r">1,318</td>
+              </tr>
+              <tr>
+                <td class="booth-name"><span class="winner-pip lib"></span>Carlingford West</td>
+                <td class="r">LIB 56.2</td>
+                <td class="r swing-cell pos">+3.0</td>
+                <td class="r">1,205</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-footer">
+            <span>Showing 9 of 31 · sorted by 2PP</span>
+            <button>View all booths →</button>
+          </div>
+        </section>
+
+        <!-- ───────── PILLAR 2 — HISTORY ───────── -->
+        <section class="pillar">
+          <div class="pillar-head">
+            <h2 class="pillar-title">Historical trend</h2>
+            <span class="pillar-meta">2010 → 2025 · 6 ELECTIONS</span>
+          </div>
+
+          <div class="chart-wrap">
+            <div class="chart-head">
+              <span class="chart-title">2-Party preferred · Bennelong</span>
+              <div class="chart-legend">
+                <div class="ll"><span class="sw" style="background:var(--alp)"></span><span>ALP</span></div>
+                <div class="ll"><span class="sw" style="background:var(--lib)"></span><span>LIB</span></div>
+                <div class="ll"><span class="sw" style="background:var(--t-5);height:1px;border-top:1px dashed var(--t-4)"></span><span>50%</span></div>
+              </div>
+            </div>
+            <svg class="chart-svg" viewBox="0 0 440 140" preserveAspectRatio="none">
+              <!-- gridlines: y=0 (56%), 30 (53), 60 (50), 90 (47), 120 (44) -->
+              <line class="chart-grid" x1="0"   y1="0"   x2="440" y2="0"   />
+              <line class="chart-grid" x1="0"   y1="30"  x2="440" y2="30"  />
+              <line class="chart-grid" x1="0"   y1="60"  x2="440" y2="60"  />
+              <line class="chart-grid" x1="0"   y1="90"  x2="440" y2="90"  />
+              <line class="chart-grid" x1="0"   y1="120" x2="440" y2="120" />
+
+              <!-- axis y labels -->
+              <text class="chart-axis-label" x="2" y="10">56%</text>
+              <text class="chart-axis-label" x="2" y="40">53</text>
+              <text class="chart-axis-label" x="2" y="70">50</text>
+              <text class="chart-axis-label" x="2" y="100">47</text>
+              <text class="chart-axis-label" x="2" y="124">44</text>
+
+              <!-- 50% line -->
+              <line class="chart-50line" x1="34" y1="60" x2="440" y2="60" />
+
+              <!-- 6 elections at x=50, 120, 191, 261, 332, 402 -->
+              <!-- y = (56 - percent) * 10 -->
+
+              <!-- Liberal 2PP -->
+              <!-- 2010 LIB 51.7 → y=43; 2013 52.0 → 40; 2016 50.0 → 60; 2019 50.7 → 53; 2022 48.9 → 71; 2025 45.6 → 104 -->
+              <path class="chart-line-lib" d="
+                M 50 43
+                L 120 40
+                L 191 60
+                L 261 53
+                L 332 71
+                L 402 104
+              " />
+              <!-- ALP 2PP -->
+              <!-- 2010 48.3 → 77; 2013 48.0 → 80; 2016 50.0 → 60; 2019 49.3 → 67; 2022 51.1 → 49; 2025 54.4 → 16 -->
+              <path class="chart-line-alp" d="
+                M 50 77
+                L 120 80
+                L 191 60
+                L 261 67
+                L 332 49
+                L 402 16
+              " />
+
+              <!-- Active election indicator (2025) -->
+              <line x1="402" y1="0" x2="402" y2="135" stroke="var(--accent)" stroke-width="0.6" stroke-dasharray="2 3" opacity="0.5"/>
+
+              <!-- Points -->
+              <circle class="chart-pt lib" cx="50"  cy="43" r="3.6" />
+              <circle class="chart-pt lib" cx="120" cy="40" r="3.6" />
+              <circle class="chart-pt lib" cx="191" cy="60" r="3.6" />
+              <circle class="chart-pt lib" cx="261" cy="53" r="3.6" />
+              <circle class="chart-pt lib" cx="332" cy="71" r="3.6" />
+              <circle class="chart-pt lib" cx="402" cy="104" r="3.6" />
+
+              <circle class="chart-pt alp" cx="50"  cy="77" r="3.6" />
+              <circle class="chart-pt alp" cx="120" cy="80" r="3.6" />
+              <circle class="chart-pt alp" cx="191" cy="60" r="3.6" />
+              <circle class="chart-pt alp" cx="261" cy="67" r="3.6" />
+              <circle class="chart-pt alp" cx="332" cy="49" r="3.6" />
+              <circle class="chart-pt alp" cx="402" cy="16" r="3.6" />
+
+              <!-- X axis -->
+              <text class="chart-x-label" x="50"  y="135" text-anchor="middle">2010</text>
+              <text class="chart-x-label" x="120" y="135" text-anchor="middle">2013</text>
+              <text class="chart-x-label" x="191" y="135" text-anchor="middle">2016</text>
+              <text class="chart-x-label" x="261" y="135" text-anchor="middle">2019</text>
+              <text class="chart-x-label" x="332" y="135" text-anchor="middle">2022</text>
+              <text class="chart-x-label active" x="402" y="135" text-anchor="middle">2025</text>
+            </svg>
+          </div>
+
+          <!-- Primary stack rows -->
+          <div style="margin-top:8px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px">
+              <span class="chart-title" style="font-family:var(--mono);font-size:9.5px;letter-spacing:0.18em;color:var(--t-3);text-transform:uppercase">Primary vote · stacked</span>
+              <span class="pillar-meta">% OF VOTES</span>
+            </div>
+            <div class="stack-row">
+              <span class="yr">2010</span>
+              <div class="bar">
+                <span style="background:var(--lib);width:46.8%"></span>
+                <span style="background:var(--alp);width:33.6%"></span>
+                <span style="background:var(--grn);width:11.4%"></span>
+                <span style="background:var(--oth);width:8.2%"></span>
+              </div>
+              <span class="total">100.0</span>
+            </div>
+            <div class="stack-row">
+              <span class="yr">2013</span>
+              <div class="bar">
+                <span style="background:var(--lib);width:50.4%"></span>
+                <span style="background:var(--alp);width:32.1%"></span>
+                <span style="background:var(--grn);width:9.7%"></span>
+                <span style="background:var(--oth);width:7.8%"></span>
+              </div>
+              <span class="total">100.0</span>
+            </div>
+            <div class="stack-row">
+              <span class="yr">2016</span>
+              <div class="bar">
+                <span style="background:var(--lib);width:46.0%"></span>
+                <span style="background:var(--alp);width:38.5%"></span>
+                <span style="background:var(--grn);width:8.7%"></span>
+                <span style="background:var(--oth);width:6.8%"></span>
+              </div>
+              <span class="total">100.0</span>
+            </div>
+            <div class="stack-row">
+              <span class="yr">2019</span>
+              <div class="bar">
+                <span style="background:var(--lib);width:45.7%"></span>
+                <span style="background:var(--alp);width:36.8%"></span>
+                <span style="background:var(--grn);width:9.4%"></span>
+                <span style="background:var(--oth);width:8.1%"></span>
+              </div>
+              <span class="total">100.0</span>
+            </div>
+            <div class="stack-row">
+              <span class="yr">2022</span>
+              <div class="bar">
+                <span style="background:var(--lib);width:38.8%"></span>
+                <span style="background:var(--alp);width:38.4%"></span>
+                <span style="background:var(--grn);width:11.2%"></span>
+                <span style="background:var(--oth);width:11.6%"></span>
+              </div>
+              <span class="total">100.0</span>
+            </div>
+            <div class="stack-row">
+              <span class="yr active">2025</span>
+              <div class="bar">
+                <span style="background:var(--alp);width:39.4%"></span>
+                <span style="background:var(--lib);width:36.5%"></span>
+                <span style="background:var(--grn);width:12.4%"></span>
+                <span style="background:var(--oth);width:11.7%"></span>
+              </div>
+              <span class="total">100.0</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ───────── PILLAR 3 — DEMOGRAPHICS ───────── -->
+        <section class="pillar">
+          <div class="pillar-head">
+            <h2 class="pillar-title">Demographic context</h2>
+            <span class="pillar-meta">SOURCE · ABS 2021 CENSUS</span>
+          </div>
+
+          <div class="demo-grid">
+            <div class="demo-cell">
+              <div class="demo-label">Median age</div>
+              <div class="demo-value">39<span class="unit">yrs</span></div>
+              <div class="demo-foot"><span class="nat-marker">↑ NAT 38</span><span class="delta-pos">+1.0</span></div>
+            </div>
+            <div class="demo-cell">
+              <div class="demo-label">Median household</div>
+              <div class="demo-value">$2,050<span class="unit">/wk</span></div>
+              <div class="demo-foot"><span class="nat-marker">↑ NAT $1,746</span><span class="delta-pos">+17%</span></div>
+            </div>
+            <div class="demo-cell">
+              <div class="demo-label">Born overseas</div>
+              <div class="demo-value">50.4<span class="unit">%</span></div>
+              <div class="demo-foot"><span class="nat-marker">↑ NAT 27.6%</span><span class="delta-pos">+22.8</span></div>
+            </div>
+            <div class="demo-cell">
+              <div class="demo-label">Bachelor +</div>
+              <div class="demo-value">52.1<span class="unit">%</span></div>
+              <div class="demo-foot"><span class="nat-marker">↑ NAT 26.3%</span><span class="delta-pos">+25.8</span></div>
+            </div>
+            <div class="demo-cell">
+              <div class="demo-label">Mortgage stress</div>
+              <div class="demo-value">14.6<span class="unit">%</span></div>
+              <div class="demo-spark">
+                <svg viewBox="0 0 100 22" preserveAspectRatio="none">
+                  <path class="spark-fill" d="M 0 18 L 12 14 L 24 16 L 36 12 L 48 10 L 60 11 L 72 8 L 84 6 L 100 4 L 100 22 L 0 22 Z"/>
+                  <path class="spark-line" d="M 0 18 L 12 14 L 24 16 L 36 12 L 48 10 L 60 11 L 72 8 L 84 6 L 100 4"/>
+                  <line class="spark-mark" x1="100" y1="0" x2="100" y2="22" />
+                </svg>
+              </div>
+            </div>
+            <div class="demo-cell">
+              <div class="demo-label">Median dwelling rent</div>
+              <div class="demo-value">$575<span class="unit">/wk</span></div>
+              <div class="demo-spark">
+                <svg viewBox="0 0 100 22" preserveAspectRatio="none">
+                  <path class="spark-fill" d="M 0 20 L 16 17 L 32 14 L 48 13 L 64 10 L 80 6 L 100 3 L 100 22 L 0 22 Z"/>
+                  <path class="spark-line" d="M 0 20 L 16 17 L 32 14 L 48 13 L 64 10 L 80 6 L 100 3"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="demo-cell wide">
+              <div class="demo-label">Top ancestries</div>
+              <div class="mix-rows">
+                <div class="mix-row">
+                  <span class="name">Chinese</span>
+                  <div class="bar-track"><span style="width:24.0%"></span><span class="nat" style="left:5.5%"></span></div>
+                  <span class="v">24.0%</span>
+                </div>
+                <div class="mix-row">
+                  <span class="name">English</span>
+                  <div class="bar-track"><span style="width:14.6%"></span><span class="nat" style="left:33.0%"></span></div>
+                  <span class="v">14.6%</span>
+                </div>
+                <div class="mix-row">
+                  <span class="name">Australian</span>
+                  <div class="bar-track"><span style="width:12.0%"></span><span class="nat" style="left:29.0%"></span></div>
+                  <span class="v">12.0%</span>
+                </div>
+                <div class="mix-row">
+                  <span class="name">Korean</span>
+                  <div class="bar-track"><span style="width:7.4%"></span><span class="nat" style="left:0.6%"></span></div>
+                  <span class="v">7.4%</span>
+                </div>
+                <div class="mix-row">
+                  <span class="name">Indian</span>
+                  <div class="bar-track"><span style="width:6.0%"></span><span class="nat" style="left:3.1%"></span></div>
+                  <span class="v">6.0%</span>
+                </div>
+              </div>
+              <div class="demo-foot" style="margin-top:8px"><span class="nat-marker">│ NATIONAL %</span></div>
+            </div>
+
+            <div class="demo-cell wide">
+              <div class="demo-label">Religion</div>
+              <div class="mix-rows">
+                <div class="mix-row">
+                  <span class="name">No religion</span>
+                  <div class="bar-track"><span style="width:36.5%"></span><span class="nat" style="left:38.9%"></span></div>
+                  <span class="v">36.5%</span>
+                </div>
+                <div class="mix-row">
+                  <span class="name">Catholic</span>
+                  <div class="bar-track"><span style="width:18.7%"></span><span class="nat" style="left:20.0%"></span></div>
+                  <span class="v">18.7%</span>
+                </div>
+                <div class="mix-row">
+                  <span class="name">Anglican</span>
+                  <div class="bar-track"><span style="width:8.3%"></span><span class="nat" style="left:9.8%"></span></div>
+                  <span class="v">8.3%</span>
+                </div>
+                <div class="mix-row">
+                  <span class="name">Buddhism</span>
+                  <div class="bar-track"><span style="width:6.7%"></span><span class="nat" style="left:2.4%"></span></div>
+                  <span class="v">6.7%</span>
+                </div>
+                <div class="mix-row">
+                  <span class="name">Hinduism</span>
+                  <div class="bar-track"><span style="width:3.1%"></span><span class="nat" style="left:2.7%"></span></div>
+                  <span class="v">3.1%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ───────── PILLAR 4 — PREFERENCES (Sankey waterfall) ───────── -->
+        <section class="pillar">
+          <div class="pillar-head">
+            <h2 class="pillar-title">Preference distribution</h2>
+            <span class="pillar-meta">5 ROUNDS · 95,420 FORMAL</span>
+          </div>
+
+          <div class="prefs-intro">
+            Each round excludes the lowest-polling candidate. Ribbons between rounds show their preferences flowing to remaining candidates — every ribbon's width represents an exact number of votes, conserved end-to-end (Sankey-style).
+          </div>
+
+          <div class="waterfall">
+            <svg class="flow-svg" viewBox="0 0 1000 480" preserveAspectRatio="none">
+              <defs>
+                <pattern id="excluded-pattern" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+                  <line x1="0" y1="0" x2="0" y2="6" stroke="rgba(0,0,0,0.45)" stroke-width="2"/>
+                </pattern>
+              </defs>
+
+              <!-- Round 1 bar -->
+              <g transform="translate(0, 22)">
+                <rect x="0"   y="0" width="394" height="40" fill="var(--alp)" />
+                <rect x="394" y="0" width="365" height="40" fill="var(--lib)" />
+                <rect x="759" y="0" width="124" height="40" fill="var(--grn)" />
+                <rect x="883" y="0" width="68"  height="40" fill="var(--ind)" />
+                <rect x="951" y="0" width="27"  height="40" fill="var(--on)" />
+                <rect x="978" y="0" width="22"  height="40" fill="var(--ajp)" />
+                <rect x="978" y="0" width="22"  height="40" fill="url(#excluded-pattern)" />
+              </g>
+
+              <!-- Ribbons R1 → R2 (AJP excluded — 2,097 votes) -->
+              <g fill="var(--ajp)" fill-opacity="0.5" stroke="rgba(0,0,0,0.22)" stroke-width="0.5">
+                <path d="M 978 62    C 978 86    393.87 86  393.87 110 L 402 110     C 402 86     986.13 86  986.13 62 Z" />
+                <path d="M 986.13 62 C 986.13 86 767.17 86  767.17 110 L 772 110     C 772 86     990.97 86  990.97 62 Z" />
+                <path d="M 990.97 62 C 990.97 86 896.19 86  896.19 110 L 903 110     C 903 86     997.79 86  997.79 62 Z" />
+                <path d="M 997.79 62 C 997.79 86 971.24 86  971.24 110 L 973 110     C 973 86     999.55 86  999.55 62 Z" />
+                <path d="M 999.55 62 C 999.55 86 999.55 86  999.55 110 L 1000 110    C 1000 86    1000 86    1000 62 Z" />
+              </g>
+
+              <!-- Round 2 bar -->
+              <g transform="translate(0, 110)">
+                <rect x="0"   y="0" width="402" height="40" fill="var(--alp)" />
+                <rect x="402" y="0" width="370" height="40" fill="var(--lib)" />
+                <rect x="772" y="0" width="131" height="40" fill="var(--grn)" />
+                <rect x="903" y="0" width="70"  height="40" fill="var(--ind)" />
+                <rect x="973" y="0" width="27"  height="40" fill="var(--on)" />
+                <rect x="973" y="0" width="27"  height="40" fill="url(#excluded-pattern)" />
+              </g>
+
+              <!-- Ribbons R2 → R3 (ON excluded — 2,620 votes) -->
+              <g fill="var(--on)" fill-opacity="0.5" stroke="rgba(0,0,0,0.22)" stroke-width="0.5">
+                <path d="M 973 150    C 973 174    401.90 174  401.90 198 L 410 198    C 410 174    981.10 174  981.10 150 Z" />
+                <path d="M 981.10 150 C 981.10 174 779.80 174  779.80 198 L 796 198    C 796 174    997.30 174  997.30 150 Z" />
+                <path d="M 997.30 150 C 997.30 174 926.65 174  926.65 198 L 928 198    C 928 174    998.65 174  998.65 150 Z" />
+                <path d="M 998.65 150 C 998.65 174 998.65 174  998.65 198 L 1000 198   C 1000 174   1000 174    1000 150 Z" />
+              </g>
+
+              <!-- Round 3 bar -->
+              <g transform="translate(0, 198)">
+                <rect x="0"   y="0" width="410" height="40" fill="var(--alp)" />
+                <rect x="410" y="0" width="386" height="40" fill="var(--lib)" />
+                <rect x="796" y="0" width="132" height="40" fill="var(--grn)" />
+                <rect x="928" y="0" width="72"  height="40" fill="var(--ind)" />
+                <rect x="928" y="0" width="72"  height="40" fill="url(#excluded-pattern)" />
+              </g>
+
+              <!-- Ribbons R3 → R4 (IND excluded — 6,787 votes) -->
+              <g fill="var(--ind)" fill-opacity="0.5" stroke="rgba(0,0,0,0.22)" stroke-width="0.5">
+                <path d="M 928 238    C 928 262    410.20 262  410.20 286 L 439 286    C 439 262    956.80 262  956.80 238 Z" />
+                <path d="M 956.80 238 C 956.80 262 825.40 262  825.40 286 L 847 286    C 847 262    978.40 262  978.40 238 Z" />
+                <path d="M 978.40 238 C 978.40 262 978 262    978 286    L 996 286    C 996 262    996.40 262  996.40 238 Z" />
+              </g>
+
+              <!-- Round 4 bar -->
+              <g transform="translate(0, 286)">
+                <rect x="0"   y="0" width="439" height="40" fill="var(--alp)" />
+                <rect x="439" y="0" width="408" height="40" fill="var(--lib)" />
+                <rect x="847" y="0" width="149" height="40" fill="var(--grn)" />
+                <rect x="847" y="0" width="149" height="40" fill="url(#excluded-pattern)" />
+                <rect x="996" y="0" width="4"   height="40" fill="var(--t-5)" />
+              </g>
+
+              <!-- Ribbons R4 → R5 (GRN excluded — 14,309 votes — the dominant flow) -->
+              <g fill="var(--grn)" fill-opacity="0.55" stroke="rgba(0,0,0,0.22)" stroke-width="0.5">
+                <path d="M 847 326 C 847 357 439 357 439 388 L 559 388 C 559 357 967 357 967 326 Z" />
+                <path d="M 967 326 C 967 357 967 357 967 388 L 996 388 C 996 357 996 357 996 326 Z" />
+              </g>
+
+              <!-- Round 5 bar (final, taller) -->
+              <g transform="translate(0, 388)">
+                <rect x="0"   y="0" width="559" height="54" fill="var(--alp)" />
+                <rect x="559" y="0" width="437" height="54" fill="var(--lib)" />
+                <rect x="996" y="0" width="4"   height="54" fill="var(--t-5)" />
+              </g>
+            </svg>
+
+            <!-- HTML overlay: round headers + bar labels (text rendered at native aspect, no SVG distortion) -->
+            <div class="wf-overlay">
+
+              <div class="rh" style="top:8px">
+                <span class="num">01 · PRIMARY</span>
+              </div>
+              <div class="rb" style="top:22px; height:40px">
+                <span class="s" style="width:39.4%"><span>ALP</span><span>39.4</span></span>
+                <span class="s" style="width:36.5%"><span>LIB</span><span>36.5</span></span>
+                <span class="s dim" style="width:12.4%"><span>GRN</span><span>12.4</span></span>
+                <span class="s dim" style="width:6.8%"><span>IND</span><span></span></span>
+                <span class="s dim" style="width:2.7%"></span>
+                <span class="s dim" style="width:2.2%"></span>
+              </div>
+
+              <div class="rh" style="top:96px">
+                <span class="num">02 · AFTER AJP</span>
+              </div>
+              <div class="rb" style="top:110px; height:40px">
+                <span class="s" style="width:40.2%"><span>ALP</span><span>40.2</span></span>
+                <span class="s" style="width:37.0%"><span>LIB</span><span>37.0</span></span>
+                <span class="s dim" style="width:13.1%"><span>GRN</span><span>13.1</span></span>
+                <span class="s dim" style="width:7.0%"><span>IND</span><span></span></span>
+                <span class="s dim" style="width:2.7%"></span>
+              </div>
+
+              <div class="rh" style="top:184px">
+                <span class="num">03 · AFTER ON</span>
+              </div>
+              <div class="rb" style="top:198px; height:40px">
+                <span class="s" style="width:41.0%"><span>ALP</span><span>41.0</span></span>
+                <span class="s" style="width:38.6%"><span>LIB</span><span>38.6</span></span>
+                <span class="s dim" style="width:13.2%"><span>GRN</span><span>13.2</span></span>
+                <span class="s dim" style="width:7.2%"></span>
+              </div>
+
+              <div class="rh" style="top:272px">
+                <span class="num">04 · AFTER IND</span>
+              </div>
+              <div class="rb" style="top:286px; height:40px">
+                <span class="s" style="width:43.9%"><span>ALP</span><span>43.9</span></span>
+                <span class="s" style="width:40.8%"><span>LIB</span><span>40.8</span></span>
+                <span class="s" style="width:14.9%"><span>GRN</span><span>15.0</span></span>
+              </div>
+
+              <div class="rh" style="top:374px">
+                <span class="num">05 · TWO-CANDIDATE PREFERRED</span>
+              </div>
+              <div class="rb" style="top:388px; height:54px">
+                <span class="s large" style="width:55.88%">
+                  <div class="row-a"><span>ALP — Laxale</span><span>55.88</span></div>
+                  <div class="row-b"><span>▲ Winner · 53,320 votes</span></div>
+                </span>
+                <span class="s large" style="width:43.77%">
+                  <div class="row-a"><span>LIB — Lim</span><span>43.77</span></div>
+                  <div class="row-b"><span>41,760 votes</span></div>
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="summary-grid">
+            <div class="result-row">
+              <span class="result-label">2PP MARGIN</span>
+              <span class="result-val alp-c">+8.81<span style="font-size:11px; color:var(--t-3); margin-left:1px">%</span></span>
+              <span class="result-detail">to ALP · 53,320 v 41,760</span>
+            </div>
+            <div class="result-row">
+              <span class="result-label">SWING vs 2022</span>
+              <span class="result-val pos">+6.54<span style="font-size:11px; color:var(--t-3); margin-left:1px">%</span></span>
+              <span class="result-detail">to ALP · improved on +2.27</span>
+            </div>
+            <div class="result-row">
+              <span class="result-label">EXHAUSTED</span>
+              <span class="result-val">340</span>
+              <span class="result-detail">0.36% of formal · GRN→IND→exhausted</span>
+            </div>
+          </div>
+
+          <div class="legend-prefs">
+            <span class="li"><span class="dot alp"></span>Labor</span>
+            <span class="li"><span class="dot lib"></span>Liberal</span>
+            <span class="li"><span class="dot grn"></span>Greens</span>
+            <span class="li"><span class="dot ind"></span>Independent</span>
+            <span class="li"><span class="dot oth"></span>Minor</span>
+            <span class="li"><span class="flow-line"></span>Preference ribbon · width = exact votes</span>
+          </div>
+        </section>
+
+        <footer class="panel-foot">
+          Source · AEC Media Feed (CTH/2025) · Demographics from ABS 2021 Census, joined to seat at SA1 boundary using AEC correspondence file. · <a href="#">Methodology ↗</a>
+        </footer>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- ─────────────────────────────────────────
+       BOTTOM CHROME
+       ───────────────────────────────────────── -->
+  <footer class="chrome-bottom">
+    <div class="seg"><span class="lbl">VIEW</span><span class="v">National · H/R</span></div>
+    <div class="seg"><span class="lbl">PROJ</span><span class="v">Equal Earth</span></div>
+    <div class="seg"><span class="lbl">SEATS</span><span class="v">150 · 100% reporting</span></div>
+    <div class="seg"><span class="lbl">2PP</span><span class="v">ALP 55.21 · LIB 44.79</span></div>
+    <div class="seg"><span class="lbl">SELECTED</span><span class="v acc">BENNELONG · NSW</span></div>
+    <div class="grow"></div>
+    <div class="seg"><span class="lbl">REV</span><span class="v">v0.2 · 2026.05.08</span></div>
+    <div class="seg"><span class="lbl">⏱</span><span class="v">QUERY 12 ms</span></div>
+  </footer>
+</div>
+
+<script>
+/* ────────────────────────────────────────────────────────────
+   Generate seat dots across the map
+   ──────────────────────────────────────────────────────────── */
+(function () {
+  const PARTIES = ['alp', 'lib', 'grn', 'nat', 'ind', 'oth'];
+
+  // Cluster centres + dot counts roughly modelling Australian seat geography.
+  const clusters = [
+    // {name, cx, cy, count, mix:[alpW, libW, grnW, natW, indW, othW], spreadX, spreadY}
+    { name:'Sydney',   cx: 778, cy: 484, count: 47, spreadX: 36, spreadY: 22, mix:[0.50, 0.32, 0.06, 0.00, 0.10, 0.02] },
+    { name:'Melbourne',cx: 686, cy: 596, count: 39, spreadX: 36, spreadY: 18, mix:[0.55, 0.28, 0.10, 0.00, 0.05, 0.02] },
+    { name:'Brisbane', cx: 776, cy: 396, count: 18, spreadX: 28, spreadY: 18, mix:[0.40, 0.40, 0.05, 0.05, 0.05, 0.05] },
+    { name:'Perth',    cx: 200, cy: 528, count: 16, spreadX: 18, spreadY: 18, mix:[0.55, 0.40, 0.00, 0.00, 0.05, 0.00] },
+    { name:'Adelaide', cx: 558, cy: 568, count: 10, spreadX: 16, spreadY: 14, mix:[0.55, 0.40, 0.00, 0.00, 0.05, 0.00] },
+    { name:'Hobart',   cx: 720, cy: 690, count: 4,  spreadX: 12, spreadY: 14, mix:[0.65, 0.20, 0.10, 0.00, 0.05, 0.00] },
+    { name:'ACT',      cx: 730, cy: 568, count: 3,  spreadX: 4,  spreadY: 6,  mix:[1.00, 0.00, 0.00, 0.00, 0.00, 0.00] },
+    { name:'Reg-NSW',  cx: 700, cy: 488, count: 8,  spreadX: 90, spreadY: 60, mix:[0.20, 0.20, 0.00, 0.50, 0.10, 0.00] },
+    { name:'Reg-VIC',  cx: 620, cy: 590, count: 4,  spreadX: 60, spreadY: 16, mix:[0.30, 0.20, 0.00, 0.40, 0.10, 0.00] },
+    { name:'Reg-QLD',  cx: 700, cy: 280, count: 10, spreadX: 50, spreadY: 80, mix:[0.10, 0.30, 0.00, 0.45, 0.10, 0.05] },
+    { name:'Reg-WA',   cx: 220, cy: 380, count: 4,  spreadX: 60, spreadY: 90, mix:[0.20, 0.40, 0.00, 0.30, 0.10, 0.00] },
+    { name:'Reg-SA',   cx: 480, cy: 530, count: 1,  spreadX: 30, spreadY: 12, mix:[0.30, 0.30, 0.00, 0.30, 0.10, 0.00] },
+    { name:'NT',       cx: 478, cy: 240, count: 2,  spreadX: 12, spreadY: 26, mix:[1.00, 0.00, 0.00, 0.00, 0.00, 0.00] },
+    { name:'Tas-rest', cx: 710, cy: 670, count: 1,  spreadX: 24, spreadY: 16, mix:[1.00, 0.00, 0.00, 0.00, 0.00, 0.00] },
+  ];
+
+  function pickParty(mix) {
+    let r = Math.random();
+    for (let i = 0; i < PARTIES.length; i++) {
+      if ((r -= mix[i]) < 0) return PARTIES[i];
+    }
+    return PARTIES[1];
+  }
+
+  function jitter(spread) {
+    // pseudo-normal: average of two uniforms
+    return ((Math.random() + Math.random()) - 1) * spread;
+  }
+
+  const ns = 'http://www.w3.org/2000/svg';
+  const seatRoot = document.getElementById('seat-dots');
+  let i = 0;
+
+  // Use a seeded-ish but stable layout via a fixed sequence
+  let seedRand = 0.12345;
+  const rand = () => {
+    // simple LCG
+    seedRand = (seedRand * 9301 + 49297) % 233280;
+    return seedRand / 233280;
+  };
+  const norm = (s) => ((rand() + rand()) - 1) * s;
+  const pickWith = (mix) => {
+    let r = rand();
+    for (let i = 0; i < PARTIES.length; i++) {
+      if ((r -= mix[i]) < 0) return PARTIES[i];
+    }
+    return PARTIES[1];
+  };
+
+  clusters.forEach(c => {
+    for (let k = 0; k < c.count; k++) {
+      const x = c.cx + norm(c.spreadX);
+      const y = c.cy + norm(c.spreadY);
+      const party = pickWith(c.mix);
+
+      const el = document.createElementNS(ns, 'circle');
+      el.setAttribute('cx', x.toFixed(1));
+      el.setAttribute('cy', y.toFixed(1));
+      el.setAttribute('r', '2.6');
+      el.setAttribute('class', 'seat-dot ' + party);
+      el.setAttribute('opacity', '0');
+      seatRoot.appendChild(el);
+
+      // staggered fade-in
+      const delay = 200 + i * 6;
+      el.animate(
+        [ { opacity: 0, transform: 'scale(0.6)' }, { opacity: 1, transform: 'scale(1)' } ],
+        { duration: 600, delay, easing: 'cubic-bezier(0.32,0.72,0.20,1)', fill: 'forwards' }
+      );
+      i++;
+    }
+  });
+})();
+
+/* ────────────────────────────────────────────────────────────
+   Bennelong inset booth dots
+   ──────────────────────────────────────────────────────────── */
+(function () {
+  const ns = 'http://www.w3.org/2000/svg';
+  const root = document.getElementById('booth-dots');
+  if (!root) return;
+
+  // Stable layout
+  let seed = 0.6789;
+  const rand = () => { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; };
+
+  const booths = [
+    // Inner cluster (around the river / Eastwood / Ryde)
+    { x: 142, y: 110, party: 'alp', strength: 0.95 },
+    { x: 168, y: 96,  party: 'alp', strength: 0.85 },
+    { x: 192, y: 118, party: 'alp', strength: 0.90 },
+    { x: 218, y: 100, party: 'alp', strength: 0.78 },
+    { x: 242, y: 124, party: 'alp', strength: 0.72 },
+    { x: 268, y: 110, party: 'alp', strength: 0.65 },
+    { x: 292, y: 132, party: 'alp', strength: 0.55 },
+    { x: 110, y: 128, party: 'alp', strength: 0.92 },
+    { x: 130, y: 142, party: 'alp', strength: 0.86 },
+    { x: 158, y: 152, party: 'alp', strength: 0.80 },
+    { x: 188, y: 160, party: 'alp', strength: 0.70 },
+    { x: 218, y: 156, party: 'alp', strength: 0.58 },
+
+    { x: 248, y: 150, party: 'lib', strength: 0.40 },
+    { x: 278, y: 158, party: 'lib', strength: 0.55 },
+    { x: 308, y: 154, party: 'lib', strength: 0.62 },
+    { x: 332, y: 144, party: 'lib', strength: 0.70 },
+    { x: 358, y: 132, party: 'lib', strength: 0.78 },
+    { x: 388, y: 152, party: 'lib', strength: 0.85 },
+
+    { x: 320, y: 100, party: 'lib', strength: 0.60 },
+    { x: 354, y: 108, party: 'lib', strength: 0.66 },
+    { x: 380, y: 122, party: 'lib', strength: 0.72 },
+
+    { x: 218, y: 78,  party: 'alp', strength: 0.55 },
+    { x: 248, y: 80,  party: 'lib', strength: 0.45 },
+    { x: 278, y: 86,  party: 'lib', strength: 0.55 },
+
+    { x: 95,  y: 112, party: 'alp', strength: 0.88 },
+    { x: 80,  y: 132, party: 'alp', strength: 0.92 },
+
+    { x: 348, y: 168, party: 'lib', strength: 0.74 },
+    { x: 314, y: 174, party: 'lib', strength: 0.66 },
+    { x: 282, y: 178, party: 'lib', strength: 0.58 },
+    { x: 252, y: 174, party: 'lib', strength: 0.50 },
+  ];
+
+  booths.forEach((b, i) => {
+    const el = document.createElementNS(ns, 'circle');
+    el.setAttribute('cx', b.x);
+    el.setAttribute('cy', b.y);
+    el.setAttribute('r', '4');
+    el.setAttribute('class', 'booth-dot ' + b.party);
+    el.setAttribute('fill', `var(--${b.party})`);
+    el.setAttribute('opacity', '0');
+    el.setAttribute('stroke', 'rgba(0,0,0,0.4)');
+    el.setAttribute('stroke-width', '0.5');
+    root.appendChild(el);
+
+    el.animate(
+      [ { opacity: 0, transform: 'scale(0.4)' }, { opacity: b.strength.toFixed(2), transform: 'scale(1)' } ],
+      { duration: 450, delay: 320 + i * 14, easing: 'cubic-bezier(0.32,0.72,0.20,1)', fill: 'forwards' }
+    );
+  });
+})();
+
+/* ────────────────────────────────────────────────────────────
+   Tab switching: click → scroll the panel body to the matching
+   pillar; sync active state as user scrolls
+   ──────────────────────────────────────────────────────────── */
+(function () {
+  const tabs = [...document.querySelectorAll('.panel-tabs button')];
+  const body = document.querySelector('.panel-body');
+  const tabsEl = document.querySelector('.panel-tabs');
+  const pillars = [...document.querySelectorAll('.panel-body > .pillar')];
+  if (!tabs.length || !body || !pillars.length) return;
+
+  const setActive = (idx) => {
+    tabs.forEach(t => t.classList.remove('active'));
+    if (tabs[idx]) tabs[idx].classList.add('active');
+  };
+
+  let userClicked = false;
+  let clickResetTimer;
+
+  tabs.forEach((btn, idx) => {
+    btn.addEventListener('click', () => {
+      const target = pillars[idx];
+      if (!target) return;
+      setActive(idx);
+      userClicked = true;
+      clearTimeout(clickResetTimer);
+      clickResetTimer = setTimeout(() => userClicked = false, 800);
+      const offset = target.offsetTop - (tabsEl ? tabsEl.offsetHeight : 36) - 4;
+      body.scrollTo({ top: Math.max(0, offset), behavior: 'smooth' });
+    });
+  });
+
+  // Update active tab as user scrolls past pillars.
+  // Margin: pillar must cross top-third of viewport to be considered active.
+  const obs = new IntersectionObserver((entries) => {
+    if (userClicked) return;
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const idx = pillars.indexOf(entry.target);
+        if (idx >= 0) setActive(idx);
+      }
+    });
+  }, {
+    root: body,
+    threshold: 0,
+    rootMargin: '-60px 0px -65% 0px'
+  });
+  pillars.forEach(p => obs.observe(p));
+})();
+</script>
+</body>
+</html>

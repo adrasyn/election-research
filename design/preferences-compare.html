@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Preferences · approach comparison</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg-deep: #07090d;
+    --bg-base: #0a0d11;
+    --bg-elev-1: #0f141b;
+    --bg-elev-2: #141a23;
+    --bg-elev-3: #1a212c;
+    --line-faint: #161c25;
+    --line: #1f2733;
+    --line-strong: #2c3645;
+    --t-1: #e7ecf3;
+    --t-2: #b1bac6;
+    --t-3: #6b7684;
+    --t-4: #424c59;
+    --t-5: #2b333d;
+    --accent: #5da9ff;
+    --accent-soft: rgba(93, 169, 255, 0.10);
+    --accent-edge: rgba(93, 169, 255, 0.55);
+    --positive: #4caf7a;
+    --negative: #d8556a;
+    --alp: #c53747;
+    --alp-soft: rgba(197, 55, 71, 0.16);
+    --lib: #366ecc;
+    --lib-soft: rgba(54, 110, 204, 0.16);
+    --grn: #4d8c3d;
+    --grn-soft: rgba(77, 140, 61, 0.16);
+    --ind: #b0904c;
+    --oth: #8b7b96;
+    --radius: 2px;
+    --ease: cubic-bezier(0.32, 0.72, 0.20, 1.00);
+    --ease-snap: cubic-bezier(0.4, 0, 0.2, 1);
+    --sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg-base);
+    color: var(--t-1);
+    font-family: var(--sans);
+    font-size: 13px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    background-image: radial-gradient(circle at 1px 1px, rgba(140, 160, 200, 0.04) 1px, transparent 0);
+    background-size: 22px 22px;
+  }
+  button { font: inherit; color: inherit; background: transparent; border: 0; cursor: pointer; }
+  .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+
+  /* Page chrome */
+  .page-head {
+    height: 44px;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg-elev-1);
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+    gap: 16px;
+  }
+  .page-mark {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    color: var(--t-1);
+    text-transform: uppercase;
+  }
+  .page-mark span { color: var(--t-3); }
+  .page-divider {
+    width: 1px; height: 18px;
+    background: var(--line-strong);
+  }
+  .page-title {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--t-3);
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+  }
+  .page-title em { color: var(--t-1); font-style: normal; }
+
+  /* Comparison grid */
+  .compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding: 24px;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  @media (max-width: 980px) {
+    .compare { grid-template-columns: 1fr; }
+  }
+
+  .approach {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .approach-head {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 8px;
+  }
+  .approach-tag {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.22em;
+    color: var(--t-4);
+    text-transform: uppercase;
+  }
+  .approach-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--t-1);
+    letter-spacing: -0.01em;
+  }
+  .approach-name .accent { color: var(--accent); }
+  .approach-desc {
+    font-size: 12px;
+    color: var(--t-3);
+    line-height: 1.55;
+    max-width: 460px;
+  }
+
+  /* Panel mock — replicates panel shape from concept-01 */
+  .panel {
+    background: var(--bg-elev-1);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 24px 48px -16px rgba(0, 0, 0, 0.5);
+  }
+
+  .panel-head {
+    padding: 18px 22px 16px;
+    border-bottom: 1px solid var(--line);
+    background:
+      linear-gradient(to bottom, rgba(93, 169, 255, 0.04), transparent 70%),
+      var(--bg-elev-1);
+    position: relative;
+  }
+  .panel-head::after {
+    content: "";
+    position: absolute; left: 0; right: 0; bottom: -1px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent-edge) 30%, var(--accent-edge) 70%, transparent);
+    opacity: 0.5;
+  }
+
+  .meta-strip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    color: var(--t-3);
+    text-transform: uppercase;
+  }
+  .meta-strip .sep { color: var(--t-5); }
+  .meta-tag.retain {
+    display: inline-flex;
+    align-items: center;
+    height: 18px;
+    padding: 0 6px;
+    border: 1px solid var(--accent-edge);
+    border-radius: 2px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 9.5px;
+    letter-spacing: 0.14em;
+  }
+
+  .panel-title {
+    font-family: var(--sans);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--t-1);
+    margin: 0;
+  }
+
+  /* Tabs */
+  .panel-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg-elev-1);
+  }
+  .panel-tabs button {
+    height: 36px;
+    padding: 0 14px;
+    font-size: 11.5px;
+    color: var(--t-3);
+    border-right: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+  }
+  .panel-tabs button.active { color: var(--t-1); background: var(--bg-base); }
+  .panel-tabs button.active::after {
+    content: "";
+    position: absolute; left: 0; right: 0; bottom: -1px;
+    height: 1px;
+    background: var(--accent);
+  }
+  .panel-tabs button .num-tag {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    color: var(--t-4);
+  }
+  .panel-tabs button.active .num-tag { color: var(--accent); }
+
+  /* Pillar */
+  .panel-body {
+    background: var(--bg-base);
+    padding: 22px;
+  }
+  .pillar-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 14px;
+  }
+  .pillar-title {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: var(--t-1);
+    margin: 0;
+  }
+  .pillar-meta {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.12em;
+    color: var(--t-4);
+    text-transform: uppercase;
+  }
+
+  .prefs-intro {
+    font-size: 11.5px;
+    color: var(--t-3);
+    line-height: 1.55;
+    margin-bottom: 16px;
+    padding: 9px 12px;
+    background: rgba(93, 169, 255, 0.04);
+    border-left: 2px solid var(--accent-edge);
+  }
+
+  /* ─────────── APPROACH A — STACKED ROUNDS (CURRENT) ─────────── */
+  .prefs-stacked {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .prefs-round {
+    background: var(--bg-elev-1);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 10px 12px 12px;
+  }
+  .prefs-round.prefs-final {
+    border-color: var(--accent-edge);
+    background: linear-gradient(to bottom, rgba(93, 169, 255, 0.05) 0%, var(--bg-elev-1) 100%);
+  }
+  .prefs-round-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--line-faint);
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .round-num {
+    width: 22px; height: 18px;
+    display: grid; place-items: center;
+    background: var(--bg-elev-3);
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    color: var(--t-2);
+    font-size: 9px;
+    flex-shrink: 0;
+  }
+  .prefs-final .round-num {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-color: var(--accent-edge);
+  }
+  .round-label { color: var(--t-1); flex: 1; letter-spacing: 0.10em; }
+  .round-meta { color: var(--t-4); }
+  .prefs-bars {
+    display: flex; flex-direction: column;
+    gap: 5px;
+  }
+  .prefs-row {
+    display: grid;
+    grid-template-columns: 110px 1fr 80px;
+    align-items: center;
+    gap: 8px;
+    transition: opacity 0.2s;
+  }
+  .prefs-row.excluded { opacity: 0.45; }
+  .prefs-row.excluded.next { opacity: 0.72; }
+  .prefs-row.excluded.next .prefs-name::after {
+    content: "✕";
+    margin-left: 6px;
+    color: var(--negative);
+    font-size: 9px;
+  }
+  .prefs-row.excluded:not(.next) .prefs-name {
+    text-decoration: line-through;
+    text-decoration-color: var(--t-4);
+  }
+  .prefs-name {
+    display: flex; align-items: center; gap: 6px;
+    color: var(--t-2);
+    font-size: 10.5px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .party-pip {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .prefs-track {
+    height: 7px;
+    background: var(--bg-elev-3);
+    border-radius: 1px;
+    overflow: hidden;
+  }
+  .prefs-track > span {
+    display: block;
+    height: 100%;
+  }
+  .prefs-val {
+    text-align: right;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-2);
+  }
+  .prefs-winner .prefs-val,
+  .prefs-winner .prefs-name { color: var(--t-1); font-weight: 500; }
+  .winner-tick { color: var(--alp); font-size: 9px; margin-left: 4px; }
+  .prefs-flow {
+    margin-top: 9px;
+    padding-top: 9px;
+    border-top: 1px dashed var(--line-strong);
+    display: flex; flex-direction: column;
+    gap: 3px;
+  }
+  .flow-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.10em;
+    color: var(--t-3);
+    text-transform: uppercase;
+  }
+  .flow-detail {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-2);
+  }
+  .prefs-result {
+    border-top: 1px solid var(--accent-edge);
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .prefs-result .flow-label {
+    color: var(--t-1);
+    font-size: 11px;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    font-family: var(--sans);
+  }
+
+  /* ─────────── APPROACH B — FLOW WATERFALL ─────────── */
+  /* Waterfall container: SVG (bars+ribbons) + HTML overlay (text) */
+  .waterfall {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    margin-bottom: 12px;
+  }
+  .flow-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .wf-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  /* Round headers (above each bar) */
+  .rh {
+    position: absolute;
+    left: 0; right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    color: var(--t-2);
+    text-transform: uppercase;
+    height: 14px;
+  }
+  .rh .meta {
+    font-size: 8.5px;
+    color: var(--t-4);
+    letter-spacing: 0.10em;
+    font-weight: 400;
+  }
+  .rh.final .num {
+    color: var(--accent);
+    font-weight: 500;
+  }
+  .rh.final .meta {
+    color: var(--alp);
+    font-weight: 500;
+  }
+
+  /* Bar labels (inside each bar) */
+  .rb {
+    position: absolute;
+    left: 0; right: 0;
+    display: flex;
+    align-items: stretch;
+  }
+  .rb .s {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.94);
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: 0;
+    gap: 4px;
+  }
+  .rb .s.dim {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 9.5px;
+  }
+  .rb .s.large {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0 14px;
+    font-size: 11.5px;
+  }
+  .rb .s.large .row-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .rb .s.large .row-b {
+    font-size: 8.5px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 4px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .summary-grid {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    margin: 14px 0 12px;
+  }
+  .result-row {
+    display: grid;
+    grid-template-columns: 110px 90px 1fr;
+    align-items: baseline;
+    background: var(--bg-elev-1);
+    padding: 9px 14px;
+    gap: 10px;
+  }
+  .result-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    color: var(--t-4);
+    text-transform: uppercase;
+  }
+  .result-val {
+    font-family: var(--mono);
+    font-size: 16px;
+    color: var(--t-1);
+    text-align: right;
+  }
+  .result-val.alp-c { color: var(--alp); }
+  .result-val.pos { color: var(--positive); }
+  .result-detail {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-3);
+  }
+
+  .legend-prefs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--t-3);
+    letter-spacing: 0.04em;
+  }
+  .legend-prefs .li {
+    display: flex; align-items: center; gap: 5px;
+  }
+  .legend-prefs .dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+  }
+  .legend-prefs .alp { background: var(--alp); }
+  .legend-prefs .lib { background: var(--lib); }
+  .legend-prefs .grn { background: var(--grn); }
+  .legend-prefs .ind { background: var(--ind); }
+  .legend-prefs .oth { background: var(--oth); }
+  .legend-prefs .flow-line {
+    width: 18px; height: 1.5px;
+    background: var(--t-3);
+    margin-right: 2px;
+  }
+</style>
+</head>
+<body>
+
+<header class="page-head">
+  <span class="page-mark">AEC<span> · </span>RESEARCH</span>
+  <span class="page-divider"></span>
+  <span class="page-title">Preferences pillar — comparison · <em>Bennelong 2025</em></span>
+</header>
+
+<main class="compare">
+
+  <!-- ───────────────────────────────────────────────────────────
+       APPROACH A — STACKED ROUNDS (current in concept-01)
+       ─────────────────────────────────────────────────────────── -->
+  <section class="approach">
+    <div class="approach-head">
+      <div class="approach-tag">Approach A</div>
+      <div class="approach-name">Stacked rounds <span class="accent">— current</span></div>
+      <div class="approach-desc">Five cards, one per round. Each card lists every candidate as a horizontal bar with absolute totals; the next-to-be-excluded candidate is marked with ✕; a flow strip at the bottom describes the redistribution as plain text.</div>
+    </div>
+
+    <div class="panel">
+      <header class="panel-head">
+        <div class="meta-strip">
+          <span>NSW</span>
+          <span class="sep">/</span>
+          <span>DIV 014</span>
+          <span class="sep">/</span>
+          <span class="meta-tag retain">ALP RETAIN</span>
+        </div>
+        <h1 class="panel-title">Bennelong</h1>
+      </header>
+
+      <nav class="panel-tabs">
+        <button>Booths</button>
+        <button>History</button>
+        <button>Demographics</button>
+        <button class="active">Preferences <span class="num-tag">5</span></button>
+      </nav>
+
+      <div class="panel-body">
+        <div class="pillar-head">
+          <h2 class="pillar-title">Preference distribution</h2>
+          <span class="pillar-meta">5 ROUNDS · 95,420 FORMAL</span>
+        </div>
+
+        <div class="prefs-stacked">
+
+          <div class="prefs-round">
+            <div class="prefs-round-head">
+              <span class="round-num">01</span>
+              <span class="round-label">Primary count</span>
+              <span class="round-meta">6 candidates</span>
+            </div>
+            <div class="prefs-bars">
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--alp)"></span>Laxale (ALP)</span><div class="prefs-track"><span style="width:39.4%; background:var(--alp)"></span></div><span class="prefs-val mono">37,597 · 39.4</span></div>
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--lib)"></span>Lim (LIB)</span><div class="prefs-track"><span style="width:36.5%; background:var(--lib)"></span></div><span class="prefs-val mono">34,829 · 36.5</span></div>
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--grn)"></span>Cassidy (GRN)</span><div class="prefs-track"><span style="width:12.4%; background:var(--grn)"></span></div><span class="prefs-val mono">11,832 · 12.4</span></div>
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--ind)"></span>Lee (IND)</span><div class="prefs-track"><span style="width:6.8%; background:var(--ind)"></span></div><span class="prefs-val mono">6,488 · 6.8</span></div>
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--oth)"></span>Smith (ON)</span><div class="prefs-track"><span style="width:2.7%; background:var(--oth)"></span></div><span class="prefs-val mono">2,577 · 2.7</span></div>
+              <div class="prefs-row excluded next"><span class="prefs-name"><span class="party-pip" style="background:var(--oth)"></span>Brown (AJP)</span><div class="prefs-track"><span style="width:2.2%; background:var(--oth)"></span></div><span class="prefs-val mono">2,097 · 2.2</span></div>
+            </div>
+            <div class="prefs-flow">
+              <span class="flow-label">↓ exclude AJP · 2,097 votes redistributed</span>
+              <span class="flow-detail mono">ALP +775 · LIB +461 · GRN +650 · IND +168 · ON +43</span>
+            </div>
+          </div>
+
+          <div class="prefs-round">
+            <div class="prefs-round-head">
+              <span class="round-num">02</span>
+              <span class="round-label">After AJP</span>
+              <span class="round-meta">5 remaining</span>
+            </div>
+            <div class="prefs-bars">
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--alp)"></span>Laxale (ALP)</span><div class="prefs-track"><span style="width:40.2%; background:var(--alp)"></span></div><span class="prefs-val mono">38,372 · 40.2</span></div>
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--lib)"></span>Lim (LIB)</span><div class="prefs-track"><span style="width:37.0%; background:var(--lib)"></span></div><span class="prefs-val mono">35,290 · 37.0</span></div>
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--grn)"></span>Cassidy (GRN)</span><div class="prefs-track"><span style="width:13.1%; background:var(--grn)"></span></div><span class="prefs-val mono">12,482 · 13.1</span></div>
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--ind)"></span>Lee (IND)</span><div class="prefs-track"><span style="width:7.0%; background:var(--ind)"></span></div><span class="prefs-val mono">6,656 · 7.0</span></div>
+              <div class="prefs-row excluded next"><span class="prefs-name"><span class="party-pip" style="background:var(--oth)"></span>Smith (ON)</span><div class="prefs-track"><span style="width:2.7%; background:var(--oth)"></span></div><span class="prefs-val mono">2,620 · 2.7</span></div>
+            </div>
+            <div class="prefs-flow">
+              <span class="flow-label">↓ exclude ON · 2,620 votes redistributed</span>
+              <span class="flow-detail mono">LIB +1,572 · ALP +786 · GRN +131 · IND +131</span>
+            </div>
+          </div>
+
+          <div class="prefs-round">
+            <div class="prefs-round-head">
+              <span class="round-num">03</span>
+              <span class="round-label">After ON</span>
+              <span class="round-meta">4 remaining</span>
+            </div>
+            <div class="prefs-bars">
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--alp)"></span>Laxale (ALP)</span><div class="prefs-track"><span style="width:41.0%; background:var(--alp)"></span></div><span class="prefs-val mono">39,158 · 41.0</span></div>
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--lib)"></span>Lim (LIB)</span><div class="prefs-track"><span style="width:38.6%; background:var(--lib)"></span></div><span class="prefs-val mono">36,862 · 38.6</span></div>
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--grn)"></span>Cassidy (GRN)</span><div class="prefs-track"><span style="width:13.2%; background:var(--grn)"></span></div><span class="prefs-val mono">12,613 · 13.2</span></div>
+              <div class="prefs-row excluded next"><span class="prefs-name"><span class="party-pip" style="background:var(--ind)"></span>Lee (IND)</span><div class="prefs-track"><span style="width:7.1%; background:var(--ind)"></span></div><span class="prefs-val mono">6,787 · 7.1</span></div>
+            </div>
+            <div class="prefs-flow">
+              <span class="flow-label">↓ exclude IND · 6,787 votes redistributed</span>
+              <span class="flow-detail mono">ALP +2,715 · LIB +2,036 · GRN +1,696 · exhausted +340</span>
+            </div>
+          </div>
+
+          <div class="prefs-round">
+            <div class="prefs-round-head">
+              <span class="round-num">04</span>
+              <span class="round-label">After IND</span>
+              <span class="round-meta">3 remaining</span>
+            </div>
+            <div class="prefs-bars">
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--alp)"></span>Laxale (ALP)</span><div class="prefs-track"><span style="width:43.9%; background:var(--alp)"></span></div><span class="prefs-val mono">41,873 · 43.9</span></div>
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--lib)"></span>Lim (LIB)</span><div class="prefs-track"><span style="width:40.8%; background:var(--lib)"></span></div><span class="prefs-val mono">38,898 · 40.8</span></div>
+              <div class="prefs-row excluded next"><span class="prefs-name"><span class="party-pip" style="background:var(--grn)"></span>Cassidy (GRN)</span><div class="prefs-track"><span style="width:15.0%; background:var(--grn)"></span></div><span class="prefs-val mono">14,309 · 15.0</span></div>
+            </div>
+            <div class="prefs-flow">
+              <span class="flow-label">↓ exclude GRN → 2CP</span>
+              <span class="flow-detail mono">ALP +11,447 (80.0%) · LIB +2,862 (20.0%)</span>
+            </div>
+          </div>
+
+          <div class="prefs-round prefs-final">
+            <div class="prefs-round-head">
+              <span class="round-num">05</span>
+              <span class="round-label">Two-candidate preferred</span>
+              <span class="round-meta">final</span>
+            </div>
+            <div class="prefs-bars">
+              <div class="prefs-row prefs-winner"><span class="prefs-name"><span class="party-pip" style="background:var(--alp)"></span>Laxale (ALP) <span class="winner-tick">▲</span></span><div class="prefs-track"><span style="width:55.88%; background:var(--alp)"></span></div><span class="prefs-val mono">53,320 · 55.88</span></div>
+              <div class="prefs-row"><span class="prefs-name"><span class="party-pip" style="background:var(--lib)"></span>Lim (LIB)</span><div class="prefs-track"><span style="width:43.77%; background:var(--lib)"></span></div><span class="prefs-val mono">41,760 · 43.77</span></div>
+            </div>
+            <div class="prefs-flow prefs-result">
+              <span class="flow-label">2PP margin <span style="color:var(--alp); font-weight:500">+8.81%</span> to ALP · swing <span style="color:var(--positive); font-weight:500">+6.54%</span> from 2022</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────────────────────────────────────────
+       APPROACH B — FLOW WATERFALL
+       ─────────────────────────────────────────────────────────── -->
+  <section class="approach">
+    <div class="approach-head">
+      <div class="approach-tag">Approach B</div>
+      <div class="approach-name">Flow waterfall <span class="accent">— alternative</span></div>
+      <div class="approach-desc">One stacked bar per round, full width. Sankey-style ribbons between rounds show where the eliminated candidate's preferences flow — ribbon width matches vote volume precisely at both source and destination. The big GRN→ALP ribbon at the bottom encodes the story of how the seat was won.</div>
+    </div>
+
+    <div class="panel">
+      <header class="panel-head">
+        <div class="meta-strip">
+          <span>NSW</span>
+          <span class="sep">/</span>
+          <span>DIV 014</span>
+          <span class="sep">/</span>
+          <span class="meta-tag retain">ALP RETAIN</span>
+        </div>
+        <h1 class="panel-title">Bennelong</h1>
+      </header>
+
+      <nav class="panel-tabs">
+        <button>Booths</button>
+        <button>History</button>
+        <button>Demographics</button>
+        <button class="active">Preferences <span class="num-tag">5</span></button>
+      </nav>
+
+      <div class="panel-body">
+        <div class="pillar-head">
+          <h2 class="pillar-title">Preference distribution</h2>
+          <span class="pillar-meta">5 ROUNDS · 95,420 FORMAL</span>
+        </div>
+
+        <div class="prefs-intro">
+          Each round excludes the lowest-polling candidate. Ribbons between rounds show their preferences flowing to remaining candidates — every ribbon's width represents an exact number of votes, conserved end-to-end (Sankey-style).
+        </div>
+
+        <div class="waterfall">
+          <svg class="flow-svg" viewBox="0 0 1000 480" preserveAspectRatio="none">
+            <defs>
+              <pattern id="excluded-pattern" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+                <line x1="0" y1="0" x2="0" y2="6" stroke="rgba(0,0,0,0.45)" stroke-width="2"/>
+              </pattern>
+            </defs>
+
+          <!-- Round 1 bar -->
+          <g transform="translate(0, 22)">
+            <rect x="0"   y="0" width="394" height="40" fill="var(--alp)" />
+            <rect x="394" y="0" width="365" height="40" fill="var(--lib)" />
+            <rect x="759" y="0" width="124" height="40" fill="var(--grn)" />
+            <rect x="883" y="0" width="68"  height="40" fill="var(--ind)" />
+            <rect x="951" y="0" width="27"  height="40" fill="var(--oth)" />
+            <rect x="978" y="0" width="22"  height="40" fill="var(--oth)" />
+            <rect x="978" y="0" width="22"  height="40" fill="url(#excluded-pattern)" />
+          </g>
+          <!-- ─── RIBBONS R1 → R2 (AJP excluded — 2,097 votes) ─── -->
+          <!-- Each ribbon's width = exact votes flowing. AJP→ALP=775, →LIB=461, →GRN=650, →IND=168, →ON=43 -->
+          <g fill="var(--oth)" fill-opacity="0.5" stroke="rgba(0,0,0,0.22)" stroke-width="0.5">
+            <path d="M 978 62    C 978 86    393.87 86  393.87 110 L 402 110     C 402 86     986.13 86  986.13 62 Z" />
+            <path d="M 986.13 62 C 986.13 86 767.17 86  767.17 110 L 772 110     C 772 86     990.97 86  990.97 62 Z" />
+            <path d="M 990.97 62 C 990.97 86 896.19 86  896.19 110 L 903 110     C 903 86     997.79 86  997.79 62 Z" />
+            <path d="M 997.79 62 C 997.79 86 971.24 86  971.24 110 L 973 110     C 973 86     999.55 86  999.55 62 Z" />
+            <path d="M 999.55 62 C 999.55 86 999.55 86  999.55 110 L 1000 110    C 1000 86    1000 86    1000 62 Z" />
+          </g>
+
+          <!-- Round 2 bar -->
+          <g transform="translate(0, 110)">
+            <rect x="0"   y="0" width="402" height="40" fill="var(--alp)" />
+            <rect x="402" y="0" width="370" height="40" fill="var(--lib)" />
+            <rect x="772" y="0" width="131" height="40" fill="var(--grn)" />
+            <rect x="903" y="0" width="70"  height="40" fill="var(--ind)" />
+            <rect x="973" y="0" width="27"  height="40" fill="var(--oth)" />
+            <rect x="973" y="0" width="27"  height="40" fill="url(#excluded-pattern)" />
+          </g>
+          <!-- ─── RIBBONS R2 → R3 (ON excluded — 2,620 votes) ─── -->
+          <!-- ON→ALP=786, →LIB=1572 (largest), →GRN=131, →IND=131 -->
+          <g fill="var(--oth)" fill-opacity="0.5" stroke="rgba(0,0,0,0.22)" stroke-width="0.5">
+            <path d="M 973 150    C 973 174    401.90 174  401.90 198 L 410 198    C 410 174    981.10 174  981.10 150 Z" />
+            <path d="M 981.10 150 C 981.10 174 779.80 174  779.80 198 L 796 198    C 796 174    997.30 174  997.30 150 Z" />
+            <path d="M 997.30 150 C 997.30 174 926.65 174  926.65 198 L 928 198    C 928 174    998.65 174  998.65 150 Z" />
+            <path d="M 998.65 150 C 998.65 174 998.65 174  998.65 198 L 1000 198   C 1000 174   1000 174    1000 150 Z" />
+          </g>
+
+          <!-- Round 3 bar -->
+          <g transform="translate(0, 198)">
+            <rect x="0"   y="0" width="410" height="40" fill="var(--alp)" />
+            <rect x="410" y="0" width="386" height="40" fill="var(--lib)" />
+            <rect x="796" y="0" width="132" height="40" fill="var(--grn)" />
+            <rect x="928" y="0" width="72"  height="40" fill="var(--ind)" />
+            <rect x="928" y="0" width="72"  height="40" fill="url(#excluded-pattern)" />
+          </g>
+          <!-- ─── RIBBONS R3 → R4 (IND excluded — 6,787 votes) ─── -->
+          <!-- IND→ALP=2715 (40%), →LIB=2036 (30%), →GRN=1696 (25%), →exhausted=340 (5%) -->
+          <g fill="var(--ind)" fill-opacity="0.5" stroke="rgba(0,0,0,0.22)" stroke-width="0.5">
+            <path d="M 928 238    C 928 262    410.20 262  410.20 286 L 439 286    C 439 262    956.80 262  956.80 238 Z" />
+            <path d="M 956.80 238 C 956.80 262 825.40 262  825.40 286 L 847 286    C 847 262    978.40 262  978.40 238 Z" />
+            <path d="M 978.40 238 C 978.40 262 978 262    978 286    L 996 286    C 996 262    996.40 262  996.40 238 Z" />
+          </g>
+
+          <!-- Round 4 bar -->
+          <g transform="translate(0, 286)">
+            <rect x="0"   y="0" width="439" height="40" fill="var(--alp)" />
+            <rect x="439" y="0" width="408" height="40" fill="var(--lib)" />
+            <rect x="847" y="0" width="149" height="40" fill="var(--grn)" />
+            <rect x="847" y="0" width="149" height="40" fill="url(#excluded-pattern)" />
+            <rect x="996" y="0" width="4"   height="40" fill="var(--t-5)" />
+          </g>
+
+          <!-- ─── RIBBONS R4 → R5 (GRN excluded — 14,309 votes — the dominant flow) ─── -->
+          <!-- GRN→ALP=11,447 (80%), →LIB=2,862 (20%) -->
+          <g fill="var(--grn)" fill-opacity="0.55" stroke="rgba(0,0,0,0.22)" stroke-width="0.5">
+            <path d="M 847 326 C 847 357 439 357 439 388 L 559 388 C 559 357 967 357 967 326 Z" />
+            <path d="M 967 326 C 967 357 967 357 967 388 L 996 388 C 996 357 996 357 996 326 Z" />
+          </g>
+
+          <!-- Round 5 bar (final, taller) -->
+          <g transform="translate(0, 388)">
+            <rect x="0"   y="0" width="559" height="54" fill="var(--alp)" />
+            <rect x="559" y="0" width="437" height="54" fill="var(--lib)" />
+            <rect x="996" y="0" width="4"   height="54" fill="var(--t-5)" />
+          </g>
+        </svg>
+
+          <!-- HTML overlay: round headers + bar labels (text rendered at native aspect, no SVG distortion) -->
+          <div class="wf-overlay">
+
+            <div class="rh" style="top:8px">
+              <span class="num">01 · PRIMARY</span>
+            </div>
+            <div class="rb" style="top:22px; height:40px">
+              <span class="s" style="width:39.4%"><span>ALP</span><span>39.4</span></span>
+              <span class="s" style="width:36.5%"><span>LIB</span><span>36.5</span></span>
+              <span class="s dim" style="width:12.4%"><span>GRN</span><span>12.4</span></span>
+              <span class="s dim" style="width:6.8%"><span>IND</span><span></span></span>
+              <span class="s dim" style="width:2.7%"></span>
+              <span class="s dim" style="width:2.2%"></span>
+            </div>
+
+            <div class="rh" style="top:96px">
+              <span class="num">02 · AFTER AJP</span>
+            </div>
+            <div class="rb" style="top:110px; height:40px">
+              <span class="s" style="width:40.2%"><span>ALP</span><span>40.2</span></span>
+              <span class="s" style="width:37.0%"><span>LIB</span><span>37.0</span></span>
+              <span class="s dim" style="width:13.1%"><span>GRN</span><span>13.1</span></span>
+              <span class="s dim" style="width:7.0%"><span>IND</span><span></span></span>
+              <span class="s dim" style="width:2.7%"></span>
+            </div>
+
+            <div class="rh" style="top:184px">
+              <span class="num">03 · AFTER ON</span>
+            </div>
+            <div class="rb" style="top:198px; height:40px">
+              <span class="s" style="width:41.0%"><span>ALP</span><span>41.0</span></span>
+              <span class="s" style="width:38.6%"><span>LIB</span><span>38.6</span></span>
+              <span class="s dim" style="width:13.2%"><span>GRN</span><span>13.2</span></span>
+              <span class="s dim" style="width:7.2%"></span>
+            </div>
+
+            <div class="rh" style="top:272px">
+              <span class="num">04 · AFTER IND</span>
+            </div>
+            <div class="rb" style="top:286px; height:40px">
+              <span class="s" style="width:43.9%"><span>ALP</span><span>43.9</span></span>
+              <span class="s" style="width:40.8%"><span>LIB</span><span>40.8</span></span>
+              <span class="s" style="width:14.9%"><span>GRN</span><span>15.0</span></span>
+            </div>
+
+            <div class="rh" style="top:374px">
+              <span class="num">05 · TWO-CANDIDATE PREFERRED</span>
+            </div>
+            <div class="rb" style="top:388px; height:54px">
+              <span class="s large" style="width:55.88%">
+                <div class="row-a"><span>ALP — Laxale</span><span>55.88</span></div>
+                <div class="row-b"><span>▲ Winner · 53,320 votes</span></div>
+              </span>
+              <span class="s large" style="width:43.77%">
+                <div class="row-a"><span>LIB — Lim</span><span>43.77</span></div>
+                <div class="row-b"><span>41,760 votes</span></div>
+              </span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="summary-grid">
+          <div class="result-row">
+            <span class="result-label">2PP MARGIN</span>
+            <span class="result-val alp-c">+8.81<span style="font-size:11px; color:var(--t-3); margin-left:1px">%</span></span>
+            <span class="result-detail">to ALP · 53,320 v 41,760</span>
+          </div>
+          <div class="result-row">
+            <span class="result-label">SWING vs 2022</span>
+            <span class="result-val pos">+6.54<span style="font-size:11px; color:var(--t-3); margin-left:1px">%</span></span>
+            <span class="result-detail">to ALP · improved on +2.27</span>
+          </div>
+          <div class="result-row">
+            <span class="result-label">EXHAUSTED</span>
+            <span class="result-val">340</span>
+            <span class="result-detail">0.36% of formal · GRN→IND→exhausted</span>
+          </div>
+        </div>
+
+        <div class="legend-prefs">
+          <span class="li"><span class="dot alp"></span>Labor</span>
+          <span class="li"><span class="dot lib"></span>Liberal</span>
+          <span class="li"><span class="dot grn"></span>Greens</span>
+          <span class="li"><span class="dot ind"></span>Independent</span>
+          <span class="li"><span class="dot oth"></span>Minor</span>
+          <span class="li"><span class="flow-line"></span>Preference ribbon · width = exact votes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
