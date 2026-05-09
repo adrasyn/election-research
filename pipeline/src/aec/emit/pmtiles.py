@@ -50,6 +50,36 @@ def shapefile_to_geojson(shapefile: Path, geojson_out: Path) -> Path:
     return geojson_out
 
 
+def clip_to_land(geojson_in: Path, geojson_out: Path, land_shapefile: Path) -> Path:
+    """Clip AEC polygons to a land-only mask.
+
+    AEC electorate boundaries follow cadastral lines that extend over
+    water — Sydney Harbour gets covered, and many coastal divisions
+    sweep offshore. We intersect against Natural Earth's land polygon so
+    only the actual landmass remains. Major islands that legitimately
+    sit inside electorates (Tasmania, Christmas, Cocos, Norfolk) stay
+    because NE-land has them as separate features.
+    """
+    _require_tool("ogr2ogr")
+    geojson_out.parent.mkdir(parents=True, exist_ok=True)
+    geojson_out.unlink(missing_ok=True)
+    log.info("ogr2ogr clip → %s", geojson_out.name)
+    subprocess.run(
+        [
+            "ogr2ogr",
+            "-f",
+            "GeoJSON",
+            "-clipsrc",
+            str(land_shapefile),
+            "-makevalid",  # clipping can create slivers / self-intersections
+            str(geojson_out),
+            str(geojson_in),
+        ],
+        check=True,
+    )
+    return geojson_out
+
+
 # AEC shapefiles have used a few different field names for the division
 # name across redistributions. We look for the first that matches.
 _DIVISION_NAME_FIELDS = ("Elect_div", "ELECT_DIV", "Sortname", "SORTNAME", "Name", "NAME")
