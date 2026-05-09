@@ -111,14 +111,16 @@ parties:
       (LP, LNP, CLP) sit in the blue family. Only the Nationals (NP)
       retain their distinct rural-Coalition green.
 
-  - aec_code: GRN   # REVIEW: AEC code might be "AG" — confirm
+  - aec_code: GRN
     aec_name: Australian Greens
     display: Greens
     abbr: GRN
     colour: "#2da050"
     colour_canon: "#10C25B"
     colour_soft: "rgba(45, 160, 80, 0.16)"
-    aliases: [Greens, Australian Greens, GRN, AG]
+    # State-branch codes that share the same Greens identity for our
+    # purposes (verified against AEC 2025 candidates list).
+    aliases: [Greens, Australian Greens, GRN, AG, GVIC, GTAS, GNSW, GQLD, GSA, GWA, ACTG]
     category: major
     active: true
 

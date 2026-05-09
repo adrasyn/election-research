@@ -72,3 +72,20 @@ def display_name(aec_code: str | None) -> str:
     if entry is None:
         return aec_code
     return str(entry.get("display") or aec_code)
+
+
+def display_short(aec_code: str | None) -> str:
+    """Return the canonical short abbreviation for display.
+
+    Normalises state-branch codes (e.g. GVIC → GRN). Falls back to the
+    raw AEC PartyAb if the registry doesn't recognise the code.
+    """
+    if not aec_code or not aec_code.strip():
+        return "IND"
+    code = aec_code.strip().upper()
+    if code == "IND":
+        return "IND"
+    entry = _registry().get(code)
+    if entry is None:
+        return code
+    return str(entry.get("abbr") or code).upper()

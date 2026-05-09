@@ -16,7 +16,7 @@ from typing import Any
 
 import polars as pl
 
-from ..parties import css_key
+from ..parties import css_key, display_short
 
 log = logging.getLogger(__name__)
 
@@ -202,7 +202,7 @@ def _build_winner_lookup(candidates: pl.DataFrame, tcp: pl.DataFrame) -> dict[st
             "divisionNm": win["DivisionNm"],
             "state": win["StateAb"],
             "winnerParty": css_key(win["PartyAb"]),
-            "winnerPartyAb": win["PartyAb"] or "IND",
+            "winnerPartyAb": display_short(win["PartyAb"]),
             "winnerSurname": win["Surname"],
             "tcpMargin": margin,
         }

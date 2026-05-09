@@ -11,7 +11,7 @@ from typing import Any
 
 import polars as pl
 
-from ..parties import css_key
+from ..parties import css_key, display_short
 from ..sources.mediafeed import SKIP_ROWS
 
 
@@ -57,7 +57,7 @@ def primary_for_division(first_prefs: pl.DataFrame, division_id: int) -> list[di
                 "surname": row["Surname"],
                 "givenName": row["GivenNm"],
                 "party": css_key(row["PartyAb"]),
-                "partyAb": row["PartyAb"],
+                "partyAb": display_short(row["PartyAb"]),
                 "votes": votes,
                 "pct": round(votes / total * 100, 2) if total else 0.0,
             }
@@ -105,7 +105,7 @@ def tcp_for_division(tcp: pl.DataFrame, division_id: int) -> list[dict[str, Any]
                 "surname": row["Surname"],
                 "givenName": row["GivenNm"],
                 "party": css_key(row["PartyAb"]),
-                "partyAb": row["PartyAb"],
+                "partyAb": display_short(row["PartyAb"]),
                 "votes": votes,
                 "pct": round(votes / total * 100, 2) if total else 0.0,
                 "elected": (row["Elected"] or "").strip() == "Y",

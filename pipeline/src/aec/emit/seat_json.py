@@ -3,12 +3,45 @@
 Builds the single JSON file the frontend fetches when the user clicks
 into a seat. Schema is intentionally tight — the chart generators
 (lib/waterfall.js etc.) consume slices of this directly.
+
+The seat-level TCP block is derived from the DOP final round (canonical
+AEC count including postals/absents), not from per-booth ordinary
+totals. For tight contests like Bean 2025 the two disagree, and DOP
+matches the declared winner.
 """
 from __future__ import annotations
 
 import json
 from pathlib import Path
 from typing import Any
+
+
+def tcp_from_waterfall(waterfall: dict[str, Any]) -> list[dict[str, Any]]:
+    """Derive the seat-level TCP block from the DOP final round."""
+    rounds = waterfall.get("rounds") or []
+    if not rounds:
+        return []
+    final = rounds[-1]
+    cand_meta = waterfall.get("_candidate_meta", {}) or {}
+    finalists = [(k, int(v)) for k, v in final.items() if k != "exhausted"]
+    finalists.sort(key=lambda kv: kv[1], reverse=True)
+    tcp_total = sum(v for _, v in finalists)
+    out: list[dict[str, Any]] = []
+    for idx, (cid, votes) in enumerate(finalists):
+        meta = cand_meta.get(cid, {})
+        out.append(
+            {
+                "candidateId": cid,
+                "surname": meta.get("_surname"),
+                "givenName": meta.get("_givenName"),
+                "party": meta.get("party", "oth"),
+                "partyAb": meta.get("displayShort", "IND"),
+                "votes": votes,
+                "pct": round(votes / tcp_total * 100, 2) if tcp_total else 0.0,
+                "elected": idx == 0,
+            }
+        )
+    return out
 
 
 def build_seat_json(
@@ -22,6 +55,13 @@ def build_seat_json(
     year: int,
 ) -> dict[str, Any]:
     """Assemble the full per-seat payload."""
+    # Override the booth-derived TCP (ordinary votes only) with the DOP
+    # final round, which includes postals/absents. The booth-level rows
+    # are still useful for the booth table; just not for the panel header.
+    tcp_canonical = tcp_from_waterfall(waterfall)
+    if tcp_canonical:
+        tcp = tcp_canonical
+
     # Strip private keys from waterfall before emit.
     waterfall_clean = {k: v for k, v in waterfall.items() if not k.startswith("_")}
 

@@ -11,7 +11,7 @@ from typing import Any
 
 import polars as pl
 
-from ..parties import css_key, display_name
+from ..parties import css_key, display_name, display_short
 from ..sources.mediafeed import SKIP_ROWS
 
 # In the DOP CSV, each candidate has multiple rows per round indexed by
@@ -49,14 +49,13 @@ def waterfall_for_division(dop: pl.DataFrame, division_id: int) -> dict[str, Any
     candidates = []
     for row in primary.iter_rows(named=True):
         cid = _candidate_id(row["CandidateID"])
+        short = display_short(row["PartyAb"])
         candidates.append(
             {
                 "id": cid,
                 "party": css_key(row["PartyAb"]),
-                "displayShort": (row["PartyAb"] or "IND").upper(),
-                "displayLong": (
-                    f"{(row['PartyAb'] or 'IND').upper()} — {_titlecase(row['Surname'])}"
-                ),
+                "displayShort": short,
+                "displayLong": f"{short} — {_titlecase(row['Surname'])}",
                 "_partyName": display_name(row["PartyAb"]),
                 "_surname": row["Surname"],
                 "_givenName": row["GivenNm"],
