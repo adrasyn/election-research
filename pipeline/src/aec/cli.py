@@ -197,7 +197,7 @@ def build_tiles(year: int, refresh: bool, out_path: Path, cache_dir: Path) -> No
     click.echo("▸ enrich  joining winner-party properties")
     enrich_geojson(raw_geojson, enriched_geojson, candidates=candidates, tcp=tcp)
 
-    click.echo("▸ coastline  Natural Earth 10m land")
+    click.echo("▸ coastline  GADM 4.1 admin-0 (Australia, ~1:1M)")
     land_shp = fetch_land(cache_dir, refresh=refresh)
 
     click.echo("▸ clip  AEC polygons → land only (Sydney Harbour, offshore)")
