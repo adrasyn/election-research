@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>2025 Election Research · Bennelong</title>
+<title>2025 Election Research · Melbourne</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -962,6 +962,9 @@
   }
   .booth-table .winner-pip.alp { background: var(--alp); }
   .booth-table .winner-pip.lib { background: var(--lib); }
+  .booth-table .winner-pip.grn { background: var(--grn); }
+  .booth-table .winner-pip.ind { background: var(--ind); }
+  .booth-table .winner-pip.nat { background: var(--nat); }
 
   .table-footer {
     display: flex;
@@ -1031,14 +1034,17 @@
   }
   .chart-line-alp { stroke: var(--alp); stroke-width: 1.6; fill: none; }
   .chart-line-lib { stroke: var(--lib); stroke-width: 1.6; fill: none; }
+  .chart-line-grn { stroke: var(--grn); stroke-width: 1.6; fill: none; }
   .chart-fill-alp { fill: var(--alp-soft); }
   .chart-fill-lib { fill: var(--lib-soft); }
+  .chart-fill-grn { fill: var(--grn-soft); }
   .chart-pt {
     fill: var(--bg-base);
     stroke-width: 1.4;
   }
   .chart-pt.alp { stroke: var(--alp); }
   .chart-pt.lib { stroke: var(--lib); }
+  .chart-pt.grn { stroke: var(--grn); }
   .chart-pt.active {
     stroke: var(--accent);
     stroke-width: 1.6;
@@ -1481,7 +1487,7 @@
   <div class="chrome-sub">
     <div class="crumb">CTH/2025</div>
     <div class="crumb"><span class="arr">›</span>NSW</div>
-    <div class="crumb active"><span class="arr">›</span>BENNELONG · DIV 014</div>
+    <div class="crumb active"><span class="arr">›</span>MELBOURNE · DIV 099</div>
     <div class="sub-spacer"></div>
     <div class="sub-meta">
       <div class="item"><span class="lbl">SEATS</span><span>150</span></div>
@@ -1592,25 +1598,25 @@
         <!-- Electorate dots will be inserted here by JS -->
         <g id="seat-dots"></g>
 
-        <!-- Active seat: Bennelong (Sydney inner-NW) approx (770, 478) -->
+        <!-- Active seat: Melbourne (CBD/inner-north) approx (660, 632) -->
         <g class="active-marker">
           <!-- Crosshair lines extending to edges -->
-          <line class="crosshair" x1="770" y1="0"   x2="770" y2="478" />
-          <line class="crosshair" x1="770" y1="478" x2="770" y2="700" />
-          <line class="crosshair" x1="0"   y1="478" x2="770" y2="478" />
-          <line class="crosshair" x1="770" y1="478" x2="1000" y2="478" />
+          <line class="crosshair" x1="660" y1="0"   x2="660" y2="632" />
+          <line class="crosshair" x1="660" y1="632" x2="660" y2="800" />
+          <line class="crosshair" x1="0"   y1="632" x2="660" y2="632" />
+          <line class="crosshair" x1="660" y1="632" x2="1000" y2="632" />
 
           <!-- Pulse rings -->
-          <circle cx="770" cy="478" r="14" class="pulse" style="animation-delay: 0s" />
-          <circle cx="770" cy="478" r="14" class="pulse" style="animation-delay: 1.2s" />
+          <circle cx="660" cy="632" r="14" class="pulse" style="animation-delay: 0s" />
+          <circle cx="660" cy="632" r="14" class="pulse" style="animation-delay: 1.2s" />
 
           <!-- Static rings -->
-          <circle class="seat-active-ring r3" cx="770" cy="478" r="22" />
-          <circle class="seat-active-ring r2" cx="770" cy="478" r="16" />
-          <circle class="seat-active-ring"    cx="770" cy="478" r="11" />
+          <circle class="seat-active-ring r3" cx="660" cy="632" r="22" />
+          <circle class="seat-active-ring r2" cx="660" cy="632" r="16" />
+          <circle class="seat-active-ring"    cx="660" cy="632" r="11" />
 
           <!-- The active dot -->
-          <circle class="seat-active" cx="770" cy="478" r="4.5" />
+          <circle class="seat-active" cx="660" cy="632" r="4.5" />
         </g>
       </svg>
     </div>
@@ -1627,20 +1633,20 @@ ZOOM <span class="em">0.8×</span> · PROJ EQUAL EARTH</div>
     <div class="readout readout-bl">
       <div class="readout-label">Cursor · selection</div>
       <div class="readout-value mono">
-SEAT     <span class="em">BENNELONG</span>     NSW · 014
-COORDS   <span class="accent">−33.78° S    151.08° E</span>
-WINNER   <span class="alp-c">▲ ALP</span>      MARGIN +8.81%
-SWING    <span class="readout-tick">+6.54% → ALP</span>
-BOOTHS   31      ENROLLED 95,420</div>
+SEAT     <span class="em">MELBOURNE</span>     VIC · 099
+COORDS   <span class="accent">−37.81° S    144.96° E</span>
+WINNER   <span class="alp-c">▲ ALP</span>      MARGIN +1.82%
+SWING    <span class="readout-tick">+11.7% → ALP</span>
+BOOTHS   38      ENROLLED 117,840</div>
     </div>
 
     <!-- Legend -->
     <div class="legend">
       <div class="legend-title">2025 H/R · winner</div>
-      <div class="legend-row"><span class="swatch" style="background:var(--alp)"></span><span>Labor (ALP)</span><span class="count">94</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--alp)"></span><span>Labor (ALP)</span><span class="count">95</span></div>
       <div class="legend-row"><span class="swatch" style="background:var(--lib)"></span><span>Liberal/LNP</span><span class="count">28</span></div>
       <div class="legend-row"><span class="swatch" style="background:var(--nat)"></span><span>Nationals</span><span class="count">15</span></div>
-      <div class="legend-row"><span class="swatch" style="background:var(--grn)"></span><span>Greens</span><span class="count">01</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--grn)"></span><span>Greens</span><span class="count">00</span></div>
       <div class="legend-row"><span class="swatch" style="background:var(--ind)"></span><span>Independent</span><span class="count">11</span></div>
       <div class="legend-row"><span class="swatch" style="background:var(--oth)"></span><span>Other</span><span class="count">01</span></div>
     </div>
@@ -1661,22 +1667,22 @@ BOOTHS   31      ENROLLED 95,420</div>
     </div>
 
     <!-- ─────────────────────────────────────────
-         RIGHT PANEL (Bennelong)
+         RIGHT PANEL (Melbourne)
          ───────────────────────────────────────── -->
     <aside class="panel">
       <button class="panel-close" title="Close">×</button>
 
       <header class="panel-head">
         <div class="meta-strip">
-          <span>NSW</span>
+          <span>VIC</span>
           <span class="sep">/</span>
-          <span>DIV 014</span>
+          <span>DIV 099</span>
           <span class="sep">/</span>
-          <span class="meta-tag alp-tag">ALP RETAIN</span>
+          <span class="meta-tag alp-tag">ALP GAIN</span>
         </div>
 
-        <h1 class="panel-title">Bennelong</h1>
-        <p class="panel-sub">Inner north-west Sydney. Held by Liberal 1949–2007 (John Howard), ALP 2007–10, Liberal 2010–22, ALP 2022–. Re-elected 2025 with increased margin amid national Labor swing.</p>
+        <h1 class="panel-title">Melbourne</h1>
+        <p class="panel-sub">CBD and inner-north Melbourne — Carlton, Fitzroy, North Melbourne, Kensington, Parkville, Flemington. Held by ALP 1904–2010, Greens (Adam Bandt) 2010–2025. Bandt loses on Liberal preferences as Labor closes the primary gap; the Greens’ only lower-house seat falls.</p>
       </header>
 
       <div class="panel-body">
@@ -1684,52 +1690,52 @@ BOOTHS   31      ENROLLED 95,420</div>
         <section class="panel-context">
           <div class="triplet">
             <div class="cell">
-              <div class="cell-label">2PP Margin</div>
-              <div class="cell-value">+8.81<span class="unit">%</span></div>
-              <div class="cell-foot alp-c"><span class="arr">▲</span>ALP · 53,320 v 41,760</div>
+              <div class="cell-label">2CP Margin</div>
+              <div class="cell-value">+1.82<span class="unit">%</span></div>
+              <div class="cell-foot alp-c"><span class="arr">▲</span>ALP · 50,837 v 49,045</div>
             </div>
             <div class="cell">
               <div class="cell-label">Swing</div>
-              <div class="cell-value">+6.54<span class="unit">%</span></div>
-              <div class="cell-foot"><span class="arr">→</span>ALP · vs 2022</div>
+              <div class="cell-value">+11.7<span class="unit">%</span></div>
+              <div class="cell-foot"><span class="arr">→</span>ALP · 2CP vs 2022</div>
             </div>
             <div class="cell">
               <div class="cell-label">Turnout</div>
-              <div class="cell-value">91.0<span class="unit">%</span></div>
-              <div class="cell-foot"><span class="arr" style="color:var(--t-4)">·</span>OF 95,420 ENROLLED</div>
+              <div class="cell-value">87.3<span class="unit">%</span></div>
+              <div class="cell-foot"><span class="arr" style="color:var(--t-4)">·</span>OF 117,840 ENROLLED</div>
             </div>
           </div>
 
           <div class="mp-row">
-            <div class="mp-portrait">JL</div>
+            <div class="mp-portrait">SW</div>
             <div class="mp-text">
-              <div class="mp-name">Jerome Laxale</div>
+              <div class="mp-name">Sarah Witty</div>
               <div class="mp-meta">
                 <span class="party-chip alp">ALP</span>
-                <span>ELECTED 2022 · RE-ELECTED 2025 · 2ND TERM</span>
+                <span>ELECTED 2025 · 1ST TERM · DEFEATED A. BANDT (GRN, MP 2010–25)</span>
               </div>
             </div>
           </div>
 
           <div class="primary">
             <div class="primary-track">
-              <span style="background:var(--alp); width:39.4%"></span>
-              <span style="background:var(--lib); width:36.5%"></span>
-              <span style="background:var(--grn); width:12.4%"></span>
-              <span style="background:var(--ind); width:6.8%"></span>
-              <span style="background:var(--oth); width:4.9%"></span>
+              <span style="background:var(--grn); width:38.0%"></span>
+              <span style="background:var(--alp); width:32.0%"></span>
+              <span style="background:var(--lib); width:21.0%"></span>
+              <span style="background:var(--ind); width:5.0%"></span>
+              <span style="background:var(--oth); width:4.0%"></span>
             </div>
             <div class="primary-labels">
-              <div class="pl alp-c"><span class="who">ALP</span><span class="v">39.4</span></div>
-              <div class="pl lib-c"><span class="who">LIB</span><span class="v">36.5</span></div>
-              <div class="pl grn-c"><span class="who">GRN</span><span class="v">12.4</span></div>
-              <div class="pl"><span class="who">OTH</span><span class="v">11.7</span></div>
+              <div class="pl grn-c"><span class="who">GRN</span><span class="v">38.0</span></div>
+              <div class="pl alp-c"><span class="who">ALP</span><span class="v">32.0</span></div>
+              <div class="pl lib-c"><span class="who">LIB</span><span class="v">21.0</span></div>
+              <div class="pl"><span class="who">OTH</span><span class="v">9.0</span></div>
             </div>
           </div>
         </section>
 
         <nav class="panel-tabs">
-          <button class="active">Booths <span class="num-tag">31</span></button>
+          <button class="active">Booths <span class="num-tag">38</span></button>
           <button>History <span class="num-tag">6</span></button>
           <button>Demographics <span class="num-tag">ABS</span></button>
           <button>Preferences <span class="num-tag">5</span></button>
@@ -1740,101 +1746,105 @@ BOOTHS   31      ENROLLED 95,420</div>
         <section class="pillar">
           <div class="pillar-head">
             <h2 class="pillar-title">Booth-level results</h2>
-            <span class="pillar-meta">31 BOOTHS · 95,420 VOTES</span>
+            <span class="pillar-meta">38 BOOTHS · 102,840 VOTES</span>
           </div>
 
           <div class="seat-inset">
-            <span class="micro-readout-tl">BENNELONG · 30 BOOTHS</span>
+            <span class="micro-readout-tl">MELBOURNE · 38 BOOTHS</span>
             <svg viewBox="0 0 480 200" preserveAspectRatio="xMidYMid meet">
-              <!-- electorate outline (stylised) -->
+              <!-- electorate outline (stylised) — Melbourne CBD + inner-north panhandle -->
               <path class="seat-shape" d="
-                M 60 96
-                C 80 70  120 56  168 60
-                C 220 64  274 72  316 84
-                C 356 96  392 110 414 132
-                C 428 150 422 168 396 178
-                C 348 188 286 184 232 174
-                C 178 168 128 158 90 148
-                C 64 138  52 116  60 96 Z
+                M 156 20
+                C 178 16  208 18  226 28
+                C 240 38  244 56  240 76
+                C 238 92  240 108 246 124
+                C 256 142 282 150 312 148
+                C 344 146 374 154 392 168
+                C 408 180 402 192 376 192
+                C 332 192 276 188 232 184
+                C 196 180 168 178 144 170
+                C 120 162 108 144 112 122
+                C 116 100 124 78  132 60
+                C 138 42  144 26  156 20 Z
               " />
-              <!-- subtle inner river (Parramatta River) -->
-              <path d="M 80 104 C 120 110 180 116 240 122 C 300 128 360 134 400 142"
+              <!-- subtle inner waterway (Yarra River) -->
+              <path d="M 110 158 C 150 162 200 164 250 162 C 300 160 350 162 400 168"
                     stroke="rgba(93, 169, 255, 0.18)" stroke-width="1.4" fill="none" />
 
               <!-- Booth dots, distributed -->
               <g id="booth-dots"></g>
             </svg>
-            <span class="micro-readout">2PP · WINNER</span>
+            <span class="micro-readout">2CP · WINNER</span>
           </div>
 
           <table class="booth-table">
             <thead>
               <tr>
                 <th>Booth</th>
-                <th class="r">2PP</th>
+                <th class="r">2CP</th>
                 <th class="r">Swing</th>
                 <th class="r">Votes</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="booth-name"><span class="winner-pip alp"></span>Eastwood Public</td>
-                <td class="r">ALP 56.4</td>
-                <td class="r swing-cell pos">+8.2</td>
-                <td class="r">3,218</td>
+                <td class="booth-name"><span class="winner-pip grn"></span>Carlton North PS</td>
+                <td class="r">GRN 58.4</td>
+                <td class="r swing-cell neg">−6.8</td>
+                <td class="r">3,112</td>
               </tr>
               <tr>
-                <td class="booth-name"><span class="winner-pip alp"></span>Ryde Civic Hall</td>
-                <td class="r">ALP 54.9</td>
-                <td class="r swing-cell pos">+6.7</td>
-                <td class="r">2,901</td>
+                <td class="booth-name"><span class="winner-pip grn"></span>Princes Hill SC</td>
+                <td class="r">GRN 56.1</td>
+                <td class="r swing-cell neg">−7.4</td>
+                <td class="r">2,884</td>
               </tr>
               <tr>
-                <td class="booth-name"><span class="winner-pip alp"></span>Marsfield Public</td>
-                <td class="r">ALP 53.1</td>
-                <td class="r swing-cell pos">+7.4</td>
-                <td class="r">2,144</td>
+                <td class="booth-name"><span class="winner-pip grn"></span>Fitzroy Town Hall</td>
+                <td class="r">GRN 54.0</td>
+                <td class="r swing-cell neg">−9.1</td>
+                <td class="r">2,640</td>
               </tr>
               <tr>
-                <td class="booth-name"><span class="winner-pip alp"></span>Epping Heights</td>
-                <td class="r">ALP 51.7</td>
-                <td class="r swing-cell pos">+5.9</td>
-                <td class="r">2,038</td>
+                <td class="booth-name"><span class="winner-pip grn"></span>North Carlton PS</td>
+                <td class="r">GRN 52.6</td>
+                <td class="r swing-cell neg">−10.4</td>
+                <td class="r">2,415</td>
               </tr>
               <tr>
-                <td class="booth-name"><span class="winner-pip alp"></span>West Ryde Public</td>
-                <td class="r">ALP 50.8</td>
-                <td class="r swing-cell pos">+4.1</td>
-                <td class="r">1,887</td>
+                <td class="booth-name"><span class="winner-pip alp"></span>North Melbourne PS</td>
+                <td class="r">ALP 50.9</td>
+                <td class="r swing-cell pos">+11.2</td>
+                <td class="r">2,108</td>
               </tr>
               <tr>
-                <td class="booth-name"><span class="winner-pip lib"></span>Ermington PS</td>
-                <td class="r">LIB 50.2</td>
-                <td class="r swing-cell pos">+3.6</td>
-                <td class="r">1,592</td>
+                <td class="booth-name"><span class="winner-pip alp"></span>Kensington PS</td>
+                <td class="r">ALP 53.8</td>
+                <td class="r swing-cell pos">+12.7</td>
+                <td class="r">1,982</td>
               </tr>
               <tr>
-                <td class="booth-name"><span class="winner-pip lib"></span>North Ryde PS</td>
-                <td class="r">LIB 51.9</td>
-                <td class="r swing-cell pos">+2.8</td>
-                <td class="r">1,461</td>
+                <td class="booth-name"><span class="winner-pip alp"></span>Flemington PS</td>
+                <td class="r">ALP 56.2</td>
+                <td class="r swing-cell pos">+14.0</td>
+                <td class="r">1,756</td>
               </tr>
               <tr>
-                <td class="booth-name"><span class="winner-pip lib"></span>Denistone East PS</td>
-                <td class="r">LIB 53.4</td>
-                <td class="r swing-cell pos">+5.1</td>
-                <td class="r">1,318</td>
+                <td class="booth-name"><span class="winner-pip alp"></span>Docklands LC</td>
+                <td class="r">ALP 58.7</td>
+                <td class="r swing-cell pos">+15.4</td>
+                <td class="r">1,492</td>
               </tr>
               <tr>
-                <td class="booth-name"><span class="winner-pip lib"></span>Carlingford West</td>
-                <td class="r">LIB 56.2</td>
-                <td class="r swing-cell pos">+3.0</td>
-                <td class="r">1,205</td>
+                <td class="booth-name"><span class="winner-pip alp"></span>CBD · Melb Town Hall</td>
+                <td class="r">ALP 60.1</td>
+                <td class="r swing-cell pos">+13.8</td>
+                <td class="r">1,344</td>
               </tr>
             </tbody>
           </table>
           <div class="table-footer">
-            <span>Showing 9 of 31 · sorted by 2PP</span>
+            <span>Showing 9 of 38 · sorted by 2CP</span>
             <button>View all booths →</button>
           </div>
         </section>
@@ -1846,8 +1856,8 @@ BOOTHS   31      ENROLLED 95,420</div>
             <span class="pillar-meta">2010 → 2025 · 6 ELECTIONS</span>
           </div>
 
-          <div id="trend-bennelong"></div>
-          <div id="stack-bennelong"></div>
+          <div id="trend-melbourne"></div>
+          <div id="stack-melbourne"></div>
         </section>
 
         <!-- ───────── PILLAR 3 — DEMOGRAPHICS ───────── -->
@@ -1860,42 +1870,42 @@ BOOTHS   31      ENROLLED 95,420</div>
           <div class="demo-grid">
             <div class="demo-cell">
               <div class="demo-label">Median age</div>
-              <div class="demo-value">39<span class="unit">yrs</span></div>
-              <div class="demo-foot"><span class="nat-marker">↑ NAT 38</span><span class="delta-pos">+1.0</span></div>
+              <div class="demo-value">31<span class="unit">yrs</span></div>
+              <div class="demo-foot"><span class="nat-marker">↓ NAT 38</span><span class="delta-neg">−7.0</span></div>
             </div>
             <div class="demo-cell">
               <div class="demo-label">Median household</div>
-              <div class="demo-value">$2,050<span class="unit">/wk</span></div>
-              <div class="demo-foot"><span class="nat-marker">↑ NAT $1,746</span><span class="delta-pos">+17%</span></div>
+              <div class="demo-value">$2,210<span class="unit">/wk</span></div>
+              <div class="demo-foot"><span class="nat-marker">↑ NAT $1,746</span><span class="delta-pos">+27%</span></div>
             </div>
             <div class="demo-cell">
               <div class="demo-label">Born overseas</div>
-              <div class="demo-value">50.4<span class="unit">%</span></div>
-              <div class="demo-foot"><span class="nat-marker">↑ NAT 27.6%</span><span class="delta-pos">+22.8</span></div>
+              <div class="demo-value">52.7<span class="unit">%</span></div>
+              <div class="demo-foot"><span class="nat-marker">↑ NAT 27.6%</span><span class="delta-pos">+25.1</span></div>
             </div>
             <div class="demo-cell">
               <div class="demo-label">Bachelor +</div>
-              <div class="demo-value">52.1<span class="unit">%</span></div>
-              <div class="demo-foot"><span class="nat-marker">↑ NAT 26.3%</span><span class="delta-pos">+25.8</span></div>
+              <div class="demo-value">63.9<span class="unit">%</span></div>
+              <div class="demo-foot"><span class="nat-marker">↑ NAT 26.3%</span><span class="delta-pos">+37.6</span></div>
             </div>
             <div class="demo-cell">
-              <div class="demo-label">Mortgage stress</div>
-              <div class="demo-value">14.6<span class="unit">%</span></div>
+              <div class="demo-label">Renter households</div>
+              <div class="demo-value">68.4<span class="unit">%</span></div>
               <div class="demo-spark">
                 <svg viewBox="0 0 100 22" preserveAspectRatio="none">
-                  <path class="spark-fill" d="M 0 18 L 12 14 L 24 16 L 36 12 L 48 10 L 60 11 L 72 8 L 84 6 L 100 4 L 100 22 L 0 22 Z"/>
-                  <path class="spark-line" d="M 0 18 L 12 14 L 24 16 L 36 12 L 48 10 L 60 11 L 72 8 L 84 6 L 100 4"/>
+                  <path class="spark-fill" d="M 0 14 L 12 12 L 24 11 L 36 9 L 48 8 L 60 7 L 72 6 L 84 5 L 100 4 L 100 22 L 0 22 Z"/>
+                  <path class="spark-line" d="M 0 14 L 12 12 L 24 11 L 36 9 L 48 8 L 60 7 L 72 6 L 84 5 L 100 4"/>
                   <line class="spark-mark" x1="100" y1="0" x2="100" y2="22" />
                 </svg>
               </div>
             </div>
             <div class="demo-cell">
               <div class="demo-label">Median dwelling rent</div>
-              <div class="demo-value">$575<span class="unit">/wk</span></div>
+              <div class="demo-value">$640<span class="unit">/wk</span></div>
               <div class="demo-spark">
                 <svg viewBox="0 0 100 22" preserveAspectRatio="none">
-                  <path class="spark-fill" d="M 0 20 L 16 17 L 32 14 L 48 13 L 64 10 L 80 6 L 100 3 L 100 22 L 0 22 Z"/>
-                  <path class="spark-line" d="M 0 20 L 16 17 L 32 14 L 48 13 L 64 10 L 80 6 L 100 3"/>
+                  <path class="spark-fill" d="M 0 20 L 16 18 L 32 16 L 48 14 L 64 10 L 80 5 L 100 2 L 100 22 L 0 22 Z"/>
+                  <path class="spark-line" d="M 0 20 L 16 18 L 32 16 L 48 14 L 64 10 L 80 5 L 100 2"/>
                 </svg>
               </div>
             </div>
@@ -1905,28 +1915,28 @@ BOOTHS   31      ENROLLED 95,420</div>
               <div class="mix-rows">
                 <div class="mix-row">
                   <span class="name">Chinese</span>
-                  <div class="bar-track"><span style="width:24.0%"></span><span class="nat" style="left:5.5%"></span></div>
-                  <span class="v">24.0%</span>
+                  <div class="bar-track"><span style="width:18.4%"></span><span class="nat" style="left:5.5%"></span></div>
+                  <span class="v">18.4%</span>
                 </div>
                 <div class="mix-row">
                   <span class="name">English</span>
-                  <div class="bar-track"><span style="width:14.6%"></span><span class="nat" style="left:33.0%"></span></div>
-                  <span class="v">14.6%</span>
+                  <div class="bar-track"><span style="width:17.0%"></span><span class="nat" style="left:33.0%"></span></div>
+                  <span class="v">17.0%</span>
                 </div>
                 <div class="mix-row">
                   <span class="name">Australian</span>
-                  <div class="bar-track"><span style="width:12.0%"></span><span class="nat" style="left:29.0%"></span></div>
-                  <span class="v">12.0%</span>
-                </div>
-                <div class="mix-row">
-                  <span class="name">Korean</span>
-                  <div class="bar-track"><span style="width:7.4%"></span><span class="nat" style="left:0.6%"></span></div>
-                  <span class="v">7.4%</span>
+                  <div class="bar-track"><span style="width:14.2%"></span><span class="nat" style="left:29.0%"></span></div>
+                  <span class="v">14.2%</span>
                 </div>
                 <div class="mix-row">
                   <span class="name">Indian</span>
-                  <div class="bar-track"><span style="width:6.0%"></span><span class="nat" style="left:3.1%"></span></div>
-                  <span class="v">6.0%</span>
+                  <div class="bar-track"><span style="width:8.6%"></span><span class="nat" style="left:3.1%"></span></div>
+                  <span class="v">8.6%</span>
+                </div>
+                <div class="mix-row">
+                  <span class="name">Italian</span>
+                  <div class="bar-track"><span style="width:6.1%"></span><span class="nat" style="left:3.7%"></span></div>
+                  <span class="v">6.1%</span>
                 </div>
               </div>
               <div class="demo-foot" style="margin-top:8px"><span class="nat-marker">│ NATIONAL %</span></div>
@@ -1937,28 +1947,28 @@ BOOTHS   31      ENROLLED 95,420</div>
               <div class="mix-rows">
                 <div class="mix-row">
                   <span class="name">No religion</span>
-                  <div class="bar-track"><span style="width:36.5%"></span><span class="nat" style="left:38.9%"></span></div>
-                  <span class="v">36.5%</span>
+                  <div class="bar-track"><span style="width:55.8%"></span><span class="nat" style="left:38.9%"></span></div>
+                  <span class="v">55.8%</span>
                 </div>
                 <div class="mix-row">
                   <span class="name">Catholic</span>
-                  <div class="bar-track"><span style="width:18.7%"></span><span class="nat" style="left:20.0%"></span></div>
-                  <span class="v">18.7%</span>
-                </div>
-                <div class="mix-row">
-                  <span class="name">Anglican</span>
-                  <div class="bar-track"><span style="width:8.3%"></span><span class="nat" style="left:9.8%"></span></div>
-                  <span class="v">8.3%</span>
+                  <div class="bar-track"><span style="width:13.9%"></span><span class="nat" style="left:20.0%"></span></div>
+                  <span class="v">13.9%</span>
                 </div>
                 <div class="mix-row">
                   <span class="name">Buddhism</span>
-                  <div class="bar-track"><span style="width:6.7%"></span><span class="nat" style="left:2.4%"></span></div>
-                  <span class="v">6.7%</span>
+                  <div class="bar-track"><span style="width:5.4%"></span><span class="nat" style="left:2.4%"></span></div>
+                  <span class="v">5.4%</span>
                 </div>
                 <div class="mix-row">
                   <span class="name">Hinduism</span>
-                  <div class="bar-track"><span style="width:3.1%"></span><span class="nat" style="left:2.7%"></span></div>
-                  <span class="v">3.1%</span>
+                  <div class="bar-track"><span style="width:5.0%"></span><span class="nat" style="left:2.7%"></span></div>
+                  <span class="v">5.0%</span>
+                </div>
+                <div class="mix-row">
+                  <span class="name">Anglican</span>
+                  <div class="bar-track"><span style="width:3.6%"></span><span class="nat" style="left:9.8%"></span></div>
+                  <span class="v">3.6%</span>
                 </div>
               </div>
             </div>
@@ -1969,30 +1979,30 @@ BOOTHS   31      ENROLLED 95,420</div>
         <section class="pillar">
           <div class="pillar-head">
             <h2 class="pillar-title">Preference distribution</h2>
-            <span class="pillar-meta">5 ROUNDS · 95,420 FORMAL</span>
+            <span class="pillar-meta">5 ROUNDS · 102,840 FORMAL</span>
           </div>
 
           <div class="prefs-intro">
-            Each round excludes the lowest-polling candidate. Ribbons between rounds show their preferences flowing to remaining candidates — every ribbon's width represents an exact number of votes, conserved end-to-end (Sankey-style).
+            Each round excludes the lowest-polling candidate. Ribbons between rounds show their preferences flowing to remaining candidates — every ribbon's width represents an exact number of votes, conserved end-to-end (Sankey-style). Melbourne flips on Liberal preferences in Round 5 — Labor closes a six-point primary deficit on the LIB exclusion.
           </div>
 
-          <div class="waterfall" id="wf-bennelong"></div>
+          <div class="waterfall" id="wf-melbourne"></div>
 
           <div class="summary-grid">
             <div class="result-row">
-              <span class="result-label">2PP MARGIN</span>
-              <span class="result-val alp-c">+8.81<span style="font-size:11px; color:var(--t-3); margin-left:1px">%</span></span>
-              <span class="result-detail">to ALP · 53,320 v 41,760</span>
+              <span class="result-label">2CP MARGIN</span>
+              <span class="result-val alp-c">+1.82<span style="font-size:11px; color:var(--t-3); margin-left:1px">%</span></span>
+              <span class="result-detail">to ALP · 50,837 v 49,045</span>
             </div>
             <div class="result-row">
               <span class="result-label">SWING vs 2022</span>
-              <span class="result-val pos">+6.54<span style="font-size:11px; color:var(--t-3); margin-left:1px">%</span></span>
-              <span class="result-detail">to ALP · improved on +2.27</span>
+              <span class="result-val pos">+11.7<span style="font-size:11px; color:var(--t-3); margin-left:1px">%</span></span>
+              <span class="result-detail">to ALP · GRN had 60.0 in 2022</span>
             </div>
             <div class="result-row">
               <span class="result-label">EXHAUSTED</span>
-              <span class="result-val">340</span>
-              <span class="result-detail">0.36% of formal · GRN→IND→exhausted</span>
+              <span class="result-val">2,958</span>
+              <span class="result-detail">2.88% of formal · driven by LIB→exhaust</span>
             </div>
           </div>
 
@@ -2022,7 +2032,7 @@ BOOTHS   31      ENROLLED 95,420</div>
     <div class="seg"><span class="lbl">PROJ</span><span class="v">Equal Earth</span></div>
     <div class="seg"><span class="lbl">SEATS</span><span class="v">150 · 100% reporting</span></div>
     <div class="seg"><span class="lbl">2PP</span><span class="v">ALP 55.21 · LIB 44.79</span></div>
-    <div class="seg"><span class="lbl">SELECTED</span><span class="v acc">BENNELONG · NSW</span></div>
+    <div class="seg"><span class="lbl">SELECTED</span><span class="v acc">MELBOURNE · VIC</span></div>
     <div class="grow"></div>
     <div class="seg"><span class="lbl">REV</span><span class="v">v0.2 · 2026.05.08</span></div>
     <div class="seg"><span class="lbl">⏱</span><span class="v">QUERY 12 ms</span></div>
@@ -2034,64 +2044,63 @@ BOOTHS   31      ENROLLED 95,420</div>
 <script src="lib/primarystack.js"></script>
 <script>
 /* ────────────────────────────────────────────────────────────
-   Render Bennelong 2025 — waterfall, trend, primary stack.
+   Render Melbourne 2025 — waterfall, trend, primary stack.
    All three driven by data; generators in lib/ enforce conventions.
    ──────────────────────────────────────────────────────────── */
 (function () {
   // ── Preference waterfall ──
   if (typeof renderWaterfall === 'function') {
-    const host = document.getElementById('wf-bennelong');
+    const host = document.getElementById('wf-melbourne');
     if (host) renderWaterfall(host, {
-      totalFormal: 95420,
+      totalFormal: 102840,
       candidates: [
-        { id: 'ALP', party: 'alp', displayShort: 'ALP', displayLong: 'ALP — Laxale' },
-        { id: 'LIB', party: 'lib', displayShort: 'LIB', displayLong: 'LIB — Lim' },
-        { id: 'GRN', party: 'grn', displayShort: 'GRN' },
-        { id: 'IND', party: 'ind', displayShort: 'IND' },
-        { id: 'ON',  party: 'on',  displayShort: 'ON'  },
-        { id: 'AJP', party: 'ajp', displayShort: 'AJP' },
+        { id: 'GRN', party: 'grn', displayShort: 'GRN', displayLong: 'GRN — Bandt' },
+        { id: 'ALP', party: 'alp', displayShort: 'ALP', displayLong: 'ALP — Witty' },
+        { id: 'LIB', party: 'lib', displayShort: 'LIB', displayLong: 'LIB — Hamer' },
+        { id: 'IND', party: 'ind', displayShort: 'IND', displayLong: 'IND' },
+        { id: 'ON',  party: 'on',  displayShort: 'ON',  displayLong: 'One Nation' },
+        { id: 'ANJ', party: 'ajp', displayShort: 'ANJ', displayLong: 'Animal Justice' },
       ],
       rounds: [
-        { ALP: 37595, LIB: 34828, GRN: 11832, IND: 6489, ON: 2577, AJP: 2099 },
-        { ALP: 38358, LIB: 35305, GRN: 12500, IND: 6679, ON: 2578 },
-        { ALP: 39122, LIB: 36832, GRN: 12596, IND: 6870 },
-        { ALP: 41889, LIB: 38931, GRN: 14600 },
-        { ALP: 53320, LIB: 41760, exhausted: 340 },
+        { GRN: 39079, ALP: 32909, LIB: 21596, IND: 5142, ON: 2365, ANJ: 1748 },
+        { GRN: 39953, ALP: 33346, LIB: 21736, IND: 5352, ON: 2452, exhausted: 1 },
+        { GRN: 40076, ALP: 33836, LIB: 22962, IND: 5720, exhausted: 246 },
+        { GRN: 43222, ALP: 35552, LIB: 23248, exhausted: 818 },
+        { GRN: 49045, ALP: 50837, exhausted: 2958 },
       ],
     });
   }
 
-  // ── Two-Party preferred trend (2010–2025) ──
+  // ── Two-Candidate preferred trend (2010–2025) ──
   if (typeof renderTrendChart === 'function') {
-    const host = document.getElementById('trend-bennelong');
+    const host = document.getElementById('trend-melbourne');
     if (host) renderTrendChart(host, {
-      title: 'Two-Party preferred · Bennelong',
+      title: 'Two-Candidate preferred · Melbourne',
       xLabels: ['2010', '2013', '2016', '2019', '2022', '2025'],
       threshold: 50,
       series: [
-        { id: 'LIB', party: 'lib', label: 'LIB', points: [51.7, 52.0, 50.0, 50.7, 48.9, 45.6] },
-        { id: 'ALP', party: 'alp', label: 'ALP', points: [48.3, 48.0, 50.0, 49.3, 51.1, 54.4] },
+        { id: 'GRN', party: 'grn', label: 'GRN', points: [56.0, 55.3, 56.7, 58.5, 60.0, 49.16] },
+        { id: 'ALP', party: 'alp', label: 'ALP', points: [44.0, 44.7, 43.3, 41.5, 40.0, 50.84] },
       ],
     });
   }
 
   // ── Primary-vote stack (2010–2025) ──
   if (typeof renderPrimaryStack === 'function') {
-    const host = document.getElementById('stack-bennelong');
+    const host = document.getElementById('stack-melbourne');
     if (host) renderPrimaryStack(host, {
       title: 'Primary vote · stacked',
       meta:  '% OF VOTES',
-      partyOrder: ['LIB', 'ALP', 'GRN', 'OTH'],
-      partyOf:    { LIB: 'lib', ALP: 'alp', GRN: 'grn', OTH: 'oth' },
+      partyOrder: ['GRN', 'ALP', 'LIB', 'OTH'],
+      partyOf:    { GRN: 'grn', ALP: 'alp', LIB: 'lib', OTH: 'oth' },
       activeYear: '2025',
       rows: [
-        { year: '2010', shares: { LIB: 46.8, ALP: 33.6, GRN: 11.4, OTH: 8.2 } },
-        { year: '2013', shares: { LIB: 50.4, ALP: 32.1, GRN:  9.7, OTH: 7.8 } },
-        { year: '2016', shares: { LIB: 46.0, ALP: 38.5, GRN:  8.7, OTH: 6.8 } },
-        { year: '2019', shares: { LIB: 45.7, ALP: 36.8, GRN:  9.4, OTH: 8.1 } },
-        { year: '2022', shares: { LIB: 38.8, ALP: 38.4, GRN: 11.2, OTH: 11.6 } },
-        // In 2025 ALP overtakes LIB on primary — order kept stable for visual continuity.
-        { year: '2025', shares: { LIB: 36.5, ALP: 39.4, GRN: 12.4, OTH: 11.7 } },
+        { year: '2010', shares: { GRN: 36.0, ALP: 38.1, LIB: 20.7, OTH:  5.2 } },
+        { year: '2013', shares: { GRN: 42.6, ALP: 26.4, LIB: 25.0, OTH:  6.0 } },
+        { year: '2016', shares: { GRN: 43.7, ALP: 27.0, LIB: 21.4, OTH:  7.9 } },
+        { year: '2019', shares: { GRN: 49.3, ALP: 22.0, LIB: 21.6, OTH:  7.1 } },
+        { year: '2022', shares: { GRN: 49.6, ALP: 25.4, LIB: 17.4, OTH:  7.6 } },
+        { year: '2025', shares: { GRN: 38.0, ALP: 32.0, LIB: 21.0, OTH:  9.0 } },
       ],
     });
   }
@@ -2182,7 +2191,9 @@ BOOTHS   31      ENROLLED 95,420</div>
 })();
 
 /* ────────────────────────────────────────────────────────────
-   Bennelong inset booth dots
+   Melbourne inset booth dots — 2CP winner per booth.
+   Northern panhandle (Carlton/Fitzroy/Princes Hill) is GRN.
+   CBD/Docklands/Kensington/Flemington flips to ALP on prefs.
    ──────────────────────────────────────────────────────────── */
 (function () {
   const ns = 'http://www.w3.org/2000/svg';
@@ -2194,42 +2205,57 @@ BOOTHS   31      ENROLLED 95,420</div>
   const rand = () => { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; };
 
   const booths = [
-    // Inner cluster (around the river / Eastwood / Ryde)
-    { x: 142, y: 110, party: 'alp', strength: 0.95 },
-    { x: 168, y: 96,  party: 'alp', strength: 0.85 },
-    { x: 192, y: 118, party: 'alp', strength: 0.90 },
-    { x: 218, y: 100, party: 'alp', strength: 0.78 },
-    { x: 242, y: 124, party: 'alp', strength: 0.72 },
-    { x: 268, y: 110, party: 'alp', strength: 0.65 },
-    { x: 292, y: 132, party: 'alp', strength: 0.55 },
-    { x: 110, y: 128, party: 'alp', strength: 0.92 },
-    { x: 130, y: 142, party: 'alp', strength: 0.86 },
-    { x: 158, y: 152, party: 'alp', strength: 0.80 },
-    { x: 188, y: 160, party: 'alp', strength: 0.70 },
-    { x: 218, y: 156, party: 'alp', strength: 0.58 },
+    // Northern panhandle — Carlton North / Princes Hill / Brunswick boundary — GRN strong
+    { x: 168, y: 32,  party: 'grn', strength: 0.95 },
+    { x: 188, y: 44,  party: 'grn', strength: 0.92 },
+    { x: 154, y: 52,  party: 'grn', strength: 0.86 },
+    { x: 176, y: 62,  party: 'grn', strength: 0.88 },
+    { x: 198, y: 70,  party: 'grn', strength: 0.78 },
+    { x: 162, y: 76,  party: 'grn', strength: 0.82 },
+    { x: 142, y: 88,  party: 'grn', strength: 0.74 },
+    { x: 184, y: 92,  party: 'grn', strength: 0.70 },
+    { x: 210, y: 84,  party: 'grn', strength: 0.66 },
 
-    { x: 248, y: 150, party: 'lib', strength: 0.40 },
-    { x: 278, y: 158, party: 'lib', strength: 0.55 },
-    { x: 308, y: 154, party: 'lib', strength: 0.62 },
-    { x: 332, y: 144, party: 'lib', strength: 0.70 },
-    { x: 358, y: 132, party: 'lib', strength: 0.78 },
-    { x: 388, y: 152, party: 'lib', strength: 0.85 },
+    // Carlton / Fitzroy / North Carlton — GRN tapering
+    { x: 156, y: 106, party: 'grn', strength: 0.62 },
+    { x: 184, y: 112, party: 'grn', strength: 0.55 },
+    { x: 208, y: 104, party: 'grn', strength: 0.50 },
+    { x: 224, y: 118, party: 'grn', strength: 0.46 },
+    { x: 134, y: 118, party: 'grn', strength: 0.58 },
 
-    { x: 320, y: 100, party: 'lib', strength: 0.60 },
-    { x: 354, y: 108, party: 'lib', strength: 0.66 },
-    { x: 380, y: 122, party: 'lib', strength: 0.72 },
+    // Mid-section — North Melbourne / Parkville / Carlton — contested
+    { x: 162, y: 134, party: 'alp', strength: 0.50 },
+    { x: 192, y: 138, party: 'alp', strength: 0.55 },
+    { x: 222, y: 132, party: 'alp', strength: 0.48 },
+    { x: 250, y: 140, party: 'alp', strength: 0.52 },
+    { x: 278, y: 134, party: 'alp', strength: 0.58 },
 
-    { x: 218, y: 78,  party: 'alp', strength: 0.55 },
-    { x: 248, y: 80,  party: 'lib', strength: 0.45 },
-    { x: 278, y: 86,  party: 'lib', strength: 0.55 },
+    // Kensington / Flemington — ALP strong (newer demos)
+    { x: 200, y: 158, party: 'alp', strength: 0.78 },
+    { x: 232, y: 164, party: 'alp', strength: 0.82 },
+    { x: 264, y: 168, party: 'alp', strength: 0.86 },
+    { x: 178, y: 168, party: 'alp', strength: 0.74 },
 
-    { x: 95,  y: 112, party: 'alp', strength: 0.88 },
-    { x: 80,  y: 132, party: 'alp', strength: 0.92 },
+    // CBD core — ALP strong
+    { x: 296, y: 152, party: 'alp', strength: 0.68 },
+    { x: 314, y: 144, party: 'alp', strength: 0.72 },
+    { x: 332, y: 158, party: 'alp', strength: 0.78 },
+    { x: 354, y: 150, party: 'alp', strength: 0.82 },
+    { x: 304, y: 168, party: 'alp', strength: 0.74 },
+    { x: 326, y: 174, party: 'alp', strength: 0.70 },
 
-    { x: 348, y: 168, party: 'lib', strength: 0.74 },
-    { x: 314, y: 174, party: 'lib', strength: 0.66 },
-    { x: 282, y: 178, party: 'lib', strength: 0.58 },
-    { x: 252, y: 174, party: 'lib', strength: 0.50 },
+    // Docklands / Southbank-edge — ALP strongest
+    { x: 354, y: 174, party: 'alp', strength: 0.92 },
+    { x: 376, y: 168, party: 'alp', strength: 0.95 },
+    { x: 384, y: 182, party: 'alp', strength: 0.88 },
+    { x: 348, y: 184, party: 'alp', strength: 0.84 },
+
+    // Eastern edge / boundary booths — mixed
+    { x: 296, y: 184, party: 'alp', strength: 0.62 },
+    { x: 268, y: 184, party: 'alp', strength: 0.56 },
+    { x: 240, y: 178, party: 'alp', strength: 0.58 },
+    { x: 212, y: 172, party: 'alp', strength: 0.50 },
+    { x: 148, y: 152, party: 'grn', strength: 0.42 },
   ];
 
   booths.forEach((b, i) => {

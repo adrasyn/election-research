@@ -1,0 +1,218 @@
+---
+// Phase A landing page — single-seat view (Bennelong by default).
+// Real data fetched from /seats/{ID}.json at runtime; chart generators
+// in /src/lib/ render the visuals from that data.
+//
+// Future phases bring the national map, multi-seat navigation, history,
+// and demographics. For Phase A this page proves the pipeline → JSON →
+// generator path works end-to-end.
+
+import '../styles/global.css';
+---
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2025 Election Research · AEC dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header style="padding:24px 32px 12px; border-bottom:1px solid var(--line);">
+    <div style="font-family:var(--mono); font-size:10px; letter-spacing:0.22em; color:var(--t-3); text-transform:uppercase;">
+      Election · Research <span style="color:var(--t-4)">·</span> 2025 federal · phase A preview
+    </div>
+    <h1 style="font-family:var(--sans); font-weight:500; font-size:22px; margin:6px 0 0; color:var(--t-1);">
+      <span id="seat-name">…</span>
+      <span style="color:var(--t-3); font-weight:400; font-size:14px; margin-left:10px;">
+        <span id="seat-state"></span> · DIV <span id="seat-divid"></span>
+      </span>
+    </h1>
+  </header>
+
+  <main style="padding: 24px 32px; max-width: 1100px;">
+    <section id="seat-summary" style="margin-bottom: 24px;">
+      <div class="meta-strip" style="margin-bottom: 14px;">
+        <span class="meta-tag" id="seat-result">…</span>
+        <span class="sep">/</span>
+        <span><span id="seat-formal">…</span> formal votes</span>
+        <span class="sep">/</span>
+        <span>Margin <span id="seat-margin">…</span>%</span>
+        <span class="sep">/</span>
+        <span>Informal <span id="seat-informal">…</span>%</span>
+      </div>
+
+      <div class="triplet">
+        <div class="cell">
+          <div class="cell-label">2CP Winner</div>
+          <div class="cell-value" id="winner-name">…</div>
+          <div class="cell-foot" id="winner-party-line">…</div>
+        </div>
+        <div class="cell">
+          <div class="cell-label">Runner-up</div>
+          <div class="cell-value" id="runner-name">…</div>
+          <div class="cell-foot" id="runner-party-line">…</div>
+        </div>
+        <div class="cell">
+          <div class="cell-label">Booths counted</div>
+          <div class="cell-value" id="booth-count">…</div>
+          <div class="cell-foot">CTH/2025 · final results</div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-bottom: 32px;">
+      <div class="pillar-head">
+        <h2 class="pillar-title">Primary vote</h2>
+        <span class="pillar-meta">FIRST PREFERENCES · ALL BOOTHS</span>
+      </div>
+      <div class="primary">
+        <div class="primary-track" id="primary-track"></div>
+        <div class="primary-labels" id="primary-labels"></div>
+      </div>
+    </section>
+
+    <section style="margin-bottom: 32px;">
+      <div class="pillar-head">
+        <h2 class="pillar-title">Preference distribution</h2>
+        <span class="pillar-meta" id="dop-meta">…</span>
+      </div>
+      <div class="prefs-intro">
+        Each round excludes the lowest-polling candidate. Ribbons between rounds
+        show their preferences flowing to remaining candidates — every ribbon's
+        width represents an exact number of votes, conserved end-to-end (Sankey-style).
+      </div>
+      <div class="waterfall" id="wf-host"></div>
+    </section>
+
+    <section style="margin-bottom: 32px;">
+      <div class="pillar-head">
+        <h2 class="pillar-title">Booth-level results</h2>
+        <span class="pillar-meta" id="booth-meta">…</span>
+      </div>
+      <table class="booth-table">
+        <thead>
+          <tr>
+            <th>Booth</th>
+            <th class="r">2CP</th>
+            <th class="r">Swing</th>
+            <th class="r">Votes</th>
+          </tr>
+        </thead>
+        <tbody id="booth-rows"></tbody>
+      </table>
+    </section>
+
+    <section style="opacity: 0.45; padding: 14px; border: 1px dashed var(--line); border-radius: var(--radius);">
+      <div class="pillar-head" style="margin-bottom: 4px;">
+        <h2 class="pillar-title">History · Demographics</h2>
+        <span class="pillar-meta">PHASE D</span>
+      </div>
+      <p style="margin: 0; color: var(--t-3); font-size: 12px;">
+        Historical trend (1996–2025) and ABS Census demographic context come in
+        Phase D once the historical and Census pipelines land.
+      </p>
+    </section>
+  </main>
+
+  <script is:inline src="/lib/waterfall.js"></script>
+  <script is:inline>
+    // Single-seat default. URL ?seat=… overrides; full nav lands in Phase B.
+    const DEFAULT_SEAT = 'BENNELONG';
+
+    function $(id) { return document.getElementById(id); }
+    function fmt(n) { return Number(n).toLocaleString('en-AU'); }
+    function escapeHTML(s) {
+      return String(s ?? '').replace(/[&<>"]/g, c => (
+        { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]
+      ));
+    }
+
+    async function load(seatId) {
+      const res = await fetch(`/seats/${seatId}.json`);
+      if (!res.ok) throw new Error(`fetch failed: ${res.status}`);
+      return res.json();
+    }
+
+    function render(d) {
+      const seat = d.seat;
+      $('seat-name').textContent      = seat.name;
+      $('seat-state').textContent     = seat.state;
+      $('seat-divid').textContent     = String(seat.divisionId).padStart(3, '0');
+      $('seat-result').textContent    = seat.result;
+      $('seat-result').className      = 'meta-tag ' + (seat.winner?.party ?? 'oth') + '-tag';
+      $('seat-formal').textContent    = fmt(seat.totalFormal);
+      $('seat-margin').textContent    = (seat.tcpMargin ?? 0).toFixed(2);
+      $('seat-informal').textContent  = (seat.informalRate ?? 0).toFixed(2);
+
+      // Triplet
+      const [winnerTcp, runnerTcp] = d.tcp;
+      $('winner-name').textContent = winnerTcp ? `${winnerTcp.surname}` : '—';
+      $('runner-name').textContent = runnerTcp ? `${runnerTcp.surname}` : '—';
+      $('winner-party-line').innerHTML = winnerTcp
+        ? `<span class="${winnerTcp.party}-c">▲ ${escapeHTML(winnerTcp.partyAb || 'IND')}</span> · ${fmt(winnerTcp.votes)} (${winnerTcp.pct.toFixed(2)}%)`
+        : '';
+      $('runner-party-line').innerHTML = runnerTcp
+        ? `<span class="${runnerTcp.party}-c">${escapeHTML(runnerTcp.partyAb || 'IND')}</span> · ${fmt(runnerTcp.votes)} (${runnerTcp.pct.toFixed(2)}%)`
+        : '';
+      $('booth-count').textContent = fmt(d.booths.length);
+
+      // Primary track + labels (top 3 + 'OTH')
+      const track = $('primary-track');
+      const labels = $('primary-labels');
+      track.innerHTML = '';
+      labels.innerHTML = '';
+      const topN = 3;
+      const top = d.primary.slice(0, topN);
+      const othPct = d.primary.slice(topN).reduce((s, c) => s + c.pct, 0);
+      for (const c of top) {
+        const seg = document.createElement('span');
+        seg.style.cssText = `background:var(--${c.party}); width:${c.pct}%`;
+        track.appendChild(seg);
+        const lbl = document.createElement('div');
+        lbl.className = 'pl ' + c.party + '-c';
+        lbl.innerHTML = `<span class="who">${escapeHTML(c.partyAb || 'IND')}</span><span class="v">${c.pct.toFixed(1)}</span>`;
+        labels.appendChild(lbl);
+      }
+      if (othPct > 0.05) {
+        const seg = document.createElement('span');
+        seg.style.cssText = `background:var(--oth); width:${othPct}%`;
+        track.appendChild(seg);
+        const lbl = document.createElement('div');
+        lbl.className = 'pl';
+        lbl.innerHTML = `<span class="who">OTH</span><span class="v">${othPct.toFixed(1)}</span>`;
+        labels.appendChild(lbl);
+      }
+
+      // Waterfall via shared generator
+      $('dop-meta').textContent = `${d.preferences.rounds.length} ROUNDS · ${fmt(d.preferences.totalFormal)} FORMAL`;
+      window.renderWaterfall($('wf-host'), d.preferences);
+
+      // Booth table — first 10
+      const tbody = $('booth-rows');
+      tbody.innerHTML = '';
+      $('booth-meta').textContent = `${d.booths.length} BOOTHS · ${fmt(seat.totalFormal)} FORMAL VOTES`;
+      for (const b of d.booths.slice(0, 10)) {
+        const tr = document.createElement('tr');
+        const swingTxt = b.swing != null ? (b.swing >= 0 ? '+' : '') + b.swing.toFixed(1) : '—';
+        const swingCls = b.swing != null ? (b.swing >= 0 ? 'pos' : 'neg') : '';
+        tr.innerHTML =
+          `<td class="booth-name"><span class="winner-pip ${b.winnerParty}"></span>${escapeHTML(b.name)}</td>` +
+          `<td class="r">${escapeHTML((b.winnerParty || 'oth').toUpperCase())} ${b.winnerPct?.toFixed(1) ?? '—'}</td>` +
+          `<td class="r swing-cell ${swingCls}">${swingTxt}</td>` +
+          `<td class="r">${fmt(b.formal)}</td>`;
+        tbody.appendChild(tr);
+      }
+    }
+
+    const params = new URLSearchParams(location.search);
+    const seatId = (params.get('seat') || DEFAULT_SEAT).toUpperCase();
+    load(seatId).then(render).catch(err => {
+      console.error(err);
+      $('seat-name').textContent = `Failed to load seat ${seatId}: ${err.message}`;
+    });
+  </script>
+</body>
+</html>
