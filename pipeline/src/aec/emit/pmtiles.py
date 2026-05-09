@@ -145,9 +145,21 @@ def geojsons_to_pmtiles(layers: dict[str, Path], pmtiles_out: Path) -> Path:
         str(pmtiles_out),
         "--minimum-zoom=2",
         "--maximum-zoom=10",
-        "--simplification=4",
-        "--coalesce-densest-as-needed",
-        "--extend-zooms-if-still-dropping",
+        # Light simplification — anything heavier on the AEC polygons leaves
+        # visible jaggies on the coastline at zoom 3-5.
+        "--simplification=1",
+        # Adjacent electorates share long borders; simplifying them
+        # independently produces sliver gaps. This flag keeps shared
+        # edges aligned across polygons.
+        "--detect-shared-borders",
+        # Maximum vertices retained at the top zoom level — the AEC
+        # polygons are detailed and we want to keep them sharp.
+        "--full-detail=14",
+        # Safety: 150 polygons + 1 land are well under any realistic
+        # density limit, but disable the ceilings so tippecanoe never
+        # silently drops or coalesces them.
+        "--no-tile-size-limit",
+        "--no-feature-limit",
         "--no-tile-compression",  # MapLibre + PMTiles handles its own
         "--use-attribute-for-id=divisionId",
         "--force",
