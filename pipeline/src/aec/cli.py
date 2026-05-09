@@ -15,7 +15,7 @@ import polars as pl
 from .emit.pmtiles import (
     clip_to_land,
     enrich_geojson,
-    geojson_to_pmtiles,
+    geojsons_to_pmtiles,
     shapefile_to_geojson,
 )
 from .emit.seat_json import build_seat_json, write_seat_json
@@ -190,6 +190,7 @@ def build_tiles(year: int, refresh: bool, out_path: Path, cache_dir: Path) -> No
     raw_geojson = geo_dir / f"aec-{year}-raw.geojson"
     enriched_geojson = geo_dir / f"aec-{year}-enriched.geojson"
     clipped_geojson = geo_dir / f"aec-{year}-clipped.geojson"
+    land_geojson = geo_dir / f"aus-land-{year}.geojson"
 
     click.echo("▸ ogr2ogr  Shapefile → GeoJSON (WGS84)")
     shapefile_to_geojson(boundary.shapefile, raw_geojson)
@@ -203,8 +204,14 @@ def build_tiles(year: int, refresh: bool, out_path: Path, cache_dir: Path) -> No
     click.echo("▸ clip  AEC polygons → land only (Sydney Harbour, offshore)")
     clip_to_land(enriched_geojson, clipped_geojson, land_shp)
 
-    click.echo("▸ tippecanoe  GeoJSON → PMTiles")
-    geojson_to_pmtiles(clipped_geojson, out_path)
+    click.echo("▸ ogr2ogr  GADM land → GeoJSON (basemap layer)")
+    shapefile_to_geojson(land_shp, land_geojson)
+
+    click.echo("▸ tippecanoe  GeoJSON → PMTiles  (layers: seats, land)")
+    geojsons_to_pmtiles(
+        {"seats": clipped_geojson, "land": land_geojson},
+        out_path,
+    )
 
     size_mb = out_path.stat().st_size / 1_048_576
     click.echo(f"▸ Wrote {out_path}  ({size_mb:.2f} MB)")

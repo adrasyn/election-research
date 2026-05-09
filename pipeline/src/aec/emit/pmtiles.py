@@ -128,33 +128,33 @@ def enrich_geojson(
     return geojson_out
 
 
-def geojson_to_pmtiles(geojson_in: Path, pmtiles_out: Path, *, layer: str = "seats") -> Path:
-    """Run tippecanoe with sane defaults for a 150-feature national map."""
+def geojsons_to_pmtiles(layers: dict[str, Path], pmtiles_out: Path) -> Path:
+    """Bake one or more GeoJSONs into a single PMTiles archive.
+
+    Each (layer_name, geojson_path) entry becomes its own layer in the
+    output. The "seats" layer gets divisionId promoted to feature-id so
+    MapLibre's setFeatureState (hover / active outlines) works.
+    """
     _require_tool("tippecanoe")
     pmtiles_out.parent.mkdir(parents=True, exist_ok=True)
     pmtiles_out.unlink(missing_ok=True)
     log.info("tippecanoe → %s", pmtiles_out)
-    subprocess.run(
-        [
-            "tippecanoe",
-            "-o",
-            str(pmtiles_out),
-            "--minimum-zoom=2",
-            "--maximum-zoom=10",
-            "--layer",
-            layer,
-            "--simplification=4",
-            "--coalesce-densest-as-needed",
-            "--extend-zooms-if-still-dropping",
-            "--no-tile-compression",  # MapLibre + PMTiles handles its own
-            # Use divisionId as the feature.id so MapLibre's setFeatureState
-            # (for hover/active styling) can target features by integer key.
-            "--use-attribute-for-id=divisionId",
-            "--force",
-            str(geojson_in),
-        ],
-        check=True,
-    )
+    args = [
+        "tippecanoe",
+        "-o",
+        str(pmtiles_out),
+        "--minimum-zoom=2",
+        "--maximum-zoom=10",
+        "--simplification=4",
+        "--coalesce-densest-as-needed",
+        "--extend-zooms-if-still-dropping",
+        "--no-tile-compression",  # MapLibre + PMTiles handles its own
+        "--use-attribute-for-id=divisionId",
+        "--force",
+    ]
+    for layer_name, geojson in layers.items():
+        args.extend(["-L", f"{layer_name}:{geojson}"])
+    subprocess.run(args, check=True)
     return pmtiles_out
 
 

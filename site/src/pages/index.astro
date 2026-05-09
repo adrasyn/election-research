@@ -302,7 +302,18 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         {
           id: 'bg',
           type: 'background',
-          paint: { 'background-color': '#0a0d11' },
+          paint: { 'background-color': '#070a0e' }, // ocean
+        },
+        {
+          // Subtle land-vs-ocean tone underneath the seat fills.
+          id: 'land',
+          type: 'fill',
+          source: 'seats',
+          'source-layer': 'land',
+          paint: {
+            'fill-color': '#0d141d',
+            'fill-outline-color': '#0d141d',
+          },
         },
         {
           id: 'seats-fill',
