@@ -1,218 +1,592 @@
 ---
-// Phase A landing page — single-seat view (Bennelong by default).
-// Real data fetched from /seats/{ID}.json at runtime; chart generators
-// in /src/lib/ render the visuals from that data.
+// AEC Elections Dashboard — single-window map + side panel.
 //
-// Future phases bring the national map, multi-seat navigation, history,
-// and demographics. For Phase A this page proves the pipeline → JSON →
-// generator path works end-to-end.
+// Map: MapLibre GL rendering AEC electorate boundaries from a PMTiles
+// archive built by the pipeline. Click any seat → opens its side panel
+// from a /seats/{ID}.json fetch. The chart generators in /lib/ render
+// the visuals from that JSON.
+//
+// Phase B = map + side panel (this file).
+// Phases C–D fill in additional seat coverage, history, demographics.
 
 import '../styles/global.css';
+import 'maplibre-gl/dist/maplibre-gl.css';
 ---
 <!doctype html>
 <html lang="en-AU">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>2025 Election Research · AEC dashboard</title>
+  <title>2025 Election Research</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style is:global>
+    /* Map fills the central area; MapLibre's container needs explicit size. */
+    #map {
+      position: absolute;
+      inset: 0;
+      background: var(--bg-base);
+    }
+    /* Knock out MapLibre's default attribution bar styling — it clashes
+       with the chrome. We surface attribution in the bottom chrome. */
+    .maplibregl-ctrl-attrib { display: none !important; }
+    .maplibregl-ctrl-bottom-right { display: none !important; }
+    .maplibregl-canvas { outline: none; }
+    /* Tight cursor cue: hand on hovered seats, default elsewhere. */
+    .map-host { cursor: default; }
+    .map-host.is-pickable { cursor: pointer; }
+
+    /* Hover tooltip overlay. */
+    .map-tooltip {
+      position: absolute;
+      pointer-events: none;
+      background: rgba(10, 13, 17, 0.92);
+      border: 1px solid var(--line-strong);
+      padding: 8px 10px;
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.04em;
+      color: var(--t-1);
+      transform: translate(12px, 12px);
+      opacity: 0;
+      transition: opacity 120ms var(--ease);
+      z-index: 30;
+      min-width: 140px;
+    }
+    .map-tooltip.show { opacity: 1; }
+    .map-tooltip .tt-name {
+      font-family: var(--sans);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--t-1);
+      margin-bottom: 4px;
+      letter-spacing: 0;
+    }
+    .map-tooltip .tt-meta { color: var(--t-3); display: flex; gap: 8px; }
+    .map-tooltip .tt-party { font-weight: 600; }
+  </style>
 </head>
 <body>
-  <header style="padding:24px 32px 12px; border-bottom:1px solid var(--line);">
-    <div style="font-family:var(--mono); font-size:10px; letter-spacing:0.22em; color:var(--t-3); text-transform:uppercase;">
-      Election · Research <span style="color:var(--t-4)">·</span> 2025 federal · phase A preview
+
+<!-- ─────────────────────────── TOP CHROME ─────────────────────────── -->
+<header class="chrome-top">
+  <div class="chrome-segment">
+    <div class="brand">
+      <div class="brand-mark">ELECTION<span> · </span>RESEARCH</div>
+      <div class="brand-sub">CTH/H+R · v0.1 · ARCHIVE</div>
     </div>
-    <h1 style="font-family:var(--sans); font-weight:500; font-size:22px; margin:6px 0 0; color:var(--t-1);">
-      <span id="seat-name">…</span>
-      <span style="color:var(--t-3); font-weight:400; font-size:14px; margin-left:10px;">
-        <span id="seat-state"></span> · DIV <span id="seat-divid"></span>
-      </span>
-    </h1>
-  </header>
+  </div>
+  <div class="chrome-segment">
+    <span class="seg-label">EVENT</span>
+    <button class="selector"><span>2025 Federal Election</span><span class="caret">▾</span></button>
+    <span class="seg-label" style="margin-left:auto">CHAMBER</span>
+    <button class="selector"><span>House of Representatives</span><span class="caret">▾</span></button>
+  </div>
+  <div class="chrome-segment status">
+    <div class="status-pieces">
+      <div><span class="lbl">DATA</span>FINAL</div>
+      <div><span class="lbl">SRC</span>AEC</div>
+      <div><span class="lbl">UPD</span>2025-06-16 10:38</div>
+    </div>
+    <div class="status-led" title="Data integrity OK"></div>
+  </div>
+</header>
 
-  <main style="padding: 24px 32px; max-width: 1100px;">
-    <section id="seat-summary" style="margin-bottom: 24px;">
-      <div class="meta-strip" style="margin-bottom: 14px;">
-        <span class="meta-tag" id="seat-result">…</span>
+<!-- ─────────────────────────── SUB-HEADER ─────────────────────────── -->
+<div class="chrome-sub">
+  <div class="crumb">CTH/2025</div>
+  <div class="crumb active" id="sub-state">›&nbsp;NATIONAL</div>
+  <div class="crumb" id="sub-seat" style="display:none">›&nbsp;<span></span></div>
+  <div class="sub-spacer"></div>
+  <div class="sub-meta">
+    <div class="item"><span class="lbl">SEATS</span><span>150</span></div>
+    <div class="item"><span class="lbl">ENROLLED</span><span>18,098,797</span></div>
+    <div class="item"><span class="lbl">ALP 2PP</span><span>55.21%</span></div>
+  </div>
+</div>
+
+<!-- ─────────────────────────── MAIN STAGE ─────────────────────────── -->
+<main class="canvas">
+
+  <div class="map-host" id="map-host">
+    <div id="map"></div>
+    <div class="map-tooltip" id="map-tooltip"></div>
+
+    <!-- Map legend (shared with concept-01) -->
+    <div class="legend">
+      <div class="legend-title">2025 H/R · winner</div>
+      <div class="legend-row"><span class="swatch" style="background:var(--alp)"></span><span>Labor (ALP)</span><span class="count" id="lc-alp">…</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--lib)"></span><span>Liberal/LNP</span><span class="count" id="lc-libnp">…</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--nat)"></span><span>Nationals</span><span class="count" id="lc-nat">…</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--grn)"></span><span>Greens</span><span class="count" id="lc-grn">…</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--ind)"></span><span>Independent</span><span class="count" id="lc-ind">…</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--oth)"></span><span>Other</span><span class="count" id="lc-oth">…</span></div>
+    </div>
+  </div>
+
+  <!-- ───────────────────── RIGHT PANEL (per-seat) ───────────────────── -->
+  <aside class="panel" id="panel" style="display:none">
+    <button class="panel-close" id="panel-close" title="Close">×</button>
+
+    <header class="panel-head">
+      <div class="meta-strip">
+        <span id="p-state">…</span>
         <span class="sep">/</span>
-        <span><span id="seat-formal">…</span> formal votes</span>
+        <span>DIV <span id="p-divid">…</span></span>
         <span class="sep">/</span>
-        <span>Margin <span id="seat-margin">…</span>%</span>
-        <span class="sep">/</span>
-        <span>Informal <span id="seat-informal">…</span>%</span>
+        <span class="meta-tag" id="p-result">…</span>
       </div>
+      <h1 class="panel-title" id="p-name">…</h1>
+      <p class="panel-sub" id="p-sub">…</p>
+    </header>
 
-      <div class="triplet">
-        <div class="cell">
-          <div class="cell-label">2CP Winner</div>
-          <div class="cell-value" id="winner-name">…</div>
-          <div class="cell-foot" id="winner-party-line">…</div>
+    <div class="panel-body">
+      <section class="panel-context">
+        <div class="triplet">
+          <div class="cell">
+            <div class="cell-label">2CP Margin</div>
+            <div class="cell-value"><span id="p-margin">…</span><span class="unit">%</span></div>
+            <div class="cell-foot" id="p-margin-foot">…</div>
+          </div>
+          <div class="cell">
+            <div class="cell-label">Formal votes</div>
+            <div class="cell-value" id="p-formal">…</div>
+            <div class="cell-foot" id="p-formal-foot">…</div>
+          </div>
+          <div class="cell">
+            <div class="cell-label">Informal</div>
+            <div class="cell-value"><span id="p-informal">…</span><span class="unit">%</span></div>
+            <div class="cell-foot" id="p-informal-foot">…</div>
+          </div>
         </div>
-        <div class="cell">
-          <div class="cell-label">Runner-up</div>
-          <div class="cell-value" id="runner-name">…</div>
-          <div class="cell-foot" id="runner-party-line">…</div>
+
+        <div class="mp-row">
+          <div class="mp-portrait" id="p-mp-initials">··</div>
+          <div class="mp-text">
+            <div class="mp-name" id="p-mp-name">…</div>
+            <div class="mp-meta">
+              <span class="party-chip" id="p-mp-chip">…</span>
+              <span id="p-mp-flavour">…</span>
+            </div>
+          </div>
         </div>
-        <div class="cell">
-          <div class="cell-label">Booths counted</div>
-          <div class="cell-value" id="booth-count">…</div>
-          <div class="cell-foot">CTH/2025 · final results</div>
+
+        <div class="primary">
+          <div class="primary-track" id="p-primary-track"></div>
+          <div class="primary-labels" id="p-primary-labels"></div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section style="margin-bottom: 32px;">
-      <div class="pillar-head">
-        <h2 class="pillar-title">Primary vote</h2>
-        <span class="pillar-meta">FIRST PREFERENCES · ALL BOOTHS</span>
-      </div>
-      <div class="primary">
-        <div class="primary-track" id="primary-track"></div>
-        <div class="primary-labels" id="primary-labels"></div>
-      </div>
-    </section>
+      <nav class="panel-tabs">
+        <button class="active">Booths <span class="num-tag" id="p-tab-booths">…</span></button>
+        <button>History <span class="num-tag">PHASE D</span></button>
+        <button>Demographics <span class="num-tag">PHASE D</span></button>
+        <button>Preferences <span class="num-tag" id="p-tab-rounds">…</span></button>
+      </nav>
 
-    <section style="margin-bottom: 32px;">
-      <div class="pillar-head">
-        <h2 class="pillar-title">Preference distribution</h2>
-        <span class="pillar-meta" id="dop-meta">…</span>
-      </div>
-      <div class="prefs-intro">
-        Each round excludes the lowest-polling candidate. Ribbons between rounds
-        show their preferences flowing to remaining candidates — every ribbon's
-        width represents an exact number of votes, conserved end-to-end (Sankey-style).
-      </div>
-      <div class="waterfall" id="wf-host"></div>
-    </section>
+      <!-- ── Booth pillar ── -->
+      <section class="pillar">
+        <div class="pillar-head">
+          <h2 class="pillar-title">Booth-level results</h2>
+          <span class="pillar-meta" id="p-booth-meta">…</span>
+        </div>
+        <table class="booth-table">
+          <thead>
+            <tr>
+              <th>Booth</th>
+              <th class="r">2CP</th>
+              <th class="r">Swing</th>
+              <th class="r">Votes</th>
+            </tr>
+          </thead>
+          <tbody id="p-booth-rows"></tbody>
+        </table>
+        <div class="table-footer">
+          <span id="p-booth-footer">…</span>
+        </div>
+      </section>
 
-    <section style="margin-bottom: 32px;">
-      <div class="pillar-head">
-        <h2 class="pillar-title">Booth-level results</h2>
-        <span class="pillar-meta" id="booth-meta">…</span>
-      </div>
-      <table class="booth-table">
-        <thead>
-          <tr>
-            <th>Booth</th>
-            <th class="r">2CP</th>
-            <th class="r">Swing</th>
-            <th class="r">Votes</th>
-          </tr>
-        </thead>
-        <tbody id="booth-rows"></tbody>
-      </table>
-    </section>
+      <!-- ── Preferences pillar (waterfall) ── -->
+      <section class="pillar">
+        <div class="pillar-head">
+          <h2 class="pillar-title">Preference distribution</h2>
+          <span class="pillar-meta" id="p-pref-meta">…</span>
+        </div>
+        <div class="prefs-intro">
+          Each round excludes the lowest-polling candidate. Ribbons between
+          rounds show their preferences flowing to remaining candidates —
+          every ribbon's width represents an exact number of votes,
+          conserved end-to-end (Sankey-style).
+        </div>
+        <div class="waterfall" id="p-waterfall"></div>
+      </section>
 
-    <section style="opacity: 0.45; padding: 14px; border: 1px dashed var(--line); border-radius: var(--radius);">
-      <div class="pillar-head" style="margin-bottom: 4px;">
-        <h2 class="pillar-title">History · Demographics</h2>
-        <span class="pillar-meta">PHASE D</span>
-      </div>
-      <p style="margin: 0; color: var(--t-3); font-size: 12px;">
-        Historical trend (1996–2025) and ABS Census demographic context come in
-        Phase D once the historical and Census pipelines land.
-      </p>
-    </section>
-  </main>
+      <!-- ── Phase D placeholders ── -->
+      <section class="pillar" style="opacity: 0.45; padding: 14px; border: 1px dashed var(--line); border-radius: var(--radius);">
+        <div class="pillar-head" style="margin-bottom: 4px;">
+          <h2 class="pillar-title">History · Demographics</h2>
+          <span class="pillar-meta">PHASE D</span>
+        </div>
+        <p style="margin:0; color: var(--t-3); font-size: 12px;">
+          1996–2025 trend chart, primary stack, and ABS Census demographic
+          context come in Phase D.
+        </p>
+      </section>
 
-  <script is:inline src="/lib/waterfall.js"></script>
-  <script is:inline>
-    // Single-seat default. URL ?seat=… overrides; full nav lands in Phase B.
-    const DEFAULT_SEAT = 'BENNELONG';
+      <footer class="panel-foot">
+        Source · AEC Media Feed (CTH/2025) · Polygons from AEC GIS ·
+        <a href="#" id="p-methodology">Methodology ↗</a>
+      </footer>
+    </div>
+  </aside>
 
-    function $(id) { return document.getElementById(id); }
-    function fmt(n) { return Number(n).toLocaleString('en-AU'); }
-    function escapeHTML(s) {
-      return String(s ?? '').replace(/[&<>"]/g, c => (
-        { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]
-      ));
+</main>
+
+<!-- ─────────────────────────── BOTTOM CHROME ─────────────────────────── -->
+<footer class="chrome-bottom">
+  <div class="seg"><span class="lbl">VIEW</span><span class="v">National · H/R</span></div>
+  <div class="seg"><span class="lbl">PROJ</span><span class="v">Web Mercator</span></div>
+  <div class="seg"><span class="lbl">SEATS</span><span class="v">150 · 100% reporting</span></div>
+  <div class="seg"><span class="lbl">SELECTED</span><span class="v acc" id="bc-selected">— click a seat —</span></div>
+  <div class="grow"></div>
+  <div class="seg"><span class="lbl">REV</span><span class="v">phase B</span></div>
+</footer>
+
+<script src="/lib/waterfall.js" is:inline></script>
+<script>
+  import maplibregl from 'maplibre-gl';
+  import { Protocol } from 'pmtiles';
+
+  // Register the pmtiles:// protocol so MapLibre can load PMTiles via
+  // HTTP range requests (no separate tile server needed).
+  const protocol = new Protocol({ metadata: true });
+  maplibregl.addProtocol('pmtiles', protocol.tile);
+
+  const PARTY_FILL = {
+    alp:  '#d4253a',
+    lib:  '#1746a8',
+    lnp:  '#2167cb',
+    clp:  '#2980d4',
+    nat:  '#1d7846',
+    grn:  '#2da050',
+    ind:  '#8e94a0',
+    on:   '#ed6f1a',
+    kap:  '#9e1a2f',
+    xen:  '#f4d226',
+    oth:  '#6c6878',
+  };
+
+  // Build a MapLibre `match` colour expression keyed off winnerParty.
+  const fillColorExpr = ['match', ['get', 'winnerParty']];
+  for (const [k, v] of Object.entries(PARTY_FILL)) { fillColorExpr.push(k, v); }
+  fillColorExpr.push('#3a3a48'); // fallback
+
+  const map = new maplibregl.Map({
+    container: 'map',
+    style: {
+      version: 8,
+      glyphs: 'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
+      sources: {
+        seats: {
+          type: 'vector',
+          url: 'pmtiles:///tiles/aec-2025.pmtiles',
+          attribution: 'Boundaries © AEC',
+        },
+      },
+      layers: [
+        {
+          id: 'bg',
+          type: 'background',
+          paint: { 'background-color': '#0a0d11' },
+        },
+        {
+          id: 'seats-fill',
+          type: 'fill',
+          source: 'seats',
+          'source-layer': 'seats',
+          paint: {
+            'fill-color': fillColorExpr,
+            'fill-opacity': [
+              'case',
+              ['boolean', ['feature-state', 'hover'], false], 0.95,
+              0.62,
+            ],
+          },
+        },
+        {
+          id: 'seats-line',
+          type: 'line',
+          source: 'seats',
+          'source-layer': 'seats',
+          paint: {
+            'line-color': '#0a0d11',
+            'line-width': [
+              'case',
+              ['boolean', ['feature-state', 'hover'], false], 1.4,
+              0.3,
+            ],
+          },
+        },
+        {
+          id: 'seats-line-active',
+          type: 'line',
+          source: 'seats',
+          'source-layer': 'seats',
+          paint: {
+            'line-color': '#5da9ff',
+            'line-width': [
+              'case',
+              ['boolean', ['feature-state', 'active'], false], 2.2,
+              0,
+            ],
+          },
+        },
+      ],
+    },
+    center: [134.5, -27.0],
+    zoom: 3.4,
+    minZoom: 2,
+    maxZoom: 10,
+    attributionControl: false,
+  });
+
+  map.addControl(new maplibregl.NavigationControl({ visualizePitch: false, showCompass: false }), 'top-right');
+
+  const tooltip = document.getElementById('map-tooltip');
+  const mapHost = document.getElementById('map-host');
+  const bcSelected = document.getElementById('bc-selected');
+  const subSeat = document.getElementById('sub-seat');
+  let hoverId = null;
+  let activeId = null;
+
+  map.on('mousemove', 'seats-fill', (e) => {
+    if (!e.features?.length) return;
+    const f = e.features[0];
+    mapHost.classList.add('is-pickable');
+    if (hoverId !== null) {
+      map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: hoverId }, { hover: false });
     }
+    hoverId = f.id;
+    map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: hoverId }, { hover: true });
 
-    async function load(seatId) {
+    const p = f.properties;
+    tooltip.innerHTML =
+      `<div class="tt-name">${p.divisionNm}</div>` +
+      `<div class="tt-meta"><span class="tt-party" style="color:${PARTY_FILL[p.winnerParty] || '#fff'}">${p.winnerPartyAb}</span>` +
+      `<span>${p.winnerSurname || ''}</span>` +
+      `<span style="margin-left:auto">${p.tcpMargin > 0 ? '+' : ''}${p.tcpMargin}%</span></div>`;
+    tooltip.style.left = e.point.x + 'px';
+    tooltip.style.top = e.point.y + 'px';
+    tooltip.classList.add('show');
+  });
+
+  map.on('mouseleave', 'seats-fill', () => {
+    mapHost.classList.remove('is-pickable');
+    if (hoverId !== null) {
+      map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: hoverId }, { hover: false });
+    }
+    hoverId = null;
+    tooltip.classList.remove('show');
+  });
+
+  map.on('click', 'seats-fill', async (e) => {
+    if (!e.features?.length) return;
+    const f = e.features[0];
+    if (activeId !== null) {
+      map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: activeId }, { active: false });
+    }
+    activeId = f.id;
+    map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: activeId }, { active: true });
+    await openPanel(f.properties);
+  });
+
+  document.getElementById('panel-close').addEventListener('click', () => {
+    document.getElementById('panel').style.display = 'none';
+    if (activeId !== null) {
+      map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: activeId }, { active: false });
+      activeId = null;
+    }
+    bcSelected.textContent = '— click a seat —';
+    subSeat.style.display = 'none';
+  });
+
+  // Once the source is loaded, populate the legend counts from the tile metadata.
+  map.on('idle', () => {
+    if (window.__legendDone) return;
+    const features = map.querySourceFeatures('seats', { sourceLayer: 'seats' });
+    if (!features.length) return;
+    window.__legendDone = true;
+    const counts = { ALP: 0, LIB_NP: 0, NAT: 0, GRN: 0, IND: 0, OTH: 0 };
+    const seen = new Set();
+    for (const f of features) {
+      if (seen.has(f.properties.divisionId)) continue;
+      seen.add(f.properties.divisionId);
+      const ab = f.properties.winnerPartyAb;
+      if (ab === 'ALP') counts.ALP++;
+      else if (ab === 'LP' || ab === 'LNP' || ab === 'CLP') counts.LIB_NP++;
+      else if (ab === 'NP' || ab === 'NAT') counts.NAT++;
+      else if (ab === 'GRN') counts.GRN++;
+      else if (ab === 'IND') counts.IND++;
+      else counts.OTH++;
+    }
+    document.getElementById('lc-alp').textContent   = String(counts.ALP).padStart(2, '0');
+    document.getElementById('lc-libnp').textContent = String(counts.LIB_NP).padStart(2, '0');
+    document.getElementById('lc-nat').textContent   = String(counts.NAT).padStart(2, '0');
+    document.getElementById('lc-grn').textContent   = String(counts.GRN).padStart(2, '0');
+    document.getElementById('lc-ind').textContent   = String(counts.IND).padStart(2, '0');
+    document.getElementById('lc-oth').textContent   = String(counts.OTH).padStart(2, '0');
+  });
+
+  // ── Panel population ──
+  async function openPanel(props) {
+    const seatId = (props.divisionNm || '').toUpperCase().replace(/ /g, '_');
+    const panel = document.getElementById('panel');
+    panel.style.display = 'flex';
+
+    let data;
+    try {
       const res = await fetch(`/seats/${seatId}.json`);
-      if (!res.ok) throw new Error(`fetch failed: ${res.status}`);
-      return res.json();
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      data = await res.json();
+    } catch (err) {
+      // No per-seat JSON yet — Phase C ships all 150. Fall back to the
+      // tile-level info so the panel still tells you who won.
+      renderStub(props);
+      return;
+    }
+    renderFull(data);
+  }
+
+  function fmt(n) { return Number(n).toLocaleString('en-AU'); }
+  function escapeHTML(s) {
+    return String(s ?? '').replace(/[&<>"]/g, c => (
+      { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]
+    ));
+  }
+  function $(id) { return document.getElementById(id); }
+  function initials(name) {
+    return (name || '').split(/\s+/).map(p => p[0]).join('').slice(0, 2).toUpperCase();
+  }
+
+  function renderStub(props) {
+    bcSelected.textContent = `${props.divisionNm} · ${props.state}`;
+    subSeat.style.display = '';
+    subSeat.querySelector('span').textContent = `${props.divisionNm.toUpperCase()} · DIV ${String(props.divisionId).padStart(3,'0')}`;
+
+    $('p-state').textContent = props.state;
+    $('p-divid').textContent = String(props.divisionId).padStart(3, '0');
+    $('p-result').textContent = `${props.winnerPartyAb} WIN`;
+    $('p-result').className = `meta-tag ${props.winnerParty}-tag`;
+    $('p-name').textContent = props.divisionNm;
+    $('p-sub').textContent = `Per-seat detail not built yet — Phase C populates all 150 seats. Showing winner-only summary.`;
+    $('p-margin').textContent = props.tcpMargin?.toFixed?.(2) ?? '—';
+    $('p-margin-foot').textContent = `${props.winnerPartyAb} · ${props.winnerSurname}`;
+    $('p-formal').textContent = '—';
+    $('p-formal-foot').textContent = '';
+    $('p-informal').textContent = '—';
+    $('p-informal-foot').textContent = '';
+    $('p-mp-initials').textContent = initials(props.winnerSurname);
+    $('p-mp-name').textContent = props.winnerSurname || '—';
+    $('p-mp-chip').className = `party-chip ${props.winnerParty}`;
+    $('p-mp-chip').textContent = props.winnerPartyAb;
+    $('p-mp-flavour').textContent = '';
+    $('p-primary-track').innerHTML = '';
+    $('p-primary-labels').innerHTML = '';
+    $('p-tab-booths').textContent = '—';
+    $('p-tab-rounds').textContent = '—';
+    $('p-booth-rows').innerHTML = '';
+    $('p-booth-meta').textContent = '';
+    $('p-booth-footer').textContent = '';
+    $('p-pref-meta').textContent = '';
+    $('p-waterfall').innerHTML = '';
+  }
+
+  function renderFull(d) {
+    const seat = d.seat;
+    bcSelected.textContent = `${seat.name} · ${seat.state}`;
+    subSeat.style.display = '';
+    subSeat.querySelector('span').textContent = `${seat.name.toUpperCase()} · DIV ${String(seat.divisionId).padStart(3,'0')}`;
+
+    $('p-state').textContent = seat.state;
+    $('p-divid').textContent = String(seat.divisionId).padStart(3, '0');
+    $('p-result').textContent = seat.result;
+    $('p-result').className = `meta-tag ${seat.winner?.party ?? 'oth'}-tag`;
+    $('p-name').textContent = seat.name;
+    $('p-sub').textContent = `${seat.state} · ${fmt(seat.totalFormal)} formal votes counted at ${d.booths.length} booths.`;
+
+    $('p-margin').textContent = (seat.tcpMargin ?? 0).toFixed(2);
+    const winnerTcp = d.tcp?.[0];
+    const runnerTcp = d.tcp?.[1];
+    $('p-margin-foot').className = `cell-foot ${winnerTcp?.party || ''}-c`;
+    $('p-margin-foot').innerHTML = winnerTcp
+      ? `<span class="arr">▲</span>${escapeHTML(winnerTcp.partyAb || 'IND')} · ${fmt(winnerTcp.votes)} v ${fmt(runnerTcp?.votes ?? 0)}`
+      : '';
+
+    $('p-formal').textContent = fmt(seat.totalFormal);
+    $('p-formal-foot').textContent = `OF ${fmt(seat.totalFormal + (seat.informalVotes || 0))} COUNTED`;
+
+    $('p-informal').textContent = (seat.informalRate ?? 0).toFixed(2);
+    $('p-informal-foot').textContent = `${fmt(seat.informalVotes || 0)} INFORMAL`;
+
+    const w = seat.winner;
+    $('p-mp-initials').textContent = initials(w?.surname);
+    $('p-mp-name').textContent = w ? `${(w.givenName || '').split(' ')[0]} ${(w.surname || '').split(' ').map(s => s[0] + s.slice(1).toLowerCase()).join(' ')}` : '—';
+    $('p-mp-chip').className = `party-chip ${w?.party || 'oth'}`;
+    $('p-mp-chip').textContent = w?.partyAb || 'IND';
+    $('p-mp-flavour').textContent = w?.incumbent ? 'RE-ELECTED 2025' : 'ELECTED 2025 · 1ST TERM';
+
+    // Primary track
+    const track = $('p-primary-track');
+    const labels = $('p-primary-labels');
+    track.innerHTML = '';
+    labels.innerHTML = '';
+    const top3 = d.primary.slice(0, 3);
+    const othPct = d.primary.slice(3).reduce((s, c) => s + c.pct, 0);
+    for (const c of top3) {
+      const seg = document.createElement('span');
+      seg.style.cssText = `background:var(--${c.party}); width:${c.pct}%`;
+      track.appendChild(seg);
+      const lbl = document.createElement('div');
+      lbl.className = 'pl ' + c.party + '-c';
+      lbl.innerHTML = `<span class="who">${escapeHTML(c.partyAb || 'IND')}</span><span class="v">${c.pct.toFixed(1)}</span>`;
+      labels.appendChild(lbl);
+    }
+    if (othPct > 0.05) {
+      const seg = document.createElement('span');
+      seg.style.cssText = `background:var(--oth); width:${othPct}%`;
+      track.appendChild(seg);
+      const lbl = document.createElement('div');
+      lbl.className = 'pl';
+      lbl.innerHTML = `<span class="who">OTH</span><span class="v">${othPct.toFixed(1)}</span>`;
+      labels.appendChild(lbl);
     }
 
-    function render(d) {
-      const seat = d.seat;
-      $('seat-name').textContent      = seat.name;
-      $('seat-state').textContent     = seat.state;
-      $('seat-divid').textContent     = String(seat.divisionId).padStart(3, '0');
-      $('seat-result').textContent    = seat.result;
-      $('seat-result').className      = 'meta-tag ' + (seat.winner?.party ?? 'oth') + '-tag';
-      $('seat-formal').textContent    = fmt(seat.totalFormal);
-      $('seat-margin').textContent    = (seat.tcpMargin ?? 0).toFixed(2);
-      $('seat-informal').textContent  = (seat.informalRate ?? 0).toFixed(2);
-
-      // Triplet
-      const [winnerTcp, runnerTcp] = d.tcp;
-      $('winner-name').textContent = winnerTcp ? `${winnerTcp.surname}` : '—';
-      $('runner-name').textContent = runnerTcp ? `${runnerTcp.surname}` : '—';
-      $('winner-party-line').innerHTML = winnerTcp
-        ? `<span class="${winnerTcp.party}-c">▲ ${escapeHTML(winnerTcp.partyAb || 'IND')}</span> · ${fmt(winnerTcp.votes)} (${winnerTcp.pct.toFixed(2)}%)`
-        : '';
-      $('runner-party-line').innerHTML = runnerTcp
-        ? `<span class="${runnerTcp.party}-c">${escapeHTML(runnerTcp.partyAb || 'IND')}</span> · ${fmt(runnerTcp.votes)} (${runnerTcp.pct.toFixed(2)}%)`
-        : '';
-      $('booth-count').textContent = fmt(d.booths.length);
-
-      // Primary track + labels (top 3 + 'OTH')
-      const track = $('primary-track');
-      const labels = $('primary-labels');
-      track.innerHTML = '';
-      labels.innerHTML = '';
-      const topN = 3;
-      const top = d.primary.slice(0, topN);
-      const othPct = d.primary.slice(topN).reduce((s, c) => s + c.pct, 0);
-      for (const c of top) {
-        const seg = document.createElement('span');
-        seg.style.cssText = `background:var(--${c.party}); width:${c.pct}%`;
-        track.appendChild(seg);
-        const lbl = document.createElement('div');
-        lbl.className = 'pl ' + c.party + '-c';
-        lbl.innerHTML = `<span class="who">${escapeHTML(c.partyAb || 'IND')}</span><span class="v">${c.pct.toFixed(1)}</span>`;
-        labels.appendChild(lbl);
-      }
-      if (othPct > 0.05) {
-        const seg = document.createElement('span');
-        seg.style.cssText = `background:var(--oth); width:${othPct}%`;
-        track.appendChild(seg);
-        const lbl = document.createElement('div');
-        lbl.className = 'pl';
-        lbl.innerHTML = `<span class="who">OTH</span><span class="v">${othPct.toFixed(1)}</span>`;
-        labels.appendChild(lbl);
-      }
-
-      // Waterfall via shared generator
-      $('dop-meta').textContent = `${d.preferences.rounds.length} ROUNDS · ${fmt(d.preferences.totalFormal)} FORMAL`;
-      window.renderWaterfall($('wf-host'), d.preferences);
-
-      // Booth table — first 10
-      const tbody = $('booth-rows');
-      tbody.innerHTML = '';
-      $('booth-meta').textContent = `${d.booths.length} BOOTHS · ${fmt(seat.totalFormal)} FORMAL VOTES`;
-      for (const b of d.booths.slice(0, 10)) {
-        const tr = document.createElement('tr');
-        const swingTxt = b.swing != null ? (b.swing >= 0 ? '+' : '') + b.swing.toFixed(1) : '—';
-        const swingCls = b.swing != null ? (b.swing >= 0 ? 'pos' : 'neg') : '';
-        tr.innerHTML =
-          `<td class="booth-name"><span class="winner-pip ${b.winnerParty}"></span>${escapeHTML(b.name)}</td>` +
-          `<td class="r">${escapeHTML((b.winnerParty || 'oth').toUpperCase())} ${b.winnerPct?.toFixed(1) ?? '—'}</td>` +
-          `<td class="r swing-cell ${swingCls}">${swingTxt}</td>` +
-          `<td class="r">${fmt(b.formal)}</td>`;
-        tbody.appendChild(tr);
-      }
+    // Booth rows
+    const tbody = $('p-booth-rows');
+    tbody.innerHTML = '';
+    $('p-tab-booths').textContent = String(d.booths.length);
+    $('p-booth-meta').textContent = `${d.booths.length} BOOTHS · ${fmt(seat.totalFormal)} VOTES`;
+    for (const b of d.booths.slice(0, 12)) {
+      const tr = document.createElement('tr');
+      const swingTxt = b.swing != null ? (b.swing >= 0 ? '+' : '') + b.swing.toFixed(1) : '—';
+      const swingCls = b.swing != null ? (b.swing >= 0 ? 'pos' : 'neg') : '';
+      tr.innerHTML =
+        `<td class="booth-name"><span class="winner-pip ${b.winnerParty}"></span>${escapeHTML(b.name)}</td>` +
+        `<td class="r">${escapeHTML((b.winnerParty || 'oth').toUpperCase())} ${b.winnerPct?.toFixed(1) ?? '—'}</td>` +
+        `<td class="r swing-cell ${swingCls}">${swingTxt}</td>` +
+        `<td class="r">${fmt(b.formal)}</td>`;
+      tbody.appendChild(tr);
     }
+    $('p-booth-footer').textContent = `Showing ${Math.min(12, d.booths.length)} of ${d.booths.length} · sorted by votes`;
 
-    const params = new URLSearchParams(location.search);
-    const seatId = (params.get('seat') || DEFAULT_SEAT).toUpperCase();
-    load(seatId).then(render).catch(err => {
-      console.error(err);
-      $('seat-name').textContent = `Failed to load seat ${seatId}: ${err.message}`;
-    });
-  </script>
+    // Waterfall
+    $('p-tab-rounds').textContent = String(d.preferences.rounds.length);
+    $('p-pref-meta').textContent = `${d.preferences.rounds.length} ROUNDS · ${fmt(d.preferences.totalFormal)} FORMAL`;
+    if (window.renderWaterfall) {
+      window.renderWaterfall($('p-waterfall'), d.preferences);
+    }
+  }
+</script>
 </body>
 </html>

@@ -82,12 +82,18 @@ def informal_for_division(first_prefs: pl.DataFrame, division_id: int) -> dict[s
 
 
 def tcp_for_division(tcp: pl.DataFrame, division_id: int) -> list[dict[str, Any]]:
-    """Aggregate TCP votes across all booths for the two finalists."""
+    """Aggregate TCP votes across all booths for the two finalists.
+
+    Note: this CSV is ordinary-votes-only; for tight seats the elected
+    candidate may sit second on these counts. We honour AEC's declared
+    winner via the Elected flag rather than the running ordinary tally.
+    """
     seat = tcp.filter(pl.col("DivisionID") == division_id)
     grouped = (
         seat.group_by("CandidateID", "Surname", "GivenNm", "PartyAb", "Elected")
         .agg(pl.col("OrdinaryVotes").sum().alias("votes"))
-        .sort("votes", descending=True)
+        .with_columns((pl.col("Elected") == "Y").cast(pl.Int8).alias("_elected_rank"))
+        .sort(["_elected_rank", "votes"], descending=[True, True])
     )
     total = int(grouped["votes"].sum())
     out = []

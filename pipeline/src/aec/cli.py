@@ -12,7 +12,9 @@ from pathlib import Path
 import click
 import polars as pl
 
+from .emit.pmtiles import enrich_geojson, geojson_to_pmtiles, shapefile_to_geojson
 from .emit.seat_json import build_seat_json, write_seat_json
+from .sources.boundaries import fetch_boundaries
 from .sources.mediafeed import EVENT_IDS, STATES, fetch_event
 from .transform.preferences import load_dop, waterfall_for_division
 from .transform.results import (
@@ -145,6 +147,54 @@ def _build_one(
         informal=informal,
         year=year,
     )
+
+
+@main.command("build-tiles")
+@click.option("--year", type=int, required=True, help="Boundary year (and matching election).")
+@click.option("--refresh", is_flag=True, help="Force re-download of source files.")
+@click.option(
+    "--out",
+    "out_path",
+    type=click.Path(dir_okay=False, path_type=Path),
+    default=Path(__file__).resolve().parents[3]
+    / "site"
+    / "public"
+    / "tiles"
+    / "aec-2025.pmtiles",
+    show_default=True,
+    help="Output PMTiles path.",
+)
+@click.option(
+    "--cache-dir",
+    type=click.Path(file_okay=False, path_type=Path),
+    default=Path(__file__).resolve().parents[3] / "pipeline" / "data" / "raw",
+    show_default=True,
+)
+def build_tiles(year: int, refresh: bool, out_path: Path, cache_dir: Path) -> None:
+    """Fetch boundaries + winners, emit a national PMTiles archive."""
+    click.echo(f"▸ Boundaries for {year}")
+    boundary = fetch_boundaries(year, cache_dir, refresh=refresh)
+
+    click.echo("▸ Election results (for winner-party fill)")
+    files = fetch_event(year, cache_dir, refresh=refresh)
+    candidates = load_candidates(files.candidates)
+    tcp = load_tcp(files.tcp_by_polling_place)
+
+    geo_dir = cache_dir / "geo"
+    raw_geojson = geo_dir / f"aec-{year}-raw.geojson"
+    enriched_geojson = geo_dir / f"aec-{year}-enriched.geojson"
+
+    click.echo("▸ ogr2ogr  Shapefile → GeoJSON (WGS84)")
+    shapefile_to_geojson(boundary.shapefile, raw_geojson)
+
+    click.echo("▸ enrich  joining winner-party properties")
+    enrich_geojson(raw_geojson, enriched_geojson, candidates=candidates, tcp=tcp)
+
+    click.echo("▸ tippecanoe  GeoJSON → PMTiles")
+    geojson_to_pmtiles(enriched_geojson, out_path)
+
+    size_mb = out_path.stat().st_size / 1_048_576
+    click.echo(f"▸ Wrote {out_path}  ({size_mb:.2f} MB)")
 
 
 if __name__ == "__main__":
