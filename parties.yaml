@@ -193,7 +193,7 @@ parties:
     colour: "#b3253a"           # brick red, distinct from ALP
     colour_canon: "#E52B50"
     colour_soft: "rgba(179, 37, 58, 0.16)"
-    aliases: [Shooters, Shooters Fishers Farmers, SFF, SFP, SFFP]
+    aliases: [Shooters, Shooters Fishers Farmers, SFF, SFP, SFFP, ASP]
     category: minor
     active: true
 
@@ -215,7 +215,7 @@ parties:
     colour: "#4a4992"
     colour_canon: "#5A58A6"
     colour_soft: "rgba(74, 73, 146, 0.16)"
-    aliases: [Family First, FFP, FF]
+    aliases: [Family First, FFP, FF, FFPA]
     category: minor
     active: true
     notes: Re-registered 2021 after original deregistered 2017.
@@ -283,7 +283,7 @@ parties:
     colour: "#c926f2"
     colour_canon: "#C926F2"
     colour_soft: "rgba(201, 38, 242, 0.16)"
-    aliases: [Fusion, Fusion Party]
+    aliases: [Fusion, Fusion Party, FUS, SOPA]
     category: minor
     active: true
     notes: |
@@ -300,22 +300,24 @@ parties:
     colour: "#e8b80c"
     colour_canon: "#FFCD00"
     colour_soft: "rgba(232, 184, 12, 0.16)"
-    aliases: [Australian Democrats, Democrats, DEM]
+    aliases: [Australian Democrats, Democrats, DEM, AUD]
     category: minor
     active: false
     notes: Deregistered 2016, re-registered 2019 federal — verify.
 
-  - aec_code: NXT   # REVIEW: also "CA" (Centre Alliance rebrand)
+  - aec_code: NXT
     aec_name: Nick Xenophon Team / Centre Alliance
     display: Centre Alliance
     abbr: CA
     colour: "#d96820"
     colour_canon: "#ff6300"
     colour_soft: "rgba(217, 104, 32, 0.16)"
-    aliases: [Nick Xenophon Team, NXT, Centre Alliance, CA]
+    # AEC still emits PartyAb=XEN in the 2025 feed despite the
+    # 2018 rebrand to Centre Alliance.
+    aliases: [Nick Xenophon Team, NXT, Centre Alliance, CA, XEN]
     category: minor
     active: true
-    notes: NXT rebranded to Centre Alliance in 2018.
+    notes: NXT rebranded to Centre Alliance in 2018; AEC PartyAb still XEN.
 
   - aec_code: CDP
     aec_name: Christian Democratic Party
