@@ -1,5 +1,7 @@
 # AEC Elections — research dashboard
 
+Live: **https://electionresearch.wlsn.me**
+
 Personal post-election research dashboard for Australian federal elections.
 Three pillars per electorate: booth-level results, historical trend (1996–2025),
 demographic context (ABS 2021 Census).
