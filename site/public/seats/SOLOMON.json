@@ -9,6 +9,10 @@
     "totalFormal": 60130,
     "informalVotes": 1992,
     "informalRate": 3.71,
+    "enrolled": 78702,
+    "votesCounted": 62370,
+    "turnoutPct": 79.25,
+    "turnoutSwing": 0.49,
     "winner": {
       "candidateId": "C41012",
       "surname": "GOSLING",
@@ -1124,84 +1128,6 @@
       ]
     },
     {
-      "boothId": 8725,
-      "name": "Driver",
-      "formal": 918,
-      "winnerParty": "clp",
-      "winnerSurname": "BAYLISS",
-      "winnerPct": 50.33,
-      "swing": 2.6,
-      "candidates": [
-        {
-          "surname": "BAYLISS",
-          "partyAb": "CLP",
-          "party": "clp",
-          "votes": 276,
-          "pct": 30.07
-        },
-        {
-          "surname": "GOSLING",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 270,
-          "pct": 29.41
-        },
-        {
-          "surname": "SCOTT",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 133,
-          "pct": 14.49
-        },
-        {
-          "surname": "PARRY",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 110,
-          "pct": 11.98
-        },
-        {
-          "surname": "CRAKER",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 102,
-          "pct": 11.11
-        },
-        {
-          "surname": "DAVIES",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 21,
-          "pct": 2.29
-        },
-        {
-          "surname": "KRISTO",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 6,
-          "pct": 0.65
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "GOSLING",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 456,
-          "elected": true,
-          "pct": 49.67
-        },
-        {
-          "surname": "BAYLISS",
-          "partyAb": "CLP",
-          "party": "clp",
-          "votes": 462,
-          "elected": false,
-          "pct": 50.33
-        }
-      ]
-    },
-    {
       "boothId": 8716,
       "name": "Karama",
       "formal": 918,
@@ -1276,6 +1202,84 @@
           "votes": 428,
           "elected": false,
           "pct": 46.62
+        }
+      ]
+    },
+    {
+      "boothId": 8725,
+      "name": "Driver",
+      "formal": 918,
+      "winnerParty": "clp",
+      "winnerSurname": "BAYLISS",
+      "winnerPct": 50.33,
+      "swing": 2.6,
+      "candidates": [
+        {
+          "surname": "BAYLISS",
+          "partyAb": "CLP",
+          "party": "clp",
+          "votes": 276,
+          "pct": 30.07
+        },
+        {
+          "surname": "GOSLING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 270,
+          "pct": 29.41
+        },
+        {
+          "surname": "SCOTT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 133,
+          "pct": 14.49
+        },
+        {
+          "surname": "PARRY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 11.98
+        },
+        {
+          "surname": "CRAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 102,
+          "pct": 11.11
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 2.29
+        },
+        {
+          "surname": "KRISTO",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GOSLING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 456,
+          "elected": true,
+          "pct": 49.67
+        },
+        {
+          "surname": "BAYLISS",
+          "partyAb": "CLP",
+          "party": "clp",
+          "votes": 462,
+          "elected": false,
+          "pct": 50.33
         }
       ]
     },
@@ -2507,76 +2511,76 @@
         {
           "year": "2007",
           "shares": {
+            "CLP": 46.8,
             "ALP": 41.9,
             "GRN": 9.07,
-            "CLP": 46.8,
             "OTH": 2.24
           }
         },
         {
           "year": "2010",
           "shares": {
-            "ON": 2.95,
-            "ALP": 36.08,
             "GRN": 13.29,
             "CLP": 46.37,
+            "ON": 2.95,
+            "ALP": 36.08,
             "OTH": 1.31
           }
         },
         {
           "year": "2013",
           "shares": {
+            "ASXP": 3.46,
             "CLP": 44.69,
-            "ALP": 35.43,
             "GRN": 7.99,
             "TOP": 5.04,
-            "ASXP": 3.46,
+            "ALP": 35.43,
             "OTH": 3.4
           }
         },
         {
           "year": "2016",
           "shares": {
+            "ALP": 40.87,
+            "SFF": 2.79,
+            "HMP": 2.09,
             "IND": 3.01,
             "LDP": 2.34,
-            "SFF": 2.79,
             "CLP": 34.45,
-            "HMP": 2.09,
             "GRN": 10.17,
-            "ALP": 40.87,
             "OTH": 4.28
           }
         },
         {
           "year": "2019",
           "shares": {
-            "IND": 4.87,
-            "RUA": 2.32,
-            "CLP": 38.05,
             "ALP": 40.04,
+            "IND": 4.87,
+            "GRN": 11.84,
+            "RUA": 2.32,
             "TOP": 2.87,
-            "GRN": 11.84
+            "CLP": 38.05
           }
         },
         {
           "year": "2022",
           "shares": {
             "LDP": 10.59,
-            "ON": 5.35,
             "CLP": 24.98,
-            "ALP": 39.5,
             "TOP": 4.77,
-            "GRN": 14.81
+            "ALP": 39.5,
+            "GRN": 14.81,
+            "ON": 5.35
           }
         },
         {
           "year": "2025",
           "shares": {
+            "IND": 13.63,
+            "ON": 6.71,
             "CLP": 35.99,
             "GRN": 10.26,
             "ALP": 32.85,
-            "ON": 6.71,
-            "IND": 13.63,
             "OTH": 0.57
           }
         }

@@ -9,6 +9,10 @@
     "totalFormal": 108403,
     "informalVotes": 5333,
     "informalRate": 5.72,
+    "enrolled": 121788,
+    "votesCounted": 114489,
+    "turnoutPct": 94.01,
+    "turnoutSwing": 1.36,
     "winner": {
       "candidateId": "C40770",
       "surname": "TEHAN",
@@ -1784,98 +1788,6 @@
       ]
     },
     {
-      "boothId": 5063,
-      "name": "Warrnambool East",
-      "formal": 913,
-      "winnerParty": "lib",
-      "winnerSurname": "TEHAN",
-      "winnerPct": 51.81,
-      "swing": 10.4,
-      "candidates": [
-        {
-          "surname": "TEHAN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 399,
-          "pct": 43.7
-        },
-        {
-          "surname": "DYSON",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 372,
-          "pct": 40.74
-        },
-        {
-          "surname": "MACKENZIE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 47,
-          "pct": 5.15
-        },
-        {
-          "surname": "SWAN",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 24,
-          "pct": 2.63
-        },
-        {
-          "surname": "CURTAIN",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 24,
-          "pct": 2.63
-        },
-        {
-          "surname": "ELMES",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 22,
-          "pct": 2.41
-        },
-        {
-          "surname": "GAZZARD",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 15,
-          "pct": 1.64
-        },
-        {
-          "surname": "MCCAMISH",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 6,
-          "pct": 0.66
-        },
-        {
-          "surname": "ATKINSON",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 4,
-          "pct": 0.44
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "TEHAN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 473,
-          "elected": true,
-          "pct": 51.81
-        },
-        {
-          "surname": "DYSON",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 440,
-          "elected": false,
-          "pct": 48.19
-        }
-      ]
-    },
-    {
       "boothId": 2996,
       "name": "Beaufort",
       "formal": 913,
@@ -1964,6 +1876,98 @@
           "votes": 420,
           "elected": false,
           "pct": 46.0
+        }
+      ]
+    },
+    {
+      "boothId": 5063,
+      "name": "Warrnambool East",
+      "formal": 913,
+      "winnerParty": "lib",
+      "winnerSurname": "TEHAN",
+      "winnerPct": 51.81,
+      "swing": 10.4,
+      "candidates": [
+        {
+          "surname": "TEHAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 399,
+          "pct": 43.7
+        },
+        {
+          "surname": "DYSON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 372,
+          "pct": 40.74
+        },
+        {
+          "surname": "MACKENZIE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 47,
+          "pct": 5.15
+        },
+        {
+          "surname": "SWAN",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.63
+        },
+        {
+          "surname": "CURTAIN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 2.63
+        },
+        {
+          "surname": "ELMES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 2.41
+        },
+        {
+          "surname": "GAZZARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 1.64
+        },
+        {
+          "surname": "MCCAMISH",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.66
+        },
+        {
+          "surname": "ATKINSON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEHAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 473,
+          "elected": true,
+          "pct": 51.81
+        },
+        {
+          "surname": "DYSON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 440,
+          "elected": false,
+          "pct": 48.19
         }
       ]
     },
@@ -9418,61 +9422,61 @@
         {
           "year": "2007",
           "shares": {
+            "LIB": 52.56,
             "GRN": 6.98,
             "FFP": 4.29,
-            "ALP": 36.17,
-            "LIB": 52.56
+            "ALP": 36.17
           }
         },
         {
           "year": "2010",
           "shares": {
             "GRN": 6.03,
+            "FFP": 2.16,
             "ALP": 29.43,
-            "LIB": 46.62,
             "IND": 15.77,
-            "FFP": 2.16
+            "LIB": 46.62
           }
         },
         {
           "year": "2013",
           "shares": {
-            "ALP": 29.53,
-            "ASXP": 2.78,
-            "FFP": 2.22,
-            "GRN": 6.43,
-            "LIB": 53.73,
             "TOP": 3.99,
+            "ASXP": 2.78,
+            "GRN": 6.43,
+            "ALP": 29.53,
+            "LIB": 53.73,
+            "FFP": 2.22,
             "OTH": 1.32
           }
         },
         {
           "year": "2016",
           "shares": {
-            "ALP": 30.71,
             "GRN": 8.14,
             "LIB": 53.23,
-            "IND": 7.92
+            "IND": 7.92,
+            "ALP": 30.71
           }
         },
         {
           "year": "2019",
           "shares": {
-            "GRN": 6.34,
-            "LIB": 51.11,
-            "ALP": 26.13,
             "IND": 10.39,
-            "TOP": 6.02
+            "ALP": 26.13,
+            "GRN": 6.34,
+            "TOP": 6.02,
+            "LIB": 51.11
           }
         },
         {
           "year": "2022",
           "shares": {
+            "TOP": 3.27,
             "ALP": 19.09,
             "GRN": 6.37,
-            "TOP": 3.27,
-            "ON": 3.24,
             "IND": 21.61,
+            "ON": 3.24,
             "LIB": 44.46,
             "OTH": 1.95
           }
@@ -9481,11 +9485,11 @@
           "year": "2025",
           "shares": {
             "HMP": 2.8,
-            "LIB": 43.64,
-            "ON": 4.18,
             "ALP": 10.55,
+            "LIB": 43.64,
             "IND": 32.11,
             "GRN": 3.16,
+            "ON": 4.18,
             "OTH": 3.55
           }
         }

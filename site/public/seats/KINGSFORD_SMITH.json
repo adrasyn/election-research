@@ -9,6 +9,10 @@
     "totalFormal": 99132,
     "informalVotes": 5435,
     "informalRate": 6.17,
+    "enrolled": 117399,
+    "votesCounted": 105258,
+    "turnoutPct": 89.66,
+    "turnoutSwing": 0.22,
     "winner": {
       "candidateId": "C41386",
       "surname": "THISTLETHWAITE",
@@ -3740,70 +3744,6 @@
       ]
     },
     {
-      "boothId": 124101,
-      "name": "Other Mobile Team 3",
-      "formal": 23,
-      "winnerParty": "alp",
-      "winnerSurname": "THISTLETHWAITE",
-      "winnerPct": 82.61,
-      "swing": 20.53,
-      "candidates": [
-        {
-          "surname": "THISTLETHWAITE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 16,
-          "pct": 69.57
-        },
-        {
-          "surname": "JELIC",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 3,
-          "pct": 13.04
-        },
-        {
-          "surname": "COLE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 3,
-          "pct": 13.04
-        },
-        {
-          "surname": "BROWN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 1,
-          "pct": 4.35
-        },
-        {
-          "surname": "PARKER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "THISTLETHWAITE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 19,
-          "elected": true,
-          "pct": 82.61
-        },
-        {
-          "surname": "COLE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 4,
-          "elected": false,
-          "pct": 17.39
-        }
-      ]
-    },
-    {
       "boothId": 108395,
       "name": "Ultimo (Kingsford Smith)",
       "formal": 23,
@@ -3844,6 +3784,70 @@
           "surname": "JELIC",
           "partyAb": "ON",
           "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "elected": true,
+          "pct": 82.61
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "elected": false,
+          "pct": 17.39
+        }
+      ]
+    },
+    {
+      "boothId": 124101,
+      "name": "Other Mobile Team 3",
+      "formal": 23,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 82.61,
+      "swing": 20.53,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "pct": 69.57
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 13.04
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "pct": 13.04
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 4.35
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
           "votes": 0,
           "pct": 0.0
         }
@@ -4103,17 +4107,17 @@
           "year": "2007",
           "shares": {
             "LIB": 33.9,
-            "GRN": 10.37,
             "ALP": 52.85,
+            "GRN": 10.37,
             "OTH": 2.88
           }
         },
         {
           "year": "2010",
           "shares": {
-            "GRN": 12.05,
-            "ON": 0.89,
             "LIB": 41.25,
+            "ON": 0.89,
+            "GRN": 12.05,
             "ALP": 43.83,
             "OTH": 1.98
           }
@@ -4131,39 +4135,39 @@
           "year": "2016",
           "shares": {
             "CDP": 2.33,
-            "LIB": 37.54,
+            "ALP": 47.37,
             "GRN": 10.53,
-            "FUT": 2.23,
-            "ALP": 47.37
+            "LIB": 37.54,
+            "FUT": 2.23
           }
         },
         {
           "year": "2019",
           "shares": {
+            "GRN": 12.1,
             "LIB": 36.43,
             "ALP": 45.17,
-            "GRN": 12.1,
             "OTH": 6.31
           }
         },
         {
           "year": "2022",
           "shares": {
+            "TOP": 3.48,
             "ALP": 47.91,
-            "ON": 3.13,
-            "LIB": 28.66,
             "GRN": 16.83,
-            "TOP": 3.48
+            "LIB": 28.66,
+            "ON": 3.13
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 5.92,
-            "ALP": 50.79,
             "LIB": 26.15,
+            "GRN": 13.56,
             "IND": 3.59,
-            "GRN": 13.56
+            "ON": 5.92,
+            "ALP": 50.79
           }
         }
       ]

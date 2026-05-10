@@ -9,6 +9,10 @@
     "totalFormal": 76462,
     "informalVotes": 2019,
     "informalRate": 3.12,
+    "enrolled": 83693,
+    "votesCounted": 78802,
+    "turnoutPct": 94.16,
+    "turnoutSwing": 0.75,
     "winner": {
       "candidateId": "C41533",
       "surname": "COLLINS",
@@ -3083,77 +3087,6 @@
       ]
     },
     {
-      "boothId": 8513,
-      "name": "Glen Huon",
-      "formal": 308,
-      "winnerParty": "alp",
-      "winnerSurname": "COLLINS",
-      "winnerPct": 56.82,
-      "swing": 56.82,
-      "candidates": [
-        {
-          "surname": "COLLINS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 102,
-          "pct": 33.12
-        },
-        {
-          "surname": "GEORGE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 80,
-          "pct": 25.97
-        },
-        {
-          "surname": "GARVIN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 67,
-          "pct": 21.75
-        },
-        {
-          "surname": "FITZGERALD",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 26,
-          "pct": 8.44
-        },
-        {
-          "surname": "POPESCU",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 21,
-          "pct": 6.82
-        },
-        {
-          "surname": "BLOMELEY",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 12,
-          "pct": 3.9
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "COLLINS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 175,
-          "elected": true,
-          "pct": 56.82
-        },
-        {
-          "surname": "GEORGE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 133,
-          "elected": false,
-          "pct": 43.18
-        }
-      ]
-    },
-    {
       "boothId": 8515,
       "name": "Howden",
       "formal": 308,
@@ -3221,6 +3154,77 @@
           "votes": 146,
           "elected": false,
           "pct": 47.4
+        }
+      ]
+    },
+    {
+      "boothId": 8513,
+      "name": "Glen Huon",
+      "formal": 308,
+      "winnerParty": "alp",
+      "winnerSurname": "COLLINS",
+      "winnerPct": 56.82,
+      "swing": 56.82,
+      "candidates": [
+        {
+          "surname": "COLLINS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 102,
+          "pct": 33.12
+        },
+        {
+          "surname": "GEORGE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 80,
+          "pct": 25.97
+        },
+        {
+          "surname": "GARVIN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 67,
+          "pct": 21.75
+        },
+        {
+          "surname": "FITZGERALD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 26,
+          "pct": 8.44
+        },
+        {
+          "surname": "POPESCU",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 6.82
+        },
+        {
+          "surname": "BLOMELEY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 3.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COLLINS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 175,
+          "elected": true,
+          "pct": 56.82
+        },
+        {
+          "surname": "GEORGE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 133,
+          "elected": false,
+          "pct": 43.18
         }
       ]
     },
@@ -4211,39 +4215,39 @@
         {
           "year": "2007",
           "shares": {
-            "FFP": 2.22,
-            "LIB": 41.02,
             "GRN": 14.44,
             "ALP": 41.39,
+            "FFP": 2.22,
+            "LIB": 41.02,
             "OTH": 0.93
           }
         },
         {
           "year": "2010",
           "shares": {
-            "ALP": 42.85,
-            "LIB": 33.48,
+            "GRN": 20.87,
             "IND": 2.81,
-            "GRN": 20.87
+            "LIB": 33.48,
+            "ALP": 42.85
           }
         },
         {
           "year": "2013",
           "shares": {
-            "LIB": 38.71,
             "TOP": 6.1,
             "GRN": 12.18,
             "ALP": 39.93,
+            "LIB": 38.71,
             "OTH": 3.08
           }
         },
         {
           "year": "2016",
           "shares": {
-            "ARTS": 2.4,
             "GRN": 13.35,
-            "LIB": 35.26,
             "ALP": 47.01,
+            "LIB": 35.26,
+            "ARTS": 2.4,
             "OTH": 1.98
           }
         },
@@ -4251,22 +4255,22 @@
           "year": "2019",
           "shares": {
             "GRN": 16.25,
-            "TOP": 6.7,
-            "LIB": 31.27,
             "ALP": 43.99,
+            "LIB": 31.27,
+            "TOP": 6.7,
             "OTH": 1.79
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ON": 2.85,
-            "LIB": 26.73,
-            "LDP": 2.01,
-            "ALP": 36.69,
-            "JLN": 5.92,
             "GRN": 17.36,
+            "LDP": 2.01,
+            "JLN": 5.92,
             "TLOC": 4.96,
+            "ALP": 36.69,
+            "LIB": 26.73,
+            "ON": 2.85,
             "OTH": 3.48
           }
         },

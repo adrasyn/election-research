@@ -9,6 +9,10 @@
     "totalFormal": 106267,
     "informalVotes": 8610,
     "informalRate": 8.35,
+    "enrolled": 124664,
+    "votesCounted": 115538,
+    "turnoutPct": 92.68,
+    "turnoutSwing": 2.65,
     "winner": {
       "candidateId": "C36348",
       "surname": "GEE",
@@ -1919,105 +1923,6 @@
       ]
     },
     {
-      "boothId": 244,
-      "name": "Bathurst Eglinton",
-      "formal": 1017,
-      "winnerParty": "ind",
-      "winnerSurname": "GEE",
-      "winnerPct": 56.64,
-      "swing": 56.64,
-      "candidates": [
-        {
-          "surname": "FARRAWAY",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 302,
-          "pct": 29.7
-        },
-        {
-          "surname": "GEE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 204,
-          "pct": 20.06
-        },
-        {
-          "surname": "HOOK",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 186,
-          "pct": 18.29
-        },
-        {
-          "surname": "CUNNINGHAM",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 94,
-          "pct": 9.24
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 77,
-          "pct": 7.57
-        },
-        {
-          "surname": "PARKER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 55,
-          "pct": 5.41
-        },
-        {
-          "surname": "RAYE",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 52,
-          "pct": 5.11
-        },
-        {
-          "surname": "O'LEARY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 23,
-          "pct": 2.26
-        },
-        {
-          "surname": "LESAGE",
-          "partyAb": "SFF",
-          "party": "sff",
-          "votes": 13,
-          "pct": 1.28
-        },
-        {
-          "surname": "HAZELTON",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 11,
-          "pct": 1.08
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "GEE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 576,
-          "elected": true,
-          "pct": 56.64
-        },
-        {
-          "surname": "FARRAWAY",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 441,
-          "elected": false,
-          "pct": 43.36
-        }
-      ]
-    },
-    {
       "boothId": 31071,
       "name": "Bathurst City",
       "formal": 1017,
@@ -2113,6 +2018,105 @@
           "votes": 499,
           "elected": false,
           "pct": 49.07
+        }
+      ]
+    },
+    {
+      "boothId": 244,
+      "name": "Bathurst Eglinton",
+      "formal": 1017,
+      "winnerParty": "ind",
+      "winnerSurname": "GEE",
+      "winnerPct": 56.64,
+      "swing": 56.64,
+      "candidates": [
+        {
+          "surname": "FARRAWAY",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 302,
+          "pct": 29.7
+        },
+        {
+          "surname": "GEE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 204,
+          "pct": 20.06
+        },
+        {
+          "surname": "HOOK",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 186,
+          "pct": 18.29
+        },
+        {
+          "surname": "CUNNINGHAM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "pct": 9.24
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 7.57
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 55,
+          "pct": 5.41
+        },
+        {
+          "surname": "RAYE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 52,
+          "pct": 5.11
+        },
+        {
+          "surname": "O'LEARY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.26
+        },
+        {
+          "surname": "LESAGE",
+          "partyAb": "SFF",
+          "party": "sff",
+          "votes": 13,
+          "pct": 1.28
+        },
+        {
+          "surname": "HAZELTON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 576,
+          "elected": true,
+          "pct": 56.64
+        },
+        {
+          "surname": "FARRAWAY",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 441,
+          "elected": false,
+          "pct": 43.36
         }
       ]
     },
@@ -7364,105 +7368,6 @@
       ]
     },
     {
-      "boothId": 289,
-      "name": "Peel",
-      "formal": 165,
-      "winnerParty": "ind",
-      "winnerSurname": "GEE",
-      "winnerPct": 53.94,
-      "swing": 53.94,
-      "candidates": [
-        {
-          "surname": "FARRAWAY",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 60,
-          "pct": 36.36
-        },
-        {
-          "surname": "GEE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 38,
-          "pct": 23.03
-        },
-        {
-          "surname": "HOOK",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 36,
-          "pct": 21.82
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 9,
-          "pct": 5.45
-        },
-        {
-          "surname": "CUNNINGHAM",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 9,
-          "pct": 5.45
-        },
-        {
-          "surname": "PARKER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 5,
-          "pct": 3.03
-        },
-        {
-          "surname": "RAYE",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 3,
-          "pct": 1.82
-        },
-        {
-          "surname": "LESAGE",
-          "partyAb": "SFF",
-          "party": "sff",
-          "votes": 3,
-          "pct": 1.82
-        },
-        {
-          "surname": "O'LEARY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 2,
-          "pct": 1.21
-        },
-        {
-          "surname": "HAZELTON",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "GEE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 89,
-          "elected": true,
-          "pct": 53.94
-        },
-        {
-          "surname": "FARRAWAY",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 76,
-          "elected": false,
-          "pct": 46.06
-        }
-      ]
-    },
-    {
       "boothId": 109153,
       "name": "Special Hospital Team 4",
       "formal": 165,
@@ -7558,6 +7463,105 @@
           "votes": 70,
           "elected": false,
           "pct": 42.42
+        }
+      ]
+    },
+    {
+      "boothId": 289,
+      "name": "Peel",
+      "formal": 165,
+      "winnerParty": "ind",
+      "winnerSurname": "GEE",
+      "winnerPct": 53.94,
+      "swing": 53.94,
+      "candidates": [
+        {
+          "surname": "FARRAWAY",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 60,
+          "pct": 36.36
+        },
+        {
+          "surname": "GEE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 23.03
+        },
+        {
+          "surname": "HOOK",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 21.82
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 5.45
+        },
+        {
+          "surname": "CUNNINGHAM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "pct": 5.45
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 3.03
+        },
+        {
+          "surname": "RAYE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.82
+        },
+        {
+          "surname": "LESAGE",
+          "partyAb": "SFF",
+          "party": "sff",
+          "votes": 3,
+          "pct": 1.82
+        },
+        {
+          "surname": "O'LEARY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.21
+        },
+        {
+          "surname": "HAZELTON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 89,
+          "elected": true,
+          "pct": 53.94
+        },
+        {
+          "surname": "FARRAWAY",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 76,
+          "elected": false,
+          "pct": 46.06
         }
       ]
     },
@@ -7661,105 +7665,6 @@
       ]
     },
     {
-      "boothId": 2207,
-      "name": "Mumbil",
-      "formal": 153,
-      "winnerParty": "ind",
-      "winnerSurname": "GEE",
-      "winnerPct": 56.86,
-      "swing": 56.86,
-      "candidates": [
-        {
-          "surname": "FARRAWAY",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 38,
-          "pct": 24.84
-        },
-        {
-          "surname": "GEE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 35,
-          "pct": 22.88
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 20,
-          "pct": 13.07
-        },
-        {
-          "surname": "HOOK",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 19,
-          "pct": 12.42
-        },
-        {
-          "surname": "CUNNINGHAM",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 15,
-          "pct": 9.8
-        },
-        {
-          "surname": "RAYE",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 9,
-          "pct": 5.88
-        },
-        {
-          "surname": "O'LEARY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 6,
-          "pct": 3.92
-        },
-        {
-          "surname": "LESAGE",
-          "partyAb": "SFF",
-          "party": "sff",
-          "votes": 5,
-          "pct": 3.27
-        },
-        {
-          "surname": "HAZELTON",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 4,
-          "pct": 2.61
-        },
-        {
-          "surname": "PARKER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 2,
-          "pct": 1.31
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "GEE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 87,
-          "elected": true,
-          "pct": 56.86
-        },
-        {
-          "surname": "FARRAWAY",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 66,
-          "elected": false,
-          "pct": 43.14
-        }
-      ]
-    },
-    {
       "boothId": 267,
       "name": "Lyndhurst",
       "formal": 153,
@@ -7855,6 +7760,105 @@
           "votes": 87,
           "elected": false,
           "pct": 56.86
+        }
+      ]
+    },
+    {
+      "boothId": 2207,
+      "name": "Mumbil",
+      "formal": 153,
+      "winnerParty": "ind",
+      "winnerSurname": "GEE",
+      "winnerPct": 56.86,
+      "swing": 56.86,
+      "candidates": [
+        {
+          "surname": "FARRAWAY",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 38,
+          "pct": 24.84
+        },
+        {
+          "surname": "GEE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 22.88
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 13.07
+        },
+        {
+          "surname": "HOOK",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 12.42
+        },
+        {
+          "surname": "CUNNINGHAM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 15,
+          "pct": 9.8
+        },
+        {
+          "surname": "RAYE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 5.88
+        },
+        {
+          "surname": "O'LEARY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 3.92
+        },
+        {
+          "surname": "LESAGE",
+          "partyAb": "SFF",
+          "party": "sff",
+          "votes": 5,
+          "pct": 3.27
+        },
+        {
+          "surname": "HAZELTON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.61
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 1.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 87,
+          "elected": true,
+          "pct": 56.86
+        },
+        {
+          "surname": "FARRAWAY",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 66,
+          "elected": false,
+          "pct": 43.14
         }
       ]
     },
@@ -9558,9 +9562,9 @@
         {
           "year": "2007",
           "shares": {
-            "CLR": 24.6,
-            "GRN": 2.85,
             "NAT": 48.48,
+            "GRN": 2.85,
+            "CLR": 24.6,
             "IND": 23.1,
             "OTH": 0.96
           }
@@ -9568,69 +9572,69 @@
         {
           "year": "2010",
           "shares": {
-            "CLR": 29.05,
-            "CDP": 2.19,
             "NAT": 52.41,
+            "CDP": 2.19,
             "GRN": 6.0,
+            "CLR": 29.05,
             "IND": 10.34
           }
         },
         {
           "year": "2013",
           "shares": {
-            "NAT": 57.65,
+            "IND": 2.61,
             "TOP": 4.77,
             "ALP": 25.39,
             "GRN": 4.44,
-            "IND": 2.61,
+            "NAT": 57.65,
             "OTH": 5.14
           }
         },
         {
           "year": "2016",
           "shares": {
-            "NAT": 47.58,
-            "LDP": 6.54,
             "CDP": 2.38,
             "IND": 3.83,
+            "ALP": 27.06,
             "GRN": 7.22,
             "CA": 5.4,
-            "ALP": 27.06
+            "LDP": 6.54,
+            "NAT": 47.58
           }
         },
         {
           "year": "2019",
           "shares": {
-            "ALP": 22.13,
             "TOP": 3.23,
-            "SFF": 17.38,
-            "LDP": 4.58,
-            "NAT": 44.71,
+            "ALP": 22.13,
             "GRN": 6.06,
+            "SFF": 17.38,
+            "NAT": 44.71,
+            "LDP": 4.58,
             "OTH": 1.91
           }
         },
         {
           "year": "2022",
           "shares": {
-            "TOP": 3.79,
             "IND": 20.4,
-            "ON": 8.44,
-            "ALP": 15.14,
             "GRN": 4.56,
-            "NAT": 47.67
+            "ON": 8.44,
+            "NAT": 47.67,
+            "ALP": 15.14,
+            "TOP": 3.79
           }
         },
         {
           "year": "2025",
           "shares": {
-            "IND": 39.46,
-            "GRN": 3.53,
             "ON": 7.72,
             "NAT": 29.71,
-            "SFF": 2.11,
-            "ALP": 10.43,
             "HMP": 3.92,
+            "IND": 39.46,
+            "ALP": 10.43,
+            "SFF": 2.11,
+            "GRN": 3.53,
             "OTH": 3.12
           }
         }

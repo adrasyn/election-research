@@ -9,6 +9,10 @@
     "totalFormal": 111582,
     "informalVotes": 8552,
     "informalRate": 8.79,
+    "enrolled": 138898,
+    "votesCounted": 121550,
+    "turnoutPct": 87.51,
+    "turnoutSwing": 0.94,
     "winner": {
       "candidateId": "C41198",
       "surname": "BURNELL",
@@ -1904,91 +1908,6 @@
       ]
     },
     {
-      "boothId": 6845,
-      "name": "Salisbury Downs",
-      "formal": 1371,
-      "winnerParty": "alp",
-      "winnerSurname": "BURNELL",
-      "winnerPct": 71.63,
-      "swing": 0.12,
-      "candidates": [
-        {
-          "surname": "BURNELL",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 679,
-          "pct": 49.53
-        },
-        {
-          "surname": "SKINNER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 232,
-          "pct": 16.92
-        },
-        {
-          "surname": "WILD",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 205,
-          "pct": 14.95
-        },
-        {
-          "surname": "BOTHE",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 104,
-          "pct": 7.59
-        },
-        {
-          "surname": "MORRELL",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 49,
-          "pct": 3.57
-        },
-        {
-          "surname": "BENNETT",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 44,
-          "pct": 3.21
-        },
-        {
-          "surname": "HANTON",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 33,
-          "pct": 2.41
-        },
-        {
-          "surname": "SMITH",
-          "partyAb": "AJP",
-          "party": "ajp",
-          "votes": 25,
-          "pct": 1.82
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "BURNELL",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 982,
-          "elected": true,
-          "pct": 71.63
-        },
-        {
-          "surname": "WILD",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 389,
-          "elected": false,
-          "pct": 28.37
-        }
-      ]
-    },
-    {
       "boothId": 6826,
       "name": "Direk",
       "formal": 1371,
@@ -2070,6 +1989,91 @@
           "votes": 439,
           "elected": false,
           "pct": 32.02
+        }
+      ]
+    },
+    {
+      "boothId": 6845,
+      "name": "Salisbury Downs",
+      "formal": 1371,
+      "winnerParty": "alp",
+      "winnerSurname": "BURNELL",
+      "winnerPct": 71.63,
+      "swing": 0.12,
+      "candidates": [
+        {
+          "surname": "BURNELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 679,
+          "pct": 49.53
+        },
+        {
+          "surname": "SKINNER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 232,
+          "pct": 16.92
+        },
+        {
+          "surname": "WILD",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 205,
+          "pct": 14.95
+        },
+        {
+          "surname": "BOTHE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 104,
+          "pct": 7.59
+        },
+        {
+          "surname": "MORRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 49,
+          "pct": 3.57
+        },
+        {
+          "surname": "BENNETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 3.21
+        },
+        {
+          "surname": "HANTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.41
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 25,
+          "pct": 1.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BURNELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 982,
+          "elected": true,
+          "pct": 71.63
+        },
+        {
+          "surname": "WILD",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 389,
+          "elected": false,
+          "pct": 28.37
         }
       ]
     },
@@ -5030,36 +5034,36 @@
         {
           "year": "2019",
           "shares": {
-            "IND": 5.39,
-            "AJP": 3.57,
-            "GRN": 7.21,
-            "ALP": 50.96,
             "TOP": 7.04,
-            "LIB": 25.83
+            "IND": 5.39,
+            "LIB": 25.83,
+            "ALP": 50.96,
+            "GRN": 7.21,
+            "AJP": 3.57
           }
         },
         {
           "year": "2022",
           "shares": {
+            "LIB": 25.56,
+            "GRN": 11.35,
+            "ALP": 43.86,
             "ON": 10.86,
             "TOP": 6.74,
-            "ALP": 43.86,
-            "GRN": 11.35,
-            "LIB": 25.56,
             "OTH": 1.63
           }
         },
         {
           "year": "2025",
           "shares": {
-            "IND": 2.46,
-            "AJP": 2.1,
-            "ALP": 44.33,
-            "ON": 9.55,
-            "FFP": 4.39,
-            "GRN": 14.49,
             "CYA": 3.99,
-            "LIB": 18.69
+            "GRN": 14.49,
+            "LIB": 18.69,
+            "IND": 2.46,
+            "FFP": 4.39,
+            "ON": 9.55,
+            "AJP": 2.1,
+            "ALP": 44.33
           }
         }
       ]

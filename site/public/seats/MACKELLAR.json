@@ -9,6 +9,10 @@
     "totalFormal": 111847,
     "informalVotes": 7901,
     "informalRate": 7.72,
+    "enrolled": 129339,
+    "votesCounted": 120741,
+    "turnoutPct": 93.35,
+    "turnoutSwing": 1.66,
     "winner": {
       "candidateId": "C37450",
       "surname": "SCAMPS",
@@ -1784,98 +1788,6 @@
       ]
     },
     {
-      "boothId": 1741,
-      "name": "Wheeler Heights",
-      "formal": 1577,
-      "winnerParty": "ind",
-      "winnerSurname": "SCAMPS",
-      "winnerPct": 56.82,
-      "swing": 5.44,
-      "candidates": [
-        {
-          "surname": "SCAMPS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 605,
-          "pct": 38.36
-        },
-        {
-          "surname": "BROWN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 545,
-          "pct": 34.56
-        },
-        {
-          "surname": "QUINN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 205,
-          "pct": 13.0
-        },
-        {
-          "surname": "HRNJAK",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 95,
-          "pct": 6.02
-        },
-        {
-          "surname": "COTTON",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 39,
-          "pct": 2.47
-        },
-        {
-          "surname": "HAYMAN",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 37,
-          "pct": 2.35
-        },
-        {
-          "surname": "ADDISON",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 25,
-          "pct": 1.59
-        },
-        {
-          "surname": "ROBERTSON",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 22,
-          "pct": 1.4
-        },
-        {
-          "surname": "SINGH",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 4,
-          "pct": 0.25
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "SCAMPS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 896,
-          "elected": true,
-          "pct": 56.82
-        },
-        {
-          "surname": "BROWN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 681,
-          "elected": false,
-          "pct": 43.18
-        }
-      ]
-    },
-    {
       "boothId": 1724,
       "name": "Cromer",
       "formal": 1577,
@@ -1964,6 +1876,98 @@
           "votes": 651,
           "elected": false,
           "pct": 41.28
+        }
+      ]
+    },
+    {
+      "boothId": 1741,
+      "name": "Wheeler Heights",
+      "formal": 1577,
+      "winnerParty": "ind",
+      "winnerSurname": "SCAMPS",
+      "winnerPct": 56.82,
+      "swing": 5.44,
+      "candidates": [
+        {
+          "surname": "SCAMPS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 605,
+          "pct": 38.36
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 545,
+          "pct": 34.56
+        },
+        {
+          "surname": "QUINN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 205,
+          "pct": 13.0
+        },
+        {
+          "surname": "HRNJAK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 95,
+          "pct": 6.02
+        },
+        {
+          "surname": "COTTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 2.47
+        },
+        {
+          "surname": "HAYMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 2.35
+        },
+        {
+          "surname": "ADDISON",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.59
+        },
+        {
+          "surname": "ROBERTSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.4
+        },
+        {
+          "surname": "SINGH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SCAMPS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 896,
+          "elected": true,
+          "pct": 56.82
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 681,
+          "elected": false,
+          "pct": 43.18
         }
       ]
     },
@@ -5186,29 +5190,29 @@
         {
           "year": "2007",
           "shares": {
-            "LIB": 56.41,
             "CCC": 2.11,
+            "CDP": 2.33,
+            "LIB": 56.41,
             "GRN": 11.72,
             "ALP": 24.35,
-            "CDP": 2.33,
             "OTH": 3.08
           }
         },
         {
           "year": "2010",
           "shares": {
+            "ALP": 21.1,
             "GRN": 16.77,
-            "LIB": 62.12,
-            "ALP": 21.1
+            "LIB": 62.12
           }
         },
         {
           "year": "2013",
           "shares": {
+            "ALP": 17.24,
             "LIB": 62.43,
             "TOP": 4.17,
             "GRN": 14.19,
-            "ALP": 17.24,
             "OTH": 1.98
           }
         },
@@ -5218,31 +5222,31 @@
             "CDP": 2.56,
             "GRN": 14.05,
             "LIB": 51.17,
-            "ALP": 17.32,
-            "IND": 14.9
+            "IND": 14.9,
+            "ALP": 17.32
           }
         },
         {
           "year": "2019",
           "shares": {
-            "ALP": 16.94,
-            "TOP": 2.36,
-            "GRN": 11.48,
-            "LIB": 53.01,
             "SPP": 2.6,
             "IND": 12.19,
+            "GRN": 11.48,
+            "ALP": 16.94,
+            "LIB": 53.01,
+            "TOP": 2.36,
             "OTH": 1.43
           }
         },
         {
           "year": "2022",
           "shares": {
+            "ON": 2.65,
+            "ALP": 8.25,
             "TOP": 2.91,
             "GRN": 6.09,
-            "ALP": 8.25,
-            "LIB": 41.41,
-            "ON": 2.65,
             "IND": 38.11,
+            "LIB": 41.41,
             "OTH": 0.58
           }
         },
@@ -5250,9 +5254,9 @@
           "year": "2025",
           "shares": {
             "IND": 40.66,
+            "ALP": 12.07,
             "LIB": 35.45,
             "ON": 2.53,
-            "ALP": 12.07,
             "GRN": 6.13,
             "OTH": 3.16
           }

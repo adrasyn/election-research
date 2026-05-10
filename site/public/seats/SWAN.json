@@ -9,6 +9,10 @@
     "totalFormal": 98280,
     "informalVotes": 2498,
     "informalRate": 3.19,
+    "enrolled": 116105,
+    "votesCounted": 101394,
+    "turnoutPct": 87.33,
+    "turnoutSwing": -0.05,
     "winner": {
       "candidateId": "C41456",
       "surname": "MASCARENHAS",
@@ -2373,77 +2377,6 @@
       ]
     },
     {
-      "boothId": 8213,
-      "name": "Carlisle",
-      "formal": 846,
-      "winnerParty": "alp",
-      "winnerSurname": "MASCARENHAS",
-      "winnerPct": 69.5,
-      "swing": 4.32,
-      "candidates": [
-        {
-          "surname": "MASCARENHAS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 384,
-          "pct": 45.39
-        },
-        {
-          "surname": "UINK",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 178,
-          "pct": 21.04
-        },
-        {
-          "surname": "FELS",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 171,
-          "pct": 20.21
-        },
-        {
-          "surname": "HALLEY",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 46,
-          "pct": 5.44
-        },
-        {
-          "surname": "LEECH",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 44,
-          "pct": 5.2
-        },
-        {
-          "surname": "STAER",
-          "partyAb": "AUC",
-          "party": "oth",
-          "votes": 23,
-          "pct": 2.72
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "MASCARENHAS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 588,
-          "elected": true,
-          "pct": 69.5
-        },
-        {
-          "surname": "FELS",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 258,
-          "elected": false,
-          "pct": 30.5
-        }
-      ]
-    },
-    {
       "boothId": 8241,
       "name": "Rivervale North",
       "formal": 846,
@@ -2511,6 +2444,77 @@
           "votes": 305,
           "elected": false,
           "pct": 36.05
+        }
+      ]
+    },
+    {
+      "boothId": 8213,
+      "name": "Carlisle",
+      "formal": 846,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 69.5,
+      "swing": 4.32,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 384,
+          "pct": 45.39
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 178,
+          "pct": 21.04
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 171,
+          "pct": 20.21
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 5.44
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 44,
+          "pct": 5.2
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 588,
+          "elected": true,
+          "pct": 69.5
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 258,
+          "elected": false,
+          "pct": 30.5
         }
       ]
     },
@@ -3559,19 +3563,19 @@
           "year": "2007",
           "shares": {
             "LIB": 44.28,
-            "ON": 0.89,
             "ALP": 40.65,
             "GRN": 10.13,
+            "ON": 0.89,
             "OTH": 4.04
           }
         },
         {
           "year": "2010",
           "shares": {
-            "ALP": 35.28,
             "LIB": 46.51,
-            "CDP": 2.07,
+            "ALP": 35.28,
             "ASXP": 2.59,
+            "CDP": 2.07,
             "GRN": 11.81,
             "OTH": 1.73
           }
@@ -3579,54 +3583,54 @@
         {
           "year": "2013",
           "shares": {
-            "GRN": 11.55,
             "LIB": 48.86,
-            "TOP": 4.23,
             "ALP": 30.6,
+            "TOP": 4.23,
+            "GRN": 11.55,
             "OTH": 4.75
           }
         },
         {
           "year": "2016",
           "shares": {
-            "ALP": 33.01,
+            "AUC": 3.79,
             "LIB": 48.18,
-            "GRN": 15.02,
-            "AUC": 3.79
+            "ALP": 33.01,
+            "GRN": 15.02
           }
         },
         {
           "year": "2019",
           "shares": {
+            "LIB": 44.68,
             "GRN": 12.32,
             "ALP": 33.22,
             "ON": 2.42,
-            "LIB": 44.68,
             "OTH": 7.35
           }
         },
         {
           "year": "2022",
           "shares": {
+            "GRN": 14.86,
+            "AJP": 2.21,
+            "WAP": 2.06,
+            "ALP": 39.07,
             "TOP": 2.64,
             "LIB": 32.08,
-            "GRN": 14.86,
-            "WAP": 2.06,
-            "AJP": 2.21,
             "ON": 2.54,
-            "ALP": 39.07,
             "OTH": 4.54
           }
         },
         {
           "year": "2025",
           "shares": {
-            "GRN": 17.49,
             "ON": 5.22,
-            "HMP": 4.17,
-            "LIB": 26.93,
             "AUC": 3.56,
-            "ALP": 42.63
+            "HMP": 4.17,
+            "ALP": 42.63,
+            "GRN": 17.49,
+            "LIB": 26.93
           }
         }
       ]

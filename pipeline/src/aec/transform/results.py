@@ -33,6 +33,23 @@ def load_candidates(path) -> pl.DataFrame:
     return pl.read_csv(path, skip_rows=SKIP_ROWS, infer_schema_length=10000)
 
 
+def load_turnout(path) -> pl.DataFrame:
+    return pl.read_csv(path, skip_rows=SKIP_ROWS, infer_schema_length=10000)
+
+
+def turnout_for_division(turnout: pl.DataFrame, division_id: int) -> dict[str, Any]:
+    row = turnout.filter(pl.col("DivisionID") == division_id)
+    if row.is_empty():
+        return {}
+    r = row.row(0, named=True)
+    return {
+        "enrolled": int(r.get("Enrolment") or 0),
+        "votesCounted": int(r.get("Turnout") or 0),
+        "turnoutPct": float(r.get("TurnoutPercentage") or 0.0),
+        "turnoutSwing": float(r.get("TurnoutSwing") or 0.0),
+    }
+
+
 def primary_for_division(first_prefs: pl.DataFrame, division_id: int) -> list[dict[str, Any]]:
     """Aggregate first-pref votes across all booths in a division.
 

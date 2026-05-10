@@ -9,6 +9,10 @@
     "totalFormal": 98295,
     "informalVotes": 8101,
     "informalRate": 8.78,
+    "enrolled": 114887,
+    "votesCounted": 107500,
+    "turnoutPct": 93.57,
+    "turnoutSwing": 1.48,
     "winner": {
       "candidateId": "C41400",
       "surname": "MONCRIEFF",
@@ -4029,91 +4033,6 @@
       ]
     },
     {
-      "boothId": 97413,
-      "name": "Bangor South",
-      "formal": 382,
-      "winnerParty": "lib",
-      "winnerSurname": "WARE",
-      "winnerPct": 55.5,
-      "swing": -10.57,
-      "candidates": [
-        {
-          "surname": "WARE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 172,
-          "pct": 45.03
-        },
-        {
-          "surname": "MONCRIEFF",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 130,
-          "pct": 34.03
-        },
-        {
-          "surname": "DYSON",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 35,
-          "pct": 9.16
-        },
-        {
-          "surname": "SWINBOURN",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 21,
-          "pct": 5.5
-        },
-        {
-          "surname": "SCARFONE",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 8,
-          "pct": 2.09
-        },
-        {
-          "surname": "MARSH",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 8,
-          "pct": 2.09
-        },
-        {
-          "surname": "SINOSIC",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 7,
-          "pct": 1.83
-        },
-        {
-          "surname": "MILLER",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 1,
-          "pct": 0.26
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "MONCRIEFF",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 170,
-          "elected": true,
-          "pct": 44.5
-        },
-        {
-          "surname": "WARE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 212,
-          "elected": false,
-          "pct": 55.5
-        }
-      ]
-    },
-    {
       "boothId": 109793,
       "name": "Caringbah HUGHES PPVC",
       "formal": 382,
@@ -4195,6 +4114,91 @@
           "votes": 176,
           "elected": false,
           "pct": 46.07
+        }
+      ]
+    },
+    {
+      "boothId": 97413,
+      "name": "Bangor South",
+      "formal": 382,
+      "winnerParty": "lib",
+      "winnerSurname": "WARE",
+      "winnerPct": 55.5,
+      "swing": -10.57,
+      "candidates": [
+        {
+          "surname": "WARE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 172,
+          "pct": 45.03
+        },
+        {
+          "surname": "MONCRIEFF",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 130,
+          "pct": 34.03
+        },
+        {
+          "surname": "DYSON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 35,
+          "pct": 9.16
+        },
+        {
+          "surname": "SWINBOURN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 5.5
+        },
+        {
+          "surname": "SCARFONE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.09
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 2.09
+        },
+        {
+          "surname": "SINOSIC",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.83
+        },
+        {
+          "surname": "MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MONCRIEFF",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "elected": true,
+          "pct": 44.5
+        },
+        {
+          "surname": "WARE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 212,
+          "elected": false,
+          "pct": 55.5
         }
       ]
     },
@@ -5201,75 +5205,75 @@
           "year": "2007",
           "shares": {
             "ALP": 42.01,
-            "CDP": 2.9,
-            "GRN": 5.56,
             "LIB": 48.29,
+            "GRN": 5.56,
+            "CDP": 2.9,
             "OTH": 1.24
           }
         },
         {
           "year": "2010",
           "shares": {
-            "GRN": 6.29,
-            "ALP": 37.78,
-            "ON": 1.85,
             "CDP": 2.45,
+            "ALP": 37.78,
             "LIB": 49.15,
+            "ON": 1.85,
+            "GRN": 6.29,
             "OTH": 2.47
           }
         },
         {
           "year": "2013",
           "shares": {
-            "TOP": 5.9,
-            "ALP": 32.07,
+            "GRN": 4.46,
             "LIB": 54.68,
             "CDP": 2.89,
-            "GRN": 4.46
+            "TOP": 5.9,
+            "ALP": 32.07
           }
         },
         {
           "year": "2016",
           "shares": {
-            "LIB": 51.97,
-            "CDP": 4.79,
             "GRN": 7.37,
-            "AJP": 3.99,
-            "ALP": 31.88
+            "ALP": 31.88,
+            "CDP": 4.79,
+            "LIB": 51.97,
+            "AJP": 3.99
           }
         },
         {
           "year": "2019",
           "shares": {
-            "LIB": 53.16,
-            "TOP": 2.48,
             "ALP": 30.46,
-            "CDP": 2.32,
-            "GRN": 6.94,
             "IND": 2.08,
+            "GRN": 6.94,
+            "CDP": 2.32,
+            "TOP": 2.48,
+            "LIB": 53.16,
             "AJP": 2.55
           }
         },
         {
           "year": "2022",
           "shares": {
+            "ON": 2.68,
+            "IND": 17.57,
             "GRN": 6.31,
             "ALP": 22.52,
-            "IND": 17.57,
-            "TOP": 7.42,
-            "ON": 2.68,
-            "LIB": 43.49
+            "LIB": 43.49,
+            "TOP": 7.42
           }
         },
         {
           "year": "2025",
           "shares": {
             "ALP": 39.0,
+            "GRN": 11.42,
             "ON": 5.34,
+            "CYA": 2.83,
             "LIB": 36.45,
             "FFP": 2.42,
-            "CYA": 2.83,
-            "GRN": 11.42,
             "OTH": 2.55
           }
         }

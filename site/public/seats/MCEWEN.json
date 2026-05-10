@@ -9,6 +9,10 @@
     "totalFormal": 104616,
     "informalVotes": 4385,
     "informalRate": 5.6,
+    "enrolled": 117921,
+    "votesCounted": 110307,
+    "turnoutPct": 93.54,
+    "turnoutSwing": 9.11,
     "winner": {
       "candidateId": "C40812",
       "surname": "MITCHELL",
@@ -1692,98 +1696,6 @@
       ]
     },
     {
-      "boothId": 83324,
-      "name": "Mernda South",
-      "formal": 1343,
-      "winnerParty": "alp",
-      "winnerSurname": "MITCHELL",
-      "winnerPct": 58.23,
-      "swing": 0.91,
-      "candidates": [
-        {
-          "surname": "MITCHELL",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 551,
-          "pct": 41.03
-        },
-        {
-          "surname": "McCLINTOCK",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 383,
-          "pct": 28.52
-        },
-        {
-          "surname": "McRAE McLEOD",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 179,
-          "pct": 13.33
-        },
-        {
-          "surname": "JOHNSON",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 72,
-          "pct": 5.36
-        },
-        {
-          "surname": "ANTONIOU",
-          "partyAb": "GRPF",
-          "party": "oth",
-          "votes": 57,
-          "pct": 4.24
-        },
-        {
-          "surname": "FORREST",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 40,
-          "pct": 2.98
-        },
-        {
-          "surname": "VALENCIA",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 40,
-          "pct": 2.98
-        },
-        {
-          "surname": "NICOLOSI",
-          "partyAb": "AJP",
-          "party": "ajp",
-          "votes": 15,
-          "pct": 1.12
-        },
-        {
-          "surname": "McGRATH",
-          "partyAb": "FUS",
-          "party": "fus",
-          "votes": 6,
-          "pct": 0.45
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "MITCHELL",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 782,
-          "elected": true,
-          "pct": 58.23
-        },
-        {
-          "surname": "McCLINTOCK",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 561,
-          "elected": false,
-          "pct": 41.77
-        }
-      ]
-    },
-    {
       "boothId": 65865,
       "name": "Craigieburn MCEWEN PPVC",
       "formal": 1343,
@@ -1872,6 +1784,98 @@
           "votes": 503,
           "elected": false,
           "pct": 37.45
+        }
+      ]
+    },
+    {
+      "boothId": 83324,
+      "name": "Mernda South",
+      "formal": 1343,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 58.23,
+      "swing": 0.91,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 551,
+          "pct": 41.03
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 383,
+          "pct": 28.52
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 179,
+          "pct": 13.33
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 5.36
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 57,
+          "pct": 4.24
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 2.98
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 2.98
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 15,
+          "pct": 1.12
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 6,
+          "pct": 0.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 782,
+          "elected": true,
+          "pct": 58.23
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 561,
+          "elected": false,
+          "pct": 41.77
         }
       ]
     },
@@ -5633,8 +5637,8 @@
           "year": "2007",
           "shares": {
             "GRN": 8.68,
-            "ALP": 40.2,
             "LIB": 45.77,
+            "ALP": 40.2,
             "FFP": 2.49,
             "OTH": 2.86
           }
@@ -5642,9 +5646,9 @@
         {
           "year": "2010",
           "shares": {
+            "LIB": 40.01,
             "ALP": 43.17,
             "FFP": 3.19,
-            "LIB": 40.01,
             "GRN": 11.84,
             "OTH": 1.79
           }
@@ -5652,25 +5656,25 @@
         {
           "year": "2013",
           "shares": {
-            "LIB": 40.34,
-            "ALP": 37.62,
-            "ASXP": 3.22,
             "FFP": 2.87,
+            "ALP": 37.62,
             "TOP": 6.74,
             "GRN": 7.1,
+            "ASXP": 3.22,
+            "LIB": 40.34,
             "OTH": 2.12
           }
         },
         {
           "year": "2016",
           "shares": {
-            "AJP": 2.65,
-            "FFP": 3.27,
             "IND": 2.66,
             "LIB": 33.7,
-            "GRN": 7.58,
-            "NAT": 2.36,
+            "FFP": 3.27,
             "ALP": 44.69,
+            "NAT": 2.36,
+            "GRN": 7.58,
+            "AJP": 2.65,
             "OTH": 3.08
           }
         },
@@ -5678,38 +5682,38 @@
           "year": "2019",
           "shares": {
             "AJP": 3.01,
-            "LIB": 34.5,
-            "ON": 5.92,
-            "ALP": 39.44,
-            "HJP": 4.03,
-            "GRN": 8.35,
             "TOP": 3.14,
+            "GRN": 8.35,
+            "ON": 5.92,
+            "HJP": 4.03,
+            "LIB": 34.5,
+            "ALP": 39.44,
             "OTH": 1.61
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ALP": 36.81,
-            "TOP": 5.72,
             "GRN": 14.13,
-            "ON": 5.63,
-            "LIB": 33.22,
+            "ALP": 36.81,
             "LDP": 2.69,
+            "LIB": 33.22,
+            "ON": 5.63,
+            "TOP": 5.72,
             "OTH": 1.8
           }
         },
         {
           "year": "2025",
           "shares": {
+            "ALP": 37.35,
             "FFP": 2.39,
+            "LIB": 32.52,
+            "AJP": 2.01,
+            "GRN": 11.1,
+            "GRPF": 3.38,
             "ON": 6.57,
             "HMP": 3.88,
-            "GRPF": 3.38,
-            "ALP": 37.35,
-            "LIB": 32.52,
-            "GRN": 11.1,
-            "AJP": 2.01,
             "OTH": 0.8
           }
         }

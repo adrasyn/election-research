@@ -9,6 +9,10 @@
     "totalFormal": 117339,
     "informalVotes": 2535,
     "informalRate": 2.69,
+    "enrolled": 129524,
+    "votesCounted": 120452,
+    "turnoutPct": 93.0,
+    "turnoutSwing": 0.46,
     "winner": {
       "candidateId": "C41197",
       "surname": "MILLER-FROST",
@@ -1095,77 +1099,6 @@
       ]
     },
     {
-      "boothId": 6860,
-      "name": "Bellevue Heights",
-      "formal": 1424,
-      "winnerParty": "alp",
-      "winnerSurname": "MILLER-FROST",
-      "winnerPct": 64.96,
-      "swing": 8.8,
-      "candidates": [
-        {
-          "surname": "MILLER-FROST",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 534,
-          "pct": 37.5
-        },
-        {
-          "surname": "FLINT",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 397,
-          "pct": 27.88
-        },
-        {
-          "surname": "WELLS",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 371,
-          "pct": 26.05
-        },
-        {
-          "surname": "HUSSEY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 47,
-          "pct": 3.3
-        },
-        {
-          "surname": "PRIOR",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 40,
-          "pct": 2.81
-        },
-        {
-          "surname": "SCOTT",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 35,
-          "pct": 2.46
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "MILLER-FROST",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 925,
-          "elected": true,
-          "pct": 64.96
-        },
-        {
-          "surname": "FLINT",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 499,
-          "elected": false,
-          "pct": 35.04
-        }
-      ]
-    },
-    {
       "boothId": 7014,
       "name": "Edwardstown",
       "formal": 1424,
@@ -1233,6 +1166,77 @@
           "votes": 464,
           "elected": false,
           "pct": 32.58
+        }
+      ]
+    },
+    {
+      "boothId": 6860,
+      "name": "Bellevue Heights",
+      "formal": 1424,
+      "winnerParty": "alp",
+      "winnerSurname": "MILLER-FROST",
+      "winnerPct": 64.96,
+      "swing": 8.8,
+      "candidates": [
+        {
+          "surname": "MILLER-FROST",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 534,
+          "pct": 37.5
+        },
+        {
+          "surname": "FLINT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 397,
+          "pct": 27.88
+        },
+        {
+          "surname": "WELLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 371,
+          "pct": 26.05
+        },
+        {
+          "surname": "HUSSEY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.3
+        },
+        {
+          "surname": "PRIOR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 2.81
+        },
+        {
+          "surname": "SCOTT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 2.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MILLER-FROST",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 925,
+          "elected": true,
+          "pct": 64.96
+        },
+        {
+          "surname": "FLINT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 499,
+          "elected": false,
+          "pct": 35.04
         }
       ]
     },
@@ -4481,11 +4485,11 @@
         {
           "year": "2007",
           "shares": {
+            "LIB": 46.25,
+            "IND": 4.91,
+            "GRN": 10.22,
             "ON": 0.35,
             "FFP": 2.44,
-            "GRN": 10.22,
-            "IND": 4.91,
-            "LIB": 46.25,
             "ALP": 34.12,
             "OTH": 1.71
           }
@@ -4493,8 +4497,8 @@
         {
           "year": "2010",
           "shares": {
-            "ALP": 35.75,
             "GRN": 13.24,
+            "ALP": 35.75,
             "LIB": 44.81,
             "FFP": 2.48,
             "OTH": 3.72
@@ -4503,20 +4507,20 @@
         {
           "year": "2013",
           "shares": {
-            "GRN": 11.97,
-            "ALP": 30.77,
+            "TOP": 3.01,
             "LIB": 50.35,
-            "FFP": 3.91,
-            "TOP": 3.01
+            "ALP": 30.77,
+            "GRN": 11.97,
+            "FFP": 3.91
           }
         },
         {
           "year": "2016",
           "shares": {
-            "ALP": 24.52,
-            "GRN": 8.4,
             "LIB": 41.24,
             "CA": 20.66,
+            "ALP": 24.52,
+            "GRN": 8.4,
             "FFP": 2.6,
             "OTH": 2.58
           }
@@ -4525,33 +4529,33 @@
           "year": "2019",
           "shares": {
             "ALP": 34.63,
-            "LIB": 45.19,
             "AJP": 2.42,
-            "IND": 2.57,
+            "LIB": 45.19,
             "GRN": 11.96,
+            "IND": 2.57,
             "OTH": 3.22
           }
         },
         {
           "year": "2022",
           "shares": {
+            "ON": 2.04,
             "TOP": 2.22,
-            "LIB": 37.99,
             "ALP": 32.32,
             "IND": 7.47,
+            "LIB": 37.99,
             "GRN": 15.2,
-            "ON": 2.04,
             "OTH": 2.77
           }
         },
         {
           "year": "2025",
           "shares": {
-            "CYA": 2.77,
-            "GRN": 17.08,
-            "FFP": 2.0,
             "ALP": 42.62,
+            "CYA": 2.77,
+            "FFP": 2.0,
             "LIB": 32.48,
+            "GRN": 17.08,
             "ON": 3.03
           }
         }

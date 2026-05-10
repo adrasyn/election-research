@@ -9,6 +9,10 @@
     "totalFormal": 105202,
     "informalVotes": 2971,
     "informalRate": 3.46,
+    "enrolled": 118962,
+    "votesCounted": 108740,
+    "turnoutPct": 91.41,
+    "turnoutSwing": 7.81,
     "winner": {
       "candidateId": "C40836",
       "surname": "WATTS",
@@ -2716,70 +2720,6 @@
       ]
     },
     {
-      "boothId": 124029,
-      "name": "Melbourne CBD North West (Gellibrand)",
-      "formal": 24,
-      "winnerParty": "alp",
-      "winnerSurname": "WATTS",
-      "winnerPct": 79.17,
-      "swing": 16.67,
-      "candidates": [
-        {
-          "surname": "WATTS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 11,
-          "pct": 45.83
-        },
-        {
-          "surname": "KRISHNA PANDI",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 8,
-          "pct": 33.33
-        },
-        {
-          "surname": "REESON",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 2,
-          "pct": 8.33
-        },
-        {
-          "surname": "GARCIA",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 2,
-          "pct": 8.33
-        },
-        {
-          "surname": "BENNETT",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 1,
-          "pct": 4.17
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "WATTS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 19,
-          "elected": true,
-          "pct": 79.17
-        },
-        {
-          "surname": "REESON",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 5,
-          "elected": false,
-          "pct": 20.83
-        }
-      ]
-    },
-    {
       "boothId": 109438,
       "name": "Other Mobile Team 1",
       "formal": 24,
@@ -2840,6 +2780,70 @@
           "votes": 9,
           "elected": false,
           "pct": 37.5
+        }
+      ]
+    },
+    {
+      "boothId": 124029,
+      "name": "Melbourne CBD North West (Gellibrand)",
+      "formal": 24,
+      "winnerParty": "alp",
+      "winnerSurname": "WATTS",
+      "winnerPct": 79.17,
+      "swing": 16.67,
+      "candidates": [
+        {
+          "surname": "WATTS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "pct": 45.83
+        },
+        {
+          "surname": "KRISHNA PANDI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 33.33
+        },
+        {
+          "surname": "REESON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "pct": 8.33
+        },
+        {
+          "surname": "GARCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 8.33
+        },
+        {
+          "surname": "BENNETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 4.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATTS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "elected": true,
+          "pct": 79.17
+        },
+        {
+          "surname": "REESON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5,
+          "elected": false,
+          "pct": 20.83
         }
       ]
     },
@@ -3078,10 +3082,10 @@
         {
           "year": "2007",
           "shares": {
-            "FFP": 2.02,
-            "LIB": 22.84,
-            "GRN": 9.38,
             "ALP": 60.22,
+            "LIB": 22.84,
+            "FFP": 2.02,
+            "GRN": 9.38,
             "IND": 2.32,
             "OTH": 3.22
           }
@@ -3089,9 +3093,9 @@
         {
           "year": "2010",
           "shares": {
+            "LIB": 22.9,
             "ALP": 58.81,
             "GRN": 15.35,
-            "LIB": 22.9,
             "OTH": 2.93
           }
         },
@@ -3099,51 +3103,51 @@
           "year": "2013",
           "shares": {
             "ALP": 46.04,
-            "LIB": 26.71,
-            "GRN": 16.73,
-            "TOP": 3.91,
             "FFP": 2.59,
+            "TOP": 3.91,
+            "GRN": 16.73,
             "ASXP": 2.91,
+            "LIB": 26.71,
             "OTH": 1.11
           }
         },
         {
           "year": "2016",
           "shares": {
-            "IND": 4.99,
             "GRN": 21.48,
-            "LIB": 26.63,
-            "ALP": 46.9
+            "IND": 4.99,
+            "ALP": 46.9,
+            "LIB": 26.63
           }
         },
         {
           "year": "2019",
           "shares": {
-            "TOP": 5.47,
-            "LIB": 29.33,
             "GRN": 16.55,
-            "ALP": 48.66
+            "LIB": 29.33,
+            "ALP": 48.66,
+            "TOP": 5.47
           }
         },
         {
           "year": "2022",
           "shares": {
-            "LIB": 26.97,
-            "TOP": 5.51,
-            "LDP": 2.37,
-            "ON": 3.04,
             "ALP": 42.72,
+            "ON": 3.04,
             "GRN": 16.53,
+            "LDP": 2.37,
+            "TOP": 5.51,
+            "LIB": 26.97,
             "OTH": 2.86
           }
         },
         {
           "year": "2025",
           "shares": {
-            "LIB": 26.18,
             "FFP": 4.18,
             "GRN": 17.05,
             "ON": 5.98,
+            "LIB": 26.18,
             "ALP": 46.62
           }
         }

@@ -9,6 +9,10 @@
     "totalFormal": 110227,
     "informalVotes": 3033,
     "informalRate": 3.43,
+    "enrolled": 122756,
+    "votesCounted": 113820,
+    "turnoutPct": 92.72,
+    "turnoutSwing": 2.59,
     "winner": {
       "candidateId": "C40854",
       "surname": "MARLES",
@@ -740,77 +744,6 @@
       ]
     },
     {
-      "boothId": 97652,
-      "name": "St Albans Park",
-      "formal": 1586,
-      "winnerParty": "alp",
-      "winnerSurname": "MARLES",
-      "winnerPct": 66.83,
-      "swing": 0.62,
-      "candidates": [
-        {
-          "surname": "MARLES",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 763,
-          "pct": 48.11
-        },
-        {
-          "surname": "BULLER",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 261,
-          "pct": 16.46
-        },
-        {
-          "surname": "HELMAN",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 238,
-          "pct": 15.01
-        },
-        {
-          "surname": "FLYNN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 230,
-          "pct": 14.5
-        },
-        {
-          "surname": "HATHWAY",
-          "partyAb": "SAL",
-          "party": "oth",
-          "votes": 51,
-          "pct": 3.22
-        },
-        {
-          "surname": "DE LORENZO",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 43,
-          "pct": 2.71
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "MARLES",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 1060,
-          "elected": true,
-          "pct": 66.83
-        },
-        {
-          "surname": "BULLER",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 526,
-          "elected": false,
-          "pct": 33.17
-        }
-      ]
-    },
-    {
       "boothId": 3488,
       "name": "Highton North",
       "formal": 1586,
@@ -878,6 +811,77 @@
           "votes": 674,
           "elected": false,
           "pct": 42.5
+        }
+      ]
+    },
+    {
+      "boothId": 97652,
+      "name": "St Albans Park",
+      "formal": 1586,
+      "winnerParty": "alp",
+      "winnerSurname": "MARLES",
+      "winnerPct": 66.83,
+      "swing": 0.62,
+      "candidates": [
+        {
+          "surname": "MARLES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 763,
+          "pct": 48.11
+        },
+        {
+          "surname": "BULLER",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 261,
+          "pct": 16.46
+        },
+        {
+          "surname": "HELMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 238,
+          "pct": 15.01
+        },
+        {
+          "surname": "FLYNN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 230,
+          "pct": 14.5
+        },
+        {
+          "surname": "HATHWAY",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 51,
+          "pct": 3.22
+        },
+        {
+          "surname": "DE LORENZO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 2.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MARLES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1060,
+          "elected": true,
+          "pct": 66.83
+        },
+        {
+          "surname": "BULLER",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 526,
+          "elected": false,
+          "pct": 33.17
         }
       ]
     },
@@ -3345,41 +3349,41 @@
         {
           "year": "2007",
           "shares": {
+            "ALP": 45.49,
+            "GRN": 5.91,
             "FFP": 3.96,
             "LIB": 29.61,
             "IND": 12.68,
-            "ALP": 45.49,
-            "GRN": 5.91,
             "OTH": 2.34
           }
         },
         {
           "year": "2010",
           "shares": {
-            "FFP": 3.66,
             "ALP": 51.51,
-            "LIB": 31.13,
+            "FFP": 3.66,
             "GRN": 12.53,
+            "LIB": 31.13,
             "OTH": 1.17
           }
         },
         {
           "year": "2013",
           "shares": {
-            "LIB": 35.2,
             "ASXP": 2.76,
-            "TOP": 5.68,
+            "LIB": 35.2,
             "GRN": 7.31,
-            "IND": 2.17,
+            "TOP": 5.68,
             "ALP": 43.51,
+            "IND": 2.17,
             "OTH": 3.38
           }
         },
         {
           "year": "2016",
           "shares": {
-            "AJP": 3.12,
             "GRN": 11.77,
+            "AJP": 3.12,
             "ALP": 45.63,
             "LIB": 35.14,
             "OTH": 4.36
@@ -3388,35 +3392,35 @@
         {
           "year": "2019",
           "shares": {
+            "TOP": 5.48,
             "ALP": 47.6,
             "GRN": 13.07,
-            "TOP": 5.48,
             "LIB": 33.85
           }
         },
         {
           "year": "2022",
           "shares": {
-            "TOP": 4.93,
-            "GRN": 14.91,
-            "LIB": 24.57,
             "ALP": 42.13,
-            "LDP": 3.49,
-            "AJP": 2.42,
-            "ON": 3.91,
+            "LIB": 24.57,
+            "GRN": 14.91,
             "SAL": 2.52,
+            "TOP": 4.93,
+            "ON": 3.91,
+            "AJP": 2.42,
+            "LDP": 3.49,
             "OTH": 1.11
           }
         },
         {
           "year": "2025",
           "shares": {
+            "SAL": 2.91,
             "LIB": 24.88,
             "ON": 9.94,
-            "SAL": 2.91,
             "ALP": 42.84,
-            "IND": 3.57,
-            "GRN": 15.87
+            "GRN": 15.87,
+            "IND": 3.57
           }
         }
       ]

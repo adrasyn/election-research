@@ -9,6 +9,10 @@
     "totalFormal": 110878,
     "informalVotes": 4131,
     "informalRate": 4.26,
+    "enrolled": 125552,
+    "votesCounted": 115641,
+    "turnoutPct": 92.11,
+    "turnoutSwing": 2.59,
     "winner": {
       "candidateId": "C41373",
       "surname": "ALBANESE",
@@ -2160,77 +2164,6 @@
       ]
     },
     {
-      "boothId": 1004,
-      "name": "Hurlstone Park",
-      "formal": 1008,
-      "winnerParty": "alp",
-      "winnerSurname": "ALBANESE",
-      "winnerPct": 68.55,
-      "swing": 2.88,
-      "candidates": [
-        {
-          "surname": "ALBANESE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 579,
-          "pct": 57.44
-        },
-        {
-          "surname": "THOMAS",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 227,
-          "pct": 22.52
-        },
-        {
-          "surname": "SMALLBONE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 127,
-          "pct": 12.6
-        },
-        {
-          "surname": "SMITH",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 31,
-          "pct": 3.08
-        },
-        {
-          "surname": "BRADBURY",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 26,
-          "pct": 2.58
-        },
-        {
-          "surname": "BURRELL",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 18,
-          "pct": 1.79
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "ALBANESE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 691,
-          "elected": true,
-          "pct": 68.55
-        },
-        {
-          "surname": "THOMAS",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 317,
-          "elected": false,
-          "pct": 31.45
-        }
-      ]
-    },
-    {
       "boothId": 2765,
       "name": "Stanmore North",
       "formal": 1008,
@@ -2298,6 +2231,77 @@
           "votes": 262,
           "elected": false,
           "pct": 25.99
+        }
+      ]
+    },
+    {
+      "boothId": 1004,
+      "name": "Hurlstone Park",
+      "formal": 1008,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 68.55,
+      "swing": 2.88,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 579,
+          "pct": 57.44
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 227,
+          "pct": 22.52
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 127,
+          "pct": 12.6
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 3.08
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 2.58
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 691,
+          "elected": true,
+          "pct": 68.55
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 317,
+          "elected": false,
+          "pct": 31.45
         }
       ]
     },
@@ -4709,8 +4713,8 @@
           "year": "2007",
           "shares": {
             "LIB": 20.86,
-            "GRN": 18.7,
             "ALP": 55.47,
+            "GRN": 18.7,
             "OTH": 4.97
           }
         },
@@ -4726,30 +4730,30 @@
         {
           "year": "2013",
           "shares": {
-            "ALP": 47.2,
-            "GRN": 23.03,
             "LIB": 24.7,
             "CDP": 2.05,
+            "GRN": 23.03,
+            "ALP": 47.2,
             "OTH": 3.03
           }
         },
         {
           "year": "2016",
           "shares": {
-            "AJP": 2.08,
-            "ALP": 46.07,
             "GRN": 22.24,
+            "ALP": 46.07,
             "LIB": 23.31,
+            "AJP": 2.08,
             "OTH": 6.29
           }
         },
         {
           "year": "2019",
           "shares": {
-            "FUT": 2.73,
-            "ALP": 50.86,
             "LIB": 21.76,
             "GRN": 22.55,
+            "ALP": 50.86,
+            "FUT": 2.73,
             "OTH": 2.11
           }
         },
@@ -4757,22 +4761,22 @@
           "year": "2022",
           "shares": {
             "LIB": 15.98,
+            "IND": 2.09,
+            "GRN": 22.04,
+            "ON": 1.53,
             "ALP": 53.63,
             "TOP": 2.22,
-            "ON": 1.53,
-            "GRN": 22.04,
-            "IND": 2.09,
             "OTH": 2.5
           }
         },
         {
           "year": "2025",
           "shares": {
-            "GRN": 25.11,
             "IND": 2.31,
-            "ALP": 53.54,
             "LIB": 14.31,
+            "ALP": 53.54,
             "ON": 3.16,
+            "GRN": 25.11,
             "OTH": 1.56
           }
         }

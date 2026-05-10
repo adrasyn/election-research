@@ -9,6 +9,10 @@
     "totalFormal": 109174,
     "informalVotes": 4492,
     "informalRate": 5.31,
+    "enrolled": 124350,
+    "votesCounted": 114733,
+    "turnoutPct": 92.27,
+    "turnoutSwing": 3.34,
     "winner": {
       "candidateId": "C40864",
       "surname": "BELYEA",
@@ -2669,91 +2673,6 @@
       ]
     },
     {
-      "boothId": 31051,
-      "name": "Carrum Downs South",
-      "formal": 1056,
-      "winnerParty": "alp",
-      "winnerSurname": "BELYEA",
-      "winnerPct": 63.35,
-      "swing": 0.69,
-      "candidates": [
-        {
-          "surname": "BELYEA",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 412,
-          "pct": 39.02
-        },
-        {
-          "surname": "CONROY",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 249,
-          "pct": 23.58
-        },
-        {
-          "surname": "MABER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 122,
-          "pct": 11.55
-        },
-        {
-          "surname": "ABBOTT",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 102,
-          "pct": 9.66
-        },
-        {
-          "surname": "DAVIS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 94,
-          "pct": 8.9
-        },
-        {
-          "surname": "THURLEY",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 36,
-          "pct": 3.41
-        },
-        {
-          "surname": "NICHOLES",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 36,
-          "pct": 3.41
-        },
-        {
-          "surname": "GATLEY",
-          "partyAb": "FUS",
-          "party": "fus",
-          "votes": 5,
-          "pct": 0.47
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "BELYEA",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 669,
-          "elected": true,
-          "pct": 63.35
-        },
-        {
-          "surname": "CONROY",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 387,
-          "elected": false,
-          "pct": 36.65
-        }
-      ]
-    },
-    {
       "boothId": 4160,
       "name": "Seaford North",
       "formal": 1056,
@@ -2835,6 +2754,91 @@
           "votes": 381,
           "elected": false,
           "pct": 36.08
+        }
+      ]
+    },
+    {
+      "boothId": 31051,
+      "name": "Carrum Downs South",
+      "formal": 1056,
+      "winnerParty": "alp",
+      "winnerSurname": "BELYEA",
+      "winnerPct": 63.35,
+      "swing": 0.69,
+      "candidates": [
+        {
+          "surname": "BELYEA",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 412,
+          "pct": 39.02
+        },
+        {
+          "surname": "CONROY",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 249,
+          "pct": 23.58
+        },
+        {
+          "surname": "MABER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 122,
+          "pct": 11.55
+        },
+        {
+          "surname": "ABBOTT",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 102,
+          "pct": 9.66
+        },
+        {
+          "surname": "DAVIS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 94,
+          "pct": 8.9
+        },
+        {
+          "surname": "THURLEY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 3.41
+        },
+        {
+          "surname": "NICHOLES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 3.41
+        },
+        {
+          "surname": "GATLEY",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 5,
+          "pct": 0.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELYEA",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 669,
+          "elected": true,
+          "pct": 63.35
+        },
+        {
+          "surname": "CONROY",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 387,
+          "elected": false,
+          "pct": 36.65
         }
       ]
     },
@@ -4095,9 +4099,9 @@
         {
           "year": "2007",
           "shares": {
+            "FFP": 2.59,
             "ALP": 38.26,
             "LIB": 49.79,
-            "FFP": 2.59,
             "GRN": 7.75,
             "OTH": 1.61
           }
@@ -4114,10 +4118,10 @@
         {
           "year": "2013",
           "shares": {
-            "GRN": 9.32,
-            "LIB": 48.75,
             "ASXP": 2.94,
             "TOP": 4.22,
+            "LIB": 48.75,
+            "GRN": 9.32,
             "ALP": 30.88,
             "OTH": 3.88
           }
@@ -4125,50 +4129,50 @@
         {
           "year": "2016",
           "shares": {
-            "HJP": 6.17,
             "ALP": 33.17,
-            "GRN": 9.65,
-            "AJP": 2.16,
             "LIB": 42.73,
+            "AJP": 2.16,
+            "HJP": 6.17,
+            "GRN": 9.65,
             "OTH": 6.12
           }
         },
         {
           "year": "2019",
           "shares": {
+            "AJP": 3.06,
+            "ALP": 38.52,
+            "LIB": 39.88,
+            "TOP": 2.6,
             "HJP": 5.19,
             "GRN": 8.39,
-            "AJP": 3.06,
-            "LIB": 39.88,
-            "ALP": 38.52,
-            "TOP": 2.6,
             "OTH": 2.36
           }
         },
         {
           "year": "2022",
           "shares": {
-            "GRN": 10.34,
             "AJP": 2.1,
             "IND": 3.86,
+            "LDP": 2.51,
+            "ALP": 40.23,
             "ON": 2.81,
             "TOP": 5.06,
-            "ALP": 40.23,
-            "LDP": 2.51,
             "LIB": 32.5,
+            "GRN": 10.34,
             "OTH": 0.59
           }
         },
         {
           "year": "2025",
           "shares": {
-            "HMP": 4.8,
             "ON": 6.86,
-            "ALP": 38.28,
-            "GRN": 11.59,
-            "FFP": 2.29,
+            "HMP": 4.8,
             "IND": 2.96,
+            "FFP": 2.29,
+            "GRN": 11.59,
             "LIB": 32.32,
+            "ALP": 38.28,
             "OTH": 0.9
           }
         }

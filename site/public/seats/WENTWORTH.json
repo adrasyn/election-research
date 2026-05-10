@@ -9,6 +9,10 @@
     "totalFormal": 110431,
     "informalVotes": 2549,
     "informalRate": 2.79,
+    "enrolled": 127463,
+    "votesCounted": 113537,
+    "turnoutPct": 89.07,
+    "turnoutSwing": 0.5,
     "winner": {
       "candidateId": "C37451",
       "surname": "SPENDER",
@@ -1308,77 +1312,6 @@
       ]
     },
     {
-      "boothId": 2892,
-      "name": "Woollahra",
-      "formal": 1228,
-      "winnerParty": "ind",
-      "winnerSurname": "SPENDER",
-      "winnerPct": 61.16,
-      "swing": 3.27,
-      "candidates": [
-        {
-          "surname": "SPENDER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 570,
-          "pct": 46.42
-        },
-        {
-          "surname": "KNOX",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 429,
-          "pct": 34.93
-        },
-        {
-          "surname": "WARD",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 100,
-          "pct": 8.14
-        },
-        {
-          "surname": "PEAKE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 91,
-          "pct": 7.41
-        },
-        {
-          "surname": "STERNHELL",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 22,
-          "pct": 1.79
-        },
-        {
-          "surname": "RICHMOND",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 16,
-          "pct": 1.3
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "SPENDER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 751,
-          "elected": true,
-          "pct": 61.16
-        },
-        {
-          "surname": "KNOX",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 477,
-          "elected": false,
-          "pct": 38.84
-        }
-      ]
-    },
-    {
       "boothId": 2301,
       "name": "Bronte",
       "formal": 1228,
@@ -1446,6 +1379,77 @@
           "votes": 351,
           "elected": false,
           "pct": 28.58
+        }
+      ]
+    },
+    {
+      "boothId": 2892,
+      "name": "Woollahra",
+      "formal": 1228,
+      "winnerParty": "ind",
+      "winnerSurname": "SPENDER",
+      "winnerPct": 61.16,
+      "swing": 3.27,
+      "candidates": [
+        {
+          "surname": "SPENDER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 570,
+          "pct": 46.42
+        },
+        {
+          "surname": "KNOX",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 429,
+          "pct": 34.93
+        },
+        {
+          "surname": "WARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 100,
+          "pct": 8.14
+        },
+        {
+          "surname": "PEAKE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 91,
+          "pct": 7.41
+        },
+        {
+          "surname": "STERNHELL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 1.79
+        },
+        {
+          "surname": "RICHMOND",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SPENDER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 751,
+          "elected": true,
+          "pct": 61.16
+        },
+        {
+          "surname": "KNOX",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 477,
+          "elected": false,
+          "pct": 38.84
         }
       ]
     },
@@ -4424,27 +4428,27 @@
         {
           "year": "2007",
           "shares": {
-            "GRN": 14.96,
-            "ALP": 30.48,
             "LIB": 50.37,
+            "ALP": 30.48,
+            "GRN": 14.96,
             "OTH": 4.21
           }
         },
         {
           "year": "2010",
           "shares": {
-            "GRN": 17.44,
             "ALP": 21.07,
             "LIB": 59.57,
+            "GRN": 17.44,
             "OTH": 1.92
           }
         },
         {
           "year": "2013",
           "shares": {
-            "GRN": 14.61,
-            "LIB": 63.32,
             "ALP": 19.37,
+            "LIB": 63.32,
+            "GRN": 14.61,
             "OTH": 2.69
           }
         },
@@ -4452,41 +4456,41 @@
           "year": "2016",
           "shares": {
             "LIB": 62.26,
-            "ALP": 17.73,
             "GRN": 14.86,
+            "ALP": 17.73,
             "OTH": 5.15
           }
         },
         {
           "year": "2019",
           "shares": {
-            "LIB": 47.44,
+            "GRN": 7.53,
             "IND": 33.01,
             "ALP": 10.95,
-            "GRN": 7.53,
+            "LIB": 47.44,
             "OTH": 1.09
           }
         },
         {
           "year": "2022",
           "shares": {
-            "GRN": 8.33,
             "ON": 1.01,
             "ALP": 10.86,
+            "IND": 35.77,
+            "GRN": 8.33,
             "TOP": 2.04,
             "LIB": 40.48,
-            "IND": 35.77,
             "OTH": 1.51
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 2.38,
-            "GRN": 10.18,
-            "IND": 37.7,
             "ALP": 13.38,
-            "LIB": 36.36
+            "ON": 2.38,
+            "LIB": 36.36,
+            "GRN": 10.18,
+            "IND": 37.7
           }
         }
       ]

@@ -9,6 +9,10 @@
     "totalFormal": 76832,
     "informalVotes": 4992,
     "informalRate": 7.55,
+    "enrolled": 88977,
+    "votesCounted": 82547,
+    "turnoutPct": 92.77,
+    "turnoutSwing": 0.87,
     "winner": {
       "candidateId": "C41538",
       "surname": "WHITE",
@@ -5389,91 +5393,6 @@
       ]
     },
     {
-      "boothId": 8631,
-      "name": "Mole Creek",
-      "formal": 259,
-      "winnerParty": "lib",
-      "winnerSurname": "BOWER",
-      "winnerPct": 54.44,
-      "swing": -4.7,
-      "candidates": [
-        {
-          "surname": "BOWER",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 86,
-          "pct": 33.2
-        },
-        {
-          "surname": "WHITE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 70,
-          "pct": 27.03
-        },
-        {
-          "surname": "BROADBY",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 40,
-          "pct": 15.44
-        },
-        {
-          "surname": "ALLAN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 37,
-          "pct": 14.29
-        },
-        {
-          "surname": "DI FALCO",
-          "partyAb": "SFF",
-          "party": "sff",
-          "votes": 13,
-          "pct": 5.02
-        },
-        {
-          "surname": "GRAHAM",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 7,
-          "pct": 2.7
-        },
-        {
-          "surname": "OFFORD",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 5,
-          "pct": 1.93
-        },
-        {
-          "surname": "PHIBBS",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 1,
-          "pct": 0.39
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "WHITE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 118,
-          "elected": true,
-          "pct": 45.56
-        },
-        {
-          "surname": "BOWER",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 141,
-          "elected": false,
-          "pct": 54.44
-        }
-      ]
-    },
-    {
       "boothId": 8660,
       "name": "Ross",
       "formal": 259,
@@ -5555,6 +5474,91 @@
           "votes": 108,
           "elected": false,
           "pct": 41.7
+        }
+      ]
+    },
+    {
+      "boothId": 8631,
+      "name": "Mole Creek",
+      "formal": 259,
+      "winnerParty": "lib",
+      "winnerSurname": "BOWER",
+      "winnerPct": 54.44,
+      "swing": -4.7,
+      "candidates": [
+        {
+          "surname": "BOWER",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 86,
+          "pct": 33.2
+        },
+        {
+          "surname": "WHITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 70,
+          "pct": 27.03
+        },
+        {
+          "surname": "BROADBY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 15.44
+        },
+        {
+          "surname": "ALLAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 37,
+          "pct": 14.29
+        },
+        {
+          "surname": "DI FALCO",
+          "partyAb": "SFF",
+          "party": "sff",
+          "votes": 13,
+          "pct": 5.02
+        },
+        {
+          "surname": "GRAHAM",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.7
+        },
+        {
+          "surname": "OFFORD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 1.93
+        },
+        {
+          "surname": "PHIBBS",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WHITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 118,
+          "elected": true,
+          "pct": 45.56
+        },
+        {
+          "surname": "BOWER",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 141,
+          "elected": false,
+          "pct": 54.44
         }
       ]
     },
@@ -7410,30 +7414,30 @@
         {
           "year": "2007",
           "shares": {
+            "GRN": 11.17,
+            "LIB": 32.54,
             "ALP": 43.15,
             "FFP": 2.25,
-            "LIB": 32.54,
             "IND": 9.6,
-            "GRN": 11.17,
             "OTH": 1.29
           }
         },
         {
           "year": "2010",
           "shares": {
-            "LIB": 32.69,
             "ALP": 48.91,
             "GRN": 16.75,
+            "LIB": 32.69,
             "OTH": 1.65
           }
         },
         {
           "year": "2013",
           "shares": {
-            "LIB": 44.39,
-            "FFP": 2.55,
             "ALP": 36.82,
+            "FFP": 2.55,
             "TOP": 7.03,
+            "LIB": 44.39,
             "GRN": 8.32,
             "OTH": 0.88
           }
@@ -7441,47 +7445,47 @@
         {
           "year": "2016",
           "shares": {
-            "GRN": 9.37,
-            "ARF": 6.31,
-            "LIB": 41.88,
             "ALP": 38.57,
+            "LIB": 41.88,
+            "ARF": 6.31,
             "REP": 2.3,
+            "GRN": 9.37,
             "OTH": 1.57
           }
         },
         {
           "year": "2019",
           "shares": {
+            "ON": 8.13,
+            "ALP": 36.46,
+            "NAT": 15.68,
             "TOP": 6.1,
             "GRN": 9.45,
-            "LIB": 24.18,
-            "NAT": 15.68,
-            "ALP": 36.46,
-            "ON": 8.13
+            "LIB": 24.18
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ON": 5.35,
             "LIB": 37.22,
-            "ALP": 29.04,
-            "TOP": 2.69,
-            "JLN": 10.86,
             "GRN": 11.43,
+            "ALP": 29.04,
+            "JLN": 10.86,
+            "ON": 5.35,
+            "TOP": 2.69,
             "OTH": 3.41
           }
         },
         {
           "year": "2025",
           "shares": {
+            "ALP": 43.08,
+            "IND": 3.2,
+            "SFF": 4.5,
+            "CYA": 4.72,
+            "LIB": 26.21,
             "GRN": 10.88,
             "ON": 6.72,
-            "ALP": 43.08,
-            "CYA": 4.72,
-            "SFF": 4.5,
-            "LIB": 26.21,
-            "IND": 3.2,
             "OTH": 0.68
           }
         }

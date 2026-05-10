@@ -39,8 +39,10 @@ from .transform.results import (
     load_candidates,
     load_first_prefs,
     load_tcp,
+    load_turnout,
     primary_for_division,
     tcp_for_division,
+    turnout_for_division,
 )
 
 
@@ -125,6 +127,7 @@ def build(
     candidates = load_candidates(files.candidates)
     dop = load_dop(files.dop_by_division)
     tcp = load_tcp(files.tcp_by_polling_place)
+    turnout = load_turnout(files.turnout_by_division)
     first_prefs = load_first_prefs(
         [files.first_prefs_by_polling_place(s) for s in STATES]
     )
@@ -174,6 +177,7 @@ def build(
                 candidates=candidates,
                 dop=dop,
                 tcp=tcp,
+                turnout=turnout,
                 first_prefs=first_prefs,
                 division_id=div_id,
                 year=year,
@@ -214,6 +218,7 @@ def _build_one(
     candidates: pl.DataFrame,
     dop: pl.DataFrame,
     tcp: pl.DataFrame,
+    turnout: pl.DataFrame,
     first_prefs: pl.DataFrame,
     division_id: int,
     year: int,
@@ -227,6 +232,7 @@ def _build_one(
     booths = booths_for_division(first_prefs, tcp, division_id)
     waterfall = waterfall_for_division(dop, division_id)
     informal = informal_for_division(first_prefs, division_id)
+    turnout_block = turnout_for_division(turnout, division_id)
     history = None
     if history_lookup:
         history = history_lookup.get(meta["name"].lower())
@@ -243,6 +249,7 @@ def _build_one(
         booths=booths,
         waterfall=waterfall,
         informal=informal,
+        turnout=turnout_block,
         history=history,
         demographics=demographics,
         bio=bio,

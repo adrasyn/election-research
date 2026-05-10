@@ -9,6 +9,10 @@
     "totalFormal": 104758,
     "informalVotes": 3486,
     "informalRate": 3.65,
+    "enrolled": 118075,
+    "votesCounted": 108662,
+    "turnoutPct": 92.03,
+    "turnoutSwing": 3.67,
     "winner": {
       "candidateId": "C41138",
       "surname": "CHESTER",
@@ -2460,70 +2464,6 @@
       ]
     },
     {
-      "boothId": 4387,
-      "name": "Churchill",
-      "formal": 418,
-      "winnerParty": "nat",
-      "winnerSurname": "CHESTER",
-      "winnerPct": 50.96,
-      "swing": -8.29,
-      "candidates": [
-        {
-          "surname": "STEPHENS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 138,
-          "pct": 33.01
-        },
-        {
-          "surname": "CHESTER",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 123,
-          "pct": 29.43
-        },
-        {
-          "surname": "HANSFORD",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 89,
-          "pct": 21.29
-        },
-        {
-          "surname": "HINE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 51,
-          "pct": 12.2
-        },
-        {
-          "surname": "WILSON",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 17,
-          "pct": 4.07
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "CHESTER",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 213,
-          "elected": true,
-          "pct": 50.96
-        },
-        {
-          "surname": "STEPHENS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 205,
-          "elected": false,
-          "pct": 49.04
-        }
-      ]
-    },
-    {
       "boothId": 3713,
       "name": "Alberton",
       "formal": 418,
@@ -2584,6 +2524,70 @@
           "votes": 92,
           "elected": false,
           "pct": 22.01
+        }
+      ]
+    },
+    {
+      "boothId": 4387,
+      "name": "Churchill",
+      "formal": 418,
+      "winnerParty": "nat",
+      "winnerSurname": "CHESTER",
+      "winnerPct": 50.96,
+      "swing": -8.29,
+      "candidates": [
+        {
+          "surname": "STEPHENS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 138,
+          "pct": 33.01
+        },
+        {
+          "surname": "CHESTER",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 123,
+          "pct": 29.43
+        },
+        {
+          "surname": "HANSFORD",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 89,
+          "pct": 21.29
+        },
+        {
+          "surname": "HINE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 51,
+          "pct": 12.2
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 4.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTER",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 213,
+          "elected": true,
+          "pct": 50.96
+        },
+        {
+          "surname": "STEPHENS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 205,
+          "elected": false,
+          "pct": 49.04
         }
       ]
     },
@@ -5062,80 +5066,80 @@
         {
           "year": "2007",
           "shares": {
-            "GRN": 5.54,
             "FFP": 4.31,
-            "ALP": 36.55,
             "WWW": 2.07,
-            "NAT": 48.37,
-            "IND": 3.16
+            "IND": 3.16,
+            "GRN": 5.54,
+            "ALP": 36.55,
+            "NAT": 48.37
           }
         },
         {
           "year": "2010",
           "shares": {
             "FFP": 3.34,
-            "LDP": 5.52,
-            "ALP": 31.57,
+            "NAT": 53.0,
             "GRN": 6.57,
-            "NAT": 53.0
+            "LDP": 5.52,
+            "ALP": 31.57
           }
         },
         {
           "year": "2013",
           "shares": {
-            "ASXP": 2.38,
-            "IND": 2.25,
-            "TOP": 4.28,
-            "ALP": 23.15,
-            "LDP": 5.33,
-            "GRN": 5.7,
             "NAT": 53.76,
+            "ALP": 23.15,
+            "IND": 2.25,
+            "LDP": 5.33,
+            "ASXP": 2.38,
+            "TOP": 4.28,
+            "GRN": 5.7,
             "OTH": 3.15
           }
         },
         {
           "year": "2016",
           "shares": {
-            "FFP": 3.44,
             "NAT": 56.34,
+            "FFP": 3.44,
             "ALP": 20.01,
-            "IND": 3.31,
-            "GRN": 7.84,
             "LDP": 4.98,
+            "GRN": 7.84,
+            "IND": 3.31,
             "OTH": 4.08
           }
         },
         {
           "year": "2019",
           "shares": {
-            "GRN": 6.04,
-            "FACN": 2.11,
-            "SFF": 7.11,
-            "NAT": 54.0,
+            "TOP": 4.4,
             "ALP": 23.2,
+            "GRN": 6.04,
             "IND": 3.15,
-            "TOP": 4.4
+            "NAT": 54.0,
+            "SFF": 7.11,
+            "FACN": 2.11
           }
         },
         {
           "year": "2022",
           "shares": {
-            "LDP": 4.25,
             "ON": 9.36,
-            "ALP": 19.23,
+            "GRN": 8.47,
             "NAT": 54.14,
-            "TOP": 4.55,
-            "GRN": 8.47
+            "LDP": 4.25,
+            "ALP": 19.23,
+            "TOP": 4.55
           }
         },
         {
           "year": "2025",
           "shares": {
-            "GRN": 8.49,
             "LTP": 3.26,
-            "ON": 14.43,
             "ALP": 21.28,
-            "NAT": 52.54
+            "NAT": 52.54,
+            "ON": 14.43,
+            "GRN": 8.49
           }
         }
       ]

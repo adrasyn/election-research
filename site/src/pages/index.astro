@@ -116,12 +116,14 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     <div class="map-tooltip" id="map-tooltip"></div>
     <div class="legend">
       <div class="legend-title">2025 H/R · winner</div>
-      <div class="legend-row"><span class="swatch" style="background:var(--alp)"></span><span>Labor (ALP)</span><span class="count" id="lc-alp">…</span></div>
-      <div class="legend-row"><span class="swatch" style="background:var(--lib)"></span><span>Liberal/LNP</span><span class="count" id="lc-libnp">…</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--alp)"></span><span>Labor</span><span class="count" id="lc-alp">…</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--lib)"></span><span>Liberal</span><span class="count" id="lc-lib">…</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--lnp)"></span><span>LNP (Qld)</span><span class="count" id="lc-lnp">…</span></div>
       <div class="legend-row"><span class="swatch" style="background:var(--nat)"></span><span>Nationals</span><span class="count" id="lc-nat">…</span></div>
       <div class="legend-row"><span class="swatch" style="background:var(--grn)"></span><span>Greens</span><span class="count" id="lc-grn">…</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--ca)"></span><span>Centre Alliance</span><span class="count" id="lc-ca">…</span></div>
+      <div class="legend-row"><span class="swatch" style="background:var(--kap)"></span><span>Katter's (KAP)</span><span class="count" id="lc-kap">…</span></div>
       <div class="legend-row"><span class="swatch" style="background:var(--ind)"></span><span>Independent</span><span class="count" id="lc-ind">…</span></div>
-      <div class="legend-row"><span class="swatch" style="background:var(--oth)"></span><span>Other</span><span class="count" id="lc-oth">…</span></div>
     </div>
   </div>
 
@@ -163,9 +165,9 @@ import 'maplibre-gl/dist/maplibre-gl.css';
             <div class="cell-foot" id="p-formal-foot">…</div>
           </div>
           <div class="cell">
-            <div class="cell-label">Informal</div>
-            <div class="cell-value"><span id="p-informal">…</span><span class="unit">%</span></div>
-            <div class="cell-foot" id="p-informal-foot">…</div>
+            <div class="cell-label">Turnout</div>
+            <div class="cell-value"><span id="p-turnout">…</span><span class="unit">%</span></div>
+            <div class="cell-foot" id="p-turnout-foot">…</div>
           </div>
         </div>
 
@@ -340,14 +342,22 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         },
       ],
     },
-    center: [134.5, -27.0],
-    zoom: 3.4,
+    center: [134.5, -28],
+    zoom: 3.0,
     minZoom: 2,
     maxZoom: 10,
     attributionControl: false,
   });
 
   map.addControl(new maplibregl.NavigationControl({ visualizePitch: false, showCompass: false }), 'top-right');
+
+  // Once the map is loaded, fit-bounds to the whole-of-Australia
+  // box. This is more reliable across maplibre versions than the
+  // constructor `bounds` option — and runs after the canvas has its
+  // final size so the framing is correct.
+  map.on('load', () => {
+    map.fitBounds([[111, -44], [156, -9]], { padding: 12, animate: false });
+  });
 
   const tooltip = document.getElementById('map-tooltip');
   const mapHost = document.getElementById('map-host');
@@ -405,25 +415,28 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     const features = map.querySourceFeatures('seats');
     if (!features.length) return;
     window.__legendDone = true;
-    const counts = { ALP: 0, LIB_NP: 0, NAT: 0, GRN: 0, IND: 0, OTH: 0 };
+    // Tally each canonical partyAb separately so every party in the
+    // House of Reps gets its own legend row.
+    const counts = { ALP: 0, LIB: 0, LNP: 0, NAT: 0, GRN: 0, CA: 0, KAP: 0, IND: 0 };
     const seen = new Set();
     for (const f of features) {
       if (seen.has(f.properties.divisionId)) continue;
       seen.add(f.properties.divisionId);
       const ab = f.properties.winnerPartyAb;
-      if (ab === 'ALP') counts.ALP++;
-      else if (ab === 'LIB' || ab === 'LP' || ab === 'LNP' || ab === 'CLP') counts.LIB_NP++;
-      else if (ab === 'NAT' || ab === 'NP') counts.NAT++;
-      else if (ab === 'GRN') counts.GRN++;
-      else if (ab === 'IND') counts.IND++;
-      else counts.OTH++;
+      if (counts.hasOwnProperty(ab)) counts[ab]++;
     }
-    document.getElementById('lc-alp').textContent   = String(counts.ALP).padStart(2, '0');
-    document.getElementById('lc-libnp').textContent = String(counts.LIB_NP).padStart(2, '0');
-    document.getElementById('lc-nat').textContent   = String(counts.NAT).padStart(2, '0');
-    document.getElementById('lc-grn').textContent   = String(counts.GRN).padStart(2, '0');
-    document.getElementById('lc-ind').textContent   = String(counts.IND).padStart(2, '0');
-    document.getElementById('lc-oth').textContent   = String(counts.OTH).padStart(2, '0');
+    const set = (id, v) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = String(v).padStart(2, '0');
+    };
+    set('lc-alp', counts.ALP);
+    set('lc-lib', counts.LIB);
+    set('lc-lnp', counts.LNP);
+    set('lc-nat', counts.NAT);
+    set('lc-grn', counts.GRN);
+    set('lc-ca',  counts.CA);
+    set('lc-kap', counts.KAP);
+    set('lc-ind', counts.IND);
   });
 
   // Cascading fade+slide across panel sections on every seat change.
@@ -494,8 +507,8 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     $('p-margin-foot').textContent = `${props.winnerPartyAb} · ${props.winnerSurname}`;
     $('p-formal').textContent = '—';
     $('p-formal-foot').textContent = '';
-    $('p-informal').textContent = '—';
-    $('p-informal-foot').textContent = '';
+    $('p-turnout').textContent = '—';
+    $('p-turnout-foot').textContent = '';
     $('p-mp-initials').textContent = initials(props.winnerSurname);
     $('p-mp-name').textContent = props.winnerSurname || '—';
     $('p-mp-chip').className = `party-chip ${props.winnerParty}`;
@@ -551,8 +564,13 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     $('p-formal').textContent = fmt(seat.totalFormal);
     $('p-formal-foot').textContent = `OF ${fmt(seat.totalFormal + (seat.informalVotes || 0))} COUNTED`;
 
-    $('p-informal').textContent = (seat.informalRate ?? 0).toFixed(2);
-    $('p-informal-foot').textContent = `${fmt(seat.informalVotes || 0)} INFORMAL`;
+    $('p-turnout').textContent = (seat.turnoutPct ?? 0).toFixed(1);
+    const enrolled = seat.enrolled || 0;
+    const counted = seat.votesCounted || 0;
+    $('p-turnout-foot').textContent =
+      enrolled
+        ? `${fmt(counted)} OF ${fmt(enrolled)} ENROLLED`
+        : `${fmt(seat.informalVotes || 0)} INFORMAL`;
 
     const w = seat.winner;
     $('p-mp-initials').textContent = initials(w?.surname);

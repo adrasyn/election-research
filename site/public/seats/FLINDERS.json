@@ -9,6 +9,10 @@
     "totalFormal": 114923,
     "informalVotes": 3495,
     "informalRate": 3.86,
+    "enrolled": 127540,
+    "votesCounted": 119169,
+    "turnoutPct": 93.44,
+    "turnoutSwing": 1.65,
     "winner": {
       "candidateId": "C40748",
       "surname": "McKENZIE",
@@ -1046,84 +1050,6 @@
       ]
     },
     {
-      "boothId": 65124,
-      "name": "Mount Eliza South",
-      "formal": 1146,
-      "winnerParty": "ind",
-      "winnerSurname": "SMITH",
-      "winnerPct": 55.5,
-      "swing": 55.5,
-      "candidates": [
-        {
-          "surname": "McKENZIE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 421,
-          "pct": 36.74
-        },
-        {
-          "surname": "SMITH",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 294,
-          "pct": 25.65
-        },
-        {
-          "surname": "RACE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 281,
-          "pct": 24.52
-        },
-        {
-          "surname": "FROGLEY",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 90,
-          "pct": 7.85
-        },
-        {
-          "surname": "BROWN",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 37,
-          "pct": 3.23
-        },
-        {
-          "surname": "SMART",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 14,
-          "pct": 1.22
-        },
-        {
-          "surname": "TOSCANO",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 9,
-          "pct": 0.79
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "McKENZIE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 510,
-          "elected": true,
-          "pct": 44.5
-        },
-        {
-          "surname": "SMITH",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 636,
-          "elected": false,
-          "pct": 55.5
-        }
-      ]
-    },
-    {
       "boothId": 3629,
       "name": "Dromana",
       "formal": 1146,
@@ -1198,6 +1124,84 @@
           "votes": 627,
           "elected": false,
           "pct": 54.71
+        }
+      ]
+    },
+    {
+      "boothId": 65124,
+      "name": "Mount Eliza South",
+      "formal": 1146,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 55.5,
+      "swing": 55.5,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 421,
+          "pct": 36.74
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 294,
+          "pct": 25.65
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 281,
+          "pct": 24.52
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 90,
+          "pct": 7.85
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 3.23
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.22
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 510,
+          "elected": true,
+          "pct": 44.5
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 636,
+          "elected": false,
+          "pct": 55.5
         }
       ]
     },
@@ -4159,10 +4163,10 @@
         {
           "year": "2007",
           "shares": {
+            "ALP": 33.88,
             "LIB": 54.47,
             "GRN": 8.48,
             "FFP": 2.24,
-            "ALP": 33.88,
             "OTH": 0.93
           }
         },
@@ -4170,16 +4174,16 @@
           "year": "2010",
           "shares": {
             "GRN": 11.5,
+            "ALP": 31.76,
             "FFP": 2.43,
-            "LIB": 54.3,
-            "ALP": 31.76
+            "LIB": 54.3
           }
         },
         {
           "year": "2013",
           "shares": {
-            "GRN": 9.74,
             "TOP": 6.0,
+            "GRN": 9.74,
             "LIB": 55.34,
             "ALP": 25.2,
             "OTH": 3.72
@@ -4188,49 +4192,49 @@
         {
           "year": "2016",
           "shares": {
-            "LIB": 51.6,
-            "IND": 3.06,
             "AJP": 4.28,
-            "RUA": 3.33,
             "ALP": 27.03,
-            "GRN": 10.7
+            "RUA": 3.33,
+            "IND": 3.06,
+            "GRN": 10.7,
+            "LIB": 51.6
           }
         },
         {
           "year": "2019",
           "shares": {
-            "LIB": 46.72,
-            "AJP": 2.38,
             "TOP": 2.52,
-            "ALP": 24.74,
             "IND": 15.73,
             "GRN": 6.81,
+            "ALP": 24.74,
+            "LIB": 46.72,
+            "AJP": 2.38,
             "OTH": 1.11
           }
         },
         {
           "year": "2022",
           "shares": {
-            "IND": 12.49,
-            "GRN": 9.4,
-            "ON": 3.41,
+            "TOP": 4.52,
             "LDP": 2.39,
             "AJP": 2.08,
+            "ON": 3.41,
+            "IND": 12.49,
             "ALP": 21.73,
+            "GRN": 9.4,
             "LIB": 43.49,
-            "TOP": 4.52,
             "OTH": 0.49
           }
         },
         {
           "year": "2025",
           "shares": {
-            "GRN": 6.36,
-            "ON": 5.3,
-            "ALP": 22.29,
-            "CYA": 2.74,
+            "IND": 22.09,
             "LIB": 41.22,
-            "IND": 22.09
+            "ON": 5.3,
+            "GRN": 6.36,
+            "CYA": 2.74,
+            "ALP": 22.29
           }
         }
       ]

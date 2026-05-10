@@ -9,6 +9,10 @@
     "totalFormal": 107594,
     "informalVotes": 10235,
     "informalRate": 9.94,
+    "enrolled": 129373,
+    "votesCounted": 118739,
+    "turnoutPct": 91.78,
+    "turnoutSwing": 1.33,
     "winner": {
       "candidateId": "C41949",
       "surname": "HOGAN",
@@ -4068,112 +4072,6 @@
       ]
     },
     {
-      "boothId": 108927,
-      "name": "Woodburn",
-      "formal": 631,
-      "winnerParty": "nat",
-      "winnerSurname": "HOGAN",
-      "winnerPct": 57.05,
-      "swing": -5.11,
-      "candidates": [
-        {
-          "surname": "HOGAN",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 272,
-          "pct": 43.11
-        },
-        {
-          "surname": "BACKHOUS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 145,
-          "pct": 22.98
-        },
-        {
-          "surname": "ROBINSON",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 110,
-          "pct": 17.43
-        },
-        {
-          "surname": "NOTTLE",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 35,
-          "pct": 5.55
-        },
-        {
-          "surname": "PIANCA",
-          "partyAb": "SFF",
-          "party": "sff",
-          "votes": 20,
-          "pct": 3.17
-        },
-        {
-          "surname": "PIKE",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 17,
-          "pct": 2.69
-        },
-        {
-          "surname": "COLLESS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 11,
-          "pct": 1.74
-        },
-        {
-          "surname": "WILLIAMS",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 8,
-          "pct": 1.27
-        },
-        {
-          "surname": "WELLS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 7,
-          "pct": 1.11
-        },
-        {
-          "surname": "GRADY",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 5,
-          "pct": 0.79
-        },
-        {
-          "surname": "BAKER",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 1,
-          "pct": 0.16
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "HOGAN",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 360,
-          "elected": true,
-          "pct": 57.05
-        },
-        {
-          "surname": "BACKHOUS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 271,
-          "elected": false,
-          "pct": 42.95
-        }
-      ]
-    },
-    {
       "boothId": 2064,
       "name": "Coutts Crossing",
       "formal": 631,
@@ -4276,6 +4174,112 @@
           "votes": 184,
           "elected": false,
           "pct": 29.16
+        }
+      ]
+    },
+    {
+      "boothId": 108927,
+      "name": "Woodburn",
+      "formal": 631,
+      "winnerParty": "nat",
+      "winnerSurname": "HOGAN",
+      "winnerPct": 57.05,
+      "swing": -5.11,
+      "candidates": [
+        {
+          "surname": "HOGAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 272,
+          "pct": 43.11
+        },
+        {
+          "surname": "BACKHOUS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 145,
+          "pct": 22.98
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 17.43
+        },
+        {
+          "surname": "NOTTLE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 5.55
+        },
+        {
+          "surname": "PIANCA",
+          "partyAb": "SFF",
+          "party": "sff",
+          "votes": 20,
+          "pct": 3.17
+        },
+        {
+          "surname": "PIKE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.69
+        },
+        {
+          "surname": "COLLESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 1.74
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.27
+        },
+        {
+          "surname": "WELLS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 1.11
+        },
+        {
+          "surname": "GRADY",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 0.79
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOGAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 360,
+          "elected": true,
+          "pct": 57.05
+        },
+        {
+          "surname": "BACKHOUS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 271,
+          "elected": false,
+          "pct": 42.95
         }
       ]
     },
@@ -7354,112 +7358,6 @@
       ]
     },
     {
-      "boothId": 2084,
-      "name": "Harwood Island",
-      "formal": 254,
-      "winnerParty": "nat",
-      "winnerSurname": "HOGAN",
-      "winnerPct": 67.32,
-      "swing": 1.79,
-      "candidates": [
-        {
-          "surname": "HOGAN",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 130,
-          "pct": 51.18
-        },
-        {
-          "surname": "BACKHOUS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 47,
-          "pct": 18.5
-        },
-        {
-          "surname": "ROBINSON",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 23,
-          "pct": 9.06
-        },
-        {
-          "surname": "NOTTLE",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 18,
-          "pct": 7.09
-        },
-        {
-          "surname": "PIANCA",
-          "partyAb": "SFF",
-          "party": "sff",
-          "votes": 12,
-          "pct": 4.72
-        },
-        {
-          "surname": "PIKE",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 8,
-          "pct": 3.15
-        },
-        {
-          "surname": "GRADY",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 5,
-          "pct": 1.97
-        },
-        {
-          "surname": "COLLESS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 4,
-          "pct": 1.57
-        },
-        {
-          "surname": "WILLIAMS",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 3,
-          "pct": 1.18
-        },
-        {
-          "surname": "WELLS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 2,
-          "pct": 0.79
-        },
-        {
-          "surname": "BAKER",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 2,
-          "pct": 0.79
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "HOGAN",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 171,
-          "elected": true,
-          "pct": 67.32
-        },
-        {
-          "surname": "BACKHOUS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 83,
-          "elected": false,
-          "pct": 32.68
-        }
-      ]
-    },
-    {
       "boothId": 2050,
       "name": "Bonalbo",
       "formal": 254,
@@ -7562,6 +7460,112 @@
           "votes": 91,
           "elected": false,
           "pct": 35.83
+        }
+      ]
+    },
+    {
+      "boothId": 2084,
+      "name": "Harwood Island",
+      "formal": 254,
+      "winnerParty": "nat",
+      "winnerSurname": "HOGAN",
+      "winnerPct": 67.32,
+      "swing": 1.79,
+      "candidates": [
+        {
+          "surname": "HOGAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 130,
+          "pct": 51.18
+        },
+        {
+          "surname": "BACKHOUS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 47,
+          "pct": 18.5
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 23,
+          "pct": 9.06
+        },
+        {
+          "surname": "NOTTLE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 7.09
+        },
+        {
+          "surname": "PIANCA",
+          "partyAb": "SFF",
+          "party": "sff",
+          "votes": 12,
+          "pct": 4.72
+        },
+        {
+          "surname": "PIKE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 3.15
+        },
+        {
+          "surname": "GRADY",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.97
+        },
+        {
+          "surname": "COLLESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.57
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.18
+        },
+        {
+          "surname": "WELLS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.79
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOGAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 171,
+          "elected": true,
+          "pct": 67.32
+        },
+        {
+          "surname": "BACKHOUS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 83,
+          "elected": false,
+          "pct": 32.68
         }
       ]
     },
@@ -10110,112 +10114,6 @@
       ]
     },
     {
-      "boothId": 123925,
-      "name": "Other Mobile Team 7",
-      "formal": 7,
-      "winnerParty": "nat",
-      "winnerSurname": "HOGAN",
-      "winnerPct": 57.14,
-      "swing": -3.84,
-      "candidates": [
-        {
-          "surname": "HOGAN",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 2,
-          "pct": 28.57
-        },
-        {
-          "surname": "NOTTLE",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 2,
-          "pct": 28.57
-        },
-        {
-          "surname": "WELLS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 1,
-          "pct": 14.29
-        },
-        {
-          "surname": "BAKER",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 1,
-          "pct": 14.29
-        },
-        {
-          "surname": "PIANCA",
-          "partyAb": "SFF",
-          "party": "sff",
-          "votes": 1,
-          "pct": 14.29
-        },
-        {
-          "surname": "PIKE",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "BACKHOUS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "ROBINSON",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "WILLIAMS",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "GRADY",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "COLLESS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "HOGAN",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 4,
-          "elected": true,
-          "pct": 57.14
-        },
-        {
-          "surname": "BACKHOUS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 3,
-          "elected": false,
-          "pct": 42.86
-        }
-      ]
-    },
-    {
       "boothId": 123919,
       "name": "Other Mobile Team 1",
       "formal": 7,
@@ -10318,6 +10216,112 @@
           "votes": 2,
           "elected": false,
           "pct": 28.57
+        }
+      ]
+    },
+    {
+      "boothId": 123925,
+      "name": "Other Mobile Team 7",
+      "formal": 7,
+      "winnerParty": "nat",
+      "winnerSurname": "HOGAN",
+      "winnerPct": 57.14,
+      "swing": -3.84,
+      "candidates": [
+        {
+          "surname": "HOGAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 2,
+          "pct": 28.57
+        },
+        {
+          "surname": "NOTTLE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 28.57
+        },
+        {
+          "surname": "WELLS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 14.29
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 14.29
+        },
+        {
+          "surname": "PIANCA",
+          "partyAb": "SFF",
+          "party": "sff",
+          "votes": 1,
+          "pct": 14.29
+        },
+        {
+          "surname": "PIKE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BACKHOUS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "GRADY",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "COLLESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOGAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 4,
+          "elected": true,
+          "pct": 57.14
+        },
+        {
+          "surname": "BACKHOUS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "elected": false,
+          "pct": 42.86
         }
       ]
     },
@@ -10845,54 +10849,54 @@
         {
           "year": "2007",
           "shares": {
-            "IND": 2.81,
+            "NAT": 43.05,
             "ALP": 41.67,
             "GRN": 8.1,
-            "NAT": 43.05,
+            "IND": 2.81,
             "OTH": 4.36
           }
         },
         {
           "year": "2010",
           "shares": {
-            "ALP": 45.73,
-            "NAT": 42.47,
-            "GRN": 8.58,
             "IND": 2.52,
+            "ALP": 45.73,
+            "GRN": 8.58,
+            "NAT": 42.47,
             "OTH": 0.7
           }
         },
         {
           "year": "2013",
           "shares": {
-            "ALP": 38.79,
-            "NAT": 46.65,
-            "ON": 1.61,
             "TOP": 4.81,
+            "ON": 1.61,
             "GRN": 6.52,
+            "NAT": 46.65,
+            "ALP": 38.79,
             "OTH": 1.62
           }
         },
         {
           "year": "2016",
           "shares": {
-            "ALP": 34.86,
-            "LDP": 4.01,
+            "AJP": 2.85,
+            "CDP": 2.85,
             "GRN": 11.14,
             "NAT": 44.28,
-            "CDP": 2.85,
-            "AJP": 2.85
+            "ALP": 34.86,
+            "LDP": 4.01
           }
         },
         {
           "year": "2019",
           "shares": {
+            "TOP": 3.2,
+            "IND": 4.85,
+            "AJP": 2.45,
             "NAT": 49.63,
             "ALP": 26.36,
-            "AJP": 2.45,
-            "IND": 4.85,
             "GRN": 11.68,
-            "TOP": 3.2,
             "OTH": 1.84
           }
         },
@@ -10900,10 +10904,10 @@
           "year": "2022",
           "shares": {
             "GRN": 8.48,
-            "ON": 5.38,
             "IND": 13.13,
-            "NAT": 45.62,
             "LDP": 3.73,
+            "ON": 5.38,
+            "NAT": 45.62,
             "ALP": 18.68,
             "TOP": 2.32,
             "OTH": 2.67
@@ -10912,14 +10916,14 @@
         {
           "year": "2025",
           "shares": {
-            "CYA": 2.73,
+            "SFF": 2.18,
+            "GRN": 15.12,
+            "ON": 5.7,
+            "ALP": 22.04,
             "NAT": 44.66,
+            "CYA": 2.73,
             "IND": 3.43,
             "FFP": 2.08,
-            "ON": 5.7,
-            "GRN": 15.12,
-            "SFF": 2.18,
-            "ALP": 22.04,
             "OTH": 2.08
           }
         }

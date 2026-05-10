@@ -9,6 +9,10 @@
     "totalFormal": 103817,
     "informalVotes": 3484,
     "informalRate": 4.42,
+    "enrolled": 118785,
+    "votesCounted": 108248,
+    "turnoutPct": 91.13,
+    "turnoutSwing": 7.84,
     "winner": {
       "candidateId": "C40829",
       "surname": "RAE",
@@ -1826,84 +1830,6 @@
       ]
     },
     {
-      "boothId": 3327,
-      "name": "Sunbury",
-      "formal": 1046,
-      "winnerParty": "alp",
-      "winnerSurname": "RAE",
-      "winnerPct": 59.75,
-      "swing": 6.29,
-      "candidates": [
-        {
-          "surname": "RAE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 397,
-          "pct": 37.95
-        },
-        {
-          "surname": "COTTOM",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 294,
-          "pct": 28.11
-        },
-        {
-          "surname": "NEWMAN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 114,
-          "pct": 10.9
-        },
-        {
-          "surname": "KATSELIS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 89,
-          "pct": 8.51
-        },
-        {
-          "surname": "STARBUCK",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 71,
-          "pct": 6.79
-        },
-        {
-          "surname": "MILUTINOVIC",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 51,
-          "pct": 4.88
-        },
-        {
-          "surname": "ADIN-JAMES",
-          "partyAb": "AJP",
-          "party": "ajp",
-          "votes": 30,
-          "pct": 2.87
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "RAE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 625,
-          "elected": true,
-          "pct": 59.75
-        },
-        {
-          "surname": "COTTOM",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 421,
-          "elected": false,
-          "pct": 40.25
-        }
-      ]
-    },
-    {
       "boothId": 104608,
       "name": "Caroline Springs HAWKE PPVC",
       "formal": 1046,
@@ -1978,6 +1904,84 @@
           "votes": 417,
           "elected": false,
           "pct": 39.87
+        }
+      ]
+    },
+    {
+      "boothId": 3327,
+      "name": "Sunbury",
+      "formal": 1046,
+      "winnerParty": "alp",
+      "winnerSurname": "RAE",
+      "winnerPct": 59.75,
+      "swing": 6.29,
+      "candidates": [
+        {
+          "surname": "RAE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 397,
+          "pct": 37.95
+        },
+        {
+          "surname": "COTTOM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 294,
+          "pct": 28.11
+        },
+        {
+          "surname": "NEWMAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 114,
+          "pct": 10.9
+        },
+        {
+          "surname": "KATSELIS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 89,
+          "pct": 8.51
+        },
+        {
+          "surname": "STARBUCK",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 71,
+          "pct": 6.79
+        },
+        {
+          "surname": "MILUTINOVIC",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 51,
+          "pct": 4.88
+        },
+        {
+          "surname": "ADIN-JAMES",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 30,
+          "pct": 2.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RAE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 625,
+          "elected": true,
+          "pct": 59.75
+        },
+        {
+          "surname": "COTTOM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 421,
+          "elected": false,
+          "pct": 40.25
         }
       ]
     },
@@ -2975,26 +2979,26 @@
         {
           "year": "2022",
           "shares": {
-            "IND": 7.92,
             "CYA": 2.21,
-            "TOP": 7.03,
             "GRN": 8.93,
-            "ALP": 36.73,
-            "LIB": 26.34,
             "GAP": 2.1,
+            "IND": 7.92,
+            "LIB": 26.34,
+            "ALP": 36.73,
             "ON": 5.59,
+            "TOP": 7.03,
             "OTH": 3.16
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 9.67,
-            "HMP": 4.99,
-            "GRN": 9.8,
             "FFP": 4.2,
-            "ALP": 39.13,
             "LIB": 30.23,
+            "GRN": 9.8,
+            "HMP": 4.99,
+            "ALP": 39.13,
+            "ON": 9.67,
             "OTH": 1.99
           }
         }

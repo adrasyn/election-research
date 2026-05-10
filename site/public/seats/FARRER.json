@@ -9,6 +9,10 @@
     "totalFormal": 103063,
     "informalVotes": 9459,
     "informalRate": 9.77,
+    "enrolled": 123752,
+    "votesCounted": 113297,
+    "turnoutPct": 91.55,
+    "turnoutSwing": 2.11,
     "winner": {
       "candidateId": "C41463",
       "surname": "LEY",
@@ -6844,98 +6848,6 @@
       ]
     },
     {
-      "boothId": 108940,
-      "name": "Special Hospital Team 1",
-      "formal": 206,
-      "winnerParty": "lib",
-      "winnerSurname": "LEY",
-      "winnerPct": 58.25,
-      "swing": 58.25,
-      "candidates": [
-        {
-          "surname": "LEY",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 101,
-          "pct": 49.03
-        },
-        {
-          "surname": "HYDE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 46,
-          "pct": 22.33
-        },
-        {
-          "surname": "MILTHORPE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 37,
-          "pct": 17.96
-        },
-        {
-          "surname": "HICKS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 7,
-          "pct": 3.4
-        },
-        {
-          "surname": "SCRIVEN",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 7,
-          "pct": 3.4
-        },
-        {
-          "surname": "HARGRAVES",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 5,
-          "pct": 2.43
-        },
-        {
-          "surname": "HENDRIE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 2,
-          "pct": 0.97
-        },
-        {
-          "surname": "SINCLAIR",
-          "partyAb": "SFF",
-          "party": "sff",
-          "votes": 1,
-          "pct": 0.49
-        },
-        {
-          "surname": "O'REILLY",
-          "partyAb": "GRPF",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "LEY",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 120,
-          "elected": true,
-          "pct": 58.25
-        },
-        {
-          "surname": "MILTHORPE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 86,
-          "elected": false,
-          "pct": 41.75
-        }
-      ]
-    },
-    {
       "boothId": 765,
       "name": "Burrumbuttock",
       "formal": 206,
@@ -7024,6 +6936,98 @@
           "votes": 85,
           "elected": false,
           "pct": 41.26
+        }
+      ]
+    },
+    {
+      "boothId": 108940,
+      "name": "Special Hospital Team 1",
+      "formal": 206,
+      "winnerParty": "lib",
+      "winnerSurname": "LEY",
+      "winnerPct": 58.25,
+      "swing": 58.25,
+      "candidates": [
+        {
+          "surname": "LEY",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 101,
+          "pct": 49.03
+        },
+        {
+          "surname": "HYDE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 46,
+          "pct": 22.33
+        },
+        {
+          "surname": "MILTHORPE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 17.96
+        },
+        {
+          "surname": "HICKS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 3.4
+        },
+        {
+          "surname": "SCRIVEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 3.4
+        },
+        {
+          "surname": "HARGRAVES",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.43
+        },
+        {
+          "surname": "HENDRIE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 0.97
+        },
+        {
+          "surname": "SINCLAIR",
+          "partyAb": "SFF",
+          "party": "sff",
+          "votes": 1,
+          "pct": 0.49
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LEY",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 120,
+          "elected": true,
+          "pct": 58.25
+        },
+        {
+          "surname": "MILTHORPE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 86,
+          "elected": false,
+          "pct": 41.75
         }
       ]
     },
@@ -8972,21 +8976,21 @@
         {
           "year": "2007",
           "shares": {
-            "LIB": 57.73,
             "CLR": 32.74,
-            "FFP": 3.08,
             "GRN": 4.83,
+            "LIB": 57.73,
+            "FFP": 3.08,
             "OTH": 1.62
           }
         },
         {
           "year": "2010",
           "shares": {
-            "IND": 11.27,
-            "LIB": 51.41,
-            "GRN": 5.88,
-            "CDP": 3.21,
             "CLR": 25.29,
+            "IND": 11.27,
+            "GRN": 5.88,
+            "LIB": 51.41,
+            "CDP": 3.21,
             "OTH": 2.92
           }
         },
@@ -8994,61 +8998,61 @@
           "year": "2013",
           "shares": {
             "KAP": 3.72,
-            "LIB": 57.81,
-            "TOP": 4.09,
-            "ALP": 23.75,
             "GRN": 4.39,
+            "LIB": 57.81,
+            "ALP": 23.75,
+            "TOP": 4.09,
             "OTH": 6.24
           }
         },
         {
           "year": "2016",
           "shares": {
-            "GRN": 8.22,
-            "LIB": 57.87,
-            "ALP": 18.11,
-            "ALA": 6.08,
             "CDP": 3.6,
+            "GRN": 8.22,
+            "ALA": 6.08,
             "IND": 4.28,
+            "ALP": 18.11,
+            "LIB": 57.87,
             "OTH": 1.85
           }
         },
         {
           "year": "2019",
           "shares": {
-            "ALP": 14.64,
             "GRN": 4.66,
             "TOP": 4.26,
             "LIB": 50.71,
             "IND": 21.78,
+            "ALP": 14.64,
             "OTH": 3.94
           }
         },
         {
           "year": "2022",
           "shares": {
-            "GRN": 9.11,
-            "LIB": 52.26,
-            "SFF": 5.31,
-            "ALP": 18.99,
             "ON": 6.33,
             "TOP": 3.25,
+            "SFF": 5.31,
+            "LIB": 52.26,
+            "GRN": 9.11,
             "IND": 3.17,
+            "ALP": 18.99,
             "OTH": 1.59
           }
         },
         {
           "year": "2025",
           "shares": {
-            "CYA": 2.37,
-            "GRPF": 2.02,
-            "FFP": 2.15,
-            "GRN": 4.93,
             "ALP": 15.09,
-            "LIB": 43.41,
-            "SFF": 3.47,
+            "FFP": 2.15,
+            "GRPF": 2.02,
             "IND": 19.96,
-            "ON": 6.6
+            "LIB": 43.41,
+            "ON": 6.6,
+            "GRN": 4.93,
+            "CYA": 2.37,
+            "SFF": 3.47
           }
         }
       ]

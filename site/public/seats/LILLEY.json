@@ -9,6 +9,10 @@
     "totalFormal": 105440,
     "informalVotes": 2079,
     "informalRate": 2.59,
+    "enrolled": 118593,
+    "votesCounted": 107995,
+    "turnoutPct": 91.06,
+    "turnoutSwing": 0.45,
     "winner": {
       "candidateId": "C40777",
       "surname": "WELLS",
@@ -1592,77 +1596,6 @@
       ]
     },
     {
-      "boothId": 6058,
-      "name": "Taigum (Lilley)",
-      "formal": 1135,
-      "winnerParty": "alp",
-      "winnerSurname": "WELLS",
-      "winnerPct": 72.6,
-      "swing": 8.64,
-      "candidates": [
-        {
-          "surname": "WELLS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 598,
-          "pct": 52.69
-        },
-        {
-          "surname": "WASHINGTON",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 222,
-          "pct": 19.56
-        },
-        {
-          "surname": "STEVENS",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 197,
-          "pct": 17.36
-        },
-        {
-          "surname": "McKAY",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 50,
-          "pct": 4.41
-        },
-        {
-          "surname": "MORRISON",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 48,
-          "pct": 4.23
-        },
-        {
-          "surname": "DENARO",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 20,
-          "pct": 1.76
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "WELLS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 824,
-          "elected": true,
-          "pct": 72.6
-        },
-        {
-          "surname": "WASHINGTON",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 311,
-          "elected": false,
-          "pct": 27.4
-        }
-      ]
-    },
-    {
       "boothId": 83408,
       "name": "Northgate",
       "formal": 1135,
@@ -1730,6 +1663,77 @@
           "votes": 286,
           "elected": false,
           "pct": 25.2
+        }
+      ]
+    },
+    {
+      "boothId": 6058,
+      "name": "Taigum (Lilley)",
+      "formal": 1135,
+      "winnerParty": "alp",
+      "winnerSurname": "WELLS",
+      "winnerPct": 72.6,
+      "swing": 8.64,
+      "candidates": [
+        {
+          "surname": "WELLS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 598,
+          "pct": 52.69
+        },
+        {
+          "surname": "WASHINGTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 222,
+          "pct": 19.56
+        },
+        {
+          "surname": "STEVENS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 197,
+          "pct": 17.36
+        },
+        {
+          "surname": "McKAY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 4.41
+        },
+        {
+          "surname": "MORRISON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 48,
+          "pct": 4.23
+        },
+        {
+          "surname": "DENARO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 1.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WELLS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 824,
+          "elected": true,
+          "pct": 72.6
+        },
+        {
+          "surname": "WASHINGTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 311,
+          "elected": false,
+          "pct": 27.4
         }
       ]
     },
@@ -3573,28 +3577,28 @@
           "year": "2007",
           "shares": {
             "ALP": 51.57,
-            "GRN": 6.77,
             "LIB": 38.26,
+            "GRN": 6.77,
             "OTH": 3.41
           }
         },
         {
           "year": "2010",
           "shares": {
-            "GRN": 12.17,
-            "LIB": 41.22,
-            "FFP": 3.1,
             "ALP": 41.09,
+            "FFP": 3.1,
+            "LIB": 41.22,
+            "GRN": 12.17,
             "IND": 2.43
           }
         },
         {
           "year": "2013",
           "shares": {
-            "GRN": 7.67,
             "LIB": 41.32,
-            "ALP": 40.21,
             "KAP": 2.11,
+            "ALP": 40.21,
+            "GRN": 7.67,
             "TOP": 6.87,
             "OTH": 1.82
           }
@@ -3602,32 +3606,32 @@
         {
           "year": "2016",
           "shares": {
+            "LDP": 2.29,
+            "FFP": 3.59,
             "GRN": 11.58,
             "LIB": 39.05,
-            "ALP": 43.49,
-            "LDP": 2.29,
-            "FFP": 3.59
+            "ALP": 43.49
           }
         },
         {
           "year": "2019",
           "shares": {
-            "ALP": 35.64,
-            "LIB": 40.78,
             "ON": 5.35,
-            "TOP": 2.25,
+            "ALP": 35.64,
             "GRN": 14.01,
+            "TOP": 2.25,
+            "LIB": 40.78,
             "OTH": 1.97
           }
         },
         {
           "year": "2022",
           "shares": {
-            "TOP": 3.35,
-            "LIB": 29.83,
-            "GRN": 17.09,
-            "ON": 4.07,
             "LDP": 2.44,
+            "GRN": 17.09,
+            "LIB": 29.83,
+            "TOP": 3.35,
+            "ON": 4.07,
             "ALP": 41.84,
             "OTH": 1.39
           }
@@ -3635,12 +3639,12 @@
         {
           "year": "2025",
           "shares": {
-            "FFP": 2.6,
-            "LIB": 27.7,
-            "ALP": 46.08,
-            "GRN": 16.4,
+            "CYA": 2.97,
             "ON": 4.25,
-            "CYA": 2.97
+            "FFP": 2.6,
+            "ALP": 46.08,
+            "LIB": 27.7,
+            "GRN": 16.4
           }
         }
       ]

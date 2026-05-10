@@ -9,6 +9,10 @@
     "totalFormal": 109350,
     "informalVotes": 9926,
     "informalRate": 9.54,
+    "enrolled": 129584,
+    "votesCounted": 120329,
+    "turnoutPct": 92.86,
+    "turnoutSwing": 2.3,
     "winner": {
       "candidateId": "C41951",
       "surname": "PENFOLD",
@@ -3008,105 +3012,6 @@
       ]
     },
     {
-      "boothId": 1566,
-      "name": "Bonny Hills",
-      "formal": 814,
-      "winnerParty": "nat",
-      "winnerSurname": "PENFOLD",
-      "winnerPct": 54.05,
-      "swing": -12.66,
-      "candidates": [
-        {
-          "surname": "PENFOLD",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 271,
-          "pct": 33.29
-        },
-        {
-          "surname": "WILSON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 160,
-          "pct": 19.66
-        },
-        {
-          "surname": "MILLER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 157,
-          "pct": 19.29
-        },
-        {
-          "surname": "FERRIER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 71,
-          "pct": 8.72
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 48,
-          "pct": 5.9
-        },
-        {
-          "surname": "MANLEY",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 43,
-          "pct": 5.28
-        },
-        {
-          "surname": "HORNSHAW",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 26,
-          "pct": 3.19
-        },
-        {
-          "surname": "MASTERS",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 18,
-          "pct": 2.21
-        },
-        {
-          "surname": "CHARSLEY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 17,
-          "pct": 2.09
-        },
-        {
-          "surname": "BURKE",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 3,
-          "pct": 0.37
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "PENFOLD",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 440,
-          "elected": true,
-          "pct": 54.05
-        },
-        {
-          "surname": "WILSON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 374,
-          "elected": false,
-          "pct": 45.95
-        }
-      ]
-    },
-    {
       "boothId": 98108,
       "name": "Rutherford LYNE PPVC",
       "formal": 814,
@@ -3177,6 +3082,105 @@
           "party": "ffp",
           "votes": 14,
           "pct": 1.72
+        },
+        {
+          "surname": "BURKE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PENFOLD",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 440,
+          "elected": true,
+          "pct": 54.05
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 374,
+          "elected": false,
+          "pct": 45.95
+        }
+      ]
+    },
+    {
+      "boothId": 1566,
+      "name": "Bonny Hills",
+      "formal": 814,
+      "winnerParty": "nat",
+      "winnerSurname": "PENFOLD",
+      "winnerPct": 54.05,
+      "swing": -12.66,
+      "candidates": [
+        {
+          "surname": "PENFOLD",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 271,
+          "pct": 33.29
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 160,
+          "pct": 19.66
+        },
+        {
+          "surname": "MILLER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 157,
+          "pct": 19.29
+        },
+        {
+          "surname": "FERRIER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 71,
+          "pct": 8.72
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 5.9
+        },
+        {
+          "surname": "MANLEY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 5.28
+        },
+        {
+          "surname": "HORNSHAW",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.19
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 2.21
+        },
+        {
+          "surname": "CHARSLEY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.09
         },
         {
           "surname": "BURKE",
@@ -7364,105 +7368,6 @@
       ]
     },
     {
-      "boothId": 109198,
-      "name": "Special Hospital Team 3",
-      "formal": 180,
-      "winnerParty": "nat",
-      "winnerSurname": "PENFOLD",
-      "winnerPct": 56.11,
-      "swing": -7.96,
-      "candidates": [
-        {
-          "surname": "PENFOLD",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 76,
-          "pct": 42.22
-        },
-        {
-          "surname": "WILSON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 47,
-          "pct": 26.11
-        },
-        {
-          "surname": "MILLER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 19,
-          "pct": 10.56
-        },
-        {
-          "surname": "FERRIER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 17,
-          "pct": 9.44
-        },
-        {
-          "surname": "CHARSLEY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 6,
-          "pct": 3.33
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 6,
-          "pct": 3.33
-        },
-        {
-          "surname": "MASTERS",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 6,
-          "pct": 3.33
-        },
-        {
-          "surname": "MANLEY",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 2,
-          "pct": 1.11
-        },
-        {
-          "surname": "HORNSHAW",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 1,
-          "pct": 0.56
-        },
-        {
-          "surname": "BURKE",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "PENFOLD",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 101,
-          "elected": true,
-          "pct": 56.11
-        },
-        {
-          "surname": "WILSON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 79,
-          "elected": false,
-          "pct": 43.89
-        }
-      ]
-    },
-    {
       "boothId": 1638,
       "name": "Stratford",
       "formal": 180,
@@ -7558,6 +7463,105 @@
           "votes": 56,
           "elected": false,
           "pct": 31.11
+        }
+      ]
+    },
+    {
+      "boothId": 109198,
+      "name": "Special Hospital Team 3",
+      "formal": 180,
+      "winnerParty": "nat",
+      "winnerSurname": "PENFOLD",
+      "winnerPct": 56.11,
+      "swing": -7.96,
+      "candidates": [
+        {
+          "surname": "PENFOLD",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 76,
+          "pct": 42.22
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 47,
+          "pct": 26.11
+        },
+        {
+          "surname": "MILLER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 10.56
+        },
+        {
+          "surname": "FERRIER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 17,
+          "pct": 9.44
+        },
+        {
+          "surname": "CHARSLEY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 3.33
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 3.33
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 3.33
+        },
+        {
+          "surname": "MANLEY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.11
+        },
+        {
+          "surname": "HORNSHAW",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.56
+        },
+        {
+          "surname": "BURKE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PENFOLD",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 101,
+          "elected": true,
+          "pct": 56.11
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 79,
+          "elected": false,
+          "pct": 43.89
         }
       ]
     },
@@ -8651,105 +8655,6 @@
       ]
     },
     {
-      "boothId": 108808,
-      "name": "Special Hospital Team 1",
-      "formal": 117,
-      "winnerParty": "nat",
-      "winnerSurname": "PENFOLD",
-      "winnerPct": 52.14,
-      "swing": -11.95,
-      "candidates": [
-        {
-          "surname": "PENFOLD",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 37,
-          "pct": 31.62
-        },
-        {
-          "surname": "WILSON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 34,
-          "pct": 29.06
-        },
-        {
-          "surname": "MILLER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 14,
-          "pct": 11.97
-        },
-        {
-          "surname": "FERRIER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 11,
-          "pct": 9.4
-        },
-        {
-          "surname": "MANLEY",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 6,
-          "pct": 5.13
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 5,
-          "pct": 4.27
-        },
-        {
-          "surname": "HORNSHAW",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 5,
-          "pct": 4.27
-        },
-        {
-          "surname": "CHARSLEY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 2,
-          "pct": 1.71
-        },
-        {
-          "surname": "BURKE",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 2,
-          "pct": 1.71
-        },
-        {
-          "surname": "MASTERS",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 1,
-          "pct": 0.85
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "PENFOLD",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 61,
-          "elected": true,
-          "pct": 52.14
-        },
-        {
-          "surname": "WILSON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 56,
-          "elected": false,
-          "pct": 47.86
-        }
-      ]
-    },
-    {
       "boothId": 108782,
       "name": "Upper Lansdowne",
       "formal": 117,
@@ -8845,6 +8750,105 @@
           "votes": 61,
           "elected": false,
           "pct": 52.14
+        }
+      ]
+    },
+    {
+      "boothId": 108808,
+      "name": "Special Hospital Team 1",
+      "formal": 117,
+      "winnerParty": "nat",
+      "winnerSurname": "PENFOLD",
+      "winnerPct": 52.14,
+      "swing": -11.95,
+      "candidates": [
+        {
+          "surname": "PENFOLD",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 37,
+          "pct": 31.62
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 34,
+          "pct": 29.06
+        },
+        {
+          "surname": "MILLER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 11.97
+        },
+        {
+          "surname": "FERRIER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 9.4
+        },
+        {
+          "surname": "MANLEY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 5.13
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 4.27
+        },
+        {
+          "surname": "HORNSHAW",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 4.27
+        },
+        {
+          "surname": "CHARSLEY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.71
+        },
+        {
+          "surname": "BURKE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.71
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PENFOLD",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 61,
+          "elected": true,
+          "pct": 52.14
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 56,
+          "elected": false,
+          "pct": 47.86
         }
       ]
     },
@@ -9247,10 +9251,10 @@
         {
           "year": "2007",
           "shares": {
-            "GRN": 7.15,
             "CDP": 2.12,
-            "ALP": 32.07,
             "IND": 6.16,
+            "GRN": 7.15,
+            "ALP": 32.07,
             "NAT": 52.26,
             "OTH": 0.23
           }
@@ -9259,21 +9263,21 @@
           "year": "2010",
           "shares": {
             "GRN": 4.29,
-            "IND": 47.84,
             "NAT": 34.39,
+            "IND": 47.84,
             "ALP": 13.49
           }
         },
         {
           "year": "2013",
           "shares": {
-            "CDP": 2.38,
-            "NAT": 53.19,
-            "TOP": 5.48,
-            "IND": 7.61,
-            "ON": 2.56,
             "ALP": 21.28,
+            "NAT": 53.19,
+            "ON": 2.56,
+            "TOP": 5.48,
             "GRN": 6.19,
+            "CDP": 2.38,
+            "IND": 7.61,
             "OTH": 1.31
           }
         },
@@ -9281,10 +9285,10 @@
           "year": "2016",
           "shares": {
             "ALP": 26.56,
-            "NAT": 49.57,
-            "CDP": 3.04,
+            "GRN": 9.44,
             "IND": 11.39,
-            "GRN": 9.44
+            "CDP": 3.04,
+            "NAT": 49.57
           }
         },
         {
@@ -9294,8 +9298,8 @@
             "TOP": 4.05,
             "LDP": 5.8,
             "IND": 5.11,
-            "NAT": 49.35,
             "GRN": 6.51,
+            "NAT": 49.35,
             "OTH": 5.1
           }
         },
@@ -9303,10 +9307,10 @@
           "year": "2022",
           "shares": {
             "GRN": 7.85,
-            "TOP": 4.12,
+            "IND": 8.76,
             "NAT": 43.51,
             "ALP": 21.47,
-            "IND": 8.76,
+            "TOP": 4.12,
             "ON": 7.93,
             "LDP": 6.36
           }
@@ -9314,13 +9318,13 @@
         {
           "year": "2025",
           "shares": {
-            "ON": 8.39,
-            "HMP": 5.48,
-            "LTP": 3.81,
-            "CYA": 2.46,
-            "IND": 15.49,
-            "GRN": 6.38,
             "NAT": 36.24,
+            "CYA": 2.46,
+            "HMP": 5.48,
+            "GRN": 6.38,
+            "LTP": 3.81,
+            "IND": 15.49,
+            "ON": 8.39,
             "ALP": 19.81,
             "OTH": 1.93
           }

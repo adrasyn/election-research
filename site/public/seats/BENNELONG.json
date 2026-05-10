@@ -9,6 +9,10 @@
     "totalFormal": 109812,
     "informalVotes": 6078,
     "informalRate": 6.47,
+    "enrolled": 125953,
+    "votesCounted": 117008,
+    "turnoutPct": 92.9,
+    "turnoutSwing": 2.25,
     "winner": {
       "candidateId": "C41329",
       "surname": "LAXALE",
@@ -2839,91 +2843,6 @@
       ]
     },
     {
-      "boothId": 77,
-      "name": "Chatswood South",
-      "formal": 949,
-      "winnerParty": "alp",
-      "winnerSurname": "LAXALE",
-      "winnerPct": 70.07,
-      "swing": 13.95,
-      "candidates": [
-        {
-          "surname": "LAXALE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 460,
-          "pct": 48.47
-        },
-        {
-          "surname": "YUNG",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 235,
-          "pct": 24.76
-        },
-        {
-          "surname": "HART",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 182,
-          "pct": 19.18
-        },
-        {
-          "surname": "BENNETT",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 20,
-          "pct": 2.11
-        },
-        {
-          "surname": "AUGUST",
-          "partyAb": "FUS",
-          "party": "fus",
-          "votes": 20,
-          "pct": 2.11
-        },
-        {
-          "surname": "CHAN",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 12,
-          "pct": 1.26
-        },
-        {
-          "surname": "NALBANDIAN",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 11,
-          "pct": 1.16
-        },
-        {
-          "surname": "DEVINE",
-          "partyAb": "IMO",
-          "party": "oth",
-          "votes": 9,
-          "pct": 0.95
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "LAXALE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 665,
-          "elected": true,
-          "pct": 70.07
-        },
-        {
-          "surname": "YUNG",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 284,
-          "elected": false,
-          "pct": 29.93
-        }
-      ]
-    },
-    {
       "boothId": 83199,
       "name": "Ryde Central",
       "formal": 949,
@@ -3005,6 +2924,91 @@
           "votes": 406,
           "elected": false,
           "pct": 42.78
+        }
+      ]
+    },
+    {
+      "boothId": 77,
+      "name": "Chatswood South",
+      "formal": 949,
+      "winnerParty": "alp",
+      "winnerSurname": "LAXALE",
+      "winnerPct": 70.07,
+      "swing": 13.95,
+      "candidates": [
+        {
+          "surname": "LAXALE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 460,
+          "pct": 48.47
+        },
+        {
+          "surname": "YUNG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 235,
+          "pct": 24.76
+        },
+        {
+          "surname": "HART",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 182,
+          "pct": 19.18
+        },
+        {
+          "surname": "BENNETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 2.11
+        },
+        {
+          "surname": "AUGUST",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 20,
+          "pct": 2.11
+        },
+        {
+          "surname": "CHAN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.26
+        },
+        {
+          "surname": "NALBANDIAN",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.16
+        },
+        {
+          "surname": "DEVINE",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LAXALE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 665,
+          "elected": true,
+          "pct": 70.07
+        },
+        {
+          "surname": "YUNG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 284,
+          "elected": false,
+          "pct": 29.93
         }
       ]
     },
@@ -5625,8 +5629,8 @@
         {
           "year": "2007",
           "shares": {
-            "ALP": 45.33,
             "LIB": 45.49,
+            "ALP": 45.33,
             "ON": 0.3,
             "GRN": 5.53,
             "OTH": 3.34
@@ -5636,40 +5640,40 @@
           "year": "2010",
           "shares": {
             "ON": 0.85,
-            "CDP": 2.13,
-            "LIB": 48.53,
-            "GRN": 7.95,
             "ALP": 37.12,
+            "GRN": 7.95,
+            "LIB": 48.53,
+            "CDP": 2.13,
             "OTH": 3.44
           }
         },
         {
           "year": "2013",
           "shares": {
+            "CDP": 2.41,
             "GRN": 8.42,
             "ALP": 32.45,
             "LIB": 52.99,
-            "CDP": 2.41,
             "OTH": 3.74
           }
         },
         {
           "year": "2016",
           "shares": {
-            "IND": 3.13,
-            "ALP": 28.48,
-            "GRN": 9.13,
-            "CDP": 6.4,
             "LIB": 50.41,
+            "CDP": 6.4,
+            "GRN": 9.13,
+            "ALP": 28.48,
+            "IND": 3.13,
             "OTH": 2.45
           }
         },
         {
           "year": "2019",
           "shares": {
+            "ALP": 34.03,
             "LIB": 50.82,
             "GRN": 9.47,
-            "ALP": 34.03,
             "CDP": 3.73,
             "OTH": 1.96
           }
@@ -5677,22 +5681,22 @@
         {
           "year": "2022",
           "shares": {
-            "TOP": 2.93,
-            "ALP": 37.73,
-            "ON": 1.67,
             "LIB": 41.35,
             "FUS": 2.13,
+            "ALP": 37.73,
+            "ON": 1.67,
             "GRN": 11.44,
+            "TOP": 2.93,
             "OTH": 2.75
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ALP": 45.35,
+            "GRN": 11.78,
             "LIB": 35.07,
             "ON": 2.31,
-            "GRN": 11.78,
+            "ALP": 45.35,
             "OTH": 5.5
           }
         }

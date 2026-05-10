@@ -9,6 +9,10 @@
     "totalFormal": 111672,
     "informalVotes": 8809,
     "informalRate": 8.41,
+    "enrolled": 132184,
+    "votesCounted": 121454,
+    "turnoutPct": 91.88,
+    "turnoutSwing": 4.29,
     "winner": {
       "candidateId": "C41407",
       "surname": "REPACHOLI",
@@ -5188,98 +5192,6 @@
       ]
     },
     {
-      "boothId": 31719,
-      "name": "Wyee Point",
-      "formal": 387,
-      "winnerParty": "alp",
-      "winnerSurname": "REPACHOLI",
-      "winnerPct": 54.52,
-      "swing": 54.52,
-      "candidates": [
-        {
-          "surname": "REPACHOLI",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 156,
-          "pct": 40.31
-        },
-        {
-          "surname": "GILROY",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 79,
-          "pct": 20.41
-        },
-        {
-          "surname": "BONDS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 44,
-          "pct": 11.37
-        },
-        {
-          "surname": "WRIGHTSON",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 26,
-          "pct": 6.72
-        },
-        {
-          "surname": "FENWICK",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 25,
-          "pct": 6.46
-        },
-        {
-          "surname": "STOKES",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 21,
-          "pct": 5.43
-        },
-        {
-          "surname": "BODDAN",
-          "partyAb": "SFF",
-          "party": "sff",
-          "votes": 17,
-          "pct": 4.39
-        },
-        {
-          "surname": "FARRELLY",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 12,
-          "pct": 3.1
-        },
-        {
-          "surname": "DAVIES",
-          "partyAb": "AJP",
-          "party": "ajp",
-          "votes": 7,
-          "pct": 1.81
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "REPACHOLI",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 211,
-          "elected": true,
-          "pct": 54.52
-        },
-        {
-          "surname": "BONDS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 176,
-          "elected": false,
-          "pct": 45.48
-        }
-      ]
-    },
-    {
       "boothId": 83691,
       "name": "Kurri Kurri North",
       "formal": 387,
@@ -5368,6 +5280,98 @@
           "votes": 143,
           "elected": false,
           "pct": 36.95
+        }
+      ]
+    },
+    {
+      "boothId": 31719,
+      "name": "Wyee Point",
+      "formal": 387,
+      "winnerParty": "alp",
+      "winnerSurname": "REPACHOLI",
+      "winnerPct": 54.52,
+      "swing": 54.52,
+      "candidates": [
+        {
+          "surname": "REPACHOLI",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 156,
+          "pct": 40.31
+        },
+        {
+          "surname": "GILROY",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 79,
+          "pct": 20.41
+        },
+        {
+          "surname": "BONDS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 11.37
+        },
+        {
+          "surname": "WRIGHTSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 6.72
+        },
+        {
+          "surname": "FENWICK",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 6.46
+        },
+        {
+          "surname": "STOKES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 21,
+          "pct": 5.43
+        },
+        {
+          "surname": "BODDAN",
+          "partyAb": "SFF",
+          "party": "sff",
+          "votes": 17,
+          "pct": 4.39
+        },
+        {
+          "surname": "FARRELLY",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 3.1
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 1.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "REPACHOLI",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 211,
+          "elected": true,
+          "pct": 54.52
+        },
+        {
+          "surname": "BONDS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 176,
+          "elected": false,
+          "pct": 45.48
         }
       ]
     },
@@ -6945,45 +6949,45 @@
         {
           "year": "2010",
           "shares": {
-            "GRN": 8.92,
+            "ON": 3.35,
             "CDP": 2.38,
-            "ALP": 54.31,
             "NAT": 31.05,
-            "ON": 3.35
+            "GRN": 8.92,
+            "ALP": 54.31
           }
         },
         {
           "year": "2013",
           "shares": {
             "ON": 3.78,
-            "ALP": 44.5,
             "GRN": 5.89,
+            "ALP": 44.5,
             "NAT": 35.11,
-            "CDP": 2.13,
             "TOP": 7.62,
+            "CDP": 2.13,
             "OTH": 0.97
           }
         },
         {
           "year": "2016",
           "shares": {
-            "GRN": 7.09,
+            "IND": 11.4,
             "NAT": 26.34,
-            "CDP": 3.38,
             "ALP": 51.79,
-            "IND": 11.4
+            "CDP": 3.38,
+            "GRN": 7.09
           }
         },
         {
           "year": "2019",
           "shares": {
             "NAT": 23.47,
-            "GRN": 6.87,
             "CDP": 2.31,
-            "AJP": 3.2,
             "TOP": 4.32,
-            "ALP": 37.57,
             "ON": 21.59,
+            "ALP": 37.57,
+            "AJP": 3.2,
+            "GRN": 6.87,
             "OTH": 0.67
           }
         },
@@ -6991,26 +6995,26 @@
           "year": "2022",
           "shares": {
             "ALP": 38.54,
-            "IND": 7.48,
-            "ON": 9.99,
             "NAT": 27.42,
-            "GRN": 8.88,
-            "TOP": 4.06,
             "AJP": 2.29,
+            "GRN": 8.88,
+            "ON": 9.99,
+            "TOP": 4.06,
+            "IND": 7.48,
             "OTH": 1.35
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 16.13,
-            "FFP": 2.37,
-            "HMP": 5.06,
             "CYA": 3.64,
+            "HMP": 5.06,
+            "FFP": 2.37,
+            "ON": 16.13,
             "NAT": 18.17,
-            "SFF": 2.24,
-            "ALP": 43.5,
             "GRN": 7.42,
+            "ALP": 43.5,
+            "SFF": 2.24,
             "OTH": 1.46
           }
         }

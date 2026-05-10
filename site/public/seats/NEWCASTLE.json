@@ -9,6 +9,10 @@
     "totalFormal": 108266,
     "informalVotes": 7235,
     "informalRate": 7.29,
+    "enrolled": 126226,
+    "votesCounted": 116411,
+    "turnoutPct": 92.22,
+    "turnoutSwing": 1.52,
     "winner": {
       "candidateId": "C41422",
       "surname": "CLAYDON",
@@ -1309,91 +1313,6 @@
       ]
     },
     {
-      "boothId": 1883,
-      "name": "Maryland",
-      "formal": 1487,
-      "winnerParty": "alp",
-      "winnerSurname": "CLAYDON",
-      "winnerPct": 71.76,
-      "swing": 71.76,
-      "candidates": [
-        {
-          "surname": "CLAYDON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 733,
-          "pct": 49.29
-        },
-        {
-          "surname": "McCABE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 221,
-          "pct": 14.86
-        },
-        {
-          "surname": "McPHEE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 217,
-          "pct": 14.59
-        },
-        {
-          "surname": "HEYNE",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 132,
-          "pct": 8.88
-        },
-        {
-          "surname": "STEFANAC",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 90,
-          "pct": 6.05
-        },
-        {
-          "surname": "BRIGGS",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 60,
-          "pct": 4.03
-        },
-        {
-          "surname": "O'BRIEN",
-          "partyAb": "SAL",
-          "party": "oth",
-          "votes": 23,
-          "pct": 1.55
-        },
-        {
-          "surname": "CREECH",
-          "partyAb": "NAFD",
-          "party": "oth",
-          "votes": 11,
-          "pct": 0.74
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "CLAYDON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 1067,
-          "elected": true,
-          "pct": 71.76
-        },
-        {
-          "surname": "McCABE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 420,
-          "elected": false,
-          "pct": 28.24
-        }
-      ]
-    },
-    {
       "boothId": 2714,
       "name": "New Lambton South",
       "formal": 1487,
@@ -1475,6 +1394,91 @@
           "votes": 524,
           "elected": false,
           "pct": 35.24
+        }
+      ]
+    },
+    {
+      "boothId": 1883,
+      "name": "Maryland",
+      "formal": 1487,
+      "winnerParty": "alp",
+      "winnerSurname": "CLAYDON",
+      "winnerPct": 71.76,
+      "swing": 71.76,
+      "candidates": [
+        {
+          "surname": "CLAYDON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 733,
+          "pct": 49.29
+        },
+        {
+          "surname": "McCABE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 221,
+          "pct": 14.86
+        },
+        {
+          "surname": "McPHEE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 217,
+          "pct": 14.59
+        },
+        {
+          "surname": "HEYNE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 132,
+          "pct": 8.88
+        },
+        {
+          "surname": "STEFANAC",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 90,
+          "pct": 6.05
+        },
+        {
+          "surname": "BRIGGS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 4.03
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.55
+        },
+        {
+          "surname": "CREECH",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CLAYDON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1067,
+          "elected": true,
+          "pct": 71.76
+        },
+        {
+          "surname": "McCABE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 420,
+          "elected": false,
+          "pct": 28.24
         }
       ]
     },
@@ -5300,19 +5304,19 @@
           "year": "2007",
           "shares": {
             "FFP": 2.28,
-            "LIB": 25.56,
+            "ALP": 50.78,
             "GRN": 10.01,
             "IND": 8.33,
-            "ALP": 50.78,
+            "LIB": 25.56,
             "OTH": 3.03
           }
         },
         {
           "year": "2010",
           "shares": {
-            "GRN": 15.47,
             "LIB": 31.33,
             "ALP": 47.89,
+            "GRN": 15.47,
             "OTH": 5.3
           }
         },
@@ -5320,56 +5324,56 @@
           "year": "2013",
           "shares": {
             "LIB": 34.66,
-            "GRN": 12.0,
             "TOP": 4.11,
             "ALP": 43.73,
+            "GRN": 12.0,
             "OTH": 5.5
           }
         },
         {
           "year": "2016",
           "shares": {
-            "LIB": 29.92,
-            "CDP": 2.15,
             "GRN": 13.66,
             "ALP": 47.12,
-            "DRF": 3.42,
             "IND": 2.76,
+            "LIB": 29.92,
+            "CDP": 2.15,
+            "DRF": 3.42,
             "OTH": 0.98
           }
         },
         {
           "year": "2019",
           "shares": {
-            "GRN": 15.56,
-            "TOP": 3.37,
             "LIB": 29.21,
-            "AJP": 3.2,
             "ALP": 45.73,
+            "AJP": 3.2,
+            "TOP": 3.37,
+            "GRN": 15.56,
             "OTH": 2.92
           }
         },
         {
           "year": "2022",
           "shares": {
+            "ON": 4.5,
             "AJP": 2.41,
             "LIB": 24.44,
             "TOP": 2.38,
-            "GRN": 20.07,
             "ALP": 44.07,
-            "ON": 4.5,
+            "GRN": 20.07,
             "OTH": 2.12
           }
         },
         {
           "year": "2025",
           "shares": {
-            "LIB": 19.06,
-            "FFP": 2.14,
-            "CYA": 3.57,
             "GRN": 22.22,
+            "CYA": 3.57,
             "ALP": 45.31,
+            "LIB": 19.06,
             "ON": 5.35,
+            "FFP": 2.14,
             "OTH": 2.35
           }
         }

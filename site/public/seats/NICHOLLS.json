@@ -9,6 +9,10 @@
     "totalFormal": 105450,
     "informalVotes": 4908,
     "informalRate": 5.19,
+    "enrolled": 121390,
+    "votesCounted": 111006,
+    "turnoutPct": 91.45,
+    "turnoutSwing": 1.49,
     "winner": {
       "candidateId": "C41134",
       "surname": "BIRRELL",
@@ -4946,84 +4950,6 @@
       ]
     },
     {
-      "boothId": 4820,
-      "name": "Undera",
-      "formal": 220,
-      "winnerParty": "nat",
-      "winnerSurname": "BIRRELL",
-      "winnerPct": 85.91,
-      "swing": 85.91,
-      "candidates": [
-        {
-          "surname": "BIRRELL",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 128,
-          "pct": 58.18
-        },
-        {
-          "surname": "TYRRELL",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 45,
-          "pct": 20.45
-        },
-        {
-          "surname": "TRAVERS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 19,
-          "pct": 8.64
-        },
-        {
-          "surname": "FLOYD",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 12,
-          "pct": 5.45
-        },
-        {
-          "surname": "EADE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 9,
-          "pct": 4.09
-        },
-        {
-          "surname": "BACHELOR",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 6,
-          "pct": 2.73
-        },
-        {
-          "surname": "DAVY",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 1,
-          "pct": 0.45
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "BIRRELL",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 189,
-          "elected": true,
-          "pct": 85.91
-        },
-        {
-          "surname": "TRAVERS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 31,
-          "elected": false,
-          "pct": 14.09
-        }
-      ]
-    },
-    {
       "boothId": 4338,
       "name": "Longwood",
       "formal": 220,
@@ -5098,6 +5024,84 @@
           "votes": 63,
           "elected": false,
           "pct": 28.64
+        }
+      ]
+    },
+    {
+      "boothId": 4820,
+      "name": "Undera",
+      "formal": 220,
+      "winnerParty": "nat",
+      "winnerSurname": "BIRRELL",
+      "winnerPct": 85.91,
+      "swing": 85.91,
+      "candidates": [
+        {
+          "surname": "BIRRELL",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 128,
+          "pct": 58.18
+        },
+        {
+          "surname": "TYRRELL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 45,
+          "pct": 20.45
+        },
+        {
+          "surname": "TRAVERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "pct": 8.64
+        },
+        {
+          "surname": "FLOYD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 5.45
+        },
+        {
+          "surname": "EADE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 4.09
+        },
+        {
+          "surname": "BACHELOR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 2.73
+        },
+        {
+          "surname": "DAVY",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BIRRELL",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 189,
+          "elected": true,
+          "pct": 85.91
+        },
+        {
+          "surname": "TRAVERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 31,
+          "elected": false,
+          "pct": 14.09
         }
       ]
     },
@@ -6421,37 +6425,37 @@
         {
           "year": "2019",
           "shares": {
+            "ALP": 19.41,
             "IND": 8.5,
             "GRN": 4.21,
-            "ALP": 19.41,
-            "TOP": 5.33,
             "ON": 11.29,
-            "NAT": 51.27
+            "NAT": 51.27,
+            "TOP": 5.33
           }
         },
         {
           "year": "2022",
           "shares": {
-            "GRN": 3.21,
-            "ALP": 11.52,
-            "LIB": 18.06,
-            "LDP": 3.54,
-            "NAT": 26.14,
-            "IND": 25.51,
             "ON": 6.53,
             "TOP": 4.01,
+            "LDP": 3.54,
+            "IND": 25.51,
+            "LIB": 18.06,
+            "NAT": 26.14,
+            "ALP": 11.52,
+            "GRN": 3.21,
             "OTH": 1.48
           }
         },
         {
           "year": "2025",
           "shares": {
-            "FFP": 4.47,
-            "CYA": 4.74,
             "ON": 11.47,
-            "GRN": 7.81,
             "ALP": 24.24,
             "NAT": 46.24,
+            "GRN": 7.81,
+            "FFP": 4.47,
+            "CYA": 4.74,
             "OTH": 1.03
           }
         }

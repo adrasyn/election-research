@@ -9,6 +9,10 @@
     "totalFormal": 82834,
     "informalVotes": 14757,
     "informalRate": 18.24,
+    "enrolled": 116432,
+    "votesCounted": 99817,
+    "turnoutPct": 85.73,
+    "turnoutSwing": 2.41,
     "winner": {
       "candidateId": "C41331",
       "surname": "BURKE",
@@ -4084,98 +4088,6 @@
       ]
     },
     {
-      "boothId": 992,
-      "name": "Campsie South",
-      "formal": 404,
-      "winnerParty": "alp",
-      "winnerSurname": "BURKE",
-      "winnerPct": 77.48,
-      "swing": 77.48,
-      "candidates": [
-        {
-          "surname": "BURKE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 243,
-          "pct": 60.15
-        },
-        {
-          "surname": "BREWER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 59,
-          "pct": 14.6
-        },
-        {
-          "surname": "ALAM",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 43,
-          "pct": 10.64
-        },
-        {
-          "surname": "BASYOUNY",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 17,
-          "pct": 4.21
-        },
-        {
-          "surname": "KOUKOULIS",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 17,
-          "pct": 4.21
-        },
-        {
-          "surname": "TREVENA",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 12,
-          "pct": 2.97
-        },
-        {
-          "surname": "HADCHITI",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 6,
-          "pct": 1.49
-        },
-        {
-          "surname": "MANNAH",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 6,
-          "pct": 1.49
-        },
-        {
-          "surname": "KHAN",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 1,
-          "pct": 0.25
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "BURKE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 313,
-          "elected": true,
-          "pct": 77.48
-        },
-        {
-          "surname": "BASYOUNY",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 91,
-          "elected": false,
-          "pct": 22.52
-        }
-      ]
-    },
-    {
       "boothId": 83478,
       "name": "Campsie West",
       "formal": 404,
@@ -4264,6 +4176,98 @@
           "votes": 98,
           "elected": false,
           "pct": 24.26
+        }
+      ]
+    },
+    {
+      "boothId": 992,
+      "name": "Campsie South",
+      "formal": 404,
+      "winnerParty": "alp",
+      "winnerSurname": "BURKE",
+      "winnerPct": 77.48,
+      "swing": 77.48,
+      "candidates": [
+        {
+          "surname": "BURKE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 243,
+          "pct": 60.15
+        },
+        {
+          "surname": "BREWER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 59,
+          "pct": 14.6
+        },
+        {
+          "surname": "ALAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 43,
+          "pct": 10.64
+        },
+        {
+          "surname": "BASYOUNY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 4.21
+        },
+        {
+          "surname": "KOUKOULIS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 4.21
+        },
+        {
+          "surname": "TREVENA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 2.97
+        },
+        {
+          "surname": "HADCHITI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.49
+        },
+        {
+          "surname": "MANNAH",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.49
+        },
+        {
+          "surname": "KHAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BURKE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 313,
+          "elected": true,
+          "pct": 77.48
+        },
+        {
+          "surname": "BASYOUNY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 91,
+          "elected": false,
+          "pct": 22.52
         }
       ]
     },
@@ -5462,31 +5466,31 @@
         {
           "year": "2007",
           "shares": {
-            "CDP": 2.47,
-            "FFP": 2.5,
+            "GRN": 6.6,
             "LIB": 26.09,
             "ALP": 61.81,
-            "GRN": 6.6,
+            "CDP": 2.47,
+            "FFP": 2.5,
             "OTH": 0.53
           }
         },
         {
           "year": "2010",
           "shares": {
-            "IND": 2.78,
-            "GRN": 9.62,
             "ALP": 50.43,
+            "GRN": 9.62,
+            "IND": 2.78,
             "LIB": 37.17
           }
         },
         {
           "year": "2013",
           "shares": {
+            "CDP": 2.37,
+            "ALP": 49.51,
+            "TOP": 2.49,
             "GRN": 5.28,
             "LIB": 38.74,
-            "TOP": 2.49,
-            "ALP": 49.51,
-            "CDP": 2.37,
             "OTH": 1.62
           }
         },
@@ -5506,31 +5510,31 @@
             "CDP": 5.37,
             "ALP": 51.69,
             "GRN": 7.1,
-            "FUT": 2.23,
+            "TOP": 4.21,
             "LIB": 29.4,
-            "TOP": 4.21
+            "FUT": 2.23
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ON": 4.87,
             "ALP": 51.87,
-            "GRN": 9.57,
             "LIB": 26.55,
+            "ON": 4.87,
+            "GRN": 9.57,
             "TOP": 7.15
           }
         },
         {
           "year": "2025",
           "shares": {
+            "LIB": 15.19,
+            "LTP": 4.3,
+            "GRN": 8.93,
+            "ON": 3.23,
             "CYA": 2.61,
             "IND": 16.01,
-            "ON": 3.23,
-            "LIB": 15.19,
             "ALP": 48.0,
-            "GRN": 8.93,
-            "LTP": 4.3,
             "OTH": 1.72
           }
         }

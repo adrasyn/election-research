@@ -9,6 +9,10 @@
     "totalFormal": 108714,
     "informalVotes": 8067,
     "informalRate": 8.12,
+    "enrolled": 127045,
+    "votesCounted": 117648,
+    "turnoutPct": 92.6,
+    "turnoutSwing": 0.4,
     "winner": {
       "candidateId": "C41016",
       "surname": "PASIN",
@@ -1325,105 +1329,6 @@
       ]
     },
     {
-      "boothId": 7424,
-      "name": "Tanunda",
-      "formal": 1335,
-      "winnerParty": "lib",
-      "winnerSurname": "PASIN",
-      "winnerPct": 51.84,
-      "swing": -11.33,
-      "candidates": [
-        {
-          "surname": "PASIN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 533,
-          "pct": 39.93
-        },
-        {
-          "surname": "ROTHE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 428,
-          "pct": 32.06
-        },
-        {
-          "surname": "SUMNER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 157,
-          "pct": 11.76
-        },
-        {
-          "surname": "TROETH",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 73,
-          "pct": 5.47
-        },
-        {
-          "surname": "BROHIER",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 46,
-          "pct": 3.45
-        },
-        {
-          "surname": "JAMESON",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 43,
-          "pct": 3.22
-        },
-        {
-          "surname": "SCHOLES",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 20,
-          "pct": 1.5
-        },
-        {
-          "surname": "HILLAM",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 18,
-          "pct": 1.35
-        },
-        {
-          "surname": "PIETZSCH",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 9,
-          "pct": 0.67
-        },
-        {
-          "surname": "PENNO",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 8,
-          "pct": 0.6
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "PASIN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 692,
-          "elected": true,
-          "pct": 51.84
-        },
-        {
-          "surname": "ROTHE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 643,
-          "elected": false,
-          "pct": 48.16
-        }
-      ]
-    },
-    {
       "boothId": 7210,
       "name": "Murray Bridge South",
       "formal": 1335,
@@ -1519,6 +1424,105 @@
           "votes": 649,
           "elected": false,
           "pct": 48.61
+        }
+      ]
+    },
+    {
+      "boothId": 7424,
+      "name": "Tanunda",
+      "formal": 1335,
+      "winnerParty": "lib",
+      "winnerSurname": "PASIN",
+      "winnerPct": 51.84,
+      "swing": -11.33,
+      "candidates": [
+        {
+          "surname": "PASIN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 533,
+          "pct": 39.93
+        },
+        {
+          "surname": "ROTHE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 428,
+          "pct": 32.06
+        },
+        {
+          "surname": "SUMNER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 157,
+          "pct": 11.76
+        },
+        {
+          "surname": "TROETH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 5.47
+        },
+        {
+          "surname": "BROHIER",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 46,
+          "pct": 3.45
+        },
+        {
+          "surname": "JAMESON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.22
+        },
+        {
+          "surname": "SCHOLES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 1.5
+        },
+        {
+          "surname": "HILLAM",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 1.35
+        },
+        {
+          "surname": "PIETZSCH",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 9,
+          "pct": 0.67
+        },
+        {
+          "surname": "PENNO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 0.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PASIN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 692,
+          "elected": true,
+          "pct": 51.84
+        },
+        {
+          "surname": "ROTHE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 643,
+          "elected": false,
+          "pct": 48.16
         }
       ]
     },
@@ -7760,105 +7764,6 @@
       ]
     },
     {
-      "boothId": 6788,
-      "name": "Renmark North",
-      "formal": 223,
-      "winnerParty": "lib",
-      "winnerSurname": "PASIN",
-      "winnerPct": 69.96,
-      "swing": 4.34,
-      "candidates": [
-        {
-          "surname": "PASIN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 125,
-          "pct": 56.05
-        },
-        {
-          "surname": "ROTHE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 38,
-          "pct": 17.04
-        },
-        {
-          "surname": "TROETH",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 16,
-          "pct": 7.17
-        },
-        {
-          "surname": "SUMNER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 15,
-          "pct": 6.73
-        },
-        {
-          "surname": "BROHIER",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 8,
-          "pct": 3.59
-        },
-        {
-          "surname": "JAMESON",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 8,
-          "pct": 3.59
-        },
-        {
-          "surname": "PENNO",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 5,
-          "pct": 2.24
-        },
-        {
-          "surname": "HILLAM",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 4,
-          "pct": 1.79
-        },
-        {
-          "surname": "PIETZSCH",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 2,
-          "pct": 0.9
-        },
-        {
-          "surname": "SCHOLES",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 2,
-          "pct": 0.9
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "PASIN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 156,
-          "elected": true,
-          "pct": 69.96
-        },
-        {
-          "surname": "ROTHE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 67,
-          "elected": false,
-          "pct": 30.04
-        }
-      ]
-    },
-    {
       "boothId": 6721,
       "name": "Glenburnie",
       "formal": 223,
@@ -7954,6 +7859,105 @@
           "votes": 64,
           "elected": false,
           "pct": 28.7
+        }
+      ]
+    },
+    {
+      "boothId": 6788,
+      "name": "Renmark North",
+      "formal": 223,
+      "winnerParty": "lib",
+      "winnerSurname": "PASIN",
+      "winnerPct": 69.96,
+      "swing": 4.34,
+      "candidates": [
+        {
+          "surname": "PASIN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 125,
+          "pct": 56.05
+        },
+        {
+          "surname": "ROTHE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 38,
+          "pct": 17.04
+        },
+        {
+          "surname": "TROETH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 7.17
+        },
+        {
+          "surname": "SUMNER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 6.73
+        },
+        {
+          "surname": "BROHIER",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 3.59
+        },
+        {
+          "surname": "JAMESON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 3.59
+        },
+        {
+          "surname": "PENNO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.24
+        },
+        {
+          "surname": "HILLAM",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.79
+        },
+        {
+          "surname": "PIETZSCH",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 2,
+          "pct": 0.9
+        },
+        {
+          "surname": "SCHOLES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PASIN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 156,
+          "elected": true,
+          "pct": 69.96
+        },
+        {
+          "surname": "ROTHE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 67,
+          "elected": false,
+          "pct": 30.04
         }
       ]
     },
@@ -11722,9 +11726,9 @@
         {
           "year": "2007",
           "shares": {
-            "NAT": 10.24,
-            "FFP": 5.72,
             "GRN": 5.06,
+            "FFP": 5.72,
+            "NAT": 10.24,
             "LIB": 46.81,
             "ALP": 30.07,
             "DEM": 2.1
@@ -11734,70 +11738,70 @@
           "year": "2010",
           "shares": {
             "ALP": 28.04,
+            "FFP": 6.18,
             "GRN": 9.13,
             "LIB": 54.96,
-            "FFP": 6.18,
             "OTH": 1.69
           }
         },
         {
           "year": "2013",
           "shares": {
-            "ALP": 18.37,
-            "IND": 7.15,
-            "FFP": 7.96,
-            "TOP": 3.92,
             "NAT": 4.35,
             "GRN": 5.65,
-            "LIB": 52.61
+            "TOP": 3.92,
+            "LIB": 52.61,
+            "ALP": 18.37,
+            "FFP": 7.96,
+            "IND": 7.15
           }
         },
         {
           "year": "2016",
           "shares": {
-            "CA": 29.07,
-            "ALP": 15.21,
+            "GRN": 3.36,
             "LIB": 46.59,
+            "ALP": 15.21,
             "FFP": 5.78,
-            "GRN": 3.36
+            "CA": 29.07
           }
         },
         {
           "year": "2019",
           "shares": {
-            "GRN": 6.84,
             "CA": 2.92,
-            "NAT": 2.65,
-            "AJP": 2.78,
-            "ALP": 21.01,
             "LIB": 57.88,
-            "TOP": 5.92
+            "ALP": 21.01,
+            "NAT": 2.65,
+            "TOP": 5.92,
+            "GRN": 6.84,
+            "AJP": 2.78
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ON": 6.58,
-            "IND": 4.82,
-            "NAT": 2.39,
             "ALP": 20.85,
+            "NAT": 2.39,
+            "ON": 6.58,
+            "TOP": 3.99,
+            "IND": 4.82,
             "LIB": 53.24,
             "GRN": 7.41,
-            "TOP": 3.99,
             "OTH": 0.72
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 8.19,
-            "FFP": 2.56,
-            "LIB": 48.26,
-            "IND": 5.86,
-            "CYA": 2.74,
-            "ALP": 22.49,
             "NAT": 1.74,
-            "GRN": 8.16
+            "CYA": 2.74,
+            "LIB": 48.26,
+            "FFP": 2.56,
+            "ALP": 22.49,
+            "IND": 5.86,
+            "GRN": 8.16,
+            "ON": 8.19
           }
         }
       ]

@@ -9,6 +9,10 @@
     "totalFormal": 109430,
     "informalVotes": 3525,
     "informalRate": 4.24,
+    "enrolled": 120989,
+    "votesCounted": 113953,
+    "turnoutPct": 94.18,
+    "turnoutSwing": 0.45,
     "winner": {
       "candidateId": "C40820",
       "surname": "NG",
@@ -544,91 +548,6 @@
       ]
     },
     {
-      "boothId": 3420,
-      "name": "Blackburn South",
-      "formal": 1691,
-      "winnerParty": "alp",
-      "winnerSurname": "NG",
-      "winnerPct": 59.49,
-      "swing": 2.09,
-      "candidates": [
-        {
-          "surname": "NG",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 693,
-          "pct": 40.98
-        },
-        {
-          "surname": "WOLAHAN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 552,
-          "pct": 32.64
-        },
-        {
-          "surname": "PHEASANT",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 233,
-          "pct": 13.78
-        },
-        {
-          "surname": "YEE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 93,
-          "pct": 5.5
-        },
-        {
-          "surname": "SEELEY",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 37,
-          "pct": 2.19
-        },
-        {
-          "surname": "PALIOURAS",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 34,
-          "pct": 2.01
-        },
-        {
-          "surname": "EDWARDS-SCOTT",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 32,
-          "pct": 1.89
-        },
-        {
-          "surname": "UTOYO",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 17,
-          "pct": 1.01
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "NG",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 1006,
-          "elected": true,
-          "pct": 59.49
-        },
-        {
-          "surname": "WOLAHAN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 685,
-          "elected": false,
-          "pct": 40.51
-        }
-      ]
-    },
-    {
       "boothId": 4698,
       "name": "Doncaster Central",
       "formal": 1691,
@@ -710,6 +629,91 @@
           "votes": 779,
           "elected": false,
           "pct": 46.07
+        }
+      ]
+    },
+    {
+      "boothId": 3420,
+      "name": "Blackburn South",
+      "formal": 1691,
+      "winnerParty": "alp",
+      "winnerSurname": "NG",
+      "winnerPct": 59.49,
+      "swing": 2.09,
+      "candidates": [
+        {
+          "surname": "NG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 693,
+          "pct": 40.98
+        },
+        {
+          "surname": "WOLAHAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 552,
+          "pct": 32.64
+        },
+        {
+          "surname": "PHEASANT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 233,
+          "pct": 13.78
+        },
+        {
+          "surname": "YEE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 93,
+          "pct": 5.5
+        },
+        {
+          "surname": "SEELEY",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 2.19
+        },
+        {
+          "surname": "PALIOURAS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.01
+        },
+        {
+          "surname": "EDWARDS-SCOTT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 1.89
+        },
+        {
+          "surname": "UTOYO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1006,
+          "elected": true,
+          "pct": 59.49
+        },
+        {
+          "surname": "WOLAHAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 685,
+          "elected": false,
+          "pct": 40.51
         }
       ]
     },
@@ -4709,13 +4713,13 @@
       ]
     },
     {
-      "boothId": 58638,
-      "name": "Ringwood MENZIES PPVC",
+      "boothId": 65654,
+      "name": "Heidelberg MENZIES PPVC",
       "formal": 0,
-      "winnerParty": "lib",
-      "winnerSurname": "WOLAHAN",
+      "winnerParty": "alp",
+      "winnerSurname": "NG",
       "winnerPct": null,
-      "swing": -52.85,
+      "swing": -46.4,
       "candidates": [
         {
           "surname": "PALIOURAS",
@@ -4794,13 +4798,13 @@
       ]
     },
     {
-      "boothId": 65654,
-      "name": "Heidelberg MENZIES PPVC",
+      "boothId": 58638,
+      "name": "Ringwood MENZIES PPVC",
       "formal": 0,
-      "winnerParty": "alp",
-      "winnerSurname": "NG",
+      "winnerParty": "lib",
+      "winnerSurname": "WOLAHAN",
       "winnerPct": null,
-      "swing": -46.4,
+      "swing": -52.85,
       "candidates": [
         {
           "surname": "PALIOURAS",
@@ -5030,11 +5034,11 @@
         {
           "year": "2007",
           "shares": {
-            "IND": 3.92,
-            "GRN": 6.29,
             "LIB": 51.6,
-            "FFP": 2.42,
             "ALP": 34.78,
+            "GRN": 6.29,
+            "IND": 3.92,
+            "FFP": 2.42,
             "OTH": 0.98
           }
         },
@@ -5042,66 +5046,66 @@
           "year": "2010",
           "shares": {
             "GRN": 10.75,
-            "LIB": 53.63,
             "FFP": 3.53,
+            "LIB": 53.63,
             "ALP": 32.09
           }
         },
         {
           "year": "2013",
           "shares": {
-            "FFP": 2.16,
             "LIB": 58.88,
-            "TOP": 2.65,
             "GRN": 8.63,
             "ALP": 25.66,
+            "TOP": 2.65,
+            "FFP": 2.16,
             "OTH": 2.02
           }
         },
         {
           "year": "2016",
           "shares": {
-            "LIB": 51.72,
-            "FFP": 3.26,
             "ALP": 24.6,
-            "IND": 7.56,
             "AJP": 2.67,
+            "FFP": 3.26,
             "GRN": 9.08,
+            "LIB": 51.72,
+            "IND": 7.56,
             "OTH": 1.12
           }
         },
         {
           "year": "2019",
           "shares": {
+            "LIB": 51.73,
             "REAS": 2.06,
+            "GRN": 10.44,
             "DLP": 3.08,
             "ALP": 30.04,
-            "TOP": 2.65,
-            "LIB": 51.73,
-            "GRN": 10.44
+            "TOP": 2.65
           }
         },
         {
           "year": "2022",
           "shares": {
-            "GRN": 14.14,
-            "ALP": 33.3,
-            "ON": 2.29,
-            "LIB": 42.1,
-            "LDP": 3.61,
             "TOP": 3.61,
+            "GRN": 14.14,
+            "LDP": 3.61,
+            "LIB": 42.1,
+            "ON": 2.29,
+            "ALP": 33.3,
             "OTH": 0.96
           }
         },
         {
           "year": "2025",
           "shares": {
-            "CYA": 2.47,
-            "ALP": 34.74,
-            "ON": 1.97,
             "IND": 6.37,
-            "GRN": 10.96,
+            "ALP": 34.74,
             "LIB": 40.64,
+            "CYA": 2.47,
+            "ON": 1.97,
+            "GRN": 10.96,
             "OTH": 2.85
           }
         }
