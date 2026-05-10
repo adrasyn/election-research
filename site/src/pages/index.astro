@@ -224,15 +224,26 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         <div class="waterfall" id="p-waterfall"></div>
       </section>
 
-      <!-- ── Phase D placeholders ── -->
+      <!-- ── History pillar (1996–2025 trend + primary stack) ── -->
+      <section class="pillar" id="p-history-section">
+        <div class="pillar-head">
+          <h2 class="pillar-title">Historical trend</h2>
+          <span class="pillar-meta" id="p-history-meta">…</span>
+        </div>
+        <div id="p-trend-host"></div>
+        <div id="p-stack-host"></div>
+      </section>
+
+      <!-- ── Demographics placeholder (next sub-phase) ── -->
       <section class="pillar" style="opacity: 0.45; padding: 14px; border: 1px dashed var(--line); border-radius: var(--radius);">
         <div class="pillar-head" style="margin-bottom: 4px;">
-          <h2 class="pillar-title">History · Demographics</h2>
-          <span class="pillar-meta">PHASE D</span>
+          <h2 class="pillar-title">Demographic context</h2>
+          <span class="pillar-meta">PHASE D · NEXT</span>
         </div>
         <p style="margin:0; color: var(--t-3); font-size: 12px;">
-          1996–2025 trend chart, primary stack, and ABS Census demographic
-          context come in Phase D.
+          ABS 2021 Census demographic context (median age, household
+          income, ancestry, religion, dwelling) lands in the next chunk of
+          Phase D once the SA1→electorate correspondence join runs.
         </p>
       </section>
 
@@ -258,6 +269,8 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 </div>
 
 <script src="/lib/waterfall.js" is:inline></script>
+<script src="/lib/trendchart.js" is:inline></script>
+<script src="/lib/primarystack.js" is:inline></script>
 <script>
   import maplibregl from 'maplibre-gl';
   import { Protocol } from 'pmtiles';
@@ -603,6 +616,46 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     $('p-pref-meta').textContent = `${d.preferences.rounds.length} ROUNDS · ${fmt(d.preferences.totalFormal)} FORMAL`;
     if (window.renderWaterfall) {
       window.renderWaterfall($('p-waterfall'), d.preferences);
+    }
+
+    // History pillar — trend chart + primary stack
+    const hSection = $('p-history-section');
+    const trendHost = $('p-trend-host');
+    const stackHost = $('p-stack-host');
+    trendHost.innerHTML = '';
+    stackHost.innerHTML = '';
+    if (d.history && d.history.trend && d.history.primary && window.renderTrendChart && window.renderPrimaryStack) {
+      const t = d.history.trend;
+      $('p-history-meta').textContent = `${t.years[0]} → ${t.years[t.years.length - 1]} · ${t.years.length} ELECTIONS`;
+      window.renderTrendChart(trendHost, {
+        title: `Two-Party preferred · ${seat.name}`,
+        xLabels: t.years,
+        threshold: 50,
+        series: [
+          { id: 'ALP', party: 'alp', label: 'ALP', points: t.alp },
+          { id: 'COA', party: 'lib', label: 'L/NP', points: t.coalition },
+        ],
+      });
+
+      // Primary stack — collapse the per-row party set into a stable
+      // left→right order across years. Always lead with the major
+      // blocs; stack OTH last.
+      const partyOrder = ['LIB', 'NAT', 'ALP', 'GRN', 'CA', 'ON', 'OTH'];
+      const partyOf = {
+        LIB: 'lib', LNP: 'lib', NAT: 'nat', ALP: 'alp',
+        GRN: 'grn', CA: 'ca', ON: 'on', OTH: 'oth',
+      };
+      window.renderPrimaryStack(stackHost, {
+        title: 'Primary vote · stacked',
+        meta: '% OF VOTES',
+        partyOrder,
+        partyOf,
+        activeYear: String(d.year),
+        rows: d.history.primary.rows,
+      });
+      hSection.style.display = '';
+    } else {
+      hSection.style.display = 'none';
     }
   }
 </script>

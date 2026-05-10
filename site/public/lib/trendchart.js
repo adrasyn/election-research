@@ -55,13 +55,18 @@
     const threshold  = data.threshold === null ? null : (data.threshold ?? 50);
     const showLegend = data.legend !== false;
 
-    // ── compute Y range ──
+    // ── compute Y range (skip nulls — seats that didn't exist in that year) ──
     let dMin = Infinity, dMax = -Infinity;
     for (const s of data.series) {
       for (const p of s.points) {
+        if (p == null) continue;
         if (p < dMin) dMin = p;
         if (p > dMax) dMax = p;
       }
+    }
+    if (!Number.isFinite(dMin) || !Number.isFinite(dMax)) {
+      host.innerHTML = '';
+      return { svg: null };
     }
     let yMin, yMax;
     if (threshold != null) {
@@ -153,13 +158,21 @@
       svg.appendChild(svgEl('line', { class: 'chart-50line', x1: xPadLeft - 16, y1: ty, x2: W, y2: ty }));
     }
 
-    // series paths
+    // series paths — break the line at any null so seats that didn't
+    // exist in some year don't generate a NaN segment.
     for (const s of data.series) {
       let d = '';
+      let started = false;
       for (let i = 0; i < s.points.length; i++) {
-        d += (i === 0 ? 'M ' : ' L ') + xs[i].toFixed(2) + ' ' + yAt(s.points[i]).toFixed(2);
+        const p = s.points[i];
+        if (p == null) {
+          started = false;
+          continue;
+        }
+        d += (started ? ' L ' : 'M ') + xs[i].toFixed(2) + ' ' + yAt(p).toFixed(2);
+        started = true;
       }
-      svg.appendChild(svgEl('path', { class: `chart-line-${s.party}`, d }));
+      if (d) svg.appendChild(svgEl('path', { class: `chart-line-${s.party}`, d }));
     }
 
     // active election dashed vertical
@@ -172,13 +185,15 @@
       }));
     }
 
-    // points
+    // points (skip nulls)
     for (const s of data.series) {
       for (let i = 0; i < s.points.length; i++) {
+        const p = s.points[i];
+        if (p == null) continue;
         svg.appendChild(svgEl('circle', {
           class: `chart-pt ${s.party}`,
           cx: xs[i].toFixed(2),
-          cy: yAt(s.points[i]).toFixed(2),
+          cy: yAt(p).toFixed(2),
           r: '3.6',
         }));
       }

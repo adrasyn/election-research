@@ -21,7 +21,13 @@ from .emit.pmtiles import (
 from .emit.seat_json import build_seat_json, write_seat_json
 from .sources.boundaries import fetch_boundaries
 from .sources.coastline import fetch_land
-from .sources.mediafeed import EVENT_IDS, STATES, fetch_event
+from .sources.mediafeed import EVENT_IDS, STATES, fetch_event, fetch_event_lite
+from .transform.historical import (
+    history_blocks,
+    load_tpp,
+    primary_by_division,
+    tpp_by_division,
+)
 from .transform.preferences import load_dop, waterfall_for_division
 from .transform.results import (
     booths_for_division,
@@ -45,6 +51,9 @@ def main(verbose: bool) -> None:
     )
 
 
+DEFAULT_HISTORY_YEARS = (2007, 2010, 2013, 2016, 2019, 2022, 2025)
+
+
 @main.command()
 @click.option("--year", type=int, required=True, help="Federal election year (e.g. 2025).")
 @click.option(
@@ -53,6 +62,18 @@ def main(verbose: bool) -> None:
     type=str,
     default=None,
     help="Optional seat name (case-insensitive) — restrict build to this division.",
+)
+@click.option(
+    "--history-from",
+    type=int,
+    default=DEFAULT_HISTORY_YEARS[0],
+    show_default=True,
+    help="Earliest year of historical data to include in the trend chart.",
+)
+@click.option(
+    "--no-history",
+    is_flag=True,
+    help="Skip building the history block (useful for fast single-seat dev iteration).",
 )
 @click.option("--refresh", is_flag=True, help="Force re-download of source CSVs.")
 @click.option(
@@ -70,7 +91,13 @@ def main(verbose: bool) -> None:
     help="Where raw AEC CSVs are cached.",
 )
 def build(
-    year: int, seat_filter: str | None, refresh: bool, out_dir: Path, cache_dir: Path
+    year: int,
+    seat_filter: str | None,
+    history_from: int,
+    no_history: bool,
+    refresh: bool,
+    out_dir: Path,
+    cache_dir: Path,
 ) -> None:
     """Build per-seat JSON for one election year."""
     if year not in EVENT_IDS:
@@ -87,6 +114,20 @@ def build(
         [files.first_prefs_by_polling_place(s) for s in STATES]
     )
 
+    history_lookup: dict[str, dict] = {}
+    if not no_history:
+        history_years = [y for y in DEFAULT_HISTORY_YEARS if y >= history_from and y <= year]
+        click.echo(f"▸ Historical trend  years={history_years}")
+        tpp_frames: list = []
+        primary_frames: list = []
+        for hy in history_years:
+            click.echo(f"  · fetching {hy}")
+            hfiles = fetch_event_lite(hy, cache_dir, refresh=refresh)
+            tpp_frames.append(tpp_by_division(load_tpp(hfiles.tpp_by_division), hy))
+            primary_frames.append(primary_by_division(load_dop(hfiles.dop_by_division), hy))
+        history_lookup = history_blocks(tpp_frames, primary_frames)
+        click.echo(f"▸ Built history for {len(history_lookup)} unique division names.")
+
     division_ids = _resolve_division_ids(candidates, seat_filter)
     click.echo(f"▸ Building {len(division_ids)} seat(s) → {out_dir}")
 
@@ -100,6 +141,7 @@ def build(
                 first_prefs=first_prefs,
                 division_id=div_id,
                 year=year,
+                history_lookup=history_lookup,
             )
         except Exception as exc:  # noqa: BLE001 — surface bad-seat info
             import traceback
@@ -137,6 +179,7 @@ def _build_one(
     first_prefs: pl.DataFrame,
     division_id: int,
     year: int,
+    history_lookup: dict[str, dict] | None = None,
 ) -> dict:
     meta = division_meta(candidates, division_id)
     primary = primary_for_division(first_prefs, division_id)
@@ -144,6 +187,9 @@ def _build_one(
     booths = booths_for_division(first_prefs, tcp, division_id)
     waterfall = waterfall_for_division(dop, division_id)
     informal = informal_for_division(first_prefs, division_id)
+    history = None
+    if history_lookup:
+        history = history_lookup.get(meta["name"].lower())
     return build_seat_json(
         meta=meta,
         primary=primary,
@@ -151,6 +197,7 @@ def _build_one(
         booths=booths,
         waterfall=waterfall,
         informal=informal,
+        history=history,
         year=year,
     )
 
