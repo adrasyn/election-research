@@ -499,7 +499,8 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     $('p-state').textContent = seat.state;
     $('p-divid').textContent = String(seat.divisionId).padStart(3, '0');
     $('p-result').textContent = seat.result;
-    $('p-result').className = `meta-tag ${seat.winner?.party ?? 'oth'}-tag`;
+    $('p-result').className = 'meta-tag';
+    $('p-result').style.setProperty('--winner-c', `var(--${seat.winner?.party ?? 'oth'})`);
     $('p-name').textContent = seat.name;
     $('p-sub').textContent = `${seat.state} · ${fmt(seat.totalFormal)} formal votes counted at ${d.booths.length} booths.`;
 
@@ -535,34 +536,27 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 
     const w = seat.winner;
     $('p-mp-initials').textContent = initials(w?.surname);
+    $('p-mp-initials').style.setProperty('--winner-c', `var(--${w?.party ?? 'oth'})`);
     $('p-mp-name').textContent = w ? `${(w.givenName || '').split(' ')[0]} ${(w.surname || '').split(' ').map(s => s[0] + s.slice(1).toLowerCase()).join(' ')}` : '—';
-    $('p-mp-chip').className = `party-chip ${w?.party || 'oth'}`;
+    $('p-mp-chip').className = 'party-chip';
+    $('p-mp-chip').style.setProperty('--party-c', `var(--${w?.party ?? 'oth'})`);
     $('p-mp-chip').textContent = w?.partyAb || 'IND';
     $('p-mp-flavour').textContent = w?.incumbent ? 'RE-ELECTED 2025' : 'ELECTED 2025 · 1ST TERM';
 
-    // Primary track
+    // TCP bar — winner + runner-up shares (the actual two-candidate
+    // result that decided the seat, not the primary-vote distribution).
     const track = $('p-primary-track');
     const labels = $('p-primary-labels');
     track.innerHTML = '';
     labels.innerHTML = '';
-    const top3 = d.primary.slice(0, 3);
-    const othPct = d.primary.slice(3).reduce((s, c) => s + c.pct, 0);
-    for (const c of top3) {
+    for (const c of (d.tcp || [])) {
       const seg = document.createElement('span');
       seg.style.cssText = `background:var(--${c.party}); width:${c.pct}%`;
       track.appendChild(seg);
       const lbl = document.createElement('div');
-      lbl.className = 'pl ' + c.party + '-c';
-      lbl.innerHTML = `<span class="who">${escapeHTML(c.partyAb || 'IND')}</span><span class="v">${c.pct.toFixed(1)}</span>`;
-      labels.appendChild(lbl);
-    }
-    if (othPct > 0.05) {
-      const seg = document.createElement('span');
-      seg.style.cssText = `background:var(--oth); width:${othPct}%`;
-      track.appendChild(seg);
-      const lbl = document.createElement('div');
       lbl.className = 'pl';
-      lbl.innerHTML = `<span class="who">OTH</span><span class="v">${othPct.toFixed(1)}</span>`;
+      lbl.style.setProperty('--party-c', `var(--${c.party})`);
+      lbl.innerHTML = `<span class="who">${escapeHTML(c.partyAb || 'IND')}</span><span class="v">${c.pct.toFixed(2)}</span>`;
       labels.appendChild(lbl);
     }
 
