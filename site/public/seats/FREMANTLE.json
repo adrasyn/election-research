@@ -1,0 +1,4055 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "FREMANTLE",
+    "divisionId": 240,
+    "name": "Fremantle",
+    "state": "WA",
+    "totalFormal": 102130,
+    "informalVotes": 3288,
+    "informalRate": 3.82,
+    "winner": {
+      "candidateId": "C41377",
+      "surname": "WILSON",
+      "givenName": "Josh",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 1.38,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41377",
+      "surname": "WILSON",
+      "givenName": "Josh",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 32243,
+      "pct": 39.0
+    },
+    {
+      "candidateId": "C42074",
+      "surname": "HULETT",
+      "givenName": "Kate",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 19752,
+      "pct": 23.89
+    },
+    {
+      "candidateId": "C41256",
+      "surname": "MARSTON",
+      "givenName": "Tait",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 15009,
+      "pct": 18.15
+    },
+    {
+      "candidateId": "C41789",
+      "surname": "WARNE",
+      "givenName": "Amy",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 9298,
+      "pct": 11.25
+    },
+    {
+      "candidateId": "C41708",
+      "surname": "MARRINER",
+      "givenName": "Hannah",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 4818,
+      "pct": 5.83
+    },
+    {
+      "candidateId": "C40671",
+      "surname": "LAST",
+      "givenName": "Joshua",
+      "party": "oth",
+      "partyAb": "SAL",
+      "votes": 787,
+      "pct": 0.95
+    },
+    {
+      "candidateId": "C41841",
+      "surname": "BIRD",
+      "givenName": "John Alexander",
+      "party": "oth",
+      "partyAb": "CEC",
+      "votes": 773,
+      "pct": 0.93
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41377",
+      "surname": "WILSON",
+      "givenName": "Josh",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 51765,
+      "pct": 50.69,
+      "elected": true
+    },
+    {
+      "candidateId": "C42074",
+      "surname": "HULETT",
+      "givenName": "Kate",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 50365,
+      "pct": 49.31,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 109489,
+      "name": "Cockburn Central FREMANTLE PPVC",
+      "formal": 13745,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 57.17,
+      "swing": 57.17,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6280,
+          "pct": 45.69
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3070,
+          "pct": 22.34
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2198,
+          "pct": 15.99
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1015,
+          "pct": 7.38
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 946,
+          "pct": 6.88
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 155,
+          "pct": 1.13
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 81,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7858,
+          "elected": true,
+          "pct": 57.17
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5887,
+          "elected": false,
+          "pct": 42.83
+        }
+      ]
+    },
+    {
+      "boothId": 97766,
+      "name": "Bibra Lake PPVC",
+      "formal": 11868,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 51.67,
+      "swing": 51.67,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4911,
+          "pct": 41.38
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2447,
+          "pct": 20.62
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2295,
+          "pct": 19.34
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1187,
+          "pct": 10.0
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 790,
+          "pct": 6.66
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 123,
+          "pct": 1.04
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 115,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6132,
+          "elected": true,
+          "pct": 51.67
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5736,
+          "elected": false,
+          "pct": 48.33
+        }
+      ]
+    },
+    {
+      "boothId": 47786,
+      "name": "Fremantle FREMANTLE PPVC",
+      "formal": 10720,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 53.92,
+      "swing": 53.92,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3923,
+          "pct": 36.6
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3167,
+          "pct": 29.54
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1904,
+          "pct": 17.76
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1216,
+          "pct": 11.34
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 339,
+          "pct": 3.16
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 110,
+          "pct": 1.03
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 61,
+          "pct": 0.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4940,
+          "elected": true,
+          "pct": 46.08
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5780,
+          "elected": false,
+          "pct": 53.92
+        }
+      ]
+    },
+    {
+      "boothId": 109506,
+      "name": "Melville FREMANTLE PPVC",
+      "formal": 3389,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 55.95,
+      "swing": 55.95,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1119,
+          "pct": 33.02
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 945,
+          "pct": 27.88
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 795,
+          "pct": 23.46
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 333,
+          "pct": 9.83
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 155,
+          "pct": 4.57
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 27,
+          "pct": 0.8
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 15,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1493,
+          "elected": true,
+          "pct": 44.05
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1896,
+          "elected": false,
+          "pct": 55.95
+        }
+      ]
+    },
+    {
+      "boothId": 32965,
+      "name": "Atwell",
+      "formal": 1835,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 53.3,
+      "swing": 53.3,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 731,
+          "pct": 39.84
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 347,
+          "pct": 18.91
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 337,
+          "pct": 18.37
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 222,
+          "pct": 12.1
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 162,
+          "pct": 8.83
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.04
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 17,
+          "pct": 0.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 978,
+          "elected": true,
+          "pct": 53.3
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 857,
+          "elected": false,
+          "pct": 46.7
+        }
+      ]
+    },
+    {
+      "boothId": 82869,
+      "name": "Aubin Grove",
+      "formal": 1746,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 52.35,
+      "swing": 52.35,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 685,
+          "pct": 39.23
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 402,
+          "pct": 23.02
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 366,
+          "pct": 20.96
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 9.51
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 98,
+          "pct": 5.61
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 17,
+          "pct": 0.97
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 12,
+          "pct": 0.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 914,
+          "elected": true,
+          "pct": 52.35
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 832,
+          "elected": false,
+          "pct": 47.65
+        }
+      ]
+    },
+    {
+      "boothId": 7771,
+      "name": "Success North",
+      "formal": 1608,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 56.16,
+      "swing": 56.16,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 709,
+          "pct": 44.09
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 329,
+          "pct": 20.46
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 244,
+          "pct": 15.17
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 199,
+          "pct": 12.38
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 101,
+          "pct": 6.28
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 14,
+          "pct": 0.87
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 12,
+          "pct": 0.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 903,
+          "elected": true,
+          "pct": 56.16
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 705,
+          "elected": false,
+          "pct": 43.84
+        }
+      ]
+    },
+    {
+      "boothId": 36770,
+      "name": "Beeliar West",
+      "formal": 1600,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 53.0,
+      "swing": 53.0,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 643,
+          "pct": 40.19
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 363,
+          "pct": 22.69
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 262,
+          "pct": 16.38
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 167,
+          "pct": 10.44
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 142,
+          "pct": 8.88
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 12,
+          "pct": 0.75
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 848,
+          "elected": true,
+          "pct": 53.0
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 752,
+          "elected": false,
+          "pct": 47.0
+        }
+      ]
+    },
+    {
+      "boothId": 7770,
+      "name": "Hilton",
+      "formal": 1530,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 59.54,
+      "swing": 59.54,
+      "candidates": [
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 546,
+          "pct": 35.69
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 447,
+          "pct": 29.22
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 330,
+          "pct": 21.57
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 100,
+          "pct": 6.54
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 3.73
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.03
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 619,
+          "elected": true,
+          "pct": 40.46
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 911,
+          "elected": false,
+          "pct": 59.54
+        }
+      ]
+    },
+    {
+      "boothId": 82867,
+      "name": "Hammond Park",
+      "formal": 1508,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 56.5,
+      "swing": 56.5,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 659,
+          "pct": 43.7
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 300,
+          "pct": 19.89
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 260,
+          "pct": 17.24
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 174,
+          "pct": 11.54
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 6.17
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 0.99
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 852,
+          "elected": true,
+          "pct": 56.5
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 656,
+          "elected": false,
+          "pct": 43.5
+        }
+      ]
+    },
+    {
+      "boothId": 108751,
+      "name": "Treeby",
+      "formal": 1494,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 55.42,
+      "swing": 55.42,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 607,
+          "pct": 40.63
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 305,
+          "pct": 20.41
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 294,
+          "pct": 19.68
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 200,
+          "pct": 13.39
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 5.35
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.27
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 828,
+          "elected": true,
+          "pct": 55.42
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 666,
+          "elected": false,
+          "pct": 44.58
+        }
+      ]
+    },
+    {
+      "boothId": 7784,
+      "name": "Fremantle South",
+      "formal": 1485,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 57.58,
+      "swing": 57.58,
+      "candidates": [
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 538,
+          "pct": 36.23
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 453,
+          "pct": 30.51
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 266,
+          "pct": 17.91
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 146,
+          "pct": 9.83
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 3.57
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.48
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 630,
+          "elected": true,
+          "pct": 42.42
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 855,
+          "elected": false,
+          "pct": 57.58
+        }
+      ]
+    },
+    {
+      "boothId": 7788,
+      "name": "Hamilton Hill South",
+      "formal": 1470,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 51.29,
+      "swing": 51.29,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 560,
+          "pct": 38.1
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 422,
+          "pct": 28.71
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 182,
+          "pct": 12.38
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 177,
+          "pct": 12.04
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 82,
+          "pct": 5.58
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 30,
+          "pct": 2.04
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 716,
+          "elected": true,
+          "pct": 48.71
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 754,
+          "elected": false,
+          "pct": 51.29
+        }
+      ]
+    },
+    {
+      "boothId": 7768,
+      "name": "Beaconsfield South",
+      "formal": 1454,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 57.22,
+      "swing": 57.22,
+      "candidates": [
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 514,
+          "pct": 35.35
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 469,
+          "pct": 32.26
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 215,
+          "pct": 14.79
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 157,
+          "pct": 10.8
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 4.61
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.31
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 13,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 622,
+          "elected": true,
+          "pct": 42.78
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 832,
+          "elected": false,
+          "pct": 57.22
+        }
+      ]
+    },
+    {
+      "boothId": 7760,
+      "name": "Coogee",
+      "formal": 1452,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 54.75,
+      "swing": 54.75,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 509,
+          "pct": 35.06
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 377,
+          "pct": 25.96
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 313,
+          "pct": 21.56
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 115,
+          "pct": 7.92
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 113,
+          "pct": 7.78
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.03
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 657,
+          "elected": true,
+          "pct": 45.25
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 795,
+          "elected": false,
+          "pct": 54.75
+        }
+      ]
+    },
+    {
+      "boothId": 7793,
+      "name": "Yangebup",
+      "formal": 1435,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 50.8,
+      "swing": 50.8,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 562,
+          "pct": 39.16
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 363,
+          "pct": 25.3
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 171,
+          "pct": 11.92
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 166,
+          "pct": 11.57
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 136,
+          "pct": 9.48
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.46
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 706,
+          "elected": true,
+          "pct": 49.2
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 729,
+          "elected": false,
+          "pct": 50.8
+        }
+      ]
+    },
+    {
+      "boothId": 7790,
+      "name": "White Gum Valley",
+      "formal": 1412,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 59.35,
+      "swing": 59.35,
+      "candidates": [
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 555,
+          "pct": 39.31
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 424,
+          "pct": 30.03
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 250,
+          "pct": 17.71
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 120,
+          "pct": 8.5
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 1.98
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 26,
+          "pct": 1.84
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 574,
+          "elected": true,
+          "pct": 40.65
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 838,
+          "elected": false,
+          "pct": 59.35
+        }
+      ]
+    },
+    {
+      "boothId": 7761,
+      "name": "Coolbellup",
+      "formal": 1410,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 51.35,
+      "swing": 51.35,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 552,
+          "pct": 39.15
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 341,
+          "pct": 24.18
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 240,
+          "pct": 17.02
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "pct": 10.14
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 97,
+          "pct": 6.88
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 28,
+          "pct": 1.99
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 724,
+          "elected": true,
+          "pct": 51.35
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 686,
+          "elected": false,
+          "pct": 48.65
+        }
+      ]
+    },
+    {
+      "boothId": 33059,
+      "name": "Beeliar",
+      "formal": 1363,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 50.84,
+      "swing": 50.84,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 515,
+          "pct": 37.78
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 314,
+          "pct": 23.04
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 228,
+          "pct": 16.73
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 184,
+          "pct": 13.5
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 102,
+          "pct": 7.48
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 12,
+          "pct": 0.88
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 693,
+          "elected": true,
+          "pct": 50.84
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 670,
+          "elected": false,
+          "pct": 49.16
+        }
+      ]
+    },
+    {
+      "boothId": 7763,
+      "name": "Fremantle East",
+      "formal": 1361,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 57.68,
+      "swing": 57.68,
+      "candidates": [
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 452,
+          "pct": 33.21
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 414,
+          "pct": 30.42
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 263,
+          "pct": 19.32
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 158,
+          "pct": 11.61
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 45,
+          "pct": 3.31
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.47
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 576,
+          "elected": true,
+          "pct": 42.32
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 785,
+          "elected": false,
+          "pct": 57.68
+        }
+      ]
+    },
+    {
+      "boothId": 7786,
+      "name": "Spearwood",
+      "formal": 1297,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 54.28,
+      "swing": 54.28,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 456,
+          "pct": 35.16
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 377,
+          "pct": 29.07
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 177,
+          "pct": 13.65
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 151,
+          "pct": 11.64
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 97,
+          "pct": 7.48
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.85
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 593,
+          "elected": true,
+          "pct": 45.72
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 704,
+          "elected": false,
+          "pct": 54.28
+        }
+      ]
+    },
+    {
+      "boothId": 7757,
+      "name": "Bibra Lake",
+      "formal": 1282,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 50.08,
+      "swing": 50.08,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 478,
+          "pct": 37.29
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 290,
+          "pct": 22.62
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 252,
+          "pct": 19.66
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 11.86
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 86,
+          "pct": 6.71
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.01
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 642,
+          "elected": true,
+          "pct": 50.08
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 640,
+          "elected": false,
+          "pct": 49.92
+        }
+      ]
+    },
+    {
+      "boothId": 7781,
+      "name": "East Fremantle North",
+      "formal": 1249,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 57.41,
+      "swing": 57.41,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 370,
+          "pct": 29.62
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 343,
+          "pct": 27.46
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 321,
+          "pct": 25.7
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 169,
+          "pct": 13.53
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 2.0
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.88
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 532,
+          "elected": true,
+          "pct": 42.59
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 717,
+          "elected": false,
+          "pct": 57.41
+        }
+      ]
+    },
+    {
+      "boothId": 82971,
+      "name": "Lake Coogee",
+      "formal": 1227,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 50.2,
+      "swing": 50.2,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 502,
+          "pct": 40.91
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 296,
+          "pct": 24.12
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 227,
+          "pct": 18.5
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 7.58
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 89,
+          "pct": 7.25
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.22
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 611,
+          "elected": true,
+          "pct": 49.8
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 616,
+          "elected": false,
+          "pct": 50.2
+        }
+      ]
+    },
+    {
+      "boothId": 47791,
+      "name": "Success",
+      "formal": 1215,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 55.23,
+      "swing": 55.23,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 500,
+          "pct": 41.15
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 273,
+          "pct": 22.47
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 200,
+          "pct": 16.46
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 131,
+          "pct": 10.78
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 94,
+          "pct": 7.74
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.82
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 671,
+          "elected": true,
+          "pct": 55.23
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 544,
+          "elected": false,
+          "pct": 44.77
+        }
+      ]
+    },
+    {
+      "boothId": 38501,
+      "name": "Atwell South",
+      "formal": 1196,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 53.93,
+      "swing": 53.93,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 492,
+          "pct": 41.14
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 260,
+          "pct": 21.74
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 221,
+          "pct": 18.48
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 137,
+          "pct": 11.45
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 6.02
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.84
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 645,
+          "elected": true,
+          "pct": 53.93
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 551,
+          "elected": false,
+          "pct": 46.07
+        }
+      ]
+    },
+    {
+      "boothId": 7778,
+      "name": "North Fremantle",
+      "formal": 1139,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 53.99,
+      "swing": 53.99,
+      "candidates": [
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 362,
+          "pct": 31.78
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 319,
+          "pct": 28.01
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 271,
+          "pct": 23.79
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 13.35
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 1.84
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.7
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 524,
+          "elected": true,
+          "pct": 46.01
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 615,
+          "elected": false,
+          "pct": 53.99
+        }
+      ]
+    },
+    {
+      "boothId": 7767,
+      "name": "Hamilton Hill East",
+      "formal": 1133,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 55.69,
+      "swing": 55.69,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 353,
+          "pct": 31.16
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 351,
+          "pct": 30.98
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 194,
+          "pct": 17.12
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 117,
+          "pct": 10.33
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 6.27
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.53
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 502,
+          "elected": true,
+          "pct": 44.31
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 631,
+          "elected": false,
+          "pct": 55.69
+        }
+      ]
+    },
+    {
+      "boothId": 7783,
+      "name": "Samson",
+      "formal": 1088,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 52.76,
+      "swing": 52.76,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 401,
+          "pct": 36.86
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 291,
+          "pct": 26.75
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 159,
+          "pct": 14.61
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 130,
+          "pct": 11.95
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 7.08
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.56
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 514,
+          "elected": true,
+          "pct": 47.24
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 574,
+          "elected": false,
+          "pct": 52.76
+        }
+      ]
+    },
+    {
+      "boothId": 99647,
+      "name": "Perth FREMANTLE PPVC",
+      "formal": 1034,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 55.9,
+      "swing": 55.9,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 419,
+          "pct": 40.52
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 223,
+          "pct": 21.57
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 205,
+          "pct": 19.83
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 12.86
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 4.45
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.48
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 578,
+          "elected": true,
+          "pct": 55.9
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 456,
+          "elected": false,
+          "pct": 44.1
+        }
+      ]
+    },
+    {
+      "boothId": 109516,
+      "name": "South Lake East",
+      "formal": 1021,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 54.55,
+      "swing": 54.55,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 358,
+          "pct": 35.06
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 266,
+          "pct": 26.05
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 174,
+          "pct": 17.04
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 113,
+          "pct": 11.07
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 86,
+          "pct": 8.42
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.18
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 464,
+          "elected": true,
+          "pct": 45.45
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 557,
+          "elected": false,
+          "pct": 54.55
+        }
+      ]
+    },
+    {
+      "boothId": 7756,
+      "name": "Beaconsfield",
+      "formal": 986,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 59.74,
+      "swing": 59.74,
+      "candidates": [
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 379,
+          "pct": 38.44
+        },
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 282,
+          "pct": 28.6
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 15.42
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 105,
+          "pct": 10.65
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 3.55
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.93
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 397,
+          "elected": true,
+          "pct": 40.26
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 589,
+          "elected": false,
+          "pct": 59.74
+        }
+      ]
+    },
+    {
+      "boothId": 7785,
+      "name": "South Lake",
+      "formal": 964,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 52.49,
+      "swing": 52.49,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 397,
+          "pct": 41.18
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 223,
+          "pct": 23.13
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 123,
+          "pct": 12.76
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 108,
+          "pct": 11.2
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 89,
+          "pct": 9.23
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.56
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 506,
+          "elected": true,
+          "pct": 52.49
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 458,
+          "elected": false,
+          "pct": 47.51
+        }
+      ]
+    },
+    {
+      "boothId": 7787,
+      "name": "Spearwood South",
+      "formal": 951,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 55.21,
+      "swing": 55.21,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 428,
+          "pct": 45.01
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 236,
+          "pct": 24.82
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 93,
+          "pct": 9.78
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 90,
+          "pct": 9.46
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 8.31
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.47
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 525,
+          "elected": true,
+          "pct": 55.21
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 426,
+          "elected": false,
+          "pct": 44.79
+        }
+      ]
+    },
+    {
+      "boothId": 119894,
+      "name": "Hammond Park Central",
+      "formal": 653,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 60.95,
+      "swing": 60.95,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 328,
+          "pct": 50.23
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 138,
+          "pct": 21.13
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 83,
+          "pct": 12.71
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 58,
+          "pct": 8.88
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 5.36
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.23
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 398,
+          "elected": true,
+          "pct": 60.95
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 255,
+          "elected": false,
+          "pct": 39.05
+        }
+      ]
+    },
+    {
+      "boothId": 7773,
+      "name": "Kardinya West",
+      "formal": 560,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 54.29,
+      "swing": 54.29,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 237,
+          "pct": 42.32
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 116,
+          "pct": 20.71
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 97,
+          "pct": 17.32
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 12.14
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 6.07
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.89
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 304,
+          "elected": true,
+          "pct": 54.29
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 256,
+          "elected": false,
+          "pct": 45.71
+        }
+      ]
+    },
+    {
+      "boothId": 107915,
+      "name": "Applecross FREMANTLE PPVC",
+      "formal": 400,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 50.25,
+      "swing": 50.25,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 144,
+          "pct": 36.0
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 107,
+          "pct": 26.75
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 86,
+          "pct": 21.5
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 11.5
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 3.25
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.75
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 199,
+          "elected": true,
+          "pct": 49.75
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 201,
+          "elected": false,
+          "pct": 50.25
+        }
+      ]
+    },
+    {
+      "boothId": 116953,
+      "name": "Palmyra North (Fremantle)",
+      "formal": 383,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 53.0,
+      "swing": 53.0,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "pct": 36.29
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 104,
+          "pct": 27.15
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 73,
+          "pct": 19.06
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 48,
+          "pct": 12.53
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 2.87
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.31
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 180,
+          "elected": true,
+          "pct": 47.0
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 203,
+          "elected": false,
+          "pct": 53.0
+        }
+      ]
+    },
+    {
+      "boothId": 98174,
+      "name": "Yangebup South",
+      "formal": 325,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 54.15,
+      "swing": 54.15,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "pct": 42.77
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 76,
+          "pct": 23.38
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 51,
+          "pct": 15.69
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 10.77
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 21,
+          "pct": 6.46
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.92
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 176,
+          "elected": true,
+          "pct": 54.15
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 149,
+          "elected": false,
+          "pct": 45.85
+        }
+      ]
+    },
+    {
+      "boothId": 83202,
+      "name": "Atwell Central",
+      "formal": 295,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 57.29,
+      "swing": 57.29,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 125,
+          "pct": 42.37
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 62,
+          "pct": 21.02
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 43,
+          "pct": 14.58
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 40,
+          "pct": 13.56
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 7.46
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.68
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 169,
+          "elected": true,
+          "pct": 57.29
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 126,
+          "elected": false,
+          "pct": 42.71
+        }
+      ]
+    },
+    {
+      "boothId": 108432,
+      "name": "Special Hospital Team 1",
+      "formal": 183,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 64.48,
+      "swing": 64.48,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "pct": 51.37
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 58,
+          "pct": 31.69
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 10.38
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 3.28
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 1.64
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.09
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 118,
+          "elected": true,
+          "pct": 64.48
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 65,
+          "elected": false,
+          "pct": 35.52
+        }
+      ]
+    },
+    {
+      "boothId": 109045,
+      "name": "Special Hospital Team 2",
+      "formal": 179,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 67.04,
+      "swing": 67.04,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 95,
+          "pct": 53.07
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 33,
+          "pct": 18.44
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 15.08
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 7.82
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 2.79
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.23
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 120,
+          "elected": true,
+          "pct": 67.04
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 59,
+          "elected": false,
+          "pct": 32.96
+        }
+      ]
+    },
+    {
+      "boothId": 98175,
+      "name": "Other Mobile Team 1",
+      "formal": 18,
+      "winnerParty": "ind",
+      "winnerSurname": "HULETT",
+      "winnerPct": 55.56,
+      "swing": 55.56,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 33.33
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 22.22
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 22.22
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 2,
+          "pct": 11.11
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 5.56
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 5.56
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8,
+          "elected": true,
+          "pct": 44.44
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "elected": false,
+          "pct": 55.56
+        }
+      ]
+    },
+    {
+      "boothId": 65593,
+      "name": "EAV Fremantle PPVC",
+      "formal": 17,
+      "winnerParty": "alp",
+      "winnerSurname": "WILSON",
+      "winnerPct": 64.71,
+      "swing": 64.71,
+      "candidates": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "pct": 52.94
+        },
+        {
+          "surname": "MARSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6,
+          "pct": 35.29
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 5.88
+        },
+        {
+          "surname": "WARNE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 5.88
+        },
+        {
+          "surname": "BIRD",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MARRINER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LAST",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "elected": true,
+          "pct": 64.71
+        },
+        {
+          "surname": "HULETT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "elected": false,
+          "pct": 35.29
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 102130,
+    "candidates": [
+      {
+        "id": "C42074",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Hulett"
+      },
+      {
+        "id": "C41841",
+        "party": "oth",
+        "displayShort": "CEC",
+        "displayLong": "CEC \u2014 Bird"
+      },
+      {
+        "id": "C41377",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Wilson"
+      },
+      {
+        "id": "C41789",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Warne"
+      },
+      {
+        "id": "C41256",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Marston"
+      },
+      {
+        "id": "C41708",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Marriner"
+      },
+      {
+        "id": "C40671",
+        "party": "oth",
+        "displayShort": "SAL",
+        "displayLong": "SAL \u2014 Last"
+      }
+    ],
+    "rounds": [
+      {
+        "C42074": 23500,
+        "C41841": 932,
+        "C41377": 39427,
+        "C41789": 11802,
+        "C41256": 19254,
+        "C41708": 6245,
+        "C40671": 970
+      },
+      {
+        "C42074": 23817,
+        "C41377": 39566,
+        "C41789": 11887,
+        "C41256": 19335,
+        "C41708": 6449,
+        "C40671": 1076
+      },
+      {
+        "C42074": 24116,
+        "C41377": 39711,
+        "C41789": 12330,
+        "C41256": 19369,
+        "C41708": 6604
+      },
+      {
+        "C42074": 26559,
+        "C41377": 40269,
+        "C41789": 12788,
+        "C41256": 22514
+      },
+      {
+        "C42074": 33124,
+        "C41377": 45832,
+        "C41256": 23174
+      },
+      {
+        "C42074": 50365,
+        "C41377": 51765
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            59.14,
+            55.7,
+            54.77,
+            57.52,
+            56.92,
+            66.89,
+            50.69
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            40.86,
+            44.3,
+            45.23,
+            42.48,
+            43.08,
+            33.11,
+            null
+          ]
+        },
+        {
+          "id": "IND",
+          "party": "ind",
+          "label": "IND",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            49.31
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 35.1,
+            "GRN": 14.57,
+            "ALP": 45.18,
+            "ON": 1.24,
+            "OTH": 3.9
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "LIB": 38.57,
+            "GRN": 17.65,
+            "ALP": 38.94,
+            "OTH": 4.84
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "GRN": 11.89,
+            "LIB": 38.14,
+            "ALP": 40.82,
+            "TOP": 3.96,
+            "OTH": 5.21
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "GRN": 17.74,
+            "LIB": 36.87,
+            "MAP": 2.75,
+            "ALP": 40.99,
+            "OTH": 1.65
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "GRN": 16.0,
+            "WAP": 2.56,
+            "LIB": 34.97,
+            "ON": 3.83,
+            "ALP": 38.02,
+            "OTH": 4.63
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "GAP": 2.34,
+            "WAP": 2.29,
+            "TOP": 2.04,
+            "ALP": 43.97,
+            "GRN": 18.14,
+            "LIB": 24.22,
+            "ON": 3.12,
+            "OTH": 3.88
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "ALP": 38.6,
+            "IND": 23.01,
+            "ON": 6.11,
+            "GRN": 11.56,
+            "LIB": 18.85,
+            "OTH": 1.86
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 166782,
+    "medianAge": 38,
+    "medianHouseholdIncomeWeekly": 1962,
+    "medianRentWeekly": 370,
+    "averageHouseholdSize": 2.5,
+    "bornOverseasPct": 33.9,
+    "indigenousPct": 1.8,
+    "bachelorPlusPct": 43.3,
+    "renterPct": 26.6,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 105369,
+        "pct": 66.14,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 5845,
+        "pct": 3.67,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 2265,
+        "pct": 1.42,
+        "natPct": 1.11
+      },
+      {
+        "label": "Philippines",
+        "count": 1325,
+        "pct": 0.83,
+        "natPct": 0.47
+      },
+      {
+        "label": "Italy",
+        "count": 1319,
+        "pct": 0.83,
+        "natPct": 0.35
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 75459,
+        "pct": 45.24,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 71457,
+        "pct": 42.84,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 10554,
+        "pct": 6.33,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 2636,
+        "pct": 1.58,
+        "natPct": 2.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 2276,
+        "pct": 1.36,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Fremantle is an Australian electoral division in the state of Western Australia. It is centred on and named after the city of Fremantle, also including Rottnest Island in the Indian Ocean. Since 2016 its MP has been Josh Wilson of the Labor Party.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Fremantle",
+    "retrievedAt": "2026-02-18T07:47:31Z"
+  }
+}

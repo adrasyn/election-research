@@ -1,0 +1,3499 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "LALOR",
+    "divisionId": 222,
+    "name": "Lalor",
+    "state": "VIC",
+    "totalFormal": 99284,
+    "informalVotes": 3469,
+    "informalRate": 4.22,
+    "winner": {
+      "candidateId": "C40835",
+      "surname": "RYAN",
+      "givenName": "Joanne",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 26.42,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40835",
+      "surname": "RYAN",
+      "givenName": "Joanne",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 34686,
+      "pct": 44.01
+    },
+    {
+      "candidateId": "C40779",
+      "surname": "D'SILVA",
+      "givenName": "Mira",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 20713,
+      "pct": 26.28
+    },
+    {
+      "candidateId": "C41103",
+      "surname": "PARRIS",
+      "givenName": "Owen",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 12058,
+      "pct": 15.3
+    },
+    {
+      "candidateId": "C41615",
+      "surname": "OOSTHUIZEN",
+      "givenName": "Jason",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 5093,
+      "pct": 6.46
+    },
+    {
+      "candidateId": "C41566",
+      "surname": "EMERSON",
+      "givenName": "Matthew",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 3614,
+      "pct": 4.59
+    },
+    {
+      "candidateId": "C32267",
+      "surname": "MOINUDDIN",
+      "givenName": "Aijaz",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 1615,
+      "pct": 2.05
+    },
+    {
+      "candidateId": "C42079",
+      "surname": "BARCATTA",
+      "givenName": "Patrizia",
+      "party": "oth",
+      "partyAb": "LTP",
+      "votes": 1031,
+      "pct": 1.31
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40835",
+      "surname": "RYAN",
+      "givenName": "Joanne",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 62761,
+      "pct": 63.21,
+      "elected": true
+    },
+    {
+      "candidateId": "C40779",
+      "surname": "D'SILVA",
+      "givenName": "Mira",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 36523,
+      "pct": 36.79,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 65525,
+      "name": "Hoppers Crossing LALOR PPVC",
+      "formal": 14289,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 62.89,
+      "swing": 0.8,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6289,
+          "pct": 44.01
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3902,
+          "pct": 27.31
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2102,
+          "pct": 14.71
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 880,
+          "pct": 6.16
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 630,
+          "pct": 4.41
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 344,
+          "pct": 2.41
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 142,
+          "pct": 0.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8986,
+          "elected": true,
+          "pct": 62.89
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5303,
+          "elected": false,
+          "pct": 37.11
+        }
+      ]
+    },
+    {
+      "boothId": 31959,
+      "name": "Werribee LALOR PPVC",
+      "formal": 13363,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 57.2,
+      "swing": -4.61,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5610,
+          "pct": 41.98
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4267,
+          "pct": 31.93
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1485,
+          "pct": 11.11
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 942,
+          "pct": 7.05
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 682,
+          "pct": 5.1
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 202,
+          "pct": 1.51
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 175,
+          "pct": 1.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7643,
+          "elected": true,
+          "pct": 57.2
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5720,
+          "elected": false,
+          "pct": 42.8
+        }
+      ]
+    },
+    {
+      "boothId": 108930,
+      "name": "Manor Lakes PPVC",
+      "formal": 11525,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 63.62,
+      "swing": 1.55,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5349,
+          "pct": 46.41
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2975,
+          "pct": 25.81
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1388,
+          "pct": 12.04
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 850,
+          "pct": 7.38
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 590,
+          "pct": 5.12
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 208,
+          "pct": 1.8
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 165,
+          "pct": 1.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7332,
+          "elected": true,
+          "pct": 63.62
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4193,
+          "elected": false,
+          "pct": 36.38
+        }
+      ]
+    },
+    {
+      "boothId": 104940,
+      "name": "Truganina LALOR PPVC",
+      "formal": 5165,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 60.08,
+      "swing": 0.07,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2306,
+          "pct": 44.65
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1723,
+          "pct": 33.36
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 708,
+          "pct": 13.71
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 162,
+          "pct": 3.14
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 154,
+          "pct": 2.98
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 84,
+          "pct": 1.63
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 28,
+          "pct": 0.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3103,
+          "elected": true,
+          "pct": 60.08
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2062,
+          "elected": false,
+          "pct": 39.92
+        }
+      ]
+    },
+    {
+      "boothId": 47816,
+      "name": "Manor Lakes",
+      "formal": 2430,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 65.51,
+      "swing": 1.44,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1103,
+          "pct": 45.39
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 558,
+          "pct": 22.96
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 412,
+          "pct": 16.95
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 144,
+          "pct": 5.93
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 128,
+          "pct": 5.27
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 46,
+          "pct": 1.89
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 39,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1592,
+          "elected": true,
+          "pct": 65.51
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 838,
+          "elected": false,
+          "pct": 34.49
+        }
+      ]
+    },
+    {
+      "boothId": 82872,
+      "name": "Tarneit West",
+      "formal": 2162,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 71.18,
+      "swing": 12.15,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1053,
+          "pct": 48.7
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 477,
+          "pct": 22.06
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 462,
+          "pct": 21.37
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 57,
+          "pct": 2.64
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 2.45
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 44,
+          "pct": 2.04
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1539,
+          "elected": true,
+          "pct": 71.18
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 623,
+          "elected": false,
+          "pct": 28.82
+        }
+      ]
+    },
+    {
+      "boothId": 4262,
+      "name": "Iramoo",
+      "formal": 1784,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 66.82,
+      "swing": -3.11,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 776,
+          "pct": 43.5
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 360,
+          "pct": 20.18
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 324,
+          "pct": 18.16
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 145,
+          "pct": 8.13
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 112,
+          "pct": 6.28
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 2.07
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 30,
+          "pct": 1.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1192,
+          "elected": true,
+          "pct": 66.82
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 592,
+          "elected": false,
+          "pct": 33.18
+        }
+      ]
+    },
+    {
+      "boothId": 4241,
+      "name": "Bellbridge",
+      "formal": 1729,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 66.17,
+      "swing": 3.95,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 753,
+          "pct": 43.55
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 323,
+          "pct": 18.68
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 315,
+          "pct": 18.22
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 184,
+          "pct": 10.64
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 102,
+          "pct": 5.9
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 1.74
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1144,
+          "elected": true,
+          "pct": 66.17
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 585,
+          "elected": false,
+          "pct": 33.83
+        }
+      ]
+    },
+    {
+      "boothId": 47823,
+      "name": "Tarneit",
+      "formal": 1658,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 70.27,
+      "swing": 6.61,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 791,
+          "pct": 47.71
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 346,
+          "pct": 20.87
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 313,
+          "pct": 18.88
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 90,
+          "pct": 5.43
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 2.9
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 37,
+          "pct": 2.23
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 1.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1165,
+          "elected": true,
+          "pct": 70.27
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 493,
+          "elected": false,
+          "pct": 29.73
+        }
+      ]
+    },
+    {
+      "boothId": 31623,
+      "name": "Westgrove",
+      "formal": 1595,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 66.14,
+      "swing": -0.3,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 692,
+          "pct": 43.39
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 334,
+          "pct": 20.94
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 262,
+          "pct": 16.43
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 143,
+          "pct": 8.97
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 93,
+          "pct": 5.83
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 2.32
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1055,
+          "elected": true,
+          "pct": 66.14
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 540,
+          "elected": false,
+          "pct": 33.86
+        }
+      ]
+    },
+    {
+      "boothId": 65866,
+      "name": "Tarneit Central",
+      "formal": 1565,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 70.86,
+      "swing": 9.04,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 770,
+          "pct": 49.2
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 364,
+          "pct": 23.26
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 303,
+          "pct": 19.36
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 43,
+          "pct": 2.75
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 2.24
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 2.17
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1109,
+          "elected": true,
+          "pct": 70.86
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 456,
+          "elected": false,
+          "pct": 29.14
+        }
+      ]
+    },
+    {
+      "boothId": 31621,
+      "name": "The Grange",
+      "formal": 1518,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 68.97,
+      "swing": 9.16,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 637,
+          "pct": 41.96
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 303,
+          "pct": 19.96
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 264,
+          "pct": 17.39
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 154,
+          "pct": 10.14
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 90,
+          "pct": 5.93
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 2.5
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1047,
+          "elected": true,
+          "pct": 68.97
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 471,
+          "elected": false,
+          "pct": 31.03
+        }
+      ]
+    },
+    {
+      "boothId": 97675,
+      "name": "Wyndham South",
+      "formal": 1472,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 62.7,
+      "swing": -2.58,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 660,
+          "pct": 44.84
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 412,
+          "pct": 27.99
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 214,
+          "pct": 14.54
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 85,
+          "pct": 5.77
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 62,
+          "pct": 4.21
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 1.97
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 923,
+          "elected": true,
+          "pct": 62.7
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 549,
+          "elected": false,
+          "pct": 37.3
+        }
+      ]
+    },
+    {
+      "boothId": 65874,
+      "name": "Wyndham Vale South",
+      "formal": 1445,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 69.13,
+      "swing": 3.58,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 671,
+          "pct": 46.44
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 315,
+          "pct": 21.8
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 245,
+          "pct": 16.96
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 87,
+          "pct": 6.02
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 4.91
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 2.01
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 999,
+          "elected": true,
+          "pct": 69.13
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 446,
+          "elected": false,
+          "pct": 30.87
+        }
+      ]
+    },
+    {
+      "boothId": 82873,
+      "name": "Davis Creek",
+      "formal": 1393,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 73.51,
+      "swing": 7.23,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 519,
+          "pct": 37.26
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 484,
+          "pct": 34.75
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 246,
+          "pct": 17.66
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 70,
+          "pct": 5.03
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 3.09
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 1.94
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1024,
+          "elected": true,
+          "pct": 73.51
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 369,
+          "elected": false,
+          "pct": 26.49
+        }
+      ]
+    },
+    {
+      "boothId": 31055,
+      "name": "Cambridge",
+      "formal": 1317,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 64.24,
+      "swing": 0.35,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 546,
+          "pct": 41.46
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 296,
+          "pct": 22.48
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 252,
+          "pct": 19.13
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 103,
+          "pct": 7.82
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 72,
+          "pct": 5.47
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 1.9
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 846,
+          "elected": true,
+          "pct": 64.24
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 471,
+          "elected": false,
+          "pct": 35.76
+        }
+      ]
+    },
+    {
+      "boothId": 4253,
+      "name": "Mossfiel",
+      "formal": 1277,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 67.27,
+      "swing": 0.97,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 532,
+          "pct": 41.66
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 271,
+          "pct": 21.22
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 263,
+          "pct": 20.6
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 94,
+          "pct": 7.36
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 54,
+          "pct": 4.23
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.51
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 859,
+          "elected": true,
+          "pct": 67.27
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 418,
+          "elected": false,
+          "pct": 32.73
+        }
+      ]
+    },
+    {
+      "boothId": 83864,
+      "name": "Werribee East",
+      "formal": 1189,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 58.03,
+      "swing": 0.45,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 439,
+          "pct": 36.92
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 331,
+          "pct": 27.84
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 182,
+          "pct": 15.31
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 121,
+          "pct": 10.18
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 58,
+          "pct": 4.88
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.78
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 690,
+          "elected": true,
+          "pct": 58.03
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 499,
+          "elected": false,
+          "pct": 41.97
+        }
+      ]
+    },
+    {
+      "boothId": 8895,
+      "name": "Manorvale",
+      "formal": 1124,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 65.21,
+      "swing": 0.05,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 475,
+          "pct": 42.26
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 228,
+          "pct": 20.28
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 197,
+          "pct": 17.53
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 124,
+          "pct": 11.03
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 66,
+          "pct": 5.87
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.51
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 733,
+          "elected": true,
+          "pct": 65.21
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 391,
+          "elected": false,
+          "pct": 34.79
+        }
+      ]
+    },
+    {
+      "boothId": 8894,
+      "name": "Glenorden",
+      "formal": 1120,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 66.79,
+      "swing": -0.51,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 495,
+          "pct": 44.2
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 227,
+          "pct": 20.27
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 192,
+          "pct": 17.14
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 100,
+          "pct": 8.93
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 63,
+          "pct": 5.62
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 2.23
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 748,
+          "elected": true,
+          "pct": 66.79
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 372,
+          "elected": false,
+          "pct": 33.21
+        }
+      ]
+    },
+    {
+      "boothId": 109595,
+      "name": "Wimba",
+      "formal": 1041,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 70.32,
+      "swing": 8.88,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 586,
+          "pct": 56.29
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 269,
+          "pct": 25.84
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 132,
+          "pct": 12.68
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 2.21
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 1.73
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.67
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 0.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 732,
+          "elected": true,
+          "pct": 70.32
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 309,
+          "elected": false,
+          "pct": 29.68
+        }
+      ]
+    },
+    {
+      "boothId": 31056,
+      "name": "Derrimut Heath",
+      "formal": 1001,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 57.54,
+      "swing": -0.47,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 358,
+          "pct": 35.76
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 305,
+          "pct": 30.47
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 175,
+          "pct": 17.48
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 8.39
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 3.5
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 3.0
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 576,
+          "elected": true,
+          "pct": 57.54
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 425,
+          "elected": false,
+          "pct": 42.46
+        }
+      ]
+    },
+    {
+      "boothId": 4259,
+      "name": "Werribee Central",
+      "formal": 1001,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 61.44,
+      "swing": 1.61,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 388,
+          "pct": 38.76
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 272,
+          "pct": 27.17
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 183,
+          "pct": 18.28
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 82,
+          "pct": 8.19
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 3.8
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 2.2
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 615,
+          "elected": true,
+          "pct": 61.44
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 386,
+          "elected": false,
+          "pct": 38.56
+        }
+      ]
+    },
+    {
+      "boothId": 31622,
+      "name": "Thomas Chirnside",
+      "formal": 976,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 67.01,
+      "swing": -2.0,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 447,
+          "pct": 45.8
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 206,
+          "pct": 21.11
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 159,
+          "pct": 16.29
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 8.61
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 4.51
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 2.56
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 654,
+          "elected": true,
+          "pct": 67.01
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 322,
+          "elected": false,
+          "pct": 32.99
+        }
+      ]
+    },
+    {
+      "boothId": 108801,
+      "name": "Point Cook LALOR PPVC",
+      "formal": 965,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 60.1,
+      "swing": -3.28,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 383,
+          "pct": 39.69
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 279,
+          "pct": 28.91
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 176,
+          "pct": 18.24
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 5.28
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 4.25
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 2.49
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 580,
+          "elected": true,
+          "pct": 60.1
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 385,
+          "elected": false,
+          "pct": 39.9
+        }
+      ]
+    },
+    {
+      "boothId": 109528,
+      "name": "Karwan",
+      "formal": 946,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 72.3,
+      "swing": 10.98,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 419,
+          "pct": 44.29
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 251,
+          "pct": 26.53
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 193,
+          "pct": 20.4
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 4.76
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 1.59
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 1.59
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 684,
+          "elected": true,
+          "pct": 72.3
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 262,
+          "elected": false,
+          "pct": 27.7
+        }
+      ]
+    },
+    {
+      "boothId": 83024,
+      "name": "Wyndham Vale",
+      "formal": 910,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 66.26,
+      "swing": 10.25,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 412,
+          "pct": 45.27
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 212,
+          "pct": 23.3
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 154,
+          "pct": 16.92
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 50,
+          "pct": 5.49
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 4.18
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 3.3
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 603,
+          "elected": true,
+          "pct": 66.26
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 307,
+          "elected": false,
+          "pct": 33.74
+        }
+      ]
+    },
+    {
+      "boothId": 4264,
+      "name": "Woodville",
+      "formal": 854,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 64.17,
+      "swing": 0.85,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 351,
+          "pct": 41.1
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 206,
+          "pct": 24.12
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 153,
+          "pct": 17.92
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 8.2
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 4.68
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 2.34
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 548,
+          "elected": true,
+          "pct": 64.17
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 306,
+          "elected": false,
+          "pct": 35.83
+        }
+      ]
+    },
+    {
+      "boothId": 4260,
+      "name": "Galvin Park",
+      "formal": 707,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 64.64,
+      "swing": -1.2,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 314,
+          "pct": 44.41
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 166,
+          "pct": 23.48
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 117,
+          "pct": 16.55
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 8.49
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 3.82
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 2.4
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 457,
+          "elected": true,
+          "pct": 64.64
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "elected": false,
+          "pct": 35.36
+        }
+      ]
+    },
+    {
+      "boothId": 4261,
+      "name": "Werribee South",
+      "formal": 399,
+      "winnerParty": "lib",
+      "winnerSurname": "D'SILVA",
+      "winnerPct": 53.63,
+      "swing": -4.54,
+      "candidates": [
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 145,
+          "pct": 36.34
+        },
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 130,
+          "pct": 32.58
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 15.04
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 8.27
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 5.51
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.25
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 185,
+          "elected": true,
+          "pct": 46.37
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 214,
+          "elected": false,
+          "pct": 53.63
+        }
+      ]
+    },
+    {
+      "boothId": 124044,
+      "name": "Special Hospital Team 3",
+      "formal": 283,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 58.66,
+      "swing": -4.98,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 127,
+          "pct": 44.88
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 77,
+          "pct": 27.21
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 37,
+          "pct": 13.07
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 7.07
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 4.95
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.77
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "elected": true,
+          "pct": 58.66
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 117,
+          "elected": false,
+          "pct": 41.34
+        }
+      ]
+    },
+    {
+      "boothId": 108478,
+      "name": "Special Hospital Team 1",
+      "formal": 246,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 62.2,
+      "swing": -1.7,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 137,
+          "pct": 55.69
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 80,
+          "pct": 32.52
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 4.07
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 3.25
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 3.25
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.81
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 153,
+          "elected": true,
+          "pct": 62.2
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 93,
+          "elected": false,
+          "pct": 37.8
+        }
+      ]
+    },
+    {
+      "boothId": 108370,
+      "name": "Melbourne LALOR PPVC",
+      "formal": 124,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 69.35,
+      "swing": 2.68,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 57,
+          "pct": 45.97
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 25.81
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 29,
+          "pct": 23.39
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.61
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 1.61
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.81
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 86,
+          "elected": true,
+          "pct": 69.35
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 38,
+          "elected": false,
+          "pct": 30.65
+        }
+      ]
+    },
+    {
+      "boothId": 109062,
+      "name": "Special Hospital Team 2",
+      "formal": 116,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 63.79,
+      "swing": 0.0,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 62,
+          "pct": 53.45
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 33,
+          "pct": 28.45
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 6.9
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 5.17
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 4.31
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.72
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 74,
+          "elected": true,
+          "pct": 63.79
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 42,
+          "elected": false,
+          "pct": 36.21
+        }
+      ]
+    },
+    {
+      "boothId": 109735,
+      "name": "Truganina East (Lalor)",
+      "formal": 84,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 58.33,
+      "swing": -6.67,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 29,
+          "pct": 34.52
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 24,
+          "pct": 28.57
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 22.62
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 9.52
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 4.76
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "elected": true,
+          "pct": 58.33
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 35,
+          "elected": false,
+          "pct": 41.67
+        }
+      ]
+    },
+    {
+      "boothId": 109315,
+      "name": "Other Mobile Team 1",
+      "formal": 27,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 85.19,
+      "swing": 21.55,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 15,
+          "pct": 55.56
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 22.22
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "pct": 14.81
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 3.7
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 3.7
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 23,
+          "elected": true,
+          "pct": 85.19
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "elected": false,
+          "pct": 14.81
+        }
+      ]
+    },
+    {
+      "boothId": 65507,
+      "name": "EAV Lalor PPVC",
+      "formal": 10,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 60.0,
+      "swing": -6.67,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "pct": 50.0
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "pct": 20.0
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 10.0
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 10.0
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 10.0
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "elected": true,
+          "pct": 60.0
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "elected": false,
+          "pct": 40.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 99284,
+    "candidates": [
+      {
+        "id": "C41103",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Parris"
+      },
+      {
+        "id": "C40835",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Ryan"
+      },
+      {
+        "id": "C41566",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Emerson"
+      },
+      {
+        "id": "C41615",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Oosthuizen"
+      },
+      {
+        "id": "C40779",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 D'Silva"
+      },
+      {
+        "id": "C32267",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Moinuddin"
+      },
+      {
+        "id": "C42079",
+        "party": "oth",
+        "displayShort": "LTP",
+        "displayLong": "LTP \u2014 Barcatta"
+      }
+    ],
+    "rounds": [
+      {
+        "C41103": 15181,
+        "C40835": 43284,
+        "C41566": 4578,
+        "C41615": 6986,
+        "C40779": 25869,
+        "C32267": 2101,
+        "C42079": 1285
+      },
+      {
+        "C41103": 15275,
+        "C40835": 43384,
+        "C41566": 4804,
+        "C41615": 7363,
+        "C40779": 26088,
+        "C32267": 2370
+      },
+      {
+        "C41103": 16027,
+        "C40835": 43815,
+        "C41566": 5275,
+        "C41615": 7647,
+        "C40779": 26520
+      },
+      {
+        "C41103": 17174,
+        "C40835": 44955,
+        "C41615": 9350,
+        "C40779": 27805
+      },
+      {
+        "C41103": 19136,
+        "C40835": 46976,
+        "C40779": 33172
+      },
+      {
+        "C40835": 62761,
+        "C40779": 36523
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            65.53,
+            72.15,
+            62.16,
+            63.44,
+            62.41,
+            62.82,
+            63.21
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            34.47,
+            27.85,
+            37.84,
+            36.56,
+            37.59,
+            37.18,
+            36.79
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "ALP": 59.89,
+            "LIB": 29.77,
+            "FFP": 4.4,
+            "GRN": 4.02,
+            "OTH": 1.93
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "GRN": 6.83,
+            "LIB": 23.06,
+            "ALP": 64.25,
+            "FFP": 2.79,
+            "OTH": 3.07
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "FFP": 2.84,
+            "TOP": 5.8,
+            "LIB": 29.26,
+            "ASXP": 3.22,
+            "ALP": 45.17,
+            "GRN": 6.01,
+            "OTH": 7.68
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "GRN": 9.81,
+            "RUA": 4.39,
+            "ALP": 51.8,
+            "LIB": 30.98,
+            "AFN": 3.03
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "ALP": 51.7,
+            "LIB": 30.18,
+            "AFN": 4.38,
+            "TOP": 4.76,
+            "GRN": 7.78,
+            "OTH": 1.2
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "ON": 3.94,
+            "GRN": 10.38,
+            "IND": 2.86,
+            "TOP": 7.16,
+            "LIB": 24.95,
+            "LDP": 3.84,
+            "ALP": 44.11,
+            "OTH": 2.74
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "LIB": 26.06,
+            "IND": 2.12,
+            "GRN": 15.29,
+            "FFP": 4.61,
+            "ON": 7.04,
+            "ALP": 43.6,
+            "OTH": 1.29
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 201323,
+    "medianAge": 32,
+    "medianHouseholdIncomeWeekly": 1891,
+    "medianRentWeekly": 355,
+    "averageHouseholdSize": 3.0,
+    "bornOverseasPct": 47.8,
+    "indigenousPct": 1.0,
+    "bachelorPlusPct": 45.2,
+    "renterPct": 30.5,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 99413,
+        "pct": 52.23,
+        "natPct": 70.73
+      },
+      {
+        "label": "India",
+        "count": 17815,
+        "pct": 9.36,
+        "natPct": 1.51
+      },
+      {
+        "label": "New Zealand",
+        "count": 3064,
+        "pct": 1.61,
+        "natPct": 1.11
+      },
+      {
+        "label": "Philippines",
+        "count": 2262,
+        "pct": 1.19,
+        "natPct": 0.47
+      },
+      {
+        "label": "Bangladesh",
+        "count": 1902,
+        "pct": 1.0,
+        "natPct": 0.21
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 74527,
+        "pct": 37.02,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 46374,
+        "pct": 23.03,
+        "natPct": 38.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 26188,
+        "pct": 13.01,
+        "natPct": 2.69
+      },
+      {
+        "label": "Islam",
+        "count": 20479,
+        "pct": 10.17,
+        "natPct": 3.2
+      },
+      {
+        "label": "Not stated",
+        "count": 14424,
+        "pct": 7.16,
+        "natPct": 7.27
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Lalor is an Australian Electoral Division in the state of Victoria. Located in the south-western suburbs of Melbourne in the City of Wyndham, it includes the south-western hub of Werribee as well as the suburbs of Hoppers Crossing, Tarneit, Truganina, Wyndham Vale and part of Point Cook.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Lalor",
+    "retrievedAt": "2025-12-18T15:29:51Z"
+  }
+}

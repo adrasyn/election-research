@@ -1,0 +1,7412 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "MAYO",
+    "divisionId": 188,
+    "name": "Mayo",
+    "state": "SA",
+    "totalFormal": 125182,
+    "informalVotes": 3983,
+    "informalRate": 3.78,
+    "winner": {
+      "candidateId": "C40653",
+      "surname": "SHARKIE",
+      "givenName": "Rebekha",
+      "party": "ca",
+      "partyAb": "CA",
+      "incumbent": true
+    },
+    "previousWinnerParty": "CA",
+    "tcpMargin": 29.78,
+    "result": "CA RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40653",
+      "surname": "SHARKIE",
+      "givenName": "Rebekha",
+      "party": "ca",
+      "partyAb": "CA",
+      "votes": 30675,
+      "pct": 30.22
+    },
+    {
+      "candidateId": "C41035",
+      "surname": "BASIC",
+      "givenName": "Zane",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 23722,
+      "pct": 23.37
+    },
+    {
+      "candidateId": "C41186",
+      "surname": "BELL",
+      "givenName": "Marisa",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 21626,
+      "pct": 21.31
+    },
+    {
+      "candidateId": "C41029",
+      "surname": "DAWSON-SCOTT",
+      "givenName": "Genevieve",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 13960,
+      "pct": 13.75
+    },
+    {
+      "candidateId": "C42045",
+      "surname": "HEWETT",
+      "givenName": "Rebecca",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 5962,
+      "pct": 5.87
+    },
+    {
+      "candidateId": "C41049",
+      "surname": "BIDWELL",
+      "givenName": "Simeon Trump",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2789,
+      "pct": 2.75
+    },
+    {
+      "candidateId": "C41058",
+      "surname": "HACKETT",
+      "givenName": "Ben",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 2758,
+      "pct": 2.72
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40653",
+      "surname": "SHARKIE",
+      "givenName": "Rebekha",
+      "party": "ca",
+      "partyAb": "CA",
+      "votes": 81231,
+      "pct": 64.89,
+      "elected": true
+    },
+    {
+      "candidateId": "C41186",
+      "surname": "BELL",
+      "givenName": "Marisa",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 43951,
+      "pct": 35.11,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 47788,
+      "name": "Mount Barker PPVC",
+      "formal": 11243,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 70.0,
+      "swing": 70.0,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 4079,
+          "pct": 36.28
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2652,
+          "pct": 23.59
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2082,
+          "pct": 18.52
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1281,
+          "pct": 11.39
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 602,
+          "pct": 5.35
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 291,
+          "pct": 2.59
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 256,
+          "pct": 2.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 7870,
+          "elected": true,
+          "pct": 70.0
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3373,
+          "elected": false,
+          "pct": 30.0
+        }
+      ]
+    },
+    {
+      "boothId": 12997,
+      "name": "Victor Harbor PPVC",
+      "formal": 10532,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 73.37,
+      "swing": 73.37,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 3782,
+          "pct": 35.91
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3016,
+          "pct": 28.64
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2013,
+          "pct": 19.11
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 750,
+          "pct": 7.12
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 518,
+          "pct": 4.92
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 235,
+          "pct": 2.23
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 218,
+          "pct": 2.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 7727,
+          "elected": true,
+          "pct": 73.37
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2805,
+          "elected": false,
+          "pct": 26.63
+        }
+      ]
+    },
+    {
+      "boothId": 83433,
+      "name": "Aldinga Beach MAYO PPVC",
+      "formal": 7078,
+      "winnerParty": "alp",
+      "winnerSurname": "BELL",
+      "winnerPct": 50.25,
+      "swing": 50.25,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2338,
+          "pct": 33.03
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1616,
+          "pct": 22.83
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 1064,
+          "pct": 15.03
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1022,
+          "pct": 14.44
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 559,
+          "pct": 7.9
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 278,
+          "pct": 3.93
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 201,
+          "pct": 2.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 3521,
+          "elected": true,
+          "pct": 49.75
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3557,
+          "elected": false,
+          "pct": 50.25
+        }
+      ]
+    },
+    {
+      "boothId": 83434,
+      "name": "Stirling PPVC",
+      "formal": 4378,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 67.04,
+      "swing": 67.04,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 1393,
+          "pct": 31.82
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1165,
+          "pct": 26.61
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 873,
+          "pct": 19.94
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 695,
+          "pct": 15.87
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 127,
+          "pct": 2.9
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 71,
+          "pct": 1.62
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 54,
+          "pct": 1.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 2935,
+          "elected": true,
+          "pct": 67.04
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1443,
+          "elected": false,
+          "pct": 32.96
+        }
+      ]
+    },
+    {
+      "boothId": 83398,
+      "name": "Strathalbyn PPVC",
+      "formal": 4355,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 75.32,
+      "swing": 75.32,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 1784,
+          "pct": 40.96
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1056,
+          "pct": 24.25
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 712,
+          "pct": 16.35
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 301,
+          "pct": 6.91
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 266,
+          "pct": 6.11
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 143,
+          "pct": 3.28
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 93,
+          "pct": 2.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 3280,
+          "elected": true,
+          "pct": 75.32
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1075,
+          "elected": false,
+          "pct": 24.68
+        }
+      ]
+    },
+    {
+      "boothId": 7205,
+      "name": "Mount Barker",
+      "formal": 1978,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 60.26,
+      "swing": 60.26,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 536,
+          "pct": 27.1
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 435,
+          "pct": 21.99
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 404,
+          "pct": 20.42
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 359,
+          "pct": 18.15
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 124,
+          "pct": 6.27
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 78,
+          "pct": 3.94
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 1192,
+          "elected": true,
+          "pct": 60.26
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 786,
+          "elected": false,
+          "pct": 39.74
+        }
+      ]
+    },
+    {
+      "boothId": 46430,
+      "name": "Aldinga Beach West",
+      "formal": 1855,
+      "winnerParty": "alp",
+      "winnerSurname": "BELL",
+      "winnerPct": 55.04,
+      "swing": 55.04,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 565,
+          "pct": 30.46
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 452,
+          "pct": 24.37
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 258,
+          "pct": 13.91
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 215,
+          "pct": 11.59
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 184,
+          "pct": 9.92
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 91,
+          "pct": 4.91
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 90,
+          "pct": 4.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 834,
+          "elected": true,
+          "pct": 44.96
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1021,
+          "elected": false,
+          "pct": 55.04
+        }
+      ]
+    },
+    {
+      "boothId": 46417,
+      "name": "Goolwa Central",
+      "formal": 1710,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 68.95,
+      "swing": 68.95,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 602,
+          "pct": 35.2
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 386,
+          "pct": 22.57
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 345,
+          "pct": 20.18
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 156,
+          "pct": 9.12
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 121,
+          "pct": 7.08
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 59,
+          "pct": 3.45
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 2.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 1179,
+          "elected": true,
+          "pct": 68.95
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 531,
+          "elected": false,
+          "pct": 31.05
+        }
+      ]
+    },
+    {
+      "boothId": 7215,
+      "name": "Nairne",
+      "formal": 1588,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 64.99,
+      "swing": 64.99,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 532,
+          "pct": 33.5
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 326,
+          "pct": 20.53
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 289,
+          "pct": 18.2
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 261,
+          "pct": 16.44
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 83,
+          "pct": 5.23
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 55,
+          "pct": 3.46
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 1032,
+          "elected": true,
+          "pct": 64.99
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 556,
+          "elected": false,
+          "pct": 35.01
+        }
+      ]
+    },
+    {
+      "boothId": 6875,
+      "name": "Hawthorndene",
+      "formal": 1538,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 51.5,
+      "swing": 51.5,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 462,
+          "pct": 30.04
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 354,
+          "pct": 23.02
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 334,
+          "pct": 21.72
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 286,
+          "pct": 18.6
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 2.8
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 2.41
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 792,
+          "elected": true,
+          "pct": 51.5
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 746,
+          "elected": false,
+          "pct": 48.5
+        }
+      ]
+    },
+    {
+      "boothId": 7156,
+      "name": "Aldgate",
+      "formal": 1513,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 64.38,
+      "swing": 64.38,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 502,
+          "pct": 33.18
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 315,
+          "pct": 20.82
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 313,
+          "pct": 20.69
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 274,
+          "pct": 18.11
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 3.44
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 2.12
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 974,
+          "elected": true,
+          "pct": 64.38
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 539,
+          "elected": false,
+          "pct": 35.62
+        }
+      ]
+    },
+    {
+      "boothId": 7243,
+      "name": "Yankalilla",
+      "formal": 1503,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 63.47,
+      "swing": 63.47,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 416,
+          "pct": 27.68
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 412,
+          "pct": 27.41
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 357,
+          "pct": 23.75
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 153,
+          "pct": 10.18
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 95,
+          "pct": 6.32
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.46
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 954,
+          "elected": true,
+          "pct": 63.47
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 549,
+          "elected": false,
+          "pct": 36.53
+        }
+      ]
+    },
+    {
+      "boothId": 7199,
+      "name": "McLaren Vale",
+      "formal": 1493,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 55.06,
+      "swing": 55.06,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 461,
+          "pct": 30.88
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 369,
+          "pct": 24.72
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 294,
+          "pct": 19.69
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 197,
+          "pct": 13.19
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 96,
+          "pct": 6.43
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 2.88
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 2.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 822,
+          "elected": true,
+          "pct": 55.06
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 671,
+          "elected": false,
+          "pct": 44.94
+        }
+      ]
+    },
+    {
+      "boothId": 97140,
+      "name": "Blackwood (Mayo)",
+      "formal": 1455,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 51.07,
+      "swing": 51.07,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 479,
+          "pct": 32.92
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 396,
+          "pct": 27.22
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 260,
+          "pct": 17.87
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 209,
+          "pct": 14.36
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 3.51
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 2.27
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 743,
+          "elected": true,
+          "pct": 51.07
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 712,
+          "elected": false,
+          "pct": 48.93
+        }
+      ]
+    },
+    {
+      "boothId": 7231,
+      "name": "Strathalbyn",
+      "formal": 1441,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 71.2,
+      "swing": 71.2,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 492,
+          "pct": 34.14
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 310,
+          "pct": 21.51
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 220,
+          "pct": 15.27
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 182,
+          "pct": 12.63
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 129,
+          "pct": 8.95
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 56,
+          "pct": 3.89
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 1026,
+          "elected": true,
+          "pct": 71.2
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 415,
+          "elected": false,
+          "pct": 28.8
+        }
+      ]
+    },
+    {
+      "boothId": 12995,
+      "name": "Kingscote PPVC",
+      "formal": 1372,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 71.57,
+      "swing": 71.57,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 422,
+          "pct": 30.76
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 400,
+          "pct": 29.15
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 210,
+          "pct": 15.31
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 155,
+          "pct": 11.3
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 85,
+          "pct": 6.2
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 60,
+          "pct": 4.37
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 2.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 982,
+          "elected": true,
+          "pct": 71.57
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 390,
+          "elected": false,
+          "pct": 28.43
+        }
+      ]
+    },
+    {
+      "boothId": 7242,
+      "name": "Woodside",
+      "formal": 1333,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 72.92,
+      "swing": 72.92,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 489,
+          "pct": 36.68
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 335,
+          "pct": 25.13
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 212,
+          "pct": 15.9
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 159,
+          "pct": 11.93
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 5.18
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 2.85
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 972,
+          "elected": true,
+          "pct": 72.92
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 361,
+          "elected": false,
+          "pct": 27.08
+        }
+      ]
+    },
+    {
+      "boothId": 7179,
+      "name": "Goolwa",
+      "formal": 1291,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 69.79,
+      "swing": 69.79,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 485,
+          "pct": 37.57
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 281,
+          "pct": 21.77
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 262,
+          "pct": 20.29
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 115,
+          "pct": 8.91
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 5.96
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 2.87
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 901,
+          "elected": true,
+          "pct": 69.79
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 390,
+          "elected": false,
+          "pct": 30.21
+        }
+      ]
+    },
+    {
+      "boothId": 7238,
+      "name": "Willunga",
+      "formal": 1286,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 58.48,
+      "swing": 58.48,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 311,
+          "pct": 24.18
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 302,
+          "pct": 23.48
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 279,
+          "pct": 21.7
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "pct": 19.44
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 4.74
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 3.97
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 2.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 752,
+          "elected": true,
+          "pct": 58.48
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 534,
+          "elected": false,
+          "pct": 41.52
+        }
+      ]
+    },
+    {
+      "boothId": 97714,
+      "name": "Mount Barker South",
+      "formal": 1279,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 56.68,
+      "swing": 56.68,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 353,
+          "pct": 27.6
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 305,
+          "pct": 23.85
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 290,
+          "pct": 22.67
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 203,
+          "pct": 15.87
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 4.61
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 3.21
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 725,
+          "elected": true,
+          "pct": 56.68
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 554,
+          "elected": false,
+          "pct": 43.32
+        }
+      ]
+    },
+    {
+      "boothId": 7194,
+      "name": "Littlehampton",
+      "formal": 1230,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 70.33,
+      "swing": 70.33,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 465,
+          "pct": 37.8
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 241,
+          "pct": 19.59
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 220,
+          "pct": 17.89
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 176,
+          "pct": 14.31
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 4.88
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 42,
+          "pct": 3.41
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 2.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 865,
+          "elected": true,
+          "pct": 70.33
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 365,
+          "elected": false,
+          "pct": 29.67
+        }
+      ]
+    },
+    {
+      "boothId": 7195,
+      "name": "Lobethal",
+      "formal": 1185,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 71.81,
+      "swing": 71.81,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 421,
+          "pct": 35.53
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 243,
+          "pct": 20.51
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 186,
+          "pct": 15.7
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 142,
+          "pct": 11.98
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 83,
+          "pct": 7.0
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 81,
+          "pct": 6.84
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 851,
+          "elected": true,
+          "pct": 71.81
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 334,
+          "elected": false,
+          "pct": 28.19
+        }
+      ]
+    },
+    {
+      "boothId": 7170,
+      "name": "Coromandel Valley",
+      "formal": 1169,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 50.81,
+      "swing": 50.81,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 355,
+          "pct": 30.37
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 263,
+          "pct": 22.5
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 238,
+          "pct": 20.36
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 221,
+          "pct": 18.91
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 2.91
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 2.48
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 594,
+          "elected": true,
+          "pct": 50.81
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 575,
+          "elected": false,
+          "pct": 49.19
+        }
+      ]
+    },
+    {
+      "boothId": 7160,
+      "name": "Oakbank",
+      "formal": 1152,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 71.61,
+      "swing": 71.61,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 446,
+          "pct": 38.72
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 248,
+          "pct": 21.53
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 195,
+          "pct": 16.93
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 160,
+          "pct": 13.89
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 3.12
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.95
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 2.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 825,
+          "elected": true,
+          "pct": 71.61
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 327,
+          "elected": false,
+          "pct": 28.39
+        }
+      ]
+    },
+    {
+      "boothId": 7176,
+      "name": "Victor Harbor South",
+      "formal": 1113,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 68.46,
+      "swing": 68.46,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 380,
+          "pct": 34.14
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 243,
+          "pct": 21.83
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 239,
+          "pct": 21.47
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 11.95
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 4.94
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 3.59
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 762,
+          "elected": true,
+          "pct": 68.46
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 351,
+          "elected": false,
+          "pct": 31.54
+        }
+      ]
+    },
+    {
+      "boothId": 7235,
+      "name": "Victor Harbor",
+      "formal": 1112,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 65.83,
+      "swing": 65.83,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 276,
+          "pct": 24.82
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 273,
+          "pct": 24.55
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 218,
+          "pct": 19.6
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 174,
+          "pct": 15.65
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 91,
+          "pct": 8.18
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 44,
+          "pct": 3.96
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 3.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 732,
+          "elected": true,
+          "pct": 65.83
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 380,
+          "elected": false,
+          "pct": 34.17
+        }
+      ]
+    },
+    {
+      "boothId": 7182,
+      "name": "Hahndorf",
+      "formal": 1095,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 70.78,
+      "swing": 70.78,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 340,
+          "pct": 31.05
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 310,
+          "pct": 28.31
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 183,
+          "pct": 16.71
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 155,
+          "pct": 14.16
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 5.84
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 2.65
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 775,
+          "elected": true,
+          "pct": 70.78
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 320,
+          "elected": false,
+          "pct": 29.22
+        }
+      ]
+    },
+    {
+      "boothId": 7163,
+      "name": "Bridgewater",
+      "formal": 1076,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 60.69,
+      "swing": 60.69,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 311,
+          "pct": 28.9
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 291,
+          "pct": 27.04
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 242,
+          "pct": 22.49
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "pct": 13.29
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 3.16
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 2.88
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 653,
+          "elected": true,
+          "pct": 60.69
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 423,
+          "elected": false,
+          "pct": 39.31
+        }
+      ]
+    },
+    {
+      "boothId": 7229,
+      "name": "Stirling West",
+      "formal": 1069,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 66.79,
+      "swing": 66.79,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 323,
+          "pct": 30.22
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 259,
+          "pct": 24.23
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 221,
+          "pct": 20.67
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 195,
+          "pct": 18.24
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 2.81
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.06
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 1.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 714,
+          "elected": true,
+          "pct": 66.79
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 355,
+          "elected": false,
+          "pct": 33.21
+        }
+      ]
+    },
+    {
+      "boothId": 7198,
+      "name": "McLaren Flat",
+      "formal": 1052,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 53.9,
+      "swing": 53.9,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 301,
+          "pct": 28.61
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 274,
+          "pct": 26.05
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 196,
+          "pct": 18.63
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 146,
+          "pct": 13.88
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 65,
+          "pct": 6.18
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 3.52
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 3.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 567,
+          "elected": true,
+          "pct": 53.9
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 485,
+          "elected": false,
+          "pct": 46.1
+        }
+      ]
+    },
+    {
+      "boothId": 7171,
+      "name": "Crafers",
+      "formal": 1044,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 66.28,
+      "swing": 66.28,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 335,
+          "pct": 32.09
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 220,
+          "pct": 21.07
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 207,
+          "pct": 19.83
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 204,
+          "pct": 19.54
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 3.74
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.68
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 692,
+          "elected": true,
+          "pct": 66.28
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 352,
+          "elected": false,
+          "pct": 33.72
+        }
+      ]
+    },
+    {
+      "boothId": 46416,
+      "name": "Mount Barker Central",
+      "formal": 1023,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 62.56,
+      "swing": 62.56,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 299,
+          "pct": 29.23
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 208,
+          "pct": 20.33
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 200,
+          "pct": 19.55
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 183,
+          "pct": 17.89
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 6.84
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 4.3
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 640,
+          "elected": true,
+          "pct": 62.56
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 383,
+          "elected": false,
+          "pct": 37.44
+        }
+      ]
+    },
+    {
+      "boothId": 7236,
+      "name": "Victor Harbor East",
+      "formal": 1022,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 66.73,
+      "swing": 66.73,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 319,
+          "pct": 31.21
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 214,
+          "pct": 20.94
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 198,
+          "pct": 19.37
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 146,
+          "pct": 14.29
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 6.56
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 55,
+          "pct": 5.38
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 682,
+          "elected": true,
+          "pct": 66.73
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 340,
+          "elected": false,
+          "pct": 33.27
+        }
+      ]
+    },
+    {
+      "boothId": 83310,
+      "name": "Mount Barker East",
+      "formal": 1013,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 66.73,
+      "swing": 66.73,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 339,
+          "pct": 33.46
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 223,
+          "pct": 22.01
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 193,
+          "pct": 19.05
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 156,
+          "pct": 15.4
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 45,
+          "pct": 4.44
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 3.95
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 676,
+          "elected": true,
+          "pct": 66.73
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 337,
+          "elected": false,
+          "pct": 33.27
+        }
+      ]
+    },
+    {
+      "boothId": 7206,
+      "name": "Mount Compass",
+      "formal": 1007,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 65.74,
+      "swing": 65.74,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 287,
+          "pct": 28.5
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 244,
+          "pct": 24.23
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 174,
+          "pct": 17.28
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 113,
+          "pct": 11.22
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 111,
+          "pct": 11.02
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 42,
+          "pct": 4.17
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 662,
+          "elected": true,
+          "pct": 65.74
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 345,
+          "elected": false,
+          "pct": 34.26
+        }
+      ]
+    },
+    {
+      "boothId": 7200,
+      "name": "Meadows",
+      "formal": 997,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 67.1,
+      "swing": 67.1,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 285,
+          "pct": 28.59
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 219,
+          "pct": 21.97
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 184,
+          "pct": 18.46
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 135,
+          "pct": 13.54
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 127,
+          "pct": 12.74
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 2.41
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 669,
+          "elected": true,
+          "pct": 67.1
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 328,
+          "elected": false,
+          "pct": 32.9
+        }
+      ]
+    },
+    {
+      "boothId": 108904,
+      "name": "Colonel Light Gardens MAYO PPVC",
+      "formal": 935,
+      "winnerParty": "alp",
+      "winnerSurname": "BELL",
+      "winnerPct": 54.01,
+      "swing": 54.01,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 324,
+          "pct": 34.65
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 244,
+          "pct": 26.1
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 138,
+          "pct": 14.76
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 135,
+          "pct": 14.44
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 4.49
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 2.89
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 2.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 430,
+          "elected": true,
+          "pct": 45.99
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 505,
+          "elected": false,
+          "pct": 54.01
+        }
+      ]
+    },
+    {
+      "boothId": 7228,
+      "name": "Stirling East",
+      "formal": 857,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 65.46,
+      "swing": 65.46,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 281,
+          "pct": 32.79
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 216,
+          "pct": 25.2
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 171,
+          "pct": 19.95
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 155,
+          "pct": 18.09
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 1.75
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 1.52
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 561,
+          "elected": true,
+          "pct": 65.46
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 296,
+          "elected": false,
+          "pct": 34.54
+        }
+      ]
+    },
+    {
+      "boothId": 7197,
+      "name": "Macclesfield",
+      "formal": 803,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 71.73,
+      "swing": 71.73,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 314,
+          "pct": 39.1
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 135,
+          "pct": 16.81
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 130,
+          "pct": 16.19
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 125,
+          "pct": 15.57
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 7.47
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 3.24
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 576,
+          "elected": true,
+          "pct": 71.73
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 227,
+          "elected": false,
+          "pct": 28.27
+        }
+      ]
+    },
+    {
+      "boothId": 7223,
+      "name": "Port Elliot",
+      "formal": 791,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 67.64,
+      "swing": 67.64,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 291,
+          "pct": 36.79
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 159,
+          "pct": 20.1
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 135,
+          "pct": 17.07
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 108,
+          "pct": 13.65
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 7.59
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 2.78
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 535,
+          "elected": true,
+          "pct": 67.64
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 256,
+          "elected": false,
+          "pct": 32.36
+        }
+      ]
+    },
+    {
+      "boothId": 7175,
+      "name": "Echunga",
+      "formal": 766,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 69.97,
+      "swing": 69.97,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 236,
+          "pct": 30.81
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 184,
+          "pct": 24.02
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 115,
+          "pct": 15.01
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 111,
+          "pct": 14.49
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 9.79
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 3.26
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 2.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 536,
+          "elected": true,
+          "pct": 69.97
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 230,
+          "elected": false,
+          "pct": 30.03
+        }
+      ]
+    },
+    {
+      "boothId": 7234,
+      "name": "Uraidla",
+      "formal": 757,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 69.75,
+      "swing": 69.75,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 248,
+          "pct": 32.76
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 170,
+          "pct": 22.46
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 147,
+          "pct": 19.42
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 130,
+          "pct": 17.17
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 4.62
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.98
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 528,
+          "elected": true,
+          "pct": 69.75
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 229,
+          "elected": false,
+          "pct": 30.25
+        }
+      ]
+    },
+    {
+      "boothId": 7227,
+      "name": "Sellicks Beach",
+      "formal": 757,
+      "winnerParty": "alp",
+      "winnerSurname": "BELL",
+      "winnerPct": 54.43,
+      "swing": 54.43,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 241,
+          "pct": 31.84
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 160,
+          "pct": 21.14
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 116,
+          "pct": 15.32
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 103,
+          "pct": 13.61
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 8.85
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 4.76
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 4.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 345,
+          "elected": true,
+          "pct": 45.57
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 412,
+          "elected": false,
+          "pct": 54.43
+        }
+      ]
+    },
+    {
+      "boothId": 7157,
+      "name": "Aldinga Beach",
+      "formal": 756,
+      "winnerParty": "alp",
+      "winnerSurname": "BELL",
+      "winnerPct": 51.72,
+      "swing": 51.72,
+      "candidates": [
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 210,
+          "pct": 27.78
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 202,
+          "pct": 26.72
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 103,
+          "pct": 13.62
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 102,
+          "pct": 13.49
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 8.33
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 43,
+          "pct": 5.69
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 4.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 365,
+          "elected": true,
+          "pct": 48.28
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 391,
+          "elected": false,
+          "pct": 51.72
+        }
+      ]
+    },
+    {
+      "boothId": 97216,
+      "name": "Noarlunga MAYO PPVC",
+      "formal": 748,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 50.67,
+      "swing": 50.67,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 221,
+          "pct": 29.55
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 171,
+          "pct": 22.86
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 124,
+          "pct": 16.58
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 104,
+          "pct": 13.9
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 9.76
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 4.28
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 3.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 379,
+          "elected": true,
+          "pct": 50.67
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 369,
+          "elected": false,
+          "pct": 49.33
+        }
+      ]
+    },
+    {
+      "boothId": 7232,
+      "name": "Summertown",
+      "formal": 713,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 66.76,
+      "swing": 66.76,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 250,
+          "pct": 35.06
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "pct": 20.06
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 134,
+          "pct": 18.79
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 117,
+          "pct": 16.41
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 3.51
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 3.23
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 2.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 476,
+          "elected": true,
+          "pct": 66.76
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 237,
+          "elected": false,
+          "pct": 33.24
+        }
+      ]
+    },
+    {
+      "boothId": 7371,
+      "name": "Kersbrook",
+      "formal": 660,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 67.58,
+      "swing": 67.58,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 192,
+          "pct": 29.09
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 160,
+          "pct": 24.24
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 118,
+          "pct": 17.88
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 11.21
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 10.15
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 3.94
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 3.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 446,
+          "elected": true,
+          "pct": 67.58
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 214,
+          "elected": false,
+          "pct": 32.42
+        }
+      ]
+    },
+    {
+      "boothId": 7214,
+      "name": "Myponga",
+      "formal": 658,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 65.65,
+      "swing": 65.65,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 175,
+          "pct": 26.6
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 158,
+          "pct": 24.01
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 123,
+          "pct": 18.69
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 80,
+          "pct": 12.16
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 9.42
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 5.47
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 3.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 432,
+          "elected": true,
+          "pct": 65.65
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 226,
+          "elected": false,
+          "pct": 34.35
+        }
+      ]
+    },
+    {
+      "boothId": 7201,
+      "name": "Middleton",
+      "formal": 647,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 73.72,
+      "swing": 73.72,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 233,
+          "pct": 36.01
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 130,
+          "pct": 20.09
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 112,
+          "pct": 17.31
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 91,
+          "pct": 14.06
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 6.18
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 3.4
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 477,
+          "elected": true,
+          "pct": 73.72
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "elected": false,
+          "pct": 26.28
+        }
+      ]
+    },
+    {
+      "boothId": 7134,
+      "name": "Houghton",
+      "formal": 632,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 69.3,
+      "swing": 69.3,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 198,
+          "pct": 31.33
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 161,
+          "pct": 25.47
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 112,
+          "pct": 17.72
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 58,
+          "pct": 9.18
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 8.54
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 4.27
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 3.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 438,
+          "elected": true,
+          "pct": 69.3
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 194,
+          "elected": false,
+          "pct": 30.7
+        }
+      ]
+    },
+    {
+      "boothId": 7216,
+      "name": "Norton Summit",
+      "formal": 631,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 66.56,
+      "swing": 66.56,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 212,
+          "pct": 33.6
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 135,
+          "pct": 21.39
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 123,
+          "pct": 19.49
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 107,
+          "pct": 16.96
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 3.65
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.01
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 420,
+          "elected": true,
+          "pct": 66.56
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 211,
+          "elected": false,
+          "pct": 33.44
+        }
+      ]
+    },
+    {
+      "boothId": 7173,
+      "name": "Currency Creek",
+      "formal": 630,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 77.94,
+      "swing": 77.94,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 236,
+          "pct": 37.46
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 182,
+          "pct": 28.89
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 82,
+          "pct": 13.02
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 54,
+          "pct": 8.57
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 6.19
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 3.17
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 2.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 491,
+          "elected": true,
+          "pct": 77.94
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "elected": false,
+          "pct": 22.06
+        }
+      ]
+    },
+    {
+      "boothId": 109742,
+      "name": "Myrtle Bank MAYO PPVC",
+      "formal": 614,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 59.28,
+      "swing": 59.28,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 190,
+          "pct": 30.94
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 138,
+          "pct": 22.48
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 133,
+          "pct": 21.66
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 17.92
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 3.42
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.95
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 1.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 364,
+          "elected": true,
+          "pct": 59.28
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 250,
+          "elected": false,
+          "pct": 40.72
+        }
+      ]
+    },
+    {
+      "boothId": 7189,
+      "name": "Kangarilla",
+      "formal": 608,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 62.34,
+      "swing": 62.34,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 161,
+          "pct": 26.48
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 159,
+          "pct": 26.15
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 155,
+          "pct": 25.49
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 59,
+          "pct": 9.7
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 6.74
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.12
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 379,
+          "elected": true,
+          "pct": 62.34
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 229,
+          "elected": false,
+          "pct": 37.66
+        }
+      ]
+    },
+    {
+      "boothId": 7202,
+      "name": "Milang",
+      "formal": 592,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 72.8,
+      "swing": 72.8,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 230,
+          "pct": 38.85
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 124,
+          "pct": 20.95
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 91,
+          "pct": 15.37
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 55,
+          "pct": 9.29
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 8.95
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 3.55
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 3.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 431,
+          "elected": true,
+          "pct": 72.8
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 161,
+          "elected": false,
+          "pct": 27.2
+        }
+      ]
+    },
+    {
+      "boothId": 7165,
+      "name": "Brukunga",
+      "formal": 591,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 72.42,
+      "swing": 72.42,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 248,
+          "pct": 41.96
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 102,
+          "pct": 17.26
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 90,
+          "pct": 15.23
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 78,
+          "pct": 13.2
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 6.26
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 3.38
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 428,
+          "elected": true,
+          "pct": 72.42
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 163,
+          "elected": false,
+          "pct": 27.58
+        }
+      ]
+    },
+    {
+      "boothId": 7162,
+      "name": "Birdwood",
+      "formal": 590,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 71.53,
+      "swing": 71.53,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 224,
+          "pct": 37.97
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 126,
+          "pct": 21.36
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 104,
+          "pct": 17.63
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 11.53
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 5.25
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.22
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 3.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 422,
+          "elected": true,
+          "pct": 71.53
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 168,
+          "elected": false,
+          "pct": 28.47
+        }
+      ]
+    },
+    {
+      "boothId": 7167,
+      "name": "Charleston",
+      "formal": 534,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 78.28,
+      "swing": 78.28,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 248,
+          "pct": 46.44
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 110,
+          "pct": 20.6
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 60,
+          "pct": 11.24
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 59,
+          "pct": 11.05
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 5.24
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 3.37
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 2.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 418,
+          "elected": true,
+          "pct": 78.28
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 116,
+          "elected": false,
+          "pct": 21.72
+        }
+      ]
+    },
+    {
+      "boothId": 7212,
+      "name": "Mylor",
+      "formal": 528,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 69.7,
+      "swing": 69.7,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 177,
+          "pct": 33.52
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 116,
+          "pct": 21.97
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 108,
+          "pct": 20.45
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 92,
+          "pct": 17.42
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 3.41
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.08
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 368,
+          "elected": true,
+          "pct": 69.7
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 160,
+          "elected": false,
+          "pct": 30.3
+        }
+      ]
+    },
+    {
+      "boothId": 97169,
+      "name": "Flagstaff Hill East (Mayo)",
+      "formal": 523,
+      "winnerParty": "alp",
+      "winnerSurname": "BELL",
+      "winnerPct": 53.92,
+      "swing": 53.92,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 172,
+          "pct": 32.89
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 117,
+          "pct": 22.37
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 98,
+          "pct": 18.74
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 89,
+          "pct": 17.02
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 3.25
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 3.25
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 241,
+          "elected": true,
+          "pct": 46.08
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 282,
+          "elected": false,
+          "pct": 53.92
+        }
+      ]
+    },
+    {
+      "boothId": 7168,
+      "name": "Cherry Gardens",
+      "formal": 510,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 61.57,
+      "swing": 61.57,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 156,
+          "pct": 30.59
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 129,
+          "pct": 25.29
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 109,
+          "pct": 21.37
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 13.33
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 5.49
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.55
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 314,
+          "elected": true,
+          "pct": 61.57
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 196,
+          "elected": false,
+          "pct": 38.43
+        }
+      ]
+    },
+    {
+      "boothId": 58737,
+      "name": "Adelaide MAYO PPVC",
+      "formal": 489,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 51.74,
+      "swing": 51.74,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 133,
+          "pct": 27.2
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 119,
+          "pct": 24.34
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 112,
+          "pct": 22.9
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 97,
+          "pct": 19.84
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 2.45
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.64
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 253,
+          "elected": true,
+          "pct": 51.74
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 236,
+          "elected": false,
+          "pct": 48.26
+        }
+      ]
+    },
+    {
+      "boothId": 7233,
+      "name": "Upper Sturt",
+      "formal": 480,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 59.79,
+      "swing": 59.79,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 141,
+          "pct": 29.38
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 114,
+          "pct": 23.75
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 101,
+          "pct": 21.04
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 87,
+          "pct": 18.12
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 3.54
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.5
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 287,
+          "elected": true,
+          "pct": 59.79
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 193,
+          "elected": false,
+          "pct": 40.21
+        }
+      ]
+    },
+    {
+      "boothId": 7208,
+      "name": "Mount Torrens",
+      "formal": 473,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 77.38,
+      "swing": 77.38,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 194,
+          "pct": 41.01
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 123,
+          "pct": 26.0
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 54,
+          "pct": 11.42
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 9.73
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 6.77
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.96
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 366,
+          "elected": true,
+          "pct": 77.38
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 107,
+          "elected": false,
+          "pct": 22.62
+        }
+      ]
+    },
+    {
+      "boothId": 7191,
+      "name": "Kingscote",
+      "formal": 472,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 74.36,
+      "swing": 74.36,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 152,
+          "pct": 32.2
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 125,
+          "pct": 26.48
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 69,
+          "pct": 14.62
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 58,
+          "pct": 12.29
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 8.05
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 3.18
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 3.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 351,
+          "elected": true,
+          "pct": 74.36
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 121,
+          "elected": false,
+          "pct": 25.64
+        }
+      ]
+    },
+    {
+      "boothId": 7196,
+      "name": "Longwood",
+      "formal": 472,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 70.13,
+      "swing": 70.13,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 174,
+          "pct": 36.86
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 97,
+          "pct": 20.55
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 95,
+          "pct": 20.13
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 82,
+          "pct": 17.37
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 2.12
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.91
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 331,
+          "elected": true,
+          "pct": 70.13
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 141,
+          "elected": false,
+          "pct": 29.87
+        }
+      ]
+    },
+    {
+      "boothId": 7169,
+      "name": "Clarendon",
+      "formal": 394,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 62.44,
+      "swing": 62.44,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 125,
+          "pct": 31.73
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "pct": 24.62
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 93,
+          "pct": 23.6
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 8.12
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 7.36
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 2.28
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 246,
+          "elected": true,
+          "pct": 62.44
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 148,
+          "elected": false,
+          "pct": 37.56
+        }
+      ]
+    },
+    {
+      "boothId": 7181,
+      "name": "Gumeracha",
+      "formal": 391,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 66.5,
+      "swing": 66.5,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 135,
+          "pct": 34.53
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 76,
+          "pct": 19.44
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 70,
+          "pct": 17.9
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 42,
+          "pct": 10.74
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 8.18
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 4.86
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 4.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 260,
+          "elected": true,
+          "pct": 66.5
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 131,
+          "elected": false,
+          "pct": 33.5
+        }
+      ]
+    },
+    {
+      "boothId": 7240,
+      "name": "Woodchester",
+      "formal": 374,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 73.26,
+      "swing": 73.26,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 146,
+          "pct": 39.04
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 79,
+          "pct": 21.12
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 59,
+          "pct": 15.78
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 8.56
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 7.22
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 4.81
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 3.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 274,
+          "elected": true,
+          "pct": 73.26
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 100,
+          "elected": false,
+          "pct": 26.74
+        }
+      ]
+    },
+    {
+      "boothId": 7193,
+      "name": "Lenswood",
+      "formal": 368,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 79.89,
+      "swing": 79.89,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 139,
+          "pct": 37.77
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 110,
+          "pct": 29.89
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 15.49
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 37,
+          "pct": 10.05
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 4.35
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.9
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 294,
+          "elected": true,
+          "pct": 79.89
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 74,
+          "elected": false,
+          "pct": 20.11
+        }
+      ]
+    },
+    {
+      "boothId": 7166,
+      "name": "Callington",
+      "formal": 324,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 64.81,
+      "swing": 64.81,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 84,
+          "pct": 25.93
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 79,
+          "pct": 24.38
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 60,
+          "pct": 18.52
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 38,
+          "pct": 11.73
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 11.42
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 4.94
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 3.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 210,
+          "elected": true,
+          "pct": 64.81
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 114,
+          "elected": false,
+          "pct": 35.19
+        }
+      ]
+    },
+    {
+      "boothId": 7221,
+      "name": "Penneshaw",
+      "formal": 312,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 71.15,
+      "swing": 71.15,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 97,
+          "pct": 31.09
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 86,
+          "pct": 27.56
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 57,
+          "pct": 18.27
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 10.58
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 7.69
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 3.53
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 222,
+          "elected": true,
+          "pct": 71.15
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 90,
+          "elected": false,
+          "pct": 28.85
+        }
+      ]
+    },
+    {
+      "boothId": 7178,
+      "name": "Forreston",
+      "formal": 307,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 71.99,
+      "swing": 71.99,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 104,
+          "pct": 33.88
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 82,
+          "pct": 26.71
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 54,
+          "pct": 17.59
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 7.82
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 6.19
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 4.56
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 3.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 221,
+          "elected": true,
+          "pct": 71.99
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 86,
+          "elected": false,
+          "pct": 28.01
+        }
+      ]
+    },
+    {
+      "boothId": 7192,
+      "name": "Langhorne Creek",
+      "formal": 296,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 80.07,
+      "swing": 80.07,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 116,
+          "pct": 39.19
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 91,
+          "pct": 30.74
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "pct": 9.8
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 23,
+          "pct": 7.77
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 6.76
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 3.38
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 237,
+          "elected": true,
+          "pct": 80.07
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 59,
+          "elected": false,
+          "pct": 19.93
+        }
+      ]
+    },
+    {
+      "boothId": 7226,
+      "name": "Second Valley",
+      "formal": 248,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 69.76,
+      "swing": 69.76,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 85,
+          "pct": 34.27
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "pct": 22.18
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 53,
+          "pct": 21.37
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 12.9
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 7.66
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.61
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 173,
+          "elected": true,
+          "pct": 69.76
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 75,
+          "elected": false,
+          "pct": 30.24
+        }
+      ]
+    },
+    {
+      "boothId": 7172,
+      "name": "Cudlee Creek",
+      "formal": 239,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 69.87,
+      "swing": 69.87,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 76,
+          "pct": 31.8
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 61,
+          "pct": 25.52
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 41,
+          "pct": 17.15
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 10.46
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 6.28
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 4.6
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 4.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 167,
+          "elected": true,
+          "pct": 69.87
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 72,
+          "elected": false,
+          "pct": 30.13
+        }
+      ]
+    },
+    {
+      "boothId": 7174,
+      "name": "Delamere",
+      "formal": 224,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 69.2,
+      "swing": 69.2,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 64,
+          "pct": 28.57
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 58,
+          "pct": 25.89
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 40,
+          "pct": 17.86
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 14.29
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 8.04
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 3.12
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 2.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 155,
+          "elected": true,
+          "pct": 69.2
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 69,
+          "elected": false,
+          "pct": 30.8
+        }
+      ]
+    },
+    {
+      "boothId": 7159,
+      "name": "Ashbourne",
+      "formal": 202,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 67.82,
+      "swing": 67.82,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 64,
+          "pct": 31.68
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 61,
+          "pct": 30.2
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 41,
+          "pct": 20.3
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 17,
+          "pct": 8.42
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 3.96
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.97
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 2.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 137,
+          "elected": true,
+          "pct": 67.82
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 65,
+          "elected": false,
+          "pct": 32.18
+        }
+      ]
+    },
+    {
+      "boothId": 7158,
+      "name": "American River",
+      "formal": 188,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 75.53,
+      "swing": 75.53,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 62,
+          "pct": 32.98
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 59,
+          "pct": 31.38
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 26,
+          "pct": 13.83
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 12.77
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 7.98
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.06
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 142,
+          "elected": true,
+          "pct": 75.53
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 46,
+          "elected": false,
+          "pct": 24.47
+        }
+      ]
+    },
+    {
+      "boothId": 7220,
+      "name": "Parndana",
+      "formal": 185,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 82.16,
+      "swing": 82.16,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 89,
+          "pct": 48.11
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 41,
+          "pct": 22.16
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 12.43
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 12,
+          "pct": 6.49
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 5.41
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 3.78
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 152,
+          "elected": true,
+          "pct": 82.16
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 33,
+          "elected": false,
+          "pct": 17.84
+        }
+      ]
+    },
+    {
+      "boothId": 109147,
+      "name": "Special Hospital Team 3",
+      "formal": 176,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 73.3,
+      "swing": 73.3,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 68,
+          "pct": 38.64
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 51,
+          "pct": 28.98
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 38,
+          "pct": 21.59
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 3.41
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 2.84
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 2.27
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 129,
+          "elected": true,
+          "pct": 73.3
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 47,
+          "elected": false,
+          "pct": 26.7
+        }
+      ]
+    },
+    {
+      "boothId": 108799,
+      "name": "Special Hospital Team 1",
+      "formal": 172,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 70.35,
+      "swing": 70.35,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 70,
+          "pct": 40.7
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 50,
+          "pct": 29.07
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "pct": 17.44
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 5.23
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 3.49
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.33
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 121,
+          "elected": true,
+          "pct": 70.35
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 51,
+          "elected": false,
+          "pct": 29.65
+        }
+      ]
+    },
+    {
+      "boothId": 109148,
+      "name": "Special Hospital Team 4",
+      "formal": 166,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 59.64,
+      "swing": 59.64,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 56,
+          "pct": 33.73
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 45,
+          "pct": 27.11
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 44,
+          "pct": 26.51
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 8.43
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.81
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 1.81
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 99,
+          "elected": true,
+          "pct": 59.64
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 67,
+          "elected": false,
+          "pct": 40.36
+        }
+      ]
+    },
+    {
+      "boothId": 108800,
+      "name": "Special Hospital Team 2",
+      "formal": 102,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 61.76,
+      "swing": 61.76,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 34,
+          "pct": 33.33
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 28,
+          "pct": 27.45
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 22,
+          "pct": 21.57
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 10.78
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 2.94
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.96
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 63,
+          "elected": true,
+          "pct": 61.76
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "elected": false,
+          "pct": 38.24
+        }
+      ]
+    },
+    {
+      "boothId": 109149,
+      "name": "Special Hospital Team 5",
+      "formal": 12,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 91.67,
+      "swing": 91.67,
+      "candidates": [
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 7,
+          "pct": 58.33
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 4,
+          "pct": 33.33
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 8.33
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 11,
+          "elected": true,
+          "pct": 91.67
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1,
+          "elected": false,
+          "pct": 8.33
+        }
+      ]
+    },
+    {
+      "boothId": 65574,
+      "name": "EAV Mayo PPVC",
+      "formal": 9,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 55.56,
+      "swing": 55.56,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "pct": 44.44
+        },
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 3,
+          "pct": 33.33
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "pct": 22.22
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 5,
+          "elected": true,
+          "pct": 55.56
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "elected": false,
+          "pct": 44.44
+        }
+      ]
+    },
+    {
+      "boothId": 109836,
+      "name": "Other Mobile Team 1",
+      "formal": 6,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 66.67,
+      "swing": 66.67,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 2,
+          "pct": 33.33
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2,
+          "pct": 33.33
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1,
+          "pct": 16.67
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 16.67
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 4,
+          "elected": true,
+          "pct": 66.67
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2,
+          "elected": false,
+          "pct": 33.33
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 125182,
+    "candidates": [
+      {
+        "id": "C41035",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Basic"
+      },
+      {
+        "id": "C40653",
+        "party": "ca",
+        "displayShort": "CA",
+        "displayLong": "CA \u2014 Sharkie"
+      },
+      {
+        "id": "C41029",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Dawson-Scott"
+      },
+      {
+        "id": "C41058",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Hackett"
+      },
+      {
+        "id": "C41186",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Bell"
+      },
+      {
+        "id": "C42045",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Hewett"
+      },
+      {
+        "id": "C41049",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Bidwell"
+      }
+    ],
+    "rounds": [
+      {
+        "C41035": 29551,
+        "C40653": 37453,
+        "C41029": 17048,
+        "C41058": 3397,
+        "C41186": 26718,
+        "C42045": 7493,
+        "C41049": 3522
+      },
+      {
+        "C41035": 30074,
+        "C40653": 37902,
+        "C41029": 17443,
+        "C41186": 26987,
+        "C42045": 8724,
+        "C41049": 4052
+      },
+      {
+        "C41035": 30730,
+        "C40653": 38421,
+        "C41029": 17686,
+        "C41186": 27222,
+        "C42045": 11123
+      },
+      {
+        "C41035": 35611,
+        "C40653": 42352,
+        "C41029": 18794,
+        "C41186": 28425
+      },
+      {
+        "C41035": 36751,
+        "C40653": 50771,
+        "C41186": 37660
+      },
+      {
+        "C40653": 81231,
+        "C41186": 43951
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            57.06,
+            57.35,
+            62.51,
+            45.03,
+            44.86,
+            37.74,
+            null
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            42.94,
+            42.65,
+            37.49,
+            null,
+            null,
+            null,
+            35.11
+          ]
+        },
+        {
+          "id": "CA",
+          "party": "ca",
+          "label": "CA",
+          "points": [
+            null,
+            null,
+            null,
+            54.97,
+            55.14,
+            62.26,
+            64.89
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "GRN": 10.96,
+            "FFP": 4.02,
+            "ALP": 31.12,
+            "LIB": 51.08,
+            "OTH": 2.82
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "ALP": 25.02,
+            "FFP": 5.81,
+            "LIB": 46.76,
+            "IND": 3.7,
+            "GRN": 16.97,
+            "OTH": 1.74
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "ALP": 21.14,
+            "LIB": 53.82,
+            "TOP": 3.76,
+            "GRN": 14.15,
+            "FFP": 7.14
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "FFP": 4.6,
+            "LIB": 37.76,
+            "GRN": 8.05,
+            "ALP": 13.52,
+            "CA": 34.86,
+            "OTH": 1.21
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "CA": 34.19,
+            "TOP": 3.19,
+            "ALP": 13.66,
+            "GRN": 9.26,
+            "AJP": 2.04,
+            "LIB": 37.65
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "CA": 31.41,
+            "ON": 4.11,
+            "ALP": 18.11,
+            "LIB": 27.03,
+            "TOP": 3.52,
+            "GRN": 11.79,
+            "OTH": 4.03
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "CYA": 2.81,
+            "LIB": 23.61,
+            "ALP": 21.34,
+            "FFP": 2.71,
+            "ON": 5.99,
+            "CA": 29.92,
+            "GRN": 13.62
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 173735,
+    "medianAge": 46,
+    "medianHouseholdIncomeWeekly": 1468,
+    "medianRentWeekly": 315,
+    "averageHouseholdSize": 2.5,
+    "bornOverseasPct": 18.0,
+    "indigenousPct": 1.3,
+    "bachelorPlusPct": 35.7,
+    "renterPct": 16.9,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 135752,
+        "pct": 82.01,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 7047,
+        "pct": 4.26,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 790,
+        "pct": 0.48,
+        "natPct": 1.11
+      },
+      {
+        "label": "Scotland",
+        "count": 635,
+        "pct": 0.38,
+        "natPct": 0.25
+      },
+      {
+        "label": "Germany",
+        "count": 586,
+        "pct": 0.35,
+        "natPct": 0.2
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 93753,
+        "pct": 53.96,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 64114,
+        "pct": 36.9,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 11808,
+        "pct": 6.8,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 1259,
+        "pct": 0.72,
+        "natPct": 2.42
+      },
+      {
+        "label": "Other religions",
+        "count": 828,
+        "pct": 0.48,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Mayo is an Australian electoral division located to the east and south of Adelaide, South Australia. Created in the state redistribution of 3 September 1984, the division is named after Helen Mayo, a social activist and the first woman elected to an Australian University Council.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Mayo",
+    "retrievedAt": "2025-10-27T13:15:56Z"
+  }
+}

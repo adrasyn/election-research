@@ -1,0 +1,4741 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "RYAN",
+    "divisionId": 177,
+    "name": "Ryan",
+    "state": "QLD",
+    "totalFormal": 103462,
+    "informalVotes": 2472,
+    "informalRate": 3.08,
+    "winner": {
+      "candidateId": "C41285",
+      "surname": "WATSON-BROWN",
+      "givenName": "Elizabeth",
+      "party": "grn",
+      "partyAb": "GRN",
+      "incumbent": true
+    },
+    "previousWinnerParty": "GRN",
+    "tcpMargin": 6.54,
+    "result": "GRN RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41192",
+      "surname": "FORREST",
+      "givenName": "Maggie",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 26048,
+      "pct": 33.52
+    },
+    {
+      "candidateId": "C41285",
+      "surname": "WATSON-BROWN",
+      "givenName": "Elizabeth",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 23550,
+      "pct": 30.3
+    },
+    {
+      "candidateId": "C40807",
+      "surname": "HACK",
+      "givenName": "Rebecca",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 21980,
+      "pct": 28.28
+    },
+    {
+      "candidateId": "C40974",
+      "surname": "DE LAPP",
+      "givenName": "N",
+      "party": "oth",
+      "partyAb": "GRPF",
+      "votes": 1840,
+      "pct": 2.37
+    },
+    {
+      "candidateId": "C40960",
+      "surname": "ELSOM",
+      "givenName": "Robbie",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 1620,
+      "pct": 2.08
+    },
+    {
+      "candidateId": "C40905",
+      "surname": "GALLEHAWK",
+      "givenName": "Donna",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 991,
+      "pct": 1.28
+    },
+    {
+      "candidateId": "C41415",
+      "surname": "HUNT",
+      "givenName": "Ryan",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 990,
+      "pct": 1.27
+    },
+    {
+      "candidateId": "C40687",
+      "surname": "MASTERTON",
+      "givenName": "Gina",
+      "party": "fus",
+      "partyAb": "FUS",
+      "votes": 697,
+      "pct": 0.9
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41285",
+      "surname": "WATSON-BROWN",
+      "givenName": "Elizabeth",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 55112,
+      "pct": 53.27,
+      "elected": true
+    },
+    {
+      "candidateId": "C41192",
+      "surname": "FORREST",
+      "givenName": "Maggie",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 48350,
+      "pct": 46.73,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 38279,
+      "name": "Indooroopilly RYAN PPVC",
+      "formal": 13571,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 53.47,
+      "swing": -0.47,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5071,
+          "pct": 37.37
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4314,
+          "pct": 31.79
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3447,
+          "pct": 25.4
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 239,
+          "pct": 1.76
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 177,
+          "pct": 1.3
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 125,
+          "pct": 0.92
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 106,
+          "pct": 0.78
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 92,
+          "pct": 0.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7257,
+          "elected": true,
+          "pct": 53.47
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6314,
+          "elected": false,
+          "pct": 46.53
+        }
+      ]
+    },
+    {
+      "boothId": 83414,
+      "name": "The Gap RYAN PPVC",
+      "formal": 8774,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 54.68,
+      "swing": 0.69,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2984,
+          "pct": 34.01
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2920,
+          "pct": 33.28
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2251,
+          "pct": 25.66
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 205,
+          "pct": 2.34
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 170,
+          "pct": 1.94
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 100,
+          "pct": 1.14
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 94,
+          "pct": 1.07
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 50,
+          "pct": 0.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4798,
+          "elected": true,
+          "pct": 54.68
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3976,
+          "elected": false,
+          "pct": 45.32
+        }
+      ]
+    },
+    {
+      "boothId": 83402,
+      "name": "Bellbowrie RYAN PPVC",
+      "formal": 6704,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 58.83,
+      "swing": 2.02,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3080,
+          "pct": 45.94
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1552,
+          "pct": 23.15
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1448,
+          "pct": 21.6
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 192,
+          "pct": 2.86
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 189,
+          "pct": 2.82
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 114,
+          "pct": 1.7
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 91,
+          "pct": 1.36
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 38,
+          "pct": 0.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2760,
+          "elected": true,
+          "pct": 41.17
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3944,
+          "elected": false,
+          "pct": 58.83
+        }
+      ]
+    },
+    {
+      "boothId": 58694,
+      "name": "Brisbane Central RYAN PPVC",
+      "formal": 3980,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 59.85,
+      "swing": 2.01,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1377,
+          "pct": 34.6
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1193,
+          "pct": 29.97
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1168,
+          "pct": 29.35
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 1.46
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 57,
+          "pct": 1.43
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 48,
+          "pct": 1.21
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 44,
+          "pct": 1.11
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 0.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2382,
+          "elected": true,
+          "pct": 59.85
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1598,
+          "elected": false,
+          "pct": 40.15
+        }
+      ]
+    },
+    {
+      "boothId": 65727,
+      "name": "Enoggera RYAN PPVC",
+      "formal": 3253,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 56.38,
+      "swing": 3.9,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1050,
+          "pct": 32.28
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 939,
+          "pct": 28.87
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 917,
+          "pct": 28.19
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 106,
+          "pct": 3.26
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 98,
+          "pct": 3.01
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 59,
+          "pct": 1.81
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 57,
+          "pct": 1.75
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 27,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1834,
+          "elected": true,
+          "pct": 56.38
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1419,
+          "elected": false,
+          "pct": 43.62
+        }
+      ]
+    },
+    {
+      "boothId": 32492,
+      "name": "Ferny Grove",
+      "formal": 2101,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 59.21,
+      "swing": 5.96,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 732,
+          "pct": 34.84
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 582,
+          "pct": 27.7
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 559,
+          "pct": 26.61
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 66,
+          "pct": 3.14
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 66,
+          "pct": 3.14
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 2.09
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.29
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 25,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1244,
+          "elected": true,
+          "pct": 59.21
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 857,
+          "elected": false,
+          "pct": 40.79
+        }
+      ]
+    },
+    {
+      "boothId": 31470,
+      "name": "Toowong",
+      "formal": 1919,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 64.36,
+      "swing": -3.42,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 800,
+          "pct": 41.69
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 493,
+          "pct": 25.69
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 466,
+          "pct": 24.28
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 47,
+          "pct": 2.45
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 1.93
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 33,
+          "pct": 1.72
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 1.51
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 0.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1235,
+          "elected": true,
+          "pct": 64.36
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 684,
+          "elected": false,
+          "pct": 35.64
+        }
+      ]
+    },
+    {
+      "boothId": 6502,
+      "name": "Chapel Hill",
+      "formal": 1768,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 50.62,
+      "swing": -0.78,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 683,
+          "pct": 38.63
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 514,
+          "pct": 29.07
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 466,
+          "pct": 26.36
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 34,
+          "pct": 1.92
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 1.81
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 17,
+          "pct": 0.96
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 0.62
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 873,
+          "elected": true,
+          "pct": 49.38
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 895,
+          "elected": false,
+          "pct": 50.62
+        }
+      ]
+    },
+    {
+      "boothId": 83421,
+      "name": "Bunya RYAN PPVC",
+      "formal": 1761,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 52.07,
+      "swing": 0.51,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 649,
+          "pct": 36.85
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 573,
+          "pct": 32.54
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 329,
+          "pct": 18.68
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 3.92
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 58,
+          "pct": 3.29
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 1.99
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 1.76
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 17,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 917,
+          "elected": true,
+          "pct": 52.07
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 844,
+          "elected": false,
+          "pct": 47.93
+        }
+      ]
+    },
+    {
+      "boothId": 6515,
+      "name": "Moggill",
+      "formal": 1667,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 51.53,
+      "swing": 0.98,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 532,
+          "pct": 31.91
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 477,
+          "pct": 28.61
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 437,
+          "pct": 26.21
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 76,
+          "pct": 4.56
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 68,
+          "pct": 4.08
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 44,
+          "pct": 2.64
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 1.14
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 14,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 859,
+          "elected": true,
+          "pct": 51.53
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 808,
+          "elected": false,
+          "pct": 48.47
+        }
+      ]
+    },
+    {
+      "boothId": 6511,
+      "name": "Ironside",
+      "formal": 1597,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 59.99,
+      "swing": 2.69,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 602,
+          "pct": 37.7
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 464,
+          "pct": 29.05
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 436,
+          "pct": 27.3
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 44,
+          "pct": 2.76
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 1.19
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 0.94
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 9,
+          "pct": 0.56
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 0.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 958,
+          "elected": true,
+          "pct": 59.99
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 639,
+          "elected": false,
+          "pct": 40.01
+        }
+      ]
+    },
+    {
+      "boothId": 6519,
+      "name": "Rainworth",
+      "formal": 1553,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 57.31,
+      "swing": 0.31,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 555,
+          "pct": 35.74
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 528,
+          "pct": 34.0
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 400,
+          "pct": 25.76
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 1.42
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.09
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 0.71
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 0.64
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 890,
+          "elected": true,
+          "pct": 57.31
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 663,
+          "elected": false,
+          "pct": 42.69
+        }
+      ]
+    },
+    {
+      "boothId": 5188,
+      "name": "Mitchelton",
+      "formal": 1477,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 62.42,
+      "swing": 4.14,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 507,
+          "pct": 34.33
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 444,
+          "pct": 30.06
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 374,
+          "pct": 25.32
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 44,
+          "pct": 2.98
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 2.57
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 1.96
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.62
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 17,
+          "pct": 1.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 922,
+          "elected": true,
+          "pct": 62.42
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 555,
+          "elected": false,
+          "pct": 37.58
+        }
+      ]
+    },
+    {
+      "boothId": 6525,
+      "name": "The Gap East",
+      "formal": 1459,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 63.81,
+      "swing": 2.33,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 502,
+          "pct": 34.41
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 475,
+          "pct": 32.56
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 375,
+          "pct": 25.7
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 33,
+          "pct": 2.26
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 1.92
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 18,
+          "pct": 1.23
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 0.96
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 931,
+          "elected": true,
+          "pct": 63.81
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 528,
+          "elected": false,
+          "pct": 36.19
+        }
+      ]
+    },
+    {
+      "boothId": 6507,
+      "name": "Fig Tree Pocket",
+      "formal": 1447,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 54.94,
+      "swing": -2.08,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 637,
+          "pct": 44.02
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 358,
+          "pct": 24.74
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 356,
+          "pct": 24.6
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.42
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 1.66
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 1.17
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 12,
+          "pct": 0.83
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 652,
+          "elected": true,
+          "pct": 45.06
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 795,
+          "elected": false,
+          "pct": 54.94
+        }
+      ]
+    },
+    {
+      "boothId": 6512,
+      "name": "Kenmore",
+      "formal": 1305,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 54.41,
+      "swing": 5.67,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 440,
+          "pct": 33.72
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 406,
+          "pct": 31.11
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 327,
+          "pct": 25.06
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.3
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 2.76
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 1.38
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 18,
+          "pct": 1.38
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 710,
+          "elected": true,
+          "pct": 54.41
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 595,
+          "elected": false,
+          "pct": 45.59
+        }
+      ]
+    },
+    {
+      "boothId": 6494,
+      "name": "Chapel Hill South",
+      "formal": 1302,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 54.22,
+      "swing": 1.75,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 462,
+          "pct": 35.48
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 442,
+          "pct": 33.95
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 302,
+          "pct": 23.2
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 33,
+          "pct": 2.53
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 1.77
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 1.15
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.0
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 12,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 706,
+          "elected": true,
+          "pct": 54.22
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 596,
+          "elected": false,
+          "pct": 45.78
+        }
+      ]
+    },
+    {
+      "boothId": 6509,
+      "name": "Indooroopilly East",
+      "formal": 1275,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 56.47,
+      "swing": 0.32,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 437,
+          "pct": 34.27
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 401,
+          "pct": 31.45
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 351,
+          "pct": 27.53
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.96
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 1.65
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 1.33
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.02
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 0.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 720,
+          "elected": true,
+          "pct": 56.47
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 555,
+          "elected": false,
+          "pct": 43.53
+        }
+      ]
+    },
+    {
+      "boothId": 6513,
+      "name": "Kenmore South",
+      "formal": 1259,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 55.12,
+      "swing": 2.65,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 435,
+          "pct": 34.55
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 417,
+          "pct": 33.12
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 315,
+          "pct": 25.02
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.99
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 1.67
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.43
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 1.35
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 11,
+          "pct": 0.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 694,
+          "elected": true,
+          "pct": 55.12
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 565,
+          "elected": false,
+          "pct": 44.88
+        }
+      ]
+    },
+    {
+      "boothId": 6524,
+      "name": "The Gap",
+      "formal": 1257,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 63.48,
+      "swing": 6.47,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 453,
+          "pct": 36.04
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 416,
+          "pct": 33.09
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 315,
+          "pct": 25.06
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.91
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 1.51
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 0.88
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 0.8
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 798,
+          "elected": true,
+          "pct": 63.48
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 459,
+          "elected": false,
+          "pct": 36.52
+        }
+      ]
+    },
+    {
+      "boothId": 6528,
+      "name": "The Gap West",
+      "formal": 1252,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 58.23,
+      "swing": 4.58,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 408,
+          "pct": 32.59
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 375,
+          "pct": 29.95
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 367,
+          "pct": 29.31
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.72
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 1.6
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 1.44
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 16,
+          "pct": 1.28
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 729,
+          "elected": true,
+          "pct": 58.23
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 523,
+          "elected": false,
+          "pct": 41.77
+        }
+      ]
+    },
+    {
+      "boothId": 6500,
+      "name": "Brookfield",
+      "formal": 1136,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 58.54,
+      "swing": -2.21,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 543,
+          "pct": 47.8
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 275,
+          "pct": 24.21
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 224,
+          "pct": 19.72
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.43
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 1.94
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.32
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 0.88
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 0.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 471,
+          "elected": true,
+          "pct": 41.46
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 665,
+          "elected": false,
+          "pct": 58.54
+        }
+      ]
+    },
+    {
+      "boothId": 11996,
+      "name": "Keperra",
+      "formal": 1133,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 56.49,
+      "swing": 3.73,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 382,
+          "pct": 33.72
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 301,
+          "pct": 26.57
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 290,
+          "pct": 25.6
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 4.24
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.8
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 2.65
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 2.65
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 9,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 640,
+          "elected": true,
+          "pct": 56.49
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 493,
+          "elected": false,
+          "pct": 43.51
+        }
+      ]
+    },
+    {
+      "boothId": 58544,
+      "name": "Ferny Grove South",
+      "formal": 1023,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 52.0,
+      "swing": -0.56,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 364,
+          "pct": 35.58
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 321,
+          "pct": 31.38
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 220,
+          "pct": 21.51
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.52
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.03
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 2.54
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 1.86
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 6,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 491,
+          "elected": true,
+          "pct": 48.0
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 532,
+          "elected": false,
+          "pct": 52.0
+        }
+      ]
+    },
+    {
+      "boothId": 56202,
+      "name": "Mitchelton East",
+      "formal": 1006,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 62.33,
+      "swing": 3.29,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 334,
+          "pct": 33.2
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 324,
+          "pct": 32.21
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 241,
+          "pct": 23.96
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 2.68
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.29
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 2.19
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.19
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 13,
+          "pct": 1.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 627,
+          "elected": true,
+          "pct": 62.33
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 379,
+          "elected": false,
+          "pct": 37.67
+        }
+      ]
+    },
+    {
+      "boothId": 6508,
+      "name": "Indooroopilly",
+      "formal": 940,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 63.83,
+      "swing": 2.07,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 371,
+          "pct": 39.47
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 257,
+          "pct": 27.34
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 227,
+          "pct": 24.15
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.23
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 20,
+          "pct": 2.13
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 2.02
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 1.38
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 600,
+          "elected": true,
+          "pct": 63.83
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 340,
+          "elected": false,
+          "pct": 36.17
+        }
+      ]
+    },
+    {
+      "boothId": 5193,
+      "name": "Oxford Park",
+      "formal": 887,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 67.98,
+      "swing": 7.31,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 317,
+          "pct": 35.74
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 309,
+          "pct": 34.84
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 179,
+          "pct": 20.18
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.48
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 2.48
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 1.69
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.69
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 0.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 603,
+          "elected": true,
+          "pct": 67.98
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 284,
+          "elected": false,
+          "pct": 32.02
+        }
+      ]
+    },
+    {
+      "boothId": 6498,
+      "name": "Bardon",
+      "formal": 881,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 58.91,
+      "swing": 0.09,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 287,
+          "pct": 32.58
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 282,
+          "pct": 32.01
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 267,
+          "pct": 30.31
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 1.59
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.48
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 1.14
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.57
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 0.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 519,
+          "elected": true,
+          "pct": 58.91
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 362,
+          "elected": false,
+          "pct": 41.09
+        }
+      ]
+    },
+    {
+      "boothId": 6496,
+      "name": "Auchenflower",
+      "formal": 872,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 63.42,
+      "swing": 3.27,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 362,
+          "pct": 41.51
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 249,
+          "pct": 28.56
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 212,
+          "pct": 24.31
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 1.49
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.38
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 1.15
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 9,
+          "pct": 1.03
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 553,
+          "elected": true,
+          "pct": 63.42
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 319,
+          "elected": false,
+          "pct": 36.58
+        }
+      ]
+    },
+    {
+      "boothId": 98074,
+      "name": "Taringa",
+      "formal": 825,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 67.39,
+      "swing": -0.8,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 373,
+          "pct": 45.21
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 210,
+          "pct": 25.45
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 174,
+          "pct": 21.09
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.3
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 2.18
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.58
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 11,
+          "pct": 1.33
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 556,
+          "elected": true,
+          "pct": 67.39
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 269,
+          "elected": false,
+          "pct": 32.61
+        }
+      ]
+    },
+    {
+      "boothId": 5169,
+      "name": "Ashgrove West (Ryan)",
+      "formal": 812,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 59.85,
+      "swing": 5.38,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 279,
+          "pct": 34.36
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 246,
+          "pct": 30.3
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 236,
+          "pct": 29.06
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.6
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 1.6
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.48
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 7,
+          "pct": 0.86
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 486,
+          "elected": true,
+          "pct": 59.85
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 326,
+          "elected": false,
+          "pct": 40.15
+        }
+      ]
+    },
+    {
+      "boothId": 46367,
+      "name": "Bellbowrie",
+      "formal": 741,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 59.38,
+      "swing": 5.33,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 307,
+          "pct": 41.43
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 22.4
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 151,
+          "pct": 20.38
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 36,
+          "pct": 4.86
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 3.91
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.51
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 2.43
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 1.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 301,
+          "elected": true,
+          "pct": 40.62
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 440,
+          "elected": false,
+          "pct": 59.38
+        }
+      ]
+    },
+    {
+      "boothId": 6521,
+      "name": "St Lucia",
+      "formal": 704,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 67.76,
+      "swing": 4.06,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 325,
+          "pct": 46.16
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 162,
+          "pct": 23.01
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 156,
+          "pct": 22.16
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 21,
+          "pct": 2.98
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.99
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.56
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 1.28
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 477,
+          "elected": true,
+          "pct": 67.76
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 227,
+          "elected": false,
+          "pct": 32.24
+        }
+      ]
+    },
+    {
+      "boothId": 6510,
+      "name": "Indooroopilly West",
+      "formal": 693,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 61.62,
+      "swing": 1.8,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 270,
+          "pct": 38.96
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 188,
+          "pct": 27.13
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 182,
+          "pct": 26.26
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 2.16
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 1.73
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.59
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 9,
+          "pct": 1.3
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 427,
+          "elected": true,
+          "pct": 61.62
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 266,
+          "elected": false,
+          "pct": 38.38
+        }
+      ]
+    },
+    {
+      "boothId": 6518,
+      "name": "Pullenvale",
+      "formal": 676,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 54.44,
+      "swing": -0.19,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 318,
+          "pct": 47.04
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 176,
+          "pct": 26.04
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 149,
+          "pct": 22.04
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 1.78
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 1.04
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.74
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.74
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 4,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 308,
+          "elected": true,
+          "pct": 45.56
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 368,
+          "elected": false,
+          "pct": 54.44
+        }
+      ]
+    },
+    {
+      "boothId": 6527,
+      "name": "Toowong West",
+      "formal": 670,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 64.48,
+      "swing": -0.47,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 282,
+          "pct": 42.09
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 183,
+          "pct": 27.31
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 154,
+          "pct": 22.99
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 15,
+          "pct": 2.24
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.94
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.79
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 1.04
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 432,
+          "elected": true,
+          "pct": 64.48
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 238,
+          "elected": false,
+          "pct": 35.52
+        }
+      ]
+    },
+    {
+      "boothId": 38089,
+      "name": "Paddington South (Ryan)",
+      "formal": 592,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 57.09,
+      "swing": 0.1,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 205,
+          "pct": 34.63
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 176,
+          "pct": 29.73
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 158,
+          "pct": 26.69
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 20,
+          "pct": 3.38
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 2.36
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.69
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.35
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 1,
+          "pct": 0.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 338,
+          "elected": true,
+          "pct": 57.09
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 254,
+          "elected": false,
+          "pct": 42.91
+        }
+      ]
+    },
+    {
+      "boothId": 108981,
+      "name": "Sinnamon Park RYAN PPVC",
+      "formal": 585,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 55.21,
+      "swing": 7.97,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 245,
+          "pct": 41.88
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 149,
+          "pct": 25.47
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 140,
+          "pct": 23.93
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.39
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.05
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.88
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 1.88
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 3,
+          "pct": 0.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 262,
+          "elected": true,
+          "pct": 44.79
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 323,
+          "elected": false,
+          "pct": 55.21
+        }
+      ]
+    },
+    {
+      "boothId": 32495,
+      "name": "Grovely (Ryan)",
+      "formal": 523,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 72.28,
+      "swing": 2.85,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 210,
+          "pct": 40.15
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 156,
+          "pct": 29.83
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 85,
+          "pct": 16.25
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 5.35
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.68
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 13,
+          "pct": 2.49
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.91
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 378,
+          "elected": true,
+          "pct": 72.28
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 145,
+          "elected": false,
+          "pct": 27.72
+        }
+      ]
+    },
+    {
+      "boothId": 94815,
+      "name": "Enoggera (Ryan)",
+      "formal": 489,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 58.69,
+      "swing": 6.24,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 169,
+          "pct": 34.56
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 139,
+          "pct": 28.43
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 137,
+          "pct": 28.02
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 2.66
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.45
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.64
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.43
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 4,
+          "pct": 0.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 287,
+          "elected": true,
+          "pct": 58.69
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 202,
+          "elected": false,
+          "pct": 41.31
+        }
+      ]
+    },
+    {
+      "boothId": 6501,
+      "name": "Upper Brookfield",
+      "formal": 481,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 53.43,
+      "swing": -2.72,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 172,
+          "pct": 35.76
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 155,
+          "pct": 32.22
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 100,
+          "pct": 20.79
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 3.74
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 17,
+          "pct": 3.53
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.66
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.66
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 3,
+          "pct": 0.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 257,
+          "elected": true,
+          "pct": 53.43
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 224,
+          "elected": false,
+          "pct": 46.57
+        }
+      ]
+    },
+    {
+      "boothId": 5171,
+      "name": "Ashgrove North (Ryan)",
+      "formal": 428,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 58.18,
+      "swing": 3.44,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "pct": 32.48
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 135,
+          "pct": 31.54
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 130,
+          "pct": 30.37
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.1
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.4
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 4,
+          "pct": 0.93
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 0.93
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 249,
+          "elected": true,
+          "pct": 58.18
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 179,
+          "elected": false,
+          "pct": 41.82
+        }
+      ]
+    },
+    {
+      "boothId": 14233,
+      "name": "Brisbane City (Ryan)",
+      "formal": 274,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 68.25,
+      "swing": -5.14,
+      "candidates": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 48.54
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 65,
+          "pct": 23.72
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 48,
+          "pct": 17.52
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 2.92
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.19
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.19
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 5,
+          "pct": 1.82
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 187,
+          "elected": true,
+          "pct": 68.25
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 87,
+          "elected": false,
+          "pct": 31.75
+        }
+      ]
+    },
+    {
+      "boothId": 97902,
+      "name": "Chermside West RYAN PPVC",
+      "formal": 215,
+      "winnerParty": "grn",
+      "winnerSurname": "WATSON-BROWN",
+      "winnerPct": 62.33,
+      "swing": 9.72,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 81,
+          "pct": 37.67
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 61,
+          "pct": 28.37
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 58,
+          "pct": 26.98
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.86
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.86
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 1.86
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 3,
+          "pct": 1.4
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 134,
+          "elected": true,
+          "pct": 62.33
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 81,
+          "elected": false,
+          "pct": 37.67
+        }
+      ]
+    },
+    {
+      "boothId": 108893,
+      "name": "Special Hospital Team 1",
+      "formal": 171,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 58.48,
+      "swing": 4.05,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 94,
+          "pct": 54.97
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 60,
+          "pct": 35.09
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 5.26
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 3.51
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 1,
+          "pct": 0.58
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.58
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 71,
+          "elected": true,
+          "pct": 41.52
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 100,
+          "elected": false,
+          "pct": 58.48
+        }
+      ]
+    },
+    {
+      "boothId": 109372,
+      "name": "Special Hospital Team 3",
+      "formal": 138,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 50.72,
+      "swing": -3.88,
+      "candidates": [
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 63,
+          "pct": 45.65
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 61,
+          "pct": 44.2
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 5.8
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 3.62
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.72
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "elected": true,
+          "pct": 49.28
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 70,
+          "elected": false,
+          "pct": 50.72
+        }
+      ]
+    },
+    {
+      "boothId": 109277,
+      "name": "Special Hospital Team 2",
+      "formal": 118,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 61.02,
+      "swing": 6.6,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 63,
+          "pct": 53.39
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 37,
+          "pct": 31.36
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 6.78
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 2.54
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.54
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 2,
+          "pct": 1.69
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 1.69
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "elected": true,
+          "pct": 38.98
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 72,
+          "elected": false,
+          "pct": 61.02
+        }
+      ]
+    },
+    {
+      "boothId": 65600,
+      "name": "EAV Ryan PPVC",
+      "formal": 22,
+      "winnerParty": "lnp",
+      "winnerSurname": "FORREST",
+      "winnerPct": 54.55,
+      "swing": 33.12,
+      "candidates": [
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 9,
+          "pct": 40.91
+        },
+        {
+          "surname": "HACK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "pct": 22.73
+        },
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 22.73
+        },
+        {
+          "surname": "ELSOM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 9.09
+        },
+        {
+          "surname": "GALLEHAWK",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 4.55
+        },
+        {
+          "surname": "MASTERTON",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "DE LAPP",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WATSON-BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "elected": true,
+          "pct": 45.45
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 12,
+          "elected": false,
+          "pct": 54.55
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 103462,
+    "candidates": [
+      {
+        "id": "C40905",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Gallehawk"
+      },
+      {
+        "id": "C40807",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Hack"
+      },
+      {
+        "id": "C40687",
+        "party": "fus",
+        "displayShort": "FUS",
+        "displayLong": "FUS \u2014 Masterton"
+      },
+      {
+        "id": "C41285",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Watson-Brown"
+      },
+      {
+        "id": "C41192",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 Forrest"
+      },
+      {
+        "id": "C40974",
+        "party": "oth",
+        "displayShort": "GRPF",
+        "displayLong": "GRPF \u2014 De Lapp"
+      },
+      {
+        "id": "C41415",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Hunt"
+      },
+      {
+        "id": "C40960",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Elsom"
+      }
+    ],
+    "rounds": [
+      {
+        "C40905": 1340,
+        "C40807": 29217,
+        "C40687": 1007,
+        "C41285": 29986,
+        "C41192": 35806,
+        "C40974": 2407,
+        "C41415": 1372,
+        "C40960": 2327
+      },
+      {
+        "C40905": 1430,
+        "C40807": 29424,
+        "C41285": 30460,
+        "C41192": 35884,
+        "C40974": 2502,
+        "C41415": 1404,
+        "C40960": 2358
+      },
+      {
+        "C40905": 1579,
+        "C40807": 29532,
+        "C41285": 30555,
+        "C41192": 36197,
+        "C40974": 2661,
+        "C40960": 2938
+      },
+      {
+        "C40807": 29896,
+        "C41285": 30720,
+        "C41192": 36511,
+        "C40974": 3145,
+        "C40960": 3190
+      },
+      {
+        "C40807": 30153,
+        "C41285": 31032,
+        "C41192": 37012,
+        "C40960": 5265
+      },
+      {
+        "C40807": 30893,
+        "C41285": 31705,
+        "C41192": 40864
+      },
+      {
+        "C41285": 55112,
+        "C41192": 48350
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            57.16,
+            58.54,
+            59.09,
+            56.03,
+            47.35,
+            46.73
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            46.18,
+            42.84,
+            41.46,
+            40.91,
+            43.97,
+            null,
+            null
+          ]
+        },
+        {
+          "id": "GRN",
+          "party": "grn",
+          "label": "GRN",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            52.65,
+            53.27
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            53.82,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "GRN": 9.43,
+            "LIB": 49.52,
+            "ALP": 36.41,
+            "OTH": 4.64
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "IND": 8.49,
+            "ALP": 25.02,
+            "GRN": 18.96,
+            "LIB": 45.73,
+            "OTH": 1.8
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "LIB": 51.68,
+            "ALP": 25.51,
+            "TOP": 4.97,
+            "GRN": 14.44,
+            "OTH": 3.39
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "LDP": 2.16,
+            "GRN": 18.75,
+            "LIB": 52.13,
+            "ALP": 22.79,
+            "FFP": 2.52,
+            "OTH": 1.65
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "GRN": 20.35,
+            "ON": 2.16,
+            "LIB": 48.61,
+            "ALP": 24.43,
+            "OTH": 4.45
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "TOP": 2.08,
+            "ALP": 22.3,
+            "LDP": 2.6,
+            "ON": 2.25,
+            "GRN": 30.21,
+            "LIB": 38.5,
+            "OTH": 2.07
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "ON": 2.25,
+            "LIB": 34.61,
+            "GRPF": 2.33,
+            "GRN": 28.98,
+            "ALP": 28.24,
+            "OTH": 3.6
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 163797,
+    "medianAge": 36,
+    "medianHouseholdIncomeWeekly": 2301,
+    "medianRentWeekly": 420,
+    "averageHouseholdSize": 2.6,
+    "bornOverseasPct": 30.4,
+    "indigenousPct": 1.2,
+    "bachelorPlusPct": 64.0,
+    "renterPct": 31.4,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 110905,
+        "pct": 69.62,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 4179,
+        "pct": 2.62,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 2064,
+        "pct": 1.3,
+        "natPct": 1.11
+      },
+      {
+        "label": "China",
+        "count": 1938,
+        "pct": 1.22,
+        "natPct": 1.0
+      },
+      {
+        "label": "India",
+        "count": 1654,
+        "pct": 1.04,
+        "natPct": 1.51
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 73687,
+        "pct": 44.99,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 70806,
+        "pct": 43.23,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 8058,
+        "pct": 4.92,
+        "natPct": 7.27
+      },
+      {
+        "label": "Hinduism",
+        "count": 3888,
+        "pct": 2.37,
+        "natPct": 2.69
+      },
+      {
+        "label": "Buddhism",
+        "count": 2870,
+        "pct": 1.75,
+        "natPct": 2.42
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Ryan is an Australian electoral division in the state of Queensland. It is west of Brisbane, comprising parts of the City of Brisbane and City of Moreton Bay.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Ryan",
+    "retrievedAt": "2026-05-06T09:41:57Z"
+  }
+}

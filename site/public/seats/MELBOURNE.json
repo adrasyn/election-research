@@ -1,0 +1,4206 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "MELBOURNE",
+    "divisionId": 228,
+    "name": "Melbourne",
+    "state": "VIC",
+    "totalFormal": 97448,
+    "informalVotes": 1707,
+    "informalRate": 2.47,
+    "winner": {
+      "candidateId": "C40817",
+      "surname": "WITTY",
+      "givenName": "Sarah",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": false
+    },
+    "previousWinnerParty": "GRN",
+    "tcpMargin": 6.04,
+    "result": "ALP GAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41119",
+      "surname": "BANDT",
+      "givenName": "Adam",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 28393,
+      "pct": 42.14
+    },
+    {
+      "candidateId": "C40817",
+      "surname": "WITTY",
+      "givenName": "Sarah",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 21125,
+      "pct": 31.35
+    },
+    {
+      "candidateId": "C40765",
+      "surname": "HUNT",
+      "givenName": "Steph",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 11963,
+      "pct": 17.75
+    },
+    {
+      "candidateId": "C42099",
+      "surname": "KOUTOUFIDES",
+      "givenName": "Anthony",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 2054,
+      "pct": 3.05
+    },
+    {
+      "candidateId": "C41607",
+      "surname": "CASEY",
+      "givenName": "Melanie",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 1492,
+      "pct": 2.21
+    },
+    {
+      "candidateId": "C41381",
+      "surname": "HUANG",
+      "givenName": "Helen",
+      "party": "fus",
+      "partyAb": "FUS",
+      "votes": 1276,
+      "pct": 1.89
+    },
+    {
+      "candidateId": "C42101",
+      "surname": "SMITH",
+      "givenName": "Tim",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 1077,
+      "pct": 1.6
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40817",
+      "surname": "WITTY",
+      "givenName": "Sarah",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 51663,
+      "pct": 53.02,
+      "elected": true
+    },
+    {
+      "candidateId": "C41119",
+      "surname": "BANDT",
+      "givenName": "Adam",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 45785,
+      "pct": 46.98,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 97466,
+      "name": "Abbotsford MELBOURNE PPVC",
+      "formal": 12622,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 53.21,
+      "swing": 12.75,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5173,
+          "pct": 40.98
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4147,
+          "pct": 32.86
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2191,
+          "pct": 17.36
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 470,
+          "pct": 3.72
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 220,
+          "pct": 1.74
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 211,
+          "pct": 1.67
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 210,
+          "pct": 1.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6716,
+          "elected": true,
+          "pct": 53.21
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5906,
+          "elected": false,
+          "pct": 46.79
+        }
+      ]
+    },
+    {
+      "boothId": 14318,
+      "name": "Melbourne MELBOURNE PPVC",
+      "formal": 10246,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 52.84,
+      "swing": 7.95,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4164,
+          "pct": 40.64
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3354,
+          "pct": 32.73
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1851,
+          "pct": 18.07
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 268,
+          "pct": 2.62
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 246,
+          "pct": 2.4
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 216,
+          "pct": 2.11
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 147,
+          "pct": 1.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5414,
+          "elected": true,
+          "pct": 52.84
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4832,
+          "elected": false,
+          "pct": 47.16
+        }
+      ]
+    },
+    {
+      "boothId": 109557,
+      "name": "St Kilda MELBOURNE PPVC",
+      "formal": 1946,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 61.51,
+      "swing": 12.81,
+      "candidates": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 618,
+          "pct": 31.76
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 581,
+          "pct": 29.86
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 564,
+          "pct": 28.98
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 2.93
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 54,
+          "pct": 2.77
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 2.11
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 31,
+          "pct": 1.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1197,
+          "elected": true,
+          "pct": 61.51
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 749,
+          "elected": false,
+          "pct": 38.49
+        }
+      ]
+    },
+    {
+      "boothId": 4643,
+      "name": "Richmond Central",
+      "formal": 1902,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 54.63,
+      "swing": 15.02,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 756,
+          "pct": 39.75
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 638,
+          "pct": 33.54
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 324,
+          "pct": 17.03
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 87,
+          "pct": 4.57
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 2.42
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 26,
+          "pct": 1.37
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 1.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1039,
+          "elected": true,
+          "pct": 54.63
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 863,
+          "elected": false,
+          "pct": 45.37
+        }
+      ]
+    },
+    {
+      "boothId": 4677,
+      "name": "Richmond",
+      "formal": 1890,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 61.32,
+      "swing": 10.01,
+      "candidates": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 655,
+          "pct": 34.66
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 612,
+          "pct": 32.38
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 407,
+          "pct": 21.53
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 138,
+          "pct": 7.3
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 1.8
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 1.22
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 21,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1159,
+          "elected": true,
+          "pct": 61.32
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 731,
+          "elected": false,
+          "pct": 38.68
+        }
+      ]
+    },
+    {
+      "boothId": 4667,
+      "name": "Hawksburn",
+      "formal": 1859,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 58.74,
+      "swing": -1.93,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 621,
+          "pct": 33.41
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 539,
+          "pct": 28.99
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 537,
+          "pct": 28.89
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 2.42
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 2.37
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 38,
+          "pct": 2.04
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 1.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1092,
+          "elected": true,
+          "pct": 58.74
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 767,
+          "elected": false,
+          "pct": 41.26
+        }
+      ]
+    },
+    {
+      "boothId": 124017,
+      "name": "Melbourne CBD North West (Melbourne)",
+      "formal": 1847,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 53.82,
+      "swing": -1.07,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 841,
+          "pct": 45.53
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 587,
+          "pct": 31.78
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 231,
+          "pct": 12.51
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 74,
+          "pct": 4.01
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 45,
+          "pct": 2.44
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 1.95
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 1.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 853,
+          "elected": true,
+          "pct": 46.18
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 994,
+          "elected": false,
+          "pct": 53.82
+        }
+      ]
+    },
+    {
+      "boothId": 108860,
+      "name": "Kew MELBOURNE PPVC",
+      "formal": 1801,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 63.13,
+      "swing": 21.38,
+      "candidates": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 589,
+          "pct": 32.7
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 570,
+          "pct": 31.65
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 471,
+          "pct": 26.15
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 80,
+          "pct": 4.44
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 2.44
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 1.61
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 18,
+          "pct": 1.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1137,
+          "elected": true,
+          "pct": 63.13
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 664,
+          "elected": false,
+          "pct": 36.87
+        }
+      ]
+    },
+    {
+      "boothId": 4641,
+      "name": "North Melbourne Central",
+      "formal": 1631,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 64.99,
+      "swing": -3.57,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 973,
+          "pct": 59.66
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 408,
+          "pct": 25.02
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 130,
+          "pct": 7.97
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 40,
+          "pct": 2.45
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 2.15
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 1.9
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 571,
+          "elected": true,
+          "pct": 35.01
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1060,
+          "elected": false,
+          "pct": 64.99
+        }
+      ]
+    },
+    {
+      "boothId": 4679,
+      "name": "Cremorne",
+      "formal": 1608,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 57.96,
+      "swing": 15.17,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 567,
+          "pct": 35.26
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 530,
+          "pct": 32.96
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 311,
+          "pct": 19.34
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 97,
+          "pct": 6.03
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 3.11
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 1.74
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 25,
+          "pct": 1.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 932,
+          "elected": true,
+          "pct": 57.96
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 676,
+          "elected": false,
+          "pct": 42.04
+        }
+      ]
+    },
+    {
+      "boothId": 47808,
+      "name": "Docklands (Melbourne)",
+      "formal": 1599,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 56.04,
+      "swing": 13.66,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 531,
+          "pct": 33.21
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 529,
+          "pct": 33.08
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 339,
+          "pct": 21.2
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 61,
+          "pct": 3.81
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 3.63
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 49,
+          "pct": 3.06
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 896,
+          "elected": true,
+          "pct": 56.04
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 703,
+          "elected": false,
+          "pct": 43.96
+        }
+      ]
+    },
+    {
+      "boothId": 4678,
+      "name": "Burnley",
+      "formal": 1504,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 56.98,
+      "swing": 10.72,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 564,
+          "pct": 37.5
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 457,
+          "pct": 30.39
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 348,
+          "pct": 23.14
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 54,
+          "pct": 3.59
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 2.53
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 1.53
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 20,
+          "pct": 1.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 857,
+          "elected": true,
+          "pct": 56.98
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 647,
+          "elected": false,
+          "pct": 43.02
+        }
+      ]
+    },
+    {
+      "boothId": 4629,
+      "name": "East Melbourne",
+      "formal": 1492,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 56.17,
+      "swing": 9.87,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 570,
+          "pct": 38.2
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 420,
+          "pct": 28.15
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 393,
+          "pct": 26.34
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 1.94
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 1.94
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.74
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 25,
+          "pct": 1.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 838,
+          "elected": true,
+          "pct": 56.17
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 654,
+          "elected": false,
+          "pct": 43.83
+        }
+      ]
+    },
+    {
+      "boothId": 124009,
+      "name": "Melbourne CBD South Central (Melbourne)",
+      "formal": 1483,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 51.52,
+      "swing": -2.63,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 641,
+          "pct": 43.22
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 452,
+          "pct": 30.48
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 260,
+          "pct": 17.53
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 2.49
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 2.29
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 34,
+          "pct": 2.29
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 1.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 719,
+          "elected": true,
+          "pct": 48.48
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 764,
+          "elected": false,
+          "pct": 51.52
+        }
+      ]
+    },
+    {
+      "boothId": 4631,
+      "name": "Fitzroy",
+      "formal": 1453,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 58.43,
+      "swing": -8.83,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 780,
+          "pct": 53.68
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 432,
+          "pct": 29.73
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 137,
+          "pct": 9.43
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 34,
+          "pct": 2.34
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 1.86
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 1.65
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 604,
+          "elected": true,
+          "pct": 41.57
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 849,
+          "elected": false,
+          "pct": 58.43
+        }
+      ]
+    },
+    {
+      "boothId": 83875,
+      "name": "South Yarra Central",
+      "formal": 1342,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 57.82,
+      "swing": 5.8,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 469,
+          "pct": 34.95
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 411,
+          "pct": 30.63
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 351,
+          "pct": 26.15
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.38
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 2.09
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.94
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 25,
+          "pct": 1.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 776,
+          "elected": true,
+          "pct": 57.82
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 566,
+          "elected": false,
+          "pct": 42.18
+        }
+      ]
+    },
+    {
+      "boothId": 4626,
+      "name": "Collingwood",
+      "formal": 1342,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 68.26,
+      "swing": -3.28,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 862,
+          "pct": 64.23
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 303,
+          "pct": 22.58
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 90,
+          "pct": 6.71
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 1.86
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 24,
+          "pct": 1.79
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 1.56
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 426,
+          "elected": true,
+          "pct": 31.74
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 916,
+          "elected": false,
+          "pct": 68.26
+        }
+      ]
+    },
+    {
+      "boothId": 33053,
+      "name": "Fitzroy Central",
+      "formal": 1304,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 61.27,
+      "swing": -5.54,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 738,
+          "pct": 56.6
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 383,
+          "pct": 29.37
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 80,
+          "pct": 6.13
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 2.3
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.99
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.99
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 21,
+          "pct": 1.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 505,
+          "elected": true,
+          "pct": 38.73
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 799,
+          "elected": false,
+          "pct": 61.27
+        }
+      ]
+    },
+    {
+      "boothId": 4688,
+      "name": "South Yarra",
+      "formal": 1276,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 59.64,
+      "swing": 9.04,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 429,
+          "pct": 33.62
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 378,
+          "pct": 29.62
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 370,
+          "pct": 29.0
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.51
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 30,
+          "pct": 2.35
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.49
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 1.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 761,
+          "elected": true,
+          "pct": 59.64
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 515,
+          "elected": false,
+          "pct": 40.36
+        }
+      ]
+    },
+    {
+      "boothId": 83674,
+      "name": "Richmond South",
+      "formal": 1273,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 55.62,
+      "swing": 14.13,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 487,
+          "pct": 38.26
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 448,
+          "pct": 35.19
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 214,
+          "pct": 16.81
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 51,
+          "pct": 4.01
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 2.59
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 1.96
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 15,
+          "pct": 1.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 708,
+          "elected": true,
+          "pct": 55.62
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 565,
+          "elected": false,
+          "pct": 44.38
+        }
+      ]
+    },
+    {
+      "boothId": 4624,
+      "name": "Carlton South",
+      "formal": 1159,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 61.52,
+      "swing": -7.74,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 660,
+          "pct": 56.95
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 323,
+          "pct": 27.87
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 98,
+          "pct": 8.46
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 2.07
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 1.9
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 22,
+          "pct": 1.9
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 446,
+          "elected": true,
+          "pct": 38.48
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 713,
+          "elected": false,
+          "pct": 61.52
+        }
+      ]
+    },
+    {
+      "boothId": 4640,
+      "name": "North Melbourne",
+      "formal": 1114,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 57.63,
+      "swing": -7.71,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 581,
+          "pct": 52.15
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 338,
+          "pct": 30.34
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 120,
+          "pct": 10.77
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 26,
+          "pct": 2.33
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 1.97
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.53
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 0.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 472,
+          "elected": true,
+          "pct": 42.37
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 642,
+          "elected": false,
+          "pct": 57.63
+        }
+      ]
+    },
+    {
+      "boothId": 4668,
+      "name": "South Yarra South",
+      "formal": 1114,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 64.72,
+      "swing": 5.62,
+      "candidates": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 382,
+          "pct": 34.29
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 319,
+          "pct": 28.64
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 303,
+          "pct": 27.2
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 3.32
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 3.05
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 2.42
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 12,
+          "pct": 1.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 721,
+          "elected": true,
+          "pct": 64.72
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 393,
+          "elected": false,
+          "pct": 35.28
+        }
+      ]
+    },
+    {
+      "boothId": 4642,
+      "name": "Parkville",
+      "formal": 1093,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 56.45,
+      "swing": -8.0,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 574,
+          "pct": 52.52
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 340,
+          "pct": 31.11
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 111,
+          "pct": 10.16
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 2.01
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 20,
+          "pct": 1.83
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 1.37
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 476,
+          "elected": true,
+          "pct": 43.55
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 617,
+          "elected": false,
+          "pct": 56.45
+        }
+      ]
+    },
+    {
+      "boothId": 4673,
+      "name": "Prahran",
+      "formal": 1066,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 54.5,
+      "swing": -1.26,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 415,
+          "pct": 38.93
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 328,
+          "pct": 30.77
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 208,
+          "pct": 19.51
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 3.85
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 2.91
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 2.63
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 15,
+          "pct": 1.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 581,
+          "elected": true,
+          "pct": 54.5
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 485,
+          "elected": false,
+          "pct": 45.5
+        }
+      ]
+    },
+    {
+      "boothId": 11893,
+      "name": "Richmond West",
+      "formal": 1033,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 51.79,
+      "swing": -1.54,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 424,
+          "pct": 41.05
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 352,
+          "pct": 34.08
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "pct": 13.84
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 3.58
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 3.29
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 31,
+          "pct": 3.0
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 535,
+          "elected": true,
+          "pct": 51.79
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 498,
+          "elected": false,
+          "pct": 48.21
+        }
+      ]
+    },
+    {
+      "boothId": 82957,
+      "name": "Abbotsford South",
+      "formal": 993,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 59.01,
+      "swing": -5.91,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 531,
+          "pct": 53.47
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 299,
+          "pct": 30.11
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 91,
+          "pct": 9.16
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 2.52
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 25,
+          "pct": 2.52
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.21
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 407,
+          "elected": true,
+          "pct": 40.99
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 586,
+          "elected": false,
+          "pct": 59.01
+        }
+      ]
+    },
+    {
+      "boothId": 4621,
+      "name": "Carlton",
+      "formal": 984,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 59.96,
+      "swing": 0.21,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 545,
+          "pct": 55.39
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 295,
+          "pct": 29.98
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 75,
+          "pct": 7.62
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 2.13
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 1.83
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.73
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 13,
+          "pct": 1.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 394,
+          "elected": true,
+          "pct": 40.04
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 590,
+          "elected": false,
+          "pct": 59.96
+        }
+      ]
+    },
+    {
+      "boothId": 4655,
+      "name": "Fawkner Park (Melbourne)",
+      "formal": 846,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 59.1,
+      "swing": 7.27,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 310,
+          "pct": 36.64
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 266,
+          "pct": 31.44
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 224,
+          "pct": 26.48
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 2.01
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 1.89
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 0.95
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 500,
+          "elected": true,
+          "pct": 59.1
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 346,
+          "elected": false,
+          "pct": 40.9
+        }
+      ]
+    },
+    {
+      "boothId": 4635,
+      "name": "Hotham",
+      "formal": 814,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 58.11,
+      "swing": -1.5,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 433,
+          "pct": 53.19
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 244,
+          "pct": 29.98
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 71,
+          "pct": 8.72
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 2.83
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.97
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 1.84
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 12,
+          "pct": 1.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 341,
+          "elected": true,
+          "pct": 41.89
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 473,
+          "elected": false,
+          "pct": 58.11
+        }
+      ]
+    },
+    {
+      "boothId": 124010,
+      "name": "Melbourne CBD North East (Melbourne)",
+      "formal": 794,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 51.76,
+      "swing": -3.83,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 363,
+          "pct": 45.72
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 210,
+          "pct": 26.45
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 162,
+          "pct": 20.4
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 2.39
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.76
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 1.64
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 13,
+          "pct": 1.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 383,
+          "elected": true,
+          "pct": 48.24
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 411,
+          "elected": false,
+          "pct": 51.76
+        }
+      ]
+    },
+    {
+      "boothId": 4610,
+      "name": "Abbotsford",
+      "formal": 794,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 60.45,
+      "swing": -6.11,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 431,
+          "pct": 54.28
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 233,
+          "pct": 29.35
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 76,
+          "pct": 9.57
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 2.77
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 14,
+          "pct": 1.76
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.26
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 314,
+          "elected": true,
+          "pct": 39.55
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 480,
+          "elected": false,
+          "pct": 60.45
+        }
+      ]
+    },
+    {
+      "boothId": 109764,
+      "name": "Brunswick MELBOURNE PPVC",
+      "formal": 727,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 61.07,
+      "swing": 1.38,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 387,
+          "pct": 53.23
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 219,
+          "pct": 30.12
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 72,
+          "pct": 9.9
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 2.34
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 2.06
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 14,
+          "pct": 1.93
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 0.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 283,
+          "elected": true,
+          "pct": 38.93
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 444,
+          "elected": false,
+          "pct": 61.07
+        }
+      ]
+    },
+    {
+      "boothId": 121119,
+      "name": "Prahran East (Melbourne)",
+      "formal": 645,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 57.21,
+      "swing": 10.75,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 225,
+          "pct": 34.88
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 222,
+          "pct": 34.42
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 135,
+          "pct": 20.93
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 3.72
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 2.79
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 1.71
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 1.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 369,
+          "elected": true,
+          "pct": 57.21
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 276,
+          "elected": false,
+          "pct": 42.79
+        }
+      ]
+    },
+    {
+      "boothId": 121142,
+      "name": "Collingwood North (Melbourne)",
+      "formal": 561,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 57.58,
+      "swing": -6.69,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 291,
+          "pct": 51.87
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 177,
+          "pct": 31.55
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 52,
+          "pct": 9.27
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 2.5
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 13,
+          "pct": 2.32
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 2.14
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 238,
+          "elected": true,
+          "pct": 42.42
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 323,
+          "elected": false,
+          "pct": 57.58
+        }
+      ]
+    },
+    {
+      "boothId": 121135,
+      "name": "Carlton Central (Melbourne)",
+      "formal": 495,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 72.93,
+      "swing": 2.45,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 339,
+          "pct": 68.48
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 105,
+          "pct": 21.21
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 27,
+          "pct": 5.45
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 11,
+          "pct": 2.22
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 1.41
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 0.81
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 134,
+          "elected": true,
+          "pct": 27.07
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 361,
+          "elected": false,
+          "pct": 72.93
+        }
+      ]
+    },
+    {
+      "boothId": 64641,
+      "name": "Northcote MELBOURNE PPVC",
+      "formal": 472,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 53.6,
+      "swing": -7.2,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 220,
+          "pct": 46.61
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 137,
+          "pct": 29.03
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 57,
+          "pct": 12.08
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 5.93
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 3.18
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.91
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 6,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 219,
+          "elected": true,
+          "pct": 46.4
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 253,
+          "elected": false,
+          "pct": 53.6
+        }
+      ]
+    },
+    {
+      "boothId": 108859,
+      "name": "Moonee Ponds MELBOURNE PPVC",
+      "formal": 409,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 52.32,
+      "swing": -7.46,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 168,
+          "pct": 41.08
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 128,
+          "pct": 31.3
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 73,
+          "pct": 17.85
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 4.65
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 3.67
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 4,
+          "pct": 0.98
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 195,
+          "elected": true,
+          "pct": 47.68
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 214,
+          "elected": false,
+          "pct": 52.32
+        }
+      ]
+    },
+    {
+      "boothId": 121138,
+      "name": "Princes Hill (Melbourne)",
+      "formal": 297,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 61.95,
+      "swing": -2.04,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 165,
+          "pct": 55.56
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 81,
+          "pct": 27.27
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 30,
+          "pct": 10.1
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 2.69
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 2.69
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.01
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 113,
+          "elected": true,
+          "pct": 38.05
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 184,
+          "elected": false,
+          "pct": 61.95
+        }
+      ]
+    },
+    {
+      "boothId": 109556,
+      "name": "Southbank (Melbourne)",
+      "formal": 171,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 53.8,
+      "swing": -8.5,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 43.27
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "pct": 32.16
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 26,
+          "pct": 15.2
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 9,
+          "pct": 5.26
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.75
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 1.17
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 79,
+          "elected": true,
+          "pct": 46.2
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 92,
+          "elected": false,
+          "pct": 53.8
+        }
+      ]
+    },
+    {
+      "boothId": 109130,
+      "name": "Special Hospital Team 2",
+      "formal": 150,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 61.33,
+      "swing": 12.37,
+      "candidates": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 70,
+          "pct": 46.67
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 39,
+          "pct": 26.0
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 18,
+          "pct": 12.0
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 9,
+          "pct": 6.0
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 4.0
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 3.33
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 2.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 92,
+          "elected": true,
+          "pct": 61.33
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 58,
+          "elected": false,
+          "pct": 38.67
+        }
+      ]
+    },
+    {
+      "boothId": 97871,
+      "name": "Footscray MELBOURNE PPVC",
+      "formal": 122,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 50.0,
+      "swing": -6.98,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 48,
+          "pct": 39.34
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 37,
+          "pct": 30.33
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 22,
+          "pct": 18.03
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 6.56
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 5,
+          "pct": 4.1
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.82
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 61,
+          "elected": true,
+          "pct": 50.0
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 61,
+          "elected": false,
+          "pct": 50.0
+        }
+      ]
+    },
+    {
+      "boothId": 109008,
+      "name": "Special Hospital Team 1",
+      "formal": 66,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 69.7,
+      "swing": 20.9,
+      "candidates": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 32,
+          "pct": 48.48
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 16,
+          "pct": 24.24
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 16.67
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 4.55
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 4.55
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 1.52
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 46,
+          "elected": true,
+          "pct": 69.7
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 20,
+          "elected": false,
+          "pct": 30.3
+        }
+      ]
+    },
+    {
+      "boothId": 65426,
+      "name": "EAV Melbourne PPVC",
+      "formal": 29,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 72.41,
+      "swing": 11.8,
+      "candidates": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 18,
+          "pct": 62.07
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 24.14
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "pct": 10.34
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 3.45
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 21,
+          "elected": true,
+          "pct": 72.41
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "elected": false,
+          "pct": 27.59
+        }
+      ]
+    },
+    {
+      "boothId": 109426,
+      "name": "Other Mobile Team 1",
+      "formal": 12,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 75.0,
+      "swing": 29.84,
+      "candidates": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8,
+          "pct": 66.67
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 25.0
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 8.33
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "elected": true,
+          "pct": 75.0
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "elected": false,
+          "pct": 25.0
+        }
+      ]
+    },
+    {
+      "boothId": 124047,
+      "name": "Melbourne CBD PPVC",
+      "formal": 0,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": null,
+      "swing": -59.56,
+      "candidates": [
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "elected": true,
+          "pct": 0.0
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "elected": false,
+          "pct": 0.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 97448,
+    "candidates": [
+      {
+        "id": "C41607",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Casey"
+      },
+      {
+        "id": "C40817",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Witty"
+      },
+      {
+        "id": "C42101",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Smith"
+      },
+      {
+        "id": "C42099",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Koutoufides"
+      },
+      {
+        "id": "C41119",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Bandt"
+      },
+      {
+        "id": "C41381",
+        "party": "fus",
+        "displayShort": "FUS",
+        "displayLong": "FUS \u2014 Huang"
+      },
+      {
+        "id": "C40765",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Hunt"
+      }
+    ],
+    "rounds": [
+      {
+        "C41607": 2438,
+        "C40817": 30541,
+        "C42101": 1615,
+        "C42099": 3204,
+        "C41119": 38457,
+        "C41381": 1926,
+        "C40765": 19267
+      },
+      {
+        "C41607": 2537,
+        "C40817": 30813,
+        "C42099": 3976,
+        "C41119": 38665,
+        "C41381": 2042,
+        "C40765": 19415
+      },
+      {
+        "C41607": 2624,
+        "C40817": 31243,
+        "C42099": 4324,
+        "C41119": 39625,
+        "C40765": 19632
+      },
+      {
+        "C40817": 31788,
+        "C42099": 5244,
+        "C41119": 39760,
+        "C40765": 20656
+      },
+      {
+        "C40817": 33410,
+        "C41119": 41015,
+        "C40765": 23023
+      },
+      {
+        "C40817": 51663,
+        "C41119": 45785
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "GRN",
+          "party": "grn",
+          "label": "GRN",
+          "points": [
+            45.29,
+            56.04,
+            55.27,
+            68.48,
+            71.83,
+            60.15,
+            46.98
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            54.71,
+            43.96,
+            44.73,
+            null,
+            null,
+            39.85,
+            53.02
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            null,
+            null,
+            null,
+            31.52,
+            28.17,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "ALP": 49.51,
+            "LIB": 23.49,
+            "GRN": 22.8,
+            "OTH": 4.2
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "ALP": 38.09,
+            "LIB": 21.0,
+            "GRN": 36.17,
+            "OTH": 4.74
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "LIB": 22.83,
+            "GRN": 42.62,
+            "ALP": 26.6,
+            "OTH": 7.95
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "ASXP": 3.45,
+            "GRN": 43.75,
+            "ALP": 24.46,
+            "LIB": 25.25,
+            "OTH": 3.1
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "ALP": 19.74,
+            "GRN": 49.3,
+            "LIB": 21.47,
+            "REAS": 5.11,
+            "OTH": 4.39
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "VNS": 3.27,
+            "ALP": 25.03,
+            "GRN": 49.62,
+            "ON": 0.97,
+            "LIB": 15.19,
+            "OTH": 5.91
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "IND": 4.95,
+            "ON": 2.5,
+            "LIB": 19.77,
+            "GRN": 39.46,
+            "ALP": 31.34,
+            "OTH": 1.98
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 199964,
+    "medianAge": 31,
+    "medianHouseholdIncomeWeekly": 1840,
+    "medianRentWeekly": 400,
+    "averageHouseholdSize": 1.9,
+    "bornOverseasPct": 47.4,
+    "indigenousPct": 0.6,
+    "bachelorPlusPct": 69.9,
+    "renterPct": 63.0,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 98281,
+        "pct": 52.63,
+        "natPct": 70.73
+      },
+      {
+        "label": "China",
+        "count": 6456,
+        "pct": 3.46,
+        "natPct": 1.0
+      },
+      {
+        "label": "India",
+        "count": 4713,
+        "pct": 2.52,
+        "natPct": 1.51
+      },
+      {
+        "label": "England",
+        "count": 3321,
+        "pct": 1.78,
+        "natPct": 1.95
+      },
+      {
+        "label": "Malaysia",
+        "count": 2845,
+        "pct": 1.52,
+        "natPct": 0.32
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 106717,
+        "pct": 53.37,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 46987,
+        "pct": 23.5,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 17108,
+        "pct": 8.56,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 10674,
+        "pct": 5.34,
+        "natPct": 2.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 7658,
+        "pct": 3.83,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Melbourne is an Australian electoral division in the State of Victoria, represented since the 2025 election by Sarah Witty, a member of the Labor Party.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Melbourne",
+    "retrievedAt": "2026-03-25T01:06:40Z"
+  }
+}

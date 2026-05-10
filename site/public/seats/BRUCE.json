@@ -1,0 +1,4801 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "BRUCE",
+    "divisionId": 201,
+    "name": "Bruce",
+    "state": "VIC",
+    "totalFormal": 109494,
+    "informalVotes": 5840,
+    "informalRate": 6.81,
+    "winner": {
+      "candidateId": "C40851",
+      "surname": "HILL",
+      "givenName": "Julian",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 29.24,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40851",
+      "surname": "HILL",
+      "givenName": "Julian",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 37297,
+      "pct": 46.64
+    },
+    {
+      "candidateId": "C40790",
+      "surname": "SAFI",
+      "givenName": "Zahid",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 17252,
+      "pct": 21.58
+    },
+    {
+      "candidateId": "C41085",
+      "surname": "GARAD",
+      "givenName": "Rhonda",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 10136,
+      "pct": 12.68
+    },
+    {
+      "candidateId": "C41522",
+      "surname": "COLECCHIA",
+      "givenName": "Bianca",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 6449,
+      "pct": 8.07
+    },
+    {
+      "candidateId": "C41582",
+      "surname": "BIRCHALL",
+      "givenName": "Wendy",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 3009,
+      "pct": 3.76
+    },
+    {
+      "candidateId": "C41225",
+      "surname": "LOUTH",
+      "givenName": "Andrew",
+      "party": "oth",
+      "partyAb": "HMP",
+      "votes": 2445,
+      "pct": 3.06
+    },
+    {
+      "candidateId": "C41370",
+      "surname": "ANDERSON",
+      "givenName": "Samuel James",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2389,
+      "pct": 2.99
+    },
+    {
+      "candidateId": "C41305",
+      "surname": "SKROBO",
+      "givenName": "Christine",
+      "party": "oth",
+      "partyAb": "LTP",
+      "votes": 984,
+      "pct": 1.23
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40851",
+      "surname": "HILL",
+      "givenName": "Julian",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 70751,
+      "pct": 64.62,
+      "elected": true
+    },
+    {
+      "candidateId": "C40790",
+      "surname": "SAFI",
+      "givenName": "Zahid",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 38743,
+      "pct": 35.38,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 58781,
+      "name": "Dandenong BRUCE PPVC",
+      "formal": 16961,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 69.79,
+      "swing": 8.91,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8762,
+          "pct": 51.66
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3387,
+          "pct": 19.97
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2050,
+          "pct": 12.09
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1217,
+          "pct": 7.18
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 514,
+          "pct": 3.03
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 479,
+          "pct": 2.82
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 385,
+          "pct": 2.27
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 167,
+          "pct": 0.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11837,
+          "elected": true,
+          "pct": 69.79
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5124,
+          "elected": false,
+          "pct": 30.21
+        }
+      ]
+    },
+    {
+      "boothId": 91155,
+      "name": "Berwick BRUCE PPVC",
+      "formal": 11623,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 53.64,
+      "swing": 6.58,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4507,
+          "pct": 38.78
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3912,
+          "pct": 33.66
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1115,
+          "pct": 9.59
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1065,
+          "pct": 9.16
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 359,
+          "pct": 3.09
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 274,
+          "pct": 2.36
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 243,
+          "pct": 2.09
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 148,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6235,
+          "elected": true,
+          "pct": 53.64
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5388,
+          "elected": false,
+          "pct": 46.36
+        }
+      ]
+    },
+    {
+      "boothId": 108802,
+      "name": "Lynbrook BRUCE PPVC",
+      "formal": 6270,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 67.51,
+      "swing": 10.37,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3054,
+          "pct": 48.71
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1311,
+          "pct": 20.91
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 814,
+          "pct": 12.98
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 502,
+          "pct": 8.01
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 219,
+          "pct": 3.49
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 177,
+          "pct": 2.82
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 144,
+          "pct": 2.3
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 49,
+          "pct": 0.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4233,
+          "elected": true,
+          "pct": 67.51
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2037,
+          "elected": false,
+          "pct": 32.49
+        }
+      ]
+    },
+    {
+      "boothId": 104131,
+      "name": "Berwick Fields (Bruce)",
+      "formal": 2368,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 70.78,
+      "swing": 15.77,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1150,
+          "pct": 48.56
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 391,
+          "pct": 16.51
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 343,
+          "pct": 14.48
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 189,
+          "pct": 7.98
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 101,
+          "pct": 4.27
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 83,
+          "pct": 3.51
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 68,
+          "pct": 2.87
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 1.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1676,
+          "elected": true,
+          "pct": 70.78
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 692,
+          "elected": false,
+          "pct": 29.22
+        }
+      ]
+    },
+    {
+      "boothId": 104120,
+      "name": "Narre Warren South East (Bruce)",
+      "formal": 2210,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 64.98,
+      "swing": 8.34,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1009,
+          "pct": 45.66
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 443,
+          "pct": 20.05
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 272,
+          "pct": 12.31
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 201,
+          "pct": 9.1
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 109,
+          "pct": 4.93
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 84,
+          "pct": 3.8
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 73,
+          "pct": 3.3
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1436,
+          "elected": true,
+          "pct": 64.98
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 774,
+          "elected": false,
+          "pct": 35.02
+        }
+      ]
+    },
+    {
+      "boothId": 32535,
+      "name": "Berwick North",
+      "formal": 1925,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 60.94,
+      "swing": 13.61,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 758,
+          "pct": 39.38
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 453,
+          "pct": 23.53
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 265,
+          "pct": 13.77
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 167,
+          "pct": 8.68
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 100,
+          "pct": 5.19
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 80,
+          "pct": 4.16
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 64,
+          "pct": 3.32
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 38,
+          "pct": 1.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1173,
+          "elected": true,
+          "pct": 60.94
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 752,
+          "elected": false,
+          "pct": 39.06
+        }
+      ]
+    },
+    {
+      "boothId": 31783,
+      "name": "Narre Warren West",
+      "formal": 1924,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 67.88,
+      "swing": 11.82,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 873,
+          "pct": 45.37
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 334,
+          "pct": 17.36
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 250,
+          "pct": 12.99
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 184,
+          "pct": 9.56
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 97,
+          "pct": 5.04
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 80,
+          "pct": 4.16
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 75,
+          "pct": 3.9
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 1.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1306,
+          "elected": true,
+          "pct": 67.88
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 618,
+          "elected": false,
+          "pct": 32.12
+        }
+      ]
+    },
+    {
+      "boothId": 32528,
+      "name": "Narre Warren",
+      "formal": 1554,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 68.02,
+      "swing": 11.01,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 662,
+          "pct": 42.6
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 268,
+          "pct": 17.25
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 260,
+          "pct": 16.73
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 161,
+          "pct": 10.36
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 68,
+          "pct": 4.38
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 3.86
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 50,
+          "pct": 3.22
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1057,
+          "elected": true,
+          "pct": 68.02
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 497,
+          "elected": false,
+          "pct": 31.98
+        }
+      ]
+    },
+    {
+      "boothId": 31538,
+      "name": "Narre Warren Central",
+      "formal": 1492,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 64.54,
+      "swing": 12.46,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 624,
+          "pct": 41.82
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 282,
+          "pct": 18.9
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 195,
+          "pct": 13.07
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 143,
+          "pct": 9.58
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 100,
+          "pct": 6.7
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 64,
+          "pct": 4.29
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 57,
+          "pct": 3.82
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 963,
+          "elected": true,
+          "pct": 64.54
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 529,
+          "elected": false,
+          "pct": 35.46
+        }
+      ]
+    },
+    {
+      "boothId": 4286,
+      "name": "Fountain Gate",
+      "formal": 1477,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 73.26,
+      "swing": 8.99,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 733,
+          "pct": 49.63
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 223,
+          "pct": 15.1
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 195,
+          "pct": 13.2
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 137,
+          "pct": 9.28
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 63,
+          "pct": 4.27
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 3.59
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 53,
+          "pct": 3.59
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1082,
+          "elected": true,
+          "pct": 73.26
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 395,
+          "elected": false,
+          "pct": 26.74
+        }
+      ]
+    },
+    {
+      "boothId": 91128,
+      "name": "Mulgrave BRUCE PPVC",
+      "formal": 1476,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 62.53,
+      "swing": 10.28,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 727,
+          "pct": 49.25
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 409,
+          "pct": 27.71
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 135,
+          "pct": 9.15
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 3.59
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 49,
+          "pct": 3.32
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.12
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.37
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 923,
+          "elected": true,
+          "pct": 62.53
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 553,
+          "elected": false,
+          "pct": 37.47
+        }
+      ]
+    },
+    {
+      "boothId": 4287,
+      "name": "Endeavour Hills Upper",
+      "formal": 1433,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 68.39,
+      "swing": 9.72,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 631,
+          "pct": 44.03
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 248,
+          "pct": 17.31
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 189,
+          "pct": 13.19
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 136,
+          "pct": 9.49
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 81,
+          "pct": 5.65
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 65,
+          "pct": 4.54
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 56,
+          "pct": 3.91
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 980,
+          "elected": true,
+          "pct": 68.39
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 453,
+          "elected": false,
+          "pct": 31.61
+        }
+      ]
+    },
+    {
+      "boothId": 4288,
+      "name": "Hallam",
+      "formal": 1418,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 78.28,
+      "swing": 15.28,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 753,
+          "pct": 53.1
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 240,
+          "pct": 16.93
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 180,
+          "pct": 12.69
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 91,
+          "pct": 6.42
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 53,
+          "pct": 3.74
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 3.39
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 2.54
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1110,
+          "elected": true,
+          "pct": 78.28
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 308,
+          "elected": false,
+          "pct": 21.72
+        }
+      ]
+    },
+    {
+      "boothId": 4280,
+      "name": "Endeavour Hills East",
+      "formal": 1369,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 71.59,
+      "swing": 12.51,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 690,
+          "pct": 50.4
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 205,
+          "pct": 14.97
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 179,
+          "pct": 13.08
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 125,
+          "pct": 9.13
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 4.38
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 55,
+          "pct": 4.02
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 41,
+          "pct": 2.99
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 980,
+          "elected": true,
+          "pct": 71.59
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 389,
+          "elected": false,
+          "pct": 28.41
+        }
+      ]
+    },
+    {
+      "boothId": 4271,
+      "name": "Berwick (Bruce)",
+      "formal": 1340,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 54.48,
+      "swing": 13.13,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 456,
+          "pct": 34.03
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 403,
+          "pct": 30.07
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 178,
+          "pct": 13.28
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 120,
+          "pct": 8.96
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 58,
+          "pct": 4.33
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 3.81
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 48,
+          "pct": 3.58
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 1.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 730,
+          "elected": true,
+          "pct": 54.48
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 610,
+          "elected": false,
+          "pct": 45.52
+        }
+      ]
+    },
+    {
+      "boothId": 120024,
+      "name": "Cranbourne North Upper (Bruce)",
+      "formal": 1336,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 72.68,
+      "swing": 13.46,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 725,
+          "pct": 54.27
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "pct": 18.71
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 168,
+          "pct": 12.57
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 5.39
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 42,
+          "pct": 3.14
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 2.47
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.4
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 971,
+          "elected": true,
+          "pct": 72.68
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 365,
+          "elected": false,
+          "pct": 27.32
+        }
+      ]
+    },
+    {
+      "boothId": 64602,
+      "name": "Narre Warren North",
+      "formal": 1325,
+      "winnerParty": "lib",
+      "winnerSurname": "SAFI",
+      "winnerPct": 50.42,
+      "swing": -10.51,
+      "candidates": [
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 422,
+          "pct": 31.85
+        },
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 379,
+          "pct": 28.6
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 176,
+          "pct": 13.28
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 155,
+          "pct": 11.7
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 88,
+          "pct": 6.64
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.25
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 38,
+          "pct": 2.87
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 657,
+          "elected": true,
+          "pct": 49.58
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 668,
+          "elected": false,
+          "pct": 50.42
+        }
+      ]
+    },
+    {
+      "boothId": 46568,
+      "name": "Endeavour Hills North East",
+      "formal": 1280,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 68.75,
+      "swing": 13.8,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 577,
+          "pct": 45.08
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 230,
+          "pct": 17.97
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 200,
+          "pct": 15.62
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 89,
+          "pct": 6.95
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 87,
+          "pct": 6.8
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.36
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.05
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 880,
+          "elected": true,
+          "pct": 68.75
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 400,
+          "elected": false,
+          "pct": 31.25
+        }
+      ]
+    },
+    {
+      "boothId": 3977,
+      "name": "Dandenong North",
+      "formal": 1277,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 63.98,
+      "swing": 9.17,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 574,
+          "pct": 44.95
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 293,
+          "pct": 22.94
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 139,
+          "pct": 10.88
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 116,
+          "pct": 9.08
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 54,
+          "pct": 4.23
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.68
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 2.9
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 817,
+          "elected": true,
+          "pct": 63.98
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 460,
+          "elected": false,
+          "pct": 36.02
+        }
+      ]
+    },
+    {
+      "boothId": 3227,
+      "name": "Mulgrave East (Bruce)",
+      "formal": 1231,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 61.98,
+      "swing": 7.46,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 571,
+          "pct": 46.39
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 333,
+          "pct": 27.05
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 107,
+          "pct": 8.69
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 6.17
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.74
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.49
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 39,
+          "pct": 3.17
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 763,
+          "elected": true,
+          "pct": 61.98
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 468,
+          "elected": false,
+          "pct": 38.02
+        }
+      ]
+    },
+    {
+      "boothId": 3970,
+      "name": "Dandenong North West",
+      "formal": 1219,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 73.5,
+      "swing": 10.01,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 588,
+          "pct": 48.24
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 192,
+          "pct": 15.75
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 176,
+          "pct": 14.44
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 97,
+          "pct": 7.96
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 65,
+          "pct": 5.33
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 50,
+          "pct": 4.1
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 3.12
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 896,
+          "elected": true,
+          "pct": 73.5
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 323,
+          "elected": false,
+          "pct": 26.5
+        }
+      ]
+    },
+    {
+      "boothId": 31057,
+      "name": "Berwick Lodge",
+      "formal": 1122,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 68.0,
+      "swing": 14.42,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 508,
+          "pct": 45.28
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 191,
+          "pct": 17.02
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 157,
+          "pct": 13.99
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 112,
+          "pct": 9.98
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 59,
+          "pct": 5.26
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 43,
+          "pct": 3.83
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 3.12
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 763,
+          "elected": true,
+          "pct": 68.0
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 359,
+          "elected": false,
+          "pct": 32.0
+        }
+      ]
+    },
+    {
+      "boothId": 108154,
+      "name": "Cranbourne North",
+      "formal": 1120,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 73.21,
+      "swing": 14.65,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 590,
+          "pct": 52.68
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 176,
+          "pct": 15.71
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 153,
+          "pct": 13.66
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 5.09
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 4.64
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 41,
+          "pct": 3.66
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.21
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 820,
+          "elected": true,
+          "pct": 73.21
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 300,
+          "elected": false,
+          "pct": 26.79
+        }
+      ]
+    },
+    {
+      "boothId": 4279,
+      "name": "Endeavour Hills",
+      "formal": 1054,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 68.98,
+      "swing": 10.7,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 484,
+          "pct": 45.92
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 186,
+          "pct": 17.65
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 148,
+          "pct": 14.04
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 78,
+          "pct": 7.4
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 53,
+          "pct": 5.03
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 48,
+          "pct": 4.55
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 41,
+          "pct": 3.89
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 727,
+          "elected": true,
+          "pct": 68.98
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 327,
+          "elected": false,
+          "pct": 31.02
+        }
+      ]
+    },
+    {
+      "boothId": 3978,
+      "name": "Noble Park North (Bruce)",
+      "formal": 1045,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 72.82,
+      "swing": 12.25,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 575,
+          "pct": 55.02
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 163,
+          "pct": 15.6
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 119,
+          "pct": 11.39
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 6.41
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 4.21
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 35,
+          "pct": 3.35
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.97
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 761,
+          "elected": true,
+          "pct": 72.82
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 284,
+          "elected": false,
+          "pct": 27.18
+        }
+      ]
+    },
+    {
+      "boothId": 65164,
+      "name": "Doveton",
+      "formal": 1003,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 76.67,
+      "swing": 10.65,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 508,
+          "pct": 50.65
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 156,
+          "pct": 15.55
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 116,
+          "pct": 11.57
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 100,
+          "pct": 9.97
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 55,
+          "pct": 5.48
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 3.59
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.49
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 769,
+          "elected": true,
+          "pct": 76.67
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 234,
+          "elected": false,
+          "pct": 23.33
+        }
+      ]
+    },
+    {
+      "boothId": 47812,
+      "name": "Hallam East",
+      "formal": 919,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 74.86,
+      "swing": 8.92,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 455,
+          "pct": 49.51
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 174,
+          "pct": 18.93
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "pct": 15.56
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 5.66
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.03
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 3.37
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.07
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 688,
+          "elected": true,
+          "pct": 74.86
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 231,
+          "elected": false,
+          "pct": 25.14
+        }
+      ]
+    },
+    {
+      "boothId": 46528,
+      "name": "Berwick Central",
+      "formal": 887,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 63.02,
+      "swing": 18.13,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 379,
+          "pct": 42.73
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 208,
+          "pct": 23.45
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 107,
+          "pct": 12.06
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 102,
+          "pct": 11.5
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 3.49
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 3.38
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.48
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 559,
+          "elected": true,
+          "pct": 63.02
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 328,
+          "elected": false,
+          "pct": 36.98
+        }
+      ]
+    },
+    {
+      "boothId": 3976,
+      "name": "Dandenong North Lower",
+      "formal": 874,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 74.37,
+      "swing": 7.49,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 466,
+          "pct": 53.32
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 135,
+          "pct": 15.45
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 122,
+          "pct": 13.96
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 6.29
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 32,
+          "pct": 3.66
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 3.2
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 3.2
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 650,
+          "elected": true,
+          "pct": 74.37
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 224,
+          "elected": false,
+          "pct": 25.63
+        }
+      ]
+    },
+    {
+      "boothId": 4281,
+      "name": "Endeavour Hills North",
+      "formal": 842,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 67.81,
+      "swing": 11.18,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 396,
+          "pct": 47.03
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 154,
+          "pct": 18.29
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 114,
+          "pct": 13.54
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 74,
+          "pct": 8.79
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 36,
+          "pct": 4.28
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 4.28
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.49
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 571,
+          "elected": true,
+          "pct": 67.81
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 271,
+          "elected": false,
+          "pct": 32.19
+        }
+      ]
+    },
+    {
+      "boothId": 4277,
+      "name": "Doveton West",
+      "formal": 840,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 74.76,
+      "swing": 11.7,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 452,
+          "pct": 53.81
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 109,
+          "pct": 12.98
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 96,
+          "pct": 11.43
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 8.69
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 5.24
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.69
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.86
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 628,
+          "elected": true,
+          "pct": 74.76
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 212,
+          "elected": false,
+          "pct": 25.24
+        }
+      ]
+    },
+    {
+      "boothId": 91143,
+      "name": "Cranbourne BRUCE PPVC",
+      "formal": 805,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 69.69,
+      "swing": 15.0,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 393,
+          "pct": 48.82
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 158,
+          "pct": 19.63
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 113,
+          "pct": 14.04
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 7.83
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 3.6
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.73
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.24
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 561,
+          "elected": true,
+          "pct": 69.69
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 244,
+          "elected": false,
+          "pct": 30.31
+        }
+      ]
+    },
+    {
+      "boothId": 3982,
+      "name": "Dandenong North East",
+      "formal": 796,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 75.63,
+      "swing": 9.56,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 418,
+          "pct": 52.51
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 126,
+          "pct": 15.83
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 126,
+          "pct": 15.83
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 5.53
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.65
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 3.14
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.38
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 602,
+          "elected": true,
+          "pct": 75.63
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 194,
+          "elected": false,
+          "pct": 24.37
+        }
+      ]
+    },
+    {
+      "boothId": 105508,
+      "name": "Dandenong Upper",
+      "formal": 784,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 76.02,
+      "swing": 9.16,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 420,
+          "pct": 53.57
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 119,
+          "pct": 15.18
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 103,
+          "pct": 13.14
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 7.27
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 29,
+          "pct": 3.7
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 3.57
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.3
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 596,
+          "elected": true,
+          "pct": 76.02
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 188,
+          "elected": false,
+          "pct": 23.98
+        }
+      ]
+    },
+    {
+      "boothId": 3962,
+      "name": "Dandenong",
+      "formal": 743,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 76.99,
+      "swing": 12.06,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 382,
+          "pct": 51.41
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 17.9
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 98,
+          "pct": 13.19
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 7.67
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 32,
+          "pct": 4.31
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 2.56
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.48
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 572,
+          "elected": true,
+          "pct": 76.99
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 171,
+          "elected": false,
+          "pct": 23.01
+        }
+      ]
+    },
+    {
+      "boothId": 108136,
+      "name": "Harkaway",
+      "formal": 691,
+      "winnerParty": "lib",
+      "winnerSurname": "SAFI",
+      "winnerPct": 57.31,
+      "swing": -5.87,
+      "candidates": [
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 270,
+          "pct": 39.07
+        },
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 181,
+          "pct": 26.19
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 11.43
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 75,
+          "pct": 10.85
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 4.49
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 4.34
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.75
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 295,
+          "elected": true,
+          "pct": 42.69
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 396,
+          "elected": false,
+          "pct": 57.31
+        }
+      ]
+    },
+    {
+      "boothId": 3958,
+      "name": "Dandenong Central",
+      "formal": 658,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 79.03,
+      "swing": 7.99,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 340,
+          "pct": 51.67
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 20.21
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 78,
+          "pct": 11.85
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 4.41
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 3.8
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 3.65
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.58
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 520,
+          "elected": true,
+          "pct": 79.03
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 138,
+          "elected": false,
+          "pct": 20.97
+        }
+      ]
+    },
+    {
+      "boothId": 83362,
+      "name": "Endeavour Hills Central",
+      "formal": 657,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 74.28,
+      "swing": 20.3,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 333,
+          "pct": 50.68
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 111,
+          "pct": 16.89
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 101,
+          "pct": 15.37
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 7.46
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 3.35
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.59
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 2.44
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 488,
+          "elected": true,
+          "pct": 74.28
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 169,
+          "elected": false,
+          "pct": 25.72
+        }
+      ]
+    },
+    {
+      "boothId": 82837,
+      "name": "Noble Park BRUCE PPVC",
+      "formal": 559,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 72.09,
+      "swing": 11.33,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 283,
+          "pct": 50.63
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 104,
+          "pct": 18.6
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 72,
+          "pct": 12.88
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 8.23
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 3.94
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.5
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 2.33
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 403,
+          "elected": true,
+          "pct": 72.09
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 156,
+          "elected": false,
+          "pct": 27.91
+        }
+      ]
+    },
+    {
+      "boothId": 120035,
+      "name": "Clyde BRUCE PPVC",
+      "formal": 515,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 66.41,
+      "swing": 15.75,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 250,
+          "pct": 48.54
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 113,
+          "pct": 21.94
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 62,
+          "pct": 12.04
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 7.57
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 3.69
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.91
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.94
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 342,
+          "elected": true,
+          "pct": 66.41
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 173,
+          "elected": false,
+          "pct": 33.59
+        }
+      ]
+    },
+    {
+      "boothId": 108794,
+      "name": "Rowville BRUCE PPVC",
+      "formal": 487,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 57.7,
+      "swing": 1.57,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "pct": 34.09
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 134,
+          "pct": 27.52
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 66,
+          "pct": 13.55
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 10.47
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 4.52
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 4.31
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 4.11
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 281,
+          "elected": true,
+          "pct": 57.7
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 206,
+          "elected": false,
+          "pct": 42.3
+        }
+      ]
+    },
+    {
+      "boothId": 120040,
+      "name": "Beaconsfield (Bruce)",
+      "formal": 320,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 53.12,
+      "swing": 15.36,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "pct": 34.38
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 106,
+          "pct": 33.12
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 12.81
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 5.62
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 5.31
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 4.69
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 2.19
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "elected": true,
+          "pct": 53.12
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 150,
+          "elected": false,
+          "pct": 46.88
+        }
+      ]
+    },
+    {
+      "boothId": 104111,
+      "name": "Hampton Park North (Bruce)",
+      "formal": 302,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 74.83,
+      "swing": 12.72,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 168,
+          "pct": 55.63
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 36,
+          "pct": 11.92
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 10.93
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 8.28
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 7.28
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 2.98
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.65
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 226,
+          "elected": true,
+          "pct": 74.83
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 76,
+          "elected": false,
+          "pct": 25.17
+        }
+      ]
+    },
+    {
+      "boothId": 124147,
+      "name": "Special Hospital Team 4",
+      "formal": 136,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 61.03,
+      "swing": 5.77,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 68,
+          "pct": 50.0
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 42,
+          "pct": 30.88
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 5.15
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 4.41
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 3.68
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.94
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.94
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 83,
+          "elected": true,
+          "pct": 61.03
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 53,
+          "elected": false,
+          "pct": 38.97
+        }
+      ]
+    },
+    {
+      "boothId": 109072,
+      "name": "Special Hospital Team 2",
+      "formal": 104,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 66.35,
+      "swing": 11.29,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 54,
+          "pct": 51.92
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 32,
+          "pct": 30.77
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 8.65
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 1.92
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.92
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.92
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.92
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 69,
+          "elected": true,
+          "pct": 66.35
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 35,
+          "elected": false,
+          "pct": 33.65
+        }
+      ]
+    },
+    {
+      "boothId": 109016,
+      "name": "Special Hospital Team 1",
+      "formal": 94,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 71.28,
+      "swing": 16.02,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "pct": 58.51
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 23,
+          "pct": 24.47
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 5.32
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 4.26
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 3.19
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 2.13
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.06
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 67,
+          "elected": true,
+          "pct": 71.28
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 27,
+          "elected": false,
+          "pct": 28.72
+        }
+      ]
+    },
+    {
+      "boothId": 124016,
+      "name": "Special Hospital Team 3",
+      "formal": 79,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 67.09,
+      "swing": 11.9,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "pct": 56.96
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 21,
+          "pct": 26.58
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 6.33
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 5.06
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 3.8
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.27
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 53,
+          "elected": true,
+          "pct": 67.09
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 26,
+          "elected": false,
+          "pct": 32.91
+        }
+      ]
+    },
+    {
+      "boothId": 65543,
+      "name": "EAV Bruce PPVC",
+      "formal": 17,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": 94.12,
+      "swing": 37.87,
+      "candidates": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 15,
+          "pct": 88.24
+        },
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 5.88
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1,
+          "pct": 5.88
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "elected": true,
+          "pct": 94.12
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1,
+          "elected": false,
+          "pct": 5.88
+        }
+      ]
+    },
+    {
+      "boothId": 124034,
+      "name": "Dandenong Polling Day PPVC",
+      "formal": 0,
+      "winnerParty": "alp",
+      "winnerSurname": "HILL",
+      "winnerPct": null,
+      "swing": 0.0,
+      "candidates": [
+        {
+          "surname": "COLECCHIA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "GARAD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "SKROBO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "ANDERSON",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LOUTH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BIRCHALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HILL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "elected": true,
+          "pct": 0.0
+        },
+        {
+          "surname": "SAFI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "elected": false,
+          "pct": 0.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 109494,
+    "candidates": [
+      {
+        "id": "C41522",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Colecchia"
+      },
+      {
+        "id": "C41085",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Garad"
+      },
+      {
+        "id": "C40851",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Hill"
+      },
+      {
+        "id": "C41305",
+        "party": "oth",
+        "displayShort": "LTP",
+        "displayLong": "LTP \u2014 Skrobo"
+      },
+      {
+        "id": "C40790",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Safi"
+      },
+      {
+        "id": "C41370",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Anderson"
+      },
+      {
+        "id": "C41225",
+        "party": "oth",
+        "displayShort": "HMP",
+        "displayLong": "HMP \u2014 Louth"
+      },
+      {
+        "id": "C41582",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Birchall"
+      }
+    ],
+    "rounds": [
+      {
+        "C41522": 8931,
+        "C41085": 13213,
+        "C40851": 49610,
+        "C41305": 1289,
+        "C40790": 25162,
+        "C41370": 3530,
+        "C41225": 3563,
+        "C41582": 4196
+      },
+      {
+        "C41522": 9334,
+        "C41085": 13318,
+        "C40851": 49783,
+        "C40790": 25334,
+        "C41370": 3664,
+        "C41225": 3657,
+        "C41582": 4404
+      },
+      {
+        "C41522": 9728,
+        "C41085": 14200,
+        "C40851": 50657,
+        "C40790": 25634,
+        "C41370": 3950,
+        "C41582": 5325
+      },
+      {
+        "C41522": 11323,
+        "C41085": 14411,
+        "C40851": 51054,
+        "C40790": 26186,
+        "C41582": 6520
+      },
+      {
+        "C41522": 13989,
+        "C41085": 15500,
+        "C40851": 52109,
+        "C40790": 27896
+      },
+      {
+        "C41085": 18888,
+        "C40851": 54882,
+        "C40790": 35724
+      },
+      {
+        "C40851": 70751,
+        "C40790": 38743
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            58.32,
+            58.12,
+            51.8,
+            54.08,
+            64.15,
+            56.59,
+            64.62
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            41.68,
+            41.88,
+            48.2,
+            45.92,
+            35.85,
+            43.41,
+            35.38
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "FFP": 2.85,
+            "ON": 0.54,
+            "GRN": 5.09,
+            "LIB": 37.57,
+            "ALP": 51.85,
+            "OTH": 2.1
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "FFP": 4.11,
+            "ALP": 49.24,
+            "LIB": 37.24,
+            "GRN": 9.41
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "FFP": 2.65,
+            "TOP": 2.63,
+            "LIB": 42.96,
+            "GRN": 6.64,
+            "ALP": 41.9,
+            "OTH": 3.23
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "AJP": 2.34,
+            "FFP": 3.46,
+            "LIB": 40.05,
+            "GRN": 7.1,
+            "ALP": 44.34,
+            "OTH": 2.71
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "LIB": 29.2,
+            "GRN": 7.31,
+            "FACN": 3.63,
+            "ALP": 55.58,
+            "TOP": 4.28
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "ON": 4.77,
+            "LIB": 30.26,
+            "GRN": 9.73,
+            "LDP": 5.06,
+            "ALP": 41.47,
+            "TOP": 8.71
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "CYA": 3.22,
+            "FFP": 3.83,
+            "HMP": 3.25,
+            "GRN": 12.07,
+            "LIB": 22.98,
+            "ON": 8.16,
+            "ALP": 45.31,
+            "OTH": 1.18
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 179139,
+    "medianAge": 37,
+    "medianHouseholdIncomeWeekly": 1672,
+    "medianRentWeekly": 350,
+    "averageHouseholdSize": 2.9,
+    "bornOverseasPct": 48.3,
+    "indigenousPct": 0.6,
+    "bachelorPlusPct": 37.0,
+    "renterPct": 27.8,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 87689,
+        "pct": 51.67,
+        "natPct": 70.73
+      },
+      {
+        "label": "Afghanistan",
+        "count": 8859,
+        "pct": 5.22,
+        "natPct": 0.25
+      },
+      {
+        "label": "India",
+        "count": 5450,
+        "pct": 3.21,
+        "natPct": 1.51
+      },
+      {
+        "label": "China",
+        "count": 1973,
+        "pct": 1.16,
+        "natPct": 1.0
+      },
+      {
+        "label": "England",
+        "count": 1734,
+        "pct": 1.02,
+        "natPct": 1.95
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 74617,
+        "pct": 41.65,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 44703,
+        "pct": 24.95,
+        "natPct": 38.42
+      },
+      {
+        "label": "Islam",
+        "count": 24781,
+        "pct": 13.83,
+        "natPct": 3.2
+      },
+      {
+        "label": "Not stated",
+        "count": 12296,
+        "pct": 6.86,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 9435,
+        "pct": 5.27,
+        "natPct": 2.42
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Bruce is an Australian Electoral Division in the state of Victoria. The division is located in the south-eastern suburbs of Melbourne. It covers an area of approximately 115 square kilometres (44\u00a0sq\u00a0mi) including the suburbs of Dandenong North, Doveton, Endeavour Hills, Eumemmerring, Hallam, Harkaway, Lysterfield South, Narre Warren, and Narre Warren North; and parts of Beaconsfield, Berwick, Cranbourne North, Dandenong, Mulgrave, Narre Warren South, and Noble Park North.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Bruce",
+    "retrievedAt": "2026-01-22T07:11:19Z"
+  }
+}

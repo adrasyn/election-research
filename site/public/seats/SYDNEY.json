@@ -1,0 +1,4602 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "SYDNEY",
+    "divisionId": 149,
+    "name": "Sydney",
+    "state": "NSW",
+    "totalFormal": 107249,
+    "informalVotes": 3423,
+    "informalRate": 3.89,
+    "winner": {
+      "candidateId": "C41342",
+      "surname": "PLIBERSEK",
+      "givenName": "Tanya",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 41.9,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41342",
+      "surname": "PLIBERSEK",
+      "givenName": "Tanya",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 47164,
+      "pct": 55.74
+    },
+    {
+      "candidateId": "C41638",
+      "surname": "VELEZ",
+      "givenName": "Luc",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 18471,
+      "pct": 21.83
+    },
+    {
+      "candidateId": "C41561",
+      "surname": "XU",
+      "givenName": "Alex",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 14273,
+      "pct": 16.87
+    },
+    {
+      "candidateId": "C41910",
+      "surname": "TORBARAC",
+      "givenName": "Vedran",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 2803,
+      "pct": 3.31
+    },
+    {
+      "candidateId": "C41984",
+      "surname": "EVANS",
+      "givenName": "Rachel",
+      "party": "oth",
+      "partyAb": "SAL",
+      "votes": 1910,
+      "pct": 2.26
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41342",
+      "surname": "PLIBERSEK",
+      "givenName": "Tanya",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 76089,
+      "pct": 70.95,
+      "elected": true
+    },
+    {
+      "candidateId": "C41638",
+      "surname": "VELEZ",
+      "givenName": "Luc",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 31160,
+      "pct": 29.05,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 46533,
+      "name": "Haymarket SYDNEY PPVC",
+      "formal": 7577,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 74.54,
+      "swing": 3.69,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4358,
+          "pct": 57.52
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1505,
+          "pct": 19.86
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1309,
+          "pct": 17.28
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 250,
+          "pct": 3.3
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 155,
+          "pct": 2.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5648,
+          "elected": true,
+          "pct": 74.54
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1929,
+          "elected": false,
+          "pct": 25.46
+        }
+      ]
+    },
+    {
+      "boothId": 97595,
+      "name": "Glebe SYDNEY PPVC",
+      "formal": 5723,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 70.33,
+      "swing": 3.3,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3168,
+          "pct": 55.36
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1375,
+          "pct": 24.03
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 873,
+          "pct": 15.25
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 176,
+          "pct": 3.08
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 131,
+          "pct": 2.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4025,
+          "elected": true,
+          "pct": 70.33
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1698,
+          "elected": false,
+          "pct": 29.67
+        }
+      ]
+    },
+    {
+      "boothId": 97566,
+      "name": "Ultimo SYDNEY PPVC",
+      "formal": 4740,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 69.26,
+      "swing": 3.24,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2587,
+          "pct": 54.58
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1116,
+          "pct": 23.54
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 753,
+          "pct": 15.89
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 142,
+          "pct": 3.0
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 142,
+          "pct": 3.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3283,
+          "elected": true,
+          "pct": 69.26
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1457,
+          "elected": false,
+          "pct": 30.74
+        }
+      ]
+    },
+    {
+      "boothId": 83883,
+      "name": "Leichhardt SYDNEY PPVC",
+      "formal": 4437,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 77.87,
+      "swing": 10.3,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2687,
+          "pct": 60.56
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 914,
+          "pct": 20.6
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 643,
+          "pct": 14.49
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 143,
+          "pct": 3.22
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 50,
+          "pct": 1.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3455,
+          "elected": true,
+          "pct": 77.87
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 982,
+          "elected": false,
+          "pct": 22.13
+        }
+      ]
+    },
+    {
+      "boothId": 33970,
+      "name": "Wynyard SYDNEY PPVC",
+      "formal": 3683,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 75.18,
+      "swing": 5.2,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1879,
+          "pct": 51.02
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1015,
+          "pct": 27.56
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 616,
+          "pct": 16.73
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 117,
+          "pct": 3.18
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 56,
+          "pct": 1.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2769,
+          "elected": true,
+          "pct": 75.18
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 914,
+          "elected": false,
+          "pct": 24.82
+        }
+      ]
+    },
+    {
+      "boothId": 97564,
+      "name": "Eastlakes SYDNEY PPVC",
+      "formal": 2708,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 75.63,
+      "swing": 3.17,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1480,
+          "pct": 54.65
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 650,
+          "pct": 24.0
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 389,
+          "pct": 14.36
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 124,
+          "pct": 4.58
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 65,
+          "pct": 2.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2048,
+          "elected": true,
+          "pct": 75.63
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 660,
+          "elected": false,
+          "pct": 24.37
+        }
+      ]
+    },
+    {
+      "boothId": 1444,
+      "name": "Erskineville",
+      "formal": 2158,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 65.8,
+      "swing": 3.34,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1233,
+          "pct": 57.14
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 645,
+          "pct": 29.89
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 189,
+          "pct": 8.76
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 57,
+          "pct": 2.64
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 1.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1420,
+          "elected": true,
+          "pct": 65.8
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 738,
+          "elected": false,
+          "pct": 34.2
+        }
+      ]
+    },
+    {
+      "boothId": 2852,
+      "name": "Surry Hills South",
+      "formal": 2008,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 72.06,
+      "swing": 5.96,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1177,
+          "pct": 58.62
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 454,
+          "pct": 22.61
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 275,
+          "pct": 13.7
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 3.09
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 40,
+          "pct": 1.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1447,
+          "elected": true,
+          "pct": 72.06
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 561,
+          "elected": false,
+          "pct": 27.94
+        }
+      ]
+    },
+    {
+      "boothId": 2762,
+      "name": "Pyrmont",
+      "formal": 1941,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 75.89,
+      "swing": 2.39,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 978,
+          "pct": 50.39
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 531,
+          "pct": 27.36
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 300,
+          "pct": 15.46
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 101,
+          "pct": 5.2
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 31,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1473,
+          "elected": true,
+          "pct": 75.89
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 468,
+          "elected": false,
+          "pct": 24.11
+        }
+      ]
+    },
+    {
+      "boothId": 2763,
+      "name": "Rozelle",
+      "formal": 1913,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 74.28,
+      "swing": 8.7,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1150,
+          "pct": 60.12
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 395,
+          "pct": 20.65
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 308,
+          "pct": 16.1
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 2.14
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 19,
+          "pct": 0.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1421,
+          "elected": true,
+          "pct": 74.28
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 492,
+          "elected": false,
+          "pct": 25.72
+        }
+      ]
+    },
+    {
+      "boothId": 2741,
+      "name": "Balmain Central",
+      "formal": 1808,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 78.76,
+      "swing": 15.07,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1132,
+          "pct": 62.61
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 304,
+          "pct": 16.81
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 300,
+          "pct": 16.59
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 2.93
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1424,
+          "elected": true,
+          "pct": 78.76
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 384,
+          "elected": false,
+          "pct": 21.24
+        }
+      ]
+    },
+    {
+      "boothId": 1468,
+      "name": "Zetland South",
+      "formal": 1681,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 75.73,
+      "swing": 10.52,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 933,
+          "pct": 55.5
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 367,
+          "pct": 21.83
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 296,
+          "pct": 17.61
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 3.45
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1273,
+          "elected": true,
+          "pct": 75.73
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 408,
+          "elected": false,
+          "pct": 24.27
+        }
+      ]
+    },
+    {
+      "boothId": 1465,
+      "name": "Redfern",
+      "formal": 1655,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 63.38,
+      "swing": 1.84,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 879,
+          "pct": 53.11
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 460,
+          "pct": 27.79
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 184,
+          "pct": 11.12
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 79,
+          "pct": 4.77
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 3.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1049,
+          "elected": true,
+          "pct": 63.38
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 606,
+          "elected": false,
+          "pct": 36.62
+        }
+      ]
+    },
+    {
+      "boothId": 2740,
+      "name": "Forest Lodge",
+      "formal": 1574,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 65.76,
+      "swing": 2.06,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 864,
+          "pct": 54.89
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 445,
+          "pct": 28.27
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 158,
+          "pct": 10.04
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 56,
+          "pct": 3.56
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 3.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1035,
+          "elected": true,
+          "pct": 65.76
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 539,
+          "elected": false,
+          "pct": 34.24
+        }
+      ]
+    },
+    {
+      "boothId": 82985,
+      "name": "Erskineville North",
+      "formal": 1451,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 66.3,
+      "swing": 5.0,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 861,
+          "pct": 59.34
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 421,
+          "pct": 29.01
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 92,
+          "pct": 6.34
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 44,
+          "pct": 3.03
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 2.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 962,
+          "elected": true,
+          "pct": 66.3
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 489,
+          "elected": false,
+          "pct": 33.7
+        }
+      ]
+    },
+    {
+      "boothId": 2733,
+      "name": "Birchgrove",
+      "formal": 1442,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 77.53,
+      "swing": 16.45,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 883,
+          "pct": 61.23
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 255,
+          "pct": 17.68
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 241,
+          "pct": 16.71
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 3.26
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1118,
+          "elected": true,
+          "pct": 77.53
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 324,
+          "elected": false,
+          "pct": 22.47
+        }
+      ]
+    },
+    {
+      "boothId": 1441,
+      "name": "Darlington",
+      "formal": 1410,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 62.13,
+      "swing": 4.37,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 757,
+          "pct": 53.69
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 468,
+          "pct": 33.19
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 103,
+          "pct": 7.3
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 57,
+          "pct": 4.04
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 1.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 876,
+          "elected": true,
+          "pct": 62.13
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 534,
+          "elected": false,
+          "pct": 37.87
+        }
+      ]
+    },
+    {
+      "boothId": 83843,
+      "name": "Alexandria South",
+      "formal": 1405,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 67.97,
+      "swing": 5.82,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 798,
+          "pct": 56.8
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 385,
+          "pct": 27.4
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 154,
+          "pct": 10.96
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.06
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 1.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 955,
+          "elected": true,
+          "pct": 67.97
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 450,
+          "elected": false,
+          "pct": 32.03
+        }
+      ]
+    },
+    {
+      "boothId": 1446,
+      "name": "Rosebery West (Sydney)",
+      "formal": 1360,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 73.97,
+      "swing": 6.2,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 721,
+          "pct": 53.01
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 291,
+          "pct": 21.4
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 235,
+          "pct": 17.28
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 88,
+          "pct": 6.47
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1006,
+          "elected": true,
+          "pct": 73.97
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 354,
+          "elected": false,
+          "pct": 26.03
+        }
+      ]
+    },
+    {
+      "boothId": 2888,
+      "name": "Surry Hills North",
+      "formal": 1321,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 70.93,
+      "swing": 2.28,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 784,
+          "pct": 59.35
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 304,
+          "pct": 23.01
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 173,
+          "pct": 13.1
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 2.42
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 937,
+          "elected": true,
+          "pct": 70.93
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 384,
+          "elected": false,
+          "pct": 29.07
+        }
+      ]
+    },
+    {
+      "boothId": 98160,
+      "name": "St James",
+      "formal": 1310,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 70.99,
+      "swing": 3.24,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 638,
+          "pct": 48.7
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 328,
+          "pct": 25.04
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 251,
+          "pct": 19.16
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 4.35
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 36,
+          "pct": 2.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 930,
+          "elected": true,
+          "pct": 70.99
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 380,
+          "elected": false,
+          "pct": 29.01
+        }
+      ]
+    },
+    {
+      "boothId": 2736,
+      "name": "Camperdown South (Sydney)",
+      "formal": 1292,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 56.04,
+      "swing": -0.84,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 647,
+          "pct": 50.08
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 498,
+          "pct": 38.54
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 75,
+          "pct": 5.8
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 52,
+          "pct": 4.02
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 1.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 724,
+          "elected": true,
+          "pct": 56.04
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 568,
+          "elected": false,
+          "pct": 43.96
+        }
+      ]
+    },
+    {
+      "boothId": 2753,
+      "name": "Lilyfield",
+      "formal": 1201,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 72.52,
+      "swing": 5.73,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 695,
+          "pct": 57.87
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 243,
+          "pct": 20.23
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 197,
+          "pct": 16.4
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 3.33
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 26,
+          "pct": 2.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 871,
+          "elected": true,
+          "pct": 72.52
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 330,
+          "elected": false,
+          "pct": 27.48
+        }
+      ]
+    },
+    {
+      "boothId": 1472,
+      "name": "Waterloo South",
+      "formal": 1186,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 71.5,
+      "swing": 6.9,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 690,
+          "pct": 58.18
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 258,
+          "pct": 21.75
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 183,
+          "pct": 15.43
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 2.87
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 848,
+          "elected": true,
+          "pct": 71.5
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 338,
+          "elected": false,
+          "pct": 28.5
+        }
+      ]
+    },
+    {
+      "boothId": 83736,
+      "name": "Rozelle Central",
+      "formal": 1125,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 76.8,
+      "swing": 17.45,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 625,
+          "pct": 55.56
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 246,
+          "pct": 21.87
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 186,
+          "pct": 16.53
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 5.16
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 864,
+          "elected": true,
+          "pct": 76.8
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 261,
+          "elected": false,
+          "pct": 23.2
+        }
+      ]
+    },
+    {
+      "boothId": 2742,
+      "name": "Glebe",
+      "formal": 1113,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 65.59,
+      "swing": -0.48,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 604,
+          "pct": 54.27
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 310,
+          "pct": 27.85
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 122,
+          "pct": 10.96
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 44,
+          "pct": 3.95
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 2.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 730,
+          "elected": true,
+          "pct": 65.59
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 383,
+          "elected": false,
+          "pct": 34.41
+        }
+      ]
+    },
+    {
+      "boothId": 97561,
+      "name": "Newtown SYDNEY PPVC",
+      "formal": 1044,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 67.43,
+      "swing": 4.55,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 597,
+          "pct": 57.18
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 271,
+          "pct": 25.96
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 114,
+          "pct": 10.92
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 3.54
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 704,
+          "elected": true,
+          "pct": 67.43
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 340,
+          "elected": false,
+          "pct": 32.57
+        }
+      ]
+    },
+    {
+      "boothId": 2879,
+      "name": "Redfern East",
+      "formal": 1026,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 70.08,
+      "swing": -0.61,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 575,
+          "pct": 56.04
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 235,
+          "pct": 22.9
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 135,
+          "pct": 13.16
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 5.36
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 26,
+          "pct": 2.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 719,
+          "elected": true,
+          "pct": 70.08
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 307,
+          "elected": false,
+          "pct": 29.92
+        }
+      ]
+    },
+    {
+      "boothId": 1466,
+      "name": "Rosebery",
+      "formal": 1013,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 75.12,
+      "swing": 8.18,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 588,
+          "pct": 58.05
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 189,
+          "pct": 18.66
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 185,
+          "pct": 18.26
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 4.15
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 761,
+          "elected": true,
+          "pct": 75.12
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 252,
+          "elected": false,
+          "pct": 24.88
+        }
+      ]
+    },
+    {
+      "boothId": 2756,
+      "name": "Millers Point",
+      "formal": 1003,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 79.26,
+      "swing": 5.81,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 450,
+          "pct": 44.87
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 379,
+          "pct": 37.79
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 120,
+          "pct": 11.96
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 3.89
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 795,
+          "elected": true,
+          "pct": 79.26
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 208,
+          "elected": false,
+          "pct": 20.74
+        }
+      ]
+    },
+    {
+      "boothId": 1433,
+      "name": "Alexandria",
+      "formal": 999,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 66.67,
+      "swing": -0.23,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 557,
+          "pct": 55.76
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 280,
+          "pct": 28.03
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 100,
+          "pct": 10.01
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 3.6
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 26,
+          "pct": 2.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 666,
+          "elected": true,
+          "pct": 66.67
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 333,
+          "elected": false,
+          "pct": 33.33
+        }
+      ]
+    },
+    {
+      "boothId": 8882,
+      "name": "Newtown North (Sydney)",
+      "formal": 980,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 54.8,
+      "swing": -4.69,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 452,
+          "pct": 46.12
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 382,
+          "pct": 38.98
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 85,
+          "pct": 8.67
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 3.27
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 537,
+          "elected": true,
+          "pct": 54.8
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 443,
+          "elected": false,
+          "pct": 45.2
+        }
+      ]
+    },
+    {
+      "boothId": 1464,
+      "name": "Redfern West",
+      "formal": 971,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 65.5,
+      "swing": -3.16,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 535,
+          "pct": 55.1
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 263,
+          "pct": 27.09
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 93,
+          "pct": 9.58
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 55,
+          "pct": 5.66
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 2.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 636,
+          "elected": true,
+          "pct": 65.5
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 335,
+          "elected": false,
+          "pct": 34.5
+        }
+      ]
+    },
+    {
+      "boothId": 8881,
+      "name": "Newtown East (Sydney)",
+      "formal": 938,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 56.82,
+      "swing": -3.12,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 478,
+          "pct": 50.96
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 364,
+          "pct": 38.81
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 50,
+          "pct": 5.33
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.99
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 1.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 533,
+          "elected": true,
+          "pct": 56.82
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 405,
+          "elected": false,
+          "pct": 43.18
+        }
+      ]
+    },
+    {
+      "boothId": 2731,
+      "name": "Balmain East",
+      "formal": 923,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 79.52,
+      "swing": 16.76,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 573,
+          "pct": 62.08
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 174,
+          "pct": 18.85
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 142,
+          "pct": 15.38
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 2.38
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 734,
+          "elected": true,
+          "pct": 79.52
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 189,
+          "elected": false,
+          "pct": 20.48
+        }
+      ]
+    },
+    {
+      "boothId": 98161,
+      "name": "Ultimo (Sydney)",
+      "formal": 881,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 64.36,
+      "swing": 1.48,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 442,
+          "pct": 50.17
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 246,
+          "pct": 27.92
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 126,
+          "pct": 14.3
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 3.86
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 33,
+          "pct": 3.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 567,
+          "elected": true,
+          "pct": 64.36
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 314,
+          "elected": false,
+          "pct": 35.64
+        }
+      ]
+    },
+    {
+      "boothId": 2754,
+      "name": "Lilyfield North",
+      "formal": 880,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 74.77,
+      "swing": 9.5,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 513,
+          "pct": 58.3
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 167,
+          "pct": 18.98
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 160,
+          "pct": 18.18
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 3.3
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 658,
+          "elected": true,
+          "pct": 74.77
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 222,
+          "elected": false,
+          "pct": 25.23
+        }
+      ]
+    },
+    {
+      "boothId": 2768,
+      "name": "Glebe West",
+      "formal": 857,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 74.56,
+      "swing": 3.98,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 515,
+          "pct": 60.09
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 176,
+          "pct": 20.54
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 127,
+          "pct": 14.82
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 2.92
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 639,
+          "elected": true,
+          "pct": 74.56
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 218,
+          "elected": false,
+          "pct": 25.44
+        }
+      ]
+    },
+    {
+      "boothId": 1471,
+      "name": "Waterloo",
+      "formal": 834,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 71.82,
+      "swing": 2.06,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 493,
+          "pct": 59.11
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 164,
+          "pct": 19.66
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 107,
+          "pct": 12.83
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 4.68
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 599,
+          "elected": true,
+          "pct": 71.82
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 235,
+          "elected": false,
+          "pct": 28.18
+        }
+      ]
+    },
+    {
+      "boothId": 82983,
+      "name": "Beaconsfield",
+      "formal": 815,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 70.8,
+      "swing": 1.16,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 424,
+          "pct": 52.02
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 180,
+          "pct": 22.09
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 168,
+          "pct": 20.61
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 3.68
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 577,
+          "elected": true,
+          "pct": 70.8
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 238,
+          "elected": false,
+          "pct": 29.2
+        }
+      ]
+    },
+    {
+      "boothId": 97540,
+      "name": "Paddington SYDNEY PPVC",
+      "formal": 810,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 75.43,
+      "swing": 12.59,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 477,
+          "pct": 58.89
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 157,
+          "pct": 19.38
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 137,
+          "pct": 16.91
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 3.33
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 611,
+          "elected": true,
+          "pct": 75.43
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 199,
+          "elected": false,
+          "pct": 24.57
+        }
+      ]
+    },
+    {
+      "boothId": 83735,
+      "name": "Birchgrove East",
+      "formal": 802,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 78.18,
+      "swing": 9.65,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 506,
+          "pct": 63.09
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 145,
+          "pct": 18.08
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 121,
+          "pct": 15.09
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 2.74
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 627,
+          "elected": true,
+          "pct": 78.18
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 175,
+          "elected": false,
+          "pct": 21.82
+        }
+      ]
+    },
+    {
+      "boothId": 65248,
+      "name": "Marrickville SYDNEY PPVC",
+      "formal": 782,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 66.62,
+      "swing": 0.23,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 420,
+          "pct": 53.71
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 211,
+          "pct": 26.98
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 105,
+          "pct": 13.43
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 3.84
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 521,
+          "elected": true,
+          "pct": 66.62
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 261,
+          "elected": false,
+          "pct": 33.38
+        }
+      ]
+    },
+    {
+      "boothId": 2729,
+      "name": "Rozelle East",
+      "formal": 764,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 74.48,
+      "swing": 16.29,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 437,
+          "pct": 57.2
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 161,
+          "pct": 21.07
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 130,
+          "pct": 17.02
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 3.66
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 569,
+          "elected": true,
+          "pct": 74.48
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 195,
+          "elected": false,
+          "pct": 25.52
+        }
+      ]
+    },
+    {
+      "boothId": 2744,
+      "name": "Glebe North",
+      "formal": 733,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 65.76,
+      "swing": 1.76,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 385,
+          "pct": 52.52
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 206,
+          "pct": 28.1
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 95,
+          "pct": 12.96
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 3.55
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 482,
+          "elected": true,
+          "pct": 65.76
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 251,
+          "elected": false,
+          "pct": 34.24
+        }
+      ]
+    },
+    {
+      "boothId": 2743,
+      "name": "Glebe East",
+      "formal": 733,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 64.8,
+      "swing": -6.87,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 390,
+          "pct": 53.21
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 193,
+          "pct": 26.33
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 71,
+          "pct": 9.69
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 6.0
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 35,
+          "pct": 4.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 475,
+          "elected": true,
+          "pct": 64.8
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 258,
+          "elected": false,
+          "pct": 35.2
+        }
+      ]
+    },
+    {
+      "boothId": 2887,
+      "name": "Surry Hills",
+      "formal": 689,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 69.52,
+      "swing": 5.12,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 392,
+          "pct": 56.89
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 168,
+          "pct": 24.38
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 99,
+          "pct": 14.37
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 2.76
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 479,
+          "elected": true,
+          "pct": 69.52
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 210,
+          "elected": false,
+          "pct": 30.48
+        }
+      ]
+    },
+    {
+      "boothId": 82984,
+      "name": "Darlington Central",
+      "formal": 641,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 64.27,
+      "swing": 2.62,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 322,
+          "pct": 50.23
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 193,
+          "pct": 30.11
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 86,
+          "pct": 13.42
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 3.59
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 412,
+          "elected": true,
+          "pct": 64.27
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 229,
+          "elected": false,
+          "pct": 35.73
+        }
+      ]
+    },
+    {
+      "boothId": 97562,
+      "name": "Kings Cross SYDNEY PPVC",
+      "formal": 596,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 72.32,
+      "swing": 0.73,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 343,
+          "pct": 57.55
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 130,
+          "pct": 21.81
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 98,
+          "pct": 16.44
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 3.02
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 431,
+          "elected": true,
+          "pct": 72.32
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 165,
+          "elected": false,
+          "pct": 27.68
+        }
+      ]
+    },
+    {
+      "boothId": 98010,
+      "name": "Pyrmont South",
+      "formal": 595,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 68.74,
+      "swing": 1.95,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 333,
+          "pct": 55.97
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 147,
+          "pct": 24.71
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 86,
+          "pct": 14.45
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 3.36
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 409,
+          "elected": true,
+          "pct": 68.74
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 186,
+          "elected": false,
+          "pct": 31.26
+        }
+      ]
+    },
+    {
+      "boothId": 2735,
+      "name": "Camperdown",
+      "formal": 585,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 59.66,
+      "swing": -1.56,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 301,
+          "pct": 51.45
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 203,
+          "pct": 34.7
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 53,
+          "pct": 9.06
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.74
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 2.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 349,
+          "elected": true,
+          "pct": 59.66
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 236,
+          "elected": false,
+          "pct": 40.34
+        }
+      ]
+    },
+    {
+      "boothId": 2730,
+      "name": "Rozelle North",
+      "formal": 560,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 77.86,
+      "swing": 18.15,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 346,
+          "pct": 61.79
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 114,
+          "pct": 20.36
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 86,
+          "pct": 15.36
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 1.96
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 436,
+          "elected": true,
+          "pct": 77.86
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 124,
+          "elected": false,
+          "pct": 22.14
+        }
+      ]
+    },
+    {
+      "boothId": 2864,
+      "name": "Surry Hills West",
+      "formal": 552,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 67.57,
+      "swing": 5.15,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 306,
+          "pct": 55.43
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 138,
+          "pct": 25.0
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 69,
+          "pct": 12.5
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 3.62
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 373,
+          "elected": true,
+          "pct": 67.57
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 179,
+          "elected": false,
+          "pct": 32.43
+        }
+      ]
+    },
+    {
+      "boothId": 14165,
+      "name": "Wynyard (Sydney)",
+      "formal": 545,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 71.19,
+      "swing": 7.55,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 256,
+          "pct": 46.97
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 147,
+          "pct": 26.97
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 98,
+          "pct": 17.98
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 6.06
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 388,
+          "elected": true,
+          "pct": 71.19
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 157,
+          "elected": false,
+          "pct": 28.81
+        }
+      ]
+    },
+    {
+      "boothId": 108993,
+      "name": "Randwick SYDNEY PPVC",
+      "formal": 528,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 72.73,
+      "swing": 7.6,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 293,
+          "pct": 55.49
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 105,
+          "pct": 19.89
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 103,
+          "pct": 19.51
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 3.22
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 384,
+          "elected": true,
+          "pct": 72.73
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 144,
+          "elected": false,
+          "pct": 27.27
+        }
+      ]
+    },
+    {
+      "boothId": 2769,
+      "name": "Ultimo Central",
+      "formal": 527,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 71.73,
+      "swing": 4.85,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 293,
+          "pct": 55.6
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 102,
+          "pct": 19.35
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 91,
+          "pct": 17.27
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 5.69
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 378,
+          "elected": true,
+          "pct": 71.73
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 149,
+          "elected": false,
+          "pct": 28.27
+        }
+      ]
+    },
+    {
+      "boothId": 108992,
+      "name": "Bondi Junction SYDNEY PPVC",
+      "formal": 499,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 76.15,
+      "swing": 11.06,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 259,
+          "pct": 51.9
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 134,
+          "pct": 26.85
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 79,
+          "pct": 15.83
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 3.41
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 380,
+          "elected": true,
+          "pct": 76.15
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 119,
+          "elected": false,
+          "pct": 23.85
+        }
+      ]
+    },
+    {
+      "boothId": 2866,
+      "name": "Surry Hills East (Sydney)",
+      "formal": 487,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 65.3,
+      "swing": 0.25,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 256,
+          "pct": 52.57
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 125,
+          "pct": 25.67
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 76,
+          "pct": 15.61
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 3.29
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 318,
+          "elected": true,
+          "pct": 65.3
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 169,
+          "elected": false,
+          "pct": 34.7
+        }
+      ]
+    },
+    {
+      "boothId": 2856,
+      "name": "Ultimo East",
+      "formal": 452,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 64.6,
+      "swing": 3.42,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 235,
+          "pct": 51.99
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 130,
+          "pct": 28.76
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 64,
+          "pct": 14.16
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 3.1
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 292,
+          "elected": true,
+          "pct": 64.6
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 160,
+          "elected": false,
+          "pct": 35.4
+        }
+      ]
+    },
+    {
+      "boothId": 2755,
+      "name": "Lord Howe Island",
+      "formal": 235,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 74.47,
+      "swing": 10.15,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 141,
+          "pct": 60.0
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 48,
+          "pct": 20.43
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 34,
+          "pct": 14.47
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 4.68
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 175,
+          "elected": true,
+          "pct": 74.47
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 60,
+          "elected": false,
+          "pct": 25.53
+        }
+      ]
+    },
+    {
+      "boothId": 108990,
+      "name": "Special Hospital Team 1",
+      "formal": 69,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 79.71,
+      "swing": 11.53,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 48,
+          "pct": 69.57
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 11,
+          "pct": 15.94
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 10.14
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 2.9
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "elected": true,
+          "pct": 79.71
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "elected": false,
+          "pct": 20.29
+        }
+      ]
+    },
+    {
+      "boothId": 65468,
+      "name": "EAV Sydney PPVC",
+      "formal": 41,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 65.85,
+      "swing": -7.62,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 20,
+          "pct": 48.78
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 19.51
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 7,
+          "pct": 17.07
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 3,
+          "pct": 7.32
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 7.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 27,
+          "elected": true,
+          "pct": 65.85
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "elected": false,
+          "pct": 34.15
+        }
+      ]
+    },
+    {
+      "boothId": 98162,
+      "name": "Other Mobile Team 1",
+      "formal": 10,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 50.0,
+      "swing": -18.92,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "pct": 50.0
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 30.0
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 2,
+          "pct": 20.0
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "elected": true,
+          "pct": 50.0
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "elected": false,
+          "pct": 50.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 107249,
+    "candidates": [
+      {
+        "id": "C41342",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Plibersek"
+      },
+      {
+        "id": "C41984",
+        "party": "oth",
+        "displayShort": "SAL",
+        "displayLong": "SAL \u2014 Evans"
+      },
+      {
+        "id": "C41561",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Xu"
+      },
+      {
+        "id": "C41910",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Torbarac"
+      },
+      {
+        "id": "C41638",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Velez"
+      }
+    ],
+    "rounds": [
+      {
+        "C41342": 59153,
+        "C41984": 2376,
+        "C41561": 18860,
+        "C41910": 3698,
+        "C41638": 23162
+      },
+      {
+        "C41342": 59645,
+        "C41561": 19020,
+        "C41910": 3875,
+        "C41638": 24709
+      },
+      {
+        "C41342": 60236,
+        "C41561": 21765,
+        "C41638": 25248
+      },
+      {
+        "C41342": 76089,
+        "C41638": 31160
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            69.5,
+            67.07,
+            64.65,
+            65.31,
+            68.67,
+            66.69,
+            70.95
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            30.5,
+            32.93,
+            35.35,
+            34.69,
+            31.33,
+            null,
+            null
+          ]
+        },
+        {
+          "id": "GRN",
+          "party": "grn",
+          "label": "GRN",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            33.31,
+            29.05
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "GRN": 20.71,
+            "LIB": 26.7,
+            "ALP": 48.99,
+            "OTH": 3.61
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "ALP": 43.29,
+            "GRN": 23.75,
+            "LIB": 28.1,
+            "OTH": 4.85
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "LIB": 30.52,
+            "IND": 2.28,
+            "GRN": 17.33,
+            "ALP": 46.03,
+            "OTH": 3.85
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "GRN": 18.81,
+            "LIB": 29.15,
+            "ALP": 43.74,
+            "OTH": 8.3
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "FUT": 3.42,
+            "LIB": 26.61,
+            "GRN": 18.07,
+            "ALP": 49.41,
+            "OTH": 2.49
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "LIB": 19.66,
+            "ON": 1.83,
+            "TOP": 2.23,
+            "ALP": 50.82,
+            "GRN": 23.01,
+            "OTH": 2.44
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "SAL": 2.22,
+            "GRN": 21.6,
+            "ALP": 55.15,
+            "LIB": 17.59,
+            "ON": 3.45
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 204215,
+    "medianAge": 33,
+    "medianHouseholdIncomeWeekly": 2225,
+    "medianRentWeekly": 555,
+    "averageHouseholdSize": 1.9,
+    "bornOverseasPct": 52.5,
+    "indigenousPct": 1.5,
+    "bachelorPlusPct": 66.1,
+    "renterPct": 64.2,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 90580,
+        "pct": 47.54,
+        "natPct": 70.73
+      },
+      {
+        "label": "China",
+        "count": 6967,
+        "pct": 3.66,
+        "natPct": 1.0
+      },
+      {
+        "label": "England",
+        "count": 5718,
+        "pct": 3.0,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 3105,
+        "pct": 1.63,
+        "natPct": 1.11
+      },
+      {
+        "label": "Indonesia",
+        "count": 2830,
+        "pct": 1.49,
+        "natPct": 0.15
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 105037,
+        "pct": 51.43,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 55375,
+        "pct": 27.12,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 17948,
+        "pct": 8.79,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 13671,
+        "pct": 6.69,
+        "natPct": 2.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 3655,
+        "pct": 1.79,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Sydney is an Australian electoral division in the state of New South Wales. It is centred on and named after the city of Sydney, the state capital. The division encompasses Sydney CBD and surrounding areas to the south and west, as well as Lord Howe Island in the Tasman Sea.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Sydney",
+    "retrievedAt": "2025-09-09T15:11:09Z"
+  }
+}

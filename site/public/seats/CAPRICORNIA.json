@@ -1,0 +1,4512 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "CAPRICORNIA",
+    "divisionId": 157,
+    "name": "Capricornia",
+    "state": "QLD",
+    "totalFormal": 98658,
+    "informalVotes": 3192,
+    "informalRate": 3.8,
+    "winner": {
+      "candidateId": "C41222",
+      "surname": "LANDRY",
+      "givenName": "Michelle",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "LNP",
+    "tcpMargin": 11.66,
+    "result": "LNP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41222",
+      "surname": "LANDRY",
+      "givenName": "Michelle",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 28924,
+      "pct": 35.76
+    },
+    {
+      "candidateId": "C40737",
+      "surname": "MAWSON",
+      "givenName": "Emily",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 26449,
+      "pct": 32.7
+    },
+    {
+      "candidateId": "C40936",
+      "surname": "KEMPTON",
+      "givenName": "Cheryl",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 12556,
+      "pct": 15.53
+    },
+    {
+      "candidateId": "C41270",
+      "surname": "JONES",
+      "givenName": "Mick",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 5059,
+      "pct": 6.26
+    },
+    {
+      "candidateId": "C41340",
+      "surname": "ANDREW",
+      "givenName": "Stephen",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 4857,
+      "pct": 6.01
+    },
+    {
+      "candidateId": "C40858",
+      "surname": "HISLOP",
+      "givenName": "Kerri",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 3028,
+      "pct": 3.74
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41222",
+      "surname": "LANDRY",
+      "givenName": "Michelle",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 55085,
+      "pct": 55.83,
+      "elected": true
+    },
+    {
+      "candidateId": "C40737",
+      "surname": "MAWSON",
+      "givenName": "Emily",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 43573,
+      "pct": 44.17,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 32700,
+      "name": "Rockhampton CAPRICORNIA PPVC",
+      "formal": 19778,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 51.44,
+      "swing": -1.87,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7561,
+          "pct": 38.23
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7358,
+          "pct": 37.2
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2435,
+          "pct": 12.31
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1124,
+          "pct": 5.68
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 658,
+          "pct": 3.33
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 642,
+          "pct": 3.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 10174,
+          "elected": true,
+          "pct": 51.44
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9604,
+          "elected": false,
+          "pct": 48.56
+        }
+      ]
+    },
+    {
+      "boothId": 46728,
+      "name": "Yeppoon CAPRICORNIA PPVC",
+      "formal": 12234,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 60.26,
+      "swing": -1.1,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5089,
+          "pct": 41.6
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3646,
+          "pct": 29.8
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2143,
+          "pct": 17.52
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 692,
+          "pct": 5.66
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 365,
+          "pct": 2.98
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 299,
+          "pct": 2.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7372,
+          "elected": true,
+          "pct": 60.26
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4862,
+          "elected": false,
+          "pct": 39.74
+        }
+      ]
+    },
+    {
+      "boothId": 65738,
+      "name": "Mackay CAPRICORNIA PPVC",
+      "formal": 6311,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 61.19,
+      "swing": -0.3,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2602,
+          "pct": 41.23
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1756,
+          "pct": 27.82
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 860,
+          "pct": 13.63
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 691,
+          "pct": 10.95
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 214,
+          "pct": 3.39
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 188,
+          "pct": 2.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3862,
+          "elected": true,
+          "pct": 61.19
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2449,
+          "elected": false,
+          "pct": 38.81
+        }
+      ]
+    },
+    {
+      "boothId": 46726,
+      "name": "Sarina PPVC",
+      "formal": 4672,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 59.46,
+      "swing": 0.07,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1603,
+          "pct": 34.31
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1312,
+          "pct": 28.08
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 868,
+          "pct": 18.58
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 561,
+          "pct": 12.01
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 183,
+          "pct": 3.92
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 145,
+          "pct": 3.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2778,
+          "elected": true,
+          "pct": 59.46
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1894,
+          "elected": false,
+          "pct": 40.54
+        }
+      ]
+    },
+    {
+      "boothId": 46438,
+      "name": "Moranbah PPVC",
+      "formal": 2634,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 58.35,
+      "swing": -0.68,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1211,
+          "pct": 45.98
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 574,
+          "pct": 21.79
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 443,
+          "pct": 16.82
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 219,
+          "pct": 8.31
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 103,
+          "pct": 3.91
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 84,
+          "pct": 3.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1097,
+          "elected": true,
+          "pct": 41.65
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1537,
+          "elected": false,
+          "pct": 58.35
+        }
+      ]
+    },
+    {
+      "boothId": 5281,
+      "name": "Yeppoon",
+      "formal": 1613,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 56.85,
+      "swing": 1.3,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 524,
+          "pct": 32.49
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 455,
+          "pct": 28.21
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 341,
+          "pct": 21.14
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 156,
+          "pct": 9.67
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 71,
+          "pct": 4.4
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 66,
+          "pct": 4.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 917,
+          "elected": true,
+          "pct": 56.85
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 696,
+          "elected": false,
+          "pct": 43.15
+        }
+      ]
+    },
+    {
+      "boothId": 5234,
+      "name": "Kawana",
+      "formal": 1610,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 53.11,
+      "swing": 2.3,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 575,
+          "pct": 35.71
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 448,
+          "pct": 27.83
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 231,
+          "pct": 14.35
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 180,
+          "pct": 11.18
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 95,
+          "pct": 5.9
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 81,
+          "pct": 5.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 755,
+          "elected": true,
+          "pct": 46.89
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 855,
+          "elected": false,
+          "pct": 53.11
+        }
+      ]
+    },
+    {
+      "boothId": 31517,
+      "name": "Norman Gardens North",
+      "formal": 1581,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 50.22,
+      "swing": -4.73,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 587,
+          "pct": 37.13
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 548,
+          "pct": 34.66
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 154,
+          "pct": 9.74
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 147,
+          "pct": 9.3
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 91,
+          "pct": 5.76
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 54,
+          "pct": 3.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 794,
+          "elected": true,
+          "pct": 50.22
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 787,
+          "elected": false,
+          "pct": 49.78
+        }
+      ]
+    },
+    {
+      "boothId": 5231,
+      "name": "Emu Park",
+      "formal": 1551,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 54.74,
+      "swing": 2.09,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 494,
+          "pct": 31.85
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 491,
+          "pct": 31.66
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 311,
+          "pct": 20.05
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 104,
+          "pct": 6.71
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 76,
+          "pct": 4.9
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 75,
+          "pct": 4.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 849,
+          "elected": true,
+          "pct": 54.74
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 702,
+          "elected": false,
+          "pct": 45.26
+        }
+      ]
+    },
+    {
+      "boothId": 5208,
+      "name": "Allenstown",
+      "formal": 1434,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 51.05,
+      "swing": 2.01,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 479,
+          "pct": 33.4
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 476,
+          "pct": 33.19
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 195,
+          "pct": 13.6
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 161,
+          "pct": 11.23
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 65,
+          "pct": 4.53
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 58,
+          "pct": 4.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 702,
+          "elected": true,
+          "pct": 48.95
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 732,
+          "elected": false,
+          "pct": 51.05
+        }
+      ]
+    },
+    {
+      "boothId": 5257,
+      "name": "Frenchville South",
+      "formal": 1423,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 57.13,
+      "swing": 4.53,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 554,
+          "pct": 38.93
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 376,
+          "pct": 26.42
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 181,
+          "pct": 12.72
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 165,
+          "pct": 11.6
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 81,
+          "pct": 5.69
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 66,
+          "pct": 4.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 610,
+          "elected": true,
+          "pct": 42.87
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 813,
+          "elected": false,
+          "pct": 57.13
+        }
+      ]
+    },
+    {
+      "boothId": 5225,
+      "name": "Taranganba",
+      "formal": 1417,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 54.34,
+      "swing": -3.94,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 496,
+          "pct": 35.0
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 435,
+          "pct": 30.7
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 267,
+          "pct": 18.84
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 123,
+          "pct": 8.68
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.67
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 3.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 770,
+          "elected": true,
+          "pct": 54.34
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 647,
+          "elected": false,
+          "pct": 45.66
+        }
+      ]
+    },
+    {
+      "boothId": 5376,
+      "name": "Walkerston",
+      "formal": 1334,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 61.54,
+      "swing": -1.19,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 511,
+          "pct": 38.31
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 350,
+          "pct": 26.24
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 205,
+          "pct": 15.37
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 146,
+          "pct": 10.94
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 5.25
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 3.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 821,
+          "elected": true,
+          "pct": 61.54
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 513,
+          "elected": false,
+          "pct": 38.46
+        }
+      ]
+    },
+    {
+      "boothId": 5345,
+      "name": "Marian",
+      "formal": 1257,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 61.42,
+      "swing": -0.25,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 464,
+          "pct": 36.91
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 313,
+          "pct": 24.9
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 211,
+          "pct": 16.79
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 157,
+          "pct": 12.49
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 4.53
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 55,
+          "pct": 4.38
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 772,
+          "elected": true,
+          "pct": 61.42
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 485,
+          "elected": false,
+          "pct": 38.58
+        }
+      ]
+    },
+    {
+      "boothId": 5265,
+      "name": "Rockhampton City (Capricornia)",
+      "formal": 1248,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 50.08,
+      "swing": -1.93,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 425,
+          "pct": 34.05
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 408,
+          "pct": 32.69
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 168,
+          "pct": 13.46
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 144,
+          "pct": 11.54
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 56,
+          "pct": 4.49
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 47,
+          "pct": 3.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 625,
+          "elected": true,
+          "pct": 50.08
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 623,
+          "elected": false,
+          "pct": 49.92
+        }
+      ]
+    },
+    {
+      "boothId": 5251,
+      "name": "Koongal",
+      "formal": 1149,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 56.14,
+      "swing": 5.94,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 437,
+          "pct": 38.03
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 288,
+          "pct": 25.07
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 182,
+          "pct": 15.84
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 131,
+          "pct": 11.4
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 61,
+          "pct": 5.31
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 50,
+          "pct": 4.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 504,
+          "elected": true,
+          "pct": 43.86
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 645,
+          "elected": false,
+          "pct": 56.14
+        }
+      ]
+    },
+    {
+      "boothId": 46722,
+      "name": "Clermont PPVC",
+      "formal": 1107,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 74.16,
+      "swing": 3.52,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 571,
+          "pct": 51.58
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 233,
+          "pct": 21.05
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 195,
+          "pct": 17.62
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 50,
+          "pct": 4.52
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 2.62
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "pct": 2.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 821,
+          "elected": true,
+          "pct": 74.16
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 286,
+          "elected": false,
+          "pct": 25.84
+        }
+      ]
+    },
+    {
+      "boothId": 5233,
+      "name": "Frenchville North",
+      "formal": 1102,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 55.08,
+      "swing": 7.04,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 436,
+          "pct": 39.56
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 341,
+          "pct": 30.94
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 124,
+          "pct": 11.25
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 124,
+          "pct": 11.25
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.63
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 3.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 495,
+          "elected": true,
+          "pct": 44.92
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 607,
+          "elected": false,
+          "pct": 55.08
+        }
+      ]
+    },
+    {
+      "boothId": 5217,
+      "name": "Berserker",
+      "formal": 1091,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 55.55,
+      "swing": 1.54,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 399,
+          "pct": 36.57
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 271,
+          "pct": 24.84
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 183,
+          "pct": 16.77
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 132,
+          "pct": 12.1
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 57,
+          "pct": 5.22
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 49,
+          "pct": 4.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 485,
+          "elected": true,
+          "pct": 44.45
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 606,
+          "elected": false,
+          "pct": 55.55
+        }
+      ]
+    },
+    {
+      "boothId": 5366,
+      "name": "Sarina North",
+      "formal": 1059,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 57.98,
+      "swing": 1.45,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 278,
+          "pct": 26.25
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 250,
+          "pct": 23.61
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 229,
+          "pct": 21.62
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 168,
+          "pct": 15.86
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 74,
+          "pct": 6.99
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 60,
+          "pct": 5.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 614,
+          "elected": true,
+          "pct": 57.98
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 445,
+          "elected": false,
+          "pct": 42.02
+        }
+      ]
+    },
+    {
+      "boothId": 5260,
+      "name": "Parkhurst",
+      "formal": 1058,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 56.81,
+      "swing": 4.88,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 390,
+          "pct": 36.86
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 307,
+          "pct": 29.02
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 192,
+          "pct": 18.15
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 79,
+          "pct": 7.47
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 4.54
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 3.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 601,
+          "elected": true,
+          "pct": 56.81
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 457,
+          "elected": false,
+          "pct": 43.19
+        }
+      ]
+    },
+    {
+      "boothId": 5259,
+      "name": "Park Avenue",
+      "formal": 968,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 53.1,
+      "swing": 1.4,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 344,
+          "pct": 35.54
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 251,
+          "pct": 25.93
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 171,
+          "pct": 17.67
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 101,
+          "pct": 10.43
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 5.37
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 49,
+          "pct": 5.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 454,
+          "elected": true,
+          "pct": 46.9
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 514,
+          "elected": false,
+          "pct": 53.1
+        }
+      ]
+    },
+    {
+      "boothId": 5349,
+      "name": "Mirani",
+      "formal": 923,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 61.76,
+      "swing": 1.16,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 351,
+          "pct": 38.03
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 231,
+          "pct": 25.03
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 164,
+          "pct": 17.77
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 106,
+          "pct": 11.48
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 36,
+          "pct": 3.9
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 3.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 570,
+          "elected": true,
+          "pct": 61.76
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 353,
+          "elected": false,
+          "pct": 38.24
+        }
+      ]
+    },
+    {
+      "boothId": 5250,
+      "name": "Moranbah (Capricornia)",
+      "formal": 829,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 56.45,
+      "swing": 1.51,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 317,
+          "pct": 38.24
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 182,
+          "pct": 21.95
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 149,
+          "pct": 17.97
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 77,
+          "pct": 9.29
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 62,
+          "pct": 7.48
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 42,
+          "pct": 5.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 361,
+          "elected": true,
+          "pct": 43.55
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 468,
+          "elected": false,
+          "pct": 56.45
+        }
+      ]
+    },
+    {
+      "boothId": 5277,
+      "name": "Wandal",
+      "formal": 790,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 54.81,
+      "swing": -1.32,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 295,
+          "pct": 37.34
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 236,
+          "pct": 29.87
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 94,
+          "pct": 11.9
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 11.77
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.68
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 4.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 357,
+          "elected": true,
+          "pct": 45.19
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 433,
+          "elected": false,
+          "pct": 54.81
+        }
+      ]
+    },
+    {
+      "boothId": 5222,
+      "name": "The Caves",
+      "formal": 723,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 65.01,
+      "swing": 4.66,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 312,
+          "pct": 43.15
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 175,
+          "pct": 24.2
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 155,
+          "pct": 21.44
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 4.7
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 24,
+          "pct": 3.32
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 3.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 470,
+          "elected": true,
+          "pct": 65.01
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 253,
+          "elected": false,
+          "pct": 34.99
+        }
+      ]
+    },
+    {
+      "boothId": 5303,
+      "name": "Collinsville",
+      "formal": 706,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 50.99,
+      "swing": 0.57,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 279,
+          "pct": 39.52
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 216,
+          "pct": 30.59
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 100,
+          "pct": 14.16
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 48,
+          "pct": 6.8
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 4.53
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 4.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 346,
+          "elected": true,
+          "pct": 49.01
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 360,
+          "elected": false,
+          "pct": 50.99
+        }
+      ]
+    },
+    {
+      "boothId": 5232,
+      "name": "Farnborough",
+      "formal": 703,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 58.18,
+      "swing": 2.16,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 241,
+          "pct": 34.28
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 174,
+          "pct": 24.75
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 139,
+          "pct": 19.77
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 92,
+          "pct": 13.09
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 4.69
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 3.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 409,
+          "elected": true,
+          "pct": 58.18
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 294,
+          "elected": false,
+          "pct": 41.82
+        }
+      ]
+    },
+    {
+      "boothId": 31448,
+      "name": "Ooralea",
+      "formal": 700,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 51.71,
+      "swing": -3.69,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 239,
+          "pct": 34.14
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 233,
+          "pct": 33.29
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 78,
+          "pct": 11.14
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 9.86
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 8.14
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 3.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 362,
+          "elected": true,
+          "pct": 51.71
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 338,
+          "elected": false,
+          "pct": 48.29
+        }
+      ]
+    },
+    {
+      "boothId": 5243,
+      "name": "Lakes Creek",
+      "formal": 688,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 50.15,
+      "swing": 1.8,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 241,
+          "pct": 35.03
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 200,
+          "pct": 29.07
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 138,
+          "pct": 20.06
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 40,
+          "pct": 5.81
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 5.23
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 4.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 343,
+          "elected": true,
+          "pct": 49.85
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 345,
+          "elected": false,
+          "pct": 50.15
+        }
+      ]
+    },
+    {
+      "boothId": 5230,
+      "name": "Dysart",
+      "formal": 621,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 52.17,
+      "swing": -3.42,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 211,
+          "pct": 33.98
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 143,
+          "pct": 23.03
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 127,
+          "pct": 20.45
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 61,
+          "pct": 9.82
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 6.6
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 6.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 297,
+          "elected": true,
+          "pct": 47.83
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 324,
+          "elected": false,
+          "pct": 52.17
+        }
+      ]
+    },
+    {
+      "boothId": 5289,
+      "name": "Alligator Creek",
+      "formal": 567,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 60.67,
+      "swing": 1.52,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 175,
+          "pct": 30.86
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 153,
+          "pct": 26.98
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 104,
+          "pct": 18.34
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 69,
+          "pct": 12.17
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 39,
+          "pct": 6.88
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 27,
+          "pct": 4.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 344,
+          "elected": true,
+          "pct": 60.67
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 223,
+          "elected": false,
+          "pct": 39.33
+        }
+      ]
+    },
+    {
+      "boothId": 5223,
+      "name": "Cawarral",
+      "formal": 518,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 61.97,
+      "swing": -3.02,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 184,
+          "pct": 35.52
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 129,
+          "pct": 24.9
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 121,
+          "pct": 23.36
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 37,
+          "pct": 7.14
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 5.41
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 3.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 321,
+          "elected": true,
+          "pct": 61.97
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 197,
+          "elected": false,
+          "pct": 38.03
+        }
+      ]
+    },
+    {
+      "boothId": 5310,
+      "name": "Bakers Creek",
+      "formal": 468,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 54.49,
+      "swing": -1.6,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 152,
+          "pct": 32.48
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 141,
+          "pct": 30.13
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 15.38
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 58,
+          "pct": 12.39
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 5.56
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 4.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 255,
+          "elected": true,
+          "pct": 54.49
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 213,
+          "elected": false,
+          "pct": 45.51
+        }
+      ]
+    },
+    {
+      "boothId": 5245,
+      "name": "Norman Gardens South",
+      "formal": 437,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 51.03,
+      "swing": -0.2,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 159,
+          "pct": 36.38
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 150,
+          "pct": 34.32
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 11.67
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 38,
+          "pct": 8.7
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 5.95
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 2.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 223,
+          "elected": true,
+          "pct": 51.03
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 214,
+          "elected": false,
+          "pct": 48.97
+        }
+      ]
+    },
+    {
+      "boothId": 5314,
+      "name": "Eton",
+      "formal": 423,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 71.16,
+      "swing": 0.77,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 162,
+          "pct": 38.3
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 86,
+          "pct": 20.33
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 78,
+          "pct": 18.44
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 74,
+          "pct": 17.49
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 2.84
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 2.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 301,
+          "elected": true,
+          "pct": 71.16
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 122,
+          "elected": false,
+          "pct": 28.84
+        }
+      ]
+    },
+    {
+      "boothId": 5823,
+      "name": "Clermont",
+      "formal": 413,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 70.94,
+      "swing": -2.66,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 182,
+          "pct": 44.07
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 77,
+          "pct": 18.64
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 17.68
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 10.41
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 4.84
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 18,
+          "pct": 4.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 293,
+          "elected": true,
+          "pct": 70.94
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 120,
+          "elected": false,
+          "pct": 29.06
+        }
+      ]
+    },
+    {
+      "boothId": 5248,
+      "name": "Middlemount",
+      "formal": 405,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 54.32,
+      "swing": 2.9,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 130,
+          "pct": 32.1
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 121,
+          "pct": 29.88
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 78,
+          "pct": 19.26
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 8.64
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 21,
+          "pct": 5.19
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 4.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 220,
+          "elected": true,
+          "pct": 54.32
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 185,
+          "elected": false,
+          "pct": 45.68
+        }
+      ]
+    },
+    {
+      "boothId": 5318,
+      "name": "Finch Hatton",
+      "formal": 385,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 67.53,
+      "swing": 2.02,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 135,
+          "pct": 35.06
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 21.82
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "pct": 20.78
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 13.25
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 25,
+          "pct": 6.49
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 2.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 260,
+          "elected": true,
+          "pct": 67.53
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 125,
+          "elected": false,
+          "pct": 32.47
+        }
+      ]
+    },
+    {
+      "boothId": 108424,
+      "name": "Special Hospital Team 1",
+      "formal": 350,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 57.71,
+      "swing": -3.66,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 167,
+          "pct": 47.71
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 127,
+          "pct": 36.29
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 5.71
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 3.43
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 3.43
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 3.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 202,
+          "elected": true,
+          "pct": 57.71
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 148,
+          "elected": false,
+          "pct": 42.29
+        }
+      ]
+    },
+    {
+      "boothId": 5254,
+      "name": "Nebo",
+      "formal": 308,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 68.51,
+      "swing": -6.05,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 117,
+          "pct": 37.99
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 25.97
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 44,
+          "pct": 14.29
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 9.42
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 7.47
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 4.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 211,
+          "elected": true,
+          "pct": 68.51
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "elected": false,
+          "pct": 31.49
+        }
+      ]
+    },
+    {
+      "boothId": 5301,
+      "name": "Chelona",
+      "formal": 305,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 73.77,
+      "swing": -1.09,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 149,
+          "pct": 48.85
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 16.72
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "pct": 16.07
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 46,
+          "pct": 15.08
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.64
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 1.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 225,
+          "elected": true,
+          "pct": 73.77
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "elected": false,
+          "pct": 26.23
+        }
+      ]
+    },
+    {
+      "boothId": 5242,
+      "name": "Keppel Sands",
+      "formal": 282,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 61.35,
+      "swing": 2.89,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 126,
+          "pct": 44.68
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 83,
+          "pct": 29.43
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 13.83
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 4.61
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 4.26
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 3.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 173,
+          "elected": true,
+          "pct": 61.35
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 109,
+          "elected": false,
+          "pct": 38.65
+        }
+      ]
+    },
+    {
+      "boothId": 5337,
+      "name": "Koumala",
+      "formal": 278,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 75.9,
+      "swing": 2.69,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 129,
+          "pct": 46.4
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 19.06
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 42,
+          "pct": 15.11
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 11.87
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 4.32
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 3.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 211,
+          "elected": true,
+          "pct": 75.9
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 67,
+          "elected": false,
+          "pct": 24.1
+        }
+      ]
+    },
+    {
+      "boothId": 109726,
+      "name": "Gracemere CAPRICORNIA PPVC",
+      "formal": 256,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 54.3,
+      "swing": -2.84,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 87,
+          "pct": 33.98
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 79,
+          "pct": 30.86
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 16.41
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 7.42
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 5.86
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 5.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 139,
+          "elected": true,
+          "pct": 54.3
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 117,
+          "elected": false,
+          "pct": 45.7
+        }
+      ]
+    },
+    {
+      "boothId": 124130,
+      "name": "Special Hospital Team 4",
+      "formal": 240,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 56.67,
+      "swing": 18.07,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 115,
+          "pct": 47.92
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 80,
+          "pct": 33.33
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 10.0
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 4.17
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 2.5
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 104,
+          "elected": true,
+          "pct": 43.33
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 136,
+          "elected": false,
+          "pct": 56.67
+        }
+      ]
+    },
+    {
+      "boothId": 109292,
+      "name": "Special Hospital Team 2",
+      "formal": 192,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 55.73,
+      "swing": -5.81,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 85,
+          "pct": 44.27
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 73,
+          "pct": 38.02
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 7.81
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 3.65
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 3.65
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 2.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 107,
+          "elected": true,
+          "pct": 55.73
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 85,
+          "elected": false,
+          "pct": 44.27
+        }
+      ]
+    },
+    {
+      "boothId": 5373,
+      "name": "Sarina South",
+      "formal": 178,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 67.98,
+      "swing": 3.01,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 58,
+          "pct": 32.58
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 23.6
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 37,
+          "pct": 20.79
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 11.8
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 7.87
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 3.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 121,
+          "elected": true,
+          "pct": 67.98
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 57,
+          "elected": false,
+          "pct": 32.02
+        }
+      ]
+    },
+    {
+      "boothId": 109375,
+      "name": "Remote Mobile Team 1",
+      "formal": 138,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 67.39,
+      "swing": 5.32,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 61,
+          "pct": 44.2
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 22.46
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "pct": 21.74
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 7.97
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 2.17
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 93,
+          "elected": true,
+          "pct": 67.39
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "elected": false,
+          "pct": 32.61
+        }
+      ]
+    },
+    {
+      "boothId": 109728,
+      "name": "Blackwater CAPRICORNIA PPVC",
+      "formal": 106,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 70.75,
+      "swing": 13.81,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 45,
+          "pct": 42.45
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 26.42
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 20,
+          "pct": 18.87
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 9.43
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 1.89
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 75,
+          "elected": true,
+          "pct": 70.75
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 31,
+          "elected": false,
+          "pct": 29.25
+        }
+      ]
+    },
+    {
+      "boothId": 109781,
+      "name": "Gracemere South (Capricornia)",
+      "formal": 106,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 56.6,
+      "swing": 1.67,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 28,
+          "pct": 26.42
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 26.42
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 25,
+          "pct": 23.58
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 10.38
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 7.55
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 5.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 60,
+          "elected": true,
+          "pct": 56.6
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 46,
+          "elected": false,
+          "pct": 43.4
+        }
+      ]
+    },
+    {
+      "boothId": 109293,
+      "name": "Special Hospital Team 3",
+      "formal": 72,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 59.72,
+      "swing": 21.01,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 40,
+          "pct": 55.56
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 18,
+          "pct": 25.0
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 9.72
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 5.56
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 2.78
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 1.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 29,
+          "elected": true,
+          "pct": 40.28
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 43,
+          "elected": false,
+          "pct": 59.72
+        }
+      ]
+    },
+    {
+      "boothId": 109455,
+      "name": "Other Mobile Team 2",
+      "formal": 67,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 59.7,
+      "swing": 21.57,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "pct": 44.78
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 18,
+          "pct": 26.87
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 13.43
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 8.96
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 4.48
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 27,
+          "elected": true,
+          "pct": 40.3
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 40,
+          "elected": false,
+          "pct": 59.7
+        }
+      ]
+    },
+    {
+      "boothId": 109452,
+      "name": "Other Mobile Team 1",
+      "formal": 57,
+      "winnerParty": "alp",
+      "winnerSurname": "MAWSON",
+      "winnerPct": 54.39,
+      "swing": 16.19,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 25,
+          "pct": 43.86
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 18,
+          "pct": 31.58
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 12.28
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 10.53
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 1.75
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 26,
+          "elected": true,
+          "pct": 45.61
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 31,
+          "elected": false,
+          "pct": 54.39
+        }
+      ]
+    },
+    {
+      "boothId": 65640,
+      "name": "EAV Capricornia PPVC",
+      "formal": 8,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 50.0,
+      "swing": 7.14,
+      "candidates": [
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "pct": 37.5
+        },
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2,
+          "pct": 25.0
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 12.5
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 12.5
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 12.5
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4,
+          "elected": true,
+          "pct": 50.0
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "elected": false,
+          "pct": 50.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 98658,
+    "candidates": [
+      {
+        "id": "C40737",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Mawson"
+      },
+      {
+        "id": "C41340",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Andrew"
+      },
+      {
+        "id": "C40936",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Kempton"
+      },
+      {
+        "id": "C40858",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Hislop"
+      },
+      {
+        "id": "C41222",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 Landry"
+      },
+      {
+        "id": "C41270",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Jones"
+      }
+    ],
+    "rounds": [
+      {
+        "C40737": 31483,
+        "C41340": 5999,
+        "C40936": 15355,
+        "C40858": 3646,
+        "C41222": 36074,
+        "C41270": 6101
+      },
+      {
+        "C40737": 31870,
+        "C41340": 6704,
+        "C40936": 16875,
+        "C41222": 36696,
+        "C41270": 6513
+      },
+      {
+        "C40737": 36323,
+        "C41340": 7145,
+        "C40936": 17631,
+        "C41222": 37559
+      },
+      {
+        "C40737": 37541,
+        "C40936": 22302,
+        "C41222": 38815
+      },
+      {
+        "C40737": 43573,
+        "C41222": 55085
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            62.71,
+            53.68,
+            49.23,
+            49.37,
+            37.65,
+            43.41,
+            44.17
+          ]
+        },
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            46.32,
+            50.77,
+            50.63,
+            62.35,
+            56.59,
+            55.83
+          ]
+        },
+        {
+          "id": "NAT",
+          "party": "nat",
+          "label": "NAT",
+          "points": [
+            37.29,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "GRN": 2.92,
+            "ALP": 55.84,
+            "LIB": 18.12,
+            "NAT": 18.41,
+            "IND": 2.19,
+            "OTH": 2.53
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "IND": 4.29,
+            "ALP": 45.77,
+            "GRN": 5.52,
+            "LIB": 40.42,
+            "FFP": 3.49,
+            "OTH": 0.52
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "LIB": 39.58,
+            "FFP": 3.86,
+            "TOP": 7.95,
+            "ALP": 37.04,
+            "GRN": 3.43,
+            "KAP": 5.54,
+            "OTH": 2.61
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "FFP": 5.16,
+            "KAP": 7.08,
+            "LIB": 40.05,
+            "GRN": 4.73,
+            "ALP": 38.09,
+            "IND": 4.89
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "GRN": 4.84,
+            "IND": 2.49,
+            "KAP": 3.67,
+            "FACN": 2.14,
+            "LIB": 40.65,
+            "ON": 16.98,
+            "TOP": 3.65,
+            "ALP": 23.74,
+            "OTH": 1.84
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "ON": 14.6,
+            "IND": 3.38,
+            "TOP": 3.94,
+            "GRN": 5.87,
+            "ALP": 28.05,
+            "LIB": 39.44,
+            "OTH": 4.72
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "GRN": 6.18,
+            "CYA": 6.08,
+            "LIB": 36.56,
+            "ON": 15.56,
+            "ALP": 31.91,
+            "FFP": 3.7
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 159792,
+    "medianAge": 38,
+    "medianHouseholdIncomeWeekly": 1737,
+    "medianRentWeekly": 280,
+    "averageHouseholdSize": 2.5,
+    "bornOverseasPct": 10.9,
+    "indigenousPct": 6.5,
+    "bachelorPlusPct": 22.0,
+    "renterPct": 30.0,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 127983,
+        "pct": 89.06,
+        "natPct": 70.73
+      },
+      {
+        "label": "New Zealand",
+        "count": 1595,
+        "pct": 1.11,
+        "natPct": 1.11
+      },
+      {
+        "label": "England",
+        "count": 1201,
+        "pct": 0.84,
+        "natPct": 1.95
+      },
+      {
+        "label": "Philippines",
+        "count": 666,
+        "pct": 0.46,
+        "natPct": 0.47
+      },
+      {
+        "label": "India",
+        "count": 445,
+        "pct": 0.31,
+        "natPct": 1.51
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 79398,
+        "pct": 49.69,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 57561,
+        "pct": 36.02,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 18908,
+        "pct": 11.83,
+        "natPct": 7.27
+      },
+      {
+        "label": "Hinduism",
+        "count": 1059,
+        "pct": 0.66,
+        "natPct": 2.69
+      },
+      {
+        "label": "Buddhism",
+        "count": 1036,
+        "pct": 0.65,
+        "natPct": 2.42
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Capricornia is an Australian electoral division in the state of Queensland. It comprises the city of Rockhampton and stretches along the Pacific coast until the southwestern outer suburbs of Mackay.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Capricornia",
+    "retrievedAt": "2025-12-14T22:19:26Z"
+  }
+}

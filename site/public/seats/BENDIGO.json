@@ -1,0 +1,7242 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "BENDIGO",
+    "divisionId": 200,
+    "name": "Bendigo",
+    "state": "VIC",
+    "totalFormal": 106617,
+    "informalVotes": 5431,
+    "informalRate": 5.84,
+    "winner": {
+      "candidateId": "C40869",
+      "surname": "CHESTERS",
+      "givenName": "Lisa",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 2.8,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40869",
+      "surname": "CHESTERS",
+      "givenName": "Lisa",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 29336,
+      "pct": 33.49
+    },
+    {
+      "candidateId": "C41141",
+      "surname": "LETHLEAN",
+      "givenName": "Andrew",
+      "party": "nat",
+      "partyAb": "NAT",
+      "votes": 27122,
+      "pct": 30.97
+    },
+    {
+      "candidateId": "C41090",
+      "surname": "BARNETT-DACEY",
+      "givenName": "Avery",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 10206,
+      "pct": 11.65
+    },
+    {
+      "candidateId": "C40866",
+      "surname": "EVANS",
+      "givenName": "Matt",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 8247,
+      "pct": 9.42
+    },
+    {
+      "candidateId": "C41520",
+      "surname": "FREEMAN",
+      "givenName": "Heather",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 3969,
+      "pct": 4.53
+    },
+    {
+      "candidateId": "C41217",
+      "surname": "TAYLOR",
+      "givenName": "Wayne",
+      "party": "oth",
+      "partyAb": "HMP",
+      "votes": 2998,
+      "pct": 3.42
+    },
+    {
+      "candidateId": "C41569",
+      "surname": "KEETELAAR",
+      "givenName": "Evelyn",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 2593,
+      "pct": 2.96
+    },
+    {
+      "candidateId": "C41000",
+      "surname": "TYLER",
+      "givenName": "Rohan",
+      "party": "oth",
+      "partyAb": "VNS",
+      "votes": 1461,
+      "pct": 1.67
+    },
+    {
+      "candidateId": "C42015",
+      "surname": "VINCENT",
+      "givenName": "David",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 841,
+      "pct": 0.96
+    },
+    {
+      "candidateId": "C41618",
+      "surname": "BANSEMER",
+      "givenName": "Matt",
+      "party": "oth",
+      "partyAb": "LTP",
+      "votes": 816,
+      "pct": 0.93
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40869",
+      "surname": "CHESTERS",
+      "givenName": "Lisa",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 54800,
+      "pct": 51.4,
+      "elected": true
+    },
+    {
+      "candidateId": "C41141",
+      "surname": "LETHLEAN",
+      "givenName": "Andrew",
+      "party": "nat",
+      "partyAb": "NAT",
+      "votes": 51817,
+      "pct": 48.6,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 32094,
+      "name": "Bendigo BENDIGO PPVC",
+      "formal": 18832,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 51.55,
+      "swing": 51.55,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 6915,
+          "pct": 36.72
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6418,
+          "pct": 34.08
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1826,
+          "pct": 9.7
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1689,
+          "pct": 8.97
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 585,
+          "pct": 3.11
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 441,
+          "pct": 2.34
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 425,
+          "pct": 2.26
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 271,
+          "pct": 1.44
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 141,
+          "pct": 0.75
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 121,
+          "pct": 0.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9124,
+          "elected": true,
+          "pct": 48.45
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 9708,
+          "elected": false,
+          "pct": 51.55
+        }
+      ]
+    },
+    {
+      "boothId": 65899,
+      "name": "Eaglehawk BENDIGO PPVC",
+      "formal": 13213,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 53.73,
+      "swing": 53.73,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 4652,
+          "pct": 35.21
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4387,
+          "pct": 33.2
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1306,
+          "pct": 9.88
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 882,
+          "pct": 6.68
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 720,
+          "pct": 5.45
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 451,
+          "pct": 3.41
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 416,
+          "pct": 3.15
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 148,
+          "pct": 1.12
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 141,
+          "pct": 1.07
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 110,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6114,
+          "elected": true,
+          "pct": 46.27
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 7099,
+          "elected": false,
+          "pct": 53.73
+        }
+      ]
+    },
+    {
+      "boothId": 97669,
+      "name": "Junortoun PPVC",
+      "formal": 8217,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 59.72,
+      "swing": 59.72,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 3499,
+          "pct": 42.58
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2430,
+          "pct": 29.57
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 903,
+          "pct": 10.99
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 546,
+          "pct": 6.64
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 257,
+          "pct": 3.13
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 241,
+          "pct": 2.93
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 166,
+          "pct": 2.02
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 69,
+          "pct": 0.84
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 55,
+          "pct": 0.67
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 51,
+          "pct": 0.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3310,
+          "elected": true,
+          "pct": 40.28
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 4907,
+          "elected": false,
+          "pct": 59.72
+        }
+      ]
+    },
+    {
+      "boothId": 83517,
+      "name": "Castlemaine PPVC",
+      "formal": 7358,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 66.89,
+      "swing": 66.89,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2879,
+          "pct": 39.13
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1586,
+          "pct": 21.55
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 1179,
+          "pct": 16.02
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 785,
+          "pct": 10.67
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 246,
+          "pct": 3.34
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 238,
+          "pct": 3.23
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 152,
+          "pct": 2.07
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 130,
+          "pct": 1.77
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 101,
+          "pct": 1.37
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 62,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4922,
+          "elected": true,
+          "pct": 66.89
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 2436,
+          "elected": false,
+          "pct": 33.11
+        }
+      ]
+    },
+    {
+      "boothId": 3298,
+      "name": "Kyneton",
+      "formal": 1630,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 65.34,
+      "swing": 65.34,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 638,
+          "pct": 39.14
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 308,
+          "pct": 18.9
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 257,
+          "pct": 15.77
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 195,
+          "pct": 11.96
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 4.91
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 59,
+          "pct": 3.62
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 2.15
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 30,
+          "pct": 1.84
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 0.98
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1065,
+          "elected": true,
+          "pct": 65.34
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 565,
+          "elected": false,
+          "pct": 34.66
+        }
+      ]
+    },
+    {
+      "boothId": 3154,
+      "name": "Golden Square",
+      "formal": 1496,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 60.43,
+      "swing": 60.43,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 557,
+          "pct": 37.23
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 362,
+          "pct": 24.2
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 215,
+          "pct": 14.37
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 82,
+          "pct": 5.48
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 69,
+          "pct": 4.61
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 65,
+          "pct": 4.34
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 64,
+          "pct": 4.28
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 46,
+          "pct": 3.07
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.27
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 904,
+          "elected": true,
+          "pct": 60.43
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 592,
+          "elected": false,
+          "pct": 39.57
+        }
+      ]
+    },
+    {
+      "boothId": 3326,
+      "name": "Strathfieldsaye",
+      "formal": 1456,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 50.21,
+      "swing": 50.21,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 488,
+          "pct": 33.52
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 482,
+          "pct": 33.1
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 151,
+          "pct": 10.37
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 125,
+          "pct": 8.59
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 4.05
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 45,
+          "pct": 3.09
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 2.34
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.2
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.44
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 731,
+          "elected": true,
+          "pct": 50.21
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 725,
+          "elected": false,
+          "pct": 49.79
+        }
+      ]
+    },
+    {
+      "boothId": 3160,
+      "name": "Huntly",
+      "formal": 1428,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 53.71,
+      "swing": 53.71,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 458,
+          "pct": 32.07
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 430,
+          "pct": 30.11
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 124,
+          "pct": 8.68
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 112,
+          "pct": 7.84
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 103,
+          "pct": 7.21
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 73,
+          "pct": 5.11
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 71,
+          "pct": 4.97
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.68
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.19
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 661,
+          "elected": true,
+          "pct": 46.29
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 767,
+          "elected": false,
+          "pct": 53.71
+        }
+      ]
+    },
+    {
+      "boothId": 3165,
+      "name": "Kangaroo Flat",
+      "formal": 1355,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 50.41,
+      "swing": 50.41,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 424,
+          "pct": 31.29
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 383,
+          "pct": 28.27
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 154,
+          "pct": 11.37
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 109,
+          "pct": 8.04
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 97,
+          "pct": 7.16
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 76,
+          "pct": 5.61
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 70,
+          "pct": 5.17
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.99
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.66
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 683,
+          "elected": true,
+          "pct": 50.41
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 672,
+          "elected": false,
+          "pct": 49.59
+        }
+      ]
+    },
+    {
+      "boothId": 3292,
+      "name": "Heathcote",
+      "formal": 1310,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 53.66,
+      "swing": 53.66,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 410,
+          "pct": 31.3
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 338,
+          "pct": 25.8
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 191,
+          "pct": 14.58
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 147,
+          "pct": 11.22
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 84,
+          "pct": 6.41
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 64,
+          "pct": 4.89
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 2.9
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.22
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.84
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 607,
+          "elected": true,
+          "pct": 46.34
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 703,
+          "elected": false,
+          "pct": 53.66
+        }
+      ]
+    },
+    {
+      "boothId": 3129,
+      "name": "Bendigo Central",
+      "formal": 1223,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 54.62,
+      "swing": 54.62,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 346,
+          "pct": 28.29
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 330,
+          "pct": 26.98
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 225,
+          "pct": 18.4
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 104,
+          "pct": 8.5
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 60,
+          "pct": 4.91
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 4.17
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.19
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 3.03
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.8
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 668,
+          "elected": true,
+          "pct": 54.62
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 555,
+          "elected": false,
+          "pct": 45.38
+        }
+      ]
+    },
+    {
+      "boothId": 3151,
+      "name": "Epsom",
+      "formal": 1203,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 53.95,
+      "swing": 53.95,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 413,
+          "pct": 34.33
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 305,
+          "pct": 25.35
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 118,
+          "pct": 9.81
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 98,
+          "pct": 8.15
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 6.73
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 70,
+          "pct": 5.82
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 57,
+          "pct": 4.74
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.33
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.91
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 649,
+          "elected": true,
+          "pct": 53.95
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 554,
+          "elected": false,
+          "pct": 46.05
+        }
+      ]
+    },
+    {
+      "boothId": 3175,
+      "name": "Maiden Gully",
+      "formal": 1180,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 59.58,
+      "swing": 59.58,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 495,
+          "pct": 41.95
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 338,
+          "pct": 28.64
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 102,
+          "pct": 8.64
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 91,
+          "pct": 7.71
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 4.15
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 3.39
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.63
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.27
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 0.93
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 477,
+          "elected": true,
+          "pct": 40.42
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 703,
+          "elected": false,
+          "pct": 59.58
+        }
+      ]
+    },
+    {
+      "boothId": 32002,
+      "name": "Kangaroo Flat South",
+      "formal": 1149,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 55.18,
+      "swing": 55.18,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 421,
+          "pct": 36.64
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 295,
+          "pct": 25.67
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 115,
+          "pct": 10.01
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 98,
+          "pct": 8.53
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 5.4
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 50,
+          "pct": 4.35
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 3.57
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.79
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.65
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 634,
+          "elected": true,
+          "pct": 55.18
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 515,
+          "elected": false,
+          "pct": 44.82
+        }
+      ]
+    },
+    {
+      "boothId": 3149,
+      "name": "Eaglehawk",
+      "formal": 1107,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 50.95,
+      "swing": 50.95,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 323,
+          "pct": 29.18
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 306,
+          "pct": 27.64
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 128,
+          "pct": 11.56
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 8.4
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 86,
+          "pct": 7.77
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 66,
+          "pct": 5.96
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 4.7
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 1.9
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.45
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 543,
+          "elected": true,
+          "pct": 49.05
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 564,
+          "elected": false,
+          "pct": 50.95
+        }
+      ]
+    },
+    {
+      "boothId": 3144,
+      "name": "Bendigo North",
+      "formal": 1088,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 56.34,
+      "swing": 56.34,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 356,
+          "pct": 32.72
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 274,
+          "pct": 25.18
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 149,
+          "pct": 13.69
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 74,
+          "pct": 6.8
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 67,
+          "pct": 6.16
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 63,
+          "pct": 5.79
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 4.41
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.94
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.47
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 613,
+          "elected": true,
+          "pct": 56.34
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 475,
+          "elected": false,
+          "pct": 43.66
+        }
+      ]
+    },
+    {
+      "boothId": 64652,
+      "name": "Kyneton East",
+      "formal": 1087,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 59.98,
+      "swing": 59.98,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 430,
+          "pct": 39.56
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 211,
+          "pct": 19.41
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 166,
+          "pct": 15.27
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 163,
+          "pct": 15.0
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 2.94
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.85
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 2.02
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.38
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 1.01
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 652,
+          "elected": true,
+          "pct": 59.98
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 435,
+          "elected": false,
+          "pct": 40.02
+        }
+      ]
+    },
+    {
+      "boothId": 3166,
+      "name": "Kennington",
+      "formal": 1049,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 57.86,
+      "swing": 57.86,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 352,
+          "pct": 33.56
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 284,
+          "pct": 27.07
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 168,
+          "pct": 16.02
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 98,
+          "pct": 9.34
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.43
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 3.34
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 2.76
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.1
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 1.72
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 607,
+          "elected": true,
+          "pct": 57.86
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 442,
+          "elected": false,
+          "pct": 42.14
+        }
+      ]
+    },
+    {
+      "boothId": 3132,
+      "name": "Flora Hill",
+      "formal": 1026,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 56.43,
+      "swing": 56.43,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 360,
+          "pct": 35.09
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 281,
+          "pct": 27.39
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 158,
+          "pct": 15.4
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 65,
+          "pct": 6.34
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 41,
+          "pct": 4.0
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 3.7
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 3.12
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 32,
+          "pct": 3.12
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.17
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 0.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 579,
+          "elected": true,
+          "pct": 56.43
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 447,
+          "elected": false,
+          "pct": 43.57
+        }
+      ]
+    },
+    {
+      "boothId": 4800,
+      "name": "Rochester",
+      "formal": 934,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 71.31,
+      "swing": 71.31,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 452,
+          "pct": 48.39
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 173,
+          "pct": 18.52
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 104,
+          "pct": 11.13
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 7.39
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 4.39
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 39,
+          "pct": 4.18
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 33,
+          "pct": 3.53
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.07
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.75
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 268,
+          "elected": true,
+          "pct": 28.69
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 666,
+          "elected": false,
+          "pct": 71.31
+        }
+      ]
+    },
+    {
+      "boothId": 3267,
+      "name": "Castlemaine",
+      "formal": 905,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 78.01,
+      "swing": 78.01,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 308,
+          "pct": 34.03
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 306,
+          "pct": 33.81
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 71,
+          "pct": 7.85
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 50,
+          "pct": 5.52
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 49,
+          "pct": 5.41
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 44,
+          "pct": 4.86
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 2.76
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.43
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 2.21
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 706,
+          "elected": true,
+          "pct": 78.01
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 199,
+          "elected": false,
+          "pct": 21.99
+        }
+      ]
+    },
+    {
+      "boothId": 3198,
+      "name": "Spring Gully",
+      "formal": 836,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 59.69,
+      "swing": 59.69,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 317,
+          "pct": 37.92
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 232,
+          "pct": 27.75
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 136,
+          "pct": 16.27
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 48,
+          "pct": 5.74
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.99
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 2.75
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 2.39
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.03
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.08
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 499,
+          "elected": true,
+          "pct": 59.69
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 337,
+          "elected": false,
+          "pct": 40.31
+        }
+      ]
+    },
+    {
+      "boothId": 119987,
+      "name": "Echuca BENDIGO PPVC",
+      "formal": 826,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 70.82,
+      "swing": 70.82,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 378,
+          "pct": 45.76
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 164,
+          "pct": 19.85
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 108,
+          "pct": 13.08
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 9.2
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 4.48
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.15
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 25,
+          "pct": 3.03
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 0.85
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.61
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 241,
+          "elected": true,
+          "pct": 29.18
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 585,
+          "elected": false,
+          "pct": 70.82
+        }
+      ]
+    },
+    {
+      "boothId": 31954,
+      "name": "Junortoun",
+      "formal": 772,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 55.44,
+      "swing": 55.44,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 297,
+          "pct": 38.47
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 235,
+          "pct": 30.44
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 9.84
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 69,
+          "pct": 8.94
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 4.53
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 3.89
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.46
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.91
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.39
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 344,
+          "elected": true,
+          "pct": 44.56
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 428,
+          "elected": false,
+          "pct": 55.44
+        }
+      ]
+    },
+    {
+      "boothId": 3304,
+      "name": "Maldon",
+      "formal": 736,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 63.72,
+      "swing": 63.72,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 314,
+          "pct": 42.66
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 130,
+          "pct": 17.66
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 99,
+          "pct": 13.45
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 79,
+          "pct": 10.73
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 34,
+          "pct": 4.62
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 4.21
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 2.17
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.77
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.49
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 469,
+          "elected": true,
+          "pct": 63.72
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 267,
+          "elected": false,
+          "pct": 36.28
+        }
+      ]
+    },
+    {
+      "boothId": 3265,
+      "name": "Campbells Creek",
+      "formal": 732,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 66.39,
+      "swing": 66.39,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 248,
+          "pct": 33.88
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 161,
+          "pct": 21.99
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 106,
+          "pct": 14.48
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 72,
+          "pct": 9.84
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 37,
+          "pct": 5.05
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 4.92
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 25,
+          "pct": 3.42
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 3.14
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.91
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 486,
+          "elected": true,
+          "pct": 66.39
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 246,
+          "elected": false,
+          "pct": 33.61
+        }
+      ]
+    },
+    {
+      "boothId": 3187,
+      "name": "Quarry Hill",
+      "formal": 694,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 60.37,
+      "swing": 60.37,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 269,
+          "pct": 38.76
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 179,
+          "pct": 25.79
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 107,
+          "pct": 15.42
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 35,
+          "pct": 5.04
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 34,
+          "pct": 4.9
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.74
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 2.31
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 2.16
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.44
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 419,
+          "elected": true,
+          "pct": 60.37
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 275,
+          "elected": false,
+          "pct": 39.63
+        }
+      ]
+    },
+    {
+      "boothId": 3338,
+      "name": "Castlemaine South",
+      "formal": 686,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 83.97,
+      "swing": 83.97,
+      "candidates": [
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 257,
+          "pct": 37.46
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 242,
+          "pct": 35.28
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 63,
+          "pct": 9.18
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 52,
+          "pct": 7.58
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 27,
+          "pct": 3.94
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 26,
+          "pct": 3.79
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.31
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 1.17
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.29
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 576,
+          "elected": true,
+          "pct": 83.97
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 110,
+          "elected": false,
+          "pct": 16.03
+        }
+      ]
+    },
+    {
+      "boothId": 3177,
+      "name": "Marong",
+      "formal": 661,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 62.48,
+      "swing": 62.48,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 272,
+          "pct": 41.15
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 155,
+          "pct": 23.45
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 81,
+          "pct": 12.25
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 60,
+          "pct": 9.08
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 5.45
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 3.48
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 3.18
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 0.91
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.61
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 248,
+          "elected": true,
+          "pct": 37.52
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 413,
+          "elected": false,
+          "pct": 62.48
+        }
+      ]
+    },
+    {
+      "boothId": 3212,
+      "name": "White Hills",
+      "formal": 633,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 50.87,
+      "swing": 50.87,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 224,
+          "pct": 35.39
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 209,
+          "pct": 33.02
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 59,
+          "pct": 9.32
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 49,
+          "pct": 7.74
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 5.06
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 3.48
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 3.0
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.11
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.95
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 0.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 322,
+          "elected": true,
+          "pct": 50.87
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 311,
+          "elected": false,
+          "pct": 49.13
+        }
+      ]
+    },
+    {
+      "boothId": 3164,
+      "name": "Eaglehawk East",
+      "formal": 622,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 55.63,
+      "swing": 55.63,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 196,
+          "pct": 31.51
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 144,
+          "pct": 23.15
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 81,
+          "pct": 13.02
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 54,
+          "pct": 8.68
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 6.43
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 40,
+          "pct": 6.43
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 4.82
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 22,
+          "pct": 3.54
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 1.29
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 346,
+          "elected": true,
+          "pct": 55.63
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 276,
+          "elected": false,
+          "pct": 44.37
+        }
+      ]
+    },
+    {
+      "boothId": 3211,
+      "name": "White Hills South",
+      "formal": 619,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 61.39,
+      "swing": 61.39,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 235,
+          "pct": 37.96
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 145,
+          "pct": 23.42
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 93,
+          "pct": 15.02
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 6.46
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 5.82
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 26,
+          "pct": 4.2
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 2.75
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.26
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.13
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 380,
+          "elected": true,
+          "pct": 61.39
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 239,
+          "elected": false,
+          "pct": 38.61
+        }
+      ]
+    },
+    {
+      "boothId": 3305,
+      "name": "Malmsbury",
+      "formal": 613,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 64.27,
+      "swing": 64.27,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 236,
+          "pct": 38.5
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 128,
+          "pct": 20.88
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 116,
+          "pct": 18.92
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 35,
+          "pct": 5.71
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 4.89
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 4.08
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 3.26
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.47
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.31
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 0.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 394,
+          "elected": true,
+          "pct": 64.27
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 219,
+          "elected": false,
+          "pct": 35.73
+        }
+      ]
+    },
+    {
+      "boothId": 3173,
+      "name": "Lockwood",
+      "formal": 606,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 54.13,
+      "swing": 54.13,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 197,
+          "pct": 32.51
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 183,
+          "pct": 30.2
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 9.74
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 52,
+          "pct": 8.58
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 35,
+          "pct": 5.78
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 32,
+          "pct": 5.28
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 4.79
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.65
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.83
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 278,
+          "elected": true,
+          "pct": 45.87
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 328,
+          "elected": false,
+          "pct": 54.13
+        }
+      ]
+    },
+    {
+      "boothId": 3290,
+      "name": "Harcourt",
+      "formal": 559,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 58.86,
+      "swing": 58.86,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 198,
+          "pct": 35.42
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 131,
+          "pct": 23.43
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 95,
+          "pct": 16.99
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 58,
+          "pct": 10.38
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 3.94
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 3.76
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 3.04
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.43
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 0.89
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 329,
+          "elected": true,
+          "pct": 58.86
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 230,
+          "elected": false,
+          "pct": 41.14
+        }
+      ]
+    },
+    {
+      "boothId": 3142,
+      "name": "Bendigo",
+      "formal": 509,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 52.46,
+      "swing": 52.46,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 164,
+          "pct": 32.22
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 155,
+          "pct": 30.45
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 75,
+          "pct": 14.73
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 39,
+          "pct": 7.66
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 4.52
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 3.93
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 3.14
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.38
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 1.18
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 267,
+          "elected": true,
+          "pct": 52.46
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 242,
+          "elected": false,
+          "pct": 47.54
+        }
+      ]
+    },
+    {
+      "boothId": 3134,
+      "name": "Big Hill",
+      "formal": 506,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 54.35,
+      "swing": 54.35,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 172,
+          "pct": 33.99
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 156,
+          "pct": 30.83
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 9.09
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 42,
+          "pct": 8.3
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 6.52
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 4.15
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 3.95
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.58
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.79
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 231,
+          "elected": true,
+          "pct": 45.65
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 275,
+          "elected": false,
+          "pct": 54.35
+        }
+      ]
+    },
+    {
+      "boothId": 3251,
+      "name": "Axedale",
+      "formal": 505,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 62.38,
+      "swing": 62.38,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 192,
+          "pct": 38.02
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 129,
+          "pct": 25.54
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 53,
+          "pct": 10.5
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 40,
+          "pct": 7.92
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 7.92
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 4.75
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 3.17
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.99
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.59
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 190,
+          "elected": true,
+          "pct": 37.62
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 315,
+          "elected": false,
+          "pct": 62.38
+        }
+      ]
+    },
+    {
+      "boothId": 3306,
+      "name": "Mandurang",
+      "formal": 491,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 53.36,
+      "swing": 53.36,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 188,
+          "pct": 38.29
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 153,
+          "pct": 31.16
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 56,
+          "pct": 11.41
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 35,
+          "pct": 7.13
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.85
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 2.65
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.65
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.04
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.22
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 0.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 229,
+          "elected": true,
+          "pct": 46.64
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 262,
+          "elected": false,
+          "pct": 53.36
+        }
+      ]
+    },
+    {
+      "boothId": 3195,
+      "name": "Bendigo East",
+      "formal": 477,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 51.78,
+      "swing": 51.78,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 168,
+          "pct": 35.22
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 148,
+          "pct": 31.03
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 52,
+          "pct": 10.9
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 31,
+          "pct": 6.5
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 4.61
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 4.4
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 3.77
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.73
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.42
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 230,
+          "elected": true,
+          "pct": 48.22
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 247,
+          "elected": false,
+          "pct": 51.78
+        }
+      ]
+    },
+    {
+      "boothId": 3319,
+      "name": "Newstead",
+      "formal": 473,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 68.92,
+      "swing": 68.92,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 172,
+          "pct": 36.36
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 113,
+          "pct": 23.89
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 76,
+          "pct": 16.07
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 28,
+          "pct": 5.92
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 4.65
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 4.44
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.96
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 2.33
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 2.33
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 326,
+          "elected": true,
+          "pct": 68.92
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 147,
+          "elected": false,
+          "pct": 31.08
+        }
+      ]
+    },
+    {
+      "boothId": 3282,
+      "name": "Axe Creek",
+      "formal": 472,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 50.21,
+      "swing": 50.21,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 161,
+          "pct": 34.11
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 153,
+          "pct": 32.42
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 66,
+          "pct": 13.98
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 32,
+          "pct": 6.78
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 4.03
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 3.39
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.97
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.27
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.85
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 237,
+          "elected": true,
+          "pct": 50.21
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 235,
+          "elected": false,
+          "pct": 49.79
+        }
+      ]
+    },
+    {
+      "boothId": 83491,
+      "name": "Golden Square South",
+      "formal": 463,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 63.28,
+      "swing": 63.28,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 201,
+          "pct": 43.41
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 121,
+          "pct": 26.13
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 51,
+          "pct": 11.02
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 21,
+          "pct": 4.54
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 3.67
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 17,
+          "pct": 3.67
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 3.02
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.81
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 1.08
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 293,
+          "elected": true,
+          "pct": 63.28
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 170,
+          "elected": false,
+          "pct": 36.72
+        }
+      ]
+    },
+    {
+      "boothId": 4747,
+      "name": "Elmore",
+      "formal": 438,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 68.26,
+      "swing": 68.26,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 213,
+          "pct": 48.63
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 96,
+          "pct": 21.92
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 39,
+          "pct": 8.9
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 8.45
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 24,
+          "pct": 5.48
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.97
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 2.74
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.46
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.46
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "elected": true,
+          "pct": 31.74
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 299,
+          "elected": false,
+          "pct": 68.26
+        }
+      ]
+    },
+    {
+      "boothId": 3336,
+      "name": "Tylden",
+      "formal": 405,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 51.6,
+      "swing": 51.6,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 107,
+          "pct": 26.42
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 88,
+          "pct": 21.73
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 16.79
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 63,
+          "pct": 15.56
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 7.65
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 4.2
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 3.7
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.98
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 1.23
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 209,
+          "elected": true,
+          "pct": 51.6
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 196,
+          "elected": false,
+          "pct": 48.4
+        }
+      ]
+    },
+    {
+      "boothId": 3332,
+      "name": "Taradale",
+      "formal": 349,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 73.07,
+      "swing": 73.07,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 149,
+          "pct": 42.69
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 82,
+          "pct": 23.5
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 48,
+          "pct": 13.75
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 20,
+          "pct": 5.73
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 4.01
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 3.44
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 12,
+          "pct": 3.44
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.15
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.15
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 255,
+          "elected": true,
+          "pct": 73.07
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 94,
+          "elected": false,
+          "pct": 26.93
+        }
+      ]
+    },
+    {
+      "boothId": 3269,
+      "name": "Chewton",
+      "formal": 339,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 80.83,
+      "swing": 80.83,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 144,
+          "pct": 42.48
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 104,
+          "pct": 30.68
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 27,
+          "pct": 7.96
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 18,
+          "pct": 5.31
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 3.54
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 3.24
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.95
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.06
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 0.88
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 0.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 274,
+          "elected": true,
+          "pct": 80.83
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 65,
+          "elected": false,
+          "pct": 19.17
+        }
+      ]
+    },
+    {
+      "boothId": 3156,
+      "name": "Goornong",
+      "formal": 325,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 62.77,
+      "swing": 62.77,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 150,
+          "pct": 46.15
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 79,
+          "pct": 24.31
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 25,
+          "pct": 7.69
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 20,
+          "pct": 6.15
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 5.85
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 4.62
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 4.31
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.62
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.31
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 121,
+          "elected": true,
+          "pct": 37.23
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 204,
+          "elected": false,
+          "pct": 62.77
+        }
+      ]
+    },
+    {
+      "boothId": 3174,
+      "name": "Long Gully",
+      "formal": 315,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 66.03,
+      "swing": 66.03,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 116,
+          "pct": 36.83
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 58,
+          "pct": 18.41
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 54,
+          "pct": 17.14
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 6.67
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 6.03
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 14,
+          "pct": 4.44
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 3.81
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 12,
+          "pct": 3.81
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 2.54
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 208,
+          "elected": true,
+          "pct": 66.03
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 107,
+          "elected": false,
+          "pct": 33.97
+        }
+      ]
+    },
+    {
+      "boothId": 3139,
+      "name": "California Gully",
+      "formal": 313,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 56.55,
+      "swing": 56.55,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 103,
+          "pct": 32.91
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 82,
+          "pct": 26.2
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 38,
+          "pct": 12.14
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 26,
+          "pct": 8.31
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 5.75
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 5.11
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 4.79
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.88
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.96
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 177,
+          "elected": true,
+          "pct": 56.55
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 136,
+          "elected": false,
+          "pct": 43.45
+        }
+      ]
+    },
+    {
+      "boothId": 3320,
+      "name": "Pyalong",
+      "formal": 291,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 56.7,
+      "swing": 56.7,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 86,
+          "pct": 29.55
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 66,
+          "pct": 22.68
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 56,
+          "pct": 19.24
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 14.09
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 4.12
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 3.78
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 3.44
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.41
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.69
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 126,
+          "elected": true,
+          "pct": 43.3
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 165,
+          "elected": false,
+          "pct": 56.7
+        }
+      ]
+    },
+    {
+      "boothId": 3203,
+      "name": "Strathdale",
+      "formal": 288,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 50.0,
+      "swing": 50.0,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 88,
+          "pct": 30.56
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 87,
+          "pct": 30.21
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 14.93
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 29,
+          "pct": 10.07
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 5.9
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 3.47
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.08
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.74
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.69
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 144,
+          "elected": true,
+          "pct": 50.0
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 144,
+          "elected": false,
+          "pct": 50.0
+        }
+      ]
+    },
+    {
+      "boothId": 3321,
+      "name": "Redesdale",
+      "formal": 270,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 54.44,
+      "swing": 54.44,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 82,
+          "pct": 30.37
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 74,
+          "pct": 27.41
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 37,
+          "pct": 13.7
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 26,
+          "pct": 9.63
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 7.04
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 4.07
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 2.96
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.22
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.48
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 123,
+          "elected": true,
+          "pct": 45.56
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 147,
+          "elected": false,
+          "pct": 54.44
+        }
+      ]
+    },
+    {
+      "boothId": 3191,
+      "name": "Sailors Gully",
+      "formal": 270,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 51.85,
+      "swing": 51.85,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 91,
+          "pct": 33.7
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 82,
+          "pct": 30.37
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 31,
+          "pct": 11.48
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 22,
+          "pct": 8.15
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 6.67
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 3.7
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 2.59
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.22
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.11
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 140,
+          "elected": true,
+          "pct": 51.85
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 130,
+          "elected": false,
+          "pct": 48.15
+        }
+      ]
+    },
+    {
+      "boothId": 3188,
+      "name": "Raywood",
+      "formal": 253,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 61.66,
+      "swing": 61.66,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 88,
+          "pct": 34.78
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 65,
+          "pct": 25.69
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 32,
+          "pct": 12.65
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 7.91
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 5.93
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 4.74
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 3.56
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.77
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.19
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "elected": true,
+          "pct": 38.34
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 156,
+          "elected": false,
+          "pct": 61.66
+        }
+      ]
+    },
+    {
+      "boothId": 3281,
+      "name": "Elphinstone",
+      "formal": 248,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 53.23,
+      "swing": 53.23,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 83,
+          "pct": 33.47
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 44,
+          "pct": 17.74
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 34,
+          "pct": 13.71
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 34,
+          "pct": 13.71
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 8.47
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 3.63
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 8,
+          "pct": 3.23
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 3.23
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.02
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 132,
+          "elected": true,
+          "pct": 53.23
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 116,
+          "elected": false,
+          "pct": 46.77
+        }
+      ]
+    },
+    {
+      "boothId": 109117,
+      "name": "Special Hospital Team 3",
+      "formal": 246,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 52.03,
+      "swing": 52.03,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 101,
+          "pct": 41.06
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 63,
+          "pct": 25.61
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 55,
+          "pct": 22.36
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 3.25
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 2.44
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 2.03
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.03
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.22
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 118,
+          "elected": true,
+          "pct": 47.97
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 128,
+          "elected": false,
+          "pct": 52.03
+        }
+      ]
+    },
+    {
+      "boothId": 3289,
+      "name": "Guildford",
+      "formal": 241,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 69.71,
+      "swing": 69.71,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "pct": 33.2
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 29.05
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 33,
+          "pct": 13.69
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 7.88
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 13,
+          "pct": 5.39
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 4.56
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.49
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.66
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.24
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 168,
+          "elected": true,
+          "pct": 69.71
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 73,
+          "elected": false,
+          "pct": 30.29
+        }
+      ]
+    },
+    {
+      "boothId": 108410,
+      "name": "Special Hospital Team 1",
+      "formal": 225,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 59.11,
+      "swing": 59.11,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 111,
+          "pct": 49.33
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 60,
+          "pct": 26.67
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 35,
+          "pct": 15.56
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 4.89
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.78
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 0.89
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.44
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.44
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 133,
+          "elected": true,
+          "pct": 59.11
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 92,
+          "elected": false,
+          "pct": 40.89
+        }
+      ]
+    },
+    {
+      "boothId": 3268,
+      "name": "Castlemaine North",
+      "formal": 198,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 84.85,
+      "swing": 84.85,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 77,
+          "pct": 38.89
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 37.37
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 17,
+          "pct": 8.59
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 4.55
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 2.53
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 2.02
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.02
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 2.02
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "pct": 1.52
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 168,
+          "elected": true,
+          "pct": 84.85
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 30,
+          "elected": false,
+          "pct": 15.15
+        }
+      ]
+    },
+    {
+      "boothId": 108989,
+      "name": "Special Hospital Team 2",
+      "formal": 179,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 52.51,
+      "swing": 52.51,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 71,
+          "pct": 39.66
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 43,
+          "pct": 24.02
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 38,
+          "pct": 21.23
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 4.47
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 3.91
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 2.23
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.68
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.68
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.56
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "elected": true,
+          "pct": 52.51
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 85,
+          "elected": false,
+          "pct": 47.49
+        }
+      ]
+    },
+    {
+      "boothId": 109121,
+      "name": "Special Hospital Team 4",
+      "formal": 173,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 54.91,
+      "swing": 54.91,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 72,
+          "pct": 41.62
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 36,
+          "pct": 20.81
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 30,
+          "pct": 17.34
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 5.2
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 5.2
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 4.05
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 3.47
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.16
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.58
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 95,
+          "elected": true,
+          "pct": 54.91
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 78,
+          "elected": false,
+          "pct": 45.09
+        }
+      ]
+    },
+    {
+      "boothId": 3333,
+      "name": "Tooborac",
+      "formal": 158,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 58.86,
+      "swing": 58.86,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 50,
+          "pct": 31.65
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 42,
+          "pct": 26.58
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 18,
+          "pct": 11.39
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 10.13
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 9.49
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 3.8
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 3.16
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 3.16
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.63
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 65,
+          "elected": true,
+          "pct": 41.14
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 93,
+          "elected": false,
+          "pct": 58.86
+        }
+      ]
+    },
+    {
+      "boothId": 109308,
+      "name": "Other Mobile Team 1",
+      "formal": 158,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 70.25,
+      "swing": 70.25,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 73,
+          "pct": 46.2
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 21,
+          "pct": 13.29
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 18,
+          "pct": 11.39
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 9.49
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 10,
+          "pct": 6.33
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 5.7
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 3.8
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.9
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.9
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 111,
+          "elected": true,
+          "pct": 70.25
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 47,
+          "elected": false,
+          "pct": 29.75
+        }
+      ]
+    },
+    {
+      "boothId": 3213,
+      "name": "Woodvale",
+      "formal": 156,
+      "winnerParty": "nat",
+      "winnerSurname": "LETHLEAN",
+      "winnerPct": 51.28,
+      "swing": 51.28,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 50,
+          "pct": 32.05
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 48,
+          "pct": 30.77
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 17,
+          "pct": 10.9
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 8.33
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 13,
+          "pct": 8.33
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 5.13
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.92
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.92
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.64
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 76,
+          "elected": true,
+          "pct": 48.72
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 80,
+          "elected": false,
+          "pct": 51.28
+        }
+      ]
+    },
+    {
+      "boothId": 65565,
+      "name": "EAV Bendigo PPVC",
+      "formal": 14,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 57.14,
+      "swing": 57.14,
+      "candidates": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 42.86
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5,
+          "pct": 35.71
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 7.14
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 1,
+          "pct": 7.14
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 7.14
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8,
+          "elected": true,
+          "pct": 57.14
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 6,
+          "elected": false,
+          "pct": 42.86
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 106617,
+    "candidates": [
+      {
+        "id": "C41569",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Keetelaar"
+      },
+      {
+        "id": "C41090",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Barnett-Dacey"
+      },
+      {
+        "id": "C41520",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Freeman"
+      },
+      {
+        "id": "C40869",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Chesters"
+      },
+      {
+        "id": "C41141",
+        "party": "nat",
+        "displayShort": "NAT",
+        "displayLong": "NAT \u2014 Lethlean"
+      },
+      {
+        "id": "C41618",
+        "party": "oth",
+        "displayShort": "LTP",
+        "displayLong": "LTP \u2014 Bansemer"
+      },
+      {
+        "id": "C41000",
+        "party": "oth",
+        "displayShort": "VNS",
+        "displayLong": "VNS \u2014 Tyler"
+      },
+      {
+        "id": "C42015",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Vincent"
+      },
+      {
+        "id": "C41217",
+        "party": "oth",
+        "displayShort": "HMP",
+        "displayLong": "HMP \u2014 Taylor"
+      },
+      {
+        "id": "C40866",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Evans"
+      }
+    ],
+    "rounds": [
+      {
+        "C41569": 3153,
+        "C41090": 12079,
+        "C41520": 5262,
+        "C40869": 35771,
+        "C41141": 31707,
+        "C41618": 974,
+        "C41000": 1708,
+        "C42015": 1121,
+        "C41217": 3666,
+        "C40866": 11176
+      },
+      {
+        "C41569": 3316,
+        "C41090": 12115,
+        "C41520": 5637,
+        "C40869": 35834,
+        "C41141": 31829,
+        "C41000": 1743,
+        "C42015": 1178,
+        "C41217": 3724,
+        "C40866": 11241
+      },
+      {
+        "C41569": 3468,
+        "C41090": 12275,
+        "C41520": 5772,
+        "C40869": 36008,
+        "C41141": 31941,
+        "C41000": 1852,
+        "C41217": 3995,
+        "C40866": 11306
+      },
+      {
+        "C41569": 3542,
+        "C41090": 13425,
+        "C41520": 5806,
+        "C40869": 36210,
+        "C41141": 32001,
+        "C41217": 4305,
+        "C40866": 11328
+      },
+      {
+        "C41090": 14111,
+        "C41520": 7044,
+        "C40869": 36526,
+        "C41141": 32563,
+        "C41217": 4578,
+        "C40866": 11795
+      },
+      {
+        "C41090": 15624,
+        "C41520": 7890,
+        "C40869": 37553,
+        "C41141": 33202,
+        "C40866": 12348
+      },
+      {
+        "C41090": 16716,
+        "C40869": 38626,
+        "C41141": 37237,
+        "C40866": 14038
+      },
+      {
+        "C41090": 17845,
+        "C40869": 40082,
+        "C41141": 48690
+      },
+      {
+        "C40869": 54800,
+        "C41141": 51817
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            56.13,
+            59.53,
+            51.26,
+            53.74,
+            59.04,
+            62.11,
+            51.4
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            43.87,
+            40.47,
+            48.74,
+            46.26,
+            40.96,
+            37.89,
+            null
+          ]
+        },
+        {
+          "id": "NAT",
+          "party": "nat",
+          "label": "NAT",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            48.6
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 38.42,
+            "GRN": 7.25,
+            "ALP": 47.14,
+            "FFP": 3.55,
+            "IND": 2.78,
+            "OTH": 0.87
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "LIB": 35.84,
+            "FFP": 4.22,
+            "GRN": 12.29,
+            "ALP": 47.65
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "GRN": 9.3,
+            "ALP": 36.56,
+            "TOP": 2.52,
+            "ASXP": 2.4,
+            "LIB": 39.67,
+            "NAT": 5.02,
+            "OTH": 4.53
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "ALP": 38.35,
+            "GRN": 11.02,
+            "RUA": 2.11,
+            "LIB": 37.9,
+            "AJP": 2.2,
+            "FFP": 2.8,
+            "NAT": 3.63,
+            "OTH": 1.97
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "ALP": 43.62,
+            "LIB": 31.68,
+            "ON": 6.18,
+            "TOP": 4.25,
+            "GRN": 11.2,
+            "OTH": 3.08
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "TOP": 3.59,
+            "LDP": 2.89,
+            "GRN": 14.06,
+            "IND": 4.33,
+            "ON": 5.52,
+            "LIB": 26.63,
+            "ALP": 42.98
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "GRN": 11.33,
+            "NAT": 29.74,
+            "FFP": 2.96,
+            "ALP": 33.55,
+            "LIB": 10.48,
+            "HMP": 3.44,
+            "ON": 4.94,
+            "OTH": 3.56
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 152555,
+    "medianAge": 42,
+    "medianHouseholdIncomeWeekly": 1433,
+    "medianRentWeekly": 300,
+    "averageHouseholdSize": 2.4,
+    "bornOverseasPct": 11.0,
+    "indigenousPct": 2.0,
+    "bachelorPlusPct": 34.9,
+    "renterPct": 24.5,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 127649,
+        "pct": 89.0,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 1706,
+        "pct": 1.19,
+        "natPct": 1.95
+      },
+      {
+        "label": "India",
+        "count": 739,
+        "pct": 0.52,
+        "natPct": 1.51
+      },
+      {
+        "label": "New Zealand",
+        "count": 681,
+        "pct": 0.47,
+        "natPct": 1.11
+      },
+      {
+        "label": "Myanmar",
+        "count": 379,
+        "pct": 0.26,
+        "natPct": 0.08
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 73849,
+        "pct": 48.41,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 61451,
+        "pct": 40.28,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 11943,
+        "pct": 7.83,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 1746,
+        "pct": 1.14,
+        "natPct": 2.42
+      },
+      {
+        "label": "Other religions",
+        "count": 971,
+        "pct": 0.64,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Bendigo is an Australian electoral division in the state of Victoria. The division was proclaimed in 1900, and was one of the original 65 divisions to be contested at the first federal election. It is named for the city of Bendigo.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Bendigo",
+    "retrievedAt": "2026-01-22T07:10:20Z"
+  }
+}

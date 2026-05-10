@@ -1,0 +1,3931 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "CANBERRA",
+    "divisionId": 101,
+    "name": "Canberra",
+    "state": "ACT",
+    "totalFormal": 93405,
+    "informalVotes": 1723,
+    "informalRate": 2.15,
+    "winner": {
+      "candidateId": "C40677",
+      "surname": "PAYNE",
+      "givenName": "Alicia",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 39.04,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40677",
+      "surname": "PAYNE",
+      "givenName": "Alicia",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 37995,
+      "pct": 48.55
+    },
+    {
+      "candidateId": "C41390",
+      "surname": "MUDFORD",
+      "givenName": "Isabel",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 15716,
+      "pct": 20.08
+    },
+    {
+      "candidateId": "C41077",
+      "surname": "ROCHE",
+      "givenName": "Will",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 13894,
+      "pct": 17.75
+    },
+    {
+      "candidateId": "C41696",
+      "surname": "MILES",
+      "givenName": "Claire",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 8623,
+      "pct": 11.02
+    },
+    {
+      "candidateId": "C41706",
+      "surname": "McTAGGART",
+      "givenName": "Teresa",
+      "party": "ajp",
+      "partyAb": "AJP",
+      "votes": 1028,
+      "pct": 1.31
+    },
+    {
+      "candidateId": "C41742",
+      "surname": "LIDDICOAT",
+      "givenName": "Mary-Jane",
+      "party": "oth",
+      "partyAb": "IMO",
+      "votes": 999,
+      "pct": 1.28
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40677",
+      "surname": "PAYNE",
+      "givenName": "Alicia",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 64936,
+      "pct": 69.52,
+      "elected": true
+    },
+    {
+      "candidateId": "C41390",
+      "surname": "MUDFORD",
+      "givenName": "Isabel",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 28469,
+      "pct": 30.48,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 65742,
+      "name": "Parkes CANBERRA PPVC",
+      "formal": 8562,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 74.47,
+      "swing": 9.65,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4313,
+          "pct": 50.37
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1803,
+          "pct": 21.06
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1297,
+          "pct": 15.15
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 989,
+          "pct": 11.55
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 82,
+          "pct": 0.96
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 78,
+          "pct": 0.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6376,
+          "elected": true,
+          "pct": 74.47
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2186,
+          "elected": false,
+          "pct": 25.53
+        }
+      ]
+    },
+    {
+      "boothId": 64583,
+      "name": "Belconnen CANBERRA PPVC",
+      "formal": 8008,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 73.74,
+      "swing": 9.74,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4106,
+          "pct": 51.27
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1651,
+          "pct": 20.62
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1237,
+          "pct": 15.45
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 801,
+          "pct": 10.0
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 118,
+          "pct": 1.47
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 95,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5905,
+          "elected": true,
+          "pct": 73.74
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2103,
+          "elected": false,
+          "pct": 26.26
+        }
+      ]
+    },
+    {
+      "boothId": 58708,
+      "name": "City CANBERRA PPVC",
+      "formal": 6228,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 67.58,
+      "swing": 9.23,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3007,
+          "pct": 48.28
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1401,
+          "pct": 22.5
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1009,
+          "pct": 16.2
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 664,
+          "pct": 10.66
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 87,
+          "pct": 1.4
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 60,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4209,
+          "elected": true,
+          "pct": 67.58
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2019,
+          "elected": false,
+          "pct": 32.42
+        }
+      ]
+    },
+    {
+      "boothId": 124102,
+      "name": "City North CANBERRA PPVC",
+      "formal": 5348,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 65.58,
+      "swing": 6.77,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2562,
+          "pct": 47.91
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1313,
+          "pct": 24.55
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 745,
+          "pct": 13.93
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 599,
+          "pct": 11.2
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 65,
+          "pct": 1.22
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 64,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3507,
+          "elected": true,
+          "pct": 65.58
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1841,
+          "elected": false,
+          "pct": 34.42
+        }
+      ]
+    },
+    {
+      "boothId": 93961,
+      "name": "Woden CANBERRA PPVC",
+      "formal": 5220,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 76.19,
+      "swing": 10.76,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2613,
+          "pct": 50.06
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1300,
+          "pct": 24.9
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 620,
+          "pct": 11.88
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 550,
+          "pct": 10.54
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 71,
+          "pct": 1.36
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 66,
+          "pct": 1.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3977,
+          "elected": true,
+          "pct": 76.19
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1243,
+          "elected": false,
+          "pct": 23.81
+        }
+      ]
+    },
+    {
+      "boothId": 65741,
+      "name": "Parkes (Canberra)",
+      "formal": 2770,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 62.53,
+      "swing": 1.21,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1350,
+          "pct": 48.74
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 811,
+          "pct": 29.28
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 291,
+          "pct": 10.51
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 255,
+          "pct": 9.21
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 42,
+          "pct": 1.52
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 21,
+          "pct": 0.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1732,
+          "elected": true,
+          "pct": 62.53
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1038,
+          "elected": false,
+          "pct": 37.47
+        }
+      ]
+    },
+    {
+      "boothId": 8826,
+      "name": "Lyneham",
+      "formal": 2142,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 62.14,
+      "swing": 9.87,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1038,
+          "pct": 48.46
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 621,
+          "pct": 28.99
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 217,
+          "pct": 10.13
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 215,
+          "pct": 10.04
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 32,
+          "pct": 1.49
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 19,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1331,
+          "elected": true,
+          "pct": 62.14
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 811,
+          "elected": false,
+          "pct": 37.86
+        }
+      ]
+    },
+    {
+      "boothId": 8801,
+      "name": "Ainslie North",
+      "formal": 2126,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 60.3,
+      "swing": 2.66,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1047,
+          "pct": 49.25
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 648,
+          "pct": 30.48
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 194,
+          "pct": 9.13
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 192,
+          "pct": 9.03
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 23,
+          "pct": 1.08
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1282,
+          "elected": true,
+          "pct": 60.3
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 844,
+          "elected": false,
+          "pct": 39.7
+        }
+      ]
+    },
+    {
+      "boothId": 8837,
+      "name": "Watson",
+      "formal": 2079,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 58.35,
+      "swing": 2.41,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 934,
+          "pct": 44.93
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 664,
+          "pct": 31.94
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 217,
+          "pct": 10.44
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 213,
+          "pct": 10.25
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 26,
+          "pct": 1.25
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 25,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1213,
+          "elected": true,
+          "pct": 58.35
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 866,
+          "elected": false,
+          "pct": 41.65
+        }
+      ]
+    },
+    {
+      "boothId": 8829,
+      "name": "Barton",
+      "formal": 2005,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 72.37,
+      "swing": 7.99,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1004,
+          "pct": 50.07
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 365,
+          "pct": 18.2
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 352,
+          "pct": 17.56
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 227,
+          "pct": 11.32
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 32,
+          "pct": 1.6
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1451,
+          "elected": true,
+          "pct": 72.37
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 554,
+          "elected": false,
+          "pct": 27.63
+        }
+      ]
+    },
+    {
+      "boothId": 8785,
+      "name": "Red Hill",
+      "formal": 1927,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 74.47,
+      "swing": 11.77,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 943,
+          "pct": 48.94
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 450,
+          "pct": 23.35
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 264,
+          "pct": 13.7
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 229,
+          "pct": 11.88
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.09
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 20,
+          "pct": 1.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1435,
+          "elected": true,
+          "pct": 74.47
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 492,
+          "elected": false,
+          "pct": 25.53
+        }
+      ]
+    },
+    {
+      "boothId": 8764,
+      "name": "Curtin (Canberra)",
+      "formal": 1743,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 71.89,
+      "swing": 4.12,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 873,
+          "pct": 50.09
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 305,
+          "pct": 17.5
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 299,
+          "pct": 17.15
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 208,
+          "pct": 11.93
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 29,
+          "pct": 1.66
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 29,
+          "pct": 1.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1253,
+          "elected": true,
+          "pct": 71.89
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 490,
+          "elected": false,
+          "pct": 28.11
+        }
+      ]
+    },
+    {
+      "boothId": 8802,
+      "name": "Braddon",
+      "formal": 1738,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 65.48,
+      "swing": 5.4,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 829,
+          "pct": 47.7
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 435,
+          "pct": 25.03
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 222,
+          "pct": 12.77
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 201,
+          "pct": 11.57
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 30,
+          "pct": 1.73
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1138,
+          "elected": true,
+          "pct": 65.48
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 600,
+          "elected": false,
+          "pct": 34.52
+        }
+      ]
+    },
+    {
+      "boothId": 65981,
+      "name": "Gungahlin CANBERRA PPVC",
+      "formal": 1692,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 72.16,
+      "swing": 10.11,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 809,
+          "pct": 47.81
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 413,
+          "pct": 24.41
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 258,
+          "pct": 15.25
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 168,
+          "pct": 9.93
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.36
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 21,
+          "pct": 1.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1221,
+          "elected": true,
+          "pct": 72.16
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 471,
+          "elected": false,
+          "pct": 27.84
+        }
+      ]
+    },
+    {
+      "boothId": 8806,
+      "name": "Campbell",
+      "formal": 1647,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 73.65,
+      "swing": 7.55,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 741,
+          "pct": 44.99
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 409,
+          "pct": 24.83
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 234,
+          "pct": 14.21
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 220,
+          "pct": 13.36
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.64
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 16,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1213,
+          "elected": true,
+          "pct": 73.65
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 434,
+          "elected": false,
+          "pct": 26.35
+        }
+      ]
+    },
+    {
+      "boothId": 8803,
+      "name": "Aranda",
+      "formal": 1568,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 65.37,
+      "swing": 5.37,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 799,
+          "pct": 50.96
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 392,
+          "pct": 25.0
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 190,
+          "pct": 12.12
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 154,
+          "pct": 9.82
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 18,
+          "pct": 1.15
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 15,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1025,
+          "elected": true,
+          "pct": 65.37
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 543,
+          "elected": false,
+          "pct": 34.63
+        }
+      ]
+    },
+    {
+      "boothId": 8836,
+      "name": "Turner",
+      "formal": 1565,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 61.02,
+      "swing": 5.27,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 717,
+          "pct": 45.81
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 485,
+          "pct": 30.99
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 162,
+          "pct": 10.35
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 150,
+          "pct": 9.58
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 33,
+          "pct": 2.11
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 955,
+          "elected": true,
+          "pct": 61.02
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 610,
+          "elected": false,
+          "pct": 38.98
+        }
+      ]
+    },
+    {
+      "boothId": 8838,
+      "name": "Weetangera (Canberra)",
+      "formal": 1517,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 72.25,
+      "swing": 4.32,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 751,
+          "pct": 49.51
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 267,
+          "pct": 17.6
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 247,
+          "pct": 16.28
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 214,
+          "pct": 14.11
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.38
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 17,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1096,
+          "elected": true,
+          "pct": 72.25
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 421,
+          "elected": false,
+          "pct": 27.75
+        }
+      ]
+    },
+    {
+      "boothId": 8823,
+      "name": "Kaleen",
+      "formal": 1455,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 72.99,
+      "swing": 5.77,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 727,
+          "pct": 49.97
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 302,
+          "pct": 20.76
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 241,
+          "pct": 16.56
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 146,
+          "pct": 10.03
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.65
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 15,
+          "pct": 1.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1062,
+          "elected": true,
+          "pct": 72.99
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 393,
+          "elected": false,
+          "pct": 27.01
+        }
+      ]
+    },
+    {
+      "boothId": 8824,
+      "name": "Kaleen South",
+      "formal": 1364,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 66.79,
+      "swing": -0.2,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 655,
+          "pct": 48.02
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 301,
+          "pct": 22.07
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 203,
+          "pct": 14.88
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 161,
+          "pct": 11.8
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 25,
+          "pct": 1.83
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 911,
+          "elected": true,
+          "pct": 66.79
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 453,
+          "elected": false,
+          "pct": 33.21
+        }
+      ]
+    },
+    {
+      "boothId": 8840,
+      "name": "Yarralumla",
+      "formal": 1340,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 74.7,
+      "swing": 8.01,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 610,
+          "pct": 45.52
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 348,
+          "pct": 25.97
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 188,
+          "pct": 14.03
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 173,
+          "pct": 12.91
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 15,
+          "pct": 1.12
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1001,
+          "elected": true,
+          "pct": 74.7
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 339,
+          "elected": false,
+          "pct": 25.3
+        }
+      ]
+    },
+    {
+      "boothId": 82525,
+      "name": "Downer",
+      "formal": 1229,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 55.49,
+      "swing": 2.71,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 509,
+          "pct": 41.42
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 426,
+          "pct": 34.66
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 142,
+          "pct": 11.55
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 107,
+          "pct": 8.71
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 26,
+          "pct": 2.12
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 682,
+          "elected": true,
+          "pct": 55.49
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 547,
+          "elected": false,
+          "pct": 44.51
+        }
+      ]
+    },
+    {
+      "boothId": 8816,
+      "name": "Giralang (Canberra)",
+      "formal": 1213,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 70.49,
+      "swing": 3.93,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 588,
+          "pct": 48.47
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 212,
+          "pct": 17.48
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 199,
+          "pct": 16.41
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 164,
+          "pct": 13.52
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.8
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 16,
+          "pct": 1.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 855,
+          "elected": true,
+          "pct": 70.49
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 358,
+          "elected": false,
+          "pct": 29.51
+        }
+      ]
+    },
+    {
+      "boothId": 8828,
+      "name": "Macquarie (Canberra)",
+      "formal": 1052,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 69.49,
+      "swing": 8.66,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 565,
+          "pct": 53.71
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 212,
+          "pct": 20.15
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 131,
+          "pct": 12.45
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 123,
+          "pct": 11.69
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 12,
+          "pct": 1.14
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 731,
+          "elected": true,
+          "pct": 69.49
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 321,
+          "elected": false,
+          "pct": 30.51
+        }
+      ]
+    },
+    {
+      "boothId": 8782,
+      "name": "Narrabundah",
+      "formal": 1034,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 71.47,
+      "swing": 5.67,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 499,
+          "pct": 48.26
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 213,
+          "pct": 20.6
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 168,
+          "pct": 16.25
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 116,
+          "pct": 11.22
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 24,
+          "pct": 2.32
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 739,
+          "elected": true,
+          "pct": 71.47
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 295,
+          "elected": false,
+          "pct": 28.53
+        }
+      ]
+    },
+    {
+      "boothId": 8817,
+      "name": "Griffith",
+      "formal": 1028,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 73.15,
+      "swing": 6.06,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 495,
+          "pct": 48.15
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 219,
+          "pct": 21.3
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 176,
+          "pct": 17.12
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 107,
+          "pct": 10.41
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 16,
+          "pct": 1.56
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 752,
+          "elected": true,
+          "pct": 73.15
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 276,
+          "elected": false,
+          "pct": 26.85
+        }
+      ]
+    },
+    {
+      "boothId": 8794,
+      "name": "Garran (Canberra)",
+      "formal": 944,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 71.5,
+      "swing": 5.77,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 413,
+          "pct": 43.75
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 243,
+          "pct": 25.74
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 153,
+          "pct": 16.21
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 110,
+          "pct": 11.65
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.38
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 12,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 675,
+          "elected": true,
+          "pct": 71.5
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 269,
+          "elected": false,
+          "pct": 28.5
+        }
+      ]
+    },
+    {
+      "boothId": 83849,
+      "name": "Bruce",
+      "formal": 781,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 70.42,
+      "swing": 12.71,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 409,
+          "pct": 52.37
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 164,
+          "pct": 21.0
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 113,
+          "pct": 14.47
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 70,
+          "pct": 8.96
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 13,
+          "pct": 1.66
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 550,
+          "elected": true,
+          "pct": 70.42
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 231,
+          "elected": false,
+          "pct": 29.58
+        }
+      ]
+    },
+    {
+      "boothId": 83852,
+      "name": "Dickson East",
+      "formal": 750,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 64.0,
+      "swing": 6.28,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 342,
+          "pct": 45.6
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 189,
+          "pct": 25.2
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 113,
+          "pct": 15.07
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 82,
+          "pct": 10.93
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.6
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 12,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 480,
+          "elected": true,
+          "pct": 64.0
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 270,
+          "elected": false,
+          "pct": 36.0
+        }
+      ]
+    },
+    {
+      "boothId": 8808,
+      "name": "City (Canberra)",
+      "formal": 746,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 59.92,
+      "swing": 9.02,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 322,
+          "pct": 43.16
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 231,
+          "pct": 30.97
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 104,
+          "pct": 13.94
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 67,
+          "pct": 8.98
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.74
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 9,
+          "pct": 1.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 447,
+          "elected": true,
+          "pct": 59.92
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 299,
+          "elected": false,
+          "pct": 40.08
+        }
+      ]
+    },
+    {
+      "boothId": 8779,
+      "name": "Lyons (Canberra)",
+      "formal": 737,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 73.13,
+      "swing": 7.96,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 399,
+          "pct": 54.14
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 118,
+          "pct": 16.01
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 115,
+          "pct": 15.6
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 83,
+          "pct": 11.26
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.58
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 3,
+          "pct": 0.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 539,
+          "elected": true,
+          "pct": 73.13
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 198,
+          "elected": false,
+          "pct": 26.87
+        }
+      ]
+    },
+    {
+      "boothId": 8766,
+      "name": "Deakin",
+      "formal": 729,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 76.95,
+      "swing": 13.76,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 312,
+          "pct": 42.8
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 258,
+          "pct": 35.39
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 80,
+          "pct": 10.97
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 56,
+          "pct": 7.68
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.78
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 561,
+          "elected": true,
+          "pct": 76.95
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 168,
+          "elected": false,
+          "pct": 23.05
+        }
+      ]
+    },
+    {
+      "boothId": 98055,
+      "name": "Narrabundah South",
+      "formal": 724,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 68.09,
+      "swing": 0.5,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 330,
+          "pct": 45.58
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 145,
+          "pct": 20.03
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 140,
+          "pct": 19.34
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 80,
+          "pct": 11.05
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.35
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 12,
+          "pct": 1.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 493,
+          "elected": true,
+          "pct": 68.09
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 231,
+          "elected": false,
+          "pct": 31.91
+        }
+      ]
+    },
+    {
+      "boothId": 8774,
+      "name": "Hughes (Canberra)",
+      "formal": 692,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 78.03,
+      "swing": 10.87,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 372,
+          "pct": 53.76
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 111,
+          "pct": 16.04
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 95,
+          "pct": 13.73
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 94,
+          "pct": 13.58
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.45
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 1.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 540,
+          "elected": true,
+          "pct": 78.03
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "elected": false,
+          "pct": 21.97
+        }
+      ]
+    },
+    {
+      "boothId": 83856,
+      "name": "Lyneham East",
+      "formal": 686,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 61.66,
+      "swing": 8.72,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 324,
+          "pct": 47.23
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 199,
+          "pct": 29.01
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 76,
+          "pct": 11.08
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 73,
+          "pct": 10.64
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.02
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 1.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 423,
+          "elected": true,
+          "pct": 61.66
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 263,
+          "elected": false,
+          "pct": 38.34
+        }
+      ]
+    },
+    {
+      "boothId": 124109,
+      "name": "City North (Canberra)",
+      "formal": 562,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 57.12,
+      "swing": 5.83,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 224,
+          "pct": 39.86
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 185,
+          "pct": 32.92
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 88,
+          "pct": 15.66
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 47,
+          "pct": 8.36
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 11,
+          "pct": 1.96
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 321,
+          "elected": true,
+          "pct": 57.12
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 241,
+          "elected": false,
+          "pct": 42.88
+        }
+      ]
+    },
+    {
+      "boothId": 93968,
+      "name": "Belconnen (Canberra)",
+      "formal": 531,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 61.02,
+      "swing": 4.78,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 238,
+          "pct": 44.82
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 158,
+          "pct": 29.76
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 62,
+          "pct": 11.68
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 54,
+          "pct": 10.17
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.88
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 9,
+          "pct": 1.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 324,
+          "elected": true,
+          "pct": 61.02
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 207,
+          "elected": false,
+          "pct": 38.98
+        }
+      ]
+    },
+    {
+      "boothId": 98053,
+      "name": "Campbell North",
+      "formal": 460,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 70.0,
+      "swing": 8.27,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 212,
+          "pct": 46.09
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 100,
+          "pct": 21.74
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 95,
+          "pct": 20.65
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 47,
+          "pct": 10.22
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 4,
+          "pct": 0.87
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 322,
+          "elected": true,
+          "pct": 70.0
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 138,
+          "elected": false,
+          "pct": 30.0
+        }
+      ]
+    },
+    {
+      "boothId": 98054,
+      "name": "Queanbeyan CANBERRA PPVC",
+      "formal": 454,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 69.38,
+      "swing": 3.93,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 178,
+          "pct": 39.21
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 138,
+          "pct": 30.4
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 62,
+          "pct": 13.66
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 57,
+          "pct": 12.56
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 2.2
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 315,
+          "elected": true,
+          "pct": 69.38
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 139,
+          "elected": false,
+          "pct": 30.62
+        }
+      ]
+    },
+    {
+      "boothId": 8809,
+      "name": "Dickson",
+      "formal": 415,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 58.31,
+      "swing": 6.34,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "pct": 40.0
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 126,
+          "pct": 30.36
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 60,
+          "pct": 14.46
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 12.05
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 9,
+          "pct": 2.17
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 242,
+          "elected": true,
+          "pct": 58.31
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 173,
+          "elected": false,
+          "pct": 41.69
+        }
+      ]
+    },
+    {
+      "boothId": 93960,
+      "name": "Tuggeranong CANBERRA PPVC",
+      "formal": 411,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 71.05,
+      "swing": 11.01,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 190,
+          "pct": 46.23
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 89,
+          "pct": 21.65
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 62,
+          "pct": 15.09
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 55,
+          "pct": 13.38
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.95
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 1.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 292,
+          "elected": true,
+          "pct": 71.05
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 119,
+          "elected": false,
+          "pct": 28.95
+        }
+      ]
+    },
+    {
+      "boothId": 93976,
+      "name": "Page (Canberra)",
+      "formal": 356,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 70.51,
+      "swing": 3.23,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 175,
+          "pct": 49.16
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 66,
+          "pct": 18.54
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 64,
+          "pct": 17.98
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 47,
+          "pct": 13.2
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 4,
+          "pct": 1.12
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 251,
+          "elected": true,
+          "pct": 70.51
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 105,
+          "elected": false,
+          "pct": 29.49
+        }
+      ]
+    },
+    {
+      "boothId": 108470,
+      "name": "Special Hospital Team 1",
+      "formal": 284,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 69.01,
+      "swing": 5.15,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 144,
+          "pct": 50.7
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 81,
+          "pct": 28.52
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 11.27
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 5.63
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 2.46
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 196,
+          "elected": true,
+          "pct": 69.01
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 88,
+          "elected": false,
+          "pct": 30.99
+        }
+      ]
+    },
+    {
+      "boothId": 109171,
+      "name": "Special Hospital Team 2",
+      "formal": 152,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 63.82,
+      "swing": 0.06,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 67,
+          "pct": 44.08
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 48,
+          "pct": 31.58
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 13.16
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 9.21
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.97
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "elected": true,
+          "pct": 63.82
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 55,
+          "elected": false,
+          "pct": 36.18
+        }
+      ]
+    },
+    {
+      "boothId": 8783,
+      "name": "Oaks Estate",
+      "formal": 127,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 59.84,
+      "swing": -2.44,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 46,
+          "pct": 36.22
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 27,
+          "pct": 21.26
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 24,
+          "pct": 18.9
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 14.96
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 9,
+          "pct": 7.09
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 2,
+          "pct": 1.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 76,
+          "elected": true,
+          "pct": 59.84
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 51,
+          "elected": false,
+          "pct": 40.16
+        }
+      ]
+    },
+    {
+      "boothId": 109831,
+      "name": "Special Hospital Team 3",
+      "formal": 98,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 70.41,
+      "swing": 6.57,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 42,
+          "pct": 42.86
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 32,
+          "pct": 32.65
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 11.22
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 10.2
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 3,
+          "pct": 3.06
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 69,
+          "elected": true,
+          "pct": 70.41
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "elected": false,
+          "pct": 29.59
+        }
+      ]
+    },
+    {
+      "boothId": 65504,
+      "name": "EAV Canberra PPVC",
+      "formal": 16,
+      "winnerParty": "alp",
+      "winnerSurname": "PAYNE",
+      "winnerPct": 68.75,
+      "swing": -2.08,
+      "candidates": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 37.5
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 25.0
+        },
+        {
+          "surname": "ROCHE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "pct": 25.0
+        },
+        {
+          "surname": "MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 12.5
+        },
+        {
+          "surname": "LIDDICOAT",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "McTAGGART",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PAYNE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "elected": true,
+          "pct": 68.75
+        },
+        {
+          "surname": "MUDFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "elected": false,
+          "pct": 31.25
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 93405,
+    "candidates": [
+      {
+        "id": "C41390",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Mudford"
+      },
+      {
+        "id": "C41742",
+        "party": "oth",
+        "displayShort": "IMO",
+        "displayLong": "IMO \u2014 Liddicoat"
+      },
+      {
+        "id": "C41696",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Miles"
+      },
+      {
+        "id": "C41077",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Roche"
+      },
+      {
+        "id": "C40677",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Payne"
+      },
+      {
+        "id": "C41706",
+        "party": "ajp",
+        "displayShort": "AJP",
+        "displayLong": "AJP \u2014 Mctaggart"
+      }
+    ],
+    "rounds": [
+      {
+        "C41390": 18504,
+        "C41742": 1222,
+        "C41696": 10187,
+        "C41077": 17101,
+        "C40677": 45133,
+        "C41706": 1258
+      },
+      {
+        "C41390": 18634,
+        "C41696": 10715,
+        "C41077": 17476,
+        "C40677": 45224,
+        "C41706": 1356
+      },
+      {
+        "C41390": 19111,
+        "C41696": 11136,
+        "C41077": 17610,
+        "C40677": 45548
+      },
+      {
+        "C41390": 23044,
+        "C41077": 20325,
+        "C40677": 50036
+      },
+      {
+        "C41390": 28469,
+        "C40677": 64936
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            61.82,
+            59.15,
+            56.98,
+            58.46,
+            67.08,
+            62.2,
+            69.52
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            38.18,
+            40.85,
+            43.02,
+            41.54,
+            32.92,
+            null,
+            null
+          ]
+        },
+        {
+          "id": "GRN",
+          "party": "grn",
+          "label": "GRN",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            37.8,
+            30.48
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "ALP": 51.1,
+            "LIB": 35.13,
+            "GRN": 12.95,
+            "OTH": 0.83
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "GRN": 18.56,
+            "LIB": 37.21,
+            "ALP": 44.23
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "TOP": 3.21,
+            "BTA": 4.1,
+            "GRN": 12.67,
+            "LIB": 37.87,
+            "ALP": 41.06,
+            "OTH": 1.09
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "LIB": 37.61,
+            "BTA": 4.67,
+            "ALP": 42.8,
+            "GRN": 14.92
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "AUP": 2.06,
+            "IND": 4.7,
+            "GRN": 23.31,
+            "ALP": 40.5,
+            "LIB": 27.85,
+            "OTH": 1.58
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "LIB": 21.77,
+            "IND": 5.17,
+            "ON": 1.66,
+            "ALP": 44.88,
+            "GRN": 24.69,
+            "OTH": 1.83
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "ALP": 48.32,
+            "LIB": 18.31,
+            "IND": 10.91,
+            "GRN": 19.81,
+            "OTH": 2.66
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 145507,
+    "medianAge": 35,
+    "medianHouseholdIncomeWeekly": 2419,
+    "medianRentWeekly": 475,
+    "averageHouseholdSize": 2.3,
+    "bornOverseasPct": 30.1,
+    "indigenousPct": 1.4,
+    "bachelorPlusPct": 70.1,
+    "renterPct": 38.0,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 96553,
+        "pct": 69.86,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 2564,
+        "pct": 1.86,
+        "natPct": 1.95
+      },
+      {
+        "label": "China",
+        "count": 2072,
+        "pct": 1.5,
+        "natPct": 1.0
+      },
+      {
+        "label": "India",
+        "count": 1959,
+        "pct": 1.42,
+        "natPct": 1.51
+      },
+      {
+        "label": "New Zealand",
+        "count": 966,
+        "pct": 0.7,
+        "natPct": 1.11
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 72358,
+        "pct": 49.73,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 47855,
+        "pct": 32.89,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 10221,
+        "pct": 7.02,
+        "natPct": 7.27
+      },
+      {
+        "label": "Hinduism",
+        "count": 4722,
+        "pct": 3.25,
+        "natPct": 2.69
+      },
+      {
+        "label": "Buddhism",
+        "count": 4266,
+        "pct": 2.93,
+        "natPct": 2.42
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Canberra is an Australian electoral division in the Australian Capital Territory. It is named for the city of Canberra, Australia's national capital, and includes all of central Canberra, Kowen, Majura, as well as part of Weston Creek, Woden Valley, Molonglo Valley, Belconnen, and Jerrabomberra. Canberra's Parliament House, the meeting place of the Parliament of Australia, is located within the division. It is currently held by Alicia Payne of the Labor Party.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Canberra",
+    "retrievedAt": "2026-01-26T08:33:25Z"
+  }
+}

@@ -1,0 +1,4988 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "CUNNINGHAM",
+    "divisionId": 114,
+    "name": "Cunningham",
+    "state": "NSW",
+    "totalFormal": 115474,
+    "informalVotes": 6033,
+    "informalRate": 5.71,
+    "winner": {
+      "candidateId": "C41343",
+      "surname": "BYRNES",
+      "givenName": "Alison",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 35.04,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41343",
+      "surname": "BYRNES",
+      "givenName": "Alison",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 44714,
+      "pct": 44.85
+    },
+    {
+      "candidateId": "C41453",
+      "surname": "IVANEZA",
+      "givenName": "Amanda",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 22912,
+      "pct": 22.98
+    },
+    {
+      "candidateId": "C41568",
+      "surname": "WHITTAKER",
+      "givenName": "Jess",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 20697,
+      "pct": 20.76
+    },
+    {
+      "candidateId": "C41924",
+      "surname": "FULLER",
+      "givenName": "John",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 7403,
+      "pct": 7.43
+    },
+    {
+      "candidateId": "C40878",
+      "surname": "LAVERS",
+      "givenName": "Tim",
+      "party": "ajp",
+      "partyAb": "AJP",
+      "votes": 2592,
+      "pct": 2.6
+    },
+    {
+      "candidateId": "C40873",
+      "surname": "GARNAUT-MILLER",
+      "givenName": "Alexis",
+      "party": "oth",
+      "partyAb": "CEC",
+      "votes": 1370,
+      "pct": 1.37
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41343",
+      "surname": "BYRNES",
+      "givenName": "Alison",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 77970,
+      "pct": 67.52,
+      "elected": true
+    },
+    {
+      "candidateId": "C41453",
+      "surname": "IVANEZA",
+      "givenName": "Amanda",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 37504,
+      "pct": 32.48,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 83621,
+      "name": "Corrimal PPVC",
+      "formal": 17018,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 65.02,
+      "swing": -0.36,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8093,
+          "pct": 47.56
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4674,
+          "pct": 27.47
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2562,
+          "pct": 15.05
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1085,
+          "pct": 6.38
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 431,
+          "pct": 2.53
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 173,
+          "pct": 1.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11065,
+          "elected": true,
+          "pct": 65.02
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5953,
+          "elected": false,
+          "pct": 34.98
+        }
+      ]
+    },
+    {
+      "boothId": 34033,
+      "name": "Wollongong CUNNINGHAM PPVC",
+      "formal": 12803,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 66.19,
+      "swing": 3.64,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5690,
+          "pct": 44.44
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3372,
+          "pct": 26.34
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2613,
+          "pct": 20.41
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 706,
+          "pct": 5.51
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 273,
+          "pct": 2.13
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 149,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8474,
+          "elected": true,
+          "pct": 66.19
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4329,
+          "elected": false,
+          "pct": 33.81
+        }
+      ]
+    },
+    {
+      "boothId": 97803,
+      "name": "Warrawong CUNNINGHAM PPVC",
+      "formal": 6844,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 68.5,
+      "swing": -1.41,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3428,
+          "pct": 50.09
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1383,
+          "pct": 20.21
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1046,
+          "pct": 15.28
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 694,
+          "pct": 10.14
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 173,
+          "pct": 2.53
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 120,
+          "pct": 1.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4688,
+          "elected": true,
+          "pct": 68.5
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2156,
+          "elected": false,
+          "pct": 31.5
+        }
+      ]
+    },
+    {
+      "boothId": 109584,
+      "name": "Thirroul PPVC",
+      "formal": 5693,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 70.17,
+      "swing": 4.47,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2411,
+          "pct": 42.35
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1488,
+          "pct": 26.14
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1352,
+          "pct": 23.75
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 261,
+          "pct": 4.58
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 136,
+          "pct": 2.39
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 45,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3995,
+          "elected": true,
+          "pct": 70.17
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1698,
+          "elected": false,
+          "pct": 29.83
+        }
+      ]
+    },
+    {
+      "boothId": 65820,
+      "name": "Dapto CUNNINGHAM PPVC",
+      "formal": 3555,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 65.88,
+      "swing": 3.06,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1793,
+          "pct": 50.44
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 858,
+          "pct": 24.14
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 426,
+          "pct": 11.98
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 359,
+          "pct": 10.1
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 73,
+          "pct": 2.05
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 46,
+          "pct": 1.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2342,
+          "elected": true,
+          "pct": 65.88
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1213,
+          "elected": false,
+          "pct": 34.12
+        }
+      ]
+    },
+    {
+      "boothId": 1212,
+      "name": "Helensburgh",
+      "formal": 1939,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 61.94,
+      "swing": 11.08,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 794,
+          "pct": 40.95
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 500,
+          "pct": 25.79
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 333,
+          "pct": 17.17
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 204,
+          "pct": 10.52
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 79,
+          "pct": 4.07
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 29,
+          "pct": 1.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1201,
+          "elected": true,
+          "pct": 61.94
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 738,
+          "elected": false,
+          "pct": 38.06
+        }
+      ]
+    },
+    {
+      "boothId": 546,
+      "name": "Keiraville",
+      "formal": 1773,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 71.86,
+      "swing": 2.56,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 694,
+          "pct": 39.14
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 552,
+          "pct": 31.13
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 333,
+          "pct": 18.78
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 109,
+          "pct": 6.15
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 70,
+          "pct": 3.95
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1274,
+          "elected": true,
+          "pct": 71.86
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 499,
+          "elected": false,
+          "pct": 28.14
+        }
+      ]
+    },
+    {
+      "boothId": 1666,
+      "name": "Bulli Central",
+      "formal": 1747,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 69.03,
+      "swing": 4.39,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 714,
+          "pct": 40.87
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 433,
+          "pct": 24.79
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 379,
+          "pct": 21.69
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 135,
+          "pct": 7.73
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 65,
+          "pct": 3.72
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1206,
+          "elected": true,
+          "pct": 69.03
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 541,
+          "elected": false,
+          "pct": 30.97
+        }
+      ]
+    },
+    {
+      "boothId": 1679,
+      "name": "Corrimal East",
+      "formal": 1644,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 72.14,
+      "swing": 2.79,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 691,
+          "pct": 42.03
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 456,
+          "pct": 27.74
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 283,
+          "pct": 17.21
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 140,
+          "pct": 8.52
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 50,
+          "pct": 3.04
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1186,
+          "elected": true,
+          "pct": 72.14
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 458,
+          "elected": false,
+          "pct": 27.86
+        }
+      ]
+    },
+    {
+      "boothId": 542,
+      "name": "Figtree",
+      "formal": 1563,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 64.62,
+      "swing": 3.62,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 718,
+          "pct": 45.94
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 403,
+          "pct": 25.78
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 232,
+          "pct": 14.84
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 126,
+          "pct": 8.06
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 59,
+          "pct": 3.77
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1010,
+          "elected": true,
+          "pct": 64.62
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 553,
+          "elected": false,
+          "pct": 35.38
+        }
+      ]
+    },
+    {
+      "boothId": 555,
+      "name": "Mangerton",
+      "formal": 1489,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 69.04,
+      "swing": 1.26,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 591,
+          "pct": 39.69
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 404,
+          "pct": 27.13
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 341,
+          "pct": 22.9
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 94,
+          "pct": 6.31
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 30,
+          "pct": 2.01
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 29,
+          "pct": 1.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1028,
+          "elected": true,
+          "pct": 69.04
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 461,
+          "elected": false,
+          "pct": 30.96
+        }
+      ]
+    },
+    {
+      "boothId": 551,
+      "name": "Wollongong West",
+      "formal": 1466,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 69.71,
+      "swing": 5.59,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 620,
+          "pct": 42.29
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 369,
+          "pct": 25.17
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 337,
+          "pct": 22.99
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 88,
+          "pct": 6.0
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 32,
+          "pct": 2.18
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1022,
+          "elected": true,
+          "pct": 69.71
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 444,
+          "elected": false,
+          "pct": 30.29
+        }
+      ]
+    },
+    {
+      "boothId": 11923,
+      "name": "Unanderra",
+      "formal": 1421,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 65.73,
+      "swing": -0.84,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 627,
+          "pct": 44.12
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 319,
+          "pct": 22.45
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 246,
+          "pct": 17.31
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 152,
+          "pct": 10.7
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 49,
+          "pct": 3.45
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 28,
+          "pct": 1.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 934,
+          "elected": true,
+          "pct": 65.73
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 487,
+          "elected": false,
+          "pct": 34.27
+        }
+      ]
+    },
+    {
+      "boothId": 1678,
+      "name": "Corrimal",
+      "formal": 1396,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 69.2,
+      "swing": 2.22,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 580,
+          "pct": 41.55
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 318,
+          "pct": 22.78
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 309,
+          "pct": 22.13
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 116,
+          "pct": 8.31
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 44,
+          "pct": 3.15
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 966,
+          "elected": true,
+          "pct": 69.2
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 430,
+          "elected": false,
+          "pct": 30.8
+        }
+      ]
+    },
+    {
+      "boothId": 565,
+      "name": "Wollongong",
+      "formal": 1353,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 73.91,
+      "swing": 10.09,
+      "candidates": [
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 513,
+          "pct": 37.92
+        },
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 491,
+          "pct": 36.29
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 235,
+          "pct": 17.37
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 4.36
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 29,
+          "pct": 2.14
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 26,
+          "pct": 1.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1000,
+          "elected": true,
+          "pct": 73.91
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 353,
+          "elected": false,
+          "pct": 26.09
+        }
+      ]
+    },
+    {
+      "boothId": 11499,
+      "name": "Cordeaux Heights",
+      "formal": 1325,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 64.08,
+      "swing": 4.28,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 581,
+          "pct": 43.85
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 366,
+          "pct": 27.62
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 225,
+          "pct": 16.98
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 105,
+          "pct": 7.92
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 30,
+          "pct": 2.26
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 849,
+          "elected": true,
+          "pct": 64.08
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 476,
+          "elected": false,
+          "pct": 35.92
+        }
+      ]
+    },
+    {
+      "boothId": 539,
+      "name": "Coniston",
+      "formal": 1298,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 70.96,
+      "swing": 1.67,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 558,
+          "pct": 42.99
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 338,
+          "pct": 26.04
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 226,
+          "pct": 17.41
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 109,
+          "pct": 8.4
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 47,
+          "pct": 3.62
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 921,
+          "elected": true,
+          "pct": 70.96
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 377,
+          "elected": false,
+          "pct": 29.04
+        }
+      ]
+    },
+    {
+      "boothId": 108900,
+      "name": "Wollongong North",
+      "formal": 1256,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 71.5,
+      "swing": 4.03,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 472,
+          "pct": 37.58
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 413,
+          "pct": 32.88
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 251,
+          "pct": 19.98
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 6.45
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 24,
+          "pct": 1.91
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 898,
+          "elected": true,
+          "pct": 71.5
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 358,
+          "elected": false,
+          "pct": 28.5
+        }
+      ]
+    },
+    {
+      "boothId": 1703,
+      "name": "Thirroul",
+      "formal": 1253,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 72.94,
+      "swing": 1.86,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 509,
+          "pct": 40.62
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 397,
+          "pct": 31.68
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 238,
+          "pct": 18.99
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 4.79
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 32,
+          "pct": 2.55
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 914,
+          "elected": true,
+          "pct": 72.94
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 339,
+          "elected": false,
+          "pct": 27.06
+        }
+      ]
+    },
+    {
+      "boothId": 1662,
+      "name": "Balgownie Central",
+      "formal": 1231,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 63.93,
+      "swing": 5.9,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 547,
+          "pct": 44.44
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 328,
+          "pct": 26.65
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 200,
+          "pct": 16.25
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 96,
+          "pct": 7.8
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 46,
+          "pct": 3.74
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 787,
+          "elected": true,
+          "pct": 63.93
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 444,
+          "elected": false,
+          "pct": 36.07
+        }
+      ]
+    },
+    {
+      "boothId": 561,
+      "name": "Unanderra South",
+      "formal": 1225,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 67.84,
+      "swing": 0.4,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 505,
+          "pct": 41.22
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 261,
+          "pct": 21.31
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "pct": 20.41
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 140,
+          "pct": 11.43
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 41,
+          "pct": 3.35
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 831,
+          "elected": true,
+          "pct": 67.84
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 394,
+          "elected": false,
+          "pct": 32.16
+        }
+      ]
+    },
+    {
+      "boothId": 1705,
+      "name": "Towradgi",
+      "formal": 1199,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 68.39,
+      "swing": 2.53,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 512,
+          "pct": 42.7
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 285,
+          "pct": 23.77
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 265,
+          "pct": 22.1
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 89,
+          "pct": 7.42
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 26,
+          "pct": 2.17
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 820,
+          "elected": true,
+          "pct": 68.39
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 379,
+          "elected": false,
+          "pct": 31.61
+        }
+      ]
+    },
+    {
+      "boothId": 1682,
+      "name": "Fairy Meadow",
+      "formal": 1178,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 71.31,
+      "swing": 5.62,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 524,
+          "pct": 44.48
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 278,
+          "pct": 23.6
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 234,
+          "pct": 19.86
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 7.89
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 27,
+          "pct": 2.29
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 840,
+          "elected": true,
+          "pct": 71.31
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 338,
+          "elected": false,
+          "pct": 28.69
+        }
+      ]
+    },
+    {
+      "boothId": 1711,
+      "name": "Woonona East",
+      "formal": 1138,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 66.96,
+      "swing": 3.06,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 478,
+          "pct": 42.0
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 276,
+          "pct": 24.25
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 258,
+          "pct": 22.67
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 78,
+          "pct": 6.85
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 31,
+          "pct": 2.72
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 762,
+          "elected": true,
+          "pct": 66.96
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 376,
+          "elected": false,
+          "pct": 33.04
+        }
+      ]
+    },
+    {
+      "boothId": 1689,
+      "name": "Mount Ousley",
+      "formal": 1121,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 64.94,
+      "swing": 3.25,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 448,
+          "pct": 39.96
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 288,
+          "pct": 25.69
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 263,
+          "pct": 23.46
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 6.16
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 33,
+          "pct": 2.94
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 728,
+          "elected": true,
+          "pct": 64.94
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 393,
+          "elected": false,
+          "pct": 35.06
+        }
+      ]
+    },
+    {
+      "boothId": 544,
+      "name": "Gwynneville",
+      "formal": 1120,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 76.16,
+      "swing": 2.78,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 489,
+          "pct": 43.66
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 337,
+          "pct": 30.09
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 184,
+          "pct": 16.43
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 68,
+          "pct": 6.07
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 28,
+          "pct": 2.5
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 853,
+          "elected": true,
+          "pct": 76.16
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 267,
+          "elected": false,
+          "pct": 23.84
+        }
+      ]
+    },
+    {
+      "boothId": 1699,
+      "name": "Tarrawanna",
+      "formal": 1068,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 70.6,
+      "swing": 4.02,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 494,
+          "pct": 46.25
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 227,
+          "pct": 21.25
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 206,
+          "pct": 19.29
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 83,
+          "pct": 7.77
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 37,
+          "pct": 3.46
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 754,
+          "elected": true,
+          "pct": 70.6
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 314,
+          "elected": false,
+          "pct": 29.4
+        }
+      ]
+    },
+    {
+      "boothId": 553,
+      "name": "Mount Keira",
+      "formal": 1048,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 65.65,
+      "swing": 3.61,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 462,
+          "pct": 44.08
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 277,
+          "pct": 26.43
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 216,
+          "pct": 20.61
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 66,
+          "pct": 6.3
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 18,
+          "pct": 1.72
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 688,
+          "elected": true,
+          "pct": 65.65
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 360,
+          "elected": false,
+          "pct": 34.35
+        }
+      ]
+    },
+    {
+      "boothId": 543,
+      "name": "Figtree Heights",
+      "formal": 1017,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 66.86,
+      "swing": 5.0,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 440,
+          "pct": 43.26
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 245,
+          "pct": 24.09
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 211,
+          "pct": 20.75
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 6.78
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 29,
+          "pct": 2.85
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 680,
+          "elected": true,
+          "pct": 66.86
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 337,
+          "elected": false,
+          "pct": 33.14
+        }
+      ]
+    },
+    {
+      "boothId": 31754,
+      "name": "Balgownie",
+      "formal": 995,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 67.14,
+      "swing": 3.55,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 442,
+          "pct": 44.42
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 261,
+          "pct": 26.23
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 205,
+          "pct": 20.6
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 5.43
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 23,
+          "pct": 2.31
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 668,
+          "elected": true,
+          "pct": 67.14
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 327,
+          "elected": false,
+          "pct": 32.86
+        }
+      ]
+    },
+    {
+      "boothId": 1213,
+      "name": "Helensburgh North",
+      "formal": 982,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 67.01,
+      "swing": 9.51,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 483,
+          "pct": 49.19
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 225,
+          "pct": 22.91
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 155,
+          "pct": 15.78
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 87,
+          "pct": 8.86
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 21,
+          "pct": 2.14
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 658,
+          "elected": true,
+          "pct": 67.01
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 324,
+          "elected": false,
+          "pct": 32.99
+        }
+      ]
+    },
+    {
+      "boothId": 535,
+      "name": "Berkeley",
+      "formal": 980,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 72.96,
+      "swing": -1.51,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 473,
+          "pct": 48.27
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 208,
+          "pct": 21.22
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 144,
+          "pct": 14.69
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 105,
+          "pct": 10.71
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 32,
+          "pct": 3.27
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 715,
+          "elected": true,
+          "pct": 72.96
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 265,
+          "elected": false,
+          "pct": 27.04
+        }
+      ]
+    },
+    {
+      "boothId": 1696,
+      "name": "Russell Vale",
+      "formal": 963,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 68.33,
+      "swing": 1.9,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 434,
+          "pct": 45.07
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 221,
+          "pct": 22.95
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 197,
+          "pct": 20.46
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 8.31
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 16,
+          "pct": 1.66
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 658,
+          "elected": true,
+          "pct": 68.33
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 305,
+          "elected": false,
+          "pct": 31.67
+        }
+      ]
+    },
+    {
+      "boothId": 537,
+      "name": "Berkeley West",
+      "formal": 956,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 73.54,
+      "swing": -3.46,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 495,
+          "pct": 51.78
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 17.36
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 125,
+          "pct": 13.08
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 116,
+          "pct": 12.13
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 37,
+          "pct": 3.87
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 703,
+          "elected": true,
+          "pct": 73.54
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 253,
+          "elected": false,
+          "pct": 26.46
+        }
+      ]
+    },
+    {
+      "boothId": 83535,
+      "name": "Wollongong East",
+      "formal": 949,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 68.91,
+      "swing": -2.07,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 396,
+          "pct": 41.73
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 249,
+          "pct": 26.24
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 212,
+          "pct": 22.34
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 5.8
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 24,
+          "pct": 2.53
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 654,
+          "elected": true,
+          "pct": 68.91
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 295,
+          "elected": false,
+          "pct": 31.09
+        }
+      ]
+    },
+    {
+      "boothId": 1709,
+      "name": "Woonona",
+      "formal": 859,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 72.99,
+      "swing": 2.52,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 396,
+          "pct": 46.1
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 224,
+          "pct": 26.08
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 170,
+          "pct": 19.79
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 5.12
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 16,
+          "pct": 1.86
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 627,
+          "elected": true,
+          "pct": 72.99
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 232,
+          "elected": false,
+          "pct": 27.01
+        }
+      ]
+    },
+    {
+      "boothId": 566,
+      "name": "Wollongong South",
+      "formal": 837,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 71.68,
+      "swing": -0.63,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 372,
+          "pct": 44.44
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 218,
+          "pct": 26.05
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 164,
+          "pct": 19.59
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 4.54
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 24,
+          "pct": 2.87
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 600,
+          "elected": true,
+          "pct": 71.68
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 237,
+          "elected": false,
+          "pct": 28.32
+        }
+      ]
+    },
+    {
+      "boothId": 1710,
+      "name": "Woonona Central",
+      "formal": 832,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 68.99,
+      "swing": 3.17,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 362,
+          "pct": 43.51
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 188,
+          "pct": 22.6
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 163,
+          "pct": 19.59
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 74,
+          "pct": 8.89
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 32,
+          "pct": 3.85
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 574,
+          "elected": true,
+          "pct": 68.99
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 258,
+          "elected": false,
+          "pct": 31.01
+        }
+      ]
+    },
+    {
+      "boothId": 556,
+      "name": "Port Kembla",
+      "formal": 826,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 72.4,
+      "swing": 4.01,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 328,
+          "pct": 39.71
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 257,
+          "pct": 31.11
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 133,
+          "pct": 16.1
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 8.84
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 23,
+          "pct": 2.78
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 598,
+          "elected": true,
+          "pct": 72.4
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 228,
+          "elected": false,
+          "pct": 27.6
+        }
+      ]
+    },
+    {
+      "boothId": 97796,
+      "name": "Figtree West",
+      "formal": 811,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 64.98,
+      "swing": 8.13,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 354,
+          "pct": 43.65
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 196,
+          "pct": 24.17
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 164,
+          "pct": 20.22
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 8.63
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 14,
+          "pct": 1.73
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 527,
+          "elected": true,
+          "pct": 64.98
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 284,
+          "elected": false,
+          "pct": 35.02
+        }
+      ]
+    },
+    {
+      "boothId": 564,
+      "name": "Windang",
+      "formal": 776,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 63.79,
+      "swing": -0.55,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 366,
+          "pct": 47.16
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 163,
+          "pct": 21.01
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 109,
+          "pct": 14.05
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 99,
+          "pct": 12.76
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 32,
+          "pct": 4.12
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 495,
+          "elected": true,
+          "pct": 63.79
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 281,
+          "elected": false,
+          "pct": 36.21
+        }
+      ]
+    },
+    {
+      "boothId": 1229,
+      "name": "Stanwell Park",
+      "formal": 753,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 67.86,
+      "swing": -0.35,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 307,
+          "pct": 40.77
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 191,
+          "pct": 25.37
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 177,
+          "pct": 23.51
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 8.5
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 1.33
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 511,
+          "elected": true,
+          "pct": 67.86
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 242,
+          "elected": false,
+          "pct": 32.14
+        }
+      ]
+    },
+    {
+      "boothId": 540,
+      "name": "Cringila",
+      "formal": 752,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 77.39,
+      "swing": -2.67,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 402,
+          "pct": 53.46
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 22.07
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 85,
+          "pct": 11.3
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 7.85
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 24,
+          "pct": 3.19
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 582,
+          "elected": true,
+          "pct": 77.39
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 170,
+          "elected": false,
+          "pct": 22.61
+        }
+      ]
+    },
+    {
+      "boothId": 1199,
+      "name": "Coledale",
+      "formal": 740,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 69.86,
+      "swing": 2.75,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 286,
+          "pct": 38.65
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 225,
+          "pct": 30.41
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 159,
+          "pct": 21.49
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 45,
+          "pct": 6.08
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 14,
+          "pct": 1.89
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 517,
+          "elected": true,
+          "pct": 69.86
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 223,
+          "elected": false,
+          "pct": 30.14
+        }
+      ]
+    },
+    {
+      "boothId": 536,
+      "name": "Berkeley South",
+      "formal": 732,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 74.32,
+      "swing": -1.48,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 389,
+          "pct": 53.14
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 136,
+          "pct": 18.58
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 96,
+          "pct": 13.11
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 10.38
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 20,
+          "pct": 2.73
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 544,
+          "elected": true,
+          "pct": 74.32
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 188,
+          "elected": false,
+          "pct": 25.68
+        }
+      ]
+    },
+    {
+      "boothId": 557,
+      "name": "Port Kembla Central",
+      "formal": 715,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 75.1,
+      "swing": 4.14,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 372,
+          "pct": 52.03
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 141,
+          "pct": 19.72
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 102,
+          "pct": 14.27
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 9.79
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 17,
+          "pct": 2.38
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 537,
+          "elected": true,
+          "pct": 75.1
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 178,
+          "elected": false,
+          "pct": 24.9
+        }
+      ]
+    },
+    {
+      "boothId": 97800,
+      "name": "Engadine CUNNINGHAM PPVC",
+      "formal": 704,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 53.12,
+      "swing": -0.76,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 287,
+          "pct": 40.77
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 257,
+          "pct": 36.51
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 9.94
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 8.66
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 23,
+          "pct": 3.27
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 374,
+          "elected": true,
+          "pct": 53.12
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 330,
+          "elected": false,
+          "pct": 46.88
+        }
+      ]
+    },
+    {
+      "boothId": 1661,
+      "name": "Austinmer",
+      "formal": 685,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 76.5,
+      "swing": -0.08,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 276,
+          "pct": 40.29
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 234,
+          "pct": 34.16
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 123,
+          "pct": 17.96
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 4.09
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 16,
+          "pct": 2.34
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 524,
+          "elected": true,
+          "pct": 76.5
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 161,
+          "elected": false,
+          "pct": 23.5
+        }
+      ]
+    },
+    {
+      "boothId": 559,
+      "name": "Primbee",
+      "formal": 669,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 61.43,
+      "swing": -0.89,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 276,
+          "pct": 41.26
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 164,
+          "pct": 24.51
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 105,
+          "pct": 15.7
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 104,
+          "pct": 15.55
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.64
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 9,
+          "pct": 1.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 411,
+          "elected": true,
+          "pct": 61.43
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 258,
+          "elected": false,
+          "pct": 38.57
+        }
+      ]
+    },
+    {
+      "boothId": 550,
+      "name": "Lake Heights",
+      "formal": 663,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 69.68,
+      "swing": 1.93,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 319,
+          "pct": 48.11
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 120,
+          "pct": 18.1
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 113,
+          "pct": 17.04
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 12.22
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 21,
+          "pct": 3.17
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 462,
+          "elected": true,
+          "pct": 69.68
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 201,
+          "elected": false,
+          "pct": 30.32
+        }
+      ]
+    },
+    {
+      "boothId": 83549,
+      "name": "Unanderra West",
+      "formal": 646,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 63.62,
+      "swing": 3.81,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 280,
+          "pct": 43.34
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 139,
+          "pct": 21.52
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 126,
+          "pct": 19.5
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 10.84
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 16,
+          "pct": 2.48
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 411,
+          "elected": true,
+          "pct": 63.62
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 235,
+          "elected": false,
+          "pct": 36.38
+        }
+      ]
+    },
+    {
+      "boothId": 562,
+      "name": "Warrawong",
+      "formal": 640,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 73.91,
+      "swing": 6.17,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 316,
+          "pct": 49.38
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 140,
+          "pct": 21.88
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 78,
+          "pct": 12.19
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 76,
+          "pct": 11.88
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.5
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 14,
+          "pct": 2.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 473,
+          "elected": true,
+          "pct": 73.91
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 167,
+          "elected": false,
+          "pct": 26.09
+        }
+      ]
+    },
+    {
+      "boothId": 1668,
+      "name": "Bulli",
+      "formal": 633,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 69.67,
+      "swing": 0.98,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 247,
+          "pct": 39.02
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 190,
+          "pct": 30.02
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 123,
+          "pct": 19.43
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 9.0
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 11,
+          "pct": 1.74
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 441,
+          "elected": true,
+          "pct": 69.67
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 192,
+          "elected": false,
+          "pct": 30.33
+        }
+      ]
+    },
+    {
+      "boothId": 554,
+      "name": "Mount Kembla",
+      "formal": 591,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 67.01,
+      "swing": 2.69,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 237,
+          "pct": 40.1
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 159,
+          "pct": 26.9
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 118,
+          "pct": 19.97
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 10.32
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.35
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 8,
+          "pct": 1.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 396,
+          "elected": true,
+          "pct": 67.01
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 195,
+          "elected": false,
+          "pct": 32.99
+        }
+      ]
+    },
+    {
+      "boothId": 563,
+      "name": "Warrawong Central",
+      "formal": 587,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 74.28,
+      "swing": 0.54,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 275,
+          "pct": 46.85
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 154,
+          "pct": 26.24
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 81,
+          "pct": 13.8
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 6.98
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 20,
+          "pct": 3.41
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 436,
+          "elected": true,
+          "pct": 74.28
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 151,
+          "elected": false,
+          "pct": 25.72
+        }
+      ]
+    },
+    {
+      "boothId": 1664,
+      "name": "Bellambi",
+      "formal": 474,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 75.74,
+      "swing": 3.21,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 226,
+          "pct": 47.68
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 127,
+          "pct": 26.79
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 62,
+          "pct": 13.08
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 6.12
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 19,
+          "pct": 4.01
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 359,
+          "elected": true,
+          "pct": 75.74
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 115,
+          "elected": false,
+          "pct": 24.26
+        }
+      ]
+    },
+    {
+      "boothId": 1704,
+      "name": "Thirroul East",
+      "formal": 248,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 74.19,
+      "swing": 9.66,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 109,
+          "pct": 43.95
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 28.23
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 53,
+          "pct": 21.37
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 4.44
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 4,
+          "pct": 1.61
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 184,
+          "elected": true,
+          "pct": 74.19
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 64,
+          "elected": false,
+          "pct": 25.81
+        }
+      ]
+    },
+    {
+      "boothId": 1235,
+      "name": "Wombarra",
+      "formal": 200,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 73.0,
+      "swing": 5.21,
+      "candidates": [
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 80,
+          "pct": 40.0
+        },
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 67,
+          "pct": 33.5
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 43,
+          "pct": 21.5
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 3.0
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.0
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 2,
+          "pct": 1.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 146,
+          "elected": true,
+          "pct": 73.0
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 54,
+          "elected": false,
+          "pct": 27.0
+        }
+      ]
+    },
+    {
+      "boothId": 108903,
+      "name": "Special Hospital Team 1",
+      "formal": 149,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 67.11,
+      "swing": 7.41,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 91,
+          "pct": 61.07
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 38,
+          "pct": 25.5
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 8,
+          "pct": 5.37
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 4.03
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 3.36
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 100,
+          "elected": true,
+          "pct": 67.11
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 49,
+          "elected": false,
+          "pct": 32.89
+        }
+      ]
+    },
+    {
+      "boothId": 109078,
+      "name": "Special Hospital Team 2",
+      "formal": 88,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 70.45,
+      "swing": 10.8,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "pct": 62.5
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 21,
+          "pct": 23.86
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 9.09
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 2.27
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 2.27
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 62,
+          "elected": true,
+          "pct": 70.45
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 26,
+          "elected": false,
+          "pct": 29.55
+        }
+      ]
+    },
+    {
+      "boothId": 123970,
+      "name": "Special Hospital Team 3",
+      "formal": 50,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 64.0,
+      "swing": 4.0,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 28,
+          "pct": 56.0
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 12,
+          "pct": 24.0
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 10.0
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 6.0
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 2.0
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 1,
+          "pct": 2.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 32,
+          "elected": true,
+          "pct": 64.0
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 18,
+          "elected": false,
+          "pct": 36.0
+        }
+      ]
+    },
+    {
+      "boothId": 65460,
+      "name": "EAV Cunningham PPVC",
+      "formal": 22,
+      "winnerParty": "alp",
+      "winnerSurname": "BYRNES",
+      "winnerPct": 90.91,
+      "swing": 5.2,
+      "candidates": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 14,
+          "pct": 63.64
+        },
+        {
+          "surname": "WHITTAKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 31.82
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1,
+          "pct": 4.55
+        },
+        {
+          "surname": "GARNAUT-MILLER",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "FULLER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LAVERS",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BYRNES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 20,
+          "elected": true,
+          "pct": 90.91
+        },
+        {
+          "surname": "IVANEZA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "elected": false,
+          "pct": 9.09
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 115474,
+    "candidates": [
+      {
+        "id": "C41343",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Byrnes"
+      },
+      {
+        "id": "C40873",
+        "party": "oth",
+        "displayShort": "CEC",
+        "displayLong": "CEC \u2014 Garnaut-Miller"
+      },
+      {
+        "id": "C41453",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Ivaneza"
+      },
+      {
+        "id": "C41924",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Fuller"
+      },
+      {
+        "id": "C40878",
+        "party": "ajp",
+        "displayShort": "AJP",
+        "displayLong": "AJP \u2014 Lavers"
+      },
+      {
+        "id": "C41568",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Whittaker"
+      }
+    ],
+    "rounds": [
+      {
+        "C41343": 51607,
+        "C40873": 1657,
+        "C41453": 26813,
+        "C41924": 8765,
+        "C40878": 3048,
+        "C41568": 23584
+      },
+      {
+        "C41343": 51923,
+        "C41453": 27048,
+        "C41924": 9320,
+        "C40878": 3409,
+        "C41568": 23774
+      },
+      {
+        "C41343": 52551,
+        "C41453": 27396,
+        "C41924": 10090,
+        "C41568": 25437
+      },
+      {
+        "C41343": 54568,
+        "C41453": 33442,
+        "C41568": 27464
+      },
+      {
+        "C41343": 77970,
+        "C41453": 37504
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            68.13,
+            63.17,
+            59.88,
+            63.32,
+            63.41,
+            64.7,
+            67.52
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            31.87,
+            36.83,
+            40.12,
+            36.68,
+            36.59,
+            35.3,
+            32.48
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "CDP": 2.65,
+            "GRN": 14.63,
+            "LIB": 26.64,
+            "ALP": 53.23,
+            "OTH": 2.85
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "ALP": 49.17,
+            "GRN": 15.12,
+            "LIB": 32.85,
+            "OTH": 2.85
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "GRN": 11.77,
+            "CDP": 2.42,
+            "TOP": 4.66,
+            "LIB": 33.65,
+            "ALP": 45.54,
+            "OTH": 1.95
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "LIB": 29.16,
+            "GRN": 14.65,
+            "CDP": 4.06,
+            "FUT": 2.61,
+            "ALP": 47.89,
+            "OTH": 1.63
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "ALP": 46.61,
+            "TOP": 3.8,
+            "SPP": 2.32,
+            "LIB": 30.97,
+            "GRN": 15.09,
+            "OTH": 1.2
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "GRN": 21.65,
+            "LDP": 2.17,
+            "ALP": 40.11,
+            "ON": 5.13,
+            "TOP": 4.85,
+            "LIB": 25.0,
+            "OTH": 1.08
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "ON": 7.59,
+            "GRN": 20.42,
+            "AJP": 2.64,
+            "LIB": 23.22,
+            "ALP": 44.69,
+            "OTH": 1.43
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 161676,
+    "medianAge": 39,
+    "medianHouseholdIncomeWeekly": 1743,
+    "medianRentWeekly": 390,
+    "averageHouseholdSize": 2.5,
+    "bornOverseasPct": 22.8,
+    "indigenousPct": 2.7,
+    "bachelorPlusPct": 42.9,
+    "renterPct": 33.0,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 119692,
+        "pct": 77.21,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 2814,
+        "pct": 1.82,
+        "natPct": 1.95
+      },
+      {
+        "label": "India",
+        "count": 1231,
+        "pct": 0.79,
+        "natPct": 1.51
+      },
+      {
+        "label": "North Macedonia",
+        "count": 1029,
+        "pct": 0.66,
+        "natPct": 0.08
+      },
+      {
+        "label": "New Zealand",
+        "count": 904,
+        "pct": 0.58,
+        "natPct": 1.11
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 79549,
+        "pct": 49.2,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 62935,
+        "pct": 38.93,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 9439,
+        "pct": 5.84,
+        "natPct": 7.27
+      },
+      {
+        "label": "Islam",
+        "count": 3945,
+        "pct": 2.44,
+        "natPct": 3.2
+      },
+      {
+        "label": "Buddhism",
+        "count": 2084,
+        "pct": 1.29,
+        "natPct": 2.42
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Cunningham is an Australian electoral division in the state of New South Wales. It is located in the Illawarra and includes all of the City of Wollongong except for some suburbs around Dapto.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Cunningham",
+    "retrievedAt": "2025-12-02T09:38:36Z"
+  }
+}

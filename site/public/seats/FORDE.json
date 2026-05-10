@@ -1,0 +1,4311 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "FORDE",
+    "divisionId": 162,
+    "name": "Forde",
+    "state": "QLD",
+    "totalFormal": 107528,
+    "informalVotes": 6069,
+    "informalRate": 7.28,
+    "winner": {
+      "candidateId": "C40732",
+      "surname": "HOLZBERGER",
+      "givenName": "Rowan",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": false
+    },
+    "previousWinnerParty": "LNP",
+    "tcpMargin": 3.54,
+    "result": "ALP GAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40732",
+      "surname": "HOLZBERGER",
+      "givenName": "Rowan",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 26804,
+      "pct": 34.67
+    },
+    {
+      "candidateId": "C41163",
+      "surname": "Van MANEN",
+      "givenName": "Bert",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 23581,
+      "pct": 30.5
+    },
+    {
+      "candidateId": "C41234",
+      "surname": "PETERSEN",
+      "givenName": "Kirsty",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 8827,
+      "pct": 11.42
+    },
+    {
+      "candidateId": "C40937",
+      "surname": "LAMBERT",
+      "givenName": "Matthew",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 7737,
+      "pct": 10.01
+    },
+    {
+      "candidateId": "C40891",
+      "surname": "POP",
+      "givenName": "Corneliu",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 4120,
+      "pct": 5.33
+    },
+    {
+      "candidateId": "C41344",
+      "surname": "HISCOCK",
+      "givenName": "Jacob",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 3559,
+      "pct": 4.6
+    },
+    {
+      "candidateId": "C37414",
+      "surname": "GREAVES",
+      "givenName": "Chris",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 2222,
+      "pct": 2.87
+    },
+    {
+      "candidateId": "C40646",
+      "surname": "de HOMBRE",
+      "givenName": "Alf",
+      "party": "oth",
+      "partyAb": "CEC",
+      "votes": 467,
+      "pct": 0.6
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40732",
+      "surname": "HOLZBERGER",
+      "givenName": "Rowan",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 55662,
+      "pct": 51.77,
+      "elected": true
+    },
+    {
+      "candidateId": "C41163",
+      "surname": "Van MANEN",
+      "givenName": "Bert",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 51866,
+      "pct": 48.23,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 32715,
+      "name": "Beenleigh FORDE PPVC",
+      "formal": 14426,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 52.45,
+      "swing": -4.55,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5376,
+          "pct": 37.27
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4907,
+          "pct": 34.01
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1420,
+          "pct": 9.84
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1196,
+          "pct": 8.29
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 550,
+          "pct": 3.81
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 526,
+          "pct": 3.65
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 376,
+          "pct": 2.61
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 75,
+          "pct": 0.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6860,
+          "elected": true,
+          "pct": 47.55
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7566,
+          "elected": false,
+          "pct": 52.45
+        }
+      ]
+    },
+    {
+      "boothId": 58863,
+      "name": "Crestmead FORDE PPVC",
+      "formal": 7375,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 57.53,
+      "swing": 9.88,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3103,
+          "pct": 42.07
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1938,
+          "pct": 26.28
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 780,
+          "pct": 10.58
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 700,
+          "pct": 9.49
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 369,
+          "pct": 5.0
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 284,
+          "pct": 3.85
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 164,
+          "pct": 2.22
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 37,
+          "pct": 0.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4243,
+          "elected": true,
+          "pct": 57.53
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3132,
+          "elected": false,
+          "pct": 42.47
+        }
+      ]
+    },
+    {
+      "boothId": 97832,
+      "name": "Gold Coast North FORDE PPVC",
+      "formal": 6422,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 53.57,
+      "swing": -3.91,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2214,
+          "pct": 34.48
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1970,
+          "pct": 30.68
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 711,
+          "pct": 11.07
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 651,
+          "pct": 10.14
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 344,
+          "pct": 5.36
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 332,
+          "pct": 5.17
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 172,
+          "pct": 2.68
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 28,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2982,
+          "elected": true,
+          "pct": 46.43
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3440,
+          "elected": false,
+          "pct": 53.57
+        }
+      ]
+    },
+    {
+      "boothId": 65794,
+      "name": "Loganholme PPVC",
+      "formal": 5609,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 50.33,
+      "swing": -6.81,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1926,
+          "pct": 34.34
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1895,
+          "pct": 33.78
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 600,
+          "pct": 10.7
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 502,
+          "pct": 8.95
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 268,
+          "pct": 4.78
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 232,
+          "pct": 4.14
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 152,
+          "pct": 2.71
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 34,
+          "pct": 0.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2786,
+          "elected": true,
+          "pct": 49.67
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2823,
+          "elected": false,
+          "pct": 50.33
+        }
+      ]
+    },
+    {
+      "boothId": 58875,
+      "name": "Woodridge FORDE PPVC",
+      "formal": 4263,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 52.64,
+      "swing": 2.91,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1650,
+          "pct": 38.71
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1376,
+          "pct": 32.28
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 365,
+          "pct": 8.56
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 310,
+          "pct": 7.27
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 244,
+          "pct": 5.72
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 183,
+          "pct": 4.29
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 105,
+          "pct": 2.46
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 30,
+          "pct": 0.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2244,
+          "elected": true,
+          "pct": 52.64
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2019,
+          "elected": false,
+          "pct": 47.36
+        }
+      ]
+    },
+    {
+      "boothId": 64578,
+      "name": "Helensvale FORDE PPVC",
+      "formal": 2621,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 57.15,
+      "swing": -4.65,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1061,
+          "pct": 40.48
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 773,
+          "pct": 29.49
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 257,
+          "pct": 9.81
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 228,
+          "pct": 8.7
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 119,
+          "pct": 4.54
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 109,
+          "pct": 4.16
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 61,
+          "pct": 2.33
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 13,
+          "pct": 0.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1123,
+          "elected": true,
+          "pct": 42.85
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1498,
+          "elected": false,
+          "pct": 57.15
+        }
+      ]
+    },
+    {
+      "boothId": 38301,
+      "name": "Upper Coomera North",
+      "formal": 2199,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 53.71,
+      "swing": 5.41,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 658,
+          "pct": 29.92
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 567,
+          "pct": 25.78
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 334,
+          "pct": 15.19
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 280,
+          "pct": 12.73
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 136,
+          "pct": 6.18
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 122,
+          "pct": 5.55
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 76,
+          "pct": 3.46
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 26,
+          "pct": 1.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1181,
+          "elected": true,
+          "pct": 53.71
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1018,
+          "elected": false,
+          "pct": 46.29
+        }
+      ]
+    },
+    {
+      "boothId": 6468,
+      "name": "Park Ridge (Forde)",
+      "formal": 1898,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 59.54,
+      "swing": 13.41,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 759,
+          "pct": 39.99
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 407,
+          "pct": 21.44
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 232,
+          "pct": 12.22
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 202,
+          "pct": 10.64
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 128,
+          "pct": 6.74
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 101,
+          "pct": 5.32
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 61,
+          "pct": 3.21
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1130,
+          "elected": true,
+          "pct": 59.54
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 768,
+          "elected": false,
+          "pct": 40.46
+        }
+      ]
+    },
+    {
+      "boothId": 12055,
+      "name": "Bethania",
+      "formal": 1843,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 58.27,
+      "swing": 4.05,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 709,
+          "pct": 38.47
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 449,
+          "pct": 24.36
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 244,
+          "pct": 13.24
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 159,
+          "pct": 8.63
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 105,
+          "pct": 5.7
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 95,
+          "pct": 5.15
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 71,
+          "pct": 3.85
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1074,
+          "elected": true,
+          "pct": 58.27
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 769,
+          "elected": false,
+          "pct": 41.73
+        }
+      ]
+    },
+    {
+      "boothId": 46391,
+      "name": "Cornubia",
+      "formal": 1720,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 54.65,
+      "swing": -5.4,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 619,
+          "pct": 35.99
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 503,
+          "pct": 29.24
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 201,
+          "pct": 11.69
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 152,
+          "pct": 8.84
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 113,
+          "pct": 6.57
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 81,
+          "pct": 4.71
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 2.5
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 780,
+          "elected": true,
+          "pct": 45.35
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 940,
+          "elected": false,
+          "pct": 54.65
+        }
+      ]
+    },
+    {
+      "boothId": 6277,
+      "name": "Upper Coomera",
+      "formal": 1712,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 51.29,
+      "swing": -7.3,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 542,
+          "pct": 31.66
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 525,
+          "pct": 30.67
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 203,
+          "pct": 11.86
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 192,
+          "pct": 11.21
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 94,
+          "pct": 5.49
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 92,
+          "pct": 5.37
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 3.04
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 12,
+          "pct": 0.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 834,
+          "elected": true,
+          "pct": 48.71
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 878,
+          "elected": false,
+          "pct": 51.29
+        }
+      ]
+    },
+    {
+      "boothId": 6457,
+      "name": "Logan Reserve",
+      "formal": 1649,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 63.61,
+      "swing": 14.55,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 687,
+          "pct": 41.66
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 305,
+          "pct": 18.5
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 258,
+          "pct": 15.65
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 152,
+          "pct": 9.22
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 108,
+          "pct": 6.55
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 75,
+          "pct": 4.55
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 3.15
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 12,
+          "pct": 0.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1049,
+          "elected": true,
+          "pct": 63.61
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 600,
+          "elected": false,
+          "pct": 36.39
+        }
+      ]
+    },
+    {
+      "boothId": 31805,
+      "name": "Windaroo Valley",
+      "formal": 1578,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 53.11,
+      "swing": 7.45,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 517,
+          "pct": 32.76
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 453,
+          "pct": 28.71
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 220,
+          "pct": 13.94
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 153,
+          "pct": 9.7
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 89,
+          "pct": 5.64
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 84,
+          "pct": 5.32
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 47,
+          "pct": 2.98
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 0.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 838,
+          "elected": true,
+          "pct": 53.11
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 740,
+          "elected": false,
+          "pct": 46.89
+        }
+      ]
+    },
+    {
+      "boothId": 32557,
+      "name": "Loganholme",
+      "formal": 1477,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 53.76,
+      "swing": 3.47,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 479,
+          "pct": 32.43
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 392,
+          "pct": 26.54
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 231,
+          "pct": 15.64
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 154,
+          "pct": 10.43
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 84,
+          "pct": 5.69
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 81,
+          "pct": 5.48
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 2.78
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 794,
+          "elected": true,
+          "pct": 53.76
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 683,
+          "elected": false,
+          "pct": 46.24
+        }
+      ]
+    },
+    {
+      "boothId": 47740,
+      "name": "Coomera Springs",
+      "formal": 1336,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 52.32,
+      "swing": 7.63,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 432,
+          "pct": 32.34
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 381,
+          "pct": 28.52
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 172,
+          "pct": 12.87
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 170,
+          "pct": 12.72
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 71,
+          "pct": 5.31
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 67,
+          "pct": 5.01
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 2.92
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 699,
+          "elected": true,
+          "pct": 52.32
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 637,
+          "elected": false,
+          "pct": 47.68
+        }
+      ]
+    },
+    {
+      "boothId": 6278,
+      "name": "Mount Warren Park",
+      "formal": 1295,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 54.13,
+      "swing": 0.51,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 409,
+          "pct": 31.58
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 314,
+          "pct": 24.25
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 176,
+          "pct": 13.59
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 156,
+          "pct": 12.05
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 85,
+          "pct": 6.56
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 73,
+          "pct": 5.64
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 66,
+          "pct": 5.1
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 701,
+          "elected": true,
+          "pct": 54.13
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 594,
+          "elected": false,
+          "pct": 45.87
+        }
+      ]
+    },
+    {
+      "boothId": 32031,
+      "name": "Eagleby South",
+      "formal": 1268,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 57.41,
+      "swing": 4.74,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 424,
+          "pct": 33.44
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 287,
+          "pct": 22.63
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 187,
+          "pct": 14.75
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 138,
+          "pct": 10.88
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 99,
+          "pct": 7.81
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 71,
+          "pct": 5.6
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 3.79
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 728,
+          "elected": true,
+          "pct": 57.41
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 540,
+          "elected": false,
+          "pct": 42.59
+        }
+      ]
+    },
+    {
+      "boothId": 6257,
+      "name": "Beenleigh",
+      "formal": 1248,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 57.37,
+      "swing": 7.01,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 420,
+          "pct": 33.65
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 253,
+          "pct": 20.27
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 205,
+          "pct": 16.43
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 157,
+          "pct": 12.58
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 97,
+          "pct": 7.77
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 65,
+          "pct": 5.21
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 3.85
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 716,
+          "elected": true,
+          "pct": 57.37
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 532,
+          "elected": false,
+          "pct": 42.63
+        }
+      ]
+    },
+    {
+      "boothId": 12041,
+      "name": "Boronia Heights (Forde)",
+      "formal": 1213,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 62.57,
+      "swing": 9.41,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 492,
+          "pct": 40.56
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 239,
+          "pct": 19.7
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 170,
+          "pct": 14.01
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 139,
+          "pct": 11.46
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 80,
+          "pct": 6.6
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 4.2
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 2.97
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 759,
+          "elected": true,
+          "pct": 62.57
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 454,
+          "elected": false,
+          "pct": 37.43
+        }
+      ]
+    },
+    {
+      "boothId": 6486,
+      "name": "Waterford West",
+      "formal": 1206,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 61.28,
+      "swing": 4.94,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 492,
+          "pct": 40.8
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 256,
+          "pct": 21.23
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 154,
+          "pct": 12.77
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 112,
+          "pct": 9.29
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 85,
+          "pct": 7.05
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 4.23
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 3.98
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 739,
+          "elected": true,
+          "pct": 61.28
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 467,
+          "elected": false,
+          "pct": 38.72
+        }
+      ]
+    },
+    {
+      "boothId": 5405,
+      "name": "Shailer Park",
+      "formal": 1126,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 50.8,
+      "swing": 2.49,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 370,
+          "pct": 32.86
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 337,
+          "pct": 29.93
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 13.5
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 107,
+          "pct": 9.5
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 67,
+          "pct": 5.95
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 62,
+          "pct": 5.51
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 2.31
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 572,
+          "elected": true,
+          "pct": 50.8
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 554,
+          "elected": false,
+          "pct": 49.2
+        }
+      ]
+    },
+    {
+      "boothId": 47720,
+      "name": "Norfolk Village",
+      "formal": 1110,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 54.59,
+      "swing": -7.25,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 387,
+          "pct": 34.86
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 317,
+          "pct": 28.56
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 141,
+          "pct": 12.7
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 128,
+          "pct": 11.53
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 4.68
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 4.68
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 2.7
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 504,
+          "elected": true,
+          "pct": 45.41
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 606,
+          "elected": false,
+          "pct": 54.59
+        }
+      ]
+    },
+    {
+      "boothId": 32508,
+      "name": "Edens Landing",
+      "formal": 1094,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 59.87,
+      "swing": 6.64,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 383,
+          "pct": 35.01
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 220,
+          "pct": 20.11
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 201,
+          "pct": 18.37
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 102,
+          "pct": 9.32
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 77,
+          "pct": 7.04
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 62,
+          "pct": 5.67
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 3.75
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 655,
+          "elected": true,
+          "pct": 59.87
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 439,
+          "elected": false,
+          "pct": 40.13
+        }
+      ]
+    },
+    {
+      "boothId": 5390,
+      "name": "Kimberley Park",
+      "formal": 1053,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 57.74,
+      "swing": 11.28,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 400,
+          "pct": 37.99
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 290,
+          "pct": 27.54
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 14.43
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 86,
+          "pct": 8.17
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 54,
+          "pct": 5.13
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 3.7
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 2.47
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 608,
+          "elected": true,
+          "pct": 57.74
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 445,
+          "elected": false,
+          "pct": 42.26
+        }
+      ]
+    },
+    {
+      "boothId": 12011,
+      "name": "Marsden (Forde)",
+      "formal": 1026,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 66.18,
+      "swing": 8.11,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 453,
+          "pct": 44.15
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 164,
+          "pct": 15.98
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 14.81
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 95,
+          "pct": 9.26
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 84,
+          "pct": 8.19
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 45,
+          "pct": 4.39
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 2.63
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 679,
+          "elected": true,
+          "pct": 66.18
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 347,
+          "elected": false,
+          "pct": 33.82
+        }
+      ]
+    },
+    {
+      "boothId": 6259,
+      "name": "Waterford",
+      "formal": 950,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 56.95,
+      "swing": 5.14,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 364,
+          "pct": 38.32
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 223,
+          "pct": 23.47
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 136,
+          "pct": 14.32
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 8.53
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 65,
+          "pct": 6.84
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 44,
+          "pct": 4.63
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 3.58
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 541,
+          "elected": true,
+          "pct": 56.95
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 409,
+          "elected": false,
+          "pct": 43.05
+        }
+      ]
+    },
+    {
+      "boothId": 83233,
+      "name": "Windaroo",
+      "formal": 935,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 52.09,
+      "swing": -1.73,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 290,
+          "pct": 31.02
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 264,
+          "pct": 28.24
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 129,
+          "pct": 13.8
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 104,
+          "pct": 11.12
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 62,
+          "pct": 6.63
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 5.03
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 3.74
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 448,
+          "elected": true,
+          "pct": 47.91
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 487,
+          "elected": false,
+          "pct": 52.09
+        }
+      ]
+    },
+    {
+      "boothId": 6456,
+      "name": "Loganlea",
+      "formal": 878,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 64.92,
+      "swing": 7.1,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 349,
+          "pct": 39.75
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 156,
+          "pct": 17.77
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 149,
+          "pct": 16.97
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 9.0
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 67,
+          "pct": 7.63
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.21
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 3.53
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 570,
+          "elected": true,
+          "pct": 64.92
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 308,
+          "elected": false,
+          "pct": 35.08
+        }
+      ]
+    },
+    {
+      "boothId": 65971,
+      "name": "Logan FORDE PPVC",
+      "formal": 839,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 54.95,
+      "swing": 14.39,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 291,
+          "pct": 34.68
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 241,
+          "pct": 28.72
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 129,
+          "pct": 15.38
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 68,
+          "pct": 8.1
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 46,
+          "pct": 5.48
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 4.41
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 2.86
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 461,
+          "elected": true,
+          "pct": 54.95
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 378,
+          "elected": false,
+          "pct": 45.05
+        }
+      ]
+    },
+    {
+      "boothId": 83358,
+      "name": "Eagleby",
+      "formal": 718,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 55.85,
+      "swing": -0.27,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 241,
+          "pct": 33.57
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 174,
+          "pct": 24.23
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 118,
+          "pct": 16.43
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 68,
+          "pct": 9.47
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 49,
+          "pct": 6.82
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 45,
+          "pct": 6.27
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 2.23
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 401,
+          "elected": true,
+          "pct": 55.85
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 317,
+          "elected": false,
+          "pct": 44.15
+        }
+      ]
+    },
+    {
+      "boothId": 83393,
+      "name": "Ormeau North",
+      "formal": 711,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 58.79,
+      "swing": -4.6,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 253,
+          "pct": 35.58
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "pct": 23.35
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 112,
+          "pct": 15.75
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 79,
+          "pct": 11.11
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 40,
+          "pct": 5.63
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 4.22
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 3.52
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 293,
+          "elected": true,
+          "pct": 41.21
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 418,
+          "elected": false,
+          "pct": 58.79
+        }
+      ]
+    },
+    {
+      "boothId": 12064,
+      "name": "Canowindra (Forde)",
+      "formal": 705,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 55.46,
+      "swing": -3.59,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 254,
+          "pct": 36.03
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 202,
+          "pct": 28.65
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 11.35
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 10.78
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 45,
+          "pct": 6.38
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 4.54
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 2.13
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 314,
+          "elected": true,
+          "pct": 44.54
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 391,
+          "elected": false,
+          "pct": 55.46
+        }
+      ]
+    },
+    {
+      "boothId": 6285,
+      "name": "Pimpama (Forde)",
+      "formal": 598,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 52.84,
+      "swing": 8.28,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 177,
+          "pct": 29.6
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 159,
+          "pct": 26.59
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "pct": 14.21
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 12.71
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 7.02
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 6.02
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 3.18
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 316,
+          "elected": true,
+          "pct": 52.84
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 282,
+          "elected": false,
+          "pct": 47.16
+        }
+      ]
+    },
+    {
+      "boothId": 5385,
+      "name": "Carbrook",
+      "formal": 585,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 60.51,
+      "swing": -7.28,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 254,
+          "pct": 43.42
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 136,
+          "pct": 23.25
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 11.79
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 60,
+          "pct": 10.26
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 4.27
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 3.42
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 2.22
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 231,
+          "elected": true,
+          "pct": 39.49
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 354,
+          "elected": false,
+          "pct": 60.51
+        }
+      ]
+    },
+    {
+      "boothId": 55732,
+      "name": "Slacks Creek (Forde)",
+      "formal": 487,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 56.06,
+      "swing": 10.08,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 183,
+          "pct": 37.58
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 143,
+          "pct": 29.36
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 56,
+          "pct": 11.5
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 6.78
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 5.95
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 5.75
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 2.26
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 273,
+          "elected": true,
+          "pct": 56.06
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 214,
+          "elected": false,
+          "pct": 43.94
+        }
+      ]
+    },
+    {
+      "boothId": 55712,
+      "name": "Logan Village (Forde)",
+      "formal": 479,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 54.07,
+      "swing": -8.01,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 142,
+          "pct": 29.65
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 130,
+          "pct": 27.14
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 14.82
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 53,
+          "pct": 11.06
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 6.26
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 5.01
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 4.8
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 220,
+          "elected": true,
+          "pct": 45.93
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 259,
+          "elected": false,
+          "pct": 54.07
+        }
+      ]
+    },
+    {
+      "boothId": 83391,
+      "name": "Shailer Park North",
+      "formal": 454,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 58.37,
+      "swing": 14.98,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 185,
+          "pct": 40.75
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 111,
+          "pct": 24.45
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 62,
+          "pct": 13.66
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 6.61
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 6.39
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 5.29
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 2.2
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 265,
+          "elected": true,
+          "pct": 58.37
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 189,
+          "elected": false,
+          "pct": 41.63
+        }
+      ]
+    },
+    {
+      "boothId": 55683,
+      "name": "Oxenford (Forde)",
+      "formal": 320,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 53.12,
+      "swing": -3.27,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 105,
+          "pct": 32.81
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 86,
+          "pct": 26.88
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 42,
+          "pct": 13.12
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 11.88
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 6.25
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 4.69
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 3.75
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 150,
+          "elected": true,
+          "pct": 46.88
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 170,
+          "elected": false,
+          "pct": 53.12
+        }
+      ]
+    },
+    {
+      "boothId": 109339,
+      "name": "Special Hospital Team 2",
+      "formal": 250,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 59.2,
+      "swing": 3.42,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 117,
+          "pct": 46.8
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 84,
+          "pct": 33.6
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 9.2
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 4.4
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.4
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 2.4
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.8
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 102,
+          "elected": true,
+          "pct": 40.8
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 148,
+          "elected": false,
+          "pct": 59.2
+        }
+      ]
+    },
+    {
+      "boothId": 40208,
+      "name": "Cedar Creek",
+      "formal": 234,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 58.55,
+      "swing": 1.99,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 79,
+          "pct": 33.76
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 71,
+          "pct": 30.34
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 11.54
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 7.69
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 7.26
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 17,
+          "pct": 7.26
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.14
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "elected": true,
+          "pct": 41.45
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 137,
+          "elected": false,
+          "pct": 58.55
+        }
+      ]
+    },
+    {
+      "boothId": 83380,
+      "name": "Tudor Park",
+      "formal": 214,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 50.47,
+      "swing": 0.13,
+      "candidates": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 67,
+          "pct": 31.31
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 52,
+          "pct": 24.3
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 15.89
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 14.95
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 5.14
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 5.14
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.8
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 106,
+          "elected": true,
+          "pct": 49.53
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 108,
+          "elected": false,
+          "pct": 50.47
+        }
+      ]
+    },
+    {
+      "boothId": 109031,
+      "name": "Special Hospital Team 1",
+      "formal": 170,
+      "winnerParty": "lnp",
+      "winnerSurname": "Van MANEN",
+      "winnerPct": 52.35,
+      "swing": -3.41,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 73,
+          "pct": 42.94
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 73,
+          "pct": 42.94
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 4.71
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 3.53
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.94
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 1.76
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.59
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 81,
+          "elected": true,
+          "pct": 47.65
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 89,
+          "elected": false,
+          "pct": 52.35
+        }
+      ]
+    },
+    {
+      "boothId": 65482,
+      "name": "EAV Forde PPVC",
+      "formal": 23,
+      "winnerParty": "alp",
+      "winnerSurname": "HOLZBERGER",
+      "winnerPct": 52.17,
+      "swing": 21.4,
+      "candidates": [
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 9,
+          "pct": 39.13
+        },
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8,
+          "pct": 34.78
+        },
+        {
+          "surname": "PETERSEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 8.7
+        },
+        {
+          "surname": "POP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 4.35
+        },
+        {
+          "surname": "HISCOCK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 4.35
+        },
+        {
+          "surname": "GREAVES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 4.35
+        },
+        {
+          "surname": "LAMBERT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 4.35
+        },
+        {
+          "surname": "de HOMBRE",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HOLZBERGER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 12,
+          "elected": true,
+          "pct": 52.17
+        },
+        {
+          "surname": "Van MANEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 11,
+          "elected": false,
+          "pct": 47.83
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 107528,
+    "candidates": [
+      {
+        "id": "C40891",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Pop"
+      },
+      {
+        "id": "C41163",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 Van Manen"
+      },
+      {
+        "id": "C41234",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Petersen"
+      },
+      {
+        "id": "C41344",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Hiscock"
+      },
+      {
+        "id": "C40732",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Holzberger"
+      },
+      {
+        "id": "C40646",
+        "party": "oth",
+        "displayShort": "CEC",
+        "displayLong": "CEC \u2014 De Hombre"
+      },
+      {
+        "id": "C37414",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Greaves"
+      },
+      {
+        "id": "C40937",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Lambert"
+      }
+    ],
+    "rounds": [
+      {
+        "C40891": 5459,
+        "C41163": 33023,
+        "C41234": 12280,
+        "C41344": 5041,
+        "C40732": 36821,
+        "C40646": 669,
+        "C37414": 3186,
+        "C40937": 11049
+      },
+      {
+        "C40891": 5591,
+        "C41163": 33050,
+        "C41234": 12375,
+        "C41344": 5094,
+        "C40732": 36902,
+        "C37414": 3377,
+        "C40937": 11139
+      },
+      {
+        "C40891": 6397,
+        "C41163": 33386,
+        "C41234": 12970,
+        "C41344": 5433,
+        "C40732": 37473,
+        "C40937": 11869
+      },
+      {
+        "C40891": 7592,
+        "C41163": 34201,
+        "C41234": 13447,
+        "C40732": 38069,
+        "C40937": 14219
+      },
+      {
+        "C41163": 36207,
+        "C41234": 14860,
+        "C40732": 38814,
+        "C40937": 17647
+      },
+      {
+        "C41163": 38445,
+        "C40732": 49171,
+        "C40937": 19912
+      },
+      {
+        "C41163": 51866,
+        "C40732": 55662
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            52.91,
+            48.37,
+            45.62,
+            49.37,
+            41.4,
+            45.77,
+            51.77
+          ]
+        },
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            51.63,
+            54.38,
+            50.63,
+            58.6,
+            54.23,
+            48.23
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            47.09,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "NAT": 12.2,
+            "FFP": 2.24,
+            "ALP": 44.35,
+            "LIB": 33.95,
+            "ON": 0.86,
+            "GRN": 4.8,
+            "OTH": 1.62
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "GRN": 12.22,
+            "FFP": 6.32,
+            "LIB": 44.08,
+            "ALP": 37.39
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "GRN": 4.17,
+            "TOP": 12.45,
+            "LIB": 42.54,
+            "ALP": 34.0,
+            "KAP": 2.18,
+            "FFP": 2.24,
+            "OTH": 2.42
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "ALA": 3.46,
+            "LIB": 40.63,
+            "IND": 6.25,
+            "ALP": 37.64,
+            "FFP": 5.59,
+            "GRN": 6.43
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "FACN": 2.42,
+            "TOP": 4.04,
+            "GRN": 8.73,
+            "LIB": 43.5,
+            "ALP": 29.51,
+            "ON": 11.81
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "ON": 8.01,
+            "GRN": 9.85,
+            "LDP": 2.82,
+            "LIB": 36.91,
+            "IND": 3.14,
+            "TOP": 7.91,
+            "AJP": 2.58,
+            "ALP": 28.01,
+            "OTH": 0.77
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "LIB": 30.71,
+            "FFP": 5.08,
+            "IND": 2.96,
+            "ALP": 34.24,
+            "GRN": 11.42,
+            "ON": 10.28,
+            "CYA": 4.69,
+            "OTH": 0.62
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 193345,
+    "medianAge": 35,
+    "medianHouseholdIncomeWeekly": 1685,
+    "medianRentWeekly": 375,
+    "averageHouseholdSize": 2.8,
+    "bornOverseasPct": 28.8,
+    "indigenousPct": 3.7,
+    "bachelorPlusPct": 24.5,
+    "renterPct": 34.9,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 129348,
+        "pct": 71.16,
+        "natPct": 70.73
+      },
+      {
+        "label": "New Zealand",
+        "count": 7800,
+        "pct": 4.29,
+        "natPct": 1.11
+      },
+      {
+        "label": "England",
+        "count": 3915,
+        "pct": 2.15,
+        "natPct": 1.95
+      },
+      {
+        "label": "India",
+        "count": 1691,
+        "pct": 0.93,
+        "natPct": 1.51
+      },
+      {
+        "label": "Afghanistan",
+        "count": 901,
+        "pct": 0.5,
+        "natPct": 0.25
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 82687,
+        "pct": 42.77,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 82115,
+        "pct": 42.47,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 15733,
+        "pct": 8.14,
+        "natPct": 7.27
+      },
+      {
+        "label": "Islam",
+        "count": 4208,
+        "pct": 2.18,
+        "natPct": 3.2
+      },
+      {
+        "label": "Other religions",
+        "count": 2944,
+        "pct": 1.52,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Forde is an Australian federal electoral division in Queensland. The current MP is Rowan Holzberger of the Labor Party.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Forde",
+    "retrievedAt": "2026-03-04T00:17:13Z"
+  }
+}

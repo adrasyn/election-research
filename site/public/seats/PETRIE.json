@@ -1,0 +1,4151 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "PETRIE",
+    "divisionId": 175,
+    "name": "Petrie",
+    "state": "QLD",
+    "totalFormal": 116792,
+    "informalVotes": 3129,
+    "informalRate": 3.39,
+    "winner": {
+      "candidateId": "C40801",
+      "surname": "COMER",
+      "givenName": "Emma",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": false
+    },
+    "previousWinnerParty": "LNP",
+    "tcpMargin": 2.34,
+    "result": "ALP GAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41185",
+      "surname": "HOWARTH",
+      "givenName": "Luke",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 33119,
+      "pct": 37.14
+    },
+    {
+      "candidateId": "C40801",
+      "surname": "COMER",
+      "givenName": "Emma",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 33078,
+      "pct": 37.1
+    },
+    {
+      "candidateId": "C41288",
+      "surname": "PAUL",
+      "givenName": "Nikil",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 10699,
+      "pct": 12.0
+    },
+    {
+      "candidateId": "C40955",
+      "surname": "SHIRES",
+      "givenName": "Nicole",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 5898,
+      "pct": 6.61
+    },
+    {
+      "candidateId": "C41403",
+      "surname": "MENSINK",
+      "givenName": "Ryan",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 3498,
+      "pct": 3.92
+    },
+    {
+      "candidateId": "C40894",
+      "surname": "HALL",
+      "givenName": "Sharan",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 2876,
+      "pct": 3.23
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40801",
+      "surname": "COMER",
+      "givenName": "Emma",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 59761,
+      "pct": 51.17,
+      "elected": true
+    },
+    {
+      "candidateId": "C41185",
+      "surname": "HOWARTH",
+      "givenName": "Luke",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 57031,
+      "pct": 48.83,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 47703,
+      "name": "Redcliffe PPVC",
+      "formal": 16487,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 53.62,
+      "swing": -3.27,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7307,
+          "pct": 44.32
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5814,
+          "pct": 35.26
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1377,
+          "pct": 8.35
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1062,
+          "pct": 6.44
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 556,
+          "pct": 3.37
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 371,
+          "pct": 2.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7646,
+          "elected": true,
+          "pct": 46.38
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 8841,
+          "elected": false,
+          "pct": 53.62
+        }
+      ]
+    },
+    {
+      "boothId": 65993,
+      "name": "Deception Bay PETRIE PPVC",
+      "formal": 9092,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 51.3,
+      "swing": -4.49,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3516,
+          "pct": 38.67
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3314,
+          "pct": 36.45
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 799,
+          "pct": 8.79
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 792,
+          "pct": 8.71
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 392,
+          "pct": 4.31
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 279,
+          "pct": 3.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4428,
+          "elected": true,
+          "pct": 48.7
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4664,
+          "elected": false,
+          "pct": 51.3
+        }
+      ]
+    },
+    {
+      "boothId": 64726,
+      "name": "North Lakes PETRIE PPVC",
+      "formal": 8179,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 51.5,
+      "swing": -6.5,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3368,
+          "pct": 41.18
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2952,
+          "pct": 36.09
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 847,
+          "pct": 10.36
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 482,
+          "pct": 5.89
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 298,
+          "pct": 3.64
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 232,
+          "pct": 2.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3967,
+          "elected": true,
+          "pct": 48.5
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4212,
+          "elected": false,
+          "pct": 51.5
+        }
+      ]
+    },
+    {
+      "boothId": 65822,
+      "name": "Boondall PETRIE PPVC",
+      "formal": 3796,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 55.77,
+      "swing": 7.19,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1613,
+          "pct": 42.49
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1374,
+          "pct": 36.2
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 419,
+          "pct": 11.04
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 177,
+          "pct": 4.66
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 117,
+          "pct": 3.08
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 96,
+          "pct": 2.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2117,
+          "elected": true,
+          "pct": 55.77
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1679,
+          "elected": false,
+          "pct": 44.23
+        }
+      ]
+    },
+    {
+      "boothId": 108737,
+      "name": "Murrumba Downs PETRIE PPVC",
+      "formal": 2774,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 60.13,
+      "swing": 12.15,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1208,
+          "pct": 43.55
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 827,
+          "pct": 29.81
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 326,
+          "pct": 11.75
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 180,
+          "pct": 6.49
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 143,
+          "pct": 5.16
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 90,
+          "pct": 3.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1668,
+          "elected": true,
+          "pct": 60.13
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1106,
+          "elected": false,
+          "pct": 39.87
+        }
+      ]
+    },
+    {
+      "boothId": 58727,
+      "name": "Strathpine PETRIE PPVC",
+      "formal": 2666,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 52.85,
+      "swing": 5.09,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1070,
+          "pct": 40.14
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1018,
+          "pct": 38.18
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 269,
+          "pct": 10.09
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 128,
+          "pct": 4.8
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 93,
+          "pct": 3.49
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 88,
+          "pct": 3.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1409,
+          "elected": true,
+          "pct": 52.85
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1257,
+          "elected": false,
+          "pct": 47.15
+        }
+      ]
+    },
+    {
+      "boothId": 46550,
+      "name": "Chermside West PETRIE PPVC",
+      "formal": 2622,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 50.08,
+      "swing": -5.92,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1105,
+          "pct": 42.14
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 990,
+          "pct": 37.76
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 282,
+          "pct": 10.76
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 106,
+          "pct": 4.04
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 71,
+          "pct": 2.71
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 68,
+          "pct": 2.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1309,
+          "elected": true,
+          "pct": 49.92
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1313,
+          "elected": false,
+          "pct": 50.08
+        }
+      ]
+    },
+    {
+      "boothId": 58525,
+      "name": "North Lakes North",
+      "formal": 2492,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 53.09,
+      "swing": 8.57,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 868,
+          "pct": 34.83
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 859,
+          "pct": 34.47
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 380,
+          "pct": 15.25
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 180,
+          "pct": 7.22
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 113,
+          "pct": 4.53
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 92,
+          "pct": 3.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1323,
+          "elected": true,
+          "pct": 53.09
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1169,
+          "elected": false,
+          "pct": 46.91
+        }
+      ]
+    },
+    {
+      "boothId": 6024,
+      "name": "Bracken Ridge West",
+      "formal": 2192,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 57.34,
+      "swing": 5.27,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 869,
+          "pct": 39.64
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 694,
+          "pct": 31.66
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 320,
+          "pct": 14.6
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 144,
+          "pct": 6.57
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 84,
+          "pct": 3.83
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 81,
+          "pct": 3.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1257,
+          "elected": true,
+          "pct": 57.34
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 935,
+          "elected": false,
+          "pct": 42.66
+        }
+      ]
+    },
+    {
+      "boothId": 6023,
+      "name": "Bracken Ridge East",
+      "formal": 2040,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 58.28,
+      "swing": 8.6,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 859,
+          "pct": 42.11
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 668,
+          "pct": 32.75
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 291,
+          "pct": 14.26
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 104,
+          "pct": 5.1
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 65,
+          "pct": 3.19
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 53,
+          "pct": 2.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1189,
+          "elected": true,
+          "pct": 58.28
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 851,
+          "elected": false,
+          "pct": 41.72
+        }
+      ]
+    },
+    {
+      "boothId": 65224,
+      "name": "Mango Hill South",
+      "formal": 1948,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 55.08,
+      "swing": 10.3,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 782,
+          "pct": 40.14
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 667,
+          "pct": 34.24
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 257,
+          "pct": 13.19
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 115,
+          "pct": 5.9
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 74,
+          "pct": 3.8
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 53,
+          "pct": 2.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1073,
+          "elected": true,
+          "pct": 55.08
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 875,
+          "elected": false,
+          "pct": 44.92
+        }
+      ]
+    },
+    {
+      "boothId": 108742,
+      "name": "Geebung PETRIE PPVC",
+      "formal": 1829,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 53.58,
+      "swing": 5.61,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 715,
+          "pct": 39.09
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 692,
+          "pct": 37.83
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 229,
+          "pct": 12.52
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 83,
+          "pct": 4.54
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 60,
+          "pct": 3.28
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 50,
+          "pct": 2.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 980,
+          "elected": true,
+          "pct": 53.58
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 849,
+          "elected": false,
+          "pct": 46.42
+        }
+      ]
+    },
+    {
+      "boothId": 82932,
+      "name": "Griffin",
+      "formal": 1739,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 60.09,
+      "swing": 8.49,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 728,
+          "pct": 41.86
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 493,
+          "pct": 28.35
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 285,
+          "pct": 16.39
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 99,
+          "pct": 5.69
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 71,
+          "pct": 4.08
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 63,
+          "pct": 3.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1045,
+          "elected": true,
+          "pct": 60.09
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 694,
+          "elected": false,
+          "pct": 39.91
+        }
+      ]
+    },
+    {
+      "boothId": 6401,
+      "name": "Bald Hills",
+      "formal": 1548,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 59.43,
+      "swing": 7.16,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 613,
+          "pct": 39.6
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 460,
+          "pct": 29.72
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 272,
+          "pct": 17.57
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 88,
+          "pct": 5.68
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 62,
+          "pct": 4.01
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 53,
+          "pct": 3.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 920,
+          "elected": true,
+          "pct": 59.43
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 628,
+          "elected": false,
+          "pct": 40.57
+        }
+      ]
+    },
+    {
+      "boothId": 47775,
+      "name": "Woody Point North",
+      "formal": 1533,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 51.01,
+      "swing": 3.22,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 563,
+          "pct": 36.73
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 543,
+          "pct": 35.42
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 198,
+          "pct": 12.92
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 110,
+          "pct": 7.18
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 67,
+          "pct": 4.37
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 3.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 782,
+          "elected": true,
+          "pct": 51.01
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 751,
+          "elected": false,
+          "pct": 48.99
+        }
+      ]
+    },
+    {
+      "boothId": 6417,
+      "name": "Scarborough",
+      "formal": 1468,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 50.54,
+      "swing": 6.57,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 540,
+          "pct": 36.78
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 475,
+          "pct": 32.36
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 230,
+          "pct": 15.67
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 6.34
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 74,
+          "pct": 5.04
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 56,
+          "pct": 3.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 742,
+          "elected": true,
+          "pct": 50.54
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 726,
+          "elected": false,
+          "pct": 49.46
+        }
+      ]
+    },
+    {
+      "boothId": 6416,
+      "name": "Kippa-Ring West",
+      "formal": 1421,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 54.54,
+      "swing": 7.76,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 506,
+          "pct": 35.61
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 466,
+          "pct": 32.79
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 211,
+          "pct": 14.85
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 111,
+          "pct": 7.81
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 64,
+          "pct": 4.5
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 63,
+          "pct": 4.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 775,
+          "elected": true,
+          "pct": 54.54
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 646,
+          "elected": false,
+          "pct": 45.46
+        }
+      ]
+    },
+    {
+      "boothId": 6413,
+      "name": "Margate",
+      "formal": 1390,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 56.4,
+      "swing": 5.48,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 488,
+          "pct": 35.11
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 413,
+          "pct": 29.71
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 257,
+          "pct": 18.49
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 125,
+          "pct": 8.99
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 63,
+          "pct": 4.53
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 3.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 784,
+          "elected": true,
+          "pct": 56.4
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 606,
+          "elected": false,
+          "pct": 43.6
+        }
+      ]
+    },
+    {
+      "boothId": 6022,
+      "name": "Bracken Ridge",
+      "formal": 1378,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 58.93,
+      "swing": 8.97,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 553,
+          "pct": 40.13
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 441,
+          "pct": 32.0
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 190,
+          "pct": 13.79
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 5.44
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 4.35
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 59,
+          "pct": 4.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 812,
+          "elected": true,
+          "pct": 58.93
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 566,
+          "elected": false,
+          "pct": 41.07
+        }
+      ]
+    },
+    {
+      "boothId": 31527,
+      "name": "Bridgeman Downs (Petrie)",
+      "formal": 1377,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 53.67,
+      "swing": -8.69,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 614,
+          "pct": 44.59
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 483,
+          "pct": 35.08
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 148,
+          "pct": 10.75
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 4.14
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 43,
+          "pct": 3.12
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 638,
+          "elected": true,
+          "pct": 46.33
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 739,
+          "elected": false,
+          "pct": 53.67
+        }
+      ]
+    },
+    {
+      "boothId": 6415,
+      "name": "Redcliffe",
+      "formal": 1340,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 51.34,
+      "swing": 6.6,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 452,
+          "pct": 33.73
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 427,
+          "pct": 31.87
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 219,
+          "pct": 16.34
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 109,
+          "pct": 8.13
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 84,
+          "pct": 6.27
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 49,
+          "pct": 3.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 688,
+          "elected": true,
+          "pct": 51.34
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 652,
+          "elected": false,
+          "pct": 48.66
+        }
+      ]
+    },
+    {
+      "boothId": 108739,
+      "name": "Burpengary PETRIE PPVC",
+      "formal": 1330,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 50.75,
+      "swing": -1.25,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 528,
+          "pct": 39.7
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 499,
+          "pct": 37.52
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 8.27
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 99,
+          "pct": 7.44
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 63,
+          "pct": 4.74
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 2.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 655,
+          "elected": true,
+          "pct": 49.25
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 675,
+          "elected": false,
+          "pct": 50.75
+        }
+      ]
+    },
+    {
+      "boothId": 12034,
+      "name": "Aspley (Petrie)",
+      "formal": 1246,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 61.72,
+      "swing": 13.0,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 543,
+          "pct": 43.58
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 357,
+          "pct": 28.65
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 209,
+          "pct": 16.77
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 4.33
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.77
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 2.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 769,
+          "elected": true,
+          "pct": 61.72
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 477,
+          "elected": false,
+          "pct": 38.28
+        }
+      ]
+    },
+    {
+      "boothId": 38225,
+      "name": "North Lakes",
+      "formal": 1238,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 52.91,
+      "swing": 11.19,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 450,
+          "pct": 36.35
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 420,
+          "pct": 33.93
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 229,
+          "pct": 18.5
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 82,
+          "pct": 6.62
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 2.42
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 2.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 655,
+          "elected": true,
+          "pct": 52.91
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 583,
+          "elected": false,
+          "pct": 47.09
+        }
+      ]
+    },
+    {
+      "boothId": 6407,
+      "name": "Clontarf",
+      "formal": 1224,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 51.39,
+      "swing": -2.89,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 446,
+          "pct": 36.44
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 368,
+          "pct": 30.07
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 197,
+          "pct": 16.09
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 95,
+          "pct": 7.76
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 73,
+          "pct": 5.96
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 45,
+          "pct": 3.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 595,
+          "elected": true,
+          "pct": 48.61
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 629,
+          "elected": false,
+          "pct": 51.39
+        }
+      ]
+    },
+    {
+      "boothId": 6411,
+      "name": "Kippa-Ring",
+      "formal": 1126,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 53.55,
+      "swing": 6.01,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 382,
+          "pct": 33.93
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 359,
+          "pct": 31.88
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 188,
+          "pct": 16.7
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 7.19
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 63,
+          "pct": 5.6
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 53,
+          "pct": 4.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 603,
+          "elected": true,
+          "pct": 53.55
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 523,
+          "elected": false,
+          "pct": 46.45
+        }
+      ]
+    },
+    {
+      "boothId": 46453,
+      "name": "Redcliffe South",
+      "formal": 1065,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 51.08,
+      "swing": 3.83,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 366,
+          "pct": 34.37
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 335,
+          "pct": 31.46
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 15.59
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 106,
+          "pct": 9.95
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 4.98
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 39,
+          "pct": 3.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 544,
+          "elected": true,
+          "pct": 51.08
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 521,
+          "elected": false,
+          "pct": 48.92
+        }
+      ]
+    },
+    {
+      "boothId": 6418,
+      "name": "Scarborough North",
+      "formal": 1022,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 55.58,
+      "swing": -1.06,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 438,
+          "pct": 42.86
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 312,
+          "pct": 30.53
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 121,
+          "pct": 11.84
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 7.73
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.91
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 3.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 454,
+          "elected": true,
+          "pct": 44.42
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 568,
+          "elected": false,
+          "pct": 55.58
+        }
+      ]
+    },
+    {
+      "boothId": 11642,
+      "name": "Rothwell",
+      "formal": 1016,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 52.66,
+      "swing": -5.36,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 379,
+          "pct": 37.3
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 314,
+          "pct": 30.91
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 131,
+          "pct": 12.89
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 7.09
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 60,
+          "pct": 5.91
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 5.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 481,
+          "elected": true,
+          "pct": 47.34
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 535,
+          "elected": false,
+          "pct": 52.66
+        }
+      ]
+    },
+    {
+      "boothId": 124106,
+      "name": "Taigum (Petrie)",
+      "formal": 1010,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 65.45,
+      "swing": 11.34,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 474,
+          "pct": 46.93
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 264,
+          "pct": 26.14
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 167,
+          "pct": 16.53
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 4.36
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.07
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 2.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 661,
+          "elected": true,
+          "pct": 65.45
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 349,
+          "elected": false,
+          "pct": 34.55
+        }
+      ]
+    },
+    {
+      "boothId": 83276,
+      "name": "Deception Bay",
+      "formal": 966,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 56.83,
+      "swing": 2.04,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 348,
+          "pct": 36.02
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 238,
+          "pct": 24.64
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 141,
+          "pct": 14.6
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 103,
+          "pct": 10.66
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 74,
+          "pct": 7.66
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 62,
+          "pct": 6.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 549,
+          "elected": true,
+          "pct": 56.83
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 417,
+          "elected": false,
+          "pct": 43.17
+        }
+      ]
+    },
+    {
+      "boothId": 97489,
+      "name": "Brisbane Central PETRIE PPVC",
+      "formal": 936,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 60.79,
+      "swing": 4.63,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 393,
+          "pct": 41.99
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 295,
+          "pct": 31.52
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 179,
+          "pct": 19.12
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 3.1
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 2.35
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 569,
+          "elected": true,
+          "pct": 60.79
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 367,
+          "elected": false,
+          "pct": 39.21
+        }
+      ]
+    },
+    {
+      "boothId": 12040,
+      "name": "Deception Bay South",
+      "formal": 872,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 55.5,
+      "swing": 4.03,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 314,
+          "pct": 36.01
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 227,
+          "pct": 26.03
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 124,
+          "pct": 14.22
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 100,
+          "pct": 11.47
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 67,
+          "pct": 7.68
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 4.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 484,
+          "elected": true,
+          "pct": 55.5
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 388,
+          "elected": false,
+          "pct": 44.5
+        }
+      ]
+    },
+    {
+      "boothId": 31690,
+      "name": "Deception Bay North",
+      "formal": 840,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 55.48,
+      "swing": -1.71,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 292,
+          "pct": 34.76
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 218,
+          "pct": 25.95
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 132,
+          "pct": 15.71
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 98,
+          "pct": 11.67
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 6.19
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 5.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 466,
+          "elected": true,
+          "pct": 55.48
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 374,
+          "elected": false,
+          "pct": 44.52
+        }
+      ]
+    },
+    {
+      "boothId": 12063,
+      "name": "Mango Hill",
+      "formal": 791,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 52.47,
+      "swing": 7.68,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 282,
+          "pct": 35.65
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 264,
+          "pct": 33.38
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 102,
+          "pct": 12.9
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 8.98
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 4.8
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 4.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 415,
+          "elected": true,
+          "pct": 52.47
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 376,
+          "elected": false,
+          "pct": 47.53
+        }
+      ]
+    },
+    {
+      "boothId": 31440,
+      "name": "Moreton Downs",
+      "formal": 642,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 51.25,
+      "swing": 2.69,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 220,
+          "pct": 34.27
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 208,
+          "pct": 32.4
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 11.84
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 11.37
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 6.23
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 3.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 329,
+          "elected": true,
+          "pct": 51.25
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 313,
+          "elected": false,
+          "pct": 48.75
+        }
+      ]
+    },
+    {
+      "boothId": 6408,
+      "name": "Clontarf Beach",
+      "formal": 625,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 53.92,
+      "swing": 1.76,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 200,
+          "pct": 32.0
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 183,
+          "pct": 29.28
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 127,
+          "pct": 20.32
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 8.96
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 40,
+          "pct": 6.4
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 3.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 337,
+          "elected": true,
+          "pct": 53.92
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 288,
+          "elected": false,
+          "pct": 46.08
+        }
+      ]
+    },
+    {
+      "boothId": 109530,
+      "name": "Mango Hill Central",
+      "formal": 606,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 60.4,
+      "swing": 15.85,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 273,
+          "pct": 45.05
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 187,
+          "pct": 30.86
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 87,
+          "pct": 14.36
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 3.3
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 3.3
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 366,
+          "elected": true,
+          "pct": 60.4
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 240,
+          "elected": false,
+          "pct": 39.6
+        }
+      ]
+    },
+    {
+      "boothId": 31680,
+      "name": "Burpengary East (Petrie)",
+      "formal": 531,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 50.28,
+      "swing": 11.41,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 180,
+          "pct": 33.9
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 171,
+          "pct": 32.2
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 65,
+          "pct": 12.24
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 11.86
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 5.08
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 4.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 267,
+          "elected": true,
+          "pct": 50.28
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 264,
+          "elected": false,
+          "pct": 49.72
+        }
+      ]
+    },
+    {
+      "boothId": 109681,
+      "name": "Murrumba Downs North (Petrie)",
+      "formal": 515,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 57.67,
+      "swing": 3.23,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 192,
+          "pct": 37.28
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 147,
+          "pct": 28.54
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 86,
+          "pct": 16.7
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 7.77
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 5.44
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 4.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 297,
+          "elected": true,
+          "pct": 57.67
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 218,
+          "elected": false,
+          "pct": 42.33
+        }
+      ]
+    },
+    {
+      "boothId": 6398,
+      "name": "Aspley East (Petrie)",
+      "formal": 499,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 64.33,
+      "swing": 10.86,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 228,
+          "pct": 45.69
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 140,
+          "pct": 28.06
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "pct": 17.03
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 3.81
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.81
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 321,
+          "elected": true,
+          "pct": 64.33
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 178,
+          "elected": false,
+          "pct": 35.67
+        }
+      ]
+    },
+    {
+      "boothId": 58567,
+      "name": "Murrumba Downs (Petrie)",
+      "formal": 396,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 62.12,
+      "swing": 9.17,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 145,
+          "pct": 36.62
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 105,
+          "pct": 26.52
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 79,
+          "pct": 19.95
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 7.32
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 5.56
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 4.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 246,
+          "elected": true,
+          "pct": 62.12
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 150,
+          "elected": false,
+          "pct": 37.88
+        }
+      ]
+    },
+    {
+      "boothId": 108752,
+      "name": "Special Hospital Team 2",
+      "formal": 347,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 54.18,
+      "swing": -4.44,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 165,
+          "pct": 47.55
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 132,
+          "pct": 38.04
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 4.61
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 3.46
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 3.17
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 3.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 159,
+          "elected": true,
+          "pct": 45.82
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 188,
+          "elected": false,
+          "pct": 54.18
+        }
+      ]
+    },
+    {
+      "boothId": 109660,
+      "name": "Bridgeman Downs North",
+      "formal": 300,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 58.33,
+      "swing": 11.77,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 129,
+          "pct": 43.0
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 102,
+          "pct": 34.0
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 44,
+          "pct": 14.67
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 4.0
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.67
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 175,
+          "elected": true,
+          "pct": 58.33
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 125,
+          "elected": false,
+          "pct": 41.67
+        }
+      ]
+    },
+    {
+      "boothId": 109244,
+      "name": "Special Hospital Team 3",
+      "formal": 280,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 52.14,
+      "swing": -6.41,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 121,
+          "pct": 43.21
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "pct": 39.29
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 5.36
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 4.64
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 4.64
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 2.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 134,
+          "elected": true,
+          "pct": 47.86
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 146,
+          "elected": false,
+          "pct": 52.14
+        }
+      ]
+    },
+    {
+      "boothId": 108474,
+      "name": "Special Hospital Team 1",
+      "formal": 246,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 64.23,
+      "swing": 5.59,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 149,
+          "pct": 60.57
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 64,
+          "pct": 26.02
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 4.47
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 4.07
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 2.44
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 2.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 88,
+          "elected": true,
+          "pct": 35.77
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 158,
+          "elected": false,
+          "pct": 64.23
+        }
+      ]
+    },
+    {
+      "boothId": 14231,
+      "name": "Brisbane City (Petrie)",
+      "formal": 75,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 62.67,
+      "swing": -5.45,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "pct": 40.0
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 19,
+          "pct": 25.33
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 18.67
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 13.33
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 2.67
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 47,
+          "elected": true,
+          "pct": 62.67
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 28,
+          "elected": false,
+          "pct": 37.33
+        }
+      ]
+    },
+    {
+      "boothId": 109808,
+      "name": "Special Hospital Team 4",
+      "formal": 51,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 58.82,
+      "swing": 16.93,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 20,
+          "pct": 39.22
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 16,
+          "pct": 31.37
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 15.69
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 7.84
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 3.92
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "elected": true,
+          "pct": 58.82
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 21,
+          "elected": false,
+          "pct": 41.18
+        }
+      ]
+    },
+    {
+      "boothId": 109809,
+      "name": "Special Hospital Team 5",
+      "formal": 36,
+      "winnerParty": "alp",
+      "winnerSurname": "COMER",
+      "winnerPct": 63.89,
+      "swing": 22.0,
+      "candidates": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 18,
+          "pct": 50.0
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 11,
+          "pct": 30.56
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 11.11
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 5.56
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 2.78
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 23,
+          "elected": true,
+          "pct": 63.89
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 13,
+          "elected": false,
+          "pct": 36.11
+        }
+      ]
+    },
+    {
+      "boothId": 65595,
+      "name": "EAV Petrie PPVC",
+      "formal": 26,
+      "winnerParty": "lnp",
+      "winnerSurname": "HOWARTH",
+      "winnerPct": 53.85,
+      "swing": 12.47,
+      "candidates": [
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 12,
+          "pct": 46.15
+        },
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8,
+          "pct": 30.77
+        },
+        {
+          "surname": "PAUL",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 15.38
+        },
+        {
+          "surname": "SHIRES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 3.85
+        },
+        {
+          "surname": "HALL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 3.85
+        },
+        {
+          "surname": "MENSINK",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COMER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 12,
+          "elected": true,
+          "pct": 46.15
+        },
+        {
+          "surname": "HOWARTH",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 14,
+          "elected": false,
+          "pct": 53.85
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 116792,
+    "candidates": [
+      {
+        "id": "C41403",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Mensink"
+      },
+      {
+        "id": "C40955",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Shires"
+      },
+      {
+        "id": "C40801",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Comer"
+      },
+      {
+        "id": "C41185",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 Howarth"
+      },
+      {
+        "id": "C41288",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Paul"
+      },
+      {
+        "id": "C40894",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Hall"
+      }
+    ],
+    "rounds": [
+      {
+        "C41403": 4685,
+        "C40955": 7848,
+        "C40801": 42538,
+        "C41185": 44196,
+        "C41288": 13802,
+        "C40894": 3723
+      },
+      {
+        "C41403": 5356,
+        "C40955": 9073,
+        "C40801": 42897,
+        "C41185": 44828,
+        "C41288": 14638
+      },
+      {
+        "C40955": 12340,
+        "C40801": 43504,
+        "C41185": 45690,
+        "C41288": 15258
+      },
+      {
+        "C40801": 46077,
+        "C41185": 53055,
+        "C41288": 17660
+      },
+      {
+        "C40801": 59761,
+        "C41185": 57031
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            52.05,
+            52.51,
+            49.47,
+            48.35,
+            41.6,
+            45.56,
+            51.17
+          ]
+        },
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            47.49,
+            50.53,
+            51.65,
+            58.4,
+            54.44,
+            48.83
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            47.95,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "ALP": 46.89,
+            "LIB": 44.86,
+            "GRN": 4.68,
+            "OTH": 3.58
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "LIB": 40.06,
+            "GRN": 9.1,
+            "LDP": 2.1,
+            "FFP": 5.01,
+            "ALP": 42.79,
+            "OTH": 0.94
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "FFP": 2.15,
+            "GRN": 4.52,
+            "TOP": 10.2,
+            "ALP": 39.52,
+            "LIB": 40.65,
+            "OTH": 2.96
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "LIB": 44.7,
+            "FFP": 5.11,
+            "GRN": 7.37,
+            "LDP": 3.1,
+            "ALP": 38.38,
+            "OTH": 1.34
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "GRN": 8.74,
+            "TOP": 3.31,
+            "ALP": 30.86,
+            "LIB": 48.11,
+            "ON": 7.52,
+            "OTH": 1.47
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "TOP": 5.55,
+            "GRN": 11.42,
+            "LDP": 2.06,
+            "ON": 5.27,
+            "LIB": 43.49,
+            "ALP": 30.02,
+            "AJP": 2.19
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "FFP": 3.19,
+            "ON": 6.72,
+            "GRN": 11.82,
+            "CYA": 4.01,
+            "ALP": 36.42,
+            "LIB": 37.84
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 185285,
+    "medianAge": 39,
+    "medianHouseholdIncomeWeekly": 1640,
+    "medianRentWeekly": 380,
+    "averageHouseholdSize": 2.6,
+    "bornOverseasPct": 28.4,
+    "indigenousPct": 3.5,
+    "bachelorPlusPct": 32.8,
+    "renterPct": 35.4,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 127023,
+        "pct": 71.58,
+        "natPct": 70.73
+      },
+      {
+        "label": "New Zealand",
+        "count": 5116,
+        "pct": 2.88,
+        "natPct": 1.11
+      },
+      {
+        "label": "England",
+        "count": 4414,
+        "pct": 2.49,
+        "natPct": 1.95
+      },
+      {
+        "label": "India",
+        "count": 2978,
+        "pct": 1.68,
+        "natPct": 1.51
+      },
+      {
+        "label": "Philippines",
+        "count": 1177,
+        "pct": 0.66,
+        "natPct": 0.47
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 87153,
+        "pct": 47.04,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 73382,
+        "pct": 39.6,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 11454,
+        "pct": 6.18,
+        "natPct": 7.27
+      },
+      {
+        "label": "Hinduism",
+        "count": 5329,
+        "pct": 2.88,
+        "natPct": 2.69
+      },
+      {
+        "label": "Other religions",
+        "count": 3623,
+        "pct": 1.96,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Petrie is an Australian Electoral Division in Queensland.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Petrie",
+    "retrievedAt": "2025-12-23T02:47:56Z"
+  }
+}

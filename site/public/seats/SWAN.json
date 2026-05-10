@@ -1,0 +1,3922 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "SWAN",
+    "divisionId": 247,
+    "name": "Swan",
+    "state": "WA",
+    "totalFormal": 98280,
+    "informalVotes": 2498,
+    "informalRate": 3.19,
+    "winner": {
+      "candidateId": "C41456",
+      "surname": "MASCARENHAS",
+      "givenName": "Zaneta",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 27.98,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41456",
+      "surname": "MASCARENHAS",
+      "givenName": "Zaneta",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 32892,
+      "pct": 43.39
+    },
+    {
+      "candidateId": "C41581",
+      "surname": "FELS",
+      "givenName": "Mic",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 20194,
+      "pct": 26.64
+    },
+    {
+      "candidateId": "C41829",
+      "surname": "UINK",
+      "givenName": "Clint",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 13382,
+      "pct": 17.65
+    },
+    {
+      "candidateId": "C41731",
+      "surname": "HALLEY",
+      "givenName": "Michael",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 3723,
+      "pct": 4.91
+    },
+    {
+      "candidateId": "C41776",
+      "surname": "LEECH",
+      "givenName": "Shelley",
+      "party": "oth",
+      "partyAb": "HMP",
+      "votes": 2953,
+      "pct": 3.9
+    },
+    {
+      "candidateId": "C41160",
+      "surname": "STAER",
+      "givenName": "Mark",
+      "party": "oth",
+      "partyAb": "AUC",
+      "votes": 2661,
+      "pct": 3.51
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41456",
+      "surname": "MASCARENHAS",
+      "givenName": "Zaneta",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 62888,
+      "pct": 63.99,
+      "elected": true
+    },
+    {
+      "candidateId": "C41581",
+      "surname": "FELS",
+      "givenName": "Mic",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 35392,
+      "pct": 36.01,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 58756,
+      "name": "Lathlain SWAN PPVC",
+      "formal": 12276,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 64.12,
+      "swing": 4.38,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5539,
+          "pct": 45.12
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3433,
+          "pct": 27.97
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1951,
+          "pct": 15.89
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 670,
+          "pct": 5.46
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 369,
+          "pct": 3.01
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 314,
+          "pct": 2.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7871,
+          "elected": true,
+          "pct": 64.12
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4405,
+          "elected": false,
+          "pct": 35.88
+        }
+      ]
+    },
+    {
+      "boothId": 83331,
+      "name": "Cannington SWAN PPVC",
+      "formal": 8289,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 68.25,
+      "swing": 6.55,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4302,
+          "pct": 51.9
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1961,
+          "pct": 23.66
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1014,
+          "pct": 12.23
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 397,
+          "pct": 4.79
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 370,
+          "pct": 4.46
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 245,
+          "pct": 2.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5657,
+          "elected": true,
+          "pct": 68.25
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2632,
+          "elected": false,
+          "pct": 31.75
+        }
+      ]
+    },
+    {
+      "boothId": 108994,
+      "name": "Bentley SWAN PPVC",
+      "formal": 5809,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 62.9,
+      "swing": 4.08,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2602,
+          "pct": 44.79
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1702,
+          "pct": 29.3
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 908,
+          "pct": 15.63
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 237,
+          "pct": 4.08
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 217,
+          "pct": 3.74
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 143,
+          "pct": 2.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3654,
+          "elected": true,
+          "pct": 62.9
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2155,
+          "elected": false,
+          "pct": 37.1
+        }
+      ]
+    },
+    {
+      "boothId": 107918,
+      "name": "Applecross SWAN PPVC",
+      "formal": 4219,
+      "winnerParty": "lib",
+      "winnerSurname": "FELS",
+      "winnerPct": 50.06,
+      "swing": -4.03,
+      "candidates": [
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1831,
+          "pct": 43.4
+        },
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1546,
+          "pct": 36.64
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 448,
+          "pct": 10.62
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 167,
+          "pct": 3.96
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 117,
+          "pct": 2.77
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 110,
+          "pct": 2.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2107,
+          "elected": true,
+          "pct": 49.94
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2112,
+          "elected": false,
+          "pct": 50.06
+        }
+      ]
+    },
+    {
+      "boothId": 94028,
+      "name": "Perth SWAN PPVC",
+      "formal": 2340,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 65.47,
+      "swing": 6.54,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1022,
+          "pct": 43.68
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 631,
+          "pct": 26.97
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 446,
+          "pct": 19.06
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 110,
+          "pct": 4.7
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 66,
+          "pct": 2.82
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 65,
+          "pct": 2.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1532,
+          "elected": true,
+          "pct": 65.47
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 808,
+          "elected": false,
+          "pct": 34.53
+        }
+      ]
+    },
+    {
+      "boothId": 7529,
+      "name": "East Cannington",
+      "formal": 2018,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 73.04,
+      "swing": 5.65,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 945,
+          "pct": 46.83
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 445,
+          "pct": 22.05
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 349,
+          "pct": 17.29
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 108,
+          "pct": 5.35
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 92,
+          "pct": 4.56
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 79,
+          "pct": 3.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1474,
+          "elected": true,
+          "pct": 73.04
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 544,
+          "elected": false,
+          "pct": 26.96
+        }
+      ]
+    },
+    {
+      "boothId": 8228,
+      "name": "East Victoria Park South",
+      "formal": 1926,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 74.09,
+      "swing": 4.15,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 762,
+          "pct": 39.56
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 586,
+          "pct": 30.43
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 354,
+          "pct": 18.38
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 90,
+          "pct": 4.67
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 83,
+          "pct": 4.31
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 51,
+          "pct": 2.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1427,
+          "elected": true,
+          "pct": 74.09
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 499,
+          "elected": false,
+          "pct": 25.91
+        }
+      ]
+    },
+    {
+      "boothId": 8218,
+      "name": "Como",
+      "formal": 1832,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 59.44,
+      "swing": 11.13,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 616,
+          "pct": 33.62
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 606,
+          "pct": 33.08
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 431,
+          "pct": 23.53
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 65,
+          "pct": 3.55
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 57,
+          "pct": 3.11
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 3.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1089,
+          "elected": true,
+          "pct": 59.44
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 743,
+          "elected": false,
+          "pct": 40.56
+        }
+      ]
+    },
+    {
+      "boothId": 8236,
+      "name": "South Perth",
+      "formal": 1812,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 52.32,
+      "swing": 2.76,
+      "candidates": [
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 722,
+          "pct": 39.85
+        },
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 600,
+          "pct": 33.11
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 326,
+          "pct": 17.99
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 68,
+          "pct": 3.75
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 65,
+          "pct": 3.59
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 31,
+          "pct": 1.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 948,
+          "elected": true,
+          "pct": 52.32
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 864,
+          "elected": false,
+          "pct": 47.68
+        }
+      ]
+    },
+    {
+      "boothId": 117332,
+      "name": "Parkwood SWAN PPVC",
+      "formal": 1746,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 62.08,
+      "swing": 7.78,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 755,
+          "pct": 43.24
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 462,
+          "pct": 26.46
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 233,
+          "pct": 13.34
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 145,
+          "pct": 8.3
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 81,
+          "pct": 4.64
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 70,
+          "pct": 4.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1084,
+          "elected": true,
+          "pct": 62.08
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 662,
+          "elected": false,
+          "pct": 37.92
+        }
+      ]
+    },
+    {
+      "boothId": 8208,
+      "name": "Cloverdale North",
+      "formal": 1648,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 71.54,
+      "swing": 6.65,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 792,
+          "pct": 48.06
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 287,
+          "pct": 17.42
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 280,
+          "pct": 16.99
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 115,
+          "pct": 6.98
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 106,
+          "pct": 6.43
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 68,
+          "pct": 4.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1179,
+          "elected": true,
+          "pct": 71.54
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 469,
+          "elected": false,
+          "pct": 28.46
+        }
+      ]
+    },
+    {
+      "boothId": 8221,
+      "name": "Kensington",
+      "formal": 1624,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 64.84,
+      "swing": 6.24,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 636,
+          "pct": 39.16
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 481,
+          "pct": 29.62
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 381,
+          "pct": 23.46
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 54,
+          "pct": 3.33
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 2.65
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 29,
+          "pct": 1.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1053,
+          "elected": true,
+          "pct": 64.84
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 571,
+          "elected": false,
+          "pct": 35.16
+        }
+      ]
+    },
+    {
+      "boothId": 8224,
+      "name": "Lathlain",
+      "formal": 1448,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 67.33,
+      "swing": 6.23,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 563,
+          "pct": 38.88
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 350,
+          "pct": 24.17
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 343,
+          "pct": 23.69
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 5.59
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 69,
+          "pct": 4.77
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 975,
+          "elected": true,
+          "pct": 67.33
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 473,
+          "elected": false,
+          "pct": 32.67
+        }
+      ]
+    },
+    {
+      "boothId": 8230,
+      "name": "South Perth Central",
+      "formal": 1431,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 50.87,
+      "swing": 3.71,
+      "candidates": [
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 588,
+          "pct": 41.09
+        },
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 513,
+          "pct": 35.85
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 198,
+          "pct": 13.84
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 48,
+          "pct": 3.35
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.94
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 2.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 728,
+          "elected": true,
+          "pct": 50.87
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 703,
+          "elected": false,
+          "pct": 49.13
+        }
+      ]
+    },
+    {
+      "boothId": 11599,
+      "name": "Beckenham",
+      "formal": 1366,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 68.37,
+      "swing": 3.3,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 616,
+          "pct": 45.1
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 259,
+          "pct": 18.96
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 240,
+          "pct": 17.57
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 97,
+          "pct": 7.1
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 79,
+          "pct": 5.78
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 75,
+          "pct": 5.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 934,
+          "elected": true,
+          "pct": 68.37
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 432,
+          "elected": false,
+          "pct": 31.63
+        }
+      ]
+    },
+    {
+      "boothId": 8225,
+      "name": "Manning",
+      "formal": 1362,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 54.63,
+      "swing": 6.07,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 499,
+          "pct": 36.64
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 498,
+          "pct": 36.56
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 225,
+          "pct": 16.52
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 4.04
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.38
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 39,
+          "pct": 2.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 744,
+          "elected": true,
+          "pct": 54.63
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 618,
+          "elected": false,
+          "pct": 45.37
+        }
+      ]
+    },
+    {
+      "boothId": 11906,
+      "name": "Kensington East",
+      "formal": 1320,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 72.12,
+      "swing": 7.41,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 598,
+          "pct": 45.3
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 293,
+          "pct": 22.2
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 280,
+          "pct": 21.21
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 61,
+          "pct": 4.62
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 4.55
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 952,
+          "elected": true,
+          "pct": 72.12
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 368,
+          "elected": false,
+          "pct": 27.88
+        }
+      ]
+    },
+    {
+      "boothId": 8244,
+      "name": "East Victoria Park",
+      "formal": 1306,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 74.04,
+      "swing": 0.69,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 529,
+          "pct": 40.51
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 381,
+          "pct": 29.17
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 223,
+          "pct": 17.08
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 73,
+          "pct": 5.59
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 4.59
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 967,
+          "elected": true,
+          "pct": 74.04
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 339,
+          "elected": false,
+          "pct": 25.96
+        }
+      ]
+    },
+    {
+      "boothId": 8234,
+      "name": "Rivervale",
+      "formal": 1226,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 68.35,
+      "swing": 6.5,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 547,
+          "pct": 44.62
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 276,
+          "pct": 22.51
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 240,
+          "pct": 19.58
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 5.63
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 48,
+          "pct": 3.92
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 838,
+          "elected": true,
+          "pct": 68.35
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 388,
+          "elected": false,
+          "pct": 31.65
+        }
+      ]
+    },
+    {
+      "boothId": 83301,
+      "name": "Como East",
+      "formal": 1195,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 59.16,
+      "swing": 4.54,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 440,
+          "pct": 36.82
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 395,
+          "pct": 33.05
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 230,
+          "pct": 19.25
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 50,
+          "pct": 4.18
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 3.51
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 38,
+          "pct": 3.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 707,
+          "elected": true,
+          "pct": 59.16
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 488,
+          "elected": false,
+          "pct": 40.84
+        }
+      ]
+    },
+    {
+      "boothId": 8215,
+      "name": "Belmont South",
+      "formal": 1184,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 72.47,
+      "swing": 2.28,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 584,
+          "pct": 49.32
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 218,
+          "pct": 18.41
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 182,
+          "pct": 15.37
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 7.09
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 71,
+          "pct": 6.0
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 45,
+          "pct": 3.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 858,
+          "elected": true,
+          "pct": 72.47
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 326,
+          "elected": false,
+          "pct": 27.53
+        }
+      ]
+    },
+    {
+      "boothId": 8242,
+      "name": "Victoria Park",
+      "formal": 1143,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 69.2,
+      "swing": 4.36,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 494,
+          "pct": 43.22
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 268,
+          "pct": 23.45
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 238,
+          "pct": 20.82
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 5.51
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 4.02
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 791,
+          "elected": true,
+          "pct": 69.2
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 352,
+          "elected": false,
+          "pct": 30.8
+        }
+      ]
+    },
+    {
+      "boothId": 8246,
+      "name": "Wilson",
+      "formal": 1131,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 65.43,
+      "swing": 4.59,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 487,
+          "pct": 43.06
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 244,
+          "pct": 21.57
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 190,
+          "pct": 16.8
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 107,
+          "pct": 9.46
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 61,
+          "pct": 5.39
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 3.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 740,
+          "elected": true,
+          "pct": 65.43
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 391,
+          "elected": false,
+          "pct": 34.57
+        }
+      ]
+    },
+    {
+      "boothId": 8223,
+      "name": "Kewdale",
+      "formal": 1088,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 73.44,
+      "swing": 6.77,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 478,
+          "pct": 43.93
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 280,
+          "pct": 25.74
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 182,
+          "pct": 16.73
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 62,
+          "pct": 5.7
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 5.15
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 30,
+          "pct": 2.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 799,
+          "elected": true,
+          "pct": 73.44
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 289,
+          "elected": false,
+          "pct": 26.56
+        }
+      ]
+    },
+    {
+      "boothId": 65665,
+      "name": "Manning East",
+      "formal": 1082,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 54.81,
+      "swing": 6.95,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 418,
+          "pct": 38.63
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 410,
+          "pct": 37.89
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 153,
+          "pct": 14.14
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.7
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 2.96
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 593,
+          "elected": true,
+          "pct": 54.81
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 489,
+          "elected": false,
+          "pct": 45.19
+        }
+      ]
+    },
+    {
+      "boothId": 7552,
+      "name": "Queens Park",
+      "formal": 1056,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 70.17,
+      "swing": 2.28,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 477,
+          "pct": 45.17
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 217,
+          "pct": 20.55
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 216,
+          "pct": 20.45
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 57,
+          "pct": 5.4
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 45,
+          "pct": 4.26
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 44,
+          "pct": 4.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 741,
+          "elected": true,
+          "pct": 70.17
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 315,
+          "elected": false,
+          "pct": 29.83
+        }
+      ]
+    },
+    {
+      "boothId": 8210,
+      "name": "Bentley",
+      "formal": 1046,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 68.45,
+      "swing": 2.77,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 412,
+          "pct": 39.39
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 245,
+          "pct": 23.42
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 204,
+          "pct": 19.5
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 73,
+          "pct": 6.98
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 62,
+          "pct": 5.93
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 4.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 716,
+          "elected": true,
+          "pct": 68.45
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 330,
+          "elected": false,
+          "pct": 31.55
+        }
+      ]
+    },
+    {
+      "boothId": 8269,
+      "name": "Langford",
+      "formal": 1027,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 77.02,
+      "swing": 3.48,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 488,
+          "pct": 47.52
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 225,
+          "pct": 21.91
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 132,
+          "pct": 12.85
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 67,
+          "pct": 6.52
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 59,
+          "pct": 5.74
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 5.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 791,
+          "elected": true,
+          "pct": 77.02
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 236,
+          "elected": false,
+          "pct": 22.98
+        }
+      ]
+    },
+    {
+      "boothId": 8233,
+      "name": "Redcliffe",
+      "formal": 1021,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 69.74,
+      "swing": 6.86,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 478,
+          "pct": 46.82
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 197,
+          "pct": 19.29
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 16.26
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 7.54
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 66,
+          "pct": 6.46
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 37,
+          "pct": 3.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 712,
+          "elected": true,
+          "pct": 69.74
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 309,
+          "elected": false,
+          "pct": 30.26
+        }
+      ]
+    },
+    {
+      "boothId": 8209,
+      "name": "Belmont",
+      "formal": 1020,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 62.06,
+      "swing": 6.33,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 434,
+          "pct": 42.55
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 293,
+          "pct": 28.73
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 160,
+          "pct": 15.69
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 54,
+          "pct": 5.29
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 4.71
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 633,
+          "elected": true,
+          "pct": 62.06
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 387,
+          "elected": false,
+          "pct": 37.94
+        }
+      ]
+    },
+    {
+      "boothId": 8232,
+      "name": "Kewdale West",
+      "formal": 972,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 69.55,
+      "swing": 4.63,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 452,
+          "pct": 46.5
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 210,
+          "pct": 21.6
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 183,
+          "pct": 18.83
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 5.86
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 4.73
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 676,
+          "elected": true,
+          "pct": 69.55
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 296,
+          "elected": false,
+          "pct": 30.45
+        }
+      ]
+    },
+    {
+      "boothId": 8217,
+      "name": "Como South",
+      "formal": 875,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 55.77,
+      "swing": 0.89,
+      "candidates": [
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 308,
+          "pct": 35.2
+        },
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 301,
+          "pct": 34.4
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 170,
+          "pct": 19.43
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 4.46
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.54
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 2.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 488,
+          "elected": true,
+          "pct": 55.77
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 387,
+          "elected": false,
+          "pct": 44.23
+        }
+      ]
+    },
+    {
+      "boothId": 8213,
+      "name": "Carlisle",
+      "formal": 846,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 69.5,
+      "swing": 4.32,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 384,
+          "pct": 45.39
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 178,
+          "pct": 21.04
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 171,
+          "pct": 20.21
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 5.44
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 44,
+          "pct": 5.2
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 588,
+          "elected": true,
+          "pct": 69.5
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 258,
+          "elected": false,
+          "pct": 30.5
+        }
+      ]
+    },
+    {
+      "boothId": 8241,
+      "name": "Rivervale North",
+      "formal": 846,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 63.95,
+      "swing": -0.33,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 343,
+          "pct": 40.54
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 201,
+          "pct": 23.76
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 155,
+          "pct": 18.32
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 6.86
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 52,
+          "pct": 6.15
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 541,
+          "elected": true,
+          "pct": 63.95
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 305,
+          "elected": false,
+          "pct": 36.05
+        }
+      ]
+    },
+    {
+      "boothId": 8272,
+      "name": "Lynwood",
+      "formal": 842,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 69.24,
+      "swing": 9.96,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 359,
+          "pct": 42.64
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 194,
+          "pct": 23.04
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 164,
+          "pct": 19.48
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 6.18
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 39,
+          "pct": 4.63
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 34,
+          "pct": 4.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 583,
+          "elected": true,
+          "pct": 69.24
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 259,
+          "elected": false,
+          "pct": 30.76
+        }
+      ]
+    },
+    {
+      "boothId": 8226,
+      "name": "Manning North",
+      "formal": 831,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 64.98,
+      "swing": 5.96,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 359,
+          "pct": 43.2
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 234,
+          "pct": 28.16
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 147,
+          "pct": 17.69
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 4.21
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.73
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 25,
+          "pct": 3.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 540,
+          "elected": true,
+          "pct": 64.98
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 291,
+          "elected": false,
+          "pct": 35.02
+        }
+      ]
+    },
+    {
+      "boothId": 8214,
+      "name": "Cloverdale",
+      "formal": 819,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 71.55,
+      "swing": 3.84,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 379,
+          "pct": 46.28
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 160,
+          "pct": 19.54
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 146,
+          "pct": 17.83
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 7.81
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 50,
+          "pct": 6.11
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 586,
+          "elected": true,
+          "pct": 71.55
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 233,
+          "elected": false,
+          "pct": 28.45
+        }
+      ]
+    },
+    {
+      "boothId": 8267,
+      "name": "Ferndale East",
+      "formal": 687,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 63.46,
+      "swing": 7.83,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 296,
+          "pct": 43.09
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 160,
+          "pct": 23.29
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 111,
+          "pct": 16.16
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 50,
+          "pct": 7.28
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 5.53
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 32,
+          "pct": 4.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 436,
+          "elected": true,
+          "pct": 63.46
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 251,
+          "elected": false,
+          "pct": 36.54
+        }
+      ]
+    },
+    {
+      "boothId": 8211,
+      "name": "Bentley South",
+      "formal": 563,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 73.36,
+      "swing": -0.97,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 250,
+          "pct": 44.4
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 143,
+          "pct": 25.4
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 97,
+          "pct": 17.23
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 30,
+          "pct": 5.33
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 4.62
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 17,
+          "pct": 3.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 413,
+          "elected": true,
+          "pct": 73.36
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 150,
+          "elected": false,
+          "pct": 26.64
+        }
+      ]
+    },
+    {
+      "boothId": 8237,
+      "name": "South Perth West",
+      "formal": 479,
+      "winnerParty": "lib",
+      "winnerSurname": "FELS",
+      "winnerPct": 50.52,
+      "swing": -0.38,
+      "candidates": [
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 212,
+          "pct": 44.26
+        },
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 161,
+          "pct": 33.61
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 67,
+          "pct": 13.99
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 3.13
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.51
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 2.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 237,
+          "elected": true,
+          "pct": 49.48
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 242,
+          "elected": false,
+          "pct": 50.52
+        }
+      ]
+    },
+    {
+      "boothId": 8266,
+      "name": "Ferndale",
+      "formal": 460,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 63.7,
+      "swing": 6.14,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 190,
+          "pct": 41.3
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 104,
+          "pct": 22.61
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 94,
+          "pct": 20.43
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 26,
+          "pct": 5.65
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 5.22
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 4.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 293,
+          "elected": true,
+          "pct": 63.7
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 167,
+          "elected": false,
+          "pct": 36.3
+        }
+      ]
+    },
+    {
+      "boothId": 108842,
+      "name": "Special Hospital Team 1",
+      "formal": 187,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 51.34,
+      "swing": -2.7,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 78,
+          "pct": 41.71
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 76,
+          "pct": 40.64
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 17,
+          "pct": 9.09
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 4.81
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.14
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 96,
+          "elected": true,
+          "pct": 51.34
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 91,
+          "elected": false,
+          "pct": 48.66
+        }
+      ]
+    },
+    {
+      "boothId": 108843,
+      "name": "Special Hospital Team 2",
+      "formal": 151,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 56.29,
+      "swing": 2.12,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 69,
+          "pct": 45.7
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 54,
+          "pct": 35.76
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 6.62
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 5.3
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 3.97
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 85,
+          "elected": true,
+          "pct": 56.29
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 66,
+          "elected": false,
+          "pct": 43.71
+        }
+      ]
+    },
+    {
+      "boothId": 119890,
+      "name": "Special Hospital Team 3",
+      "formal": 128,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 57.03,
+      "swing": 2.86,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 59,
+          "pct": 46.09
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 51,
+          "pct": 39.84
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 6.25
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 3.91
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.34
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 1.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 73,
+          "elected": true,
+          "pct": 57.03
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 55,
+          "elected": false,
+          "pct": 42.97
+        }
+      ]
+    },
+    {
+      "boothId": 108935,
+      "name": "Lesmurdie SWAN PPVC",
+      "formal": 95,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 62.11,
+      "swing": 5.62,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 24,
+          "pct": 25.26
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 22,
+          "pct": 23.16
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 20,
+          "pct": 21.05
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 13.68
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 8.42
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 8.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 59,
+          "elected": true,
+          "pct": 62.11
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 36,
+          "elected": false,
+          "pct": 37.89
+        }
+      ]
+    },
+    {
+      "boothId": 119892,
+      "name": "Other Mobile Team 1",
+      "formal": 18,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 72.22,
+      "swing": 18.37,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "pct": 61.11
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "pct": 22.22
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 5.56
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 5.56
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 5.56
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 13,
+          "elected": true,
+          "pct": 72.22
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5,
+          "elected": false,
+          "pct": 27.78
+        }
+      ]
+    },
+    {
+      "boothId": 65590,
+      "name": "EAV Swan PPVC",
+      "formal": 15,
+      "winnerParty": "alp",
+      "winnerSurname": "MASCARENHAS",
+      "winnerPct": 60.0,
+      "swing": 26.67,
+      "candidates": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "pct": 33.33
+        },
+        {
+          "surname": "UINK",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 33.33
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "pct": 20.0
+        },
+        {
+          "surname": "STAER",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 6.67
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 6.67
+        },
+        {
+          "surname": "LEECH",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MASCARENHAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "elected": true,
+          "pct": 60.0
+        },
+        {
+          "surname": "FELS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6,
+          "elected": false,
+          "pct": 40.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 98280,
+    "candidates": [
+      {
+        "id": "C41160",
+        "party": "oth",
+        "displayShort": "AUC",
+        "displayLong": "AUC \u2014 Staer"
+      },
+      {
+        "id": "C41456",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Mascarenhas"
+      },
+      {
+        "id": "C41829",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Uink"
+      },
+      {
+        "id": "C41776",
+        "party": "oth",
+        "displayShort": "HMP",
+        "displayLong": "HMP \u2014 Leech"
+      },
+      {
+        "id": "C41731",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Halley"
+      },
+      {
+        "id": "C41581",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Fels"
+      }
+    ],
+    "rounds": [
+      {
+        "C41160": 3503,
+        "C41456": 41897,
+        "C41829": 17186,
+        "C41776": 4096,
+        "C41731": 5131,
+        "C41581": 26467
+      },
+      {
+        "C41456": 42781,
+        "C41829": 17561,
+        "C41776": 4327,
+        "C41731": 6174,
+        "C41581": 27437
+      },
+      {
+        "C41456": 43879,
+        "C41829": 19279,
+        "C41731": 7151,
+        "C41581": 27971
+      },
+      {
+        "C41456": 44914,
+        "C41829": 20909,
+        "C41581": 32457
+      },
+      {
+        "C41456": 62888,
+        "C41581": 35392
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            50.11,
+            52.53,
+            56.53,
+            53.59,
+            52.69,
+            41.23,
+            36.01
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            49.89,
+            47.47,
+            43.47,
+            46.41,
+            47.31,
+            58.77,
+            63.99
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 44.28,
+            "ON": 0.89,
+            "ALP": 40.65,
+            "GRN": 10.13,
+            "OTH": 4.04
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "ALP": 35.28,
+            "LIB": 46.51,
+            "CDP": 2.07,
+            "ASXP": 2.59,
+            "GRN": 11.81,
+            "OTH": 1.73
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "GRN": 11.55,
+            "LIB": 48.86,
+            "TOP": 4.23,
+            "ALP": 30.6,
+            "OTH": 4.75
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "ALP": 33.01,
+            "LIB": 48.18,
+            "GRN": 15.02,
+            "AUC": 3.79
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "GRN": 12.32,
+            "ALP": 33.22,
+            "ON": 2.42,
+            "LIB": 44.68,
+            "OTH": 7.35
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "TOP": 2.64,
+            "LIB": 32.08,
+            "GRN": 14.86,
+            "WAP": 2.06,
+            "AJP": 2.21,
+            "ON": 2.54,
+            "ALP": 39.07,
+            "OTH": 4.54
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "GRN": 17.49,
+            "ON": 5.22,
+            "HMP": 4.17,
+            "LIB": 26.93,
+            "AUC": 3.56,
+            "ALP": 42.63
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 189872,
+    "medianAge": 36,
+    "medianHouseholdIncomeWeekly": 1791,
+    "medianRentWeekly": 350,
+    "averageHouseholdSize": 2.4,
+    "bornOverseasPct": 41.3,
+    "indigenousPct": 2.2,
+    "bachelorPlusPct": 46.6,
+    "renterPct": 38.8,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 105198,
+        "pct": 58.73,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 4945,
+        "pct": 2.76,
+        "natPct": 1.95
+      },
+      {
+        "label": "India",
+        "count": 4410,
+        "pct": 2.46,
+        "natPct": 1.51
+      },
+      {
+        "label": "New Zealand",
+        "count": 2700,
+        "pct": 1.51,
+        "natPct": 1.11
+      },
+      {
+        "label": "Malaysia",
+        "count": 1989,
+        "pct": 1.11,
+        "natPct": 0.32
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 74288,
+        "pct": 39.13,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 72008,
+        "pct": 37.92,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 14624,
+        "pct": 7.7,
+        "natPct": 7.27
+      },
+      {
+        "label": "Islam",
+        "count": 10758,
+        "pct": 5.67,
+        "natPct": 3.2
+      },
+      {
+        "label": "Buddhism",
+        "count": 6851,
+        "pct": 3.61,
+        "natPct": 2.42
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Swan is an Australian electoral division in the state of Western Australia.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Swan",
+    "retrievedAt": "2026-04-29T13:11:02Z"
+  }
+}

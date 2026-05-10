@@ -1,0 +1,4523 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "OXLEY",
+    "divisionId": 174,
+    "name": "Oxley",
+    "state": "QLD",
+    "totalFormal": 104062,
+    "informalVotes": 3445,
+    "informalRate": 4.21,
+    "winner": {
+      "candidateId": "C40800",
+      "surname": "DICK",
+      "givenName": "Milton",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 38.38,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40800",
+      "surname": "DICK",
+      "givenName": "Milton",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 42020,
+      "pct": 53.6
+    },
+    {
+      "candidateId": "C41181",
+      "surname": "BURNS",
+      "givenName": "Kevin",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 16340,
+      "pct": 20.84
+    },
+    {
+      "candidateId": "C41281",
+      "surname": "HOLT",
+      "givenName": "Brandan",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 10679,
+      "pct": 13.62
+    },
+    {
+      "candidateId": "C40952",
+      "surname": "BAKER",
+      "givenName": "Darren",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 3895,
+      "pct": 4.97
+    },
+    {
+      "candidateId": "C40913",
+      "surname": "TENTO",
+      "givenName": "William",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 2228,
+      "pct": 2.84
+    },
+    {
+      "candidateId": "C41397",
+      "surname": "MAGUIRE",
+      "givenName": "Mark",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2186,
+      "pct": 2.79
+    },
+    {
+      "candidateId": "C41465",
+      "surname": "HEAD",
+      "givenName": "Mike",
+      "party": "oth",
+      "partyAb": "NAFD",
+      "votes": 1050,
+      "pct": 1.34
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40800",
+      "surname": "DICK",
+      "givenName": "Milton",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 72003,
+      "pct": 69.19,
+      "elected": true
+    },
+    {
+      "candidateId": "C41181",
+      "surname": "BURNS",
+      "givenName": "Kevin",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 32059,
+      "pct": 30.81,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 47734,
+      "name": "Inala OXLEY PPVC",
+      "formal": 14969,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 74.99,
+      "swing": 11.67,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9194,
+          "pct": 61.42
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2772,
+          "pct": 18.52
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1879,
+          "pct": 12.55
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 446,
+          "pct": 2.98
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 279,
+          "pct": 1.86
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 260,
+          "pct": 1.74
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 139,
+          "pct": 0.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11225,
+          "elected": true,
+          "pct": 74.99
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3744,
+          "elected": false,
+          "pct": 25.01
+        }
+      ]
+    },
+    {
+      "boothId": 65644,
+      "name": "Sinnamon Park OXLEY PPVC",
+      "formal": 10442,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 61.65,
+      "swing": 8.78,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5168,
+          "pct": 49.49
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3317,
+          "pct": 31.77
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1100,
+          "pct": 10.53
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 354,
+          "pct": 3.39
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 219,
+          "pct": 2.1
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 218,
+          "pct": 2.09
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 66,
+          "pct": 0.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6437,
+          "elected": true,
+          "pct": 61.65
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4005,
+          "elected": false,
+          "pct": 38.35
+        }
+      ]
+    },
+    {
+      "boothId": 83244,
+      "name": "Springfield Central OXLEY PPVC",
+      "formal": 10132,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 66.66,
+      "swing": 8.76,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5250,
+          "pct": 51.82
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2332,
+          "pct": 23.02
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1138,
+          "pct": 11.23
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 691,
+          "pct": 6.82
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 300,
+          "pct": 2.96
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 295,
+          "pct": 2.91
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 126,
+          "pct": 1.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6754,
+          "elected": true,
+          "pct": 66.66
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3378,
+          "elected": false,
+          "pct": 33.34
+        }
+      ]
+    },
+    {
+      "boothId": 109669,
+      "name": "Camira PPVC",
+      "formal": 4900,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 67.63,
+      "swing": 5.06,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2444,
+          "pct": 49.88
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 948,
+          "pct": 19.35
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 639,
+          "pct": 13.04
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 415,
+          "pct": 8.47
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 204,
+          "pct": 4.16
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 188,
+          "pct": 3.84
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 62,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3314,
+          "elected": true,
+          "pct": 67.63
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1586,
+          "elected": false,
+          "pct": 32.37
+        }
+      ]
+    },
+    {
+      "boothId": 31799,
+      "name": "Forest Lake",
+      "formal": 1935,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 73.07,
+      "swing": 8.29,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1037,
+          "pct": 53.59
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 355,
+          "pct": 18.35
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 308,
+          "pct": 15.92
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 98,
+          "pct": 5.06
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 63,
+          "pct": 3.26
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 51,
+          "pct": 2.64
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1414,
+          "elected": true,
+          "pct": 73.07
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 521,
+          "elected": false,
+          "pct": 26.93
+        }
+      ]
+    },
+    {
+      "boothId": 33102,
+      "name": "Forest Lake South",
+      "formal": 1897,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 68.74,
+      "swing": 6.25,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 990,
+          "pct": 52.19
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 408,
+          "pct": 21.51
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 268,
+          "pct": 14.13
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 87,
+          "pct": 4.59
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 61,
+          "pct": 3.22
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 57,
+          "pct": 3.0
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 26,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1304,
+          "elected": true,
+          "pct": 68.74
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 593,
+          "elected": false,
+          "pct": 31.26
+        }
+      ]
+    },
+    {
+      "boothId": 5545,
+      "name": "Pallara",
+      "formal": 1835,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 75.97,
+      "swing": 16.39,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1064,
+          "pct": 57.98
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 317,
+          "pct": 17.28
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 293,
+          "pct": 15.97
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 3.49
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 35,
+          "pct": 1.91
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 1.69
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 1.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1394,
+          "elected": true,
+          "pct": 75.97
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 441,
+          "elected": false,
+          "pct": 24.03
+        }
+      ]
+    },
+    {
+      "boothId": 34191,
+      "name": "Forest Lake East",
+      "formal": 1769,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 70.77,
+      "swing": 5.62,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 951,
+          "pct": 53.76
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 321,
+          "pct": 18.15
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 259,
+          "pct": 14.64
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 86,
+          "pct": 4.86
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 62,
+          "pct": 3.5
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 48,
+          "pct": 2.71
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1252,
+          "elected": true,
+          "pct": 70.77
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 517,
+          "elected": false,
+          "pct": 29.23
+        }
+      ]
+    },
+    {
+      "boothId": 47721,
+      "name": "Springfield Lakes (Oxley)",
+      "formal": 1754,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 69.44,
+      "swing": 8.53,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 886,
+          "pct": 50.51
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 318,
+          "pct": 18.13
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 272,
+          "pct": 15.51
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 110,
+          "pct": 6.27
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 77,
+          "pct": 4.39
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 67,
+          "pct": 3.82
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1218,
+          "elected": true,
+          "pct": 69.44
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 536,
+          "elected": false,
+          "pct": 30.56
+        }
+      ]
+    },
+    {
+      "boothId": 6365,
+      "name": "Goodna",
+      "formal": 1692,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 74.47,
+      "swing": 6.63,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 926,
+          "pct": 54.73
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 253,
+          "pct": 14.95
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 238,
+          "pct": 14.07
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 120,
+          "pct": 7.09
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 67,
+          "pct": 3.96
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 61,
+          "pct": 3.61
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1260,
+          "elected": true,
+          "pct": 74.47
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 432,
+          "elected": false,
+          "pct": 25.53
+        }
+      ]
+    },
+    {
+      "boothId": 5546,
+      "name": "Middle Park",
+      "formal": 1647,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 70.8,
+      "swing": 9.38,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 881,
+          "pct": 53.49
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 342,
+          "pct": 20.77
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 249,
+          "pct": 15.12
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 3.76
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 51,
+          "pct": 3.1
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 2.61
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1166,
+          "elected": true,
+          "pct": 70.8
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 481,
+          "elected": false,
+          "pct": 29.2
+        }
+      ]
+    },
+    {
+      "boothId": 5551,
+      "name": "Seventeen Mile Rocks",
+      "formal": 1595,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 65.64,
+      "swing": 9.81,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 798,
+          "pct": 50.03
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 424,
+          "pct": 26.58
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 227,
+          "pct": 14.23
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 2.76
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.63
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 42,
+          "pct": 2.63
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1047,
+          "elected": true,
+          "pct": 65.64
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 548,
+          "elected": false,
+          "pct": 34.36
+        }
+      ]
+    },
+    {
+      "boothId": 31480,
+      "name": "Springfield",
+      "formal": 1348,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 72.26,
+      "swing": 8.9,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 696,
+          "pct": 51.63
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 230,
+          "pct": 17.06
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 207,
+          "pct": 15.36
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 89,
+          "pct": 6.6
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 61,
+          "pct": 4.53
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.86
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 13,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 974,
+          "elected": true,
+          "pct": 72.26
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 374,
+          "elected": false,
+          "pct": 27.74
+        }
+      ]
+    },
+    {
+      "boothId": 5539,
+      "name": "Jindalee",
+      "formal": 1328,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 67.62,
+      "swing": 10.54,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 630,
+          "pct": 47.44
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 320,
+          "pct": 24.1
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 242,
+          "pct": 18.22
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 3.54
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.54
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 1.96
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 898,
+          "elected": true,
+          "pct": 67.62
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 430,
+          "elected": false,
+          "pct": 32.38
+        }
+      ]
+    },
+    {
+      "boothId": 6370,
+      "name": "Bellbird Park",
+      "formal": 1298,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 69.26,
+      "swing": 6.18,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 619,
+          "pct": 47.69
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 232,
+          "pct": 17.87
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 225,
+          "pct": 17.33
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 6.16
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 62,
+          "pct": 4.78
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 45,
+          "pct": 3.47
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 899,
+          "elected": true,
+          "pct": 69.26
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 399,
+          "elected": false,
+          "pct": 30.74
+        }
+      ]
+    },
+    {
+      "boothId": 97487,
+      "name": "Brisbane Central OXLEY PPVC",
+      "formal": 1294,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 75.04,
+      "swing": 5.65,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 722,
+          "pct": 55.8
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 236,
+          "pct": 18.24
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 233,
+          "pct": 18.01
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 3.32
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.93
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 1.85
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 971,
+          "elected": true,
+          "pct": 75.04
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 323,
+          "elected": false,
+          "pct": 24.96
+        }
+      ]
+    },
+    {
+      "boothId": 6479,
+      "name": "Doolandella",
+      "formal": 1212,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 78.88,
+      "swing": 4.07,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 737,
+          "pct": 60.81
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 170,
+          "pct": 14.03
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 157,
+          "pct": 12.95
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 4.13
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 2.97
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 2.89
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 27,
+          "pct": 2.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 956,
+          "elected": true,
+          "pct": 78.88
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 256,
+          "elected": false,
+          "pct": 21.12
+        }
+      ]
+    },
+    {
+      "boothId": 6473,
+      "name": "Richlands",
+      "formal": 1190,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 81.18,
+      "swing": 8.72,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 680,
+          "pct": 57.14
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 220,
+          "pct": 18.49
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 121,
+          "pct": 10.17
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 5.29
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.36
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.28
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 2.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 966,
+          "elected": true,
+          "pct": 81.18
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 224,
+          "elected": false,
+          "pct": 18.82
+        }
+      ]
+    },
+    {
+      "boothId": 83435,
+      "name": "Augustine Heights",
+      "formal": 1190,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 57.39,
+      "swing": 3.48,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 502,
+          "pct": 42.18
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 357,
+          "pct": 30.0
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 155,
+          "pct": 13.03
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 5.8
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.95
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 42,
+          "pct": 3.53
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 683,
+          "elected": true,
+          "pct": 57.39
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 507,
+          "elected": false,
+          "pct": 42.61
+        }
+      ]
+    },
+    {
+      "boothId": 6351,
+      "name": "Camira",
+      "formal": 1187,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 66.47,
+      "swing": 2.09,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 562,
+          "pct": 47.35
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 195,
+          "pct": 16.43
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 13.98
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 118,
+          "pct": 9.94
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 67,
+          "pct": 5.64
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 59,
+          "pct": 4.97
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 789,
+          "elected": true,
+          "pct": 66.47
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 398,
+          "elected": false,
+          "pct": 33.53
+        }
+      ]
+    },
+    {
+      "boothId": 83263,
+      "name": "Middle Park East",
+      "formal": 1168,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 65.92,
+      "swing": 12.38,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 567,
+          "pct": 48.54
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 298,
+          "pct": 25.51
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 190,
+          "pct": 16.27
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 3.68
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 2.91
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.71
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 770,
+          "elected": true,
+          "pct": 65.92
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 398,
+          "elected": false,
+          "pct": 34.08
+        }
+      ]
+    },
+    {
+      "boothId": 6449,
+      "name": "Inala",
+      "formal": 1161,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 82.95,
+      "swing": 8.31,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 764,
+          "pct": 65.81
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 145,
+          "pct": 12.49
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 114,
+          "pct": 9.82
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 3.96
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 45,
+          "pct": 3.88
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 2.33
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 963,
+          "elected": true,
+          "pct": 82.95
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 198,
+          "elected": false,
+          "pct": 17.05
+        }
+      ]
+    },
+    {
+      "boothId": 6441,
+      "name": "Darra",
+      "formal": 1104,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 72.01,
+      "swing": 6.65,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 580,
+          "pct": 52.54
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 211,
+          "pct": 19.11
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 184,
+          "pct": 16.67
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 4.26
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 3.17
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 3.08
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 795,
+          "elected": true,
+          "pct": 72.01
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 309,
+          "elected": false,
+          "pct": 27.99
+        }
+      ]
+    },
+    {
+      "boothId": 6354,
+      "name": "Collingwood Park (Oxley)",
+      "formal": 814,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 69.16,
+      "swing": 8.59,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 377,
+          "pct": 46.31
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 139,
+          "pct": 17.08
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 136,
+          "pct": 16.71
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 8.23
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 5.41
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.55
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 563,
+          "elected": true,
+          "pct": 69.16
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 251,
+          "elected": false,
+          "pct": 30.84
+        }
+      ]
+    },
+    {
+      "boothId": 31488,
+      "name": "Jindalee South",
+      "formal": 800,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 63.88,
+      "swing": 11.35,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 399,
+          "pct": 49.88
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 227,
+          "pct": 28.38
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 103,
+          "pct": 12.88
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 3.25
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 2.5
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.0
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 511,
+          "elected": true,
+          "pct": 63.88
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 289,
+          "elected": false,
+          "pct": 36.12
+        }
+      ]
+    },
+    {
+      "boothId": 6478,
+      "name": "Durack",
+      "formal": 791,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 80.15,
+      "swing": 6.84,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 512,
+          "pct": 64.73
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 102,
+          "pct": 12.9
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 94,
+          "pct": 11.88
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 3.92
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.28
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.28
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 2.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 634,
+          "elected": true,
+          "pct": 80.15
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 157,
+          "elected": false,
+          "pct": 19.85
+        }
+      ]
+    },
+    {
+      "boothId": 6363,
+      "name": "Gailes",
+      "formal": 761,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 70.96,
+      "swing": 4.65,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 392,
+          "pct": 51.51
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 116,
+          "pct": 15.24
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 111,
+          "pct": 14.59
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 7.1
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 50,
+          "pct": 6.57
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 3.42
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 540,
+          "elected": true,
+          "pct": 70.96
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 221,
+          "elected": false,
+          "pct": 29.04
+        }
+      ]
+    },
+    {
+      "boothId": 47724,
+      "name": "Redbank South",
+      "formal": 753,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 70.92,
+      "swing": 8.04,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 387,
+          "pct": 51.39
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 107,
+          "pct": 14.21
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 103,
+          "pct": 13.68
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 8.23
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 5.05
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 4.78
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 534,
+          "elected": true,
+          "pct": 70.92
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 219,
+          "elected": false,
+          "pct": 29.08
+        }
+      ]
+    },
+    {
+      "boothId": 65799,
+      "name": "Redbank Plains East (Oxley)",
+      "formal": 727,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 69.33,
+      "swing": 7.4,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 359,
+          "pct": 49.38
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 116,
+          "pct": 15.96
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 114,
+          "pct": 15.68
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 8.12
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 4.68
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 4.13
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 504,
+          "elected": true,
+          "pct": 69.33
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 223,
+          "elected": false,
+          "pct": 30.67
+        }
+      ]
+    },
+    {
+      "boothId": 56063,
+      "name": "Oxley (Oxley)",
+      "formal": 712,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 73.46,
+      "swing": 6.11,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 356,
+          "pct": 50.0
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 149,
+          "pct": 20.93
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 120,
+          "pct": 16.85
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 4.63
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.81
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 2.53
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 523,
+          "elected": true,
+          "pct": 73.46
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 189,
+          "elected": false,
+          "pct": 26.54
+        }
+      ]
+    },
+    {
+      "boothId": 94790,
+      "name": "Oxley South (Oxley)",
+      "formal": 687,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 78.17,
+      "swing": 8.82,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 341,
+          "pct": 49.64
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 188,
+          "pct": 27.37
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 102,
+          "pct": 14.85
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.33
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 2.18
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 1.89
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 537,
+          "elected": true,
+          "pct": 78.17
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 150,
+          "elected": false,
+          "pct": 21.83
+        }
+      ]
+    },
+    {
+      "boothId": 6435,
+      "name": "Carole Park",
+      "formal": 633,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 78.2,
+      "swing": 4.42,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 377,
+          "pct": 59.56
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 89,
+          "pct": 14.06
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 69,
+          "pct": 10.9
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 5.69
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 4.42
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 3.79
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 495,
+          "elected": true,
+          "pct": 78.2
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 138,
+          "elected": false,
+          "pct": 21.8
+        }
+      ]
+    },
+    {
+      "boothId": 5538,
+      "name": "Middle Park Central",
+      "formal": 549,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 67.58,
+      "swing": 8.91,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 292,
+          "pct": 53.19
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 147,
+          "pct": 26.78
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 12.75
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.55
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 2.19
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.28
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 371,
+          "elected": true,
+          "pct": 67.58
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 178,
+          "elected": false,
+          "pct": 32.42
+        }
+      ]
+    },
+    {
+      "boothId": 58725,
+      "name": "Ipswich OXLEY PPVC",
+      "formal": 483,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 70.39,
+      "swing": 4.38,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 234,
+          "pct": 48.45
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 83,
+          "pct": 17.18
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 75,
+          "pct": 15.53
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 8.49
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 5.18
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 4.14
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 340,
+          "elected": true,
+          "pct": 70.39
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 143,
+          "elected": false,
+          "pct": 29.61
+        }
+      ]
+    },
+    {
+      "boothId": 98133,
+      "name": "Moorooka OXLEY PPVC",
+      "formal": 446,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 73.32,
+      "swing": 9.24,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 223,
+          "pct": 50.0
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 93,
+          "pct": 20.85
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 89,
+          "pct": 19.96
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 3.59
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.47
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.79
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 327,
+          "elected": true,
+          "pct": 73.32
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 119,
+          "elected": false,
+          "pct": 26.68
+        }
+      ]
+    },
+    {
+      "boothId": 46432,
+      "name": "Redbank Plains (Oxley)",
+      "formal": 398,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 70.1,
+      "swing": 4.08,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "pct": 42.71
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 73,
+          "pct": 18.34
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 62,
+          "pct": 15.58
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 12.06
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 5.53
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 4.77
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 279,
+          "elected": true,
+          "pct": 70.1
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 119,
+          "elected": false,
+          "pct": 29.9
+        }
+      ]
+    },
+    {
+      "boothId": 6382,
+      "name": "Redbank",
+      "formal": 379,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 68.87,
+      "swing": 6.13,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 182,
+          "pct": 48.02
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 62,
+          "pct": 16.36
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 12.93
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 12.14
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 3.96
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 3.69
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 261,
+          "elected": true,
+          "pct": 68.87
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 118,
+          "elected": false,
+          "pct": 31.13
+        }
+      ]
+    },
+    {
+      "boothId": 83265,
+      "name": "Inala Central",
+      "formal": 307,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 75.9,
+      "swing": -2.13,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 191,
+          "pct": 62.21
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 46,
+          "pct": 14.98
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 10.42
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 4.23
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 4.23
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 2.93
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 233,
+          "elected": true,
+          "pct": 75.9
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 74,
+          "elected": false,
+          "pct": 24.1
+        }
+      ]
+    },
+    {
+      "boothId": 108793,
+      "name": "Acacia Ridge South (Oxley)",
+      "formal": 263,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 75.29,
+      "swing": 14.21,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 146,
+          "pct": 55.51
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 46,
+          "pct": 17.49
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 15.59
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 3.42
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 3.04
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 3.04
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 198,
+          "elected": true,
+          "pct": 75.29
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 65,
+          "elected": false,
+          "pct": 24.71
+        }
+      ]
+    },
+    {
+      "boothId": 83262,
+      "name": "Ellen Grove",
+      "formal": 254,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 63.78,
+      "swing": -1.29,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 118,
+          "pct": 46.46
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 60,
+          "pct": 23.62
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 11.81
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 10.63
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 3.94
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 3.15
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 162,
+          "elected": true,
+          "pct": 63.78
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 92,
+          "elected": false,
+          "pct": 36.22
+        }
+      ]
+    },
+    {
+      "boothId": 108439,
+      "name": "Special Hospital Team 1",
+      "formal": 219,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 62.1,
+      "swing": 5.92,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 115,
+          "pct": 52.51
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 67,
+          "pct": 30.59
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 4.57
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 9,
+          "pct": 4.11
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 4.11
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 3.2
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 136,
+          "elected": true,
+          "pct": 62.1
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 83,
+          "elected": false,
+          "pct": 37.9
+        }
+      ]
+    },
+    {
+      "boothId": 109705,
+      "name": "Springfield Central (Oxley)",
+      "formal": 152,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 73.68,
+      "swing": 12.16,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 85,
+          "pct": 55.92
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 29,
+          "pct": 19.08
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 24,
+          "pct": 15.79
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 6,
+          "pct": 3.95
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 1.97
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.97
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 112,
+          "elected": true,
+          "pct": 73.68
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 40,
+          "elected": false,
+          "pct": 26.32
+        }
+      ]
+    },
+    {
+      "boothId": 14230,
+      "name": "Brisbane City (Oxley)",
+      "formal": 95,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 82.11,
+      "swing": 12.11,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "pct": 47.37
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "pct": 30.53
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 11,
+          "pct": 11.58
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 4.21
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 3.16
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 2.11
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 78,
+          "elected": true,
+          "pct": 82.11
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 17,
+          "elected": false,
+          "pct": 17.89
+        }
+      ]
+    },
+    {
+      "boothId": 109815,
+      "name": "Special Hospital Team 2",
+      "formal": 32,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 84.38,
+      "swing": 27.24,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 23,
+          "pct": 71.88
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4,
+          "pct": 12.5
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 6.25
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 1,
+          "pct": 3.12
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 3.12
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 3.12
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 27,
+          "elected": true,
+          "pct": 84.38
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5,
+          "elected": false,
+          "pct": 15.62
+        }
+      ]
+    },
+    {
+      "boothId": 109440,
+      "name": "Other Mobile Team 1",
+      "formal": 30,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 73.33,
+      "swing": 13.08,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 15,
+          "pct": 50.0
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 13.33
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 6.67
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 22,
+          "elected": true,
+          "pct": 73.33
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 8,
+          "elected": false,
+          "pct": 26.67
+        }
+      ]
+    },
+    {
+      "boothId": 109447,
+      "name": "Other Mobile Team 3",
+      "formal": 29,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 79.31,
+      "swing": 18.93,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 13,
+          "pct": 44.83
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 20.69
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 13.79
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 10.34
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 6.9
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1,
+          "pct": 3.45
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 23,
+          "elected": true,
+          "pct": 79.31
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6,
+          "elected": false,
+          "pct": 20.69
+        }
+      ]
+    },
+    {
+      "boothId": 109450,
+      "name": "Other Mobile Team 5",
+      "formal": 18,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 83.33,
+      "swing": 23.08,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10,
+          "pct": 55.56
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 22.22
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 11.11
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 5.56
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1,
+          "pct": 5.56
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 15,
+          "elected": true,
+          "pct": 83.33
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3,
+          "elected": false,
+          "pct": 16.67
+        }
+      ]
+    },
+    {
+      "boothId": 65501,
+      "name": "EAV Oxley PPVC",
+      "formal": 17,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 70.59,
+      "swing": 6.3,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "pct": 52.94
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3,
+          "pct": 17.65
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 11.76
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 5.88
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 1,
+          "pct": 5.88
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 5.88
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 12,
+          "elected": true,
+          "pct": 70.59
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5,
+          "elected": false,
+          "pct": 29.41
+        }
+      ]
+    },
+    {
+      "boothId": 109449,
+      "name": "Other Mobile Team 4",
+      "formal": 2,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 100.0,
+      "swing": 39.69,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1,
+          "pct": 50.0
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 50.0
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2,
+          "elected": true,
+          "pct": 100.0
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 0,
+          "elected": false,
+          "pct": 0.0
+        }
+      ]
+    },
+    {
+      "boothId": 109445,
+      "name": "Other Mobile Team 2",
+      "formal": 0,
+      "winnerParty": "lnp",
+      "winnerSurname": "BURNS",
+      "winnerPct": null,
+      "swing": -39.73,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "elected": true,
+          "pct": 0.0
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 0,
+          "elected": false,
+          "pct": 0.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 104062,
+    "candidates": [
+      {
+        "id": "C40800",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Dick"
+      },
+      {
+        "id": "C40952",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Baker"
+      },
+      {
+        "id": "C41465",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Head"
+      },
+      {
+        "id": "C41397",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Maguire"
+      },
+      {
+        "id": "C41181",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 Burns"
+      },
+      {
+        "id": "C41281",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Holt"
+      },
+      {
+        "id": "C40913",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Tento"
+      }
+    ],
+    "rounds": [
+      {
+        "C40800": 54891,
+        "C40952": 5738,
+        "C41465": 1435,
+        "C41397": 2985,
+        "C41181": 21976,
+        "C41281": 13979,
+        "C40913": 3058
+      },
+      {
+        "C40800": 55114,
+        "C40952": 5906,
+        "C41397": 3201,
+        "C41181": 22069,
+        "C41281": 14487,
+        "C40913": 3285
+      },
+      {
+        "C40800": 55575,
+        "C40952": 7154,
+        "C41181": 22591,
+        "C41281": 14749,
+        "C40913": 3993
+      },
+      {
+        "C40800": 56129,
+        "C40952": 9022,
+        "C41181": 23291,
+        "C41281": 15620
+      },
+      {
+        "C40800": 58124,
+        "C41181": 28539,
+        "C41281": 17399
+      },
+      {
+        "C40800": 72003,
+        "C41181": 32059
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            64.13,
+            55.77,
+            53.77,
+            59.08,
+            56.39,
+            61.59,
+            69.19
+          ]
+        },
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            44.23,
+            46.23,
+            40.92,
+            43.61,
+            38.41,
+            30.81
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            35.87,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 32.68,
+            "FFP": 2.09,
+            "GRN": 5.13,
+            "ALP": 58.56,
+            "OTH": 1.54
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "GRN": 11.79,
+            "ALP": 44.71,
+            "FFP": 5.15,
+            "LIB": 38.35
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "GRN": 5.38,
+            "LIB": 38.44,
+            "TOP": 7.1,
+            "ALP": 43.1,
+            "FFP": 2.05,
+            "OTH": 3.93
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "LIB": 32.08,
+            "ALP": 46.09,
+            "GRN": 8.76,
+            "ON": 8.42,
+            "FFP": 3.28,
+            "OTH": 1.36
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "ON": 6.3,
+            "ALP": 42.53,
+            "TOP": 2.62,
+            "GRN": 11.64,
+            "LIB": 34.57,
+            "OTH": 2.35
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "LIB": 28.7,
+            "GRN": 14.25,
+            "TOP": 5.32,
+            "ALP": 45.89,
+            "ON": 5.84
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "LIB": 21.12,
+            "FFP": 2.94,
+            "ALP": 52.75,
+            "GRN": 13.43,
+            "ON": 5.51,
+            "CYA": 2.87,
+            "OTH": 1.38
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 186519,
+    "medianAge": 34,
+    "medianHouseholdIncomeWeekly": 1843,
+    "medianRentWeekly": 360,
+    "averageHouseholdSize": 2.9,
+    "bornOverseasPct": 38.1,
+    "indigenousPct": 3.6,
+    "bachelorPlusPct": 39.6,
+    "renterPct": 35.2,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 110455,
+        "pct": 61.94,
+        "natPct": 70.73
+      },
+      {
+        "label": "New Zealand",
+        "count": 5079,
+        "pct": 2.85,
+        "natPct": 1.11
+      },
+      {
+        "label": "India",
+        "count": 3215,
+        "pct": 1.8,
+        "natPct": 1.51
+      },
+      {
+        "label": "England",
+        "count": 2909,
+        "pct": 1.63,
+        "natPct": 1.95
+      },
+      {
+        "label": "Philippines",
+        "count": 1089,
+        "pct": 0.61,
+        "natPct": 0.47
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 79652,
+        "pct": 42.7,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 64541,
+        "pct": 34.6,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 15204,
+        "pct": 8.15,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 9239,
+        "pct": 4.95,
+        "natPct": 2.42
+      },
+      {
+        "label": "Islam",
+        "count": 6896,
+        "pct": 3.7,
+        "natPct": 3.2
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Oxley is an Australian Electoral Division in Queensland. It is currently represented by Milton Dick, the current Speaker of the House of Representatives, who is a member of the Australian Labor Party (ALP).",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Oxley",
+    "retrievedAt": "2026-01-01T09:59:49Z"
+  }
+}

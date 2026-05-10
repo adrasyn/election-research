@@ -1,0 +1,4459 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "KINGSFORD_SMITH",
+    "divisionId": 127,
+    "name": "Kingsford Smith",
+    "state": "NSW",
+    "totalFormal": 99132,
+    "informalVotes": 5435,
+    "informalRate": 6.17,
+    "winner": {
+      "candidateId": "C41386",
+      "surname": "THISTLETHWAITE",
+      "givenName": "Matt",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 34.38,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41386",
+      "surname": "THISTLETHWAITE",
+      "givenName": "Matt",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 42578,
+      "pct": 51.54
+    },
+    {
+      "candidateId": "C41477",
+      "surname": "COLE",
+      "givenName": "Brad",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 21263,
+      "pct": 25.74
+    },
+    {
+      "candidateId": "C41587",
+      "surname": "BROWN",
+      "givenName": "Keiron",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 11157,
+      "pct": 13.51
+    },
+    {
+      "candidateId": "C42027",
+      "surname": "JELIC",
+      "givenName": "Mark",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 4758,
+      "pct": 5.76
+    },
+    {
+      "candidateId": "C41978",
+      "surname": "PARKER",
+      "givenName": "Elsa",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 2854,
+      "pct": 3.45
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41386",
+      "surname": "THISTLETHWAITE",
+      "givenName": "Matt",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 66604,
+      "pct": 67.19,
+      "elected": true
+    },
+    {
+      "candidateId": "C41477",
+      "surname": "COLE",
+      "givenName": "Brad",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 32528,
+      "pct": 32.81,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 83779,
+      "name": "Maroubra PPVC",
+      "formal": 17305,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 64.36,
+      "swing": 3.44,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9159,
+          "pct": 52.93
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5235,
+          "pct": 30.25
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1579,
+          "pct": 9.12
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 908,
+          "pct": 5.25
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 424,
+          "pct": 2.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11137,
+          "elected": true,
+          "pct": 64.36
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6168,
+          "elected": false,
+          "pct": 35.64
+        }
+      ]
+    },
+    {
+      "boothId": 82790,
+      "name": "Eastlakes KINGSFORD SMITH PPVC",
+      "formal": 7096,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 69.67,
+      "swing": 4.48,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3905,
+          "pct": 55.03
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1707,
+          "pct": 24.06
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 894,
+          "pct": 12.6
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 416,
+          "pct": 5.86
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 174,
+          "pct": 2.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4944,
+          "elected": true,
+          "pct": 69.67
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2152,
+          "elected": false,
+          "pct": 30.33
+        }
+      ]
+    },
+    {
+      "boothId": 34029,
+      "name": "Randwick KINGSFORD SMITH PPVC",
+      "formal": 6665,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 66.36,
+      "swing": 2.9,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3236,
+          "pct": 48.55
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1911,
+          "pct": 28.67
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 989,
+          "pct": 14.84
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 271,
+          "pct": 4.07
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 258,
+          "pct": 3.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4423,
+          "elected": true,
+          "pct": 66.36
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2242,
+          "elected": false,
+          "pct": 33.64
+        }
+      ]
+    },
+    {
+      "boothId": 1447,
+      "name": "Hillsdale",
+      "formal": 2149,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 75.01,
+      "swing": 4.85,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1213,
+          "pct": 56.44
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 396,
+          "pct": 18.43
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 334,
+          "pct": 15.54
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 114,
+          "pct": 5.3
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 92,
+          "pct": 4.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1612,
+          "elected": true,
+          "pct": 75.01
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 537,
+          "elected": false,
+          "pct": 24.99
+        }
+      ]
+    },
+    {
+      "boothId": 122691,
+      "name": "Rockdale KINGSFORD SMITH PPVC",
+      "formal": 2103,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 56.3,
+      "swing": -2.38,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 915,
+          "pct": 43.51
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 686,
+          "pct": 32.62
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 239,
+          "pct": 11.36
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 195,
+          "pct": 9.27
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 68,
+          "pct": 3.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1184,
+          "elected": true,
+          "pct": 56.3
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 919,
+          "elected": false,
+          "pct": 43.7
+        }
+      ]
+    },
+    {
+      "boothId": 1437,
+      "name": "Pagewood",
+      "formal": 2046,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 67.25,
+      "swing": 3.09,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1083,
+          "pct": 52.93
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 520,
+          "pct": 25.42
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 247,
+          "pct": 12.07
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 130,
+          "pct": 6.35
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 66,
+          "pct": 3.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1376,
+          "elected": true,
+          "pct": 67.25
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 670,
+          "elected": false,
+          "pct": 32.75
+        }
+      ]
+    },
+    {
+      "boothId": 1436,
+      "name": "Botany",
+      "formal": 2040,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 72.6,
+      "swing": 6.03,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1134,
+          "pct": 55.59
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 421,
+          "pct": 20.64
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 271,
+          "pct": 13.28
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 121,
+          "pct": 5.93
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 93,
+          "pct": 4.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1481,
+          "elected": true,
+          "pct": 72.6
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 559,
+          "elected": false,
+          "pct": 27.4
+        }
+      ]
+    },
+    {
+      "boothId": 1461,
+      "name": "Maroubra East",
+      "formal": 1874,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 72.57,
+      "swing": 6.12,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 984,
+          "pct": 52.51
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 389,
+          "pct": 20.76
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 300,
+          "pct": 16.01
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 119,
+          "pct": 6.35
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 82,
+          "pct": 4.38
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1360,
+          "elected": true,
+          "pct": 72.57
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 514,
+          "elected": false,
+          "pct": 27.43
+        }
+      ]
+    },
+    {
+      "boothId": 1451,
+      "name": "Malabar",
+      "formal": 1602,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 70.1,
+      "swing": 2.13,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 866,
+          "pct": 54.06
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 378,
+          "pct": 23.6
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 211,
+          "pct": 13.17
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 103,
+          "pct": 6.43
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 44,
+          "pct": 2.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1123,
+          "elected": true,
+          "pct": 70.1
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 479,
+          "elected": false,
+          "pct": 29.9
+        }
+      ]
+    },
+    {
+      "boothId": 2310,
+      "name": "Coogee South",
+      "formal": 1554,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 62.81,
+      "swing": 6.8,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 758,
+          "pct": 48.78
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 487,
+          "pct": 31.34
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 176,
+          "pct": 11.33
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 4.95
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 56,
+          "pct": 3.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 976,
+          "elected": true,
+          "pct": 62.81
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 578,
+          "elected": false,
+          "pct": 37.19
+        }
+      ]
+    },
+    {
+      "boothId": 1449,
+      "name": "La Perouse",
+      "formal": 1438,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 72.11,
+      "swing": 6.67,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 783,
+          "pct": 54.45
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 305,
+          "pct": 21.21
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 217,
+          "pct": 15.09
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 6.47
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 40,
+          "pct": 2.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1037,
+          "elected": true,
+          "pct": 72.11
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 401,
+          "elected": false,
+          "pct": 27.89
+        }
+      ]
+    },
+    {
+      "boothId": 1457,
+      "name": "Mascot East",
+      "formal": 1410,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 73.12,
+      "swing": 6.7,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 832,
+          "pct": 59.01
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 292,
+          "pct": 20.71
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 158,
+          "pct": 11.21
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 96,
+          "pct": 6.81
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1031,
+          "elected": true,
+          "pct": 73.12
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 379,
+          "elected": false,
+          "pct": 26.88
+        }
+      ]
+    },
+    {
+      "boothId": 1456,
+      "name": "Mascot",
+      "formal": 1397,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 73.66,
+      "swing": 3.61,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 777,
+          "pct": 55.62
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 275,
+          "pct": 19.69
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 213,
+          "pct": 15.25
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 6.01
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 3.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1029,
+          "elected": true,
+          "pct": 73.66
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 368,
+          "elected": false,
+          "pct": 26.34
+        }
+      ]
+    },
+    {
+      "boothId": 1455,
+      "name": "Maroubra Junction",
+      "formal": 1369,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 66.98,
+      "swing": 5.89,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 704,
+          "pct": 51.42
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 361,
+          "pct": 26.37
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 163,
+          "pct": 11.91
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 5.19
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 70,
+          "pct": 5.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 917,
+          "elected": true,
+          "pct": 66.98
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 452,
+          "elected": false,
+          "pct": 33.02
+        }
+      ]
+    },
+    {
+      "boothId": 80144,
+      "name": "Brighton-Le-Sands (Kingsford Smith)",
+      "formal": 1366,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 59.22,
+      "swing": 5.98,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 587,
+          "pct": 42.97
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 414,
+          "pct": 30.31
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 12.15
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 141,
+          "pct": 10.32
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 58,
+          "pct": 4.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 809,
+          "elected": true,
+          "pct": 59.22
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 557,
+          "elected": false,
+          "pct": 40.78
+        }
+      ]
+    },
+    {
+      "boothId": 1439,
+      "name": "Chifley",
+      "formal": 1339,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 69.01,
+      "swing": 3.5,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 752,
+          "pct": 56.16
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 336,
+          "pct": 25.09
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 142,
+          "pct": 10.6
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 65,
+          "pct": 4.85
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 44,
+          "pct": 3.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 924,
+          "elected": true,
+          "pct": 69.01
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 415,
+          "elected": false,
+          "pct": 30.99
+        }
+      ]
+    },
+    {
+      "boothId": 1460,
+      "name": "Maroubra South",
+      "formal": 1338,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 68.98,
+      "swing": 2.07,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 718,
+          "pct": 53.66
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 334,
+          "pct": 24.96
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 171,
+          "pct": 12.78
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 4.78
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 51,
+          "pct": 3.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 923,
+          "elected": true,
+          "pct": 68.98
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 415,
+          "elected": false,
+          "pct": 31.02
+        }
+      ]
+    },
+    {
+      "boothId": 2308,
+      "name": "Coogee",
+      "formal": 1329,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 73.51,
+      "swing": 6.16,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 689,
+          "pct": 51.84
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 281,
+          "pct": 21.14
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 255,
+          "pct": 19.19
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 54,
+          "pct": 4.06
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 3.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 977,
+          "elected": true,
+          "pct": 73.51
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 352,
+          "elected": false,
+          "pct": 26.49
+        }
+      ]
+    },
+    {
+      "boothId": 2316,
+      "name": "Kensington West",
+      "formal": 1254,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 62.12,
+      "swing": 3.41,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 565,
+          "pct": 45.06
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 371,
+          "pct": 29.59
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 190,
+          "pct": 15.15
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 6.06
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 4.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 779,
+          "elected": true,
+          "pct": 62.12
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 475,
+          "elected": false,
+          "pct": 37.88
+        }
+      ]
+    },
+    {
+      "boothId": 1434,
+      "name": "Banksmeadow",
+      "formal": 1253,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 72.23,
+      "swing": 4.04,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 682,
+          "pct": 54.43
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 256,
+          "pct": 20.43
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 189,
+          "pct": 15.08
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 6.3
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 47,
+          "pct": 3.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 905,
+          "elected": true,
+          "pct": 72.23
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 348,
+          "elected": false,
+          "pct": 27.77
+        }
+      ]
+    },
+    {
+      "boothId": 2313,
+      "name": "Kensington",
+      "formal": 1211,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 77.46,
+      "swing": 7.44,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 578,
+          "pct": 47.73
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 320,
+          "pct": 26.42
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 205,
+          "pct": 16.93
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 56,
+          "pct": 4.62
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 4.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 938,
+          "elected": true,
+          "pct": 77.46
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 273,
+          "elected": false,
+          "pct": 22.54
+        }
+      ]
+    },
+    {
+      "boothId": 2312,
+      "name": "Daceyville",
+      "formal": 1210,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 70.91,
+      "swing": 4.92,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 627,
+          "pct": 51.82
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 272,
+          "pct": 22.48
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 184,
+          "pct": 15.21
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 6.28
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 51,
+          "pct": 4.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 858,
+          "elected": true,
+          "pct": 70.91
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 352,
+          "elected": false,
+          "pct": 29.09
+        }
+      ]
+    },
+    {
+      "boothId": 1453,
+      "name": "Maroubra Bay",
+      "formal": 1193,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 77.28,
+      "swing": 9.3,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 617,
+          "pct": 51.72
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 261,
+          "pct": 21.88
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 213,
+          "pct": 17.85
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 54,
+          "pct": 4.53
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 4.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 922,
+          "elected": true,
+          "pct": 77.28
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 271,
+          "elected": false,
+          "pct": 22.72
+        }
+      ]
+    },
+    {
+      "boothId": 2307,
+      "name": "Coogee Beach (Kingsford Smith)",
+      "formal": 1152,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 73.61,
+      "swing": 6.48,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 565,
+          "pct": 49.05
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 251,
+          "pct": 21.79
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 241,
+          "pct": 20.92
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 4.17
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 4.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 848,
+          "elected": true,
+          "pct": 73.61
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 304,
+          "elected": false,
+          "pct": 26.39
+        }
+      ]
+    },
+    {
+      "boothId": 1458,
+      "name": "Mascot North",
+      "formal": 1126,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 74.42,
+      "swing": 7.08,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 627,
+          "pct": 55.68
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 204,
+          "pct": 18.12
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 194,
+          "pct": 17.23
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 5.42
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 40,
+          "pct": 3.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 838,
+          "elected": true,
+          "pct": 74.42
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 288,
+          "elected": false,
+          "pct": 25.58
+        }
+      ]
+    },
+    {
+      "boothId": 2314,
+      "name": "Kensington Park",
+      "formal": 1117,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 68.31,
+      "swing": 8.08,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 547,
+          "pct": 48.97
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 285,
+          "pct": 25.51
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 187,
+          "pct": 16.74
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 4.39
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 49,
+          "pct": 4.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 763,
+          "elected": true,
+          "pct": 68.31
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 354,
+          "elected": false,
+          "pct": 31.69
+        }
+      ]
+    },
+    {
+      "boothId": 47682,
+      "name": "Maroubra Central",
+      "formal": 1102,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 68.51,
+      "swing": 3.15,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 540,
+          "pct": 49.0
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 263,
+          "pct": 23.87
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 191,
+          "pct": 17.33
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 5.26
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 4.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 755,
+          "elected": true,
+          "pct": 68.51
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 347,
+          "elected": false,
+          "pct": 31.49
+        }
+      ]
+    },
+    {
+      "boothId": 98005,
+      "name": "Monterey (Kingsford Smith)",
+      "formal": 1071,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 52.85,
+      "swing": 10.34,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 437,
+          "pct": 40.8
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 385,
+          "pct": 35.95
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 103,
+          "pct": 9.62
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 103,
+          "pct": 9.62
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 4.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 566,
+          "elected": true,
+          "pct": 52.85
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 505,
+          "elected": false,
+          "pct": 47.15
+        }
+      ]
+    },
+    {
+      "boothId": 2325,
+      "name": "Randwick South",
+      "formal": 1042,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 73.8,
+      "swing": 4.36,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 562,
+          "pct": 53.93
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 237,
+          "pct": 22.74
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 172,
+          "pct": 16.51
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 3.74
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 3.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 769,
+          "elected": true,
+          "pct": 73.8
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 273,
+          "elected": false,
+          "pct": 26.2
+        }
+      ]
+    },
+    {
+      "boothId": 2326,
+      "name": "The Spot",
+      "formal": 930,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 71.4,
+      "swing": 2.21,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 459,
+          "pct": 49.35
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 212,
+          "pct": 22.8
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 181,
+          "pct": 19.46
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 4.84
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 3.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 664,
+          "elected": true,
+          "pct": 71.4
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 266,
+          "elected": false,
+          "pct": 28.6
+        }
+      ]
+    },
+    {
+      "boothId": 51,
+      "name": "Kyeemagh (Kingsford Smith)",
+      "formal": 907,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 57.66,
+      "swing": 3.53,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 387,
+          "pct": 42.67
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 277,
+          "pct": 30.54
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 107,
+          "pct": 11.8
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 105,
+          "pct": 11.58
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 3.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 523,
+          "elected": true,
+          "pct": 57.66
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 384,
+          "elected": false,
+          "pct": 42.34
+        }
+      ]
+    },
+    {
+      "boothId": 1459,
+      "name": "Matraville",
+      "formal": 888,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 66.78,
+      "swing": 1.31,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 475,
+          "pct": 53.49
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 240,
+          "pct": 27.03
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 88,
+          "pct": 9.91
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 6.64
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 2.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 593,
+          "elected": true,
+          "pct": 66.78
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 295,
+          "elected": false,
+          "pct": 33.22
+        }
+      ]
+    },
+    {
+      "boothId": 1443,
+      "name": "Eastlakes East",
+      "formal": 882,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 75.96,
+      "swing": 2.32,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 472,
+          "pct": 53.51
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 174,
+          "pct": 19.73
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 153,
+          "pct": 17.35
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 65,
+          "pct": 7.37
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 2.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 670,
+          "elected": true,
+          "pct": 75.96
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 212,
+          "elected": false,
+          "pct": 24.04
+        }
+      ]
+    },
+    {
+      "boothId": 61,
+      "name": "Ramsgate Beach (Kingsford Smith)",
+      "formal": 860,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 56.28,
+      "swing": 7.39,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 350,
+          "pct": 40.7
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 282,
+          "pct": 32.79
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 98,
+          "pct": 11.4
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 86,
+          "pct": 10.0
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 44,
+          "pct": 5.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 484,
+          "elected": true,
+          "pct": 56.28
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 376,
+          "elected": false,
+          "pct": 43.72
+        }
+      ]
+    },
+    {
+      "boothId": 2317,
+      "name": "Randwick Central",
+      "formal": 826,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 74.21,
+      "swing": 7.79,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 438,
+          "pct": 53.03
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 164,
+          "pct": 19.85
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 154,
+          "pct": 18.64
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 4.48
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 4.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 613,
+          "elected": true,
+          "pct": 74.21
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 213,
+          "elected": false,
+          "pct": 25.79
+        }
+      ]
+    },
+    {
+      "boothId": 2318,
+      "name": "Kingsford South",
+      "formal": 823,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 70.35,
+      "swing": 5.67,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 413,
+          "pct": 50.18
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 187,
+          "pct": 22.72
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 145,
+          "pct": 17.62
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 5.71
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 3.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 579,
+          "elected": true,
+          "pct": 70.35
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 244,
+          "elected": false,
+          "pct": 29.65
+        }
+      ]
+    },
+    {
+      "boothId": 2309,
+      "name": "Coogee Central",
+      "formal": 773,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 71.67,
+      "swing": -1.67,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 363,
+          "pct": 46.96
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 167,
+          "pct": 21.6
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 21.47
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 5.56
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 4.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 554,
+          "elected": true,
+          "pct": 71.67
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 219,
+          "elected": false,
+          "pct": 28.33
+        }
+      ]
+    },
+    {
+      "boothId": 83742,
+      "name": "Maroubra",
+      "formal": 691,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 64.25,
+      "swing": 5.46,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 316,
+          "pct": 45.73
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 195,
+          "pct": 28.22
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 107,
+          "pct": 15.48
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 6.37
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 4.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 444,
+          "elected": true,
+          "pct": 64.25
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 247,
+          "elected": false,
+          "pct": 35.75
+        }
+      ]
+    },
+    {
+      "boothId": 65182,
+      "name": "Wynyard KINGSFORD SMITH PPVC",
+      "formal": 663,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 65.16,
+      "swing": -0.61,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 319,
+          "pct": 48.11
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 193,
+          "pct": 29.11
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 105,
+          "pct": 15.84
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 4.52
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 2.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 432,
+          "elected": true,
+          "pct": 65.16
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 231,
+          "elected": false,
+          "pct": 34.84
+        }
+      ]
+    },
+    {
+      "boothId": 83741,
+      "name": "Matraville South",
+      "formal": 663,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 69.23,
+      "swing": 6.77,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 372,
+          "pct": 56.11
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 145,
+          "pct": 21.87
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 11.16
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 7.39
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 3.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 459,
+          "elected": true,
+          "pct": 69.23
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 204,
+          "elected": false,
+          "pct": 30.77
+        }
+      ]
+    },
+    {
+      "boothId": 83605,
+      "name": "Brighton North",
+      "formal": 618,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 60.84,
+      "swing": 3.32,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 256,
+          "pct": 41.42
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 161,
+          "pct": 26.05
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 87,
+          "pct": 14.08
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 82,
+          "pct": 13.27
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 5.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 376,
+          "elected": true,
+          "pct": 60.84
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 242,
+          "elected": false,
+          "pct": 39.16
+        }
+      ]
+    },
+    {
+      "boothId": 57477,
+      "name": "Rosebery West (Kingsford Smith)",
+      "formal": 558,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 74.19,
+      "swing": 8.6,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 291,
+          "pct": 52.15
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 117,
+          "pct": 20.97
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 109,
+          "pct": 19.53
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 4.84
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 2.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 414,
+          "elected": true,
+          "pct": 74.19
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 144,
+          "elected": false,
+          "pct": 25.81
+        }
+      ]
+    },
+    {
+      "boothId": 122748,
+      "name": "Randwick West (Kingsford Smith)",
+      "formal": 554,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 76.53,
+      "swing": 5.85,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 271,
+          "pct": 48.92
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 131,
+          "pct": 23.65
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 98,
+          "pct": 17.69
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 5.23
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 4.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 424,
+          "elected": true,
+          "pct": 76.53
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 130,
+          "elected": false,
+          "pct": 23.47
+        }
+      ]
+    },
+    {
+      "boothId": 65693,
+      "name": "Haymarket KINGSFORD SMITH PPVC",
+      "formal": 538,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 71.75,
+      "swing": 4.65,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 296,
+          "pct": 55.02
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 118,
+          "pct": 21.93
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 82,
+          "pct": 15.24
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 4.46
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 3.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 386,
+          "elected": true,
+          "pct": 71.75
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 152,
+          "elected": false,
+          "pct": 28.25
+        }
+      ]
+    },
+    {
+      "boothId": 108991,
+      "name": "Bondi Junction KINGSFORD SMITH PPVC",
+      "formal": 463,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 58.75,
+      "swing": -3.39,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 194,
+          "pct": 41.9
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 156,
+          "pct": 33.69
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 63,
+          "pct": 13.61
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 6.48
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 4.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 272,
+          "elected": true,
+          "pct": 58.75
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 191,
+          "elected": false,
+          "pct": 41.25
+        }
+      ]
+    },
+    {
+      "boothId": 83745,
+      "name": "Coogee East",
+      "formal": 380,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 62.89,
+      "swing": 5.35,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 192,
+          "pct": 50.53
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 118,
+          "pct": 31.05
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 8.68
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 5.53
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 4.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 239,
+          "elected": true,
+          "pct": 62.89
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 141,
+          "elected": false,
+          "pct": 37.11
+        }
+      ]
+    },
+    {
+      "boothId": 1442,
+      "name": "Eastlakes",
+      "formal": 374,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 68.18,
+      "swing": 1.31,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 210,
+          "pct": 56.15
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 94,
+          "pct": 25.13
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 8.02
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 6.42
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 4.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 255,
+          "elected": true,
+          "pct": 68.18
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 119,
+          "elected": false,
+          "pct": 31.82
+        }
+      ]
+    },
+    {
+      "boothId": 83740,
+      "name": "Kensington Central",
+      "formal": 360,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 60.28,
+      "swing": -3.8,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 169,
+          "pct": 46.94
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 116,
+          "pct": 32.22
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 11.94
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 6.94
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 1.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 217,
+          "elected": true,
+          "pct": 60.28
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "elected": false,
+          "pct": 39.72
+        }
+      ]
+    },
+    {
+      "boothId": 122747,
+      "name": "Randwick East (Kingsford Smith)",
+      "formal": 357,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 68.07,
+      "swing": -1.08,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 167,
+          "pct": 46.78
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 86,
+          "pct": 24.09
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 72,
+          "pct": 20.17
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 5.04
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 3.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 243,
+          "elected": true,
+          "pct": 68.07
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 114,
+          "elected": false,
+          "pct": 31.93
+        }
+      ]
+    },
+    {
+      "boothId": 109210,
+      "name": "Special Hospital Team 2",
+      "formal": 277,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 61.37,
+      "swing": -0.69,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 147,
+          "pct": 53.07
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 98,
+          "pct": 35.38
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 6.14
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 3.25
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 2.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "elected": true,
+          "pct": 61.37
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 107,
+          "elected": false,
+          "pct": 38.63
+        }
+      ]
+    },
+    {
+      "boothId": 97568,
+      "name": "Ultimo KINGSFORD SMITH PPVC",
+      "formal": 232,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 70.26,
+      "swing": -3.79,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 105,
+          "pct": 45.26
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 53,
+          "pct": 22.84
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 52,
+          "pct": 22.41
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 6.03
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 3.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 163,
+          "elected": true,
+          "pct": 70.26
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 69,
+          "elected": false,
+          "pct": 29.74
+        }
+      ]
+    },
+    {
+      "boothId": 2311,
+      "name": "Randwick (Kingsford Smith)",
+      "formal": 228,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 77.19,
+      "swing": 6.91,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 131,
+          "pct": 57.46
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 20.18
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 38,
+          "pct": 16.67
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 3.95
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 1.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 176,
+          "elected": true,
+          "pct": 77.19
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 52,
+          "elected": false,
+          "pct": 22.81
+        }
+      ]
+    },
+    {
+      "boothId": 83744,
+      "name": "Botany South",
+      "formal": 166,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 74.1,
+      "swing": 5.35,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 96,
+          "pct": 57.83
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 34,
+          "pct": 20.48
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 21,
+          "pct": 12.65
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 6.02
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 3.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 123,
+          "elected": true,
+          "pct": 74.1
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 43,
+          "elected": false,
+          "pct": 25.9
+        }
+      ]
+    },
+    {
+      "boothId": 108987,
+      "name": "Special Hospital Team 1",
+      "formal": 155,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 70.97,
+      "swing": 8.87,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 103,
+          "pct": 66.45
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 37,
+          "pct": 23.87
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 5.16
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 3.23
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "elected": true,
+          "pct": 70.97
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 45,
+          "elected": false,
+          "pct": 29.03
+        }
+      ]
+    },
+    {
+      "boothId": 65270,
+      "name": "Waverley KINGSFORD SMITH PPVC",
+      "formal": 132,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 58.33,
+      "swing": -3.88,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "pct": 41.67
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 45,
+          "pct": 34.09
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 20,
+          "pct": 15.15
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 5.3
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 3.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 77,
+          "elected": true,
+          "pct": 58.33
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 55,
+          "elected": false,
+          "pct": 41.67
+        }
+      ]
+    },
+    {
+      "boothId": 123959,
+      "name": "Other Mobile Team 2",
+      "formal": 64,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 76.56,
+      "swing": 14.61,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "pct": 60.94
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 11,
+          "pct": 17.19
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 9.38
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 7.81
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 4.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "elected": true,
+          "pct": 76.56
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 15,
+          "elected": false,
+          "pct": 23.44
+        }
+      ]
+    },
+    {
+      "boothId": 108396,
+      "name": "Wynyard (Kingsford Smith)",
+      "formal": 40,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 80.0,
+      "swing": 5.0,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 18,
+          "pct": 45.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 27.5
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6,
+          "pct": 15.0
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 7.5
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 5.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 32,
+          "elected": true,
+          "pct": 80.0
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 8,
+          "elected": false,
+          "pct": 20.0
+        }
+      ]
+    },
+    {
+      "boothId": 124101,
+      "name": "Other Mobile Team 3",
+      "formal": 23,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 82.61,
+      "swing": 20.53,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "pct": 69.57
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 13.04
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "pct": 13.04
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 4.35
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "elected": true,
+          "pct": 82.61
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "elected": false,
+          "pct": 17.39
+        }
+      ]
+    },
+    {
+      "boothId": 108395,
+      "name": "Ultimo (Kingsford Smith)",
+      "formal": 23,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 82.61,
+      "swing": 18.32,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10,
+          "pct": 43.48
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 30.43
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "pct": 17.39
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 8.7
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "elected": true,
+          "pct": 82.61
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "elected": false,
+          "pct": 17.39
+        }
+      ]
+    },
+    {
+      "boothId": 65469,
+      "name": "EAV Kingsford Smith PPVC",
+      "formal": 11,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 63.64,
+      "swing": -11.36,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 54.55
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "pct": 36.36
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 9.09
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "elected": true,
+          "pct": 63.64
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "elected": false,
+          "pct": 36.36
+        }
+      ]
+    },
+    {
+      "boothId": 123956,
+      "name": "Other Mobile Team 1",
+      "formal": 0,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": null,
+      "swing": -62.13,
+      "candidates": [
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "elected": true,
+          "pct": 0.0
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "elected": false,
+          "pct": 0.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 99132,
+    "candidates": [
+      {
+        "id": "C42027",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Jelic"
+      },
+      {
+        "id": "C41386",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Thistlethwaite"
+      },
+      {
+        "id": "C41477",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Cole"
+      },
+      {
+        "id": "C41978",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Parker"
+      },
+      {
+        "id": "C41587",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Brown"
+      }
+    ],
+    "rounds": [
+      {
+        "C42027": 5865,
+        "C41386": 50346,
+        "C41477": 25924,
+        "C41978": 3557,
+        "C41587": 13440
+      },
+      {
+        "C42027": 6440,
+        "C41386": 51355,
+        "C41477": 26549,
+        "C41587": 14788
+      },
+      {
+        "C41386": 53009,
+        "C41477": 30513,
+        "C41587": 15610
+      },
+      {
+        "C41386": 66604,
+        "C41477": 32528
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            63.29,
+            55.16,
+            52.74,
+            58.57,
+            58.81,
+            64.5,
+            67.19
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            36.71,
+            44.84,
+            47.26,
+            41.43,
+            41.19,
+            35.5,
+            32.81
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 33.9,
+            "GRN": 10.37,
+            "ALP": 52.85,
+            "OTH": 2.88
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "GRN": 12.05,
+            "ON": 0.89,
+            "LIB": 41.25,
+            "ALP": 43.83,
+            "OTH": 1.98
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "GRN": 9.79,
+            "LIB": 43.5,
+            "ALP": 42.02,
+            "OTH": 4.68
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "CDP": 2.33,
+            "LIB": 37.54,
+            "GRN": 10.53,
+            "FUT": 2.23,
+            "ALP": 47.37
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "LIB": 36.43,
+            "ALP": 45.17,
+            "GRN": 12.1,
+            "OTH": 6.31
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "ALP": 47.91,
+            "ON": 3.13,
+            "LIB": 28.66,
+            "GRN": 16.83,
+            "TOP": 3.48
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "ON": 5.92,
+            "ALP": 50.79,
+            "LIB": 26.15,
+            "IND": 3.59,
+            "GRN": 13.56
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 181933,
+    "medianAge": 36,
+    "medianHouseholdIncomeWeekly": 2196,
+    "medianRentWeekly": 550,
+    "averageHouseholdSize": 2.4,
+    "bornOverseasPct": 45.4,
+    "indigenousPct": 1.9,
+    "bachelorPlusPct": 56.5,
+    "renterPct": 47.9,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 94441,
+        "pct": 54.64,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 4065,
+        "pct": 2.35,
+        "natPct": 1.95
+      },
+      {
+        "label": "China",
+        "count": 3632,
+        "pct": 2.1,
+        "natPct": 1.0
+      },
+      {
+        "label": "Brazil",
+        "count": 2802,
+        "pct": 1.62,
+        "natPct": 0.19
+      },
+      {
+        "label": "Indonesia",
+        "count": 2404,
+        "pct": 1.39,
+        "natPct": 0.15
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 85707,
+        "pct": 47.11,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 61638,
+        "pct": 33.88,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 13467,
+        "pct": 7.4,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 5909,
+        "pct": 3.25,
+        "natPct": 2.42
+      },
+      {
+        "label": "Judaism",
+        "count": 5660,
+        "pct": 3.11,
+        "natPct": 0.39
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Kingsford Smith is an Australian electoral division in the state of New South Wales. It is located south and south-east of the Sydney CBD, comprising most of the City of Randwick and Bayside Council. It is currently represented by Labor MP Matt Thistlethwaite.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Kingsford_Smith",
+    "retrievedAt": "2026-03-03T12:40:10Z"
+  }
+}

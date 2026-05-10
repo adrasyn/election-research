@@ -1,0 +1,5681 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "GROOM",
+    "divisionId": 164,
+    "name": "Groom",
+    "state": "QLD",
+    "totalFormal": 103219,
+    "informalVotes": 4537,
+    "informalRate": 5.48,
+    "winner": {
+      "candidateId": "C41173",
+      "surname": "HAMILTON",
+      "givenName": "Garth",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "LNP",
+    "tcpMargin": 11.34,
+    "result": "LNP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41173",
+      "surname": "HAMILTON",
+      "givenName": "Garth",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 30775,
+      "pct": 39.3
+    },
+    {
+      "candidateId": "C36178",
+      "surname": "HOLT",
+      "givenName": "Suzie",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 14247,
+      "pct": 18.2
+    },
+    {
+      "candidateId": "C40741",
+      "surname": "EDWARDS",
+      "givenName": "Richard",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 13104,
+      "pct": 16.74
+    },
+    {
+      "candidateId": "C40942",
+      "surname": "KONZ",
+      "givenName": "Rebecca",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 7381,
+      "pct": 9.43
+    },
+    {
+      "candidateId": "C41242",
+      "surname": "NELLIGAN",
+      "givenName": "Alyce",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 4522,
+      "pct": 5.78
+    },
+    {
+      "candidateId": "C40896",
+      "surname": "TODD",
+      "givenName": "Alexandra",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 3165,
+      "pct": 4.04
+    },
+    {
+      "candidateId": "C37615",
+      "surname": "SMOLENSKI",
+      "givenName": "Kirstie",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 2906,
+      "pct": 3.71
+    },
+    {
+      "candidateId": "C41349",
+      "surname": "MARR",
+      "givenName": "Jamie",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2198,
+      "pct": 2.81
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41173",
+      "surname": "HAMILTON",
+      "givenName": "Garth",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 57467,
+      "pct": 55.67,
+      "elected": true
+    },
+    {
+      "candidateId": "C36178",
+      "surname": "HOLT",
+      "givenName": "Suzie",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 45752,
+      "pct": 44.33,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 83245,
+      "name": "South Toowoomba PPVC",
+      "formal": 12092,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 56.94,
+      "swing": 0.34,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5172,
+          "pct": 42.77
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2170,
+          "pct": 17.95
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1865,
+          "pct": 15.42
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1214,
+          "pct": 10.04
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 503,
+          "pct": 4.16
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 474,
+          "pct": 3.92
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 383,
+          "pct": 3.17
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 311,
+          "pct": 2.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6885,
+          "elected": true,
+          "pct": 56.94
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5207,
+          "elected": false,
+          "pct": 43.06
+        }
+      ]
+    },
+    {
+      "boothId": 32597,
+      "name": "Toowoomba GROOM PPVC",
+      "formal": 10708,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 51.25,
+      "swing": -3.02,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4217,
+          "pct": 39.38
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2377,
+          "pct": 22.2
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1875,
+          "pct": 17.51
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 638,
+          "pct": 5.96
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 615,
+          "pct": 5.74
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 517,
+          "pct": 4.83
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 298,
+          "pct": 2.78
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 171,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5488,
+          "elected": true,
+          "pct": 51.25
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5220,
+          "elected": false,
+          "pct": 48.75
+        }
+      ]
+    },
+    {
+      "boothId": 97664,
+      "name": "West Toowoomba PPVC",
+      "formal": 7723,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 59.94,
+      "swing": 0.28,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3470,
+          "pct": 44.93
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1241,
+          "pct": 16.07
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1161,
+          "pct": 15.03
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 826,
+          "pct": 10.7
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 276,
+          "pct": 3.57
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 274,
+          "pct": 3.55
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 244,
+          "pct": 3.16
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 231,
+          "pct": 2.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4629,
+          "elected": true,
+          "pct": 59.94
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3094,
+          "elected": false,
+          "pct": 40.06
+        }
+      ]
+    },
+    {
+      "boothId": 98158,
+      "name": "North Toowoomba PPVC",
+      "formal": 6064,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 56.58,
+      "swing": 1.56,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2634,
+          "pct": 43.44
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1039,
+          "pct": 17.13
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1029,
+          "pct": 16.97
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 453,
+          "pct": 7.47
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 277,
+          "pct": 4.57
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 246,
+          "pct": 4.06
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 214,
+          "pct": 3.53
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 172,
+          "pct": 2.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3431,
+          "elected": true,
+          "pct": 56.58
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2633,
+          "elected": false,
+          "pct": 43.42
+        }
+      ]
+    },
+    {
+      "boothId": 109740,
+      "name": "Highfields PPVC",
+      "formal": 4434,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 61.48,
+      "swing": 4.2,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2043,
+          "pct": 46.08
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 690,
+          "pct": 15.56
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 661,
+          "pct": 14.91
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 426,
+          "pct": 9.61
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 195,
+          "pct": 4.4
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 170,
+          "pct": 3.83
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 146,
+          "pct": 3.29
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 103,
+          "pct": 2.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2726,
+          "elected": true,
+          "pct": 61.48
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1708,
+          "elected": false,
+          "pct": 38.52
+        }
+      ]
+    },
+    {
+      "boothId": 5627,
+      "name": "Middle Ridge",
+      "formal": 1871,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 53.82,
+      "swing": -5.61,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 709,
+          "pct": 37.89
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 348,
+          "pct": 18.6
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 316,
+          "pct": 16.89
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 133,
+          "pct": 7.11
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 130,
+          "pct": 6.95
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 91,
+          "pct": 4.86
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 91,
+          "pct": 4.86
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 2.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1007,
+          "elected": true,
+          "pct": 53.82
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 864,
+          "elected": false,
+          "pct": 46.18
+        }
+      ]
+    },
+    {
+      "boothId": 5616,
+      "name": "Harristown",
+      "formal": 1560,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 57.76,
+      "swing": 3.67,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 409,
+          "pct": 26.22
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 315,
+          "pct": 20.19
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 307,
+          "pct": 19.68
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 185,
+          "pct": 11.86
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 140,
+          "pct": 8.97
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 74,
+          "pct": 4.74
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 68,
+          "pct": 4.36
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 62,
+          "pct": 3.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 659,
+          "elected": true,
+          "pct": 42.24
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 901,
+          "elected": false,
+          "pct": 57.76
+        }
+      ]
+    },
+    {
+      "boothId": 5636,
+      "name": "Centenary Heights North",
+      "formal": 1531,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 56.56,
+      "swing": 4.04,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 418,
+          "pct": 27.3
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 316,
+          "pct": 20.64
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 310,
+          "pct": 20.25
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 149,
+          "pct": 9.73
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 142,
+          "pct": 9.27
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 72,
+          "pct": 4.7
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 70,
+          "pct": 4.57
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 54,
+          "pct": 3.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 665,
+          "elected": true,
+          "pct": 43.44
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 866,
+          "elected": false,
+          "pct": 56.56
+        }
+      ]
+    },
+    {
+      "boothId": 5633,
+      "name": "Rangeville",
+      "formal": 1525,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 52.72,
+      "swing": 3.02,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 535,
+          "pct": 35.08
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 354,
+          "pct": 23.21
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 287,
+          "pct": 18.82
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 6.1
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 90,
+          "pct": 5.9
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 74,
+          "pct": 4.85
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 56,
+          "pct": 3.67
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 2.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 721,
+          "elected": true,
+          "pct": 47.28
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 804,
+          "elected": false,
+          "pct": 52.72
+        }
+      ]
+    },
+    {
+      "boothId": 6204,
+      "name": "Pittsworth",
+      "formal": 1480,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 64.26,
+      "swing": 2.86,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 667,
+          "pct": 45.07
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 254,
+          "pct": 17.16
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 191,
+          "pct": 12.91
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 165,
+          "pct": 11.15
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 77,
+          "pct": 5.2
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 65,
+          "pct": 4.39
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 37,
+          "pct": 2.5
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 1.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 951,
+          "elected": true,
+          "pct": 64.26
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 529,
+          "elected": false,
+          "pct": 35.74
+        }
+      ]
+    },
+    {
+      "boothId": 5632,
+      "name": "Oakey",
+      "formal": 1463,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 57.28,
+      "swing": 4.29,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 577,
+          "pct": 39.44
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 226,
+          "pct": 15.45
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 211,
+          "pct": 14.42
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 208,
+          "pct": 14.22
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 96,
+          "pct": 6.56
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 62,
+          "pct": 4.24
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 3.62
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 2.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 838,
+          "elected": true,
+          "pct": 57.28
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 625,
+          "elected": false,
+          "pct": 42.72
+        }
+      ]
+    },
+    {
+      "boothId": 5605,
+      "name": "Darling Heights",
+      "formal": 1407,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 55.44,
+      "swing": 6.06,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 372,
+          "pct": 26.44
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 316,
+          "pct": 22.46
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 302,
+          "pct": 21.46
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 117,
+          "pct": 8.32
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 106,
+          "pct": 7.53
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 78,
+          "pct": 5.54
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 59,
+          "pct": 4.19
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 57,
+          "pct": 4.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 627,
+          "elected": true,
+          "pct": 44.56
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 780,
+          "elected": false,
+          "pct": 55.44
+        }
+      ]
+    },
+    {
+      "boothId": 12017,
+      "name": "Glenvale",
+      "formal": 1392,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 52.23,
+      "swing": 4.71,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 417,
+          "pct": 29.96
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 251,
+          "pct": 18.03
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 251,
+          "pct": 18.03
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 160,
+          "pct": 11.49
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 149,
+          "pct": 10.7
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 68,
+          "pct": 4.89
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.74
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 44,
+          "pct": 3.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 665,
+          "elected": true,
+          "pct": 47.77
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 727,
+          "elected": false,
+          "pct": 52.23
+        }
+      ]
+    },
+    {
+      "boothId": 5630,
+      "name": "Newtown",
+      "formal": 1363,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 58.4,
+      "swing": -0.13,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 370,
+          "pct": 27.15
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 300,
+          "pct": 22.01
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 285,
+          "pct": 20.91
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 137,
+          "pct": 10.05
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 9.76
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 59,
+          "pct": 4.33
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 3.3
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 2.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 567,
+          "elected": true,
+          "pct": 41.6
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 796,
+          "elected": false,
+          "pct": 58.4
+        }
+      ]
+    },
+    {
+      "boothId": 31483,
+      "name": "Meringandan",
+      "formal": 1060,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 53.96,
+      "swing": -1.26,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 386,
+          "pct": 36.42
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 190,
+          "pct": 17.92
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 147,
+          "pct": 13.87
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 143,
+          "pct": 13.49
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 74,
+          "pct": 6.98
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 4.43
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 4.06
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 2.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 572,
+          "elected": true,
+          "pct": 53.96
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 488,
+          "elected": false,
+          "pct": 46.04
+        }
+      ]
+    },
+    {
+      "boothId": 5614,
+      "name": "Harlaxton",
+      "formal": 1044,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 55.17,
+      "swing": 0.91,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 299,
+          "pct": 28.64
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 229,
+          "pct": 21.93
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 187,
+          "pct": 17.91
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 103,
+          "pct": 9.87
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 100,
+          "pct": 9.58
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 4.6
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 47,
+          "pct": 4.5
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 468,
+          "elected": true,
+          "pct": 44.83
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 576,
+          "elected": false,
+          "pct": 55.17
+        }
+      ]
+    },
+    {
+      "boothId": 5612,
+      "name": "Gowrie Junction",
+      "formal": 950,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 57.79,
+      "swing": -0.56,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 374,
+          "pct": 39.37
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 164,
+          "pct": 17.26
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 120,
+          "pct": 12.63
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 112,
+          "pct": 11.79
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 6.32
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 54,
+          "pct": 5.68
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 3.68
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 549,
+          "elected": true,
+          "pct": 57.79
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 401,
+          "elected": false,
+          "pct": 42.21
+        }
+      ]
+    },
+    {
+      "boothId": 12058,
+      "name": "Gabbinbar",
+      "formal": 922,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 57.81,
+      "swing": 1.62,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 404,
+          "pct": 43.82
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 191,
+          "pct": 20.72
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 115,
+          "pct": 12.47
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 5.86
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 53,
+          "pct": 5.75
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 45,
+          "pct": 4.88
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 4.23
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 533,
+          "elected": true,
+          "pct": 57.81
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 389,
+          "elected": false,
+          "pct": 42.19
+        }
+      ]
+    },
+    {
+      "boothId": 83378,
+      "name": "Highfields North",
+      "formal": 906,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 56.62,
+      "swing": 0.6,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 360,
+          "pct": 39.74
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 158,
+          "pct": 17.44
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 129,
+          "pct": 14.24
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 88,
+          "pct": 9.71
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 7.73
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 4.64
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 3.97
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 513,
+          "elected": true,
+          "pct": 56.62
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 393,
+          "elected": false,
+          "pct": 43.38
+        }
+      ]
+    },
+    {
+      "boothId": 5620,
+      "name": "Highfields",
+      "formal": 876,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 56.28,
+      "swing": -4.89,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 357,
+          "pct": 40.75
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 166,
+          "pct": 18.95
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 109,
+          "pct": 12.44
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 83,
+          "pct": 9.47
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 50,
+          "pct": 5.71
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 4.91
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 4.79
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 2.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 493,
+          "elected": true,
+          "pct": 56.28
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 383,
+          "elected": false,
+          "pct": 43.72
+        }
+      ]
+    },
+    {
+      "boothId": 5603,
+      "name": "Cambooya",
+      "formal": 876,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 56.05,
+      "swing": 0.47,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 359,
+          "pct": 40.98
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 177,
+          "pct": 20.21
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 123,
+          "pct": 14.04
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 93,
+          "pct": 10.62
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 54,
+          "pct": 6.16
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 3.54
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.4
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 2.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 491,
+          "elected": true,
+          "pct": 56.05
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 385,
+          "elected": false,
+          "pct": 43.95
+        }
+      ]
+    },
+    {
+      "boothId": 5628,
+      "name": "Mount Lofty",
+      "formal": 867,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 57.9,
+      "swing": 0.68,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 255,
+          "pct": 29.41
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 203,
+          "pct": 23.41
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 153,
+          "pct": 17.65
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 104,
+          "pct": 12.0
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 6.69
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 5.77
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 3.23
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 365,
+          "elected": true,
+          "pct": 42.1
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 502,
+          "elected": false,
+          "pct": 57.9
+        }
+      ]
+    },
+    {
+      "boothId": 5646,
+      "name": "Wilsonton East",
+      "formal": 850,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 56.82,
+      "swing": 5.39,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 241,
+          "pct": 28.35
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 184,
+          "pct": 21.65
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 157,
+          "pct": 18.47
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 9.41
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 80,
+          "pct": 9.41
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 5.06
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 4.47
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 3.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 367,
+          "elected": true,
+          "pct": 43.18
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 483,
+          "elected": false,
+          "pct": 56.82
+        }
+      ]
+    },
+    {
+      "boothId": 5606,
+      "name": "Drayton",
+      "formal": 833,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 50.18,
+      "swing": -2.6,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 274,
+          "pct": 32.89
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 152,
+          "pct": 18.25
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "pct": 16.69
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 99,
+          "pct": 11.88
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 61,
+          "pct": 7.32
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 4.44
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 4.44
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 4.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 418,
+          "elected": true,
+          "pct": 50.18
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 415,
+          "elected": false,
+          "pct": 49.82
+        }
+      ]
+    },
+    {
+      "boothId": 5622,
+      "name": "Kingsthorpe",
+      "formal": 829,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 50.18,
+      "swing": -4.8,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 283,
+          "pct": 34.14
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 158,
+          "pct": 19.06
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 155,
+          "pct": 18.7
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 102,
+          "pct": 12.3
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 39,
+          "pct": 4.7
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 39,
+          "pct": 4.7
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 4.34
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 2.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 416,
+          "elected": true,
+          "pct": 50.18
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 413,
+          "elected": false,
+          "pct": 49.82
+        }
+      ]
+    },
+    {
+      "boothId": 5648,
+      "name": "Westbrook",
+      "formal": 824,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 60.56,
+      "swing": -1.18,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 345,
+          "pct": 41.87
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 119,
+          "pct": 14.44
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 118,
+          "pct": 14.32
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 99,
+          "pct": 12.01
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 4.61
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 38,
+          "pct": 4.61
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 4.25
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 3.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 499,
+          "elected": true,
+          "pct": 60.56
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 325,
+          "elected": false,
+          "pct": 39.44
+        }
+      ]
+    },
+    {
+      "boothId": 5649,
+      "name": "Wilsonton",
+      "formal": 741,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 55.6,
+      "swing": 1.39,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 209,
+          "pct": 28.21
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 161,
+          "pct": 21.73
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 137,
+          "pct": 18.49
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 9.58
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 71,
+          "pct": 9.58
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 4.59
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 4.32
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 3.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 329,
+          "elected": true,
+          "pct": 44.4
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 412,
+          "elected": false,
+          "pct": 55.6
+        }
+      ]
+    },
+    {
+      "boothId": 5645,
+      "name": "Toowoomba West",
+      "formal": 726,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 54.96,
+      "swing": 4.96,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 210,
+          "pct": 28.93
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 167,
+          "pct": 23.0
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 134,
+          "pct": 18.46
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 72,
+          "pct": 9.92
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 8.82
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 4.96
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 3.31
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 2.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 327,
+          "elected": true,
+          "pct": 45.04
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 399,
+          "elected": false,
+          "pct": 54.96
+        }
+      ]
+    },
+    {
+      "boothId": 5638,
+      "name": "East Toowoomba East",
+      "formal": 723,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 52.97,
+      "swing": -4.52,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 311,
+          "pct": 43.02
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 200,
+          "pct": 27.66
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 96,
+          "pct": 13.28
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 4.29
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 4.15
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 3.73
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 1.94
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 383,
+          "elected": true,
+          "pct": 52.97
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 340,
+          "elected": false,
+          "pct": 47.03
+        }
+      ]
+    },
+    {
+      "boothId": 5651,
+      "name": "Wyreema",
+      "formal": 722,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 54.16,
+      "swing": -0.97,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 282,
+          "pct": 39.06
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 159,
+          "pct": 22.02
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 101,
+          "pct": 13.99
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 96,
+          "pct": 13.3
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 4.16
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.63
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 2.49
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 2.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 391,
+          "elected": true,
+          "pct": 54.16
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 331,
+          "elected": false,
+          "pct": 45.84
+        }
+      ]
+    },
+    {
+      "boothId": 5641,
+      "name": "East Toowoomba",
+      "formal": 666,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 52.25,
+      "swing": 0.29,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 245,
+          "pct": 36.79
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 173,
+          "pct": 25.98
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 91,
+          "pct": 13.66
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 7.81
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 51,
+          "pct": 7.66
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 5.11
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.65
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 1.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 318,
+          "elected": true,
+          "pct": 47.75
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 348,
+          "elected": false,
+          "pct": 52.25
+        }
+      ]
+    },
+    {
+      "boothId": 31434,
+      "name": "Wilsonton West",
+      "formal": 666,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 51.05,
+      "swing": 3.52,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 217,
+          "pct": 32.58
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 136,
+          "pct": 20.42
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 128,
+          "pct": 19.22
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 10.06
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 6.46
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 4.65
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 3.3
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 3.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 326,
+          "elected": true,
+          "pct": 48.95
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 340,
+          "elected": false,
+          "pct": 51.05
+        }
+      ]
+    },
+    {
+      "boothId": 83239,
+      "name": "Wilsonton Heights",
+      "formal": 611,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 59.41,
+      "swing": 5.4,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 156,
+          "pct": 25.53
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 135,
+          "pct": 22.09
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 125,
+          "pct": 20.46
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 66,
+          "pct": 10.8
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 61,
+          "pct": 9.98
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 4.42
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 4.09
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 248,
+          "elected": true,
+          "pct": 40.59
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 363,
+          "elected": false,
+          "pct": 59.41
+        }
+      ]
+    },
+    {
+      "boothId": 6160,
+      "name": "Goombungee",
+      "formal": 580,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 61.21,
+      "swing": -2.81,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 254,
+          "pct": 43.79
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 92,
+          "pct": 15.86
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 13.79
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 61,
+          "pct": 10.52
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 5.69
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 5.0
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 2.76
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 2.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 355,
+          "elected": true,
+          "pct": 61.21
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 225,
+          "elected": false,
+          "pct": 38.79
+        }
+      ]
+    },
+    {
+      "boothId": 5634,
+      "name": "Rockville",
+      "formal": 547,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 55.94,
+      "swing": 2.52,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 152,
+          "pct": 27.79
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 106,
+          "pct": 19.38
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 94,
+          "pct": 17.18
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 14.63
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 55,
+          "pct": 10.05
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 4.57
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 3.66
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 241,
+          "elected": true,
+          "pct": 44.06
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 306,
+          "elected": false,
+          "pct": 55.94
+        }
+      ]
+    },
+    {
+      "boothId": 5640,
+      "name": "Toowoomba City",
+      "formal": 538,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 60.78,
+      "swing": 6.39,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 137,
+          "pct": 25.46
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 119,
+          "pct": 22.12
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "pct": 20.45
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 82,
+          "pct": 15.24
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 6.51
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 4.65
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 3.72
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 211,
+          "elected": true,
+          "pct": 39.22
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 327,
+          "elected": false,
+          "pct": 60.78
+        }
+      ]
+    },
+    {
+      "boothId": 5480,
+      "name": "Geham",
+      "formal": 520,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 60.38,
+      "swing": -1.73,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 236,
+          "pct": 45.38
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 95,
+          "pct": 18.27
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 11.35
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 52,
+          "pct": 10.0
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 4.62
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 4.42
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 17,
+          "pct": 3.27
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 314,
+          "elected": true,
+          "pct": 60.38
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 206,
+          "elected": false,
+          "pct": 39.62
+        }
+      ]
+    },
+    {
+      "boothId": 5637,
+      "name": "Rangeville North",
+      "formal": 517,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 56.87,
+      "swing": 3.0,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 163,
+          "pct": 31.53
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 131,
+          "pct": 25.34
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 103,
+          "pct": 19.92
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 47,
+          "pct": 9.09
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 4.64
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 4.64
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.71
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 223,
+          "elected": true,
+          "pct": 43.13
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 294,
+          "elected": false,
+          "pct": 56.87
+        }
+      ]
+    },
+    {
+      "boothId": 5635,
+      "name": "Toowoomba South",
+      "formal": 444,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 56.98,
+      "swing": 6.75,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 121,
+          "pct": 27.25
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 93,
+          "pct": 20.95
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 85,
+          "pct": 19.14
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 65,
+          "pct": 14.64
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 5.86
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 4.5
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 4.5
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 3.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 191,
+          "elected": true,
+          "pct": 43.02
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 253,
+          "elected": false,
+          "pct": 56.98
+        }
+      ]
+    },
+    {
+      "boothId": 5644,
+      "name": "Toowoomba North",
+      "formal": 409,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 58.92,
+      "swing": 3.57,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 100,
+          "pct": 24.45
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 89,
+          "pct": 21.76
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 70,
+          "pct": 17.11
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 12.71
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 52,
+          "pct": 12.71
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 4.16
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 3.67
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 3.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 168,
+          "elected": true,
+          "pct": 41.08
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 241,
+          "elected": false,
+          "pct": 58.92
+        }
+      ]
+    },
+    {
+      "boothId": 6447,
+      "name": "Greenmount",
+      "formal": 400,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 64.25,
+      "swing": -0.57,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 174,
+          "pct": 43.5
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 62,
+          "pct": 15.5
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 13.75
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "pct": 11.25
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 7.0
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 4.0
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 3.0
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 2.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 257,
+          "elected": true,
+          "pct": 64.25
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 143,
+          "elected": false,
+          "pct": 35.75
+        }
+      ]
+    },
+    {
+      "boothId": 5604,
+      "name": "Wellcamp",
+      "formal": 357,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 65.83,
+      "swing": 7.01,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 157,
+          "pct": 43.98
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 54,
+          "pct": 15.13
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 15.13
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "pct": 10.92
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 4.48
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 4.2
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 3.64
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 2.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 235,
+          "elected": true,
+          "pct": 65.83
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 122,
+          "elected": false,
+          "pct": 34.17
+        }
+      ]
+    },
+    {
+      "boothId": 6218,
+      "name": "Southbrook",
+      "formal": 332,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 65.66,
+      "swing": 8.11,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 152,
+          "pct": 45.78
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 18.07
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 13.55
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 32,
+          "pct": 9.64
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 5.12
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 3.61
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 2.41
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 1.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 218,
+          "elected": true,
+          "pct": 65.66
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 114,
+          "elected": false,
+          "pct": 34.34
+        }
+      ]
+    },
+    {
+      "boothId": 58895,
+      "name": "Centenary Heights South",
+      "formal": 322,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 54.66,
+      "swing": -1.4,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 120,
+          "pct": 37.27
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 62,
+          "pct": 19.25
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "pct": 13.98
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 10.56
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 25,
+          "pct": 7.76
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 4.66
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 4.04
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 176,
+          "elected": true,
+          "pct": 54.66
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 146,
+          "elected": false,
+          "pct": 45.34
+        }
+      ]
+    },
+    {
+      "boothId": 108715,
+      "name": "Special Hospital Team 1",
+      "formal": 304,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 64.8,
+      "swing": -1.17,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 143,
+          "pct": 47.04
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 57,
+          "pct": 18.75
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 14.14
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 8.22
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 4.61
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 4.28
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 2.3
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 197,
+          "elected": true,
+          "pct": 64.8
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 107,
+          "elected": false,
+          "pct": 35.2
+        }
+      ]
+    },
+    {
+      "boothId": 108716,
+      "name": "Special Hospital Team 2",
+      "formal": 297,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 64.98,
+      "swing": -0.88,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 158,
+          "pct": 53.2
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "pct": 18.52
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 16.84
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 3.03
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 3.03
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 2.69
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.35
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 193,
+          "elected": true,
+          "pct": 64.98
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 104,
+          "elected": false,
+          "pct": 35.02
+        }
+      ]
+    },
+    {
+      "boothId": 47702,
+      "name": "Highfields West",
+      "formal": 295,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 57.29,
+      "swing": -2.53,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 120,
+          "pct": 40.68
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 62,
+          "pct": 21.02
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 53,
+          "pct": 17.97
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 7.8
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 5.08
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 3.73
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.03
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 169,
+          "elected": true,
+          "pct": 57.29
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 126,
+          "elected": false,
+          "pct": 42.71
+        }
+      ]
+    },
+    {
+      "boothId": 109221,
+      "name": "Special Hospital Team 3",
+      "formal": 281,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 58.01,
+      "swing": -7.86,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 135,
+          "pct": 48.04
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 65,
+          "pct": 23.13
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 14.59
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 3.91
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 3.56
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 2.85
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.14
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 163,
+          "elected": true,
+          "pct": 58.01
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 118,
+          "elected": false,
+          "pct": 41.99
+        }
+      ]
+    },
+    {
+      "boothId": 5601,
+      "name": "Biddeston",
+      "formal": 256,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 75.0,
+      "swing": 0.72,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 154,
+          "pct": 60.16
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 14.06
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 13.28
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 3.52
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "pct": 3.52
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 2.73
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 1.56
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 192,
+          "elected": true,
+          "pct": 75.0
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 64,
+          "elected": false,
+          "pct": 25.0
+        }
+      ]
+    },
+    {
+      "boothId": 83264,
+      "name": "Harristown South",
+      "formal": 214,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 54.67,
+      "swing": 0.73,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 63,
+          "pct": 29.44
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 53,
+          "pct": 24.77
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "pct": 18.22
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 8.88
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 7.01
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 5.61
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 4.67
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 97,
+          "elected": true,
+          "pct": 45.33
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 117,
+          "elected": false,
+          "pct": 54.67
+        }
+      ]
+    },
+    {
+      "boothId": 6197,
+      "name": "Mount Tyson",
+      "formal": 210,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 70.0,
+      "swing": -3.44,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 122,
+          "pct": 58.1
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 12.38
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 12.38
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 17,
+          "pct": 8.1
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 4.76
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 1.9
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.9
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 147,
+          "elected": true,
+          "pct": 70.0
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 63,
+          "elected": false,
+          "pct": 30.0
+        }
+      ]
+    },
+    {
+      "boothId": 6206,
+      "name": "Quinalow",
+      "formal": 210,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 68.57,
+      "swing": -3.71,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 124,
+          "pct": 59.05
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 17.62
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 14.29
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10,
+          "pct": 4.76
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.38
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.9
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 144,
+          "elected": true,
+          "pct": 68.57
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 66,
+          "elected": false,
+          "pct": 31.43
+        }
+      ]
+    },
+    {
+      "boothId": 109838,
+      "name": "Special Hospital Team 4",
+      "formal": 197,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 52.28,
+      "swing": 18.07,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 74,
+          "pct": 37.56
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 60,
+          "pct": 30.46
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 15.74
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 5.08
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 4.57
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 3.55
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.54
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 94,
+          "elected": true,
+          "pct": 47.72
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 103,
+          "elected": false,
+          "pct": 52.28
+        }
+      ]
+    },
+    {
+      "boothId": 83251,
+      "name": "Harristown West",
+      "formal": 188,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 54.26,
+      "swing": 6.11,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 64,
+          "pct": 34.04
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 14.89
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 28,
+          "pct": 14.89
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 11.17
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 7.98
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 7.45
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 6.38
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 3.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 102,
+          "elected": true,
+          "pct": 54.26
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 86,
+          "elected": false,
+          "pct": 45.74
+        }
+      ]
+    },
+    {
+      "boothId": 6178,
+      "name": "Jondaryan",
+      "formal": 183,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 66.67,
+      "swing": -0.36,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 86,
+          "pct": 46.99
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 19.13
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 11.48
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 21,
+          "pct": 11.48
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 3.83
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 3.28
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.19
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 122,
+          "elected": true,
+          "pct": 66.67
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 61,
+          "elected": false,
+          "pct": 33.33
+        }
+      ]
+    },
+    {
+      "boothId": 6186,
+      "name": "Kulpi",
+      "formal": 170,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 74.12,
+      "swing": 1.82,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 100,
+          "pct": 58.82
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 14.12
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 10.0
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "pct": 6.47
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 5.88
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.94
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.18
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 126,
+          "elected": true,
+          "pct": 74.12
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 44,
+          "elected": false,
+          "pct": 25.88
+        }
+      ]
+    },
+    {
+      "boothId": 6119,
+      "name": "Bowenville",
+      "formal": 111,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 73.87,
+      "swing": -4.94,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 56,
+          "pct": 50.45
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 17.12
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 9.01
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "pct": 8.11
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 6.31
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 5.41
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 1.8
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 82,
+          "elected": true,
+          "pct": 73.87
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "elected": false,
+          "pct": 26.13
+        }
+      ]
+    },
+    {
+      "boothId": 109839,
+      "name": "Other Mobile Team 1",
+      "formal": 102,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 58.82,
+      "swing": 24.73,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 29,
+          "pct": 28.43
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 27,
+          "pct": 26.47
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 21.57
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 5.88
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 5.88
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 4.9
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 3.92
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 2.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 42,
+          "elected": true,
+          "pct": 41.18
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 60,
+          "elected": false,
+          "pct": 58.82
+        }
+      ]
+    },
+    {
+      "boothId": 65582,
+      "name": "EAV Groom PPVC",
+      "formal": 9,
+      "winnerParty": "lnp",
+      "winnerSurname": "HAMILTON",
+      "winnerPct": 66.67,
+      "swing": 25.76,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4,
+          "pct": 44.44
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2,
+          "pct": 22.22
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 11.11
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 11.11
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 11.11
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6,
+          "elected": true,
+          "pct": 66.67
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "elected": false,
+          "pct": 33.33
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 103219,
+    "candidates": [
+      {
+        "id": "C36178",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Holt"
+      },
+      {
+        "id": "C40942",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Konz"
+      },
+      {
+        "id": "C40896",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Todd"
+      },
+      {
+        "id": "C41242",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Nelligan"
+      },
+      {
+        "id": "C41173",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 Hamilton"
+      },
+      {
+        "id": "C37615",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Smolenski"
+      },
+      {
+        "id": "C41349",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Marr"
+      },
+      {
+        "id": "C40741",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Edwards"
+      }
+    ],
+    "rounds": [
+      {
+        "C36178": 17694,
+        "C40942": 9860,
+        "C40896": 3894,
+        "C41242": 5757,
+        "C41173": 42302,
+        "C37615": 3701,
+        "C41349": 2839,
+        "C40741": 17172
+      },
+      {
+        "C36178": 18097,
+        "C40942": 10901,
+        "C40896": 4296,
+        "C41242": 5856,
+        "C41173": 42697,
+        "C37615": 3986,
+        "C40741": 17386
+      },
+      {
+        "C36178": 20096,
+        "C40942": 11224,
+        "C40896": 4557,
+        "C41242": 6188,
+        "C41173": 43274,
+        "C40741": 17880
+      },
+      {
+        "C36178": 20811,
+        "C40942": 13767,
+        "C41242": 6513,
+        "C41173": 44029,
+        "C40741": 18099
+      },
+      {
+        "C36178": 23472,
+        "C40942": 14381,
+        "C41173": 44526,
+        "C40741": 20840
+      },
+      {
+        "C36178": 29380,
+        "C41173": 51998,
+        "C40741": 21841
+      },
+      {
+        "C36178": 45752,
+        "C41173": 57467
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            68.53,
+            66.47,
+            65.31,
+            70.48,
+            56.89,
+            55.67
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            41.78,
+            31.47,
+            33.53,
+            34.69,
+            29.52,
+            null,
+            null
+          ]
+        },
+        {
+          "id": "IND",
+          "party": "ind",
+          "label": "IND",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            43.11,
+            44.33
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            58.22,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 52.71,
+            "IND": 2.2,
+            "FFP": 4.38,
+            "GRN": 4.84,
+            "ALP": 34.83,
+            "OTH": 1.05
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "FFP": 5.56,
+            "LIB": 61.25,
+            "ALP": 22.67,
+            "IND": 3.23,
+            "GRN": 7.3
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "KAP": 3.69,
+            "FFP": 2.66,
+            "GRN": 4.34,
+            "TOP": 9.35,
+            "ALP": 22.1,
+            "LIB": 55.64,
+            "OTH": 2.21
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "LIB": 54.0,
+            "ALP": 22.2,
+            "GRN": 6.16,
+            "CA": 7.63,
+            "FFP": 10.02
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "ON": 13.09,
+            "LIB": 53.34,
+            "TOP": 3.96,
+            "FACN": 2.99,
+            "GRN": 7.96,
+            "ALP": 18.66
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "GRN": 5.85,
+            "ALP": 18.73,
+            "LIB": 43.72,
+            "IND": 15.41,
+            "TOP": 5.13,
+            "ON": 9.56,
+            "OTH": 1.6
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "IND": 20.73,
+            "CYA": 2.75,
+            "GRN": 5.58,
+            "ON": 9.55,
+            "FFP": 3.77,
+            "LIB": 40.98,
+            "ALP": 16.64
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 160864,
+    "medianAge": 38,
+    "medianHouseholdIncomeWeekly": 1491,
+    "medianRentWeekly": 300,
+    "averageHouseholdSize": 2.5,
+    "bornOverseasPct": 14.9,
+    "indigenousPct": 5.0,
+    "bachelorPlusPct": 32.9,
+    "renterPct": 32.7,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 129897,
+        "pct": 85.05,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 1406,
+        "pct": 0.92,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 1121,
+        "pct": 0.73,
+        "natPct": 1.11
+      },
+      {
+        "label": "Iraq",
+        "count": 1075,
+        "pct": 0.7,
+        "natPct": 0.2
+      },
+      {
+        "label": "India",
+        "count": 1068,
+        "pct": 0.7,
+        "natPct": 1.51
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 89711,
+        "pct": 55.77,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 51264,
+        "pct": 31.87,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 10880,
+        "pct": 6.76,
+        "natPct": 7.27
+      },
+      {
+        "label": "Other religions",
+        "count": 3307,
+        "pct": 2.06,
+        "natPct": 1.28
+      },
+      {
+        "label": "Hinduism",
+        "count": 2134,
+        "pct": 1.33,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Groom is an Australian electoral division in the state of Queensland.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Groom",
+    "retrievedAt": "2026-03-27T03:10:32Z"
+  }
+}

@@ -1,0 +1,5311 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "DEAKIN",
+    "divisionId": 209,
+    "name": "Deakin",
+    "state": "VIC",
+    "totalFormal": 115507,
+    "informalVotes": 3601,
+    "informalRate": 4.13,
+    "winner": {
+      "candidateId": "C40861",
+      "surname": "GREGG",
+      "givenName": "Matt",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": false
+    },
+    "previousWinnerParty": "LIB",
+    "tcpMargin": 5.64,
+    "result": "ALP GAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40795",
+      "surname": "SUKKAR",
+      "givenName": "Michael",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 30998,
+      "pct": 37.06
+    },
+    {
+      "candidateId": "C40861",
+      "surname": "GREGG",
+      "givenName": "Matt",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 29770,
+      "pct": 35.6
+    },
+    {
+      "candidateId": "C41128",
+      "surname": "MILLS",
+      "givenName": "Amy",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 10410,
+      "pct": 12.45
+    },
+    {
+      "candidateId": "C40868",
+      "surname": "NESS",
+      "givenName": "Jess",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 6484,
+      "pct": 7.75
+    },
+    {
+      "candidateId": "C41512",
+      "surname": "COOKE",
+      "givenName": "Anne",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 2022,
+      "pct": 2.42
+    },
+    {
+      "candidateId": "C41547",
+      "surname": "GRIFFITH-JONES",
+      "givenName": "Richard",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 1515,
+      "pct": 1.81
+    },
+    {
+      "candidateId": "C41387",
+      "surname": "WILDE",
+      "givenName": "Milton",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 1232,
+      "pct": 1.47
+    },
+    {
+      "candidateId": "C41746",
+      "surname": "VANDERMEER",
+      "givenName": "Will",
+      "party": "oth",
+      "partyAb": "LTP",
+      "votes": 1202,
+      "pct": 1.44
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40861",
+      "surname": "GREGG",
+      "givenName": "Matt",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 61014,
+      "pct": 52.82,
+      "elected": true
+    },
+    {
+      "candidateId": "C40795",
+      "surname": "SUKKAR",
+      "givenName": "Michael",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 54493,
+      "pct": 47.18,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 32108,
+      "name": "Ringwood DEAKIN PPVC",
+      "formal": 14564,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 50.45,
+      "swing": 1.8,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6203,
+          "pct": 42.59
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4961,
+          "pct": 34.06
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1606,
+          "pct": 11.03
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 944,
+          "pct": 6.48
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 266,
+          "pct": 1.83
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 199,
+          "pct": 1.37
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 193,
+          "pct": 1.33
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 192,
+          "pct": 1.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7347,
+          "elected": true,
+          "pct": 50.45
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 7217,
+          "elected": false,
+          "pct": 49.55
+        }
+      ]
+    },
+    {
+      "boothId": 83755,
+      "name": "Croydon DEAKIN PPVC",
+      "formal": 11567,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 50.31,
+      "swing": 4.6,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4715,
+          "pct": 40.76
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3881,
+          "pct": 33.55
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1307,
+          "pct": 11.3
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 729,
+          "pct": 6.3
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 363,
+          "pct": 3.14
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 221,
+          "pct": 1.91
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 180,
+          "pct": 1.56
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 171,
+          "pct": 1.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5819,
+          "elected": true,
+          "pct": 50.31
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5748,
+          "elected": false,
+          "pct": 49.69
+        }
+      ]
+    },
+    {
+      "boothId": 58637,
+      "name": "Blackburn DEAKIN PPVC",
+      "formal": 7129,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 57.6,
+      "swing": 0.47,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2954,
+          "pct": 41.44
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2555,
+          "pct": 35.84
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 702,
+          "pct": 9.85
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 498,
+          "pct": 6.99
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 135,
+          "pct": 1.89
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 133,
+          "pct": 1.87
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 91,
+          "pct": 1.28
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 61,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4106,
+          "elected": true,
+          "pct": 57.6
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3023,
+          "elected": false,
+          "pct": 42.4
+        }
+      ]
+    },
+    {
+      "boothId": 4875,
+      "name": "Croydon",
+      "formal": 1950,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 55.59,
+      "swing": 1.44,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 648,
+          "pct": 33.23
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 631,
+          "pct": 32.36
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 308,
+          "pct": 15.79
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 161,
+          "pct": 8.26
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 3.85
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 51,
+          "pct": 2.62
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.15
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 1.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1084,
+          "elected": true,
+          "pct": 55.59
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 866,
+          "elected": false,
+          "pct": 44.41
+        }
+      ]
+    },
+    {
+      "boothId": 65399,
+      "name": "Croydon Hills",
+      "formal": 1760,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 50.57,
+      "swing": 4.35,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 714,
+          "pct": 40.57
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 602,
+          "pct": 34.2
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 193,
+          "pct": 10.97
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 103,
+          "pct": 5.85
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 51,
+          "pct": 2.9
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 2.39
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 1.59
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 890,
+          "elected": true,
+          "pct": 50.57
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 870,
+          "elected": false,
+          "pct": 49.43
+        }
+      ]
+    },
+    {
+      "boothId": 65221,
+      "name": "Mitcham North",
+      "formal": 1741,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 57.96,
+      "swing": 2.72,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 601,
+          "pct": 34.52
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 572,
+          "pct": 32.85
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 254,
+          "pct": 14.59
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 179,
+          "pct": 10.28
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 2.35
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 2.3
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 1.78
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1009,
+          "elected": true,
+          "pct": 57.96
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 732,
+          "elected": false,
+          "pct": 42.04
+        }
+      ]
+    },
+    {
+      "boothId": 91710,
+      "name": "Warranwood",
+      "formal": 1669,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 50.75,
+      "swing": 7.44,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 664,
+          "pct": 39.78
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 524,
+          "pct": 31.4
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 242,
+          "pct": 14.5
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 104,
+          "pct": 6.23
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 3.06
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 2.16
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.44
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 847,
+          "elected": true,
+          "pct": 50.75
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 822,
+          "elected": false,
+          "pct": 49.25
+        }
+      ]
+    },
+    {
+      "boothId": 2962,
+      "name": "Heathmont North",
+      "formal": 1643,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 58.0,
+      "swing": 1.81,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 569,
+          "pct": 34.63
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 548,
+          "pct": 33.35
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 244,
+          "pct": 14.85
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 159,
+          "pct": 9.68
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 2.68
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 2.43
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.4
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 953,
+          "elected": true,
+          "pct": 58.0
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 690,
+          "elected": false,
+          "pct": 42.0
+        }
+      ]
+    },
+    {
+      "boothId": 3562,
+      "name": "Burwood Heights (Deakin)",
+      "formal": 1623,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 59.46,
+      "swing": 4.49,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 691,
+          "pct": 42.58
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 527,
+          "pct": 32.47
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 198,
+          "pct": 12.2
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 84,
+          "pct": 5.18
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 2.65
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 1.97
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 29,
+          "pct": 1.79
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 965,
+          "elected": true,
+          "pct": 59.46
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 658,
+          "elected": false,
+          "pct": 40.54
+        }
+      ]
+    },
+    {
+      "boothId": 34011,
+      "name": "Ringwood North",
+      "formal": 1552,
+      "winnerParty": "lib",
+      "winnerSurname": "SUKKAR",
+      "winnerPct": 50.0,
+      "swing": -6.55,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 650,
+          "pct": 41.88
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 479,
+          "pct": 30.86
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 199,
+          "pct": 12.82
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 125,
+          "pct": 8.05
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 2.38
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 1.48
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.42
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 776,
+          "elected": true,
+          "pct": 50.0
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 776,
+          "elected": false,
+          "pct": 50.0
+        }
+      ]
+    },
+    {
+      "boothId": 4879,
+      "name": "Ringwood East Central",
+      "formal": 1540,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 64.29,
+      "swing": 1.92,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 526,
+          "pct": 34.16
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 421,
+          "pct": 27.34
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 302,
+          "pct": 19.61
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 206,
+          "pct": 13.38
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 1.75
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.75
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 1.17
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 990,
+          "elected": true,
+          "pct": 64.29
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 550,
+          "elected": false,
+          "pct": 35.71
+        }
+      ]
+    },
+    {
+      "boothId": 3576,
+      "name": "Nunawading South",
+      "formal": 1525,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 61.9,
+      "swing": 1.59,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 571,
+          "pct": 37.44
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 443,
+          "pct": 29.05
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 203,
+          "pct": 13.31
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 202,
+          "pct": 13.25
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 2.03
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.03
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 1.57
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 944,
+          "elected": true,
+          "pct": 61.9
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 581,
+          "elected": false,
+          "pct": 38.1
+        }
+      ]
+    },
+    {
+      "boothId": 3566,
+      "name": "Blackburn Lake",
+      "formal": 1519,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 66.03,
+      "swing": 5.75,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 569,
+          "pct": 37.46
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 399,
+          "pct": 26.27
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 253,
+          "pct": 16.66
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 212,
+          "pct": 13.96
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.65
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 1.58
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 1.51
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1003,
+          "elected": true,
+          "pct": 66.03
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 516,
+          "elected": false,
+          "pct": 33.97
+        }
+      ]
+    },
+    {
+      "boothId": 120384,
+      "name": "Doncaster East DEAKIN PPVC",
+      "formal": 1449,
+      "winnerParty": "lib",
+      "winnerSurname": "SUKKAR",
+      "winnerPct": 58.66,
+      "swing": 3.94,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 696,
+          "pct": 48.03
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 407,
+          "pct": 28.09
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 134,
+          "pct": 9.25
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 95,
+          "pct": 6.56
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 2.97
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 2.35
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 1.66
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 599,
+          "elected": true,
+          "pct": 41.34
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 850,
+          "elected": false,
+          "pct": 58.66
+        }
+      ]
+    },
+    {
+      "boothId": 3386,
+      "name": "Ringwood Upper",
+      "formal": 1443,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 54.05,
+      "swing": 4.57,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 528,
+          "pct": 36.59
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 525,
+          "pct": 36.38
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 163,
+          "pct": 11.3
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 112,
+          "pct": 7.76
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 2.49
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.15
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 1.94
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 780,
+          "elected": true,
+          "pct": 54.05
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 663,
+          "elected": false,
+          "pct": 45.95
+        }
+      ]
+    },
+    {
+      "boothId": 4910,
+      "name": "Tinternvale",
+      "formal": 1399,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 57.61,
+      "swing": 5.79,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 492,
+          "pct": 35.17
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 441,
+          "pct": 31.52
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 196,
+          "pct": 14.01
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 149,
+          "pct": 10.65
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 2.79
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 2.72
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.72
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 806,
+          "elected": true,
+          "pct": 57.61
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 593,
+          "elected": false,
+          "pct": 42.39
+        }
+      ]
+    },
+    {
+      "boothId": 2960,
+      "name": "Vermont Central",
+      "formal": 1392,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 59.41,
+      "swing": 8.39,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 584,
+          "pct": 41.95
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 479,
+          "pct": 34.41
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 158,
+          "pct": 11.35
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 90,
+          "pct": 6.47
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 1.72
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 1.58
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.44
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 827,
+          "elected": true,
+          "pct": 59.41
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 565,
+          "elected": false,
+          "pct": 40.59
+        }
+      ]
+    },
+    {
+      "boothId": 4876,
+      "name": "Croydon East",
+      "formal": 1379,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 55.18,
+      "swing": 3.27,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 459,
+          "pct": 33.28
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 454,
+          "pct": 32.92
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 181,
+          "pct": 13.13
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 139,
+          "pct": 10.08
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 4.21
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.47
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 2.39
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 761,
+          "elected": true,
+          "pct": 55.18
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 618,
+          "elected": false,
+          "pct": 44.82
+        }
+      ]
+    },
+    {
+      "boothId": 3577,
+      "name": "Forest Hill East",
+      "formal": 1325,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 60.08,
+      "swing": 6.32,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 552,
+          "pct": 41.66
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 430,
+          "pct": 32.45
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 156,
+          "pct": 11.77
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 113,
+          "pct": 8.53
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 1.96
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.36
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 1.21
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 796,
+          "elected": true,
+          "pct": 60.08
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 529,
+          "elected": false,
+          "pct": 39.92
+        }
+      ]
+    },
+    {
+      "boothId": 3581,
+      "name": "Mitcham Lower",
+      "formal": 1317,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 61.58,
+      "swing": 5.86,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 544,
+          "pct": 41.31
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 425,
+          "pct": 32.27
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 170,
+          "pct": 12.91
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 114,
+          "pct": 8.66
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 1.52
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.37
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.14
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 811,
+          "elected": true,
+          "pct": 61.58
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 506,
+          "elected": false,
+          "pct": 38.42
+        }
+      ]
+    },
+    {
+      "boothId": 3564,
+      "name": "Vermont South",
+      "formal": 1304,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 53.68,
+      "swing": 2.79,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 510,
+          "pct": 39.11
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 505,
+          "pct": 38.73
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 109,
+          "pct": 8.36
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 108,
+          "pct": 8.28
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 1.61
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 1.46
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.46
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 700,
+          "elected": true,
+          "pct": 53.68
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 604,
+          "elected": false,
+          "pct": 46.32
+        }
+      ]
+    },
+    {
+      "boothId": 3578,
+      "name": "Blackburn North Heights",
+      "formal": 1288,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 62.03,
+      "swing": 5.69,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 467,
+          "pct": 36.26
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 392,
+          "pct": 30.43
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 186,
+          "pct": 14.44
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 165,
+          "pct": 12.81
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 1.94
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 1.55
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.55
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 799,
+          "elected": true,
+          "pct": 62.03
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 489,
+          "elected": false,
+          "pct": 37.97
+        }
+      ]
+    },
+    {
+      "boothId": 31766,
+      "name": "Croydon North Upper",
+      "formal": 1120,
+      "winnerParty": "lib",
+      "winnerSurname": "SUKKAR",
+      "winnerPct": 52.68,
+      "swing": -4.57,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 489,
+          "pct": 43.66
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 337,
+          "pct": 30.09
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 129,
+          "pct": 11.52
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 68,
+          "pct": 6.07
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 3.3
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.5
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 1.7
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 530,
+          "elected": true,
+          "pct": 47.32
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 590,
+          "elected": false,
+          "pct": 52.68
+        }
+      ]
+    },
+    {
+      "boothId": 3400,
+      "name": "Ringwood Heights",
+      "formal": 1075,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 60.65,
+      "swing": 4.45,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 355,
+          "pct": 33.02
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 333,
+          "pct": 30.98
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 167,
+          "pct": 15.53
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 150,
+          "pct": 13.95
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 2.23
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 1.77
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.4
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 652,
+          "elected": true,
+          "pct": 60.65
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 423,
+          "elected": false,
+          "pct": 39.35
+        }
+      ]
+    },
+    {
+      "boothId": 3584,
+      "name": "Vermont South Lower",
+      "formal": 1056,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 51.99,
+      "swing": 4.47,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 436,
+          "pct": 41.29
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 410,
+          "pct": 38.83
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 79,
+          "pct": 7.48
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 65,
+          "pct": 6.16
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 2.37
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 1.8
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.14
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 549,
+          "elected": true,
+          "pct": 51.99
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 507,
+          "elected": false,
+          "pct": 48.01
+        }
+      ]
+    },
+    {
+      "boothId": 2949,
+      "name": "Vermont East",
+      "formal": 1004,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 51.89,
+      "swing": 4.78,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 411,
+          "pct": 40.94
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 378,
+          "pct": 37.65
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 97,
+          "pct": 9.66
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 53,
+          "pct": 5.28
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 2.19
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.99
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 1.79
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 521,
+          "elected": true,
+          "pct": 51.89
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 483,
+          "elected": false,
+          "pct": 48.11
+        }
+      ]
+    },
+    {
+      "boothId": 3558,
+      "name": "Antonio Park",
+      "formal": 983,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 61.75,
+      "swing": 3.52,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 403,
+          "pct": 41.0
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 279,
+          "pct": 28.38
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 128,
+          "pct": 13.02
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 92,
+          "pct": 9.36
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 3.26
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 2.14
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.53
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 607,
+          "elected": true,
+          "pct": 61.75
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 376,
+          "elected": false,
+          "pct": 38.25
+        }
+      ]
+    },
+    {
+      "boothId": 3396,
+      "name": "Park Orchards",
+      "formal": 960,
+      "winnerParty": "lib",
+      "winnerSurname": "SUKKAR",
+      "winnerPct": 58.96,
+      "swing": 0.74,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 483,
+          "pct": 50.31
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 242,
+          "pct": 25.21
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "pct": 8.85
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 83,
+          "pct": 8.65
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 2.29
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.08
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.35
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 394,
+          "elected": true,
+          "pct": 41.04
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 566,
+          "elected": false,
+          "pct": 58.96
+        }
+      ]
+    },
+    {
+      "boothId": 98125,
+      "name": "Scoresby DEAKIN PPVC",
+      "formal": 943,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 51.01,
+      "swing": 1.98,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 386,
+          "pct": 40.93
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 363,
+          "pct": 38.49
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "pct": 9.01
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 4.45
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 2.12
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 2.01
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.7
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 481,
+          "elected": true,
+          "pct": 51.01
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 462,
+          "elected": false,
+          "pct": 48.99
+        }
+      ]
+    },
+    {
+      "boothId": 3568,
+      "name": "Heatherdale",
+      "formal": 932,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 65.56,
+      "swing": 3.82,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 395,
+          "pct": 42.38
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 266,
+          "pct": 28.54
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 143,
+          "pct": 15.34
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 85,
+          "pct": 9.12
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 1.93
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 1.39
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.75
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 611,
+          "elected": true,
+          "pct": 65.56
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 321,
+          "elected": false,
+          "pct": 34.44
+        }
+      ]
+    },
+    {
+      "boothId": 3583,
+      "name": "Vermont North",
+      "formal": 918,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 55.99,
+      "swing": 7.28,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 358,
+          "pct": 39.0
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 334,
+          "pct": 36.38
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 97,
+          "pct": 10.57
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 68,
+          "pct": 7.41
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 2.51
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 1.85
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.53
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 514,
+          "elected": true,
+          "pct": 55.99
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 404,
+          "elected": false,
+          "pct": 44.01
+        }
+      ]
+    },
+    {
+      "boothId": 3572,
+      "name": "Mitcham",
+      "formal": 879,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 60.07,
+      "swing": 3.21,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 329,
+          "pct": 37.43
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 278,
+          "pct": 31.63
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 143,
+          "pct": 16.27
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 74,
+          "pct": 8.42
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.82
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 1.71
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.48
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 1.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 528,
+          "elected": true,
+          "pct": 60.07
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 351,
+          "elected": false,
+          "pct": 39.93
+        }
+      ]
+    },
+    {
+      "boothId": 4877,
+      "name": "Croydon South",
+      "formal": 866,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 54.85,
+      "swing": 4.1,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 291,
+          "pct": 33.6
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 262,
+          "pct": 30.25
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 163,
+          "pct": 18.82
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 63,
+          "pct": 7.27
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 5.08
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 1.96
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.73
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 475,
+          "elected": true,
+          "pct": 54.85
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 391,
+          "elected": false,
+          "pct": 45.15
+        }
+      ]
+    },
+    {
+      "boothId": 11525,
+      "name": "Croydon Town",
+      "formal": 858,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 56.76,
+      "swing": 6.05,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 287,
+          "pct": 33.45
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 264,
+          "pct": 30.77
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 145,
+          "pct": 16.9
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 72,
+          "pct": 8.39
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 4.08
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.68
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.1
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 1.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 487,
+          "elected": true,
+          "pct": 56.76
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 371,
+          "elected": false,
+          "pct": 43.24
+        }
+      ]
+    },
+    {
+      "boothId": 3394,
+      "name": "Ringwood Central",
+      "formal": 847,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 54.55,
+      "swing": 1.91,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 293,
+          "pct": 34.59
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 274,
+          "pct": 32.35
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 154,
+          "pct": 18.18
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 5.31
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 3.31
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 2.95
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.01
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 462,
+          "elected": true,
+          "pct": 54.55
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 385,
+          "elected": false,
+          "pct": 45.45
+        }
+      ]
+    },
+    {
+      "boothId": 3378,
+      "name": "Croydon North",
+      "formal": 820,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 59.76,
+      "swing": 7.31,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 299,
+          "pct": 36.46
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "pct": 30.49
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 123,
+          "pct": 15.0
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 68,
+          "pct": 8.29
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 4.51
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.56
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.59
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 490,
+          "elected": true,
+          "pct": 59.76
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 330,
+          "elected": false,
+          "pct": 40.24
+        }
+      ]
+    },
+    {
+      "boothId": 3379,
+      "name": "Croydon West",
+      "formal": 769,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 59.3,
+      "swing": 3.34,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 284,
+          "pct": 36.93
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 244,
+          "pct": 31.73
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 14.3
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 73,
+          "pct": 9.49
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 3.12
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 1.82
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.3
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 456,
+          "elected": true,
+          "pct": 59.3
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 313,
+          "elected": false,
+          "pct": 40.7
+        }
+      ]
+    },
+    {
+      "boothId": 3560,
+      "name": "Blackburn North (Deakin)",
+      "formal": 767,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 66.23,
+      "swing": 7.42,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 319,
+          "pct": 41.59
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 202,
+          "pct": 26.34
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 125,
+          "pct": 16.3
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 85,
+          "pct": 11.08
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.56
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.43
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 1.3
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 508,
+          "elected": true,
+          "pct": 66.23
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 259,
+          "elected": false,
+          "pct": 33.77
+        }
+      ]
+    },
+    {
+      "boothId": 98124,
+      "name": "Boronia DEAKIN PPVC",
+      "formal": 764,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 51.7,
+      "swing": 1.78,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 282,
+          "pct": 36.91
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 251,
+          "pct": 32.85
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 97,
+          "pct": 12.7
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 47,
+          "pct": 6.15
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 3.53
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 3.14
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.75
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 395,
+          "elected": true,
+          "pct": 51.7
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 369,
+          "elected": false,
+          "pct": 48.3
+        }
+      ]
+    },
+    {
+      "boothId": 83715,
+      "name": "Bedford Park",
+      "formal": 752,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 60.64,
+      "swing": 1.19,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 274,
+          "pct": 36.44
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 235,
+          "pct": 31.25
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 129,
+          "pct": 17.15
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 64,
+          "pct": 8.51
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 2.26
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.99
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 1.86
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 456,
+          "elected": true,
+          "pct": 60.64
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 296,
+          "elected": false,
+          "pct": 39.36
+        }
+      ]
+    },
+    {
+      "boothId": 3399,
+      "name": "Ringwood East",
+      "formal": 741,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 56.82,
+      "swing": 3.01,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 244,
+          "pct": 32.93
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 240,
+          "pct": 32.39
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 121,
+          "pct": 16.33
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 63,
+          "pct": 8.5
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 2.7
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 2.56
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.43
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 421,
+          "elected": true,
+          "pct": 56.82
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 320,
+          "elected": false,
+          "pct": 43.18
+        }
+      ]
+    },
+    {
+      "boothId": 3398,
+      "name": "Ringwood",
+      "formal": 739,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 60.22,
+      "swing": 2.74,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 257,
+          "pct": 34.78
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 207,
+          "pct": 28.01
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 134,
+          "pct": 18.13
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 73,
+          "pct": 9.88
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 3.79
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 2.44
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.76
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 445,
+          "elected": true,
+          "pct": 60.22
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 294,
+          "elected": false,
+          "pct": 39.78
+        }
+      ]
+    },
+    {
+      "boothId": 2953,
+      "name": "Heathmont (Deakin)",
+      "formal": 620,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 57.1,
+      "swing": 4.17,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 218,
+          "pct": 35.16
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 200,
+          "pct": 32.26
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 92,
+          "pct": 14.84
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 57,
+          "pct": 9.19
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 2.74
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.42
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.77
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 354,
+          "elected": true,
+          "pct": 57.1
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 266,
+          "elected": false,
+          "pct": 42.9
+        }
+      ]
+    },
+    {
+      "boothId": 3376,
+      "name": "Croydon Central",
+      "formal": 442,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 58.37,
+      "swing": -1.22,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 160,
+          "pct": 36.2
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 139,
+          "pct": 31.45
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 69,
+          "pct": 15.61
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 8.6
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 2.49
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.04
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.81
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 258,
+          "elected": true,
+          "pct": 58.37
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 184,
+          "elected": false,
+          "pct": 41.63
+        }
+      ]
+    },
+    {
+      "boothId": 3383,
+      "name": "Donvale",
+      "formal": 440,
+      "winnerParty": "lib",
+      "winnerSurname": "SUKKAR",
+      "winnerPct": 57.95,
+      "swing": -4.91,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 213,
+          "pct": 48.41
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 111,
+          "pct": 25.23
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 53,
+          "pct": 12.05
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 7.05
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 2.73
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.82
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.36
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 185,
+          "elected": true,
+          "pct": 42.05
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 255,
+          "elected": false,
+          "pct": 57.95
+        }
+      ]
+    },
+    {
+      "boothId": 108920,
+      "name": "Mount Waverley DEAKIN PPVC",
+      "formal": 401,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 53.12,
+      "swing": 1.36,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 166,
+          "pct": 41.4
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "pct": 34.66
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 14.21
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 2.24
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 2.24
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 2.0
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.0
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 213,
+          "elected": true,
+          "pct": 53.12
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 188,
+          "elected": false,
+          "pct": 46.88
+        }
+      ]
+    },
+    {
+      "boothId": 3565,
+      "name": "Forest Hill",
+      "formal": 360,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 54.44,
+      "swing": 2.6,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 132,
+          "pct": 36.67
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 130,
+          "pct": 36.11
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 11.39
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 8.61
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 2.5
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.94
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 1.67
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 196,
+          "elected": true,
+          "pct": 54.44
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 164,
+          "elected": false,
+          "pct": 45.56
+        }
+      ]
+    },
+    {
+      "boothId": 104312,
+      "name": "Blackburn (Deakin)",
+      "formal": 314,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 66.56,
+      "swing": 7.92,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 132,
+          "pct": 42.04
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 91,
+          "pct": 28.98
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 59,
+          "pct": 18.79
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 6.05
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.27
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 0.96
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 0.96
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 209,
+          "elected": true,
+          "pct": 66.56
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 105,
+          "elected": false,
+          "pct": 33.44
+        }
+      ]
+    },
+    {
+      "boothId": 120356,
+      "name": "Donvale South (Deakin)",
+      "formal": 297,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 53.2,
+      "swing": 4.74,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 112,
+          "pct": 37.71
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 102,
+          "pct": 34.34
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 11.11
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 9.76
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 3.37
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.68
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.35
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 158,
+          "elected": true,
+          "pct": 53.2
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 139,
+          "elected": false,
+          "pct": 46.8
+        }
+      ]
+    },
+    {
+      "boothId": 91645,
+      "name": "Kilsyth (Deakin)",
+      "formal": 283,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 56.18,
+      "swing": 1.53,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 95,
+          "pct": 33.57
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "pct": 33.22
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 40,
+          "pct": 14.13
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 7.42
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 3.89
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 3.53
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 3.18
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 159,
+          "elected": true,
+          "pct": 56.18
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 124,
+          "elected": false,
+          "pct": 43.82
+        }
+      ]
+    },
+    {
+      "boothId": 109055,
+      "name": "Special Hospital Team 3",
+      "formal": 217,
+      "winnerParty": "lib",
+      "winnerSurname": "SUKKAR",
+      "winnerPct": 52.53,
+      "swing": -3.66,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 105,
+          "pct": 48.39
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 87,
+          "pct": 40.09
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 5.53
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 3.23
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 0.92
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.92
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.46
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 103,
+          "elected": true,
+          "pct": 47.47
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 114,
+          "elected": false,
+          "pct": 52.53
+        }
+      ]
+    },
+    {
+      "boothId": 108918,
+      "name": "Special Hospital Team 1",
+      "formal": 155,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 50.97,
+      "swing": 7.16,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 69,
+          "pct": 44.52
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 66,
+          "pct": 42.58
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 3.23
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.58
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.58
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.94
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 1.29
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 79,
+          "elected": true,
+          "pct": 50.97
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 76,
+          "elected": false,
+          "pct": 49.03
+        }
+      ]
+    },
+    {
+      "boothId": 109042,
+      "name": "Special Hospital Team 2",
+      "formal": 133,
+      "winnerParty": "lib",
+      "winnerSurname": "SUKKAR",
+      "winnerPct": 53.38,
+      "swing": -2.72,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 64,
+          "pct": 48.12
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "pct": 41.35
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 5.26
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.26
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.5
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.75
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 0.75
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 62,
+          "elected": true,
+          "pct": 46.62
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 71,
+          "elected": false,
+          "pct": 53.38
+        }
+      ]
+    },
+    {
+      "boothId": 108372,
+      "name": "Melbourne DEAKIN PPVC",
+      "formal": 79,
+      "winnerParty": "alp",
+      "winnerSurname": "GREGG",
+      "winnerPct": 78.48,
+      "swing": 15.98,
+      "candidates": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 31,
+          "pct": 39.24
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 25,
+          "pct": 31.65
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 10,
+          "pct": 12.66
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 10.13
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 2.53
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 1.27
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.27
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 62,
+          "elected": true,
+          "pct": 78.48
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 17,
+          "elected": false,
+          "pct": 21.52
+        }
+      ]
+    },
+    {
+      "boothId": 65402,
+      "name": "EAV Deakin PPVC",
+      "formal": 21,
+      "winnerParty": "lib",
+      "winnerSurname": "SUKKAR",
+      "winnerPct": 61.9,
+      "swing": -0.6,
+      "candidates": [
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 12,
+          "pct": 57.14
+        },
+        {
+          "surname": "NESS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 23.81
+        },
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "pct": 14.29
+        },
+        {
+          "surname": "GRIFFITH-JONES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 4.76
+        },
+        {
+          "surname": "COOKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MILLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "WILDE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "VANDERMEER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GREGG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8,
+          "elected": true,
+          "pct": 38.1
+        },
+        {
+          "surname": "SUKKAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 13,
+          "elected": false,
+          "pct": 61.9
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 115507,
+    "candidates": [
+      {
+        "id": "C40861",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Gregg"
+      },
+      {
+        "id": "C40795",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Sukkar"
+      },
+      {
+        "id": "C40868",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Ness"
+      },
+      {
+        "id": "C41512",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Cooke"
+      },
+      {
+        "id": "C41547",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Griffith-Jones"
+      },
+      {
+        "id": "C41128",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Mills"
+      },
+      {
+        "id": "C41387",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Wilde"
+      },
+      {
+        "id": "C41746",
+        "party": "oth",
+        "displayShort": "LTP",
+        "displayLong": "LTP \u2014 Vandermeer"
+      }
+    ],
+    "rounds": [
+      {
+        "C40861": 40177,
+        "C40795": 44732,
+        "C40868": 8253,
+        "C41512": 3043,
+        "C41547": 2106,
+        "C41128": 13758,
+        "C41387": 1853,
+        "C41746": 1585
+      },
+      {
+        "C40861": 40255,
+        "C40795": 44936,
+        "C40868": 8385,
+        "C41512": 3482,
+        "C41547": 2579,
+        "C41128": 13820,
+        "C41387": 2050
+      },
+      {
+        "C40861": 40400,
+        "C40795": 45339,
+        "C40868": 8632,
+        "C41512": 4220,
+        "C41547": 2948,
+        "C41128": 13968
+      },
+      {
+        "C40861": 40606,
+        "C40795": 46266,
+        "C40868": 9010,
+        "C41512": 5417,
+        "C41128": 14208
+      },
+      {
+        "C40861": 40946,
+        "C40795": 49324,
+        "C40868": 10734,
+        "C41128": 14503
+      },
+      {
+        "C40861": 44450,
+        "C40795": 51735,
+        "C41128": 19322
+      },
+      {
+        "C40861": 61014,
+        "C40795": 54493
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            51.41,
+            52.41,
+            46.82,
+            44.32,
+            45.22,
+            49.81,
+            52.82
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            48.59,
+            47.59,
+            53.18,
+            55.68,
+            54.78,
+            50.19,
+            47.18
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 44.35,
+            "FFP": 3.15,
+            "ALP": 41.86,
+            "GRN": 8.48,
+            "OTH": 2.17
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "LIB": 41.94,
+            "GRN": 12.92,
+            "FFP": 3.16,
+            "ALP": 39.93,
+            "OTH": 2.04
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "LIB": 45.88,
+            "TOP": 2.21,
+            "ASXP": 2.1,
+            "GRN": 10.83,
+            "ALP": 32.73,
+            "OTH": 6.24
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "GRN": 11.73,
+            "AJP": 2.65,
+            "AUC": 2.32,
+            "ALP": 31.04,
+            "LIB": 50.03,
+            "FFP": 2.23
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "HJP": 3.48,
+            "TOP": 2.05,
+            "ALP": 32.54,
+            "AJP": 2.02,
+            "LIB": 47.84,
+            "GRN": 8.98,
+            "OTH": 3.09
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "GRN": 13.87,
+            "ALP": 32.76,
+            "ON": 2.3,
+            "TOP": 2.83,
+            "LIB": 41.51,
+            "OTH": 6.75
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "GRN": 11.91,
+            "IND": 7.15,
+            "LIB": 38.73,
+            "ON": 2.63,
+            "ALP": 34.78,
+            "OTH": 4.79
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 167110,
+    "medianAge": 40,
+    "medianHouseholdIncomeWeekly": 1878,
+    "medianRentWeekly": 392,
+    "averageHouseholdSize": 2.6,
+    "bornOverseasPct": 30.4,
+    "indigenousPct": 0.5,
+    "bachelorPlusPct": 50.1,
+    "renterPct": 23.6,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 112955,
+        "pct": 69.62,
+        "natPct": 70.73
+      },
+      {
+        "label": "China",
+        "count": 4196,
+        "pct": 2.59,
+        "natPct": 1.0
+      },
+      {
+        "label": "England",
+        "count": 2689,
+        "pct": 1.66,
+        "natPct": 1.95
+      },
+      {
+        "label": "India",
+        "count": 2275,
+        "pct": 1.4,
+        "natPct": 1.51
+      },
+      {
+        "label": "Malaysia",
+        "count": 1337,
+        "pct": 0.82,
+        "natPct": 0.32
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 73676,
+        "pct": 44.09,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 71009,
+        "pct": 42.49,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 8525,
+        "pct": 5.1,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 5091,
+        "pct": 3.05,
+        "natPct": 2.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 4080,
+        "pct": 2.44,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Deakin is an Australian Electoral Division in Victoria. It is located in the eastern suburbs of Melbourne, and covers the majority of City of Maroondah, and parts of City of Whitehorse and City of Manningham.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Deakin",
+    "retrievedAt": "2026-01-22T07:12:20Z"
+  }
+}

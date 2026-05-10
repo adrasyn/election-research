@@ -1,0 +1,5080 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "ASTON",
+    "divisionId": 197,
+    "name": "Aston",
+    "state": "VIC",
+    "totalFormal": 109849,
+    "informalVotes": 4741,
+    "informalRate": 5.39,
+    "winner": {
+      "candidateId": "C40809",
+      "surname": "DOYLE",
+      "givenName": "Mary",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "LIB",
+    "tcpMargin": 6.86,
+    "result": "ALP GAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40809",
+      "surname": "DOYLE",
+      "givenName": "Mary",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 31636,
+      "pct": 38.0
+    },
+    {
+      "candidateId": "C40786",
+      "surname": "CICCHIELLO",
+      "givenName": "Manny",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 30722,
+      "pct": 36.9
+    },
+    {
+      "candidateId": "C41080",
+      "surname": "STEEN",
+      "givenName": "Reuben",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 9926,
+      "pct": 11.92
+    },
+    {
+      "candidateId": "C41505",
+      "surname": "De WACHT",
+      "givenName": "John",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 2671,
+      "pct": 3.21
+    },
+    {
+      "candidateId": "C41529",
+      "surname": "MANNERS",
+      "givenName": "Craig",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 2210,
+      "pct": 2.65
+    },
+    {
+      "candidateId": "C42063",
+      "surname": "GRONDMAN",
+      "givenName": "Mark",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 1955,
+      "pct": 2.35
+    },
+    {
+      "candidateId": "C41355",
+      "surname": "DESVEAUX",
+      "givenName": "Steve",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 1787,
+      "pct": 2.15
+    },
+    {
+      "candidateId": "C41147",
+      "surname": "WILLIAMS",
+      "givenName": "Andrew",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 1521,
+      "pct": 1.83
+    },
+    {
+      "candidateId": "C41307",
+      "surname": "FAWCETT",
+      "givenName": "David",
+      "party": "oth",
+      "partyAb": "LTP",
+      "votes": 821,
+      "pct": 0.99
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40809",
+      "surname": "DOYLE",
+      "givenName": "Mary",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 58690,
+      "pct": 53.43,
+      "elected": true
+    },
+    {
+      "candidateId": "C40786",
+      "surname": "CICCHIELLO",
+      "givenName": "Manny",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 51159,
+      "pct": 46.57,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 63158,
+      "name": "Boronia ASTON PPVC",
+      "formal": 17166,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 54.59,
+      "swing": 4.82,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6554,
+          "pct": 38.18
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6258,
+          "pct": 36.46
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1883,
+          "pct": 10.97
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 593,
+          "pct": 3.45
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 560,
+          "pct": 3.26
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 427,
+          "pct": 2.49
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 401,
+          "pct": 2.34
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 309,
+          "pct": 1.8
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 181,
+          "pct": 1.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9371,
+          "elected": true,
+          "pct": 54.59
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 7795,
+          "elected": false,
+          "pct": 45.41
+        }
+      ]
+    },
+    {
+      "boothId": 64690,
+      "name": "Scoresby ASTON PPVC",
+      "formal": 11584,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 50.64,
+      "swing": 6.72,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4966,
+          "pct": 42.87
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4513,
+          "pct": 38.96
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1066,
+          "pct": 9.2
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 267,
+          "pct": 2.3
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 234,
+          "pct": 2.02
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 166,
+          "pct": 1.43
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 161,
+          "pct": 1.39
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 144,
+          "pct": 1.24
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 67,
+          "pct": 0.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5866,
+          "elected": true,
+          "pct": 50.64
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5718,
+          "elected": false,
+          "pct": 49.36
+        }
+      ]
+    },
+    {
+      "boothId": 83838,
+      "name": "Rowville ASTON PPVC",
+      "formal": 10172,
+      "winnerParty": "lib",
+      "winnerSurname": "CICCHIELLO",
+      "winnerPct": 52.0,
+      "swing": -7.21,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4535,
+          "pct": 44.58
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3636,
+          "pct": 35.75
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 953,
+          "pct": 9.37
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 254,
+          "pct": 2.5
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 223,
+          "pct": 2.19
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 193,
+          "pct": 1.9
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 170,
+          "pct": 1.67
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 120,
+          "pct": 1.18
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 88,
+          "pct": 0.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4883,
+          "elected": true,
+          "pct": 48.0
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5289,
+          "elected": false,
+          "pct": 52.0
+        }
+      ]
+    },
+    {
+      "boothId": 31743,
+      "name": "Rowville South",
+      "formal": 1904,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 50.58,
+      "swing": 7.01,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 761,
+          "pct": 39.97
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 711,
+          "pct": 37.34
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 209,
+          "pct": 10.98
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 57,
+          "pct": 2.99
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 2.47
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.21
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 1.94
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.31
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 963,
+          "elected": true,
+          "pct": 50.58
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 941,
+          "elected": false,
+          "pct": 49.42
+        }
+      ]
+    },
+    {
+      "boothId": 31744,
+      "name": "Rowville Heights",
+      "formal": 1853,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 50.57,
+      "swing": 6.63,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 765,
+          "pct": 41.28
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 678,
+          "pct": 36.59
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 185,
+          "pct": 9.98
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 63,
+          "pct": 3.4
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 2.97
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 1.94
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 1.78
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 1.13
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 937,
+          "elected": true,
+          "pct": 50.57
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 916,
+          "elected": false,
+          "pct": 49.43
+        }
+      ]
+    },
+    {
+      "boothId": 2942,
+      "name": "Bayswater",
+      "formal": 1768,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 60.18,
+      "swing": 4.48,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 671,
+          "pct": 37.95
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 540,
+          "pct": 30.54
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 315,
+          "pct": 17.82
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 3.62
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 57,
+          "pct": 3.22
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 41,
+          "pct": 2.32
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 2.15
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 1.64
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1064,
+          "elected": true,
+          "pct": 60.18
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 704,
+          "elected": false,
+          "pct": 39.82
+        }
+      ]
+    },
+    {
+      "boothId": 2961,
+      "name": "Ferntree Gully Central",
+      "formal": 1745,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 57.71,
+      "swing": 7.82,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 648,
+          "pct": 37.13
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 534,
+          "pct": 30.6
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 252,
+          "pct": 14.44
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 86,
+          "pct": 4.93
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 61,
+          "pct": 3.5
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 57,
+          "pct": 3.27
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 2.98
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 1.89
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1007,
+          "elected": true,
+          "pct": 57.71
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 738,
+          "elected": false,
+          "pct": 42.29
+        }
+      ]
+    },
+    {
+      "boothId": 4869,
+      "name": "Bayswater North",
+      "formal": 1683,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 54.9,
+      "swing": 8.24,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 600,
+          "pct": 35.65
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 582,
+          "pct": 34.58
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 220,
+          "pct": 13.07
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 4.28
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 3.57
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.09
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 2.44
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 1.84
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 924,
+          "elected": true,
+          "pct": 54.9
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 759,
+          "elected": false,
+          "pct": 45.1
+        }
+      ]
+    },
+    {
+      "boothId": 2951,
+      "name": "Ferntree Gully West",
+      "formal": 1649,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 60.34,
+      "swing": 7.11,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 589,
+          "pct": 35.72
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 486,
+          "pct": 29.47
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 307,
+          "pct": 18.62
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 4.18
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 56,
+          "pct": 3.4
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.15
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 47,
+          "pct": 2.85
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 1.7
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 0.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 995,
+          "elected": true,
+          "pct": 60.34
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 654,
+          "elected": false,
+          "pct": 39.66
+        }
+      ]
+    },
+    {
+      "boothId": 2959,
+      "name": "Lysterfield",
+      "formal": 1627,
+      "winnerParty": "lib",
+      "winnerSurname": "CICCHIELLO",
+      "winnerPct": 56.18,
+      "swing": -5.31,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 772,
+          "pct": 47.45
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 526,
+          "pct": 32.33
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 129,
+          "pct": 7.93
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 2.83
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 43,
+          "pct": 2.64
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 40,
+          "pct": 2.46
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 2.21
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 1.29
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 713,
+          "elected": true,
+          "pct": 43.82
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 914,
+          "elected": false,
+          "pct": 56.18
+        }
+      ]
+    },
+    {
+      "boothId": 2965,
+      "name": "Scoresby",
+      "formal": 1510,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 56.69,
+      "swing": 7.15,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 598,
+          "pct": 39.6
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 501,
+          "pct": 33.18
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 191,
+          "pct": 12.65
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 56,
+          "pct": 3.71
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 3.51
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 2.72
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 1.85
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 1.59
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 856,
+          "elected": true,
+          "pct": 56.69
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 654,
+          "elected": false,
+          "pct": 43.31
+        }
+      ]
+    },
+    {
+      "boothId": 2971,
+      "name": "Wantirna",
+      "formal": 1498,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 55.61,
+      "swing": 8.05,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 597,
+          "pct": 39.85
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 545,
+          "pct": 36.38
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 177,
+          "pct": 11.82
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 63,
+          "pct": 4.21
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 1.8
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 1.67
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 1.54
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.47
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 833,
+          "elected": true,
+          "pct": 55.61
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 665,
+          "elected": false,
+          "pct": 44.39
+        }
+      ]
+    },
+    {
+      "boothId": 119934,
+      "name": "Ringwood ASTON PPVC",
+      "formal": 1437,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 60.26,
+      "swing": 11.46,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 591,
+          "pct": 41.13
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 480,
+          "pct": 33.4
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 228,
+          "pct": 15.87
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 2.16
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 1.74
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 1.67
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 1.6
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.53
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 0.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 866,
+          "elected": true,
+          "pct": 60.26
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 571,
+          "elected": false,
+          "pct": 39.74
+        }
+      ]
+    },
+    {
+      "boothId": 11513,
+      "name": "Rowville North East",
+      "formal": 1359,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 55.85,
+      "swing": 7.6,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 540,
+          "pct": 39.74
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 483,
+          "pct": 35.54
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 157,
+          "pct": 11.55
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 4.19
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.28
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 2.21
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 2.06
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 1.84
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 759,
+          "elected": true,
+          "pct": 55.85
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 600,
+          "elected": false,
+          "pct": 44.15
+        }
+      ]
+    },
+    {
+      "boothId": 4301,
+      "name": "The Basin",
+      "formal": 1353,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 57.43,
+      "swing": 2.59,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 428,
+          "pct": 31.63
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 403,
+          "pct": 29.79
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 218,
+          "pct": 16.11
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 104,
+          "pct": 7.69
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 5.1
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.47
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 2.59
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 2.59
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 777,
+          "elected": true,
+          "pct": 57.43
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 576,
+          "elected": false,
+          "pct": 42.57
+        }
+      ]
+    },
+    {
+      "boothId": 2973,
+      "name": "Wantirna Central",
+      "formal": 1348,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 53.78,
+      "swing": 6.73,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 512,
+          "pct": 37.98
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 508,
+          "pct": 37.69
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 168,
+          "pct": 12.46
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 2.74
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 2.52
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 2.0
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.93
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 1.71
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 725,
+          "elected": true,
+          "pct": 53.78
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 623,
+          "elected": false,
+          "pct": 46.22
+        }
+      ]
+    },
+    {
+      "boothId": 2969,
+      "name": "Boronia West",
+      "formal": 1257,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 62.85,
+      "swing": 6.49,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 518,
+          "pct": 41.21
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 327,
+          "pct": 26.01
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 199,
+          "pct": 15.83
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 3.98
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 46,
+          "pct": 3.66
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 43,
+          "pct": 3.42
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.55
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.23
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 790,
+          "elected": true,
+          "pct": 62.85
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 467,
+          "elected": false,
+          "pct": 37.15
+        }
+      ]
+    },
+    {
+      "boothId": 4274,
+      "name": "Boronia North",
+      "formal": 1254,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 59.97,
+      "swing": 5.06,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 467,
+          "pct": 37.24
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 365,
+          "pct": 29.11
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 198,
+          "pct": 15.79
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 5.34
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 3.35
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 39,
+          "pct": 3.11
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 2.87
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 2.07
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 752,
+          "elected": true,
+          "pct": 59.97
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 502,
+          "elected": false,
+          "pct": 40.03
+        }
+      ]
+    },
+    {
+      "boothId": 2945,
+      "name": "Bayswater West",
+      "formal": 1178,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 58.15,
+      "swing": 6.7,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 465,
+          "pct": 39.47
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 375,
+          "pct": 31.83
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 150,
+          "pct": 12.73
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 4.58
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.8
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 2.46
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 2.29
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 2.29
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 685,
+          "elected": true,
+          "pct": 58.15
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 493,
+          "elected": false,
+          "pct": 41.85
+        }
+      ]
+    },
+    {
+      "boothId": 2956,
+      "name": "Knoxfield",
+      "formal": 1176,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 56.29,
+      "swing": 9.55,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 458,
+          "pct": 38.95
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 380,
+          "pct": 32.31
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 136,
+          "pct": 11.56
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 5.95
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 3.23
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.47
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 2.21
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 2.04
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 662,
+          "elected": true,
+          "pct": 56.29
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 514,
+          "elected": false,
+          "pct": 43.71
+        }
+      ]
+    },
+    {
+      "boothId": 2950,
+      "name": "Ferntree Gully Heights",
+      "formal": 1144,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 58.13,
+      "swing": 4.39,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 432,
+          "pct": 37.76
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 326,
+          "pct": 28.5
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 154,
+          "pct": 13.46
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 6.21
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 3.58
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 41,
+          "pct": 3.58
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 3.32
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 1.84
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 665,
+          "elected": true,
+          "pct": 58.13
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 479,
+          "elected": false,
+          "pct": 41.87
+        }
+      ]
+    },
+    {
+      "boothId": 4283,
+      "name": "Ferntree Gully North",
+      "formal": 1137,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 62.09,
+      "swing": 3.26,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 400,
+          "pct": 35.18
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 303,
+          "pct": 26.65
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 218,
+          "pct": 19.17
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 45,
+          "pct": 3.96
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 44,
+          "pct": 3.87
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.78
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 3.17
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 2.99
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 706,
+          "elected": true,
+          "pct": 62.09
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 431,
+          "elected": false,
+          "pct": 37.91
+        }
+      ]
+    },
+    {
+      "boothId": 2948,
+      "name": "Boronia",
+      "formal": 1127,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 62.38,
+      "swing": 10.69,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 496,
+          "pct": 44.01
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 334,
+          "pct": 29.64
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 143,
+          "pct": 12.69
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 3.9
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 2.84
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.22
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 2.04
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 1.86
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 703,
+          "elected": true,
+          "pct": 62.38
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 424,
+          "elected": false,
+          "pct": 37.62
+        }
+      ]
+    },
+    {
+      "boothId": 2970,
+      "name": "Wantirna East",
+      "formal": 1107,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 59.44,
+      "swing": 9.67,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 506,
+          "pct": 45.71
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 369,
+          "pct": 33.33
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 106,
+          "pct": 9.58
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 2.62
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 2.26
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.26
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 1.9
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 1.81
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 658,
+          "elected": true,
+          "pct": 59.44
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 449,
+          "elected": false,
+          "pct": 40.56
+        }
+      ]
+    },
+    {
+      "boothId": 2963,
+      "name": "Rowville",
+      "formal": 1064,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 55.26,
+      "swing": 10.94,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 412,
+          "pct": 38.72
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 363,
+          "pct": 34.12
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 126,
+          "pct": 11.84
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 4.61
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 3.76
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 2.44
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.16
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.79
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 588,
+          "elected": true,
+          "pct": 55.26
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 476,
+          "elected": false,
+          "pct": 44.74
+        }
+      ]
+    },
+    {
+      "boothId": 4273,
+      "name": "Boronia East",
+      "formal": 1050,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 61.05,
+      "swing": 2.87,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 395,
+          "pct": 37.62
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 276,
+          "pct": 26.29
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 184,
+          "pct": 17.52
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 4.1
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 3.9
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 3.05
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.95
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 2.67
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 641,
+          "elected": true,
+          "pct": 61.05
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 409,
+          "elected": false,
+          "pct": 38.95
+        }
+      ]
+    },
+    {
+      "boothId": 2958,
+      "name": "Wantirna South West",
+      "formal": 1029,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 56.27,
+      "swing": 12.33,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 435,
+          "pct": 42.27
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 378,
+          "pct": 36.73
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 102,
+          "pct": 9.91
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 39,
+          "pct": 3.79
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 2.24
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 1.65
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 1.46
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.36
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 579,
+          "elected": true,
+          "pct": 56.27
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 450,
+          "elected": false,
+          "pct": 43.73
+        }
+      ]
+    },
+    {
+      "boothId": 2966,
+      "name": "Knoxfield Central",
+      "formal": 1012,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 55.93,
+      "swing": 8.34,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 397,
+          "pct": 39.23
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 355,
+          "pct": 35.08
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 13.14
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 2.96
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 2.77
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.37
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.88
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.38
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 566,
+          "elected": true,
+          "pct": 55.93
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 446,
+          "elected": false,
+          "pct": 44.07
+        }
+      ]
+    },
+    {
+      "boothId": 4282,
+      "name": "Ferntree Gully",
+      "formal": 992,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 60.18,
+      "swing": 4.99,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 362,
+          "pct": 36.49
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 290,
+          "pct": 29.23
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 176,
+          "pct": 17.74
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 4.13
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 3.02
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 2.92
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 2.32
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.22
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 597,
+          "elected": true,
+          "pct": 60.18
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 395,
+          "elected": false,
+          "pct": 39.82
+        }
+      ]
+    },
+    {
+      "boothId": 2952,
+      "name": "Wantirna West",
+      "formal": 976,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 52.87,
+      "swing": 7.82,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 408,
+          "pct": 41.8
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 392,
+          "pct": 40.16
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 82,
+          "pct": 8.4
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 3.48
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 1.95
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 1.33
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.23
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.02
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 516,
+          "elected": true,
+          "pct": 52.87
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 460,
+          "elected": false,
+          "pct": 47.13
+        }
+      ]
+    },
+    {
+      "boothId": 2974,
+      "name": "Wantirna South",
+      "formal": 907,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 53.69,
+      "swing": 7.98,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 359,
+          "pct": 39.58
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 347,
+          "pct": 38.26
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 98,
+          "pct": 10.8
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 2.76
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 2.43
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.09
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 1.65
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.32
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 487,
+          "elected": true,
+          "pct": 53.69
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 420,
+          "elected": false,
+          "pct": 46.31
+        }
+      ]
+    },
+    {
+      "boothId": 2957,
+      "name": "Ferntree Gully South West",
+      "formal": 904,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 52.77,
+      "swing": 6.52,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 334,
+          "pct": 36.95
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 302,
+          "pct": 33.41
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 135,
+          "pct": 14.93
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 3.54
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 3.43
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 2.32
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.1
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.88
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 477,
+          "elected": true,
+          "pct": 52.77
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 427,
+          "elected": false,
+          "pct": 47.23
+        }
+      ]
+    },
+    {
+      "boothId": 11514,
+      "name": "Heathmont West",
+      "formal": 894,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 64.43,
+      "swing": 11.35,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 347,
+          "pct": 38.81
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 252,
+          "pct": 28.19
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 201,
+          "pct": 22.48
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 2.46
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 2.24
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 1.9
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.79
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.23
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 576,
+          "elected": true,
+          "pct": 64.43
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 318,
+          "elected": false,
+          "pct": 35.57
+        }
+      ]
+    },
+    {
+      "boothId": 38413,
+      "name": "Rowville Central",
+      "formal": 839,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 50.18,
+      "swing": 3.91,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 360,
+          "pct": 42.91
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 309,
+          "pct": 36.83
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 84,
+          "pct": 10.01
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 2.74
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 2.26
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.91
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.91
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 0.72
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 421,
+          "elected": true,
+          "pct": 50.18
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 418,
+          "elected": false,
+          "pct": 49.82
+        }
+      ]
+    },
+    {
+      "boothId": 4284,
+      "name": "Upper Ferntree Gully (Aston)",
+      "formal": 747,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 68.81,
+      "swing": 3.71,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 296,
+          "pct": 39.63
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 162,
+          "pct": 21.69
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 161,
+          "pct": 21.55
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 4.15
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 3.61
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.95
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 2.54
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 2.41
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 514,
+          "elected": true,
+          "pct": 68.81
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 233,
+          "elected": false,
+          "pct": 31.19
+        }
+      ]
+    },
+    {
+      "boothId": 2964,
+      "name": "Rowville East",
+      "formal": 687,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 51.38,
+      "swing": 5.01,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 263,
+          "pct": 38.28
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 231,
+          "pct": 33.62
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 84,
+          "pct": 12.23
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 5.53
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 2.62
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.62
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 2.47
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.46
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 353,
+          "elected": true,
+          "pct": 51.38
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 334,
+          "elected": false,
+          "pct": 48.62
+        }
+      ]
+    },
+    {
+      "boothId": 2954,
+      "name": "Heathmont East",
+      "formal": 680,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 59.85,
+      "swing": 4.39,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 269,
+          "pct": 39.56
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 215,
+          "pct": 31.62
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 107,
+          "pct": 15.74
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 3.09
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 2.79
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 2.79
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 2.06
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.76
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 407,
+          "elected": true,
+          "pct": 59.85
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 273,
+          "elected": false,
+          "pct": 40.15
+        }
+      ]
+    },
+    {
+      "boothId": 12079,
+      "name": "Glen Park",
+      "formal": 563,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 65.36,
+      "swing": 10.21,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 247,
+          "pct": 43.87
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "pct": 25.4
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 88,
+          "pct": 15.63
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 4.62
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 3.55
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 2.49
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.95
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 1.6
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 368,
+          "elected": true,
+          "pct": 65.36
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 195,
+          "elected": false,
+          "pct": 34.64
+        }
+      ]
+    },
+    {
+      "boothId": 83798,
+      "name": "Bayswater South",
+      "formal": 501,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 58.68,
+      "swing": 6.28,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 195,
+          "pct": 38.92
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 155,
+          "pct": 30.94
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 13.97
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 3.59
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 3.59
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 2.59
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.59
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 2.2
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 294,
+          "elected": true,
+          "pct": 58.68
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 207,
+          "elected": false,
+          "pct": 41.32
+        }
+      ]
+    },
+    {
+      "boothId": 83810,
+      "name": "Rowville North",
+      "formal": 459,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 55.99,
+      "swing": 13.13,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 183,
+          "pct": 39.87
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 155,
+          "pct": 33.77
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 52,
+          "pct": 11.33
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 3.7
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 3.49
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.83
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 2.61
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.31
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 1.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 257,
+          "elected": true,
+          "pct": 55.99
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 202,
+          "elected": false,
+          "pct": 44.01
+        }
+      ]
+    },
+    {
+      "boothId": 119909,
+      "name": "Heathmont (Aston)",
+      "formal": 333,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 60.96,
+      "swing": 7.97,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 127,
+          "pct": 38.14
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 100,
+          "pct": 30.03
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 58,
+          "pct": 17.42
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 4.8
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.7
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 2.1
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 1.8
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 1.5
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 203,
+          "elected": true,
+          "pct": 60.96
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 130,
+          "elected": false,
+          "pct": 39.04
+        }
+      ]
+    },
+    {
+      "boothId": 109014,
+      "name": "Special Hospital Team 2",
+      "formal": 106,
+      "winnerParty": "lib",
+      "winnerSurname": "CICCHIELLO",
+      "winnerPct": 52.83,
+      "swing": -3.09,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 52,
+          "pct": 49.06
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "pct": 42.45
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 2.83
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 2.83
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.89
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.94
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 50,
+          "elected": true,
+          "pct": 47.17
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 56,
+          "elected": false,
+          "pct": 52.83
+        }
+      ]
+    },
+    {
+      "boothId": 108414,
+      "name": "Special Hospital Team 1",
+      "formal": 104,
+      "winnerParty": "lib",
+      "winnerSurname": "CICCHIELLO",
+      "winnerPct": 50.96,
+      "swing": -4.8,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 51,
+          "pct": 49.04
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 47,
+          "pct": 45.19
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.92
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.96
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.96
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 0.96
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 0.96
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 51,
+          "elected": true,
+          "pct": 49.04
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 53,
+          "elected": false,
+          "pct": 50.96
+        }
+      ]
+    },
+    {
+      "boothId": 124146,
+      "name": "Special Hospital Team 6",
+      "formal": 103,
+      "winnerParty": "lib",
+      "winnerSurname": "CICCHIELLO",
+      "winnerPct": 56.31,
+      "swing": 0.57,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 54,
+          "pct": 52.43
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "pct": 37.86
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 4.85
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 1.94
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.97
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 0.97
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.97
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "elected": true,
+          "pct": 43.69
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 58,
+          "elected": false,
+          "pct": 56.31
+        }
+      ]
+    },
+    {
+      "boothId": 124015,
+      "name": "Special Hospital Team 4",
+      "formal": 93,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 51.61,
+      "swing": 7.4,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 43,
+          "pct": 46.24
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 41,
+          "pct": 44.09
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 4.3
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 1.08
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 1.08
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.08
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 1.08
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.08
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 48,
+          "elected": true,
+          "pct": 51.61
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 45,
+          "elected": false,
+          "pct": 48.39
+        }
+      ]
+    },
+    {
+      "boothId": 124127,
+      "name": "Special Hospital Team 5",
+      "formal": 84,
+      "winnerParty": "lib",
+      "winnerSurname": "CICCHIELLO",
+      "winnerPct": 52.38,
+      "swing": -3.42,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 39,
+          "pct": 46.43
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 24,
+          "pct": 28.57
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 11.9
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 7.14
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 2.38
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 1.19
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.19
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 1.19
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 40,
+          "elected": true,
+          "pct": 47.62
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 44,
+          "elected": false,
+          "pct": 52.38
+        }
+      ]
+    },
+    {
+      "boothId": 124014,
+      "name": "Special Hospital Team 3",
+      "formal": 71,
+      "winnerParty": "lib",
+      "winnerSurname": "CICCHIELLO",
+      "winnerPct": 59.15,
+      "swing": 3.38,
+      "candidates": [
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 38,
+          "pct": 53.52
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 29,
+          "pct": 40.85
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 2.82
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 1.41
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 1.41
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 29,
+          "elected": true,
+          "pct": 40.85
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 42,
+          "elected": false,
+          "pct": 59.15
+        }
+      ]
+    },
+    {
+      "boothId": 65510,
+      "name": "EAV Aston PPVC",
+      "formal": 15,
+      "winnerParty": "alp",
+      "winnerSurname": "DOYLE",
+      "winnerPct": 73.33,
+      "swing": 35.83,
+      "candidates": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "pct": 46.67
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "pct": 20.0
+        },
+        {
+          "surname": "STEEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 20.0
+        },
+        {
+          "surname": "DESVEAUX",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 13.33
+        },
+        {
+          "surname": "MANNERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "FAWCETT",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "GRONDMAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "De WACHT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DOYLE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "elected": true,
+          "pct": 73.33
+        },
+        {
+          "surname": "CICCHIELLO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "elected": false,
+          "pct": 26.67
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 109849,
+    "candidates": [
+      {
+        "id": "C40786",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Cicchiello"
+      },
+      {
+        "id": "C40809",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Doyle"
+      },
+      {
+        "id": "C41529",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Manners"
+      },
+      {
+        "id": "C41147",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Williams"
+      },
+      {
+        "id": "C41307",
+        "party": "oth",
+        "displayShort": "LTP",
+        "displayLong": "LTP \u2014 Fawcett"
+      },
+      {
+        "id": "C42063",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Grondman"
+      },
+      {
+        "id": "C41080",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Steen"
+      },
+      {
+        "id": "C41505",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 De Wacht"
+      },
+      {
+        "id": "C41355",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Desveaux"
+      }
+    ],
+    "rounds": [
+      {
+        "C40786": 41382,
+        "C40809": 40926,
+        "C41529": 3006,
+        "C41147": 2104,
+        "C41307": 1059,
+        "C42063": 2439,
+        "C41080": 12669,
+        "C41505": 3738,
+        "C41355": 2526
+      },
+      {
+        "C40786": 41526,
+        "C40809": 40976,
+        "C41529": 3143,
+        "C41147": 2230,
+        "C42063": 2541,
+        "C41080": 12723,
+        "C41505": 4094,
+        "C41355": 2616
+      },
+      {
+        "C40786": 41769,
+        "C40809": 41293,
+        "C41529": 3342,
+        "C42063": 3717,
+        "C41080": 12896,
+        "C41505": 4157,
+        "C41355": 2675
+      },
+      {
+        "C40786": 42206,
+        "C40809": 41508,
+        "C41529": 3710,
+        "C42063": 3937,
+        "C41080": 13046,
+        "C41505": 5442
+      },
+      {
+        "C40786": 43258,
+        "C40809": 42013,
+        "C42063": 4688,
+        "C41080": 13341,
+        "C41505": 6549
+      },
+      {
+        "C40786": 43889,
+        "C40809": 43154,
+        "C41080": 15227,
+        "C41505": 7579
+      },
+      {
+        "C40786": 48511,
+        "C40809": 44267,
+        "C41080": 17071
+      },
+      {
+        "C40786": 51159,
+        "C40809": 58690
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            55.05,
+            51.76,
+            58.2,
+            58.59,
+            60.13,
+            52.81,
+            46.57
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            44.95,
+            48.24,
+            41.8,
+            41.41,
+            39.87,
+            47.19,
+            53.43
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 50.71,
+            "GRN": 5.23,
+            "FFP": 3.47,
+            "ALP": 38.84,
+            "OTH": 1.74
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "FFP": 4.9,
+            "ALP": 38.58,
+            "GRN": 9.67,
+            "LIB": 46.85
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "ALP": 32.63,
+            "LIB": 51.59,
+            "GRN": 5.88,
+            "FFP": 2.77,
+            "TOP": 3.76,
+            "ASXP": 2.69,
+            "OTH": 0.68
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "FFP": 3.23,
+            "GRN": 8.4,
+            "LIB": 50.86,
+            "IND": 2.46,
+            "AJP": 2.58,
+            "ALP": 31.07,
+            "OTH": 1.4
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "DLP": 3.03,
+            "ALP": 29.81,
+            "LIB": 54.69,
+            "GRN": 8.86,
+            "TOP": 3.61
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "GRN": 12.08,
+            "ALP": 32.55,
+            "LDP": 2.15,
+            "LIB": 43.05,
+            "ON": 3.08,
+            "TOP": 6.1,
+            "OTH": 0.99
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "ALP": 37.26,
+            "ON": 3.4,
+            "GRN": 11.53,
+            "CYA": 2.3,
+            "LIB": 37.67,
+            "IND": 4.14,
+            "FFP": 2.74,
+            "OTH": 0.96
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 159103,
+    "medianAge": 40,
+    "medianHouseholdIncomeWeekly": 1884,
+    "medianRentWeekly": 400,
+    "averageHouseholdSize": 2.7,
+    "bornOverseasPct": 34.1,
+    "indigenousPct": 0.6,
+    "bachelorPlusPct": 44.3,
+    "renterPct": 21.3,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 101821,
+        "pct": 65.95,
+        "natPct": 70.73
+      },
+      {
+        "label": "China",
+        "count": 3821,
+        "pct": 2.47,
+        "natPct": 1.0
+      },
+      {
+        "label": "India",
+        "count": 2599,
+        "pct": 1.68,
+        "natPct": 1.51
+      },
+      {
+        "label": "England",
+        "count": 2476,
+        "pct": 1.6,
+        "natPct": 1.95
+      },
+      {
+        "label": "Malaysia",
+        "count": 1845,
+        "pct": 1.19,
+        "natPct": 0.32
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 67871,
+        "pct": 42.66,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 65397,
+        "pct": 41.1,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 8025,
+        "pct": 5.04,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 6881,
+        "pct": 4.32,
+        "natPct": 2.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 5662,
+        "pct": 3.56,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Aston is an Australian Federal Electoral Division in the state of Victoria, located in the eastern suburbs of Melbourne. The suburbs in the division include Bayswater, Boronia, Ferntree Gully, Kilsyth South, Knoxfield, Rowville, Scoresby, The Basin, Wantirna and Wantirna South; and parts of Lysterfield, Sassafras, Upper Ferntree Gully, Ringwood, Heathmont and Bayswater North.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Aston",
+    "retrievedAt": "2026-01-22T07:09:53Z"
+  }
+}

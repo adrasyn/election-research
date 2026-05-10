@@ -1,0 +1,4712 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "BULLWINKEL",
+    "divisionId": 329,
+    "name": "Bullwinkel",
+    "state": "WA",
+    "totalFormal": 104664,
+    "informalVotes": 3094,
+    "informalRate": 3.79,
+    "winner": {
+      "candidateId": "C41248",
+      "surname": "COOK",
+      "givenName": "Trish",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": false
+    },
+    "previousWinnerParty": null,
+    "tcpMargin": 1.02,
+    "result": "ALP WIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41248",
+      "surname": "COOK",
+      "givenName": "Trish",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 25150,
+      "pct": 32.06
+    },
+    {
+      "candidateId": "C41223",
+      "surname": "MORAN",
+      "givenName": "Matt",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 18751,
+      "pct": 23.9
+    },
+    {
+      "candidateId": "C41756",
+      "surname": "DAVIES",
+      "givenName": "Mia",
+      "party": "nat",
+      "partyAb": "NAT",
+      "votes": 13027,
+      "pct": 16.6
+    },
+    {
+      "candidateId": "C41719",
+      "surname": "BISHOP",
+      "givenName": "Abbey",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 8660,
+      "pct": 11.04
+    },
+    {
+      "candidateId": "C41647",
+      "surname": "MAYES",
+      "givenName": "Trevor",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 6479,
+      "pct": 8.26
+    },
+    {
+      "candidateId": "C41720",
+      "surname": "YOUNG",
+      "givenName": "Penelope Rose",
+      "party": "oth",
+      "partyAb": "HMP",
+      "votes": 3828,
+      "pct": 4.88
+    },
+    {
+      "candidateId": "C41078",
+      "surname": "HOLTEN",
+      "givenName": "Les",
+      "party": "oth",
+      "partyAb": "AUC",
+      "votes": 2558,
+      "pct": 3.26
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41248",
+      "surname": "COOK",
+      "givenName": "Trish",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 52865,
+      "pct": 50.51,
+      "elected": true
+    },
+    {
+      "candidateId": "C41223",
+      "surname": "MORAN",
+      "givenName": "Matt",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 51799,
+      "pct": 49.49,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 97650,
+      "name": "Lesmurdie BULLWINKEL PPVC",
+      "formal": 9428,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 52.98,
+      "swing": 0.11,
+      "candidates": [
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3256,
+          "pct": 34.54
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3201,
+          "pct": 33.95
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 1167,
+          "pct": 12.38
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 792,
+          "pct": 8.4
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 524,
+          "pct": 5.56
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 245,
+          "pct": 2.6
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 243,
+          "pct": 2.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4433,
+          "elected": true,
+          "pct": 47.02
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4995,
+          "elected": false,
+          "pct": 52.98
+        }
+      ]
+    },
+    {
+      "boothId": 116637,
+      "name": "Midland BULLWINKEL PPVC",
+      "formal": 9065,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 54.22,
+      "swing": -1.24,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3484,
+          "pct": 38.43
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2361,
+          "pct": 26.05
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 1153,
+          "pct": 12.72
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 876,
+          "pct": 9.66
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 651,
+          "pct": 7.18
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 356,
+          "pct": 3.93
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 184,
+          "pct": 2.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4915,
+          "elected": true,
+          "pct": 54.22
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4150,
+          "elected": false,
+          "pct": 45.78
+        }
+      ]
+    },
+    {
+      "boothId": 58476,
+      "name": "Northam PPVC",
+      "formal": 5954,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 61.96,
+      "swing": 6.91,
+      "candidates": [
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 2536,
+          "pct": 42.59
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1357,
+          "pct": 22.79
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 868,
+          "pct": 14.58
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 546,
+          "pct": 9.17
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 259,
+          "pct": 4.35
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 210,
+          "pct": 3.53
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 178,
+          "pct": 2.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2265,
+          "elected": true,
+          "pct": 38.04
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3689,
+          "elected": false,
+          "pct": 61.96
+        }
+      ]
+    },
+    {
+      "boothId": 97492,
+      "name": "Mundaring PPVC",
+      "formal": 4652,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 53.1,
+      "swing": 6.04,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1401,
+          "pct": 30.12
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1159,
+          "pct": 24.91
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 988,
+          "pct": 21.24
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 439,
+          "pct": 9.44
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 390,
+          "pct": 8.38
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 177,
+          "pct": 3.8
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 98,
+          "pct": 2.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2182,
+          "elected": true,
+          "pct": 46.9
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2470,
+          "elected": false,
+          "pct": 53.1
+        }
+      ]
+    },
+    {
+      "boothId": 116554,
+      "name": "Armadale BULLWINKEL PPVC",
+      "formal": 4408,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 53.18,
+      "swing": -3.11,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1695,
+          "pct": 38.45
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1119,
+          "pct": 25.39
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 453,
+          "pct": 10.28
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 436,
+          "pct": 9.89
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 375,
+          "pct": 8.51
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 205,
+          "pct": 4.65
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 125,
+          "pct": 2.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2344,
+          "elected": true,
+          "pct": 53.18
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2064,
+          "elected": false,
+          "pct": 46.82
+        }
+      ]
+    },
+    {
+      "boothId": 7538,
+      "name": "High Wycombe",
+      "formal": 1787,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 58.48,
+      "swing": 0.41,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 709,
+          "pct": 39.68
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 409,
+          "pct": 22.89
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 200,
+          "pct": 11.19
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 146,
+          "pct": 8.17
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 144,
+          "pct": 8.06
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 135,
+          "pct": 7.55
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 44,
+          "pct": 2.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1045,
+          "elected": true,
+          "pct": 58.48
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 742,
+          "elected": false,
+          "pct": 41.52
+        }
+      ]
+    },
+    {
+      "boothId": 7963,
+      "name": "Swan View",
+      "formal": 1656,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 58.7,
+      "swing": 0.32,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 585,
+          "pct": 35.33
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 325,
+          "pct": 19.63
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 230,
+          "pct": 13.89
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 157,
+          "pct": 9.48
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 156,
+          "pct": 9.42
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 155,
+          "pct": 9.36
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 48,
+          "pct": 2.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 972,
+          "elected": true,
+          "pct": 58.7
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 684,
+          "elected": false,
+          "pct": 41.3
+        }
+      ]
+    },
+    {
+      "boothId": 7550,
+      "name": "Maida Vale",
+      "formal": 1641,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 51.01,
+      "swing": 1.32,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 516,
+          "pct": 31.44
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 488,
+          "pct": 29.74
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 205,
+          "pct": 12.49
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 189,
+          "pct": 11.52
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 136,
+          "pct": 8.29
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 64,
+          "pct": 3.9
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 43,
+          "pct": 2.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 804,
+          "elected": true,
+          "pct": 48.99
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 837,
+          "elected": false,
+          "pct": 51.01
+        }
+      ]
+    },
+    {
+      "boothId": 7556,
+      "name": "Wattle Grove",
+      "formal": 1636,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 62.16,
+      "swing": 0.91,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 722,
+          "pct": 44.13
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 374,
+          "pct": 22.86
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 224,
+          "pct": 13.69
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 116,
+          "pct": 7.09
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 4.4
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 68,
+          "pct": 4.16
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 60,
+          "pct": 3.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1017,
+          "elected": true,
+          "pct": 62.16
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 619,
+          "elected": false,
+          "pct": 37.84
+        }
+      ]
+    },
+    {
+      "boothId": 7554,
+      "name": "Roleystone",
+      "formal": 1598,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 54.57,
+      "swing": 4.12,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 496,
+          "pct": 31.04
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 369,
+          "pct": 23.09
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 266,
+          "pct": 16.65
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 177,
+          "pct": 11.08
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 152,
+          "pct": 9.51
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 78,
+          "pct": 4.88
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 60,
+          "pct": 3.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 872,
+          "elected": true,
+          "pct": 54.57
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 726,
+          "elected": false,
+          "pct": 45.43
+        }
+      ]
+    },
+    {
+      "boothId": 7922,
+      "name": "Helena Valley",
+      "formal": 1552,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 50.58,
+      "swing": 2.11,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 470,
+          "pct": 30.28
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 408,
+          "pct": 26.29
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 242,
+          "pct": 15.59
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 203,
+          "pct": 13.08
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 107,
+          "pct": 6.89
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 77,
+          "pct": 4.96
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 45,
+          "pct": 2.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 767,
+          "elected": true,
+          "pct": 49.42
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 785,
+          "elected": false,
+          "pct": 50.58
+        }
+      ]
+    },
+    {
+      "boothId": 7532,
+      "name": "Forrestfield North",
+      "formal": 1526,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 59.44,
+      "swing": 0.77,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 603,
+          "pct": 39.52
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 317,
+          "pct": 20.77
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 199,
+          "pct": 13.04
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 128,
+          "pct": 8.39
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 117,
+          "pct": 7.67
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 97,
+          "pct": 6.36
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 65,
+          "pct": 4.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 907,
+          "elected": true,
+          "pct": 59.44
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 619,
+          "elected": false,
+          "pct": 40.56
+        }
+      ]
+    },
+    {
+      "boothId": 11905,
+      "name": "High Wycombe South",
+      "formal": 1475,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 56.07,
+      "swing": -4.81,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 521,
+          "pct": 35.32
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 331,
+          "pct": 22.44
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 169,
+          "pct": 11.46
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 156,
+          "pct": 10.58
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 131,
+          "pct": 8.88
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 125,
+          "pct": 8.47
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 827,
+          "elected": true,
+          "pct": 56.07
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 648,
+          "elected": false,
+          "pct": 43.93
+        }
+      ]
+    },
+    {
+      "boothId": 7930,
+      "name": "Darlington",
+      "formal": 1439,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 63.52,
+      "swing": 3.71,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 539,
+          "pct": 37.46
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 275,
+          "pct": 19.11
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 271,
+          "pct": 18.83
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 167,
+          "pct": 11.61
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 75,
+          "pct": 5.21
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 4.45
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 48,
+          "pct": 3.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 914,
+          "elected": true,
+          "pct": 63.52
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 525,
+          "elected": false,
+          "pct": 36.48
+        }
+      ]
+    },
+    {
+      "boothId": 7531,
+      "name": "Forrestfield",
+      "formal": 1354,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 57.02,
+      "swing": -3.69,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 498,
+          "pct": 36.78
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 269,
+          "pct": 19.87
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 143,
+          "pct": 10.56
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 140,
+          "pct": 10.34
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 137,
+          "pct": 10.12
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 107,
+          "pct": 7.9
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 60,
+          "pct": 4.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 772,
+          "elected": true,
+          "pct": 57.02
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 582,
+          "elected": false,
+          "pct": 42.98
+        }
+      ]
+    },
+    {
+      "boothId": 7956,
+      "name": "Mundaring",
+      "formal": 1191,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 50.88,
+      "swing": -1.54,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 361,
+          "pct": 30.31
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 261,
+          "pct": 21.91
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 189,
+          "pct": 15.87
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 165,
+          "pct": 13.85
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 107,
+          "pct": 8.98
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 74,
+          "pct": 6.21
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 606,
+          "elected": true,
+          "pct": 50.88
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 585,
+          "elected": false,
+          "pct": 49.12
+        }
+      ]
+    },
+    {
+      "boothId": 7933,
+      "name": "Gidgegannup",
+      "formal": 1189,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 61.98,
+      "swing": 5.59,
+      "candidates": [
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 300,
+          "pct": 25.23
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 289,
+          "pct": 24.31
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 247,
+          "pct": 20.77
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 161,
+          "pct": 13.54
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 113,
+          "pct": 9.5
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.36
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 452,
+          "elected": true,
+          "pct": 38.02
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 737,
+          "elected": false,
+          "pct": 61.98
+        }
+      ]
+    },
+    {
+      "boothId": 65672,
+      "name": "Stratton North",
+      "formal": 1151,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 58.04,
+      "swing": 2.56,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 442,
+          "pct": 38.4
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 261,
+          "pct": 22.68
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 137,
+          "pct": 11.9
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 102,
+          "pct": 8.86
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 88,
+          "pct": 7.65
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 83,
+          "pct": 7.21
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 38,
+          "pct": 3.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 668,
+          "elected": true,
+          "pct": 58.04
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 483,
+          "elected": false,
+          "pct": 41.96
+        }
+      ]
+    },
+    {
+      "boothId": 7555,
+      "name": "Walliston",
+      "formal": 1148,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 54.44,
+      "swing": 7.53,
+      "candidates": [
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 349,
+          "pct": 30.4
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 299,
+          "pct": 26.05
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 180,
+          "pct": 15.68
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 143,
+          "pct": 12.46
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 6.62
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 66,
+          "pct": 5.75
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 35,
+          "pct": 3.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 523,
+          "elected": true,
+          "pct": 45.56
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 625,
+          "elected": false,
+          "pct": 54.44
+        }
+      ]
+    },
+    {
+      "boothId": 7540,
+      "name": "Kalamunda North",
+      "formal": 1138,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 52.55,
+      "swing": 2.1,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 360,
+          "pct": 31.63
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 308,
+          "pct": 27.07
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 183,
+          "pct": 16.08
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 137,
+          "pct": 12.04
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 4.92
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 55,
+          "pct": 4.83
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 598,
+          "elected": true,
+          "pct": 52.55
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 540,
+          "elected": false,
+          "pct": 47.45
+        }
+      ]
+    },
+    {
+      "boothId": 8103,
+      "name": "Toodyay",
+      "formal": 1067,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 64.1,
+      "swing": 11.29,
+      "candidates": [
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 360,
+          "pct": 33.74
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 205,
+          "pct": 19.21
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 173,
+          "pct": 16.21
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 140,
+          "pct": 13.12
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 91,
+          "pct": 8.53
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 61,
+          "pct": 5.72
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 37,
+          "pct": 3.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 383,
+          "elected": true,
+          "pct": 35.9
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 684,
+          "elected": false,
+          "pct": 64.1
+        }
+      ]
+    },
+    {
+      "boothId": 7935,
+      "name": "Glen Forrest",
+      "formal": 1050,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 55.62,
+      "swing": -4.58,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 318,
+          "pct": 30.29
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 218,
+          "pct": 20.76
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 202,
+          "pct": 19.24
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 164,
+          "pct": 15.62
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 5.71
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 49,
+          "pct": 4.67
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 584,
+          "elected": true,
+          "pct": 55.62
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 466,
+          "elected": false,
+          "pct": 44.38
+        }
+      ]
+    },
+    {
+      "boothId": 7958,
+      "name": "Parkerville",
+      "formal": 1029,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 51.41,
+      "swing": 0.9,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 256,
+          "pct": 24.88
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 228,
+          "pct": 22.16
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 205,
+          "pct": 19.92
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 182,
+          "pct": 17.69
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 74,
+          "pct": 7.19
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 6.51
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 529,
+          "elected": true,
+          "pct": 51.41
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 500,
+          "elected": false,
+          "pct": 48.59
+        }
+      ]
+    },
+    {
+      "boothId": 7468,
+      "name": "Armadale East",
+      "formal": 1026,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 51.46,
+      "swing": 5.09,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 289,
+          "pct": 28.17
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 218,
+          "pct": 21.25
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 12.96
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 132,
+          "pct": 12.87
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 113,
+          "pct": 11.01
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 93,
+          "pct": 9.06
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 48,
+          "pct": 4.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 498,
+          "elected": true,
+          "pct": 48.54
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 528,
+          "elected": false,
+          "pct": 51.46
+        }
+      ]
+    },
+    {
+      "boothId": 7936,
+      "name": "Greenmount",
+      "formal": 1017,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 59.98,
+      "swing": 1.71,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 352,
+          "pct": 34.61
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 226,
+          "pct": 22.22
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 172,
+          "pct": 16.91
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 109,
+          "pct": 10.72
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 7.87
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 58,
+          "pct": 5.7
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 610,
+          "elected": true,
+          "pct": 59.98
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 407,
+          "elected": false,
+          "pct": 40.02
+        }
+      ]
+    },
+    {
+      "boothId": 7547,
+      "name": "Lesmurdie",
+      "formal": 1000,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 52.8,
+      "swing": -1.84,
+      "candidates": [
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 301,
+          "pct": 30.1
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 273,
+          "pct": 27.3
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 145,
+          "pct": 14.5
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 135,
+          "pct": 13.5
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 7.3
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 47,
+          "pct": 4.7
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 26,
+          "pct": 2.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 472,
+          "elected": true,
+          "pct": 47.2
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 528,
+          "elected": false,
+          "pct": 52.8
+        }
+      ]
+    },
+    {
+      "boothId": 7541,
+      "name": "Roleystone North",
+      "formal": 978,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 53.27,
+      "swing": 1.09,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 268,
+          "pct": 27.4
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 228,
+          "pct": 23.31
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 154,
+          "pct": 15.75
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 114,
+          "pct": 11.66
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 107,
+          "pct": 10.94
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 54,
+          "pct": 5.52
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 53,
+          "pct": 5.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 457,
+          "elected": true,
+          "pct": 46.73
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 521,
+          "elected": false,
+          "pct": 53.27
+        }
+      ]
+    },
+    {
+      "boothId": 7544,
+      "name": "Kelmscott North",
+      "formal": 975,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 55.28,
+      "swing": -10.0,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 303,
+          "pct": 31.08
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 193,
+          "pct": 19.79
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 170,
+          "pct": 17.44
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 102,
+          "pct": 10.46
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 98,
+          "pct": 10.05
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 64,
+          "pct": 6.56
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 45,
+          "pct": 4.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 539,
+          "elected": true,
+          "pct": 55.28
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 436,
+          "elected": false,
+          "pct": 44.72
+        }
+      ]
+    },
+    {
+      "boothId": 11901,
+      "name": "Stratton",
+      "formal": 973,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 68.55,
+      "swing": 0.31,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 448,
+          "pct": 46.04
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 135,
+          "pct": 13.87
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 130,
+          "pct": 13.36
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 94,
+          "pct": 9.66
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 7.5
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 68,
+          "pct": 6.99
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 667,
+          "elected": true,
+          "pct": 68.55
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 306,
+          "elected": false,
+          "pct": 31.45
+        }
+      ]
+    },
+    {
+      "boothId": 7533,
+      "name": "Gooseberry Hill",
+      "formal": 923,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 55.69,
+      "swing": 5.11,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 318,
+          "pct": 34.45
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 258,
+          "pct": 27.95
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 16.47
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 94,
+          "pct": 10.18
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 4.44
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 35,
+          "pct": 3.79
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 514,
+          "elected": true,
+          "pct": 55.69
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 409,
+          "elected": false,
+          "pct": 44.31
+        }
+      ]
+    },
+    {
+      "boothId": 7953,
+      "name": "Mount Helena",
+      "formal": 858,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 50.7,
+      "swing": 3.42,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 226,
+          "pct": 26.34
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 191,
+          "pct": 22.26
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 152,
+          "pct": 17.72
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 111,
+          "pct": 12.94
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 90,
+          "pct": 10.49
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 51,
+          "pct": 5.94
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 423,
+          "elected": true,
+          "pct": 49.3
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 435,
+          "elected": false,
+          "pct": 50.7
+        }
+      ]
+    },
+    {
+      "boothId": 7543,
+      "name": "Kelmscott East",
+      "formal": 806,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 54.71,
+      "swing": -5.06,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 254,
+          "pct": 31.51
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 158,
+          "pct": 19.6
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 119,
+          "pct": 14.76
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 95,
+          "pct": 11.79
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 73,
+          "pct": 9.06
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 57,
+          "pct": 7.07
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 50,
+          "pct": 6.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 441,
+          "elected": true,
+          "pct": 54.71
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 365,
+          "elected": false,
+          "pct": 45.29
+        }
+      ]
+    },
+    {
+      "boothId": 8207,
+      "name": "Koongamia",
+      "formal": 800,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 57.25,
+      "swing": -3.89,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 236,
+          "pct": 29.5
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 139,
+          "pct": 17.38
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 127,
+          "pct": 15.88
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 100,
+          "pct": 12.5
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 86,
+          "pct": 10.75
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 71,
+          "pct": 8.88
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 41,
+          "pct": 5.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 458,
+          "elected": true,
+          "pct": 57.25
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 342,
+          "elected": false,
+          "pct": 42.75
+        }
+      ]
+    },
+    {
+      "boothId": 8077,
+      "name": "Northam",
+      "formal": 794,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 58.44,
+      "swing": 11.47,
+      "candidates": [
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 319,
+          "pct": 40.18
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 141,
+          "pct": 17.76
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 97,
+          "pct": 12.22
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 89,
+          "pct": 11.21
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 63,
+          "pct": 7.93
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 59,
+          "pct": 7.43
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 330,
+          "elected": true,
+          "pct": 41.56
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 464,
+          "elected": false,
+          "pct": 58.44
+        }
+      ]
+    },
+    {
+      "boothId": 8123,
+      "name": "York",
+      "formal": 777,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 67.57,
+      "swing": 9.81,
+      "candidates": [
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 312,
+          "pct": 40.15
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "pct": 18.4
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 137,
+          "pct": 17.63
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 9.27
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 47,
+          "pct": 6.05
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 5.53
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 252,
+          "elected": true,
+          "pct": 32.43
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 525,
+          "elected": false,
+          "pct": 67.57
+        }
+      ]
+    },
+    {
+      "boothId": 65671,
+      "name": "Forrestfield West",
+      "formal": 757,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 60.24,
+      "swing": -0.21,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 281,
+          "pct": 37.12
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "pct": 18.89
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 116,
+          "pct": 15.32
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 91,
+          "pct": 12.02
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 7.93
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 52,
+          "pct": 6.87
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 456,
+          "elected": true,
+          "pct": 60.24
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 301,
+          "elected": false,
+          "pct": 39.76
+        }
+      ]
+    },
+    {
+      "boothId": 65668,
+      "name": "Lesmurdie North",
+      "formal": 718,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 55.99,
+      "swing": 1.87,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 241,
+          "pct": 33.57
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 168,
+          "pct": 23.4
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 113,
+          "pct": 15.74
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 89,
+          "pct": 12.4
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 6.13
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 34,
+          "pct": 4.74
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 29,
+          "pct": 4.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 402,
+          "elected": true,
+          "pct": 55.99
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 316,
+          "elected": false,
+          "pct": 44.01
+        }
+      ]
+    },
+    {
+      "boothId": 7927,
+      "name": "Chidlow",
+      "formal": 709,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 55.01,
+      "swing": 8.6,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "pct": 23.41
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 149,
+          "pct": 21.02
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 146,
+          "pct": 20.59
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 91,
+          "pct": 12.83
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 82,
+          "pct": 11.57
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 55,
+          "pct": 7.76
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 319,
+          "elected": true,
+          "pct": 44.99
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 390,
+          "elected": false,
+          "pct": 55.01
+        }
+      ]
+    },
+    {
+      "boothId": 116616,
+      "name": "Lathlain BULLWINKEL PPVC",
+      "formal": 691,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 56.87,
+      "swing": -2.86,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 257,
+          "pct": 37.19
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 177,
+          "pct": 25.62
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 95,
+          "pct": 13.75
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 60,
+          "pct": 8.68
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 7.38
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.76
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 25,
+          "pct": 3.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 393,
+          "elected": true,
+          "pct": 56.87
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 298,
+          "elected": false,
+          "pct": 43.13
+        }
+      ]
+    },
+    {
+      "boothId": 8850,
+      "name": "Bedfordale",
+      "formal": 664,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 61.3,
+      "swing": 0.04,
+      "candidates": [
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 164,
+          "pct": 24.7
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 160,
+          "pct": 24.1
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 101,
+          "pct": 15.21
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 11.45
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 71,
+          "pct": 10.69
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 56,
+          "pct": 8.43
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 36,
+          "pct": 5.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 257,
+          "elected": true,
+          "pct": 38.7
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 407,
+          "elected": false,
+          "pct": 61.3
+        }
+      ]
+    },
+    {
+      "boothId": 7948,
+      "name": "Mahogany Creek",
+      "formal": 658,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 54.1,
+      "swing": -1.29,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 152,
+          "pct": 23.1
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 145,
+          "pct": 22.04
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 131,
+          "pct": 19.91
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 94,
+          "pct": 14.29
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 11.09
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 37,
+          "pct": 5.62
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 302,
+          "elected": true,
+          "pct": 45.9
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 356,
+          "elected": false,
+          "pct": 54.1
+        }
+      ]
+    },
+    {
+      "boothId": 7982,
+      "name": "Beverley",
+      "formal": 633,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 66.67,
+      "swing": 5.48,
+      "candidates": [
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 285,
+          "pct": 45.02
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 105,
+          "pct": 16.59
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 103,
+          "pct": 16.27
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 10.11
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 36,
+          "pct": 5.69
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 29,
+          "pct": 4.58
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 211,
+          "elected": true,
+          "pct": 33.33
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 422,
+          "elected": false,
+          "pct": 66.67
+        }
+      ]
+    },
+    {
+      "boothId": 7539,
+      "name": "Kalamunda",
+      "formal": 585,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 52.31,
+      "swing": 1.21,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 184,
+          "pct": 31.45
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 162,
+          "pct": 27.69
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 83,
+          "pct": 14.19
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 72,
+          "pct": 12.31
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 6.15
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 28,
+          "pct": 4.79
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 3.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 306,
+          "elected": true,
+          "pct": 52.31
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 279,
+          "elected": false,
+          "pct": 47.69
+        }
+      ]
+    },
+    {
+      "boothId": 8119,
+      "name": "Wundowie",
+      "formal": 574,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 54.01,
+      "swing": 9.71,
+      "candidates": [
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 177,
+          "pct": 30.84
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 146,
+          "pct": 25.44
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 86,
+          "pct": 14.98
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 10.8
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 49,
+          "pct": 8.54
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 47,
+          "pct": 8.19
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 264,
+          "elected": true,
+          "pct": 45.99
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 310,
+          "elected": false,
+          "pct": 54.01
+        }
+      ]
+    },
+    {
+      "boothId": 7960,
+      "name": "Sawyers Valley",
+      "formal": 559,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 53.31,
+      "swing": -5.49,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 164,
+          "pct": 29.34
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 107,
+          "pct": 19.14
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 98,
+          "pct": 17.53
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 13.6
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 51,
+          "pct": 9.12
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 8.59
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 298,
+          "elected": true,
+          "pct": 53.31
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 261,
+          "elected": false,
+          "pct": 46.69
+        }
+      ]
+    },
+    {
+      "boothId": 83289,
+      "name": "Swan View East",
+      "formal": 494,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 51.82,
+      "swing": -8.75,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 160,
+          "pct": 32.39
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 121,
+          "pct": 24.49
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 66,
+          "pct": 13.36
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 11.54
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 42,
+          "pct": 8.5
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 7.49
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 256,
+          "elected": true,
+          "pct": 51.82
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 238,
+          "elected": false,
+          "pct": 48.18
+        }
+      ]
+    },
+    {
+      "boothId": 7551,
+      "name": "Pickering Brook",
+      "formal": 490,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 62.04,
+      "swing": -2.33,
+      "candidates": [
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 186,
+          "pct": 37.96
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 108,
+          "pct": 22.04
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 67,
+          "pct": 13.67
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 60,
+          "pct": 12.24
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 7.35
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 4.9
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 186,
+          "elected": true,
+          "pct": 37.96
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 304,
+          "elected": false,
+          "pct": 62.04
+        }
+      ]
+    },
+    {
+      "boothId": 95842,
+      "name": "High Wycombe North",
+      "formal": 484,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 54.55,
+      "swing": 2.4,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 176,
+          "pct": 36.36
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 121,
+          "pct": 25.0
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 50,
+          "pct": 10.33
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 49,
+          "pct": 10.12
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 8.26
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 29,
+          "pct": 5.99
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 264,
+          "elected": true,
+          "pct": 54.55
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 220,
+          "elected": false,
+          "pct": 45.45
+        }
+      ]
+    },
+    {
+      "boothId": 7977,
+      "name": "Bakers Hill",
+      "formal": 395,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 56.96,
+      "swing": 3.36,
+      "candidates": [
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 126,
+          "pct": 31.9
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 79,
+          "pct": 20.0
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 15.7
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 57,
+          "pct": 14.43
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 38,
+          "pct": 9.62
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 5.57
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "elected": true,
+          "pct": 43.04
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 225,
+          "elected": false,
+          "pct": 56.96
+        }
+      ]
+    },
+    {
+      "boothId": 7970,
+      "name": "Wooroloo",
+      "formal": 325,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 53.85,
+      "swing": 8.06,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 91,
+          "pct": 28.0
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 78,
+          "pct": 24.0
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 58,
+          "pct": 17.85
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 45,
+          "pct": 13.85
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 26,
+          "pct": 8.0
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 7.08
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 150,
+          "elected": true,
+          "pct": 46.15
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 175,
+          "elected": false,
+          "pct": 53.85
+        }
+      ]
+    },
+    {
+      "boothId": 8078,
+      "name": "Northam East",
+      "formal": 172,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 68.6,
+      "swing": 19.73,
+      "candidates": [
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 90,
+          "pct": 52.33
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 23,
+          "pct": 13.37
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 10.47
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "pct": 9.3
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 5.81
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 5.81
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 54,
+          "elected": true,
+          "pct": 31.4
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 118,
+          "elected": false,
+          "pct": 68.6
+        }
+      ]
+    },
+    {
+      "boothId": 8029,
+      "name": "Greenhills",
+      "formal": 163,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 81.6,
+      "swing": 1.45,
+      "candidates": [
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 88,
+          "pct": 53.99
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 32,
+          "pct": 19.63
+        },
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "pct": 9.82
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 6.75
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 5.52
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 3.07
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "elected": true,
+          "pct": 18.4
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 133,
+          "elected": false,
+          "pct": 81.6
+        }
+      ]
+    },
+    {
+      "boothId": 119899,
+      "name": "Special Hospital Team 1",
+      "formal": 141,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 51.06,
+      "swing": 0.35,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 50,
+          "pct": 35.46
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 42,
+          "pct": 29.79
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 16,
+          "pct": 11.35
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 10,
+          "pct": 7.09
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 7.09
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 5.67
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 3.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 72,
+          "elected": true,
+          "pct": 51.06
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 69,
+          "elected": false,
+          "pct": 48.94
+        }
+      ]
+    },
+    {
+      "boothId": 119900,
+      "name": "Special Hospital Team 2",
+      "formal": 123,
+      "winnerParty": "lib",
+      "winnerSurname": "MORAN",
+      "winnerPct": 60.16,
+      "swing": 11.04,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 44,
+          "pct": 35.77
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 37,
+          "pct": 30.08
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 25,
+          "pct": 20.33
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 6.5
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 3.25
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 2.44
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "elected": true,
+          "pct": 39.84
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 74,
+          "elected": false,
+          "pct": 60.16
+        }
+      ]
+    },
+    {
+      "boothId": 119897,
+      "name": "Other Mobile Team 1",
+      "formal": 34,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 67.65,
+      "swing": 16.78,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "pct": 47.06
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 17.65
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 5,
+          "pct": 14.71
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "pct": 8.82
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 5.88
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 2.94
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 2.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 23,
+          "elected": true,
+          "pct": 67.65
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 11,
+          "elected": false,
+          "pct": 32.35
+        }
+      ]
+    },
+    {
+      "boothId": 116653,
+      "name": "Bennett Springs (Bullwinkel)",
+      "formal": 14,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 57.14,
+      "swing": -4.82,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "pct": 28.57
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 21.43
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 3,
+          "pct": 21.43
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 7.14
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 7.14
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1,
+          "pct": 7.14
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 7.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8,
+          "elected": true,
+          "pct": 57.14
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6,
+          "elected": false,
+          "pct": 42.86
+        }
+      ]
+    },
+    {
+      "boothId": 116552,
+      "name": "EAV Bullwinkel PPVC",
+      "formal": 9,
+      "winnerParty": "alp",
+      "winnerSurname": "COOK",
+      "winnerPct": 55.56,
+      "swing": 12.7,
+      "candidates": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "pct": 44.44
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "pct": 22.22
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 11.11
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 1,
+          "pct": 11.11
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 11.11
+        },
+        {
+          "surname": "MAYES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HOLTEN",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COOK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "elected": true,
+          "pct": 55.56
+        },
+        {
+          "surname": "MORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "elected": false,
+          "pct": 44.44
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 104664,
+    "candidates": [
+      {
+        "id": "C41647",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Mayes"
+      },
+      {
+        "id": "C41078",
+        "party": "oth",
+        "displayShort": "AUC",
+        "displayLong": "AUC \u2014 Holten"
+      },
+      {
+        "id": "C41720",
+        "party": "oth",
+        "displayShort": "HMP",
+        "displayLong": "HMP \u2014 Young"
+      },
+      {
+        "id": "C41223",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Moran"
+      },
+      {
+        "id": "C41248",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Cook"
+      },
+      {
+        "id": "C41756",
+        "party": "nat",
+        "displayShort": "NAT",
+        "displayLong": "NAT \u2014 Davies"
+      },
+      {
+        "id": "C41719",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Bishop"
+      }
+    ],
+    "rounds": [
+      {
+        "C41647": 9011,
+        "C41078": 3287,
+        "C41720": 5262,
+        "C41223": 25433,
+        "C41248": 33436,
+        "C41756": 16507,
+        "C41719": 11728
+      },
+      {
+        "C41647": 10755,
+        "C41720": 5473,
+        "C41223": 26016,
+        "C41248": 33661,
+        "C41756": 16896,
+        "C41719": 11863
+      },
+      {
+        "C41647": 12102,
+        "C41223": 26694,
+        "C41248": 34781,
+        "C41756": 17576,
+        "C41719": 13511
+      },
+      {
+        "C41223": 30909,
+        "C41248": 35931,
+        "C41756": 22888,
+        "C41719": 14936
+      },
+      {
+        "C41223": 31950,
+        "C41248": 46206,
+        "C41756": 26508
+      },
+      {
+        "C41223": 51799,
+        "C41248": 52865
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            50.51
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            49.49
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2025",
+          "shares": {
+            "AUC": 3.14,
+            "HMP": 5.03,
+            "GRN": 11.21,
+            "NAT": 15.77,
+            "ALP": 31.95,
+            "LIB": 24.3,
+            "ON": 8.61
+          }
+        }
+      ]
+    }
+  },
+  "demographics": null,
+  "bio": {
+    "text": "The Division of Bullwinkel is an Australian electoral division in the state of Western Australia contested for the first time at the 2025 federal election. It was created in 2024 as part of a redistribution, a statutory process to maintain broad population equality amongst lower house seats over time and as populations shift, and thus maintain broadly one vote one value. The process was managed, and ultimately new boundaries for WA divisions were determined, by Australia's independent statutory elections authority, the Australian Electoral Commission. The current representative as of the 2025 Australian federal election is Trish Cook of the Australian Labor Party.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Bullwinkel",
+    "retrievedAt": "2026-02-12T07:01:35Z"
+  }
+}

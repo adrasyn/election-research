@@ -1,0 +1,3941 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "LONGMAN",
+    "divisionId": 302,
+    "name": "Longman",
+    "state": "QLD",
+    "totalFormal": 121929,
+    "informalVotes": 4253,
+    "informalRate": 4.35,
+    "winner": {
+      "candidateId": "C41194",
+      "surname": "YOUNG",
+      "givenName": "Terry",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "LNP",
+    "tcpMargin": 0.22,
+    "result": "LNP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40780",
+      "surname": "DOUGLAS",
+      "givenName": "Rhiannyn",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 33815,
+      "pct": 36.19
+    },
+    {
+      "candidateId": "C41194",
+      "surname": "YOUNG",
+      "givenName": "Terry",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 33479,
+      "pct": 35.83
+    },
+    {
+      "candidateId": "C41263",
+      "surname": "UNVERZAGT",
+      "givenName": "Gabrielle",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 9169,
+      "pct": 9.81
+    },
+    {
+      "candidateId": "C40959",
+      "surname": "McCASKER",
+      "givenName": "Peter",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 8864,
+      "pct": 9.49
+    },
+    {
+      "candidateId": "C41382",
+      "surname": "WOOD",
+      "givenName": "Benjamin",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 4575,
+      "pct": 4.9
+    },
+    {
+      "candidateId": "C40910",
+      "surname": "HEARNE",
+      "givenName": "Malachi Brogden",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 3547,
+      "pct": 3.8
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41194",
+      "surname": "YOUNG",
+      "givenName": "Terry",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 61099,
+      "pct": 50.11,
+      "elected": true
+    },
+    {
+      "candidateId": "C40780",
+      "surname": "DOUGLAS",
+      "givenName": "Rhiannyn",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 60830,
+      "pct": 49.89,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 32666,
+      "name": "Bribie Island PPVC",
+      "formal": 14216,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 57.82,
+      "swing": -4.28,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6984,
+          "pct": 49.13
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4936,
+          "pct": 34.72
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 846,
+          "pct": 5.95
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 694,
+          "pct": 4.88
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 538,
+          "pct": 3.78
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 218,
+          "pct": 1.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 8220,
+          "elected": true,
+          "pct": 57.82
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5996,
+          "elected": false,
+          "pct": 42.18
+        }
+      ]
+    },
+    {
+      "boothId": 83254,
+      "name": "Morayfield PPVC",
+      "formal": 12519,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 52.72,
+      "swing": 6.27,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4931,
+          "pct": 39.39
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4302,
+          "pct": 34.36
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1209,
+          "pct": 9.66
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1060,
+          "pct": 8.47
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 595,
+          "pct": 4.75
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 422,
+          "pct": 3.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5919,
+          "elected": true,
+          "pct": 47.28
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6600,
+          "elected": false,
+          "pct": 52.72
+        }
+      ]
+    },
+    {
+      "boothId": 34119,
+      "name": "Caboolture PPVC",
+      "formal": 12205,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 52.09,
+      "swing": 1.53,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4638,
+          "pct": 38.0
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4253,
+          "pct": 34.85
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1252,
+          "pct": 10.26
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1064,
+          "pct": 8.72
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 525,
+          "pct": 4.3
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 473,
+          "pct": 3.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6358,
+          "elected": true,
+          "pct": 52.09
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5847,
+          "elected": false,
+          "pct": 47.91
+        }
+      ]
+    },
+    {
+      "boothId": 65878,
+      "name": "Burpengary LONGMAN PPVC",
+      "formal": 11127,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 51.15,
+      "swing": 6.12,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4307,
+          "pct": 38.71
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4021,
+          "pct": 36.14
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 992,
+          "pct": 8.92
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 925,
+          "pct": 8.31
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 483,
+          "pct": 4.34
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 399,
+          "pct": 3.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5436,
+          "elected": true,
+          "pct": 48.85
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5691,
+          "elected": false,
+          "pct": 51.15
+        }
+      ]
+    },
+    {
+      "boothId": 64728,
+      "name": "North Lakes LONGMAN PPVC",
+      "formal": 2987,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 54.5,
+      "swing": 2.2,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1127,
+          "pct": 37.73
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 973,
+          "pct": 32.57
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 395,
+          "pct": 13.22
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 236,
+          "pct": 7.9
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 131,
+          "pct": 4.39
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 125,
+          "pct": 4.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1359,
+          "elected": true,
+          "pct": 45.5
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1628,
+          "elected": false,
+          "pct": 54.5
+        }
+      ]
+    },
+    {
+      "boothId": 83267,
+      "name": "Narangba Valley",
+      "formal": 2310,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 53.68,
+      "swing": 7.52,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 843,
+          "pct": 36.49
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 733,
+          "pct": 31.73
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 311,
+          "pct": 13.46
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 207,
+          "pct": 8.96
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 115,
+          "pct": 4.98
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 101,
+          "pct": 4.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1070,
+          "elected": true,
+          "pct": 46.32
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1240,
+          "elected": false,
+          "pct": 53.68
+        }
+      ]
+    },
+    {
+      "boothId": 32501,
+      "name": "Morayfield West",
+      "formal": 2055,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 55.67,
+      "swing": -0.36,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 743,
+          "pct": 36.16
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 558,
+          "pct": 27.15
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 301,
+          "pct": 14.65
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 227,
+          "pct": 11.05
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 116,
+          "pct": 5.64
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 110,
+          "pct": 5.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 911,
+          "elected": true,
+          "pct": 44.33
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1144,
+          "elected": false,
+          "pct": 55.67
+        }
+      ]
+    },
+    {
+      "boothId": 83367,
+      "name": "Murrumba Downs LONGMAN PPVC",
+      "formal": 2022,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 57.37,
+      "swing": 3.99,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 852,
+          "pct": 42.14
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 598,
+          "pct": 29.57
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 212,
+          "pct": 10.48
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 140,
+          "pct": 6.92
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 116,
+          "pct": 5.74
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 104,
+          "pct": 5.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 862,
+          "elected": true,
+          "pct": 42.63
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1160,
+          "elected": false,
+          "pct": 57.37
+        }
+      ]
+    },
+    {
+      "boothId": 5519,
+      "name": "Woodford",
+      "formal": 1988,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 57.75,
+      "swing": 2.46,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 740,
+          "pct": 37.22
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 534,
+          "pct": 26.86
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 329,
+          "pct": 16.55
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 185,
+          "pct": 9.31
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 128,
+          "pct": 6.44
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 72,
+          "pct": 3.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1148,
+          "elected": true,
+          "pct": 57.75
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 840,
+          "elected": false,
+          "pct": 42.25
+        }
+      ]
+    },
+    {
+      "boothId": 31486,
+      "name": "Morayfield",
+      "formal": 1981,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 62.09,
+      "swing": 5.01,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 813,
+          "pct": 41.04
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 424,
+          "pct": 21.4
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 305,
+          "pct": 15.4
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 238,
+          "pct": 12.01
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 111,
+          "pct": 5.6
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 90,
+          "pct": 4.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 751,
+          "elected": true,
+          "pct": 37.91
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1230,
+          "elected": false,
+          "pct": 62.09
+        }
+      ]
+    },
+    {
+      "boothId": 11997,
+      "name": "Morayfield East",
+      "formal": 1878,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 56.87,
+      "swing": 2.0,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 656,
+          "pct": 34.93
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 465,
+          "pct": 24.76
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 290,
+          "pct": 15.44
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 248,
+          "pct": 13.21
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 120,
+          "pct": 6.39
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 99,
+          "pct": 5.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 810,
+          "elected": true,
+          "pct": 43.13
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1068,
+          "elected": false,
+          "pct": 56.87
+        }
+      ]
+    },
+    {
+      "boothId": 83278,
+      "name": "Caboolture North",
+      "formal": 1831,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 53.74,
+      "swing": 0.25,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 645,
+          "pct": 35.23
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 483,
+          "pct": 26.38
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 236,
+          "pct": 12.89
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 233,
+          "pct": 12.73
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 126,
+          "pct": 6.88
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 108,
+          "pct": 5.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 847,
+          "elected": true,
+          "pct": 46.26
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 984,
+          "elected": false,
+          "pct": 53.74
+        }
+      ]
+    },
+    {
+      "boothId": 47745,
+      "name": "Burpengary Meadows",
+      "formal": 1534,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 50.46,
+      "swing": -2.28,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 523,
+          "pct": 34.09
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 520,
+          "pct": 33.9
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 173,
+          "pct": 11.28
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 152,
+          "pct": 9.91
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 88,
+          "pct": 5.74
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 78,
+          "pct": 5.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 774,
+          "elected": true,
+          "pct": 50.46
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 760,
+          "elected": false,
+          "pct": 49.54
+        }
+      ]
+    },
+    {
+      "boothId": 31576,
+      "name": "Dakabin",
+      "formal": 1462,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 62.72,
+      "swing": 3.47,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 574,
+          "pct": 39.26
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 352,
+          "pct": 24.08
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 285,
+          "pct": 19.49
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 108,
+          "pct": 7.39
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 73,
+          "pct": 4.99
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 70,
+          "pct": 4.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 545,
+          "elected": true,
+          "pct": 37.28
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 917,
+          "elected": false,
+          "pct": 62.72
+        }
+      ]
+    },
+    {
+      "boothId": 5456,
+      "name": "Beachmere",
+      "formal": 1323,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 50.57,
+      "swing": -0.27,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 476,
+          "pct": 35.98
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 446,
+          "pct": 33.71
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 142,
+          "pct": 10.73
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 137,
+          "pct": 10.36
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 80,
+          "pct": 6.05
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 42,
+          "pct": 3.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 669,
+          "elected": true,
+          "pct": 50.57
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 654,
+          "elected": false,
+          "pct": 49.43
+        }
+      ]
+    },
+    {
+      "boothId": 5466,
+      "name": "Caboolture East",
+      "formal": 1297,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 58.75,
+      "swing": 1.13,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 523,
+          "pct": 40.32
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 334,
+          "pct": 25.75
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 148,
+          "pct": 11.41
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 132,
+          "pct": 10.18
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 81,
+          "pct": 6.25
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 79,
+          "pct": 6.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 535,
+          "elected": true,
+          "pct": 41.25
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 762,
+          "elected": false,
+          "pct": 58.75
+        }
+      ]
+    },
+    {
+      "boothId": 5517,
+      "name": "Wamuran",
+      "formal": 1280,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 62.34,
+      "swing": -1.67,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 594,
+          "pct": 46.41
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 337,
+          "pct": 26.33
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 138,
+          "pct": 10.78
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 102,
+          "pct": 7.97
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 78,
+          "pct": 6.09
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 2.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 798,
+          "elected": true,
+          "pct": 62.34
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 482,
+          "elected": false,
+          "pct": 37.66
+        }
+      ]
+    },
+    {
+      "boothId": 5467,
+      "name": "Caboolture West",
+      "formal": 1264,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 54.98,
+      "swing": 0.95,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 440,
+          "pct": 34.81
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 336,
+          "pct": 26.58
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 183,
+          "pct": 14.48
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 162,
+          "pct": 12.82
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 85,
+          "pct": 6.72
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 58,
+          "pct": 4.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 569,
+          "elected": true,
+          "pct": 45.02
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 695,
+          "elected": false,
+          "pct": 54.98
+        }
+      ]
+    },
+    {
+      "boothId": 5464,
+      "name": "Burpengary",
+      "formal": 1212,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 54.21,
+      "swing": 2.59,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 423,
+          "pct": 34.9
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 331,
+          "pct": 27.31
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 182,
+          "pct": 15.02
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 141,
+          "pct": 11.63
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 68,
+          "pct": 5.61
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 67,
+          "pct": 5.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 555,
+          "elected": true,
+          "pct": 45.79
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 657,
+          "elected": false,
+          "pct": 54.21
+        }
+      ]
+    },
+    {
+      "boothId": 5479,
+      "name": "Elimbah",
+      "formal": 1126,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 56.57,
+      "swing": -0.94,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 431,
+          "pct": 38.28
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 327,
+          "pct": 29.04
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 137,
+          "pct": 12.17
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 102,
+          "pct": 9.06
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 78,
+          "pct": 6.93
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 51,
+          "pct": 4.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 637,
+          "elected": true,
+          "pct": 56.57
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 489,
+          "elected": false,
+          "pct": 43.43
+        }
+      ]
+    },
+    {
+      "boothId": 5465,
+      "name": "Caboolture",
+      "formal": 1118,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 53.67,
+      "swing": 1.54,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 377,
+          "pct": 33.72
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 340,
+          "pct": 30.41
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 159,
+          "pct": 14.22
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 127,
+          "pct": 11.36
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 5.37
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 55,
+          "pct": 4.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 518,
+          "elected": true,
+          "pct": 46.33
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 600,
+          "elected": false,
+          "pct": 53.67
+        }
+      ]
+    },
+    {
+      "boothId": 5502,
+      "name": "Narangba",
+      "formal": 1054,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 56.55,
+      "swing": 5.5,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 394,
+          "pct": 37.38
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 308,
+          "pct": 29.22
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 147,
+          "pct": 13.95
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 109,
+          "pct": 10.34
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 49,
+          "pct": 4.65
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 47,
+          "pct": 4.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 458,
+          "elected": true,
+          "pct": 43.45
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 596,
+          "elected": false,
+          "pct": 56.55
+        }
+      ]
+    },
+    {
+      "boothId": 32060,
+      "name": "Burpengary South",
+      "formal": 1011,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 54.7,
+      "swing": 5.33,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 371,
+          "pct": 36.7
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 294,
+          "pct": 29.08
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 13.16
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 111,
+          "pct": 10.98
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 59,
+          "pct": 5.84
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 43,
+          "pct": 4.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 458,
+          "elected": true,
+          "pct": 45.3
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 553,
+          "elected": false,
+          "pct": 54.7
+        }
+      ]
+    },
+    {
+      "boothId": 12009,
+      "name": "Banksia Beach",
+      "formal": 1009,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 53.12,
+      "swing": -8.53,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 389,
+          "pct": 38.55
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 339,
+          "pct": 33.6
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 96,
+          "pct": 9.51
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 9.22
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 57,
+          "pct": 5.65
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 3.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 536,
+          "elected": true,
+          "pct": 53.12
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 473,
+          "elected": false,
+          "pct": 46.88
+        }
+      ]
+    },
+    {
+      "boothId": 32502,
+      "name": "Narangba North",
+      "formal": 1006,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 59.94,
+      "swing": 2.03,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 409,
+          "pct": 40.66
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 256,
+          "pct": 25.45
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 15.11
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 92,
+          "pct": 9.15
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 49,
+          "pct": 4.87
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 48,
+          "pct": 4.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 403,
+          "elected": true,
+          "pct": 40.06
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 603,
+          "elected": false,
+          "pct": 59.94
+        }
+      ]
+    },
+    {
+      "boothId": 5462,
+      "name": "Bongaree",
+      "formal": 964,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 53.01,
+      "swing": 2.17,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 351,
+          "pct": 36.41
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 330,
+          "pct": 34.23
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 109,
+          "pct": 11.31
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 7.88
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 61,
+          "pct": 6.33
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 3.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 511,
+          "elected": true,
+          "pct": 53.01
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 453,
+          "elected": false,
+          "pct": 46.99
+        }
+      ]
+    },
+    {
+      "boothId": 5503,
+      "name": "Ningi",
+      "formal": 896,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 50.22,
+      "swing": -1.48,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 299,
+          "pct": 33.37
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 298,
+          "pct": 33.26
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 105,
+          "pct": 11.72
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 92,
+          "pct": 10.27
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 61,
+          "pct": 6.81
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 4.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 450,
+          "elected": true,
+          "pct": 50.22
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 446,
+          "elected": false,
+          "pct": 49.78
+        }
+      ]
+    },
+    {
+      "boothId": 32503,
+      "name": "Burpengary West",
+      "formal": 862,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 55.8,
+      "swing": 3.07,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 311,
+          "pct": 36.08
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 246,
+          "pct": 28.54
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 126,
+          "pct": 14.62
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 90,
+          "pct": 10.44
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 47,
+          "pct": 5.45
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 4.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 381,
+          "elected": true,
+          "pct": 44.2
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 481,
+          "elected": false,
+          "pct": 55.8
+        }
+      ]
+    },
+    {
+      "boothId": 58896,
+      "name": "Bellmere",
+      "formal": 752,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 57.18,
+      "swing": 3.7,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 271,
+          "pct": 36.04
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 204,
+          "pct": 27.13
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 113,
+          "pct": 15.03
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 86,
+          "pct": 11.44
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 45,
+          "pct": 5.98
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 4.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 322,
+          "elected": true,
+          "pct": 42.82
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 430,
+          "elected": false,
+          "pct": 57.18
+        }
+      ]
+    },
+    {
+      "boothId": 58493,
+      "name": "Sandstone Point",
+      "formal": 720,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 50.97,
+      "swing": 6.75,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 273,
+          "pct": 37.92
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 259,
+          "pct": 35.97
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 9.44
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 8.75
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 4.86
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 3.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 353,
+          "elected": true,
+          "pct": 49.03
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 367,
+          "elected": false,
+          "pct": 50.97
+        }
+      ]
+    },
+    {
+      "boothId": 55950,
+      "name": "Kallangur (Longman)",
+      "formal": 707,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 64.5,
+      "swing": 8.4,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 285,
+          "pct": 40.31
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 144,
+          "pct": 20.37
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 118,
+          "pct": 16.69
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 9.48
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 7.36
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 41,
+          "pct": 5.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 251,
+          "elected": true,
+          "pct": 35.5
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 456,
+          "elected": false,
+          "pct": 64.5
+        }
+      ]
+    },
+    {
+      "boothId": 55956,
+      "name": "Burpengary East (Longman)",
+      "formal": 701,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 50.21,
+      "swing": 3.28,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 247,
+          "pct": 35.24
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 240,
+          "pct": 34.24
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 87,
+          "pct": 12.41
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 7.42
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 41,
+          "pct": 5.85
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 4.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 349,
+          "elected": true,
+          "pct": 49.79
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 352,
+          "elected": false,
+          "pct": 50.21
+        }
+      ]
+    },
+    {
+      "boothId": 108750,
+      "name": "Deception Bay LONGMAN PPVC",
+      "formal": 656,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 52.9,
+      "swing": 2.11,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 227,
+          "pct": 34.6
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 204,
+          "pct": 31.1
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 12.04
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 60,
+          "pct": 9.15
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 50,
+          "pct": 7.62
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 5.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 347,
+          "elected": true,
+          "pct": 52.9
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 309,
+          "elected": false,
+          "pct": 47.1
+        }
+      ]
+    },
+    {
+      "boothId": 55951,
+      "name": "Kallangur West (Longman)",
+      "formal": 641,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 61.93,
+      "swing": 5.56,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 251,
+          "pct": 39.16
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 155,
+          "pct": 24.18
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 17.16
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 7.8
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 47,
+          "pct": 7.33
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 4.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 244,
+          "elected": true,
+          "pct": 38.07
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 397,
+          "elected": false,
+          "pct": 61.93
+        }
+      ]
+    },
+    {
+      "boothId": 58546,
+      "name": "Upper Caboolture",
+      "formal": 636,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 56.92,
+      "swing": -2.41,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 244,
+          "pct": 38.36
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 176,
+          "pct": 27.67
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 72,
+          "pct": 11.32
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 11.16
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 50,
+          "pct": 7.86
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 3.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 362,
+          "elected": true,
+          "pct": 56.92
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 274,
+          "elected": false,
+          "pct": 43.08
+        }
+      ]
+    },
+    {
+      "boothId": 5459,
+      "name": "Bellara",
+      "formal": 531,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 50.28,
+      "swing": 2.7,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 197,
+          "pct": 37.1
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 180,
+          "pct": 33.9
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 11.11
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 45,
+          "pct": 8.47
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 6.78
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 264,
+          "elected": true,
+          "pct": 49.72
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 267,
+          "elected": false,
+          "pct": 50.28
+        }
+      ]
+    },
+    {
+      "boothId": 5478,
+      "name": "Donnybrook",
+      "formal": 473,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 55.81,
+      "swing": -4.09,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 200,
+          "pct": 42.28
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 147,
+          "pct": 31.08
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 11.21
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 31,
+          "pct": 6.55
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 6.13
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 2.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 264,
+          "elected": true,
+          "pct": 55.81
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 209,
+          "elected": false,
+          "pct": 44.19
+        }
+      ]
+    },
+    {
+      "boothId": 108473,
+      "name": "Special Hospital Team 1",
+      "formal": 434,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 53.92,
+      "swing": 9.35,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 172,
+          "pct": 39.63
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 153,
+          "pct": 35.25
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 37,
+          "pct": 8.53
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 6.68
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 5.3
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 4.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 200,
+          "elected": true,
+          "pct": 46.08
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 234,
+          "elected": false,
+          "pct": 53.92
+        }
+      ]
+    },
+    {
+      "boothId": 5514,
+      "name": "Toorbul",
+      "formal": 418,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 60.29,
+      "swing": 0.76,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 183,
+          "pct": 43.78
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 112,
+          "pct": 26.79
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 13.64
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "pct": 6.94
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 5.74
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 3.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 252,
+          "elected": true,
+          "pct": 60.29
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "elected": false,
+          "pct": 39.71
+        }
+      ]
+    },
+    {
+      "boothId": 109250,
+      "name": "Special Hospital Team 3",
+      "formal": 269,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 50.56,
+      "swing": 6.02,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 117,
+          "pct": 43.49
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 112,
+          "pct": 41.64
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 6.69
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 3.35
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 2.6
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 133,
+          "elected": true,
+          "pct": 49.44
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 136,
+          "elected": false,
+          "pct": 50.56
+        }
+      ]
+    },
+    {
+      "boothId": 109248,
+      "name": "Special Hospital Team 2",
+      "formal": 265,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 55.47,
+      "swing": -0.31,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 126,
+          "pct": 47.55
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 89,
+          "pct": 33.58
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 8.3
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 4.53
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 3.4
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 147,
+          "elected": true,
+          "pct": 55.47
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 118,
+          "elected": false,
+          "pct": 44.53
+        }
+      ]
+    },
+    {
+      "boothId": 5499,
+      "name": "Mount Mee",
+      "formal": 255,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 56.08,
+      "swing": -6.71,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 107,
+          "pct": 41.96
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 64,
+          "pct": 25.1
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 16.08
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 7.45
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 5.88
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 3.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 143,
+          "elected": true,
+          "pct": 56.08
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 112,
+          "elected": false,
+          "pct": 43.92
+        }
+      ]
+    },
+    {
+      "boothId": 5520,
+      "name": "Woorim",
+      "formal": 237,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 51.48,
+      "swing": 6.06,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 89,
+          "pct": 37.55
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 84,
+          "pct": 35.44
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 27,
+          "pct": 11.39
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 10.97
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 4.64
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 115,
+          "elected": true,
+          "pct": 48.52
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 122,
+          "elected": false,
+          "pct": 51.48
+        }
+      ]
+    },
+    {
+      "boothId": 109832,
+      "name": "Morayfield North",
+      "formal": 149,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 56.38,
+      "swing": 3.02,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 59,
+          "pct": 39.6
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 39,
+          "pct": 26.17
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 12.75
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 11.41
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 5.37
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 4.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 65,
+          "elected": true,
+          "pct": 43.62
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 84,
+          "elected": false,
+          "pct": 56.38
+        }
+      ]
+    },
+    {
+      "boothId": 109429,
+      "name": "Other Mobile Team 1",
+      "formal": 25,
+      "winnerParty": "lnp",
+      "winnerSurname": "YOUNG",
+      "winnerPct": 60.0,
+      "swing": 4.31,
+      "candidates": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 10,
+          "pct": 40.0
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 24.0
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 12.0
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 12.0
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 8.0
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 4.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 15,
+          "elected": true,
+          "pct": 60.0
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10,
+          "elected": false,
+          "pct": 40.0
+        }
+      ]
+    },
+    {
+      "boothId": 65529,
+      "name": "EAV Longman PPVC",
+      "formal": 23,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 56.52,
+      "swing": 14.21,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "pct": 47.83
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 8,
+          "pct": 34.78
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 8.7
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 8.7
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 10,
+          "elected": true,
+          "pct": 43.48
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 13,
+          "elected": false,
+          "pct": 56.52
+        }
+      ]
+    },
+    {
+      "boothId": 109461,
+      "name": "Other Mobile Team 2",
+      "formal": 20,
+      "winnerParty": "alp",
+      "winnerSurname": "DOUGLAS",
+      "winnerPct": 65.0,
+      "swing": 20.69,
+      "candidates": [
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "pct": 35.0
+        },
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4,
+          "pct": 20.0
+        },
+        {
+          "surname": "WOOD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 20.0
+        },
+        {
+          "surname": "UNVERZAGT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 15.0
+        },
+        {
+          "surname": "HEARNE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 5.0
+        },
+        {
+          "surname": "McCASKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 5.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "YOUNG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7,
+          "elected": true,
+          "pct": 35.0
+        },
+        {
+          "surname": "DOUGLAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 13,
+          "elected": false,
+          "pct": 65.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 121929,
+    "candidates": [
+      {
+        "id": "C41194",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 Young"
+      },
+      {
+        "id": "C40910",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Hearne"
+      },
+      {
+        "id": "C40780",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Douglas"
+      },
+      {
+        "id": "C41382",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Wood"
+      },
+      {
+        "id": "C40959",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Mccasker"
+      },
+      {
+        "id": "C41263",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Unverzagt"
+      }
+    ],
+    "rounds": [
+      {
+        "C41194": 43960,
+        "C40910": 4670,
+        "C40780": 43238,
+        "C41382": 5985,
+        "C40959": 12062,
+        "C41263": 12014
+      },
+      {
+        "C41194": 44809,
+        "C40780": 43853,
+        "C41382": 6946,
+        "C40959": 13626,
+        "C41263": 12695
+      },
+      {
+        "C41194": 46037,
+        "C40780": 44708,
+        "C40959": 17811,
+        "C41263": 13373
+      },
+      {
+        "C41194": 47609,
+        "C40780": 53958,
+        "C40959": 20362
+      },
+      {
+        "C41194": 61099,
+        "C40780": 60830
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            53.57,
+            48.08,
+            43.08,
+            50.79,
+            46.72,
+            46.92,
+            49.89
+          ]
+        },
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            51.92,
+            56.92,
+            49.21,
+            53.28,
+            53.08,
+            50.11
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            46.43,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 43.82,
+            "ALP": 47.98,
+            "GRN": 4.24,
+            "OTH": 3.96
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "LIB": 43.75,
+            "GRN": 9.12,
+            "FFP": 4.25,
+            "IND": 3.67,
+            "ALP": 37.64,
+            "OTH": 1.58
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "LIB": 44.84,
+            "GRN": 3.94,
+            "ALP": 30.65,
+            "TOP": 12.79,
+            "FFP": 2.36,
+            "KAP": 2.82,
+            "OTH": 2.6
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "IND": 2.33,
+            "DRF": 3.04,
+            "FFP": 3.41,
+            "ON": 9.42,
+            "LIB": 39.01,
+            "GRN": 4.39,
+            "ALP": 35.38,
+            "OTH": 3.01
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "TOP": 3.36,
+            "GRN": 6.71,
+            "ALP": 34.1,
+            "ON": 13.22,
+            "LIB": 38.59,
+            "OTH": 4.02
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "GRN": 7.23,
+            "TOP": 5.51,
+            "LIB": 38.17,
+            "HMP": 5.58,
+            "ON": 8.25,
+            "ALP": 31.5,
+            "OTH": 3.77
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "GRN": 9.85,
+            "ALP": 35.46,
+            "LIB": 36.05,
+            "CYA": 4.91,
+            "ON": 9.89,
+            "FFP": 3.83
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 186589,
+    "medianAge": 39,
+    "medianHouseholdIncomeWeekly": 1451,
+    "medianRentWeekly": 350,
+    "averageHouseholdSize": 2.6,
+    "bornOverseasPct": 19.0,
+    "indigenousPct": 4.9,
+    "bachelorPlusPct": 20.6,
+    "renterPct": 31.1,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 143289,
+        "pct": 81.01,
+        "natPct": 70.73
+      },
+      {
+        "label": "New Zealand",
+        "count": 4182,
+        "pct": 2.36,
+        "natPct": 1.11
+      },
+      {
+        "label": "England",
+        "count": 4128,
+        "pct": 2.33,
+        "natPct": 1.95
+      },
+      {
+        "label": "Philippines",
+        "count": 495,
+        "pct": 0.28,
+        "natPct": 0.47
+      },
+      {
+        "label": "Scotland",
+        "count": 415,
+        "pct": 0.23,
+        "natPct": 0.25
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 85192,
+        "pct": 45.66,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 81661,
+        "pct": 43.77,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 14786,
+        "pct": 7.92,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 1523,
+        "pct": 0.82,
+        "natPct": 2.42
+      },
+      {
+        "label": "Other religions",
+        "count": 1153,
+        "pct": 0.62,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Longman is an Australian electoral division in Queensland between Brisbane and the Sunshine Coast.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Longman",
+    "retrievedAt": "2026-03-22T17:23:43Z"
+  }
+}

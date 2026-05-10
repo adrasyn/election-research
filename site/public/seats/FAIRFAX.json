@@ -1,0 +1,4237 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "FAIRFAX",
+    "divisionId": 160,
+    "name": "Fairfax",
+    "state": "QLD",
+    "totalFormal": 111048,
+    "informalVotes": 5291,
+    "informalRate": 5.69,
+    "winner": {
+      "candidateId": "C41213",
+      "surname": "O'BRIEN",
+      "givenName": "Ted",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "LNP",
+    "tcpMargin": 6.46,
+    "result": "LNP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41213",
+      "surname": "O'BRIEN",
+      "givenName": "Ted",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 33047,
+      "pct": 37.68
+    },
+    {
+      "candidateId": "C40749",
+      "surname": "McQUEEN",
+      "givenName": "Naomi",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 21936,
+      "pct": 25.01
+    },
+    {
+      "candidateId": "C40651",
+      "surname": "WIIG",
+      "givenName": "Francine",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 10884,
+      "pct": 12.41
+    },
+    {
+      "candidateId": "C41279",
+      "surname": "ETHERIDGE",
+      "givenName": "Sue",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 8713,
+      "pct": 9.93
+    },
+    {
+      "candidateId": "C40946",
+      "surname": "MARSH",
+      "givenName": "Beatrice",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 6302,
+      "pct": 7.18
+    },
+    {
+      "candidateId": "C40875",
+      "surname": "SANDERSON",
+      "givenName": "Rhys",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 3106,
+      "pct": 3.54
+    },
+    {
+      "candidateId": "C41395",
+      "surname": "RYZY",
+      "givenName": "Gregory",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2384,
+      "pct": 2.72
+    },
+    {
+      "candidateId": "C41447",
+      "surname": "McKEOWN",
+      "givenName": "Paul",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 1341,
+      "pct": 1.53
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41213",
+      "surname": "O'BRIEN",
+      "givenName": "Ted",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 59110,
+      "pct": 53.23,
+      "elected": true
+    },
+    {
+      "candidateId": "C40749",
+      "surname": "McQUEEN",
+      "givenName": "Naomi",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 51938,
+      "pct": 46.77,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 38294,
+      "name": "Maroochydore FAIRFAX PPVC",
+      "formal": 14293,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 56.06,
+      "swing": -6.89,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6240,
+          "pct": 43.66
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3770,
+          "pct": 26.38
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1472,
+          "pct": 10.3
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1134,
+          "pct": 7.93
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 814,
+          "pct": 5.7
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 391,
+          "pct": 2.74
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 345,
+          "pct": 2.41
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 127,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 8012,
+          "elected": true,
+          "pct": 56.06
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6281,
+          "elected": false,
+          "pct": 43.94
+        }
+      ]
+    },
+    {
+      "boothId": 32753,
+      "name": "Coolum Beach FAIRFAX PPVC",
+      "formal": 12923,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 51.96,
+      "swing": -4.4,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4986,
+          "pct": 38.58
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3375,
+          "pct": 26.12
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1713,
+          "pct": 13.26
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1153,
+          "pct": 8.92
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 829,
+          "pct": 6.41
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 329,
+          "pct": 2.55
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 320,
+          "pct": 2.48
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 218,
+          "pct": 1.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6715,
+          "elected": true,
+          "pct": 51.96
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6208,
+          "elected": false,
+          "pct": 48.04
+        }
+      ]
+    },
+    {
+      "boothId": 32754,
+      "name": "Nambour FAIRFAX PPVC",
+      "formal": 10393,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 51.44,
+      "swing": -3.6,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3659,
+          "pct": 35.21
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2684,
+          "pct": 25.83
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1302,
+          "pct": 12.53
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 972,
+          "pct": 9.35
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 824,
+          "pct": 7.93
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 504,
+          "pct": 4.85
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 261,
+          "pct": 2.51
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 187,
+          "pct": 1.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5346,
+          "elected": true,
+          "pct": 51.44
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5047,
+          "elected": false,
+          "pct": 48.56
+        }
+      ]
+    },
+    {
+      "boothId": 65652,
+      "name": "Buderim South FAIRFAX PPVC",
+      "formal": 10301,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 58.34,
+      "swing": -7.53,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4738,
+          "pct": 46.0
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2318,
+          "pct": 22.5
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1326,
+          "pct": 12.87
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 828,
+          "pct": 8.04
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 562,
+          "pct": 5.46
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 241,
+          "pct": 2.34
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 184,
+          "pct": 1.79
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 104,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6010,
+          "elected": true,
+          "pct": 58.34
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4291,
+          "elected": false,
+          "pct": 41.66
+        }
+      ]
+    },
+    {
+      "boothId": 47692,
+      "name": "Buderim FAIRFAX PPVC",
+      "formal": 5297,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 57.67,
+      "swing": -7.19,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2416,
+          "pct": 45.61
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1255,
+          "pct": 23.69
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 696,
+          "pct": 13.14
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 398,
+          "pct": 7.51
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 280,
+          "pct": 5.29
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 109,
+          "pct": 2.06
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 95,
+          "pct": 1.79
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 0.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3055,
+          "elected": true,
+          "pct": 57.67
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2242,
+          "elected": false,
+          "pct": 42.33
+        }
+      ]
+    },
+    {
+      "boothId": 97467,
+      "name": "Buddina FAIRFAX PPVC",
+      "formal": 2041,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 52.08,
+      "swing": -3.62,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 729,
+          "pct": 35.72
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 524,
+          "pct": 25.67
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 232,
+          "pct": 11.37
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 223,
+          "pct": 10.93
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 168,
+          "pct": 8.23
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 71,
+          "pct": 3.48
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 66,
+          "pct": 3.23
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1063,
+          "elected": true,
+          "pct": 52.08
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 978,
+          "elected": false,
+          "pct": 47.92
+        }
+      ]
+    },
+    {
+      "boothId": 5417,
+      "name": "Buderim",
+      "formal": 1553,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 51.84,
+      "swing": -8.49,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 566,
+          "pct": 36.45
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 349,
+          "pct": 22.47
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 245,
+          "pct": 15.78
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 190,
+          "pct": 12.23
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 88,
+          "pct": 5.67
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 3.86
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 2.38
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 805,
+          "elected": true,
+          "pct": 51.84
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 748,
+          "elected": false,
+          "pct": 48.16
+        }
+      ]
+    },
+    {
+      "boothId": 31444,
+      "name": "Pacific Paradise",
+      "formal": 1546,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 50.84,
+      "swing": -6.54,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 510,
+          "pct": 32.99
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 428,
+          "pct": 27.68
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 163,
+          "pct": 10.54
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 152,
+          "pct": 9.83
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 147,
+          "pct": 9.51
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 62,
+          "pct": 4.01
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.36
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 786,
+          "elected": true,
+          "pct": 50.84
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 760,
+          "elected": false,
+          "pct": 49.16
+        }
+      ]
+    },
+    {
+      "boothId": 12005,
+      "name": "Mountain Creek",
+      "formal": 1527,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 51.34,
+      "swing": -8.24,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 550,
+          "pct": 36.02
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 404,
+          "pct": 26.46
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 181,
+          "pct": 11.85
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 172,
+          "pct": 11.26
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 106,
+          "pct": 6.94
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 56,
+          "pct": 3.67
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 44,
+          "pct": 2.88
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 784,
+          "elected": true,
+          "pct": 51.34
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 743,
+          "elected": false,
+          "pct": 48.66
+        }
+      ]
+    },
+    {
+      "boothId": 65762,
+      "name": "Tewantin FAIRFAX PPVC",
+      "formal": 1463,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 53.04,
+      "swing": -0.26,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 491,
+          "pct": 33.56
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 315,
+          "pct": 21.53
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 197,
+          "pct": 13.47
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 170,
+          "pct": 11.62
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 154,
+          "pct": 10.53
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 3.55
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.21
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 2.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 776,
+          "elected": true,
+          "pct": 53.04
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 687,
+          "elected": false,
+          "pct": 46.96
+        }
+      ]
+    },
+    {
+      "boothId": 5415,
+      "name": "Bli Bli",
+      "formal": 1395,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 50.61,
+      "swing": -5.93,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 438,
+          "pct": 31.4
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 371,
+          "pct": 26.59
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 171,
+          "pct": 12.26
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 149,
+          "pct": 10.68
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 123,
+          "pct": 8.82
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 68,
+          "pct": 4.87
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 49,
+          "pct": 3.51
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 706,
+          "elected": true,
+          "pct": 50.61
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 689,
+          "elected": false,
+          "pct": 49.39
+        }
+      ]
+    },
+    {
+      "boothId": 5419,
+      "name": "Burnside",
+      "formal": 1393,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 54.99,
+      "swing": 11.62,
+      "candidates": [
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 370,
+          "pct": 26.56
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 335,
+          "pct": 24.05
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 214,
+          "pct": 15.36
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 178,
+          "pct": 12.78
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 149,
+          "pct": 10.7
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 75,
+          "pct": 5.38
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.09
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 2.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 627,
+          "elected": true,
+          "pct": 45.01
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 766,
+          "elected": false,
+          "pct": 54.99
+        }
+      ]
+    },
+    {
+      "boothId": 5450,
+      "name": "Yandina",
+      "formal": 1326,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 50.83,
+      "swing": 4.5,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 313,
+          "pct": 23.6
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 306,
+          "pct": 23.08
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 192,
+          "pct": 14.48
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 177,
+          "pct": 13.35
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 141,
+          "pct": 10.63
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 85,
+          "pct": 6.41
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 71,
+          "pct": 5.35
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 3.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 652,
+          "elected": true,
+          "pct": 49.17
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 674,
+          "elected": false,
+          "pct": 50.83
+        }
+      ]
+    },
+    {
+      "boothId": 5440,
+      "name": "Nambour",
+      "formal": 1322,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 55.37,
+      "swing": 3.66,
+      "candidates": [
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 307,
+          "pct": 23.22
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 305,
+          "pct": 23.07
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 225,
+          "pct": 17.02
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 172,
+          "pct": 13.01
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 145,
+          "pct": 10.97
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 76,
+          "pct": 5.75
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 63,
+          "pct": 4.77
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 2.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 590,
+          "elected": true,
+          "pct": 44.63
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 732,
+          "elected": false,
+          "pct": 55.37
+        }
+      ]
+    },
+    {
+      "boothId": 5421,
+      "name": "Coolum Beach",
+      "formal": 1279,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 56.06,
+      "swing": 1.53,
+      "candidates": [
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 342,
+          "pct": 26.74
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 326,
+          "pct": 25.49
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 212,
+          "pct": 16.58
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 179,
+          "pct": 14.0
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 7.27
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 58,
+          "pct": 4.53
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.6
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 1.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 562,
+          "elected": true,
+          "pct": 43.94
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 717,
+          "elected": false,
+          "pct": 56.06
+        }
+      ]
+    },
+    {
+      "boothId": 5435,
+      "name": "Maroochydore East (Fairfax)",
+      "formal": 1236,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 51.54,
+      "swing": 6.01,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 352,
+          "pct": 28.48
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 321,
+          "pct": 25.97
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 201,
+          "pct": 16.26
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 128,
+          "pct": 10.36
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 114,
+          "pct": 9.22
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 4.21
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.8
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 1.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 599,
+          "elected": true,
+          "pct": 48.46
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 637,
+          "elected": false,
+          "pct": 51.54
+        }
+      ]
+    },
+    {
+      "boothId": 33085,
+      "name": "Coolum Beach North",
+      "formal": 1228,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 56.03,
+      "swing": 6.38,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 318,
+          "pct": 25.9
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 303,
+          "pct": 24.67
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 205,
+          "pct": 16.69
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 191,
+          "pct": 15.55
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 96,
+          "pct": 7.82
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 4.23
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.26
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 1.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 540,
+          "elected": true,
+          "pct": 43.97
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 688,
+          "elected": false,
+          "pct": 56.03
+        }
+      ]
+    },
+    {
+      "boothId": 38210,
+      "name": "Peregian Springs",
+      "formal": 1200,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 51.17,
+      "swing": 5.67,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 402,
+          "pct": 33.5
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 334,
+          "pct": 27.83
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 165,
+          "pct": 13.75
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 125,
+          "pct": 10.42
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 92,
+          "pct": 7.67
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 3.08
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 2.42
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 586,
+          "elected": true,
+          "pct": 48.83
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 614,
+          "elected": false,
+          "pct": 51.17
+        }
+      ]
+    },
+    {
+      "boothId": 5425,
+      "name": "Diddillibah",
+      "formal": 1194,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 56.28,
+      "swing": -8.52,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 431,
+          "pct": 36.1
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 256,
+          "pct": 21.44
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 154,
+          "pct": 12.9
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 109,
+          "pct": 9.13
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 101,
+          "pct": 8.46
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 78,
+          "pct": 6.53
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 45,
+          "pct": 3.77
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 1.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 672,
+          "elected": true,
+          "pct": 56.28
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 522,
+          "elected": false,
+          "pct": 43.72
+        }
+      ]
+    },
+    {
+      "boothId": 33082,
+      "name": "Nambour West",
+      "formal": 1193,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 51.8,
+      "swing": 8.53,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 361,
+          "pct": 30.26
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 315,
+          "pct": 26.4
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 138,
+          "pct": 11.57
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 114,
+          "pct": 9.56
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 108,
+          "pct": 9.05
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 83,
+          "pct": 6.96
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 3.52
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 575,
+          "elected": true,
+          "pct": 48.2
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 618,
+          "elected": false,
+          "pct": 51.8
+        }
+      ]
+    },
+    {
+      "boothId": 5449,
+      "name": "Woombye (Fairfax)",
+      "formal": 1060,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 51.7,
+      "swing": -9.33,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 331,
+          "pct": 31.23
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 221,
+          "pct": 20.85
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 154,
+          "pct": 14.53
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 136,
+          "pct": 12.83
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 88,
+          "pct": 8.3
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 64,
+          "pct": 6.04
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 4.06
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 2.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 548,
+          "elected": true,
+          "pct": 51.7
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 512,
+          "elected": false,
+          "pct": 48.3
+        }
+      ]
+    },
+    {
+      "boothId": 82939,
+      "name": "Mountain Creek South",
+      "formal": 1041,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 50.24,
+      "swing": -7.36,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 334,
+          "pct": 32.08
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 272,
+          "pct": 26.13
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 157,
+          "pct": 15.08
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 102,
+          "pct": 9.8
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 7.68
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 4.03
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 3.07
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 2.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 523,
+          "elected": true,
+          "pct": 50.24
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 518,
+          "elected": false,
+          "pct": 49.76
+        }
+      ]
+    },
+    {
+      "boothId": 5493,
+      "name": "Mapleton",
+      "formal": 986,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 53.75,
+      "swing": 3.96,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 274,
+          "pct": 27.79
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 232,
+          "pct": 23.53
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 195,
+          "pct": 19.78
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 105,
+          "pct": 10.65
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 85,
+          "pct": 8.62
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 39,
+          "pct": 3.96
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.14
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 2.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 456,
+          "elected": true,
+          "pct": 46.25
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 530,
+          "elected": false,
+          "pct": 53.75
+        }
+      ]
+    },
+    {
+      "boothId": 31504,
+      "name": "Maroochydore",
+      "formal": 965,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 54.09,
+      "swing": 7.39,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 281,
+          "pct": 29.12
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 273,
+          "pct": 28.29
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 140,
+          "pct": 14.51
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 105,
+          "pct": 10.88
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 7.15
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 3.94
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 3.94
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 2.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 443,
+          "elected": true,
+          "pct": 45.91
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 522,
+          "elected": false,
+          "pct": 54.09
+        }
+      ]
+    },
+    {
+      "boothId": 5427,
+      "name": "Eumundi",
+      "formal": 949,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 52.9,
+      "swing": 5.13,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 263,
+          "pct": 27.71
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 217,
+          "pct": 22.87
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 156,
+          "pct": 16.44
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 120,
+          "pct": 12.64
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 7.9
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 5.06
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 4.53
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 2.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 447,
+          "elected": true,
+          "pct": 47.1
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 502,
+          "elected": false,
+          "pct": 52.9
+        }
+      ]
+    },
+    {
+      "boothId": 32554,
+      "name": "Buderim South",
+      "formal": 944,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 52.65,
+      "swing": -7.21,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 335,
+          "pct": 35.49
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 222,
+          "pct": 23.52
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 131,
+          "pct": 13.88
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 117,
+          "pct": 12.39
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 5.51
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 39,
+          "pct": 4.13
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 4.03
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 497,
+          "elected": true,
+          "pct": 52.65
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 447,
+          "elected": false,
+          "pct": 47.35
+        }
+      ]
+    },
+    {
+      "boothId": 5439,
+      "name": "Mudjimba",
+      "formal": 931,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 50.38,
+      "swing": 6.04,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 287,
+          "pct": 30.83
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 237,
+          "pct": 25.46
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 127,
+          "pct": 13.64
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 108,
+          "pct": 11.6
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 95,
+          "pct": 10.2
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 3.33
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.69
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 2.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 462,
+          "elected": true,
+          "pct": 49.62
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 469,
+          "elected": false,
+          "pct": 50.38
+        }
+      ]
+    },
+    {
+      "boothId": 33108,
+      "name": "Buderim North",
+      "formal": 899,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 53.84,
+      "swing": -6.32,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 352,
+          "pct": 39.15
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 236,
+          "pct": 26.25
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 119,
+          "pct": 13.24
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 81,
+          "pct": 9.01
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 5.78
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 4.0
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.56
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 484,
+          "elected": true,
+          "pct": 53.84
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 415,
+          "elected": false,
+          "pct": 46.16
+        }
+      ]
+    },
+    {
+      "boothId": 12004,
+      "name": "Kuluin",
+      "formal": 898,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 52.56,
+      "swing": 10.56,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 272,
+          "pct": 30.29
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 228,
+          "pct": 25.39
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 124,
+          "pct": 13.81
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 123,
+          "pct": 13.7
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 9.35
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 3.12
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 3.01
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 426,
+          "elected": true,
+          "pct": 47.44
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 472,
+          "elected": false,
+          "pct": 52.56
+        }
+      ]
+    },
+    {
+      "boothId": 5423,
+      "name": "Cotton Tree",
+      "formal": 778,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 50.13,
+      "swing": 8.04,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 254,
+          "pct": 32.65
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 199,
+          "pct": 25.58
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 120,
+          "pct": 15.42
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 78,
+          "pct": 10.03
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 7.33
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 4.11
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 3.47
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 1.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 388,
+          "elected": true,
+          "pct": 49.87
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 390,
+          "elected": false,
+          "pct": 50.13
+        }
+      ]
+    },
+    {
+      "boothId": 97782,
+      "name": "Bli Bli North",
+      "formal": 741,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 55.6,
+      "swing": -6.67,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 282,
+          "pct": 38.06
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 176,
+          "pct": 23.75
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 10.93
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 75,
+          "pct": 10.12
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 65,
+          "pct": 8.77
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 3.51
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.83
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 2.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 412,
+          "elected": true,
+          "pct": 55.6
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 329,
+          "elected": false,
+          "pct": 44.4
+        }
+      ]
+    },
+    {
+      "boothId": 5445,
+      "name": "North Arm",
+      "formal": 605,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 54.21,
+      "swing": 3.01,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 190,
+          "pct": 31.4
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 132,
+          "pct": 21.82
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 79,
+          "pct": 13.06
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 71,
+          "pct": 11.74
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 10.25
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 5.79
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 3.97
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 328,
+          "elected": true,
+          "pct": 54.21
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 277,
+          "elected": false,
+          "pct": 45.79
+        }
+      ]
+    },
+    {
+      "boothId": 5432,
+      "name": "Kureelpa",
+      "formal": 586,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 58.36,
+      "swing": 1.35,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 212,
+          "pct": 36.18
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 115,
+          "pct": 19.62
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 87,
+          "pct": 14.85
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 9.22
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 46,
+          "pct": 7.85
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 36,
+          "pct": 6.14
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.24
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 2.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 342,
+          "elected": true,
+          "pct": 58.36
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 244,
+          "elected": false,
+          "pct": 41.64
+        }
+      ]
+    },
+    {
+      "boothId": 5487,
+      "name": "Kenilworth",
+      "formal": 454,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 63.0,
+      "swing": 2.3,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 183,
+          "pct": 40.31
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 82,
+          "pct": 18.06
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 12.33
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 11.45
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 31,
+          "pct": 6.83
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 5.07
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 3.96
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 286,
+          "elected": true,
+          "pct": 63.0
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 168,
+          "elected": false,
+          "pct": 37.0
+        }
+      ]
+    },
+    {
+      "boothId": 5428,
+      "name": "Forest Glen",
+      "formal": 391,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 56.52,
+      "swing": -7.75,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 145,
+          "pct": 37.08
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 95,
+          "pct": 24.3
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 44,
+          "pct": 11.25
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 10.49
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 9.97
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 4.6
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 1.28
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 221,
+          "elected": true,
+          "pct": 56.52
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "elected": false,
+          "pct": 43.48
+        }
+      ]
+    },
+    {
+      "boothId": 33103,
+      "name": "Buderim West",
+      "formal": 370,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 55.41,
+      "swing": 0.12,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 150,
+          "pct": 40.54
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 82,
+          "pct": 22.16
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 56,
+          "pct": 15.14
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 36,
+          "pct": 9.73
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 6.22
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 3.51
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 1.62
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 205,
+          "elected": true,
+          "pct": 55.41
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 165,
+          "elected": false,
+          "pct": 44.59
+        }
+      ]
+    },
+    {
+      "boothId": 82911,
+      "name": "Sippy Downs West (Fairfax)",
+      "formal": 269,
+      "winnerParty": "alp",
+      "winnerSurname": "McQUEEN",
+      "winnerPct": 55.02,
+      "swing": 12.27,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 78,
+          "pct": 29.0
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 58,
+          "pct": 21.56
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 50,
+          "pct": 18.59
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 11.9
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 6.69
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 5.2
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 3.72
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 3.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 121,
+          "elected": true,
+          "pct": 44.98
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 148,
+          "elected": false,
+          "pct": 55.02
+        }
+      ]
+    },
+    {
+      "boothId": 109270,
+      "name": "Special Hospital Team 3",
+      "formal": 205,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 65.37,
+      "swing": 1.61,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 121,
+          "pct": 59.02
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 50,
+          "pct": 24.39
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 6.34
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 3.41
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 2.44
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.95
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.46
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 134,
+          "elected": true,
+          "pct": 65.37
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 71,
+          "elected": false,
+          "pct": 34.63
+        }
+      ]
+    },
+    {
+      "boothId": 108957,
+      "name": "Special Hospital Team 1",
+      "formal": 181,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 55.8,
+      "swing": -8.07,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 85,
+          "pct": 46.96
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 58,
+          "pct": 32.04
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 6.63
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 5.52
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 4.97
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.66
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.1
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 101,
+          "elected": true,
+          "pct": 55.8
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "elected": false,
+          "pct": 44.2
+        }
+      ]
+    },
+    {
+      "boothId": 109269,
+      "name": "Special Hospital Team 2",
+      "formal": 178,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 54.49,
+      "swing": -9.23,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 88,
+          "pct": 49.44
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 60,
+          "pct": 33.71
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 8.99
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 2.81
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 2.25
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.12
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.12
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 97,
+          "elected": true,
+          "pct": 54.49
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 81,
+          "elected": false,
+          "pct": 45.51
+        }
+      ]
+    },
+    {
+      "boothId": 109700,
+      "name": "Mooloolaba (Fairfax)",
+      "formal": 165,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 53.33,
+      "swing": 2.17,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 55,
+          "pct": 33.33
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 40,
+          "pct": 24.24
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 25,
+          "pct": 15.15
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 7.27
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 7.27
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 4.85
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 4.24
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 3.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 88,
+          "elected": true,
+          "pct": 53.33
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 77,
+          "elected": false,
+          "pct": 46.67
+        }
+      ]
+    },
+    {
+      "boothId": 65416,
+      "name": "EAV Fairfax PPVC",
+      "formal": 14,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 64.29,
+      "swing": -9.39,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 9,
+          "pct": 64.29
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "pct": 28.57
+        },
+        {
+          "surname": "WIIG",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 7.14
+        },
+        {
+          "surname": "MARSH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "SANDERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "ETHERIDGE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "McKEOWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "RYZY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 9,
+          "elected": true,
+          "pct": 64.29
+        },
+        {
+          "surname": "McQUEEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "elected": false,
+          "pct": 35.71
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 111048,
+    "candidates": [
+      {
+        "id": "C40946",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Marsh"
+      },
+      {
+        "id": "C40651",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Wiig"
+      },
+      {
+        "id": "C40875",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Sanderson"
+      },
+      {
+        "id": "C41279",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Etheridge"
+      },
+      {
+        "id": "C40749",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Mcqueen"
+      },
+      {
+        "id": "C41447",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Mckeown"
+      },
+      {
+        "id": "C41213",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 O'Brien"
+      },
+      {
+        "id": "C41395",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Ryzy"
+      }
+    ],
+    "rounds": [
+      {
+        "C40946": 8232,
+        "C40651": 13085,
+        "C40875": 3816,
+        "C41279": 11351,
+        "C40749": 27607,
+        "C41447": 1819,
+        "C41213": 42075,
+        "C41395": 3063
+      },
+      {
+        "C40946": 8431,
+        "C40651": 13803,
+        "C40875": 3991,
+        "C41279": 11494,
+        "C40749": 27774,
+        "C41213": 42333,
+        "C41395": 3222
+      },
+      {
+        "C40946": 9764,
+        "C40651": 14311,
+        "C40875": 4401,
+        "C41279": 11651,
+        "C40749": 27968,
+        "C41213": 42953
+      },
+      {
+        "C40946": 12172,
+        "C40651": 15121,
+        "C41279": 11978,
+        "C40749": 28195,
+        "C41213": 43582
+      },
+      {
+        "C40946": 12805,
+        "C40651": 20160,
+        "C40749": 33688,
+        "C41213": 44395
+      },
+      {
+        "C40651": 26002,
+        "C40749": 34701,
+        "C41213": 50345
+      },
+      {
+        "C40749": 51938,
+        "C41213": 59110
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            46.99,
+            43.05,
+            null,
+            39.11,
+            36.56,
+            41.05,
+            46.77
+          ]
+        },
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            56.95,
+            49.97,
+            60.89,
+            63.44,
+            58.95,
+            53.23
+          ]
+        },
+        {
+          "id": "TOP",
+          "party": "top",
+          "label": "TOP",
+          "points": [
+            null,
+            null,
+            50.03,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            53.01,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "FFP": 4.0,
+            "LIB": 46.82,
+            "ON": 1.05,
+            "GRN": 8.53,
+            "ALP": 36.46,
+            "OTH": 3.14
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "FFP": 5.24,
+            "GRN": 18.0,
+            "LIB": 49.45,
+            "ALP": 27.31
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "ALP": 18.24,
+            "TOP": 26.49,
+            "ON": 0.84,
+            "GRN": 8.33,
+            "LIB": 41.32,
+            "OTH": 4.79
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "FFP": 2.65,
+            "LIB": 48.44,
+            "GRN": 12.62,
+            "IND": 5.27,
+            "ALP": 20.61,
+            "ON": 9.74,
+            "OTH": 0.67
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "LIB": 49.62,
+            "ALP": 21.48,
+            "GRN": 12.59,
+            "TOP": 3.06,
+            "ON": 7.85,
+            "OTH": 5.4
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "TOP": 5.92,
+            "IND": 2.08,
+            "LIB": 44.91,
+            "ON": 6.56,
+            "AJP": 2.1,
+            "ALP": 21.86,
+            "GRN": 13.37,
+            "OTH": 3.2
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "ON": 7.41,
+            "LIB": 37.89,
+            "FFP": 3.44,
+            "GRN": 10.22,
+            "CYA": 2.76,
+            "IND": 13.42,
+            "ALP": 24.86
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 169466,
+    "medianAge": 43,
+    "medianHouseholdIncomeWeekly": 1605,
+    "medianRentWeekly": 435,
+    "averageHouseholdSize": 2.5,
+    "bornOverseasPct": 22.1,
+    "indigenousPct": 2.4,
+    "bachelorPlusPct": 34.1,
+    "renterPct": 27.0,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 125458,
+        "pct": 77.86,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 5025,
+        "pct": 3.12,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 3258,
+        "pct": 2.02,
+        "natPct": 1.11
+      },
+      {
+        "label": "Canada",
+        "count": 731,
+        "pct": 0.45,
+        "natPct": 0.21
+      },
+      {
+        "label": "India",
+        "count": 562,
+        "pct": 0.35,
+        "natPct": 1.51
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 78753,
+        "pct": 46.47,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 73234,
+        "pct": 43.21,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 12064,
+        "pct": 7.12,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 1703,
+        "pct": 1.0,
+        "natPct": 2.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 1112,
+        "pct": 0.66,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Fairfax is an Australian electoral division in the state of Queensland. It comprises part of the Sunshine Coast, including the large towns of Maroochydore and Buderim.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Fairfax",
+    "retrievedAt": "2026-03-28T10:07:44Z"
+  }
+}

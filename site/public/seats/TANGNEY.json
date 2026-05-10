@@ -1,0 +1,4280 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "TANGNEY",
+    "divisionId": 248,
+    "name": "Tangney",
+    "state": "WA",
+    "totalFormal": 110991,
+    "informalVotes": 2173,
+    "informalRate": 2.39,
+    "winner": {
+      "candidateId": "C41470",
+      "surname": "LIM",
+      "givenName": "Sam",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 13.98,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41470",
+      "surname": "LIM",
+      "givenName": "Sam",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 38143,
+      "pct": 42.93
+    },
+    {
+      "candidateId": "C41590",
+      "surname": "ONG",
+      "givenName": "Howard",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 30504,
+      "pct": 34.33
+    },
+    {
+      "candidateId": "C41834",
+      "surname": "HAYWARD",
+      "givenName": "Eric",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 11423,
+      "pct": 12.86
+    },
+    {
+      "candidateId": "C41736",
+      "surname": "KEFALINOS",
+      "givenName": "Steve",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 3435,
+      "pct": 3.87
+    },
+    {
+      "candidateId": "C41193",
+      "surname": "RAI",
+      "givenName": "James",
+      "party": "oth",
+      "partyAb": "AUC",
+      "votes": 2796,
+      "pct": 3.15
+    },
+    {
+      "candidateId": "C41780",
+      "surname": "LESLIE",
+      "givenName": "Phillip Raymond",
+      "party": "oth",
+      "partyAb": "HMP",
+      "votes": 2558,
+      "pct": 2.88
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41470",
+      "surname": "LIM",
+      "givenName": "Sam",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 63253,
+      "pct": 56.99,
+      "elected": true
+    },
+    {
+      "candidateId": "C41590",
+      "surname": "ONG",
+      "givenName": "Howard",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 47738,
+      "pct": 43.01,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 109164,
+      "name": "Melville TANGNEY PPVC",
+      "formal": 12466,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 54.79,
+      "swing": 5.23,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5233,
+          "pct": 41.98
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4815,
+          "pct": 38.63
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1429,
+          "pct": 11.46
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 455,
+          "pct": 3.65
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 300,
+          "pct": 2.41
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 234,
+          "pct": 1.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6830,
+          "elected": true,
+          "pct": 54.79
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5636,
+          "elected": false,
+          "pct": 45.21
+        }
+      ]
+    },
+    {
+      "boothId": 97750,
+      "name": "Parkwood TANGNEY PPVC",
+      "formal": 10569,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 57.18,
+      "swing": 3.86,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4866,
+          "pct": 46.04
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3623,
+          "pct": 34.28
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1014,
+          "pct": 9.59
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 453,
+          "pct": 4.29
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 372,
+          "pct": 3.52
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 241,
+          "pct": 2.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6043,
+          "elected": true,
+          "pct": 57.18
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4526,
+          "elected": false,
+          "pct": 42.82
+        }
+      ]
+    },
+    {
+      "boothId": 64592,
+      "name": "Applecross TANGNEY PPVC",
+      "formal": 9473,
+      "winnerParty": "lib",
+      "winnerSurname": "ONG",
+      "winnerPct": 53.27,
+      "swing": 3.27,
+      "candidates": [
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4501,
+          "pct": 47.51
+        },
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3506,
+          "pct": 37.01
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 795,
+          "pct": 8.39
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 256,
+          "pct": 2.7
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 243,
+          "pct": 2.57
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 172,
+          "pct": 1.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4427,
+          "elected": true,
+          "pct": 46.73
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5046,
+          "elected": false,
+          "pct": 53.27
+        }
+      ]
+    },
+    {
+      "boothId": 107656,
+      "name": "Southern River TANGNEY PPVC",
+      "formal": 5834,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 59.65,
+      "swing": 4.96,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2845,
+          "pct": 48.77
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1795,
+          "pct": 30.77
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 528,
+          "pct": 9.05
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 282,
+          "pct": 4.83
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 265,
+          "pct": 4.54
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 119,
+          "pct": 2.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3480,
+          "elected": true,
+          "pct": 59.65
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2354,
+          "elected": false,
+          "pct": 40.35
+        }
+      ]
+    },
+    {
+      "boothId": 8274,
+      "name": "Mount Pleasant",
+      "formal": 1850,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 54.43,
+      "swing": 9.2,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 742,
+          "pct": 40.11
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 706,
+          "pct": 38.16
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 248,
+          "pct": 13.41
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 3.03
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 54,
+          "pct": 2.92
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 44,
+          "pct": 2.38
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1007,
+          "elected": true,
+          "pct": 54.43
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 843,
+          "elected": false,
+          "pct": 45.57
+        }
+      ]
+    },
+    {
+      "boothId": 47763,
+      "name": "Canning Vale North",
+      "formal": 1735,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 64.84,
+      "swing": 1.76,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 874,
+          "pct": 50.37
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 402,
+          "pct": 23.17
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 282,
+          "pct": 16.25
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 3.69
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 63,
+          "pct": 3.63
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 50,
+          "pct": 2.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1125,
+          "elected": true,
+          "pct": 64.84
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 610,
+          "elected": false,
+          "pct": 35.16
+        }
+      ]
+    },
+    {
+      "boothId": 11635,
+      "name": "Winthrop",
+      "formal": 1723,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 60.71,
+      "swing": 8.03,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 826,
+          "pct": 47.94
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 521,
+          "pct": 30.24
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 205,
+          "pct": 11.9
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 4.0
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 67,
+          "pct": 3.89
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1046,
+          "elected": true,
+          "pct": 60.71
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 677,
+          "elected": false,
+          "pct": 39.29
+        }
+      ]
+    },
+    {
+      "boothId": 7755,
+      "name": "Attadale",
+      "formal": 1677,
+      "winnerParty": "lib",
+      "winnerSurname": "ONG",
+      "winnerPct": 50.81,
+      "swing": -8.72,
+      "candidates": [
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 724,
+          "pct": 43.17
+        },
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 592,
+          "pct": 35.3
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 214,
+          "pct": 12.76
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 66,
+          "pct": 3.94
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 53,
+          "pct": 3.16
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 28,
+          "pct": 1.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 825,
+          "elected": true,
+          "pct": 49.19
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 852,
+          "elected": false,
+          "pct": 50.81
+        }
+      ]
+    },
+    {
+      "boothId": 8256,
+      "name": "Applecross",
+      "formal": 1624,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 50.68,
+      "swing": 9.19,
+      "candidates": [
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 665,
+          "pct": 40.95
+        },
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 565,
+          "pct": 34.79
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 243,
+          "pct": 14.96
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 4.31
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 45,
+          "pct": 2.77
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 36,
+          "pct": 2.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 823,
+          "elected": true,
+          "pct": 50.68
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 801,
+          "elected": false,
+          "pct": 49.32
+        }
+      ]
+    },
+    {
+      "boothId": 31066,
+      "name": "Canning Vale West",
+      "formal": 1619,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 57.75,
+      "swing": 3.06,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 690,
+          "pct": 42.62
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 473,
+          "pct": 29.22
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 218,
+          "pct": 13.47
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 98,
+          "pct": 6.05
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 83,
+          "pct": 5.13
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 57,
+          "pct": 3.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 935,
+          "elected": true,
+          "pct": 57.75
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 684,
+          "elected": false,
+          "pct": 42.25
+        }
+      ]
+    },
+    {
+      "boothId": 8261,
+      "name": "Booragoon",
+      "formal": 1543,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 58.2,
+      "swing": 4.79,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 623,
+          "pct": 40.38
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 522,
+          "pct": 33.83
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 262,
+          "pct": 16.98
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 3.95
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 2.59
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 898,
+          "elected": true,
+          "pct": 58.2
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 645,
+          "elected": false,
+          "pct": 41.8
+        }
+      ]
+    },
+    {
+      "boothId": 7772,
+      "name": "Kardinya",
+      "formal": 1530,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 58.82,
+      "swing": 0.65,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 605,
+          "pct": 39.54
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 453,
+          "pct": 29.61
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 279,
+          "pct": 18.24
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 5.16
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 62,
+          "pct": 4.05
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 900,
+          "elected": true,
+          "pct": 58.82
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 630,
+          "elected": false,
+          "pct": 41.18
+        }
+      ]
+    },
+    {
+      "boothId": 7777,
+      "name": "Melville East",
+      "formal": 1528,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 59.36,
+      "swing": 8.23,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 611,
+          "pct": 39.99
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 510,
+          "pct": 33.38
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 283,
+          "pct": 18.52
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 3.73
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 51,
+          "pct": 3.34
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 907,
+          "elected": true,
+          "pct": 59.36
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 621,
+          "elected": false,
+          "pct": 40.64
+        }
+      ]
+    },
+    {
+      "boothId": 7758,
+      "name": "Bicton",
+      "formal": 1492,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 57.04,
+      "swing": 5.55,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 582,
+          "pct": 39.01
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 516,
+          "pct": 34.58
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 242,
+          "pct": 16.22
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 69,
+          "pct": 4.62
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 4.29
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 851,
+          "elected": true,
+          "pct": 57.04
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 641,
+          "elected": false,
+          "pct": 42.96
+        }
+      ]
+    },
+    {
+      "boothId": 8270,
+      "name": "Leeming",
+      "formal": 1488,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 59.95,
+      "swing": 5.78,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 640,
+          "pct": 43.01
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 463,
+          "pct": 31.12
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 206,
+          "pct": 13.84
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 4.7
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 62,
+          "pct": 4.17
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 892,
+          "elected": true,
+          "pct": 59.95
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 596,
+          "elected": false,
+          "pct": 40.05
+        }
+      ]
+    },
+    {
+      "boothId": 8284,
+      "name": "Willetton East",
+      "formal": 1479,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 63.15,
+      "swing": 6.07,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 701,
+          "pct": 47.4
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 398,
+          "pct": 26.91
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 214,
+          "pct": 14.47
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 73,
+          "pct": 4.94
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 3.38
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 2.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 934,
+          "elected": true,
+          "pct": 63.15
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 545,
+          "elected": false,
+          "pct": 36.85
+        }
+      ]
+    },
+    {
+      "boothId": 7779,
+      "name": "Palmyra",
+      "formal": 1476,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 70.8,
+      "swing": 0.3,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 625,
+          "pct": 42.34
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 386,
+          "pct": 26.15
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 328,
+          "pct": 22.22
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 75,
+          "pct": 5.08
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 3.25
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 14,
+          "pct": 0.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1045,
+          "elected": true,
+          "pct": 70.8
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 431,
+          "elected": false,
+          "pct": 29.2
+        }
+      ]
+    },
+    {
+      "boothId": 8285,
+      "name": "Willetton South",
+      "formal": 1453,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 62.22,
+      "swing": 2.7,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 688,
+          "pct": 47.35
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 399,
+          "pct": 27.46
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 190,
+          "pct": 13.08
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 64,
+          "pct": 4.4
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 3.99
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 54,
+          "pct": 3.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 904,
+          "elected": true,
+          "pct": 62.22
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 549,
+          "elected": false,
+          "pct": 37.78
+        }
+      ]
+    },
+    {
+      "boothId": 33054,
+      "name": "Canning Vale South",
+      "formal": 1391,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 59.38,
+      "swing": 5.11,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 655,
+          "pct": 47.09
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 386,
+          "pct": 27.75
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 151,
+          "pct": 10.86
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 87,
+          "pct": 6.25
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 73,
+          "pct": 5.25
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 39,
+          "pct": 2.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 826,
+          "elected": true,
+          "pct": 59.38
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 565,
+          "elected": false,
+          "pct": 40.62
+        }
+      ]
+    },
+    {
+      "boothId": 8271,
+      "name": "Leeming West",
+      "formal": 1373,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 57.47,
+      "swing": 6.52,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 598,
+          "pct": 43.55
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 457,
+          "pct": 33.28
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 177,
+          "pct": 12.89
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 4.59
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 2.91
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 38,
+          "pct": 2.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 789,
+          "elected": true,
+          "pct": 57.47
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 584,
+          "elected": false,
+          "pct": 42.53
+        }
+      ]
+    },
+    {
+      "boothId": 94436,
+      "name": "Perth TANGNEY PPVC",
+      "formal": 1370,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 64.16,
+      "swing": 12.34,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 686,
+          "pct": 50.07
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 407,
+          "pct": 29.71
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 179,
+          "pct": 13.07
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 3.07
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.12
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 27,
+          "pct": 1.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 879,
+          "elected": true,
+          "pct": 64.16
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 491,
+          "elected": false,
+          "pct": 35.84
+        }
+      ]
+    },
+    {
+      "boothId": 8283,
+      "name": "Willetton",
+      "formal": 1341,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 64.06,
+      "swing": 8.79,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 604,
+          "pct": 45.04
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 367,
+          "pct": 27.37
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 229,
+          "pct": 17.08
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 4.4
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 48,
+          "pct": 3.58
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 859,
+          "elected": true,
+          "pct": 64.06
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 482,
+          "elected": false,
+          "pct": 35.94
+        }
+      ]
+    },
+    {
+      "boothId": 8263,
+      "name": "Bull Creek",
+      "formal": 1316,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 60.87,
+      "swing": 6.37,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 586,
+          "pct": 44.53
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 402,
+          "pct": 30.55
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 187,
+          "pct": 14.21
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 3.8
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 48,
+          "pct": 3.65
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 801,
+          "elected": true,
+          "pct": 60.87
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 515,
+          "elected": false,
+          "pct": 39.13
+        }
+      ]
+    },
+    {
+      "boothId": 8262,
+      "name": "Brentwood",
+      "formal": 1278,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 59.86,
+      "swing": 5.47,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 529,
+          "pct": 41.39
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 388,
+          "pct": 30.36
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 212,
+          "pct": 16.59
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 62,
+          "pct": 4.85
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 3.83
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 38,
+          "pct": 2.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 765,
+          "elected": true,
+          "pct": 59.86
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 513,
+          "elected": false,
+          "pct": 40.14
+        }
+      ]
+    },
+    {
+      "boothId": 11600,
+      "name": "Leeming East",
+      "formal": 1252,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 55.75,
+      "swing": 5.83,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 506,
+          "pct": 40.42
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 435,
+          "pct": 34.74
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 174,
+          "pct": 13.9
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 3.83
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 48,
+          "pct": 3.83
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 41,
+          "pct": 3.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 698,
+          "elected": true,
+          "pct": 55.75
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 554,
+          "elected": false,
+          "pct": 44.25
+        }
+      ]
+    },
+    {
+      "boothId": 8275,
+      "name": "Riverton",
+      "formal": 1246,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 62.6,
+      "swing": 4.77,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 583,
+          "pct": 46.79
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 338,
+          "pct": 27.13
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 186,
+          "pct": 14.93
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 64,
+          "pct": 5.14
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 3.05
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 37,
+          "pct": 2.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 780,
+          "elected": true,
+          "pct": 62.6
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 466,
+          "elected": false,
+          "pct": 37.4
+        }
+      ]
+    },
+    {
+      "boothId": 97778,
+      "name": "Fremantle TANGNEY PPVC",
+      "formal": 1229,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 62.08,
+      "swing": -4.37,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 531,
+          "pct": 43.21
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 378,
+          "pct": 30.76
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 215,
+          "pct": 17.49
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 59,
+          "pct": 4.8
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 2.2
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 763,
+          "elected": true,
+          "pct": 62.08
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 466,
+          "elected": false,
+          "pct": 37.92
+        }
+      ]
+    },
+    {
+      "boothId": 7791,
+      "name": "Willagee",
+      "formal": 1142,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 69.88,
+      "swing": 6.83,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 494,
+          "pct": 43.26
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 266,
+          "pct": 23.29
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 234,
+          "pct": 20.49
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 66,
+          "pct": 5.78
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 4.9
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 26,
+          "pct": 2.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 798,
+          "elected": true,
+          "pct": 69.88
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 344,
+          "elected": false,
+          "pct": 30.12
+        }
+      ]
+    },
+    {
+      "boothId": 46570,
+      "name": "Canning Vale",
+      "formal": 1137,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 61.13,
+      "swing": 1.61,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 527,
+          "pct": 46.35
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 282,
+          "pct": 24.8
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 184,
+          "pct": 16.18
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 55,
+          "pct": 4.84
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 4.66
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 695,
+          "elected": true,
+          "pct": 61.13
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 442,
+          "elected": false,
+          "pct": 38.87
+        }
+      ]
+    },
+    {
+      "boothId": 8277,
+      "name": "Shelley",
+      "formal": 1113,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 55.71,
+      "swing": 4.84,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 462,
+          "pct": 41.51
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 409,
+          "pct": 36.75
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 138,
+          "pct": 12.4
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 3.59
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.23
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 620,
+          "elected": true,
+          "pct": 55.71
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 493,
+          "elected": false,
+          "pct": 44.29
+        }
+      ]
+    },
+    {
+      "boothId": 8276,
+      "name": "Rossmoyne",
+      "formal": 1084,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 50.74,
+      "swing": 5.35,
+      "candidates": [
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 441,
+          "pct": 40.68
+        },
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 396,
+          "pct": 36.53
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 146,
+          "pct": 13.47
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 3.51
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 33,
+          "pct": 3.04
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 30,
+          "pct": 2.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 550,
+          "elected": true,
+          "pct": 50.74
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 534,
+          "elected": false,
+          "pct": 49.26
+        }
+      ]
+    },
+    {
+      "boothId": 8264,
+      "name": "Bull Creek East",
+      "formal": 980,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 58.16,
+      "swing": 2.48,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 421,
+          "pct": 42.96
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 322,
+          "pct": 32.86
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 134,
+          "pct": 13.67
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.98
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 37,
+          "pct": 3.78
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 2.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 570,
+          "elected": true,
+          "pct": 58.16
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 410,
+          "elected": false,
+          "pct": 41.84
+        }
+      ]
+    },
+    {
+      "boothId": 7792,
+      "name": "Willagee East",
+      "formal": 914,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 61.16,
+      "swing": 7.53,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 385,
+          "pct": 42.12
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 272,
+          "pct": 29.76
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 143,
+          "pct": 15.65
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 5.03
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 5.03
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 559,
+          "elected": true,
+          "pct": 61.16
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 355,
+          "elected": false,
+          "pct": 38.84
+        }
+      ]
+    },
+    {
+      "boothId": 8260,
+      "name": "Bateman",
+      "formal": 885,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 57.85,
+      "swing": 6.07,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 380,
+          "pct": 42.94
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 302,
+          "pct": 34.12
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 118,
+          "pct": 13.33
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 43,
+          "pct": 4.86
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 2.6
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 512,
+          "elected": true,
+          "pct": 57.85
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 373,
+          "elected": false,
+          "pct": 42.15
+        }
+      ]
+    },
+    {
+      "boothId": 11907,
+      "name": "Willetton North",
+      "formal": 831,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 58.24,
+      "swing": 5.09,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 367,
+          "pct": 44.16
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 255,
+          "pct": 30.69
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 99,
+          "pct": 11.91
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 41,
+          "pct": 4.93
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 4.69
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 30,
+          "pct": 3.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 484,
+          "elected": true,
+          "pct": 58.24
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 347,
+          "elected": false,
+          "pct": 41.76
+        }
+      ]
+    },
+    {
+      "boothId": 8259,
+      "name": "Ardross",
+      "formal": 820,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 57.68,
+      "swing": 8.18,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 360,
+          "pct": 43.9
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 263,
+          "pct": 32.07
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 116,
+          "pct": 14.15
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 5.12
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.17
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 473,
+          "elected": true,
+          "pct": 57.68
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 347,
+          "elected": false,
+          "pct": 42.32
+        }
+      ]
+    },
+    {
+      "boothId": 109572,
+      "name": "Canning Vale Central",
+      "formal": 791,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 64.35,
+      "swing": 5.82,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 367,
+          "pct": 46.4
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 188,
+          "pct": 23.77
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 135,
+          "pct": 17.07
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 5.06
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 35,
+          "pct": 4.42
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 509,
+          "elected": true,
+          "pct": 64.35
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 282,
+          "elected": false,
+          "pct": 35.65
+        }
+      ]
+    },
+    {
+      "boothId": 83037,
+      "name": "Canning Vale East",
+      "formal": 770,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 59.48,
+      "swing": 1.4,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 353,
+          "pct": 45.84
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 205,
+          "pct": 26.62
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 14.29
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 4.68
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 36,
+          "pct": 4.68
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 30,
+          "pct": 3.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 458,
+          "elected": true,
+          "pct": 59.48
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 312,
+          "elected": false,
+          "pct": 40.52
+        }
+      ]
+    },
+    {
+      "boothId": 8273,
+      "name": "Parkwood",
+      "formal": 748,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 66.58,
+      "swing": 2.99,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 335,
+          "pct": 44.79
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 151,
+          "pct": 20.19
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 149,
+          "pct": 19.92
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 6.68
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.95
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 498,
+          "elected": true,
+          "pct": 66.58
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "elected": false,
+          "pct": 33.42
+        }
+      ]
+    },
+    {
+      "boothId": 7774,
+      "name": "Melville",
+      "formal": 640,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 59.06,
+      "swing": 7.22,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 236,
+          "pct": 36.88
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 211,
+          "pct": 32.97
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 126,
+          "pct": 19.69
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 35,
+          "pct": 5.47
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 3.91
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 378,
+          "elected": true,
+          "pct": 59.06
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 262,
+          "elected": false,
+          "pct": 40.94
+        }
+      ]
+    },
+    {
+      "boothId": 8258,
+      "name": "Applecross South",
+      "formal": 631,
+      "winnerParty": "lib",
+      "winnerSurname": "ONG",
+      "winnerPct": 52.14,
+      "swing": -9.61,
+      "candidates": [
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 265,
+          "pct": 42.0
+        },
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 229,
+          "pct": 36.29
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 69,
+          "pct": 10.94
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 4.28
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 27,
+          "pct": 4.28
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 302,
+          "elected": true,
+          "pct": 47.86
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 329,
+          "elected": false,
+          "pct": 52.14
+        }
+      ]
+    },
+    {
+      "boothId": 108771,
+      "name": "Cockburn Central TANGNEY PPVC",
+      "formal": 617,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 53.32,
+      "swing": -0.19,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 258,
+          "pct": 41.82
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 227,
+          "pct": 36.79
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 66,
+          "pct": 10.7
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 5.83
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.43
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 329,
+          "elected": true,
+          "pct": 53.32
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 288,
+          "elected": false,
+          "pct": 46.68
+        }
+      ]
+    },
+    {
+      "boothId": 83332,
+      "name": "Cannington TANGNEY PPVC",
+      "formal": 603,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 59.04,
+      "swing": 0.76,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 278,
+          "pct": 46.1
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 180,
+          "pct": 29.85
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 11.61
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 4.64
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 26,
+          "pct": 4.31
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 21,
+          "pct": 3.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 356,
+          "elected": true,
+          "pct": 59.04
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 247,
+          "elected": false,
+          "pct": 40.96
+        }
+      ]
+    },
+    {
+      "boothId": 83345,
+      "name": "Bateman South",
+      "formal": 601,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 62.06,
+      "swing": 8.24,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 276,
+          "pct": 45.92
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 179,
+          "pct": 29.78
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 79,
+          "pct": 13.14
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 27,
+          "pct": 4.49
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 3.83
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 2.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 373,
+          "elected": true,
+          "pct": 62.06
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 228,
+          "elected": false,
+          "pct": 37.94
+        }
+      ]
+    },
+    {
+      "boothId": 7775,
+      "name": "Melville South",
+      "formal": 588,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 62.76,
+      "swing": 13.43,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 252,
+          "pct": 42.86
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 178,
+          "pct": 30.27
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 93,
+          "pct": 15.82
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 5.1
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 4.25
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 369,
+          "elected": true,
+          "pct": 62.76
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 219,
+          "elected": false,
+          "pct": 37.24
+        }
+      ]
+    },
+    {
+      "boothId": 109509,
+      "name": "Bentley TANGNEY PPVC",
+      "formal": 387,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 62.53,
+      "swing": 9.62,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "pct": 43.93
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 110,
+          "pct": 28.42
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 18.09
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 21,
+          "pct": 5.43
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.33
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 1.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 242,
+          "elected": true,
+          "pct": 62.53
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 145,
+          "elected": false,
+          "pct": 37.47
+        }
+      ]
+    },
+    {
+      "boothId": 97748,
+      "name": "Bicton North",
+      "formal": 384,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 55.73,
+      "swing": 13.19,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 158,
+          "pct": 41.15
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "pct": 37.24
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 50,
+          "pct": 13.02
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 3.12
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.86
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 2.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 214,
+          "elected": true,
+          "pct": 55.73
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 170,
+          "elected": false,
+          "pct": 44.27
+        }
+      ]
+    },
+    {
+      "boothId": 7780,
+      "name": "Palmyra North (Tangney)",
+      "formal": 341,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 68.33,
+      "swing": 4.66,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 150,
+          "pct": 43.99
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 80,
+          "pct": 23.46
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 77,
+          "pct": 22.58
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 4.11
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 3.81
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 233,
+          "elected": true,
+          "pct": 68.33
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 108,
+          "elected": false,
+          "pct": 31.67
+        }
+      ]
+    },
+    {
+      "boothId": 109091,
+      "name": "Special Hospital Team 2",
+      "formal": 295,
+      "winnerParty": "lib",
+      "winnerSurname": "ONG",
+      "winnerPct": 51.86,
+      "swing": -0.31,
+      "candidates": [
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 128,
+          "pct": 43.39
+        },
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 126,
+          "pct": 42.71
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 22,
+          "pct": 7.46
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 3.39
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.69
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 142,
+          "elected": true,
+          "pct": 48.14
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 153,
+          "elected": false,
+          "pct": 51.86
+        }
+      ]
+    },
+    {
+      "boothId": 108479,
+      "name": "Special Hospital Team 1",
+      "formal": 190,
+      "winnerParty": "lib",
+      "winnerSurname": "ONG",
+      "winnerPct": 60.0,
+      "swing": 7.37,
+      "candidates": [
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 105,
+          "pct": 55.26
+        },
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 67,
+          "pct": 35.26
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 6.32
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.05
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 1.05
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 76,
+          "elected": true,
+          "pct": 40.0
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 114,
+          "elected": false,
+          "pct": 60.0
+        }
+      ]
+    },
+    {
+      "boothId": 65478,
+      "name": "EAV Tangney PPVC",
+      "formal": 10,
+      "winnerParty": "alp",
+      "winnerSurname": "LIM",
+      "winnerPct": 70.0,
+      "swing": 30.0,
+      "candidates": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "pct": 40.0
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "pct": 30.0
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 10.0
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 10.0
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 10.0
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "elected": true,
+          "pct": 70.0
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "elected": false,
+          "pct": 30.0
+        }
+      ]
+    },
+    {
+      "boothId": 119883,
+      "name": "Other Mobile Team 1",
+      "formal": 2,
+      "winnerParty": "lib",
+      "winnerSurname": "ONG",
+      "winnerPct": 100.0,
+      "swing": 48.71,
+      "candidates": [
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1,
+          "pct": 50.0
+        },
+        {
+          "surname": "KEFALINOS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 50.0
+        },
+        {
+          "surname": "HAYWARD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LESLIE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "RAI",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LIM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "elected": true,
+          "pct": 0.0
+        },
+        {
+          "surname": "ONG",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "elected": false,
+          "pct": 100.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 110991,
+    "candidates": [
+      {
+        "id": "C41834",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Hayward"
+      },
+      {
+        "id": "C41590",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Ong"
+      },
+      {
+        "id": "C41780",
+        "party": "oth",
+        "displayShort": "HMP",
+        "displayLong": "HMP \u2014 Leslie"
+      },
+      {
+        "id": "C41736",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Kefalinos"
+      },
+      {
+        "id": "C41470",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Lim"
+      },
+      {
+        "id": "C41193",
+        "party": "oth",
+        "displayShort": "AUC",
+        "displayLong": "AUC \u2014 Rai"
+      }
+    ],
+    "rounds": [
+      {
+        "C41834": 14410,
+        "C41590": 38027,
+        "C41780": 3400,
+        "C41736": 4520,
+        "C41470": 47175,
+        "C41193": 3459
+      },
+      {
+        "C41834": 15588,
+        "C41590": 38566,
+        "C41736": 5148,
+        "C41470": 47998,
+        "C41193": 3691
+      },
+      {
+        "C41834": 15953,
+        "C41590": 40201,
+        "C41736": 6175,
+        "C41470": 48662
+      },
+      {
+        "C41834": 17290,
+        "C41590": 44144,
+        "C41470": 49557
+      },
+      {
+        "C41590": 47738,
+        "C41470": 63253
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            58.68,
+            62.32,
+            64.67,
+            61.07,
+            61.47,
+            47.62,
+            43.01
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            41.32,
+            37.68,
+            35.33,
+            38.93,
+            38.53,
+            52.38,
+            56.99
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 50.85,
+            "CDP": 2.41,
+            "GRN": 8.9,
+            "IND": 3.96,
+            "ON": 0.79,
+            "ALP": 32.04,
+            "OTH": 1.05
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "GRN": 13.49,
+            "CDP": 3.36,
+            "LIB": 55.69,
+            "ALP": 25.8,
+            "OTH": 1.67
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "GRN": 10.42,
+            "AUC": 2.62,
+            "TOP": 4.38,
+            "LIB": 57.17,
+            "ALP": 24.33,
+            "OTH": 1.08
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "IND": 11.88,
+            "GRN": 12.39,
+            "AUC": 3.37,
+            "LIB": 48.81,
+            "ALP": 23.55
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "LIB": 53.63,
+            "IND": 2.69,
+            "AUC": 2.03,
+            "ALP": 25.95,
+            "ON": 2.08,
+            "GRN": 11.17,
+            "OTH": 2.45
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "LIB": 39.99,
+            "ALP": 38.07,
+            "GRN": 11.97,
+            "ON": 2.13,
+            "AUC": 2.31,
+            "OTH": 5.54
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "HMP": 3.06,
+            "ON": 4.07,
+            "ALP": 42.5,
+            "GRN": 12.98,
+            "AUC": 3.12,
+            "LIB": 34.26
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 183959,
+    "medianAge": 40,
+    "medianHouseholdIncomeWeekly": 2100,
+    "medianRentWeekly": 400,
+    "averageHouseholdSize": 2.7,
+    "bornOverseasPct": 43.3,
+    "indigenousPct": 1.1,
+    "bachelorPlusPct": 54.2,
+    "renterPct": 20.6,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 101177,
+        "pct": 56.68,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 5593,
+        "pct": 3.13,
+        "natPct": 1.95
+      },
+      {
+        "label": "Malaysia",
+        "count": 4389,
+        "pct": 2.46,
+        "natPct": 0.32
+      },
+      {
+        "label": "India",
+        "count": 4230,
+        "pct": 2.37,
+        "natPct": 1.51
+      },
+      {
+        "label": "China",
+        "count": 3085,
+        "pct": 1.73,
+        "natPct": 1.0
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 80920,
+        "pct": 43.99,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 67877,
+        "pct": 36.9,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 9833,
+        "pct": 5.35,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 8150,
+        "pct": 4.43,
+        "natPct": 2.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 7183,
+        "pct": 3.9,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Tangney is an Australian electoral division in the state of Western Australia. The Division was named after Dame Dorothy Tangney, the first female member of the Australian Senate.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Tangney",
+    "retrievedAt": "2026-05-03T12:39:14Z"
+  }
+}

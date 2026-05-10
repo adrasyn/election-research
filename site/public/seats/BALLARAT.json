@@ -1,0 +1,5213 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "BALLARAT",
+    "divisionId": 198,
+    "name": "Ballarat",
+    "state": "VIC",
+    "totalFormal": 104540,
+    "informalVotes": 3400,
+    "informalRate": 3.91,
+    "winner": {
+      "candidateId": "C40839",
+      "surname": "KING",
+      "givenName": "Catherine",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 21.32,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40839",
+      "surname": "KING",
+      "givenName": "Catherine",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 35491,
+      "pct": 42.5
+    },
+    {
+      "candidateId": "C40785",
+      "surname": "DORAN",
+      "givenName": "Paula",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 23911,
+      "pct": 28.63
+    },
+    {
+      "candidateId": "C41081",
+      "surname": "BARNES",
+      "givenName": "John",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 11998,
+      "pct": 14.37
+    },
+    {
+      "candidateId": "C41508",
+      "surname": "PRYSE-SMITH",
+      "givenName": "Terri",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 6310,
+      "pct": 7.56
+    },
+    {
+      "candidateId": "C41571",
+      "surname": "HARKNESS",
+      "givenName": "Ian Maxwell",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 2488,
+      "pct": 2.98
+    },
+    {
+      "candidateId": "C41833",
+      "surname": "PARKER",
+      "givenName": "Luke",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 2186,
+      "pct": 2.62
+    },
+    {
+      "candidateId": "C41312",
+      "surname": "REDFERN",
+      "givenName": "Ryan",
+      "party": "oth",
+      "partyAb": "LTP",
+      "votes": 1123,
+      "pct": 1.34
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40839",
+      "surname": "KING",
+      "givenName": "Catherine",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 63419,
+      "pct": 60.66,
+      "elected": true
+    },
+    {
+      "candidateId": "C40785",
+      "surname": "DORAN",
+      "givenName": "Paula",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 41121,
+      "pct": 39.34,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 109548,
+      "name": "Ballarat West PPVC",
+      "formal": 14682,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 54.76,
+      "swing": -5.98,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6134,
+          "pct": 41.78
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5337,
+          "pct": 36.35
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1519,
+          "pct": 10.35
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 922,
+          "pct": 6.28
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 313,
+          "pct": 2.13
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 285,
+          "pct": 1.94
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 172,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8040,
+          "elected": true,
+          "pct": 54.76
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6642,
+          "elected": false,
+          "pct": 45.24
+        }
+      ]
+    },
+    {
+      "boothId": 83632,
+      "name": "Sebastopol PPVC",
+      "formal": 13803,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 60.43,
+      "swing": -3.36,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6114,
+          "pct": 44.29
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3864,
+          "pct": 27.99
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1602,
+          "pct": 11.61
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1205,
+          "pct": 8.73
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 463,
+          "pct": 3.35
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 369,
+          "pct": 2.67
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 186,
+          "pct": 1.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8341,
+          "elected": true,
+          "pct": 60.43
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5462,
+          "elected": false,
+          "pct": 39.57
+        }
+      ]
+    },
+    {
+      "boothId": 34062,
+      "name": "Ballarat BALLARAT PPVC",
+      "formal": 13234,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 60.16,
+      "swing": 0.1,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5749,
+          "pct": 43.44
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4188,
+          "pct": 31.65
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1854,
+          "pct": 14.01
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 719,
+          "pct": 5.43
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 315,
+          "pct": 2.38
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 263,
+          "pct": 1.99
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 146,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7961,
+          "elected": true,
+          "pct": 60.16
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5273,
+          "elected": false,
+          "pct": 39.84
+        }
+      ]
+    },
+    {
+      "boothId": 2978,
+      "name": "Alfredton West",
+      "formal": 2029,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 62.44,
+      "swing": -1.21,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 896,
+          "pct": 44.16
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 533,
+          "pct": 26.27
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 336,
+          "pct": 16.56
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 137,
+          "pct": 6.75
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 62,
+          "pct": 3.06
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 2.07
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1267,
+          "elected": true,
+          "pct": 62.44
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 762,
+          "elected": false,
+          "pct": 37.56
+        }
+      ]
+    },
+    {
+      "boothId": 3005,
+      "name": "Buninyong",
+      "formal": 1687,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 62.77,
+      "swing": -2.03,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 706,
+          "pct": 41.85
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 455,
+          "pct": 26.97
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 311,
+          "pct": 18.44
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 98,
+          "pct": 5.81
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 49,
+          "pct": 2.9
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 2.25
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 30,
+          "pct": 1.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1059,
+          "elected": true,
+          "pct": 62.77
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 628,
+          "elected": false,
+          "pct": 37.23
+        }
+      ]
+    },
+    {
+      "boothId": 2990,
+      "name": "Ballarat North",
+      "formal": 1612,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 67.0,
+      "swing": 1.19,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 696,
+          "pct": 43.18
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 402,
+          "pct": 24.94
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 338,
+          "pct": 20.97
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 4.65
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 55,
+          "pct": 3.41
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 1.74
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1080,
+          "elected": true,
+          "pct": 67.0
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 532,
+          "elected": false,
+          "pct": 33.0
+        }
+      ]
+    },
+    {
+      "boothId": 3054,
+      "name": "Sebastopol North",
+      "formal": 1514,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 68.03,
+      "swing": -1.15,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 660,
+          "pct": 43.59
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 289,
+          "pct": 19.09
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 263,
+          "pct": 17.37
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 148,
+          "pct": 9.78
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 80,
+          "pct": 5.28
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 54,
+          "pct": 3.57
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1030,
+          "elected": true,
+          "pct": 68.03
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 484,
+          "elected": false,
+          "pct": 31.97
+        }
+      ]
+    },
+    {
+      "boothId": 82992,
+      "name": "Lucas",
+      "formal": 1350,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 62.3,
+      "swing": -2.92,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 611,
+          "pct": 45.26
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 381,
+          "pct": 28.22
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 195,
+          "pct": 14.44
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 6.0
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.44
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 2.44
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 841,
+          "elected": true,
+          "pct": 62.3
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 509,
+          "elected": false,
+          "pct": 37.7
+        }
+      ]
+    },
+    {
+      "boothId": 3042,
+      "name": "Mount Clear",
+      "formal": 1298,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 66.95,
+      "swing": 2.22,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 572,
+          "pct": 44.07
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 276,
+          "pct": 21.26
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 261,
+          "pct": 20.11
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 5.93
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 58,
+          "pct": 4.47
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.16
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 2.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 869,
+          "elected": true,
+          "pct": 66.95
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 429,
+          "elected": false,
+          "pct": 33.05
+        }
+      ]
+    },
+    {
+      "boothId": 2998,
+      "name": "Black Hill",
+      "formal": 1276,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 72.1,
+      "swing": 0.38,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 552,
+          "pct": 43.26
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 322,
+          "pct": 25.24
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 233,
+          "pct": 18.26
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 5.96
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 3.21
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 2.27
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 920,
+          "elected": true,
+          "pct": 72.1
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 356,
+          "elected": false,
+          "pct": 27.9
+        }
+      ]
+    },
+    {
+      "boothId": 3002,
+      "name": "Brown Hill",
+      "formal": 1246,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 63.96,
+      "swing": -2.97,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 552,
+          "pct": 44.3
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 287,
+          "pct": 23.03
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 202,
+          "pct": 16.21
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 103,
+          "pct": 8.27
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 45,
+          "pct": 3.61
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 2.41
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 27,
+          "pct": 2.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 797,
+          "elected": true,
+          "pct": 63.96
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 449,
+          "elected": false,
+          "pct": 36.04
+        }
+      ]
+    },
+    {
+      "boothId": 2991,
+      "name": "Lake Wendouree",
+      "formal": 1228,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 65.07,
+      "swing": 1.62,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 547,
+          "pct": 44.54
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 357,
+          "pct": 29.07
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 219,
+          "pct": 17.83
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 3.26
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 2.2
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 1.63
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 799,
+          "elected": true,
+          "pct": 65.07
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 429,
+          "elected": false,
+          "pct": 34.93
+        }
+      ]
+    },
+    {
+      "boothId": 3277,
+      "name": "Daylesford",
+      "formal": 1221,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 68.96,
+      "swing": 2.76,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 474,
+          "pct": 38.82
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 314,
+          "pct": 25.72
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 256,
+          "pct": 20.97
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 6.47
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 40,
+          "pct": 3.28
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 2.87
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 842,
+          "elected": true,
+          "pct": 68.96
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 379,
+          "elected": false,
+          "pct": 31.04
+        }
+      ]
+    },
+    {
+      "boothId": 3059,
+      "name": "Sebastopol",
+      "formal": 1214,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 69.52,
+      "swing": 0.19,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 548,
+          "pct": 45.14
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 219,
+          "pct": 18.04
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 200,
+          "pct": 16.47
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 114,
+          "pct": 9.39
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 65,
+          "pct": 5.35
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 3.13
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 30,
+          "pct": 2.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 844,
+          "elected": true,
+          "pct": 69.52
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 370,
+          "elected": false,
+          "pct": 30.48
+        }
+      ]
+    },
+    {
+      "boothId": 3007,
+      "name": "Canadian",
+      "formal": 1121,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 68.78,
+      "swing": -1.72,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 470,
+          "pct": 41.93
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 253,
+          "pct": 22.57
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 212,
+          "pct": 18.91
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 8.3
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 42,
+          "pct": 3.75
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 3.3
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 771,
+          "elected": true,
+          "pct": 68.78
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 350,
+          "elected": false,
+          "pct": 31.22
+        }
+      ]
+    },
+    {
+      "boothId": 3074,
+      "name": "Wendouree North",
+      "formal": 1110,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 62.61,
+      "swing": -5.02,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 473,
+          "pct": 42.61
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 255,
+          "pct": 22.97
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 14.95
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 106,
+          "pct": 9.55
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 54,
+          "pct": 4.86
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.97
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 695,
+          "elected": true,
+          "pct": 62.61
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 415,
+          "elected": false,
+          "pct": 37.39
+        }
+      ]
+    },
+    {
+      "boothId": 3068,
+      "name": "Ballarat East",
+      "formal": 1100,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 72.91,
+      "swing": -2.01,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 512,
+          "pct": 46.55
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 260,
+          "pct": 23.64
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 195,
+          "pct": 17.73
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 4.64
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 2.73
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 28,
+          "pct": 2.55
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 2.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 802,
+          "elected": true,
+          "pct": 72.91
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 298,
+          "elected": false,
+          "pct": 27.09
+        }
+      ]
+    },
+    {
+      "boothId": 3040,
+      "name": "Miners Rest",
+      "formal": 1098,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 59.65,
+      "swing": -2.78,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 477,
+          "pct": 43.44
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 309,
+          "pct": 28.14
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 120,
+          "pct": 10.93
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 118,
+          "pct": 10.75
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 2.82
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 2.55
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 655,
+          "elected": true,
+          "pct": 59.65
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 443,
+          "elected": false,
+          "pct": 40.35
+        }
+      ]
+    },
+    {
+      "boothId": 3517,
+      "name": "Teesdale",
+      "formal": 1090,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 54.59,
+      "swing": -3.01,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 384,
+          "pct": 35.23
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 318,
+          "pct": 29.17
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 130,
+          "pct": 11.93
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 126,
+          "pct": 11.56
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 63,
+          "pct": 5.78
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 51,
+          "pct": 4.68
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 595,
+          "elected": true,
+          "pct": 54.59
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 495,
+          "elected": false,
+          "pct": 45.41
+        }
+      ]
+    },
+    {
+      "boothId": 2986,
+      "name": "Ballarat",
+      "formal": 1086,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 71.82,
+      "swing": 1.23,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 450,
+          "pct": 41.44
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 321,
+          "pct": 29.56
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 207,
+          "pct": 19.06
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 3.96
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 2.03
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.03
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 1.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 780,
+          "elected": true,
+          "pct": 71.82
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 306,
+          "elected": false,
+          "pct": 28.18
+        }
+      ]
+    },
+    {
+      "boothId": 3018,
+      "name": "Delacombe",
+      "formal": 1043,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 67.98,
+      "swing": -1.08,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 445,
+          "pct": 42.67
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 204,
+          "pct": 19.56
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 203,
+          "pct": 19.46
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 90,
+          "pct": 8.63
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 47,
+          "pct": 4.51
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 40,
+          "pct": 3.84
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 709,
+          "elected": true,
+          "pct": 67.98
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 334,
+          "elected": false,
+          "pct": 32.02
+        }
+      ]
+    },
+    {
+      "boothId": 3014,
+      "name": "Creswick",
+      "formal": 976,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 64.34,
+      "swing": -3.19,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 427,
+          "pct": 43.75
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 222,
+          "pct": 22.75
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 162,
+          "pct": 16.6
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 9.53
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 3.28
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 3.18
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 628,
+          "elected": true,
+          "pct": 64.34
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 348,
+          "elected": false,
+          "pct": 35.66
+        }
+      ]
+    },
+    {
+      "boothId": 3072,
+      "name": "Wendouree",
+      "formal": 835,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 60.36,
+      "swing": -4.13,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 347,
+          "pct": 41.56
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 235,
+          "pct": 28.14
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 130,
+          "pct": 15.57
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 6.59
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 3.23
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 3.11
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 504,
+          "elected": true,
+          "pct": 60.36
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 331,
+          "elected": false,
+          "pct": 39.64
+        }
+      ]
+    },
+    {
+      "boothId": 2977,
+      "name": "Alfredton",
+      "formal": 812,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 58.87,
+      "swing": -1.47,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 327,
+          "pct": 40.27
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 239,
+          "pct": 29.43
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 125,
+          "pct": 15.39
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 65,
+          "pct": 8.0
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 3.94
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 2.22
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 478,
+          "elected": true,
+          "pct": 58.87
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 334,
+          "elected": false,
+          "pct": 41.13
+        }
+      ]
+    },
+    {
+      "boothId": 3012,
+      "name": "Clunes",
+      "formal": 795,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 54.84,
+      "swing": -6.08,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 293,
+          "pct": 36.86
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 237,
+          "pct": 29.81
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 13.84
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 98,
+          "pct": 12.33
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 3.14
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.01
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 2.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 436,
+          "elected": true,
+          "pct": 54.84
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 359,
+          "elected": false,
+          "pct": 45.16
+        }
+      ]
+    },
+    {
+      "boothId": 3043,
+      "name": "Mount Pleasant",
+      "formal": 791,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 70.54,
+      "swing": -1.3,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 336,
+          "pct": 42.48
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 201,
+          "pct": 25.41
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 128,
+          "pct": 16.18
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 8.85
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 3.67
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 2.02
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 558,
+          "elected": true,
+          "pct": 70.54
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 233,
+          "elected": false,
+          "pct": 29.46
+        }
+      ]
+    },
+    {
+      "boothId": 3027,
+      "name": "Haddon",
+      "formal": 774,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 53.1,
+      "swing": -8.14,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 293,
+          "pct": 37.86
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 251,
+          "pct": 32.43
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 90,
+          "pct": 11.63
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 72,
+          "pct": 9.3
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 4.39
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 3.36
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 411,
+          "elected": true,
+          "pct": 53.1
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 363,
+          "elected": false,
+          "pct": 46.9
+        }
+      ]
+    },
+    {
+      "boothId": 3335,
+      "name": "Trentham",
+      "formal": 772,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 69.95,
+      "swing": 1.29,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 378,
+          "pct": 48.96
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 162,
+          "pct": 20.98
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 144,
+          "pct": 18.65
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 5.57
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 3.11
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 1.94
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 540,
+          "elected": true,
+          "pct": 69.95
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 232,
+          "elected": false,
+          "pct": 30.05
+        }
+      ]
+    },
+    {
+      "boothId": 3063,
+      "name": "Smythesdale",
+      "formal": 712,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 57.3,
+      "swing": -3.64,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 269,
+          "pct": 37.78
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 148,
+          "pct": 20.79
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 132,
+          "pct": 18.54
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 10.39
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 6.04
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 5.62
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 408,
+          "elected": true,
+          "pct": 57.3
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 304,
+          "elected": false,
+          "pct": 42.7
+        }
+      ]
+    },
+    {
+      "boothId": 3337,
+      "name": "Warrenheip",
+      "formal": 696,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 52.73,
+      "swing": -5.55,
+      "candidates": [
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 251,
+          "pct": 36.06
+        },
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 234,
+          "pct": 33.62
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 84,
+          "pct": 12.07
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 8.76
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 5.17
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 3.3
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 367,
+          "elected": true,
+          "pct": 52.73
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 329,
+          "elected": false,
+          "pct": 47.27
+        }
+      ]
+    },
+    {
+      "boothId": 3075,
+      "name": "Wendouree West",
+      "formal": 659,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 72.69,
+      "swing": -1.93,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 343,
+          "pct": 52.05
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 102,
+          "pct": 15.48
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 92,
+          "pct": 13.96
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 65,
+          "pct": 9.86
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 3.64
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 2.88
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 479,
+          "elected": true,
+          "pct": 72.69
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 180,
+          "elected": false,
+          "pct": 27.31
+        }
+      ]
+    },
+    {
+      "boothId": 3293,
+      "name": "Hepburn Springs",
+      "formal": 658,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 70.97,
+      "swing": -0.97,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 295,
+          "pct": 44.83
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 23.1
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 130,
+          "pct": 19.76
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 6.53
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 2.58
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 2.28
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 467,
+          "elected": true,
+          "pct": 70.97
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 191,
+          "elected": false,
+          "pct": 29.03
+        }
+      ]
+    },
+    {
+      "boothId": 2993,
+      "name": "Redan",
+      "formal": 652,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 70.86,
+      "swing": -1.47,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 310,
+          "pct": 47.55
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 129,
+          "pct": 19.79
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 116,
+          "pct": 17.79
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 5.98
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 4.29
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 3.07
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 462,
+          "elected": true,
+          "pct": 70.86
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 190,
+          "elected": false,
+          "pct": 29.14
+        }
+      ]
+    },
+    {
+      "boothId": 3287,
+      "name": "Gordon",
+      "formal": 627,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 55.5,
+      "swing": -3.95,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 224,
+          "pct": 35.73
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 205,
+          "pct": 32.7
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 84,
+          "pct": 13.4
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 12.12
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 2.39
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 2.39
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 348,
+          "elected": true,
+          "pct": 55.5
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 279,
+          "elected": false,
+          "pct": 44.5
+        }
+      ]
+    },
+    {
+      "boothId": 3048,
+      "name": "Newington",
+      "formal": 607,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 66.72,
+      "swing": -0.04,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 267,
+          "pct": 43.99
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 157,
+          "pct": 25.86
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 117,
+          "pct": 19.28
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 4.61
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 3.29
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 1.65
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 405,
+          "elected": true,
+          "pct": 66.72
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 202,
+          "elected": false,
+          "pct": 33.28
+        }
+      ]
+    },
+    {
+      "boothId": 3049,
+      "name": "Newlyn",
+      "formal": 597,
+      "winnerParty": "lib",
+      "winnerSurname": "DORAN",
+      "winnerPct": 55.78,
+      "swing": 5.62,
+      "candidates": [
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 269,
+          "pct": 45.06
+        },
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "pct": 28.48
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 73,
+          "pct": 12.23
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 8.54
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 2.51
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.68
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 1.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 264,
+          "elected": true,
+          "pct": 44.22
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 333,
+          "elected": false,
+          "pct": 55.78
+        }
+      ]
+    },
+    {
+      "boothId": 3015,
+      "name": "Creswick North",
+      "formal": 587,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 60.65,
+      "swing": -0.92,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 241,
+          "pct": 41.06
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 160,
+          "pct": 27.26
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 80,
+          "pct": 13.63
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 11.75
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 2.73
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.39
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 356,
+          "elected": true,
+          "pct": 60.65
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 231,
+          "elected": false,
+          "pct": 39.35
+        }
+      ]
+    },
+    {
+      "boothId": 3057,
+      "name": "Ross Creek",
+      "formal": 580,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 53.45,
+      "swing": -2.3,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 221,
+          "pct": 38.1
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 192,
+          "pct": 33.1
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 12.24
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 7.93
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 3.45
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 3.45
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 310,
+          "elected": true,
+          "pct": 53.45
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 270,
+          "elected": false,
+          "pct": 46.55
+        }
+      ]
+    },
+    {
+      "boothId": 3286,
+      "name": "Glenlyon",
+      "formal": 542,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 67.34,
+      "swing": -7.09,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 239,
+          "pct": 44.1
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 129,
+          "pct": 23.8
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 111,
+          "pct": 20.48
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 5.35
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 2.77
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 2.03
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 365,
+          "elected": true,
+          "pct": 67.34
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 177,
+          "elected": false,
+          "pct": 32.66
+        }
+      ]
+    },
+    {
+      "boothId": 3497,
+      "name": "Lethbridge",
+      "formal": 538,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 54.83,
+      "swing": 0.83,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 195,
+          "pct": 36.25
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 154,
+          "pct": 28.62
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 12.45
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 54,
+          "pct": 10.04
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 7.06
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 4.65
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 295,
+          "elected": true,
+          "pct": 54.83
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 243,
+          "elected": false,
+          "pct": 45.17
+        }
+      ]
+    },
+    {
+      "boothId": 3046,
+      "name": "Napoleons",
+      "formal": 524,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 60.11,
+      "swing": -0.32,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 206,
+          "pct": 39.31
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 129,
+          "pct": 24.62
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 80,
+          "pct": 15.27
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 12.79
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 5.15
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 2.1
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 315,
+          "elected": true,
+          "pct": 60.11
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 209,
+          "elected": false,
+          "pct": 39.89
+        }
+      ]
+    },
+    {
+      "boothId": 3004,
+      "name": "Bungaree",
+      "formal": 491,
+      "winnerParty": "lib",
+      "winnerSurname": "DORAN",
+      "winnerPct": 62.53,
+      "swing": -0.44,
+      "candidates": [
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 262,
+          "pct": 53.36
+        },
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 140,
+          "pct": 28.51
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 6.72
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 6.52
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 2.44
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 1.43
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 184,
+          "elected": true,
+          "pct": 37.47
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 307,
+          "elected": false,
+          "pct": 62.53
+        }
+      ]
+    },
+    {
+      "boothId": 3308,
+      "name": "Meredith",
+      "formal": 441,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 53.74,
+      "swing": -3.4,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 154,
+          "pct": 34.92
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 136,
+          "pct": 30.84
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 11.34
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 45,
+          "pct": 10.2
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 5.44
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 5.22
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 237,
+          "elected": true,
+          "pct": 53.74
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 204,
+          "elected": false,
+          "pct": 46.26
+        }
+      ]
+    },
+    {
+      "boothId": 3037,
+      "name": "Magpie",
+      "formal": 366,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 62.02,
+      "swing": -3.62,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 154,
+          "pct": 42.08
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 89,
+          "pct": 24.32
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 55,
+          "pct": 15.03
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 11.75
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 3.28
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 3.01
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 227,
+          "elected": true,
+          "pct": 62.02
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 139,
+          "elected": false,
+          "pct": 37.98
+        }
+      ]
+    },
+    {
+      "boothId": 3312,
+      "name": "Mount Egerton",
+      "formal": 348,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 57.76,
+      "swing": -10.28,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 133,
+          "pct": 38.22
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 87,
+          "pct": 25.0
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 52,
+          "pct": 14.94
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 12.36
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 4.31
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 2.87
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 201,
+          "elected": true,
+          "pct": 57.76
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 147,
+          "elected": false,
+          "pct": 42.24
+        }
+      ]
+    },
+    {
+      "boothId": 3019,
+      "name": "Dereel",
+      "formal": 328,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 58.23,
+      "swing": -2.68,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 122,
+          "pct": 37.2
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 79,
+          "pct": 24.09
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 15.24
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 38,
+          "pct": 11.59
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 6.1
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 4.27
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 191,
+          "elected": true,
+          "pct": 58.23
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 137,
+          "elected": false,
+          "pct": 41.77
+        }
+      ]
+    },
+    {
+      "boothId": 3034,
+      "name": "Linton",
+      "formal": 322,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 58.7,
+      "swing": 0.23,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 134,
+          "pct": 41.61
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 88,
+          "pct": 27.33
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 13.35
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 9.32
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 4.66
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 3.11
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 189,
+          "elected": true,
+          "pct": 58.7
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 133,
+          "elected": false,
+          "pct": 41.3
+        }
+      ]
+    },
+    {
+      "boothId": 3006,
+      "name": "Cardigan Village",
+      "formal": 314,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 50.0,
+      "swing": -5.53,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 115,
+          "pct": 36.62
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 107,
+          "pct": 34.08
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 13.69
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 22,
+          "pct": 7.01
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 4.14
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 3.18
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 157,
+          "elected": true,
+          "pct": 50.0
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 157,
+          "elected": false,
+          "pct": 50.0
+        }
+      ]
+    },
+    {
+      "boothId": 3280,
+      "name": "Elaine",
+      "formal": 302,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 51.32,
+      "swing": -2.74,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 103,
+          "pct": 34.11
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 98,
+          "pct": 32.45
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 14.57
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "pct": 9.6
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 5.63
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.99
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 155,
+          "elected": true,
+          "pct": 51.32
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 147,
+          "elected": false,
+          "pct": 48.68
+        }
+      ]
+    },
+    {
+      "boothId": 3032,
+      "name": "Learmonth",
+      "formal": 296,
+      "winnerParty": "lib",
+      "winnerSurname": "DORAN",
+      "winnerPct": 55.74,
+      "swing": -0.83,
+      "candidates": [
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 140,
+          "pct": 47.3
+        },
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "pct": 31.76
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 9.46
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 22,
+          "pct": 7.43
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.03
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.35
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 131,
+          "elected": true,
+          "pct": 44.26
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 165,
+          "elected": false,
+          "pct": 55.74
+        }
+      ]
+    },
+    {
+      "boothId": 108879,
+      "name": "Special Hospital Team 1",
+      "formal": 275,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 58.91,
+      "swing": -5.1,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "pct": 50.55
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 99,
+          "pct": 36.0
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 5.09
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 3.64
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 2.91
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 1.82
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 162,
+          "elected": true,
+          "pct": 58.91
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 113,
+          "elected": false,
+          "pct": 41.09
+        }
+      ]
+    },
+    {
+      "boothId": 108882,
+      "name": "Special Hospital Team 2",
+      "formal": 228,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 60.53,
+      "swing": -3.41,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 118,
+          "pct": 51.75
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 81,
+          "pct": 35.53
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 4.39
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 3.07
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.63
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 2.19
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 138,
+          "elected": true,
+          "pct": 60.53
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 90,
+          "elected": false,
+          "pct": 39.47
+        }
+      ]
+    },
+    {
+      "boothId": 3008,
+      "name": "Cape Clear",
+      "formal": 210,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 52.38,
+      "swing": 4.55,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 71,
+          "pct": 33.81
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 62,
+          "pct": 29.52
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 15.24
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 22,
+          "pct": 10.48
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 5.24
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 4.29
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "elected": true,
+          "pct": 52.38
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 100,
+          "elected": false,
+          "pct": 47.62
+        }
+      ]
+    },
+    {
+      "boothId": 3278,
+      "name": "Drummond",
+      "formal": 198,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 70.71,
+      "swing": 1.01,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 100,
+          "pct": 50.51
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 35,
+          "pct": 17.68
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 32,
+          "pct": 16.16
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 11.62
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.02
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.01
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 140,
+          "elected": true,
+          "pct": 70.71
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 58,
+          "elected": false,
+          "pct": 29.29
+        }
+      ]
+    },
+    {
+      "boothId": 3340,
+      "name": "Yandoit",
+      "formal": 192,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 63.02,
+      "swing": -1.46,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 85,
+          "pct": 44.27
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 55,
+          "pct": 28.65
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 28,
+          "pct": 14.58
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 7.29
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 3.12
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.56
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 121,
+          "elected": true,
+          "pct": 63.02
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 71,
+          "elected": false,
+          "pct": 36.98
+        }
+      ]
+    },
+    {
+      "boothId": 3056,
+      "name": "Rokewood",
+      "formal": 177,
+      "winnerParty": "lib",
+      "winnerSurname": "DORAN",
+      "winnerPct": 66.67,
+      "swing": 2.29,
+      "candidates": [
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 80,
+          "pct": 45.2
+        },
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 40,
+          "pct": 22.6
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 18.08
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 5.08
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 4.52
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 2.82
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 59,
+          "elected": true,
+          "pct": 33.33
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 118,
+          "elected": false,
+          "pct": 66.67
+        }
+      ]
+    },
+    {
+      "boothId": 109076,
+      "name": "Special Hospital Team 3",
+      "formal": 163,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 69.94,
+      "swing": 5.94,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "pct": 57.67
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 43,
+          "pct": 26.38
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 8.59
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 2.45
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 2.45
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.45
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 114,
+          "elected": true,
+          "pct": 69.94
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 49,
+          "elected": false,
+          "pct": 30.06
+        }
+      ]
+    },
+    {
+      "boothId": 109437,
+      "name": "Other Mobile Team 1",
+      "formal": 71,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 81.69,
+      "swing": 18.2,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 52,
+          "pct": 73.24
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 8,
+          "pct": 11.27
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 5.63
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 4.23
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 4.23
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.41
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 58,
+          "elected": true,
+          "pct": 81.69
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 13,
+          "elected": false,
+          "pct": 18.31
+        }
+      ]
+    },
+    {
+      "boothId": 65571,
+      "name": "EAV Ballarat PPVC",
+      "formal": 9,
+      "winnerParty": "alp",
+      "winnerSurname": "KING",
+      "winnerPct": 77.78,
+      "swing": 7.19,
+      "candidates": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 66.67
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "pct": 22.22
+        },
+        {
+          "surname": "BARNES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 11.11
+        },
+        {
+          "surname": "PRYSE-SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "REDFERN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HARKNESS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "elected": true,
+          "pct": 77.78
+        },
+        {
+          "surname": "DORAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "elected": false,
+          "pct": 22.22
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 104540,
+    "candidates": [
+      {
+        "id": "C40785",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Doran"
+      },
+      {
+        "id": "C41081",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Barnes"
+      },
+      {
+        "id": "C41508",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Pryse-Smith"
+      },
+      {
+        "id": "C40839",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 King"
+      },
+      {
+        "id": "C41833",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Parker"
+      },
+      {
+        "id": "C41312",
+        "party": "oth",
+        "displayShort": "LTP",
+        "displayLong": "LTP \u2014 Redfern"
+      },
+      {
+        "id": "C41571",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Harkness"
+      }
+    ],
+    "rounds": [
+      {
+        "C40785": 29883,
+        "C41081": 14984,
+        "C41508": 8029,
+        "C40839": 44273,
+        "C41833": 2934,
+        "C41312": 1380,
+        "C41571": 3057
+      },
+      {
+        "C40785": 30036,
+        "C41081": 15068,
+        "C41508": 8378,
+        "C40839": 44387,
+        "C41833": 3329,
+        "C41571": 3342
+      },
+      {
+        "C40785": 30450,
+        "C41081": 15623,
+        "C41508": 8999,
+        "C40839": 44996,
+        "C41571": 4472
+      },
+      {
+        "C40785": 31579,
+        "C41081": 16292,
+        "C41508": 10772,
+        "C40839": 45897
+      },
+      {
+        "C40785": 38313,
+        "C41081": 18017,
+        "C40839": 48210
+      },
+      {
+        "C40785": 41121,
+        "C40839": 63419
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            58.15,
+            61.7,
+            54.89,
+            57.32,
+            60.98,
+            62.97,
+            60.66
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            41.85,
+            38.3,
+            45.11,
+            42.68,
+            39.02,
+            37.03,
+            39.34
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "FFP": 3.65,
+            "GRN": 7.98,
+            "LIB": 38.04,
+            "ALP": 50.33
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "GRN": 11.34,
+            "ALP": 51.75,
+            "LIB": 33.95,
+            "FFP": 2.96
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "GRN": 9.51,
+            "ASXP": 2.28,
+            "ALP": 41.91,
+            "TOP": 3.63,
+            "LIB": 38.0,
+            "OTH": 4.68
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "LIB": 34.73,
+            "ALP": 43.27,
+            "AUC": 2.07,
+            "NAT": 4.2,
+            "GRN": 10.8,
+            "OTH": 4.93
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "AJP": 4.28,
+            "GRN": 8.84,
+            "IND": 3.83,
+            "TOP": 4.62,
+            "LIB": 30.64,
+            "ALP": 47.79
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "IND": 2.12,
+            "ALP": 44.74,
+            "TOP": 3.83,
+            "LIB": 27.09,
+            "LDP": 3.33,
+            "ON": 3.6,
+            "GRN": 14.59,
+            "OTH": 0.71
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "GRN": 14.33,
+            "ALP": 42.35,
+            "FFP": 2.92,
+            "LIB": 28.59,
+            "IND": 2.81,
+            "ON": 7.68,
+            "OTH": 1.32
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 152243,
+    "medianAge": 41,
+    "medianHouseholdIncomeWeekly": 1445,
+    "medianRentWeekly": 295,
+    "averageHouseholdSize": 2.4,
+    "bornOverseasPct": 12.0,
+    "indigenousPct": 1.7,
+    "bachelorPlusPct": 36.2,
+    "renterPct": 26.4,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 126483,
+        "pct": 87.97,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 1950,
+        "pct": 1.36,
+        "natPct": 1.95
+      },
+      {
+        "label": "India",
+        "count": 1054,
+        "pct": 0.73,
+        "natPct": 1.51
+      },
+      {
+        "label": "New Zealand",
+        "count": 681,
+        "pct": 0.47,
+        "natPct": 1.11
+      },
+      {
+        "label": "Netherlands",
+        "count": 335,
+        "pct": 0.23,
+        "natPct": 0.14
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 73203,
+        "pct": 48.08,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 62821,
+        "pct": 41.26,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 10650,
+        "pct": 7.0,
+        "natPct": 7.27
+      },
+      {
+        "label": "Hinduism",
+        "count": 1393,
+        "pct": 0.91,
+        "natPct": 2.69
+      },
+      {
+        "label": "Other religions",
+        "count": 1294,
+        "pct": 0.85,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Ballarat is an Australian electoral division in the state of Victoria. The division was proclaimed in 1900, and was one of the original 65 divisions to be contested at the first federal election. It was named for the provincial city of the same name by Scottish squatter Archibald Yuille, who established the first settlement \u2212 his sheep run called Ballaarat \u2212 in 1837, with the name derived from a local Wathawurrung word for the area, balla arat, thought to mean \"resting place\".",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Ballarat",
+    "retrievedAt": "2026-01-22T07:10:05Z"
+  }
+}

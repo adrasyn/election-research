@@ -1,0 +1,6018 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "WHITLAM",
+    "divisionId": 150,
+    "name": "Whitlam",
+    "state": "NSW",
+    "totalFormal": 109316,
+    "informalVotes": 10798,
+    "informalRate": 10.34,
+    "winner": {
+      "candidateId": "C41333",
+      "surname": "BERRY",
+      "givenName": "Carol",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": false
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 12.5,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41333",
+      "surname": "BERRY",
+      "givenName": "Carol",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 36437,
+      "pct": 38.9
+    },
+    {
+      "candidateId": "C41535",
+      "surname": "SMITH",
+      "givenName": "Nathaniel",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 26384,
+      "pct": 28.16
+    },
+    {
+      "candidateId": "C41640",
+      "surname": "DIXON",
+      "givenName": "Jamie",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 11550,
+      "pct": 12.33
+    },
+    {
+      "candidateId": "C41917",
+      "surname": "COUSINS",
+      "givenName": "Sharon",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 7008,
+      "pct": 7.48
+    },
+    {
+      "candidateId": "C42083",
+      "surname": "BRITTON",
+      "givenName": "Ben",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 4717,
+      "pct": 5.04
+    },
+    {
+      "candidateId": "C41677",
+      "surname": "CUDA",
+      "givenName": "Angelo",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2648,
+      "pct": 2.83
+    },
+    {
+      "candidateId": "C42075",
+      "surname": "MOYLAN",
+      "givenName": "Paddy",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 1912,
+      "pct": 2.04
+    },
+    {
+      "candidateId": "C40617",
+      "surname": "BUTTERFIELD",
+      "givenName": "Glenn",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 1554,
+      "pct": 1.66
+    },
+    {
+      "candidateId": "C41837",
+      "surname": "KHOURY",
+      "givenName": "Raymond",
+      "party": "oth",
+      "partyAb": "LTP",
+      "votes": 993,
+      "pct": 1.06
+    },
+    {
+      "candidateId": "C40881",
+      "surname": "HINTON",
+      "givenName": "Cheryl Ann",
+      "party": "oth",
+      "partyAb": "CEC",
+      "votes": 475,
+      "pct": 0.51
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41333",
+      "surname": "BERRY",
+      "givenName": "Carol",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 61486,
+      "pct": 56.25,
+      "elected": true
+    },
+    {
+      "candidateId": "C41535",
+      "surname": "SMITH",
+      "givenName": "Nathaniel",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 47830,
+      "pct": 43.75,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 58798,
+      "name": "Shellharbour PPVC",
+      "formal": 15151,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 59.51,
+      "swing": -2.69,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6594,
+          "pct": 43.52
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3988,
+          "pct": 26.32
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1602,
+          "pct": 10.57
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1019,
+          "pct": 6.73
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 830,
+          "pct": 5.48
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 460,
+          "pct": 3.04
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 272,
+          "pct": 1.8
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 189,
+          "pct": 1.25
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 134,
+          "pct": 0.88
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 63,
+          "pct": 0.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9016,
+          "elected": true,
+          "pct": 59.51
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6135,
+          "elected": false,
+          "pct": 40.49
+        }
+      ]
+    },
+    {
+      "boothId": 33862,
+      "name": "Bowral PPVC",
+      "formal": 12840,
+      "winnerParty": "lib",
+      "winnerSurname": "SMITH",
+      "winnerPct": 53.15,
+      "swing": -2.3,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5220,
+          "pct": 40.65
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4310,
+          "pct": 33.57
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1228,
+          "pct": 9.56
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 783,
+          "pct": 6.1
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 374,
+          "pct": 2.91
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 309,
+          "pct": 2.41
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 198,
+          "pct": 1.54
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 168,
+          "pct": 1.31
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 166,
+          "pct": 1.29
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 84,
+          "pct": 0.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6015,
+          "elected": true,
+          "pct": 46.85
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6825,
+          "elected": false,
+          "pct": 53.15
+        }
+      ]
+    },
+    {
+      "boothId": 38319,
+      "name": "Dapto WHITLAM PPVC",
+      "formal": 12029,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 60.25,
+      "swing": -4.13,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5216,
+          "pct": 43.36
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2889,
+          "pct": 24.02
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1389,
+          "pct": 11.55
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 882,
+          "pct": 7.33
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 870,
+          "pct": 7.23
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 380,
+          "pct": 3.16
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 169,
+          "pct": 1.4
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 126,
+          "pct": 1.05
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 64,
+          "pct": 0.53
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 44,
+          "pct": 0.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7248,
+          "elected": true,
+          "pct": 60.25
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4781,
+          "elected": false,
+          "pct": 39.75
+        }
+      ]
+    },
+    {
+      "boothId": 97829,
+      "name": "Albion Park PPVC",
+      "formal": 9438,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 55.48,
+      "swing": -3.09,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3724,
+          "pct": 39.46
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2626,
+          "pct": 27.82
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 912,
+          "pct": 9.66
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 826,
+          "pct": 8.75
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 619,
+          "pct": 6.56
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 313,
+          "pct": 3.32
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 174,
+          "pct": 1.84
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 143,
+          "pct": 1.52
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 79,
+          "pct": 0.84
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 22,
+          "pct": 0.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5236,
+          "elected": true,
+          "pct": 55.48
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4202,
+          "elected": false,
+          "pct": 44.52
+        }
+      ]
+    },
+    {
+      "boothId": 541,
+      "name": "Dapto",
+      "formal": 1810,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 59.39,
+      "swing": -5.83,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 608,
+          "pct": 33.59
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 396,
+          "pct": 21.88
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 369,
+          "pct": 20.39
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 146,
+          "pct": 8.07
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 124,
+          "pct": 6.85
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 72,
+          "pct": 3.98
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 1.93
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 1.88
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 0.88
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1075,
+          "elected": true,
+          "pct": 59.39
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 735,
+          "elected": false,
+          "pct": 40.61
+        }
+      ]
+    },
+    {
+      "boothId": 2798,
+      "name": "Mittagong",
+      "formal": 1795,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 54.15,
+      "swing": 3.59,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 625,
+          "pct": 34.82
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 546,
+          "pct": 30.42
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 251,
+          "pct": 13.98
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 120,
+          "pct": 6.69
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 79,
+          "pct": 4.4
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 2.67
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 1.84
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 1.78
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 1.73
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 30,
+          "pct": 1.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 972,
+          "elected": true,
+          "pct": 54.15
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 823,
+          "elected": false,
+          "pct": 45.85
+        }
+      ]
+    },
+    {
+      "boothId": 32671,
+      "name": "Albion Park Heights",
+      "formal": 1649,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 57.31,
+      "swing": -3.11,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 611,
+          "pct": 37.05
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 404,
+          "pct": 24.5
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 242,
+          "pct": 14.68
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 145,
+          "pct": 8.79
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 99,
+          "pct": 6.0
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 64,
+          "pct": 3.88
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 1.88
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 1.58
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 1.27
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 945,
+          "elected": true,
+          "pct": 57.31
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 704,
+          "elected": false,
+          "pct": 42.69
+        }
+      ]
+    },
+    {
+      "boothId": 2779,
+      "name": "Bowral",
+      "formal": 1613,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 51.7,
+      "swing": 4.4,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 539,
+          "pct": 33.42
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 537,
+          "pct": 33.29
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 246,
+          "pct": 15.25
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 95,
+          "pct": 5.89
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 80,
+          "pct": 4.96
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 2.48
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.61
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 1.55
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.12
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 834,
+          "elected": true,
+          "pct": 51.7
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 779,
+          "elected": false,
+          "pct": 48.3
+        }
+      ]
+    },
+    {
+      "boothId": 34345,
+      "name": "Shell Cove",
+      "formal": 1593,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 53.48,
+      "swing": 1.08,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 574,
+          "pct": 36.03
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 468,
+          "pct": 29.38
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 206,
+          "pct": 12.93
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 156,
+          "pct": 9.79
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 68,
+          "pct": 4.27
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 65,
+          "pct": 4.08
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 1.26
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.13
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 0.75
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.38
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 852,
+          "elected": true,
+          "pct": 53.48
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 741,
+          "elected": false,
+          "pct": 46.52
+        }
+      ]
+    },
+    {
+      "boothId": 46420,
+      "name": "Flinders Central",
+      "formal": 1511,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 60.42,
+      "swing": -5.01,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 648,
+          "pct": 42.89
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 378,
+          "pct": 25.02
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 224,
+          "pct": 14.82
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 88,
+          "pct": 5.82
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 73,
+          "pct": 4.83
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 50,
+          "pct": 3.31
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.26
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.13
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 0.66
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 913,
+          "elected": true,
+          "pct": 60.42
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 598,
+          "elected": false,
+          "pct": 39.58
+        }
+      ]
+    },
+    {
+      "boothId": 46419,
+      "name": "Horsley",
+      "formal": 1475,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 61.29,
+      "swing": -2.93,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 593,
+          "pct": 40.2
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 342,
+          "pct": 23.19
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 228,
+          "pct": 15.46
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 94,
+          "pct": 6.37
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 86,
+          "pct": 5.83
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 58,
+          "pct": 3.93
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 1.9
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.76
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.68
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 904,
+          "elected": true,
+          "pct": 61.29
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 571,
+          "elected": false,
+          "pct": 38.71
+        }
+      ]
+    },
+    {
+      "boothId": 2804,
+      "name": "Oak Flats",
+      "formal": 1450,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 59.38,
+      "swing": -3.98,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 548,
+          "pct": 37.79
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 337,
+          "pct": 23.24
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 219,
+          "pct": 15.1
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 129,
+          "pct": 8.9
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 85,
+          "pct": 5.86
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 49,
+          "pct": 3.38
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 2.69
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 2.0
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.55
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 861,
+          "elected": true,
+          "pct": 59.38
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 589,
+          "elected": false,
+          "pct": 40.62
+        }
+      ]
+    },
+    {
+      "boothId": 2801,
+      "name": "Moss Vale Central",
+      "formal": 1438,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 53.27,
+      "swing": 5.25,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 530,
+          "pct": 36.86
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 447,
+          "pct": 31.08
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 155,
+          "pct": 10.78
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 97,
+          "pct": 6.75
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 66,
+          "pct": 4.59
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 3.13
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.29
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 1.81
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.74
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 14,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 766,
+          "elected": true,
+          "pct": 53.27
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 672,
+          "elected": false,
+          "pct": 46.73
+        }
+      ]
+    },
+    {
+      "boothId": 2806,
+      "name": "Shellharbour",
+      "formal": 1405,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 54.88,
+      "swing": -3.3,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 501,
+          "pct": 35.66
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 400,
+          "pct": 28.47
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 202,
+          "pct": 14.38
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 98,
+          "pct": 6.98
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 84,
+          "pct": 5.98
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 3.77
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 1.99
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 1.64
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.07
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 771,
+          "elected": true,
+          "pct": 54.88
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 634,
+          "elected": false,
+          "pct": 45.12
+        }
+      ]
+    },
+    {
+      "boothId": 906,
+      "name": "Bundanoon",
+      "formal": 1248,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 61.7,
+      "swing": -0.14,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 512,
+          "pct": 41.03
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 312,
+          "pct": 25.0
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 205,
+          "pct": 16.43
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 6.09
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 3.45
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.56
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.92
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.44
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 1.44
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 770,
+          "elected": true,
+          "pct": 61.7
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 478,
+          "elected": false,
+          "pct": 38.3
+        }
+      ]
+    },
+    {
+      "boothId": 2774,
+      "name": "Albion Park Rail",
+      "formal": 1222,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 59.74,
+      "swing": -6.39,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 447,
+          "pct": 36.58
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 262,
+          "pct": 21.44
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 200,
+          "pct": 16.37
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 133,
+          "pct": 10.88
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 72,
+          "pct": 5.89
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 4.26
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 2.54
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.55
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.33
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 730,
+          "elected": true,
+          "pct": 59.74
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 492,
+          "elected": false,
+          "pct": 40.26
+        }
+      ]
+    },
+    {
+      "boothId": 545,
+      "name": "Kanahooka",
+      "formal": 1162,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 60.15,
+      "swing": -3.4,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 481,
+          "pct": 41.39
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 293,
+          "pct": 25.22
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 177,
+          "pct": 15.23
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 74,
+          "pct": 6.37
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 4.3
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 2.84
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 1.89
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.2
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.95
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 699,
+          "elected": true,
+          "pct": 60.15
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 463,
+          "elected": false,
+          "pct": 39.85
+        }
+      ]
+    },
+    {
+      "boothId": 2800,
+      "name": "Moss Vale",
+      "formal": 1153,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 54.38,
+      "swing": -0.31,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 382,
+          "pct": 33.13
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 329,
+          "pct": 28.53
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 189,
+          "pct": 16.39
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 96,
+          "pct": 8.33
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 3.3
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.86
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 2.69
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.52
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.91
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 627,
+          "elected": true,
+          "pct": 54.38
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 526,
+          "elected": false,
+          "pct": 45.62
+        }
+      ]
+    },
+    {
+      "boothId": 2809,
+      "name": "Warilla South",
+      "formal": 1140,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 58.77,
+      "swing": -13.0,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 448,
+          "pct": 39.3
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 236,
+          "pct": 20.7
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 173,
+          "pct": 15.18
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 118,
+          "pct": 10.35
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 76,
+          "pct": 6.67
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 3.33
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 1.93
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.23
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.7
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 670,
+          "elected": true,
+          "pct": 58.77
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 470,
+          "elected": false,
+          "pct": 41.23
+        }
+      ]
+    },
+    {
+      "boothId": 2787,
+      "name": "Hill Top",
+      "formal": 1114,
+      "winnerParty": "lib",
+      "winnerSurname": "SMITH",
+      "winnerPct": 55.83,
+      "swing": 3.93,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 344,
+          "pct": 30.88
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 311,
+          "pct": 27.92
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 181,
+          "pct": 16.25
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 99,
+          "pct": 8.89
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 64,
+          "pct": 5.75
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 45,
+          "pct": 4.04
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 2.6
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.71
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.44
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 492,
+          "elected": true,
+          "pct": 44.17
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 622,
+          "elected": false,
+          "pct": 55.83
+        }
+      ]
+    },
+    {
+      "boothId": 2799,
+      "name": "Renwick",
+      "formal": 1071,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 51.26,
+      "swing": 4.83,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 377,
+          "pct": 35.2
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 348,
+          "pct": 32.49
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 127,
+          "pct": 11.86
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 7.84
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 3.27
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 2.33
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.24
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 2.24
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.15
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 549,
+          "elected": true,
+          "pct": 51.26
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 522,
+          "elected": false,
+          "pct": 48.74
+        }
+      ]
+    },
+    {
+      "boothId": 11500,
+      "name": "Warilla East",
+      "formal": 1070,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 64.11,
+      "swing": -2.74,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 455,
+          "pct": 42.52
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 227,
+          "pct": 21.21
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 161,
+          "pct": 15.05
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 6.82
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 65,
+          "pct": 6.07
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.64
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.59
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.5
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.03
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 686,
+          "elected": true,
+          "pct": 64.11
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 384,
+          "elected": false,
+          "pct": 35.89
+        }
+      ]
+    },
+    {
+      "boothId": 31451,
+      "name": "Oak Flats East",
+      "formal": 1046,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 61.95,
+      "swing": -5.86,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 417,
+          "pct": 39.87
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 224,
+          "pct": 21.41
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 171,
+          "pct": 16.35
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 74,
+          "pct": 7.07
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 6.88
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 3.35
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 1.91
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 1.72
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.15
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 648,
+          "elected": true,
+          "pct": 61.95
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 398,
+          "elected": false,
+          "pct": 38.05
+        }
+      ]
+    },
+    {
+      "boothId": 2773,
+      "name": "Albion Park South",
+      "formal": 1032,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 62.21,
+      "swing": -0.19,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 430,
+          "pct": 41.67
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 213,
+          "pct": 20.64
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 173,
+          "pct": 16.76
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 7.66
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 62,
+          "pct": 6.01
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 3.29
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.55
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.97
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 0.97
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 642,
+          "elected": true,
+          "pct": 62.21
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 390,
+          "elected": false,
+          "pct": 37.79
+        }
+      ]
+    },
+    {
+      "boothId": 2802,
+      "name": "Dapto South",
+      "formal": 975,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 60.21,
+      "swing": -0.82,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 373,
+          "pct": 38.26
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 219,
+          "pct": 22.46
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 153,
+          "pct": 15.69
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 7.69
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 67,
+          "pct": 6.87
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 40,
+          "pct": 4.1
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.95
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.64
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.82
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 587,
+          "elected": true,
+          "pct": 60.21
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 388,
+          "elected": false,
+          "pct": 39.79
+        }
+      ]
+    },
+    {
+      "boothId": 38312,
+      "name": "Bowral East",
+      "formal": 972,
+      "winnerParty": "lib",
+      "winnerSurname": "SMITH",
+      "winnerPct": 55.35,
+      "swing": -6.74,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 392,
+          "pct": 40.33
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 325,
+          "pct": 33.44
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 7.82
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 5.56
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 3.91
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.26
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 2.26
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.16
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.75
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 434,
+          "elected": true,
+          "pct": 44.65
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 538,
+          "elected": false,
+          "pct": 55.35
+        }
+      ]
+    },
+    {
+      "boothId": 549,
+      "name": "Koonawarra",
+      "formal": 921,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 67.54,
+      "swing": -8.46,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 376,
+          "pct": 40.83
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 163,
+          "pct": 17.7
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 141,
+          "pct": 15.31
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 8.36
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 66,
+          "pct": 7.17
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 40,
+          "pct": 4.34
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 2.93
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.52
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.3
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 622,
+          "elected": true,
+          "pct": 67.54
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 299,
+          "elected": false,
+          "pct": 32.46
+        }
+      ]
+    },
+    {
+      "boothId": 2805,
+      "name": "Robertson",
+      "formal": 913,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 58.93,
+      "swing": 3.65,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 342,
+          "pct": 37.46
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 259,
+          "pct": 28.37
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 135,
+          "pct": 14.79
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 5.59
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 4.49
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 3.61
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 2.41
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.19
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.88
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 538,
+          "elected": true,
+          "pct": 58.93
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 375,
+          "elected": false,
+          "pct": 41.07
+        }
+      ]
+    },
+    {
+      "boothId": 2793,
+      "name": "Lake Illawarra",
+      "formal": 910,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 62.75,
+      "swing": -3.29,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 371,
+          "pct": 40.77
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 174,
+          "pct": 19.12
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 148,
+          "pct": 16.26
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 91,
+          "pct": 10.0
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 68,
+          "pct": 7.47
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.42
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.54
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.1
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.77
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 571,
+          "elected": true,
+          "pct": 62.75
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 339,
+          "elected": false,
+          "pct": 37.25
+        }
+      ]
+    },
+    {
+      "boothId": 31450,
+      "name": "Horsley South",
+      "formal": 852,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 62.32,
+      "swing": -5.53,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 345,
+          "pct": 40.49
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 205,
+          "pct": 24.06
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 149,
+          "pct": 17.49
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 5.87
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 4.93
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.05
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 2.0
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.17
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.82
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 531,
+          "elected": true,
+          "pct": 62.32
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 321,
+          "elected": false,
+          "pct": 37.68
+        }
+      ]
+    },
+    {
+      "boothId": 108834,
+      "name": "Tullimbar",
+      "formal": 797,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 58.22,
+      "swing": -3.44,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 306,
+          "pct": 38.39
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 231,
+          "pct": 28.98
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 120,
+          "pct": 15.06
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 6.27
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 4.89
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.89
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.51
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.13
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.63
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 464,
+          "elected": true,
+          "pct": 58.22
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 333,
+          "elected": false,
+          "pct": 41.78
+        }
+      ]
+    },
+    {
+      "boothId": 2780,
+      "name": "Bowral South",
+      "formal": 790,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 51.01,
+      "swing": 1.93,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 286,
+          "pct": 36.2
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 278,
+          "pct": 35.19
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 84,
+          "pct": 10.63
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 4.94
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 2.78
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 2.66
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 2.53
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.28
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.15
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 403,
+          "elected": true,
+          "pct": 51.01
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 387,
+          "elected": false,
+          "pct": 48.99
+        }
+      ]
+    },
+    {
+      "boothId": 32673,
+      "name": "Blackbutt",
+      "formal": 777,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 62.16,
+      "swing": 0.12,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 342,
+          "pct": 44.02
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 153,
+          "pct": 19.69
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 94,
+          "pct": 12.1
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 7.08
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 53,
+          "pct": 6.82
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.76
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.8
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 1.67
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.16
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 483,
+          "elected": true,
+          "pct": 62.16
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 294,
+          "elected": false,
+          "pct": 37.84
+        }
+      ]
+    },
+    {
+      "boothId": 11962,
+      "name": "Colo Vale",
+      "formal": 733,
+      "winnerParty": "lib",
+      "winnerSurname": "SMITH",
+      "winnerPct": 51.43,
+      "swing": -0.54,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 231,
+          "pct": 31.51
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 225,
+          "pct": 30.7
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 96,
+          "pct": 13.1
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 83,
+          "pct": 11.32
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 3.41
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 3.14
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.73
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.77
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.23
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 356,
+          "elected": true,
+          "pct": 48.57
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 377,
+          "elected": false,
+          "pct": 51.43
+        }
+      ]
+    },
+    {
+      "boothId": 2803,
+      "name": "Mount Warrigal",
+      "formal": 722,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 68.14,
+      "swing": -4.8,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 330,
+          "pct": 45.71
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 130,
+          "pct": 18.01
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 116,
+          "pct": 16.07
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 65,
+          "pct": 9.0
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 3.74
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 3.05
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.94
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.39
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.97
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 492,
+          "elected": true,
+          "pct": 68.14
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 230,
+          "elected": false,
+          "pct": 31.86
+        }
+      ]
+    },
+    {
+      "boothId": 32916,
+      "name": "Albion Park",
+      "formal": 677,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 55.83,
+      "swing": -4.32,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 231,
+          "pct": 34.12
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 183,
+          "pct": 27.03
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 93,
+          "pct": 13.74
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 9.01
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 46,
+          "pct": 6.79
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 3.55
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.77
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.77
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.18
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 378,
+          "elected": true,
+          "pct": 55.83
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 299,
+          "elected": false,
+          "pct": 44.17
+        }
+      ]
+    },
+    {
+      "boothId": 2794,
+      "name": "Dapto East",
+      "formal": 648,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 66.82,
+      "swing": -8.61,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 290,
+          "pct": 44.75
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 107,
+          "pct": 16.51
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 104,
+          "pct": 16.05
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 9.1
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 6.02
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.93
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.54
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.54
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.23
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 433,
+          "elected": true,
+          "pct": 66.82
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 215,
+          "elected": false,
+          "pct": 33.18
+        }
+      ]
+    },
+    {
+      "boothId": 538,
+      "name": "Brownsville",
+      "formal": 645,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 57.52,
+      "swing": -7.03,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 258,
+          "pct": 40.0
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 161,
+          "pct": 24.96
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "pct": 13.18
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 59,
+          "pct": 9.15
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 7.44
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.86
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 1.24
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.09
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 1.09
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 371,
+          "elected": true,
+          "pct": 57.52
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 274,
+          "elected": false,
+          "pct": 42.48
+        }
+      ]
+    },
+    {
+      "boothId": 2775,
+      "name": "Berrima",
+      "formal": 637,
+      "winnerParty": "lib",
+      "winnerSurname": "SMITH",
+      "winnerPct": 52.9,
+      "swing": -3.24,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 230,
+          "pct": 36.11
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 190,
+          "pct": 29.83
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 88,
+          "pct": 13.81
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 9.11
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 3.3
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.98
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 1.73
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.41
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.1
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 300,
+          "elected": true,
+          "pct": 47.1
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 337,
+          "elected": false,
+          "pct": 52.9
+        }
+      ]
+    },
+    {
+      "boothId": 58667,
+      "name": "Wollongong WHITLAM PPVC",
+      "formal": 623,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 63.56,
+      "swing": -6.69,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 246,
+          "pct": 39.49
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 141,
+          "pct": 22.63
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 122,
+          "pct": 19.58
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 4.98
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 4.65
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 3.85
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 2.57
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.93
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.16
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 396,
+          "elected": true,
+          "pct": 63.56
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 227,
+          "elected": false,
+          "pct": 36.44
+        }
+      ]
+    },
+    {
+      "boothId": 11921,
+      "name": "Barrack Heights",
+      "formal": 602,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 63.62,
+      "swing": -11.45,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 250,
+          "pct": 41.53
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 113,
+          "pct": 18.77
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 100,
+          "pct": 16.61
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 9.3
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 4.15
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.99
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 1.83
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.66
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.66
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 383,
+          "elected": true,
+          "pct": 63.62
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 219,
+          "elected": false,
+          "pct": 36.38
+        }
+      ]
+    },
+    {
+      "boothId": 2812,
+      "name": "Yerrinbool",
+      "formal": 566,
+      "winnerParty": "lib",
+      "winnerSurname": "SMITH",
+      "winnerPct": 53.53,
+      "swing": 5.07,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 189,
+          "pct": 33.39
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 161,
+          "pct": 28.45
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 14.31
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 58,
+          "pct": 10.25
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 4.06
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 3.89
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.12
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.24
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 1.24
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 263,
+          "elected": true,
+          "pct": 46.47
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 303,
+          "elected": false,
+          "pct": 53.53
+        }
+      ]
+    },
+    {
+      "boothId": 2810,
+      "name": "Warilla North",
+      "formal": 513,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 67.45,
+      "swing": -8.29,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 250,
+          "pct": 48.73
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 80,
+          "pct": 15.59
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 79,
+          "pct": 15.4
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 9.94
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.7
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 3.12
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.95
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.78
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.78
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 346,
+          "elected": true,
+          "pct": 67.45
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 167,
+          "elected": false,
+          "pct": 32.55
+        }
+      ]
+    },
+    {
+      "boothId": 97827,
+      "name": "Warrawong WHITLAM PPVC",
+      "formal": 475,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 58.95,
+      "swing": -11.83,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 182,
+          "pct": 38.32
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 112,
+          "pct": 23.58
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 82,
+          "pct": 17.26
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 8.21
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 4.84
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 3.58
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 1.68
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.26
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.84
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 280,
+          "elected": true,
+          "pct": 58.95
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 195,
+          "elected": false,
+          "pct": 41.05
+        }
+      ]
+    },
+    {
+      "boothId": 921,
+      "name": "Exeter",
+      "formal": 428,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 53.5,
+      "swing": 3.85,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 164,
+          "pct": 38.32
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 156,
+          "pct": 36.45
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 50,
+          "pct": 11.68
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 3.5
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 3.27
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 2.8
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 1.64
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.4
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.7
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 229,
+          "elected": true,
+          "pct": 53.5
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 199,
+          "elected": false,
+          "pct": 46.5
+        }
+      ]
+    },
+    {
+      "boothId": 976,
+      "name": "Wingello",
+      "formal": 378,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 51.85,
+      "swing": -2.43,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 105,
+          "pct": 27.78
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 103,
+          "pct": 27.25
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 64,
+          "pct": 16.93
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 13.76
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 3.44
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.65
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.65
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 2.65
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 2.12
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 196,
+          "elected": true,
+          "pct": 51.85
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 182,
+          "elected": false,
+          "pct": 48.15
+        }
+      ]
+    },
+    {
+      "boothId": 31242,
+      "name": "Welby",
+      "formal": 370,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 54.05,
+      "swing": 1.21,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 134,
+          "pct": 36.22
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 114,
+          "pct": 30.81
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 47,
+          "pct": 12.7
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 8.65
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.7
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.7
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 2.16
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 1.89
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.08
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 200,
+          "elected": true,
+          "pct": 54.05
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 170,
+          "elected": false,
+          "pct": 45.95
+        }
+      ]
+    },
+    {
+      "boothId": 966,
+      "name": "Sutton Forest",
+      "formal": 296,
+      "winnerParty": "lib",
+      "winnerSurname": "SMITH",
+      "winnerPct": 64.19,
+      "swing": 13.19,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 137,
+          "pct": 46.28
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 74,
+          "pct": 25.0
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 8.11
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 5.07
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 4.73
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 13,
+          "pct": 4.39
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 4.05
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.35
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.68
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 106,
+          "elected": true,
+          "pct": 35.81
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 190,
+          "elected": false,
+          "pct": 64.19
+        }
+      ]
+    },
+    {
+      "boothId": 2781,
+      "name": "Burrawang",
+      "formal": 291,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 50.52,
+      "swing": -1.28,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 115,
+          "pct": 39.52
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 111,
+          "pct": 38.14
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 24,
+          "pct": 8.25
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 3.78
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 2.75
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 2.75
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.06
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.37
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.03
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 147,
+          "elected": true,
+          "pct": 50.52
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 144,
+          "elected": false,
+          "pct": 49.48
+        }
+      ]
+    },
+    {
+      "boothId": 109095,
+      "name": "Special Hospital Team 2",
+      "formal": 236,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 50.0,
+      "swing": -9.22,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 103,
+          "pct": 43.64
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 100,
+          "pct": 42.37
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 16,
+          "pct": 6.78
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.12
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.69
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.69
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.85
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 0.42
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.42
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 118,
+          "elected": true,
+          "pct": 50.0
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 118,
+          "elected": false,
+          "pct": 50.0
+        }
+      ]
+    },
+    {
+      "boothId": 108907,
+      "name": "Special Hospital Team 1",
+      "formal": 233,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 54.51,
+      "swing": -4.34,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 111,
+          "pct": 47.64
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 87,
+          "pct": 37.34
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 5.15
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 4.29
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 2.15
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.72
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.86
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.43
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.43
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 127,
+          "elected": true,
+          "pct": 54.51
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 106,
+          "elected": false,
+          "pct": 45.49
+        }
+      ]
+    },
+    {
+      "boothId": 2785,
+      "name": "Glenquarry",
+      "formal": 120,
+      "winnerParty": "lib",
+      "winnerSurname": "SMITH",
+      "winnerPct": 64.17,
+      "swing": -6.22,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 55,
+          "pct": 45.83
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 25,
+          "pct": 20.83
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 10.0
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 10.0
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 4.17
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.5
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 2.5
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 2.5
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.67
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 43,
+          "elected": true,
+          "pct": 35.83
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 77,
+          "elected": false,
+          "pct": 64.17
+        }
+      ]
+    },
+    {
+      "boothId": 900,
+      "name": "Avoca",
+      "formal": 109,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 54.13,
+      "swing": 6.13,
+      "candidates": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 46,
+          "pct": 42.2
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 40,
+          "pct": 36.7
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 9.17
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 4.59
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 3.67
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.83
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.92
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.92
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 59,
+          "elected": true,
+          "pct": 54.13
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 50,
+          "elected": false,
+          "pct": 45.87
+        }
+      ]
+    },
+    {
+      "boothId": 65458,
+      "name": "EAV Whitlam PPVC",
+      "formal": 14,
+      "winnerParty": "alp",
+      "winnerSurname": "BERRY",
+      "winnerPct": 50.0,
+      "swing": -12.5,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 7,
+          "pct": 50.0
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 42.86
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 7.14
+        },
+        {
+          "surname": "DIXON",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BRITTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "CUDA",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "KHOURY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HINTON",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MOYLAN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BUTTERFIELD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BERRY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "elected": true,
+          "pct": 50.0
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 7,
+          "elected": false,
+          "pct": 50.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 109316,
+    "candidates": [
+      {
+        "id": "C41640",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Dixon"
+      },
+      {
+        "id": "C41535",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Smith"
+      },
+      {
+        "id": "C42083",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Britton"
+      },
+      {
+        "id": "C41677",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Cuda"
+      },
+      {
+        "id": "C41917",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Cousins"
+      },
+      {
+        "id": "C41837",
+        "party": "oth",
+        "displayShort": "LTP",
+        "displayLong": "LTP \u2014 Khoury"
+      },
+      {
+        "id": "C40881",
+        "party": "oth",
+        "displayShort": "CEC",
+        "displayLong": "CEC \u2014 Hinton"
+      },
+      {
+        "id": "C42075",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Moylan"
+      },
+      {
+        "id": "C41333",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Berry"
+      },
+      {
+        "id": "C40617",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Butterfield"
+      }
+    ],
+    "rounds": [
+      {
+        "C41640": 13558,
+        "C41535": 30908,
+        "C42083": 5246,
+        "C41677": 3101,
+        "C41917": 8379,
+        "C41837": 1188,
+        "C40881": 590,
+        "C42075": 2211,
+        "C41333": 42230,
+        "C40617": 1905
+      },
+      {
+        "C41640": 13615,
+        "C41535": 30935,
+        "C42083": 5302,
+        "C41677": 3136,
+        "C41917": 8493,
+        "C41837": 1278,
+        "C42075": 2298,
+        "C41333": 42295,
+        "C40617": 1964
+      },
+      {
+        "C41640": 13671,
+        "C41535": 31072,
+        "C42083": 5621,
+        "C41677": 3284,
+        "C41917": 8903,
+        "C42075": 2410,
+        "C41333": 42354,
+        "C40617": 2001
+      },
+      {
+        "C41640": 13828,
+        "C41535": 31224,
+        "C42083": 5941,
+        "C41677": 3341,
+        "C41917": 9020,
+        "C42075": 3205,
+        "C41333": 42757
+      },
+      {
+        "C41640": 14198,
+        "C41535": 31577,
+        "C42083": 7131,
+        "C41677": 3549,
+        "C41917": 9405,
+        "C41333": 43456
+      },
+      {
+        "C41640": 14496,
+        "C41535": 32087,
+        "C42083": 7953,
+        "C41917": 10973,
+        "C41333": 43807
+      },
+      {
+        "C41640": 15805,
+        "C41535": 33930,
+        "C41917": 14493,
+        "C41333": 45088
+      },
+      {
+        "C41640": 18404,
+        "C41535": 42518,
+        "C41333": 48394
+      },
+      {
+        "C41535": 47830,
+        "C41333": 61486
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            null,
+            null,
+            null,
+            63.72,
+            60.91,
+            60.07,
+            56.25
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            null,
+            null,
+            null,
+            36.28,
+            null,
+            39.93,
+            43.75
+          ]
+        },
+        {
+          "id": "NAT",
+          "party": "nat",
+          "label": "NAT",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            39.09,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2016",
+          "shares": {
+            "ALP": 52.76,
+            "GRN": 8.29,
+            "LIB": 26.28,
+            "CDP": 4.11,
+            "NAT": 6.44,
+            "NCP": 2.11
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "TOP": 8.84,
+            "GRN": 9.21,
+            "CDP": 4.1,
+            "SPP": 3.58,
+            "ALP": 48.8,
+            "NAT": 25.46
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "LIB": 28.21,
+            "LDP": 3.72,
+            "ON": 6.9,
+            "TOP": 5.38,
+            "GRN": 10.77,
+            "ALP": 45.01
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "LIB": 28.27,
+            "IND": 8.56,
+            "ON": 7.66,
+            "ALP": 38.63,
+            "CYA": 2.84,
+            "GRN": 12.4,
+            "OTH": 1.63
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 168545,
+    "medianAge": 41,
+    "medianHouseholdIncomeWeekly": 1603,
+    "medianRentWeekly": 410,
+    "averageHouseholdSize": 2.6,
+    "bornOverseasPct": 18.4,
+    "indigenousPct": 4.2,
+    "bachelorPlusPct": 27.6,
+    "renterPct": 24.7,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 131233,
+        "pct": 81.62,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 3695,
+        "pct": 2.3,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 930,
+        "pct": 0.58,
+        "natPct": 1.11
+      },
+      {
+        "label": "North Macedonia",
+        "count": 838,
+        "pct": 0.52,
+        "natPct": 0.08
+      },
+      {
+        "label": "Scotland",
+        "count": 566,
+        "pct": 0.35,
+        "natPct": 0.25
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 90593,
+        "pct": 53.75,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 60983,
+        "pct": 36.18,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 10233,
+        "pct": 6.07,
+        "natPct": 7.27
+      },
+      {
+        "label": "Islam",
+        "count": 2737,
+        "pct": 1.62,
+        "natPct": 3.2
+      },
+      {
+        "label": "Buddhism",
+        "count": 1298,
+        "pct": 0.77,
+        "natPct": 2.42
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Whitlam is an Australian electoral division in the state of New South Wales.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Whitlam",
+    "retrievedAt": "2026-02-25T10:18:41Z"
+  }
+}

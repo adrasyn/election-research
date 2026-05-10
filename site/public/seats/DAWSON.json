@@ -1,0 +1,4686 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "DAWSON",
+    "divisionId": 158,
+    "name": "Dawson",
+    "state": "QLD",
+    "totalFormal": 98468,
+    "informalVotes": 4354,
+    "informalRate": 4.97,
+    "winner": {
+      "candidateId": "C41203",
+      "surname": "WILLCOX",
+      "givenName": "Andrew",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "LNP",
+    "tcpMargin": 23.66,
+    "result": "LNP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41203",
+      "surname": "WILLCOX",
+      "givenName": "Andrew",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 34651,
+      "pct": 41.65
+    },
+    {
+      "candidateId": "C40740",
+      "surname": "WALLACE",
+      "givenName": "Neil",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 21927,
+      "pct": 26.36
+    },
+    {
+      "candidateId": "C40938",
+      "surname": "BROWN",
+      "givenName": "Darren",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 8493,
+      "pct": 10.21
+    },
+    {
+      "candidateId": "C41273",
+      "surname": "CREEN",
+      "givenName": "Paula",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 5791,
+      "pct": 6.96
+    },
+    {
+      "candidateId": "C40965",
+      "surname": "BEAUMONT",
+      "givenName": "Alexander John",
+      "party": "oth",
+      "partyAb": "GRPF",
+      "votes": 4830,
+      "pct": 5.81
+    },
+    {
+      "candidateId": "C41367",
+      "surname": "LOCKYER",
+      "givenName": "Michael",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 4786,
+      "pct": 5.75
+    },
+    {
+      "candidateId": "C40862",
+      "surname": "NICKSON",
+      "givenName": "Amanda",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 2720,
+      "pct": 3.27
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41203",
+      "surname": "WILLCOX",
+      "givenName": "Andrew",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 60881,
+      "pct": 61.83,
+      "elected": true
+    },
+    {
+      "candidateId": "C40740",
+      "surname": "WALLACE",
+      "givenName": "Neil",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 37587,
+      "pct": 38.17,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 32661,
+      "name": "Mackay DAWSON PPVC",
+      "formal": 19316,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 58.97,
+      "swing": 1.31,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7834,
+          "pct": 40.56
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5875,
+          "pct": 30.42
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1803,
+          "pct": 9.33
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1142,
+          "pct": 5.91
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1113,
+          "pct": 5.76
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 1045,
+          "pct": 5.41
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 504,
+          "pct": 2.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 11391,
+          "elected": true,
+          "pct": 58.97
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7925,
+          "elected": false,
+          "pct": 41.03
+        }
+      ]
+    },
+    {
+      "boothId": 46713,
+      "name": "Ayr PPVC",
+      "formal": 7488,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 72.6,
+      "swing": 1.19,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3858,
+          "pct": 51.52
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1487,
+          "pct": 19.86
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 796,
+          "pct": 10.63
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 542,
+          "pct": 7.24
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 363,
+          "pct": 4.85
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 260,
+          "pct": 3.47
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 182,
+          "pct": 2.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5436,
+          "elected": true,
+          "pct": 72.6
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2052,
+          "elected": false,
+          "pct": 27.4
+        }
+      ]
+    },
+    {
+      "boothId": 109686,
+      "name": "Mackay North PPVC",
+      "formal": 6983,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 58.3,
+      "swing": 0.97,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2741,
+          "pct": 39.25
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2094,
+          "pct": 29.99
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 763,
+          "pct": 10.93
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 434,
+          "pct": 6.22
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 424,
+          "pct": 6.07
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 284,
+          "pct": 4.07
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 243,
+          "pct": 3.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4071,
+          "elected": true,
+          "pct": 58.3
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2912,
+          "elected": false,
+          "pct": 41.7
+        }
+      ]
+    },
+    {
+      "boothId": 46717,
+      "name": "Proserpine PPVC",
+      "formal": 5310,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 68.51,
+      "swing": 3.08,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2511,
+          "pct": 47.29
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1139,
+          "pct": 21.45
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 673,
+          "pct": 12.67
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 289,
+          "pct": 5.44
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 289,
+          "pct": 5.44
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 268,
+          "pct": 5.05
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 141,
+          "pct": 2.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3638,
+          "elected": true,
+          "pct": 68.51
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1672,
+          "elected": false,
+          "pct": 31.49
+        }
+      ]
+    },
+    {
+      "boothId": 46715,
+      "name": "Bowen PPVC",
+      "formal": 4609,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 71.23,
+      "swing": 2.47,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2450,
+          "pct": 53.16
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1037,
+          "pct": 22.5
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 361,
+          "pct": 7.83
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 355,
+          "pct": 7.7
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 170,
+          "pct": 3.69
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 149,
+          "pct": 3.23
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 87,
+          "pct": 1.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3283,
+          "elected": true,
+          "pct": 71.23
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1326,
+          "elected": false,
+          "pct": 28.77
+        }
+      ]
+    },
+    {
+      "boothId": 97805,
+      "name": "Airlie Beach PPVC",
+      "formal": 3779,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 64.49,
+      "swing": 1.13,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1614,
+          "pct": 42.71
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 829,
+          "pct": 21.94
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 416,
+          "pct": 11.01
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 360,
+          "pct": 9.53
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 248,
+          "pct": 6.56
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 220,
+          "pct": 5.82
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 92,
+          "pct": 2.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2437,
+          "elected": true,
+          "pct": 64.49
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1342,
+          "elected": false,
+          "pct": 35.51
+        }
+      ]
+    },
+    {
+      "boothId": 97495,
+      "name": "Aitkenvale DAWSON PPVC",
+      "formal": 3683,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 62.18,
+      "swing": -1.1,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1797,
+          "pct": 48.79
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 999,
+          "pct": 27.12
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 288,
+          "pct": 7.82
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 214,
+          "pct": 5.81
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 193,
+          "pct": 5.24
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 119,
+          "pct": 3.23
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 73,
+          "pct": 1.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2290,
+          "elected": true,
+          "pct": 62.18
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1393,
+          "elected": false,
+          "pct": 37.82
+        }
+      ]
+    },
+    {
+      "boothId": 58761,
+      "name": "Townsville DAWSON PPVC",
+      "formal": 1763,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 64.95,
+      "swing": 4.77,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 869,
+          "pct": 49.29
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 438,
+          "pct": 24.84
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 138,
+          "pct": 7.83
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 123,
+          "pct": 6.98
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 88,
+          "pct": 4.99
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 79,
+          "pct": 4.48
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 1.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1145,
+          "elected": true,
+          "pct": 64.95
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 618,
+          "elected": false,
+          "pct": 35.05
+        }
+      ]
+    },
+    {
+      "boothId": 5683,
+      "name": "Oonoonba (Dawson)",
+      "formal": 1627,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 53.41,
+      "swing": -4.13,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 638,
+          "pct": 39.21
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 514,
+          "pct": 31.59
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 183,
+          "pct": 11.25
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 85,
+          "pct": 5.22
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 79,
+          "pct": 4.86
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 74,
+          "pct": 4.55
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 54,
+          "pct": 3.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 869,
+          "elected": true,
+          "pct": 53.41
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 758,
+          "elected": false,
+          "pct": 46.59
+        }
+      ]
+    },
+    {
+      "boothId": 5340,
+      "name": "Mackay",
+      "formal": 1587,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 56.46,
+      "swing": 1.48,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 496,
+          "pct": 31.25
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 402,
+          "pct": 25.33
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 199,
+          "pct": 12.54
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 179,
+          "pct": 11.28
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 136,
+          "pct": 8.57
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 111,
+          "pct": 6.99
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 64,
+          "pct": 4.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 896,
+          "elected": true,
+          "pct": 56.46
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 691,
+          "elected": false,
+          "pct": 43.54
+        }
+      ]
+    },
+    {
+      "boothId": 33107,
+      "name": "Andergrove South",
+      "formal": 1505,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 51.1,
+      "swing": -0.64,
+      "candidates": [
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 467,
+          "pct": 31.03
+        },
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 410,
+          "pct": 27.24
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 182,
+          "pct": 12.09
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 157,
+          "pct": 10.43
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 112,
+          "pct": 7.44
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 105,
+          "pct": 6.98
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 72,
+          "pct": 4.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 769,
+          "elected": true,
+          "pct": 51.1
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 736,
+          "elected": false,
+          "pct": 48.9
+        }
+      ]
+    },
+    {
+      "boothId": 5312,
+      "name": "Eimeo",
+      "formal": 1490,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 57.25,
+      "swing": 0.82,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 518,
+          "pct": 34.77
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 415,
+          "pct": 27.85
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 166,
+          "pct": 11.14
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 165,
+          "pct": 11.07
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 88,
+          "pct": 5.91
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 77,
+          "pct": 5.17
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 61,
+          "pct": 4.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 853,
+          "elected": true,
+          "pct": 57.25
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 637,
+          "elected": false,
+          "pct": 42.75
+        }
+      ]
+    },
+    {
+      "boothId": 5705,
+      "name": "Wulguru (Dawson)",
+      "formal": 1452,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 53.51,
+      "swing": -1.4,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 478,
+          "pct": 32.92
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 443,
+          "pct": 30.51
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 159,
+          "pct": 10.95
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 140,
+          "pct": 9.64
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 88,
+          "pct": 6.06
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 74,
+          "pct": 5.1
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 70,
+          "pct": 4.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 777,
+          "elected": true,
+          "pct": 53.51
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 675,
+          "elected": false,
+          "pct": 46.49
+        }
+      ]
+    },
+    {
+      "boothId": 5375,
+      "name": "Mackay Town Beach",
+      "formal": 1331,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 53.49,
+      "swing": 1.32,
+      "candidates": [
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 399,
+          "pct": 29.98
+        },
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 397,
+          "pct": 29.83
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 156,
+          "pct": 11.72
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 123,
+          "pct": 9.24
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 99,
+          "pct": 7.44
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 93,
+          "pct": 6.99
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 64,
+          "pct": 4.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 712,
+          "elected": true,
+          "pct": 53.49
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 619,
+          "elected": false,
+          "pct": 46.51
+        }
+      ]
+    },
+    {
+      "boothId": 5319,
+      "name": "Mount Pleasant East",
+      "formal": 1294,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 55.95,
+      "swing": 0.18,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 410,
+          "pct": 31.68
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 383,
+          "pct": 29.6
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 133,
+          "pct": 10.28
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 120,
+          "pct": 9.27
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 98,
+          "pct": 7.57
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 81,
+          "pct": 6.26
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 69,
+          "pct": 5.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 724,
+          "elected": true,
+          "pct": 55.95
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 570,
+          "elected": false,
+          "pct": 44.05
+        }
+      ]
+    },
+    {
+      "boothId": 12018,
+      "name": "Annandale (Dawson)",
+      "formal": 1192,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 53.86,
+      "swing": -8.34,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 473,
+          "pct": 39.68
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 376,
+          "pct": 31.54
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 145,
+          "pct": 12.16
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 6.12
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 51,
+          "pct": 4.28
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 41,
+          "pct": 3.44
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 2.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 642,
+          "elected": true,
+          "pct": 53.86
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 550,
+          "elected": false,
+          "pct": 46.14
+        }
+      ]
+    },
+    {
+      "boothId": 33992,
+      "name": "Beaconsfield",
+      "formal": 1106,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 55.06,
+      "swing": 1.81,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 352,
+          "pct": 31.83
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 341,
+          "pct": 30.83
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 137,
+          "pct": 12.39
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 99,
+          "pct": 8.95
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 78,
+          "pct": 7.05
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 55,
+          "pct": 4.97
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 44,
+          "pct": 3.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 609,
+          "elected": true,
+          "pct": 55.06
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 497,
+          "elected": false,
+          "pct": 44.94
+        }
+      ]
+    },
+    {
+      "boothId": 5290,
+      "name": "Andergrove",
+      "formal": 1085,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 52.35,
+      "swing": 1.26,
+      "candidates": [
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 356,
+          "pct": 32.81
+        },
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 335,
+          "pct": 30.88
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 132,
+          "pct": 12.17
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 83,
+          "pct": 7.65
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 82,
+          "pct": 7.56
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 49,
+          "pct": 4.52
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 48,
+          "pct": 4.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 568,
+          "elected": true,
+          "pct": 52.35
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 517,
+          "elected": false,
+          "pct": 47.65
+        }
+      ]
+    },
+    {
+      "boothId": 5299,
+      "name": "Cannonvale",
+      "formal": 1046,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 58.89,
+      "swing": 1.67,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 336,
+          "pct": 32.12
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 218,
+          "pct": 20.84
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 153,
+          "pct": 14.63
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 132,
+          "pct": 12.62
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 84,
+          "pct": 8.03
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 75,
+          "pct": 7.17
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 4.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 616,
+          "elected": true,
+          "pct": 58.89
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 430,
+          "elected": false,
+          "pct": 41.11
+        }
+      ]
+    },
+    {
+      "boothId": 5297,
+      "name": "Bucasia",
+      "formal": 1038,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 56.26,
+      "swing": 1.92,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 339,
+          "pct": 32.66
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 295,
+          "pct": 28.42
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 114,
+          "pct": 10.98
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 103,
+          "pct": 9.92
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 81,
+          "pct": 7.8
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 62,
+          "pct": 5.97
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 4.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 584,
+          "elected": true,
+          "pct": 56.26
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 454,
+          "elected": false,
+          "pct": 43.74
+        }
+      ]
+    },
+    {
+      "boothId": 5344,
+      "name": "Mackay West",
+      "formal": 992,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 54.84,
+      "swing": 0.5,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 358,
+          "pct": 36.09
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 313,
+          "pct": 31.55
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 101,
+          "pct": 10.18
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 99,
+          "pct": 9.98
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 5.14
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 3.73
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 33,
+          "pct": 3.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 544,
+          "elected": true,
+          "pct": 54.84
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 448,
+          "elected": false,
+          "pct": 45.16
+        }
+      ]
+    },
+    {
+      "boothId": 5291,
+      "name": "Ayr",
+      "formal": 991,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 69.42,
+      "swing": -0.41,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 436,
+          "pct": 44.0
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 165,
+          "pct": 16.65
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 133,
+          "pct": 13.42
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 82,
+          "pct": 8.27
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 75,
+          "pct": 7.57
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 51,
+          "pct": 5.15
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 49,
+          "pct": 4.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 688,
+          "elected": true,
+          "pct": 69.42
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 303,
+          "elected": false,
+          "pct": 30.58
+        }
+      ]
+    },
+    {
+      "boothId": 5322,
+      "name": "Glenella",
+      "formal": 973,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 62.8,
+      "swing": 2.76,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 368,
+          "pct": 37.82
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 239,
+          "pct": 24.56
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 133,
+          "pct": 13.67
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 68,
+          "pct": 6.99
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 6.99
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 61,
+          "pct": 6.27
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 3.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 611,
+          "elected": true,
+          "pct": 62.8
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 362,
+          "elected": false,
+          "pct": 37.2
+        }
+      ]
+    },
+    {
+      "boothId": 5374,
+      "name": "Slade Point",
+      "formal": 908,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 51.32,
+      "swing": 1.92,
+      "candidates": [
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 271,
+          "pct": 29.85
+        },
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 266,
+          "pct": 29.3
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 127,
+          "pct": 13.99
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 98,
+          "pct": 10.79
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 57,
+          "pct": 6.28
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 49,
+          "pct": 5.4
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 4.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 466,
+          "elected": true,
+          "pct": 51.32
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 442,
+          "elected": false,
+          "pct": 48.68
+        }
+      ]
+    },
+    {
+      "boothId": 5656,
+      "name": "Nome",
+      "formal": 901,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 66.04,
+      "swing": 1.47,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 399,
+          "pct": 44.28
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 208,
+          "pct": 23.09
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 95,
+          "pct": 10.54
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 8.21
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 51,
+          "pct": 5.66
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 4.66
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 3.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 595,
+          "elected": true,
+          "pct": 66.04
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 306,
+          "elected": false,
+          "pct": 33.96
+        }
+      ]
+    },
+    {
+      "boothId": 5294,
+      "name": "Bowen",
+      "formal": 892,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 71.52,
+      "swing": 3.02,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 420,
+          "pct": 47.09
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "pct": 18.61
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 77,
+          "pct": 8.63
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 8.52
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 66,
+          "pct": 7.4
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 5.94
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 3.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 638,
+          "elected": true,
+          "pct": 71.52
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 254,
+          "elected": false,
+          "pct": 28.48
+        }
+      ]
+    },
+    {
+      "boothId": 98073,
+      "name": "Airlie Beach",
+      "formal": 761,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 63.99,
+      "swing": 4.46,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 268,
+          "pct": 35.22
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 148,
+          "pct": 19.45
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 100,
+          "pct": 13.14
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 91,
+          "pct": 11.96
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 68,
+          "pct": 8.94
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 58,
+          "pct": 7.62
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 3.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 487,
+          "elected": true,
+          "pct": 63.99
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 274,
+          "elected": false,
+          "pct": 36.01
+        }
+      ]
+    },
+    {
+      "boothId": 5361,
+      "name": "Proserpine",
+      "formal": 728,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 68.27,
+      "swing": 4.3,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 296,
+          "pct": 40.66
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 115,
+          "pct": 15.8
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 107,
+          "pct": 14.7
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 64,
+          "pct": 8.79
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 61,
+          "pct": 8.38
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 60,
+          "pct": 8.24
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 3.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 497,
+          "elected": true,
+          "pct": 68.27
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 231,
+          "elected": false,
+          "pct": 31.73
+        }
+      ]
+    },
+    {
+      "boothId": 5371,
+      "name": "Seaforth",
+      "formal": 631,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 69.26,
+      "swing": 9.55,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 279,
+          "pct": 44.22
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 143,
+          "pct": 22.66
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 98,
+          "pct": 15.53
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 49,
+          "pct": 7.77
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 5.07
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 3.01
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 437,
+          "elected": true,
+          "pct": 69.26
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 194,
+          "elected": false,
+          "pct": 30.74
+        }
+      ]
+    },
+    {
+      "boothId": 5324,
+      "name": "Mackay Goose Ponds",
+      "formal": 597,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 50.59,
+      "swing": 0.42,
+      "candidates": [
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 179,
+          "pct": 29.98
+        },
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 153,
+          "pct": 25.63
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 71,
+          "pct": 11.89
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 9.38
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 50,
+          "pct": 8.38
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 48,
+          "pct": 8.04
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 6.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 302,
+          "elected": true,
+          "pct": 50.59
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 295,
+          "elected": false,
+          "pct": 49.41
+        }
+      ]
+    },
+    {
+      "boothId": 5313,
+      "name": "Mount Pleasant West",
+      "formal": 551,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 60.44,
+      "swing": 1.1,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 221,
+          "pct": 40.11
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 155,
+          "pct": 28.13
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 9.8
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 6.72
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 35,
+          "pct": 6.35
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 25,
+          "pct": 4.54
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 4.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 333,
+          "elected": true,
+          "pct": 60.44
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 218,
+          "elected": false,
+          "pct": 39.56
+        }
+      ]
+    },
+    {
+      "boothId": 109025,
+      "name": "Special Hospital Team 1",
+      "formal": 544,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 50.37,
+      "swing": -13.21,
+      "candidates": [
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 197,
+          "pct": 36.21
+        },
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 188,
+          "pct": 34.56
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 45,
+          "pct": 8.27
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 7.17
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 5.7
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 5.51
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 274,
+          "elected": true,
+          "pct": 50.37
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 270,
+          "elected": false,
+          "pct": 49.63
+        }
+      ]
+    },
+    {
+      "boothId": 5343,
+      "name": "Mackay South",
+      "formal": 521,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 50.86,
+      "swing": -2.36,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 145,
+          "pct": 27.83
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 144,
+          "pct": 27.64
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 73,
+          "pct": 14.01
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 12.28
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 40,
+          "pct": 7.68
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 5.57
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 26,
+          "pct": 4.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 265,
+          "elected": true,
+          "pct": 50.86
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 256,
+          "elected": false,
+          "pct": 49.14
+        }
+      ]
+    },
+    {
+      "boothId": 5329,
+      "name": "Hampden",
+      "formal": 502,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 67.73,
+      "swing": 2.66,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 200,
+          "pct": 39.84
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 106,
+          "pct": 21.12
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 16.73
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 6.77
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 32,
+          "pct": 6.37
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 6.37
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 340,
+          "elected": true,
+          "pct": 67.73
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 162,
+          "elected": false,
+          "pct": 32.27
+        }
+      ]
+    },
+    {
+      "boothId": 5305,
+      "name": "Coningsby",
+      "formal": 494,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 68.83,
+      "swing": 2.29,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 227,
+          "pct": 45.95
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "pct": 19.03
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 12.75
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 9.51
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 6.48
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 21,
+          "pct": 4.25
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 2.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 340,
+          "elected": true,
+          "pct": 68.83
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 154,
+          "elected": false,
+          "pct": 31.17
+        }
+      ]
+    },
+    {
+      "boothId": 32533,
+      "name": "Annandale East (Dawson)",
+      "formal": 467,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 60.81,
+      "swing": -5.0,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 204,
+          "pct": 43.68
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 132,
+          "pct": 28.27
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 44,
+          "pct": 9.42
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 8.78
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 19,
+          "pct": 4.07
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 3.0
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 2.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 284,
+          "elected": true,
+          "pct": 60.81
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 183,
+          "elected": false,
+          "pct": 39.19
+        }
+      ]
+    },
+    {
+      "boothId": 5332,
+      "name": "Home Hill",
+      "formal": 453,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 74.61,
+      "swing": 7.18,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 198,
+          "pct": 43.71
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 86,
+          "pct": 18.98
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 14.13
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 52,
+          "pct": 11.48
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 4.86
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 4.42
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 2.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 338,
+          "elected": true,
+          "pct": 74.61
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 115,
+          "elected": false,
+          "pct": 25.39
+        }
+      ]
+    },
+    {
+      "boothId": 5317,
+      "name": "Farleigh",
+      "formal": 429,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 72.73,
+      "swing": 9.17,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 210,
+          "pct": 48.95
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 78,
+          "pct": 18.18
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 10.96
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 6.99
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 29,
+          "pct": 6.76
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 23,
+          "pct": 5.36
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 2.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 312,
+          "elected": true,
+          "pct": 72.73
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 117,
+          "elected": false,
+          "pct": 27.27
+        }
+      ]
+    },
+    {
+      "boothId": 5298,
+      "name": "Calen",
+      "formal": 392,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 70.66,
+      "swing": 4.4,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 169,
+          "pct": 43.11
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 69,
+          "pct": 17.6
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 12.5
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 30,
+          "pct": 7.65
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 7.65
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 7.4
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 4.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 277,
+          "elected": true,
+          "pct": 70.66
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 115,
+          "elected": false,
+          "pct": 29.34
+        }
+      ]
+    },
+    {
+      "boothId": 5669,
+      "name": "Giru",
+      "formal": 302,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 75.5,
+      "swing": 3.87,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 165,
+          "pct": 54.64
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 48,
+          "pct": 15.89
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 11.26
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 21,
+          "pct": 6.95
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 5.3
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 3.97
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 228,
+          "elected": true,
+          "pct": 75.5
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 74,
+          "elected": false,
+          "pct": 24.5
+        }
+      ]
+    },
+    {
+      "boothId": 5293,
+      "name": "Bloomsbury",
+      "formal": 287,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 69.34,
+      "swing": 0.16,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 105,
+          "pct": 36.59
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 24.39
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "pct": 19.16
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 7.32
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 5.23
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 13,
+          "pct": 4.53
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 2.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 199,
+          "elected": true,
+          "pct": 69.34
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 88,
+          "elected": false,
+          "pct": 30.66
+        }
+      ]
+    },
+    {
+      "boothId": 38207,
+      "name": "Hamilton Island",
+      "formal": 225,
+      "winnerParty": "alp",
+      "winnerSurname": "WALLACE",
+      "winnerPct": 55.11,
+      "swing": 3.78,
+      "candidates": [
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 58,
+          "pct": 25.78
+        },
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 55,
+          "pct": 24.44
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 49,
+          "pct": 21.78
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 8.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 8.0
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 6.67
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 12,
+          "pct": 5.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 101,
+          "elected": true,
+          "pct": 44.89
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 124,
+          "elected": false,
+          "pct": 55.11
+        }
+      ]
+    },
+    {
+      "boothId": 109276,
+      "name": "Special Hospital Team 4",
+      "formal": 219,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 64.38,
+      "swing": 1.01,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 120,
+          "pct": 54.79
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 61,
+          "pct": 27.85
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 6.39
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 4.11
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 3.65
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 2.28
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 141,
+          "elected": true,
+          "pct": 64.38
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 78,
+          "elected": false,
+          "pct": 35.62
+        }
+      ]
+    },
+    {
+      "boothId": 5311,
+      "name": "Ayr East",
+      "formal": 214,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 62.15,
+      "swing": -4.19,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 94,
+          "pct": 43.93
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 59,
+          "pct": 27.57
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 14,
+          "pct": 6.54
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 6.54
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 13,
+          "pct": 6.07
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 4.67
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 4.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 133,
+          "elected": true,
+          "pct": 62.15
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 81,
+          "elected": false,
+          "pct": 37.85
+        }
+      ]
+    },
+    {
+      "boothId": 109034,
+      "name": "Special Hospital Team 3",
+      "formal": 176,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 69.89,
+      "swing": 6.14,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 102,
+          "pct": 57.95
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 40,
+          "pct": 22.73
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 6.25
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 5.11
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 3.41
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 2.84
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 123,
+          "elected": true,
+          "pct": 69.89
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 53,
+          "elected": false,
+          "pct": 30.11
+        }
+      ]
+    },
+    {
+      "boothId": 5363,
+      "name": "Queens Beach",
+      "formal": 148,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 69.59,
+      "swing": 3.09,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 78,
+          "pct": 52.7
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 29,
+          "pct": 19.59
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 13,
+          "pct": 8.78
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 11,
+          "pct": 7.43
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 6.76
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 4.73
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 103,
+          "elected": true,
+          "pct": 69.59
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "elected": false,
+          "pct": 30.41
+        }
+      ]
+    },
+    {
+      "boothId": 109780,
+      "name": "Moranbah (Dawson)",
+      "formal": 84,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 63.1,
+      "swing": 7.2,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 21,
+          "pct": 25.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 25.0
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "pct": 19.05
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 15.48
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 9,
+          "pct": 10.71
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 3.57
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 53,
+          "elected": true,
+          "pct": 63.1
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 31,
+          "elected": false,
+          "pct": 36.9
+        }
+      ]
+    },
+    {
+      "boothId": 109033,
+      "name": "Special Hospital Team 2",
+      "formal": 75,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 62.67,
+      "swing": -0.49,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 34,
+          "pct": 45.33
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 26,
+          "pct": 34.67
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 8.0
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 4.0
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 3,
+          "pct": 4.0
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 2.67
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 1.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 47,
+          "elected": true,
+          "pct": 62.67
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 28,
+          "elected": false,
+          "pct": 37.33
+        }
+      ]
+    },
+    {
+      "boothId": 109454,
+      "name": "Other Mobile Team 2",
+      "formal": 29,
+      "winnerParty": "alp",
+      "winnerSurname": "WALLACE",
+      "winnerPct": 68.97,
+      "swing": 32.61,
+      "candidates": [
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "pct": 37.93
+        },
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6,
+          "pct": 20.69
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 13.79
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 3,
+          "pct": 10.34
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 10.34
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 3.45
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 3.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 9,
+          "elected": true,
+          "pct": 31.03
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 20,
+          "elected": false,
+          "pct": 68.97
+        }
+      ]
+    },
+    {
+      "boothId": 109448,
+      "name": "Other Mobile Team 1",
+      "formal": 16,
+      "winnerParty": "lnp",
+      "winnerSurname": "WILLCOX",
+      "winnerPct": 75.0,
+      "swing": 11.57,
+      "candidates": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7,
+          "pct": 43.75
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "pct": 18.75
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 12.5
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 12.5
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 12,
+          "elected": true,
+          "pct": 75.0
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "elected": false,
+          "pct": 25.0
+        }
+      ]
+    },
+    {
+      "boothId": 65530,
+      "name": "EAV Dawson PPVC",
+      "formal": 12,
+      "winnerParty": "alp",
+      "winnerSurname": "WALLACE",
+      "winnerPct": 58.33,
+      "swing": -16.67,
+      "candidates": [
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 50.0
+        },
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3,
+          "pct": 25.0
+        },
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 8.33
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 8.33
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 8.33
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5,
+          "elected": true,
+          "pct": 41.67
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "elected": false,
+          "pct": 58.33
+        }
+      ]
+    },
+    {
+      "boothId": 65232,
+      "name": "Hamilton Island PPVC",
+      "formal": 0,
+      "winnerParty": "alp",
+      "winnerSurname": "WALLACE",
+      "winnerPct": null,
+      "swing": 0.0,
+      "candidates": [
+        {
+          "surname": "LOCKYER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BEAUMONT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "NICKSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "CREEN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILLCOX",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 0,
+          "elected": true,
+          "pct": 0.0
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "elected": false,
+          "pct": 0.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 98468,
+    "candidates": [
+      {
+        "id": "C41367",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Lockyer"
+      },
+      {
+        "id": "C40965",
+        "party": "oth",
+        "displayShort": "GRPF",
+        "displayLong": "GRPF \u2014 Beaumont"
+      },
+      {
+        "id": "C40862",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Nickson"
+      },
+      {
+        "id": "C41203",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 Willcox"
+      },
+      {
+        "id": "C40938",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Brown"
+      },
+      {
+        "id": "C41273",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Creen"
+      },
+      {
+        "id": "C40740",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Wallace"
+      }
+    ],
+    "rounds": [
+      {
+        "C41367": 5673,
+        "C40965": 5572,
+        "C40862": 3170,
+        "C41203": 41043,
+        "C40938": 10258,
+        "C41273": 6944,
+        "C40740": 25808
+      },
+      {
+        "C41367": 6002,
+        "C40965": 6691,
+        "C41203": 41612,
+        "C40938": 10839,
+        "C41273": 7259,
+        "C40740": 26065
+      },
+      {
+        "C40965": 8604,
+        "C41203": 42725,
+        "C40938": 13003,
+        "C41273": 7566,
+        "C40740": 26570
+      },
+      {
+        "C40965": 9833,
+        "C41203": 43474,
+        "C40938": 13808,
+        "C40740": 31353
+      },
+      {
+        "C41203": 46140,
+        "C40938": 19772,
+        "C40740": 32556
+      },
+      {
+        "C41203": 60881,
+        "C40740": 37587
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            53.21,
+            47.57,
+            42.42,
+            46.66,
+            35.39,
+            39.58,
+            38.17
+          ]
+        },
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            52.43,
+            57.58,
+            53.34,
+            64.61,
+            60.42,
+            61.83
+          ]
+        },
+        {
+          "id": "NAT",
+          "party": "nat",
+          "label": "NAT",
+          "points": [
+            46.79,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "NAT": 42.48,
+            "GRN": 4.37,
+            "FFP": 3.0,
+            "ALP": 48.09,
+            "OTH": 2.06
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "ALP": 40.04,
+            "LIB": 45.74,
+            "GRN": 7.72,
+            "FFP": 4.94,
+            "OTH": 1.55
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "KAP": 6.74,
+            "TOP": 10.02,
+            "GRN": 5.02,
+            "ALP": 29.71,
+            "LIB": 46.23,
+            "OTH": 2.29
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "ALP": 32.79,
+            "KAP": 6.54,
+            "GLT": 4.51,
+            "GRN": 5.15,
+            "FFP": 3.77,
+            "IND": 4.63,
+            "LIB": 42.61
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "DLP": 3.19,
+            "IND": 2.79,
+            "KAP": 6.32,
+            "ON": 13.09,
+            "GRN": 4.51,
+            "ALP": 20.28,
+            "LIB": 42.95,
+            "TOP": 4.9,
+            "OTH": 1.96
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "TOP": 4.01,
+            "GAP": 2.1,
+            "GRN": 7.21,
+            "ALP": 24.47,
+            "LIB": 43.33,
+            "KAP": 5.61,
+            "ON": 13.27
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "LIB": 41.68,
+            "CYA": 5.76,
+            "ON": 10.42,
+            "GRN": 7.05,
+            "FFP": 3.22,
+            "ALP": 26.21,
+            "GRPF": 5.66
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 162083,
+    "medianAge": 39,
+    "medianHouseholdIncomeWeekly": 1695,
+    "medianRentWeekly": 320,
+    "averageHouseholdSize": 2.5,
+    "bornOverseasPct": 15.4,
+    "indigenousPct": 6.7,
+    "bachelorPlusPct": 23.8,
+    "renterPct": 31.2,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 125226,
+        "pct": 84.61,
+        "natPct": 70.73
+      },
+      {
+        "label": "New Zealand",
+        "count": 1977,
+        "pct": 1.34,
+        "natPct": 1.11
+      },
+      {
+        "label": "England",
+        "count": 1897,
+        "pct": 1.28,
+        "natPct": 1.95
+      },
+      {
+        "label": "Philippines",
+        "count": 830,
+        "pct": 0.56,
+        "natPct": 0.47
+      },
+      {
+        "label": "India",
+        "count": 581,
+        "pct": 0.39,
+        "natPct": 1.51
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 80830,
+        "pct": 49.87,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 59498,
+        "pct": 36.71,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 17621,
+        "pct": 10.87,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 1199,
+        "pct": 0.74,
+        "natPct": 2.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 1033,
+        "pct": 0.64,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Dawson is an Australian electoral division in the state of Queensland. It comprises the city of Mackay and the coastal region north-west, including the Whitsunday Islands, until the south-eastern suburbs of Townsville on the right bank of the Ross River.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Dawson",
+    "retrievedAt": "2025-06-19T20:37:37Z"
+  }
+}

@@ -1,0 +1,5758 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "ADELAIDE",
+    "divisionId": 179,
+    "name": "Adelaide",
+    "state": "SA",
+    "totalFormal": 114089,
+    "informalVotes": 3619,
+    "informalRate": 3.95,
+    "winner": {
+      "candidateId": "C41210",
+      "surname": "GEORGANAS",
+      "givenName": "Steve",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 38.14,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41210",
+      "surname": "GEORGANAS",
+      "givenName": "Steve",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 41263,
+      "pct": 46.88
+    },
+    {
+      "candidateId": "C41014",
+      "surname": "GRANTHAM",
+      "givenName": "Amy",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 20859,
+      "pct": 23.7
+    },
+    {
+      "candidateId": "C41013",
+      "surname": "MONTI",
+      "givenName": "Mat",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 17210,
+      "pct": 19.55
+    },
+    {
+      "candidateId": "C42034",
+      "surname": "SIZE",
+      "givenName": "Riley",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 3372,
+      "pct": 3.83
+    },
+    {
+      "candidateId": "C41039",
+      "surname": "MARKS",
+      "givenName": "Steve",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2329,
+      "pct": 2.65
+    },
+    {
+      "candidateId": "C41809",
+      "surname": "PENGILLEY",
+      "givenName": "Lionel",
+      "party": "ajp",
+      "partyAb": "AJP",
+      "votes": 1970,
+      "pct": 2.24
+    },
+    {
+      "candidateId": "C41060",
+      "surname": "McMILLAN",
+      "givenName": "Matthew",
+      "party": "fus",
+      "partyAb": "FUS",
+      "votes": 1020,
+      "pct": 1.16
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41210",
+      "surname": "GEORGANAS",
+      "givenName": "Steve",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 78796,
+      "pct": 69.07,
+      "elected": true
+    },
+    {
+      "candidateId": "C41014",
+      "surname": "GRANTHAM",
+      "givenName": "Amy",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 35293,
+      "pct": 30.93,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 97861,
+      "name": "Enfield ADELAIDE PPVC",
+      "formal": 8257,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 68.57,
+      "swing": 9.55,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4226,
+          "pct": 51.18
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2053,
+          "pct": 24.86
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1172,
+          "pct": 14.19
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 330,
+          "pct": 4.0
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 243,
+          "pct": 2.94
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 156,
+          "pct": 1.89
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 77,
+          "pct": 0.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5662,
+          "elected": true,
+          "pct": 68.57
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2595,
+          "elected": false,
+          "pct": 31.43
+        }
+      ]
+    },
+    {
+      "boothId": 32952,
+      "name": "Adelaide ADELAIDE PPVC",
+      "formal": 5339,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 72.69,
+      "swing": 5.92,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2422,
+          "pct": 45.36
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1336,
+          "pct": 25.02
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1153,
+          "pct": 21.6
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 126,
+          "pct": 2.36
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 126,
+          "pct": 2.36
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 89,
+          "pct": 1.67
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 87,
+          "pct": 1.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3881,
+          "elected": true,
+          "pct": 72.69
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1458,
+          "elected": false,
+          "pct": 27.31
+        }
+      ]
+    },
+    {
+      "boothId": 97823,
+      "name": "Myrtle Bank ADELAIDE PPVC",
+      "formal": 3323,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 54.2,
+      "swing": 4.86,
+      "candidates": [
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1354,
+          "pct": 40.75
+        },
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1230,
+          "pct": 37.01
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 505,
+          "pct": 15.2
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 86,
+          "pct": 2.59
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 70,
+          "pct": 2.11
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 64,
+          "pct": 1.93
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 14,
+          "pct": 0.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1801,
+          "elected": true,
+          "pct": 54.2
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1522,
+          "elected": false,
+          "pct": 45.8
+        }
+      ]
+    },
+    {
+      "boothId": 64715,
+      "name": "Marden ADELAIDE PPVC",
+      "formal": 2703,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 56.6,
+      "swing": 6.98,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1070,
+          "pct": 39.59
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 973,
+          "pct": 36.0
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 377,
+          "pct": 13.95
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 106,
+          "pct": 3.92
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 94,
+          "pct": 3.48
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 66,
+          "pct": 2.44
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 17,
+          "pct": 0.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1530,
+          "elected": true,
+          "pct": 56.6
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1173,
+          "elected": false,
+          "pct": 43.4
+        }
+      ]
+    },
+    {
+      "boothId": 7053,
+      "name": "Cowandilla (Adelaide)",
+      "formal": 2469,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 77.89,
+      "swing": 6.71,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1313,
+          "pct": 53.18
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 490,
+          "pct": 19.85
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 400,
+          "pct": 16.2
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 3.77
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 70,
+          "pct": 2.84
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 63,
+          "pct": 2.55
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 40,
+          "pct": 1.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1923,
+          "elected": true,
+          "pct": 77.89
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 546,
+          "elected": false,
+          "pct": 22.11
+        }
+      ]
+    },
+    {
+      "boothId": 97818,
+      "name": "Plympton Park ADELAIDE PPVC",
+      "formal": 2346,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 68.58,
+      "swing": 6.98,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1171,
+          "pct": 49.91
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 571,
+          "pct": 24.34
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 370,
+          "pct": 15.77
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 85,
+          "pct": 3.62
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 75,
+          "pct": 3.2
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 60,
+          "pct": 2.56
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 14,
+          "pct": 0.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1609,
+          "elected": true,
+          "pct": 68.58
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 737,
+          "elected": false,
+          "pct": 31.42
+        }
+      ]
+    },
+    {
+      "boothId": 6679,
+      "name": "Prospect",
+      "formal": 2323,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 71.76,
+      "swing": 8.32,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1075,
+          "pct": 46.28
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 523,
+          "pct": 22.51
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 505,
+          "pct": 21.74
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 83,
+          "pct": 3.57
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 60,
+          "pct": 2.58
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 49,
+          "pct": 2.11
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 28,
+          "pct": 1.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1667,
+          "elected": true,
+          "pct": 71.76
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 656,
+          "elected": false,
+          "pct": 28.24
+        }
+      ]
+    },
+    {
+      "boothId": 96715,
+      "name": "Port Adelaide ADELAIDE PPVC",
+      "formal": 1937,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 72.95,
+      "swing": 6.13,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1054,
+          "pct": 54.41
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 374,
+          "pct": 19.31
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 241,
+          "pct": 12.44
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 99,
+          "pct": 5.11
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 88,
+          "pct": 4.54
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 59,
+          "pct": 3.05
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 22,
+          "pct": 1.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1413,
+          "elected": true,
+          "pct": 72.95
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 524,
+          "elected": false,
+          "pct": 27.05
+        }
+      ]
+    },
+    {
+      "boothId": 6675,
+      "name": "North Adelaide",
+      "formal": 1915,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 63.03,
+      "swing": 9.38,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 708,
+          "pct": 36.97
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 609,
+          "pct": 31.8
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 446,
+          "pct": 23.29
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 3.13
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 42,
+          "pct": 2.19
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.31
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 25,
+          "pct": 1.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1207,
+          "elected": true,
+          "pct": 63.03
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 708,
+          "elected": false,
+          "pct": 36.97
+        }
+      ]
+    },
+    {
+      "boothId": 83760,
+      "name": "Colonel Light Gardens ADELAIDE PPVC",
+      "formal": 1859,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 61.0,
+      "swing": 3.14,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 793,
+          "pct": 42.66
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 622,
+          "pct": 33.46
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 303,
+          "pct": 16.3
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 2.64
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 44,
+          "pct": 2.37
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 30,
+          "pct": 1.61
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 18,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1134,
+          "elected": true,
+          "pct": 61.0
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 725,
+          "elected": false,
+          "pct": 39.0
+        }
+      ]
+    },
+    {
+      "boothId": 7049,
+      "name": "Brompton",
+      "formal": 1842,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 79.97,
+      "swing": 5.89,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 834,
+          "pct": 45.28
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 573,
+          "pct": 31.11
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 252,
+          "pct": 13.68
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 66,
+          "pct": 3.58
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 56,
+          "pct": 3.04
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 2.01
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 24,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1473,
+          "elected": true,
+          "pct": 79.97
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 369,
+          "elected": false,
+          "pct": 20.03
+        }
+      ]
+    },
+    {
+      "boothId": 6886,
+      "name": "Parkside",
+      "formal": 1789,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 69.14,
+      "swing": 4.97,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 743,
+          "pct": 41.53
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 457,
+          "pct": 25.54
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 442,
+          "pct": 24.71
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 66,
+          "pct": 3.69
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 29,
+          "pct": 1.62
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 27,
+          "pct": 1.51
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1237,
+          "elected": true,
+          "pct": 69.14
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 552,
+          "elected": false,
+          "pct": 30.86
+        }
+      ]
+    },
+    {
+      "boothId": 7080,
+      "name": "Torrensville",
+      "formal": 1705,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 79.47,
+      "swing": 5.41,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 839,
+          "pct": 49.21
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 462,
+          "pct": 27.1
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 235,
+          "pct": 13.78
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 4.4
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 49,
+          "pct": 2.87
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 29,
+          "pct": 1.7
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 16,
+          "pct": 0.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1355,
+          "elected": true,
+          "pct": 79.47
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 350,
+          "elected": false,
+          "pct": 20.53
+        }
+      ]
+    },
+    {
+      "boothId": 6655,
+      "name": "Broadview",
+      "formal": 1702,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 66.16,
+      "swing": 6.87,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 767,
+          "pct": 45.06
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 452,
+          "pct": 26.56
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 294,
+          "pct": 17.27
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 4.76
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 3.11
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 37,
+          "pct": 2.17
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 18,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1126,
+          "elected": true,
+          "pct": 66.16
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 576,
+          "elected": false,
+          "pct": 33.84
+        }
+      ]
+    },
+    {
+      "boothId": 7048,
+      "name": "Allenby Gardens (Adelaide)",
+      "formal": 1667,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 72.77,
+      "swing": 5.01,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 860,
+          "pct": 51.59
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 310,
+          "pct": 18.6
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 273,
+          "pct": 16.38
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 95,
+          "pct": 5.7
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 66,
+          "pct": 3.96
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 36,
+          "pct": 2.16
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 27,
+          "pct": 1.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1213,
+          "elected": true,
+          "pct": 72.77
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 454,
+          "elected": false,
+          "pct": 27.23
+        }
+      ]
+    },
+    {
+      "boothId": 7079,
+      "name": "Mile End",
+      "formal": 1651,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 78.26,
+      "swing": 4.75,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 754,
+          "pct": 45.67
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 472,
+          "pct": 28.59
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 235,
+          "pct": 14.23
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 4.54
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 55,
+          "pct": 3.33
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 39,
+          "pct": 2.36
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 21,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1292,
+          "elected": true,
+          "pct": 78.26
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 359,
+          "elected": false,
+          "pct": 21.74
+        }
+      ]
+    },
+    {
+      "boothId": 6651,
+      "name": "Adelaide South",
+      "formal": 1631,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 76.95,
+      "swing": 5.37,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 672,
+          "pct": 41.2
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 516,
+          "pct": 31.64
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 292,
+          "pct": 17.9
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 51,
+          "pct": 3.13
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 45,
+          "pct": 2.76
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 1.84
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 25,
+          "pct": 1.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1255,
+          "elected": true,
+          "pct": 76.95
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 376,
+          "elected": false,
+          "pct": 23.05
+        }
+      ]
+    },
+    {
+      "boothId": 83475,
+      "name": "Prospect West",
+      "formal": 1545,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 65.05,
+      "swing": 7.47,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 671,
+          "pct": 43.43
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 452,
+          "pct": 29.26
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 277,
+          "pct": 17.93
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 3.88
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.72
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 25,
+          "pct": 1.62
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 18,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1005,
+          "elected": true,
+          "pct": 65.05
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 540,
+          "elected": false,
+          "pct": 34.95
+        }
+      ]
+    },
+    {
+      "boothId": 31070,
+      "name": "Malvern",
+      "formal": 1544,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 61.53,
+      "swing": 9.57,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 643,
+          "pct": 41.65
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 508,
+          "pct": 32.9
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 294,
+          "pct": 19.04
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 2.66
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.42
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 19,
+          "pct": 1.23
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 17,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 950,
+          "elected": true,
+          "pct": 61.53
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 594,
+          "elected": false,
+          "pct": 38.47
+        }
+      ]
+    },
+    {
+      "boothId": 6659,
+      "name": "Enfield",
+      "formal": 1537,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 73.06,
+      "swing": 8.58,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 788,
+          "pct": 51.27
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 299,
+          "pct": 19.45
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 289,
+          "pct": 18.8
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 4.62
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 36,
+          "pct": 2.34
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.21
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 20,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1123,
+          "elected": true,
+          "pct": 73.06
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 414,
+          "elected": false,
+          "pct": 26.94
+        }
+      ]
+    },
+    {
+      "boothId": 6674,
+      "name": "Nailsworth",
+      "formal": 1467,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 66.87,
+      "swing": 5.41,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 668,
+          "pct": 45.54
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 377,
+          "pct": 25.7
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 269,
+          "pct": 18.34
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 4.36
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 2.93
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 32,
+          "pct": 2.18
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 14,
+          "pct": 0.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 981,
+          "elected": true,
+          "pct": 66.87
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 486,
+          "elected": false,
+          "pct": 33.13
+        }
+      ]
+    },
+    {
+      "boothId": 6663,
+      "name": "Greenacres",
+      "formal": 1440,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 72.36,
+      "swing": 16.27,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 729,
+          "pct": 50.62
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 297,
+          "pct": 20.62
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 264,
+          "pct": 18.33
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 3.82
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 41,
+          "pct": 2.85
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 2.57
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 17,
+          "pct": 1.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1042,
+          "elected": true,
+          "pct": 72.36
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 398,
+          "elected": false,
+          "pct": 27.64
+        }
+      ]
+    },
+    {
+      "boothId": 6681,
+      "name": "Prospect North",
+      "formal": 1418,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 72.07,
+      "swing": 7.11,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 684,
+          "pct": 48.24
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 268,
+          "pct": 18.9
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 267,
+          "pct": 18.83
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 6.56
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 58,
+          "pct": 4.09
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 27,
+          "pct": 1.9
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 21,
+          "pct": 1.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1022,
+          "elected": true,
+          "pct": 72.07
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 396,
+          "elected": false,
+          "pct": 27.93
+        }
+      ]
+    },
+    {
+      "boothId": 38208,
+      "name": "Northgate (Adelaide)",
+      "formal": 1411,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 66.34,
+      "swing": 6.17,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 618,
+          "pct": 43.8
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 354,
+          "pct": 25.09
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 280,
+          "pct": 19.84
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 4.96
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.26
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 27,
+          "pct": 1.91
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 16,
+          "pct": 1.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 936,
+          "elected": true,
+          "pct": 66.34
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 475,
+          "elected": false,
+          "pct": 33.66
+        }
+      ]
+    },
+    {
+      "boothId": 7075,
+      "name": "Plympton (Adelaide)",
+      "formal": 1397,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 72.51,
+      "swing": 5.35,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 691,
+          "pct": 49.46
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 283,
+          "pct": 20.26
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 272,
+          "pct": 19.47
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 68,
+          "pct": 4.87
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 41,
+          "pct": 2.93
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 30,
+          "pct": 2.15
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 12,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1013,
+          "elected": true,
+          "pct": 72.51
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 384,
+          "elected": false,
+          "pct": 27.49
+        }
+      ]
+    },
+    {
+      "boothId": 6676,
+      "name": "Northfield",
+      "formal": 1370,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 69.34,
+      "swing": 9.05,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 739,
+          "pct": 53.94
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 342,
+          "pct": 24.96
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 171,
+          "pct": 12.48
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 41,
+          "pct": 2.99
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 2.7
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 29,
+          "pct": 2.12
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 11,
+          "pct": 0.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 950,
+          "elected": true,
+          "pct": 69.34
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 420,
+          "elected": false,
+          "pct": 30.66
+        }
+      ]
+    },
+    {
+      "boothId": 7280,
+      "name": "Woodville Gardens (Adelaide)",
+      "formal": 1363,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 81.73,
+      "swing": 10.98,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 828,
+          "pct": 60.75
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 215,
+          "pct": 15.77
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 173,
+          "pct": 12.69
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 3.74
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 43,
+          "pct": 3.15
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.15
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 0.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1114,
+          "elected": true,
+          "pct": 81.73
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 249,
+          "elected": false,
+          "pct": 18.27
+        }
+      ]
+    },
+    {
+      "boothId": 6686,
+      "name": "Walkerville",
+      "formal": 1340,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 56.87,
+      "swing": 8.36,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 510,
+          "pct": 38.06
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 508,
+          "pct": 37.91
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 224,
+          "pct": 16.72
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 2.39
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 26,
+          "pct": 1.94
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.87
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 15,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 762,
+          "elected": true,
+          "pct": 56.87
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 578,
+          "elected": false,
+          "pct": 43.13
+        }
+      ]
+    },
+    {
+      "boothId": 6871,
+      "name": "Goodwood",
+      "formal": 1314,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 78.16,
+      "swing": 5.59,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 606,
+          "pct": 46.12
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 385,
+          "pct": 29.3
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 230,
+          "pct": 17.5
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 2.82
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.6
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 18,
+          "pct": 1.37
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 17,
+          "pct": 1.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1027,
+          "elected": true,
+          "pct": 78.16
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 287,
+          "elected": false,
+          "pct": 21.84
+        }
+      ]
+    },
+    {
+      "boothId": 97817,
+      "name": "West Lakes ADELAIDE PPVC",
+      "formal": 1294,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 72.26,
+      "swing": 8.04,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 663,
+          "pct": 51.24
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 256,
+          "pct": 19.78
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 217,
+          "pct": 16.77
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 82,
+          "pct": 6.34
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.63
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 31,
+          "pct": 2.4
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 11,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 935,
+          "elected": true,
+          "pct": 72.26
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 359,
+          "elected": false,
+          "pct": 27.74
+        }
+      ]
+    },
+    {
+      "boothId": 7067,
+      "name": "Keswick",
+      "formal": 1279,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 72.63,
+      "swing": 7.22,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 584,
+          "pct": 45.66
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 315,
+          "pct": 24.63
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 267,
+          "pct": 20.88
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 4.3
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 20,
+          "pct": 1.56
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.49
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 19,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 929,
+          "elected": true,
+          "pct": 72.63
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 350,
+          "elected": false,
+          "pct": 27.37
+        }
+      ]
+    },
+    {
+      "boothId": 12085,
+      "name": "West Croydon",
+      "formal": 1274,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 80.38,
+      "swing": 10.59,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 652,
+          "pct": 51.18
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 304,
+          "pct": 23.86
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 169,
+          "pct": 13.27
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 5.02
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.06
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 34,
+          "pct": 2.67
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 12,
+          "pct": 0.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1024,
+          "elected": true,
+          "pct": 80.38
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "elected": false,
+          "pct": 19.62
+        }
+      ]
+    },
+    {
+      "boothId": 6668,
+      "name": "Kilburn",
+      "formal": 1263,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 80.21,
+      "swing": 11.08,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 699,
+          "pct": 55.34
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 241,
+          "pct": 19.08
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 171,
+          "pct": 13.54
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 4.51
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 43,
+          "pct": 3.4
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 3.01
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 14,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1013,
+          "elected": true,
+          "pct": 80.21
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "elected": false,
+          "pct": 19.79
+        }
+      ]
+    },
+    {
+      "boothId": 6878,
+      "name": "Unley Park",
+      "formal": 1246,
+      "winnerParty": "lib",
+      "winnerSurname": "GRANTHAM",
+      "winnerPct": 56.26,
+      "swing": -4.38,
+      "candidates": [
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 637,
+          "pct": 51.12
+        },
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 361,
+          "pct": 28.97
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 189,
+          "pct": 15.17
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 1.93
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.28
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 11,
+          "pct": 0.88
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 0.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 545,
+          "elected": true,
+          "pct": 43.74
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 701,
+          "elected": false,
+          "pct": 56.26
+        }
+      ]
+    },
+    {
+      "boothId": 6889,
+      "name": "Unley",
+      "formal": 1166,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 65.61,
+      "swing": 8.3,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 495,
+          "pct": 42.45
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 335,
+          "pct": 28.73
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 247,
+          "pct": 21.18
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 2.49
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 2.32
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 20,
+          "pct": 1.72
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 13,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 765,
+          "elected": true,
+          "pct": 65.61
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 401,
+          "elected": false,
+          "pct": 34.39
+        }
+      ]
+    },
+    {
+      "boothId": 33098,
+      "name": "Mansfield Park (Adelaide)",
+      "formal": 1150,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 82.87,
+      "swing": 13.78,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 731,
+          "pct": 63.57
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 13.22
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "pct": 12.43
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 50,
+          "pct": 4.35
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 3.04
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 32,
+          "pct": 2.78
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 7,
+          "pct": 0.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 953,
+          "elected": true,
+          "pct": 82.87
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 197,
+          "elected": false,
+          "pct": 17.13
+        }
+      ]
+    },
+    {
+      "boothId": 36447,
+      "name": "Croydon",
+      "formal": 1106,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 79.57,
+      "swing": 6.16,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 536,
+          "pct": 48.46
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 300,
+          "pct": 27.12
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 156,
+          "pct": 14.1
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 3.98
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 30,
+          "pct": 2.71
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.26
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 15,
+          "pct": 1.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 880,
+          "elected": true,
+          "pct": 79.57
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 226,
+          "elected": false,
+          "pct": 20.43
+        }
+      ]
+    },
+    {
+      "boothId": 6649,
+      "name": "Adelaide East",
+      "formal": 1100,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 69.27,
+      "swing": 5.53,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 451,
+          "pct": 41.0
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 273,
+          "pct": 24.82
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 267,
+          "pct": 24.27
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 3.36
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 28,
+          "pct": 2.55
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 25,
+          "pct": 2.27
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 762,
+          "elected": true,
+          "pct": 69.27
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 338,
+          "elected": false,
+          "pct": 30.73
+        }
+      ]
+    },
+    {
+      "boothId": 7077,
+      "name": "Renown Park",
+      "formal": 1098,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 80.15,
+      "swing": 7.69,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 561,
+          "pct": 51.09
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 267,
+          "pct": 24.32
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 156,
+          "pct": 14.21
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 3.37
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 3.01
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 27,
+          "pct": 2.46
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 17,
+          "pct": 1.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 880,
+          "elected": true,
+          "pct": 80.15
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 218,
+          "elected": false,
+          "pct": 19.85
+        }
+      ]
+    },
+    {
+      "boothId": 6654,
+      "name": "Blair Athol",
+      "formal": 1094,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 79.62,
+      "swing": 8.47,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 601,
+          "pct": 54.94
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 231,
+          "pct": 21.12
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 152,
+          "pct": 13.89
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 4.57
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 25,
+          "pct": 2.29
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.1
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 12,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 871,
+          "elected": true,
+          "pct": 79.62
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 223,
+          "elected": false,
+          "pct": 20.38
+        }
+      ]
+    },
+    {
+      "boothId": 6660,
+      "name": "Clearview",
+      "formal": 1045,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 72.44,
+      "swing": 9.68,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 513,
+          "pct": 49.09
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 194,
+          "pct": 18.56
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 191,
+          "pct": 18.28
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 5.84
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.73
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 28,
+          "pct": 2.68
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 19,
+          "pct": 1.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 757,
+          "elected": true,
+          "pct": 72.44
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 288,
+          "elected": false,
+          "pct": 27.56
+        }
+      ]
+    },
+    {
+      "boothId": 7254,
+      "name": "Regency Park",
+      "formal": 1012,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 76.48,
+      "swing": 6.3,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 556,
+          "pct": 54.94
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 168,
+          "pct": 16.6
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 158,
+          "pct": 15.61
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 5.83
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 32,
+          "pct": 3.16
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.87
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 0.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 774,
+          "elected": true,
+          "pct": 76.48
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 238,
+          "elected": false,
+          "pct": 23.52
+        }
+      ]
+    },
+    {
+      "boothId": 12086,
+      "name": "Kilkenny North",
+      "formal": 1012,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 76.78,
+      "swing": 10.97,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 613,
+          "pct": 60.57
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 164,
+          "pct": 16.21
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 113,
+          "pct": 11.17
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 4.15
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 3.36
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 33,
+          "pct": 3.26
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 13,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 777,
+          "elected": true,
+          "pct": 76.78
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 235,
+          "elected": false,
+          "pct": 23.22
+        }
+      ]
+    },
+    {
+      "boothId": 6685,
+      "name": "Vale Park (Adelaide)",
+      "formal": 944,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 61.33,
+      "swing": 5.9,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 378,
+          "pct": 40.04
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 314,
+          "pct": 33.26
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 173,
+          "pct": 18.33
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 3.18
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 20,
+          "pct": 2.12
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.01
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 579,
+          "elected": true,
+          "pct": 61.33
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 365,
+          "elected": false,
+          "pct": 38.67
+        }
+      ]
+    },
+    {
+      "boothId": 6868,
+      "name": "Highgate",
+      "formal": 898,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 64.14,
+      "swing": 11.5,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 393,
+          "pct": 43.76
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 280,
+          "pct": 31.18
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 18.49
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 2.9
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 13,
+          "pct": 1.45
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.22
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 9,
+          "pct": 1.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 576,
+          "elected": true,
+          "pct": 64.14
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 322,
+          "elected": false,
+          "pct": 35.86
+        }
+      ]
+    },
+    {
+      "boothId": 6657,
+      "name": "Croydon Park",
+      "formal": 805,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 75.53,
+      "swing": 11.03,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 441,
+          "pct": 54.78
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 126,
+          "pct": 15.65
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 119,
+          "pct": 14.78
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 6.96
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 4.35
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 23,
+          "pct": 2.86
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 5,
+          "pct": 0.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 608,
+          "elected": true,
+          "pct": 75.53
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 197,
+          "elected": false,
+          "pct": 24.47
+        }
+      ]
+    },
+    {
+      "boothId": 82879,
+      "name": "Lower North Adelaide",
+      "formal": 801,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 55.18,
+      "swing": 6.78,
+      "candidates": [
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 311,
+          "pct": 38.83
+        },
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 281,
+          "pct": 35.08
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 140,
+          "pct": 17.48
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 3.37
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.12
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 15,
+          "pct": 1.87
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 1.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 442,
+          "elected": true,
+          "pct": 55.18
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 359,
+          "elected": false,
+          "pct": 44.82
+        }
+      ]
+    },
+    {
+      "boothId": 82875,
+      "name": "Goodwood Park",
+      "formal": 785,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 62.93,
+      "swing": 6.83,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 342,
+          "pct": 43.57
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 252,
+          "pct": 32.1
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 142,
+          "pct": 18.09
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 2.68
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 12,
+          "pct": 1.53
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.27
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 6,
+          "pct": 0.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 494,
+          "elected": true,
+          "pct": 62.93
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 291,
+          "elected": false,
+          "pct": 37.07
+        }
+      ]
+    },
+    {
+      "boothId": 6648,
+      "name": "Adelaide",
+      "formal": 754,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 73.47,
+      "swing": 5.63,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 282,
+          "pct": 37.4
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 238,
+          "pct": 31.56
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 142,
+          "pct": 18.83
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 3.58
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 25,
+          "pct": 3.32
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 21,
+          "pct": 2.79
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 554,
+          "elected": true,
+          "pct": 73.47
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 200,
+          "elected": false,
+          "pct": 26.53
+        }
+      ]
+    },
+    {
+      "boothId": 7255,
+      "name": "Kilkenny (Adelaide)",
+      "formal": 719,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 72.88,
+      "swing": 2.56,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 377,
+          "pct": 52.43
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 124,
+          "pct": 17.25
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 117,
+          "pct": 16.27
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 6.95
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 4.59
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 14,
+          "pct": 1.95
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 4,
+          "pct": 0.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 524,
+          "elected": true,
+          "pct": 72.88
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 195,
+          "elected": false,
+          "pct": 27.12
+        }
+      ]
+    },
+    {
+      "boothId": 82880,
+      "name": "Walkerville North",
+      "formal": 674,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 56.97,
+      "swing": 8.79,
+      "candidates": [
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 257,
+          "pct": 38.13
+        },
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 251,
+          "pct": 37.24
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 124,
+          "pct": 18.4
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 2.37
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 12,
+          "pct": 1.78
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.63
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 3,
+          "pct": 0.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 384,
+          "elected": true,
+          "pct": 56.97
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 290,
+          "elected": false,
+          "pct": 43.03
+        }
+      ]
+    },
+    {
+      "boothId": 7008,
+      "name": "Black Forest (Adelaide)",
+      "formal": 656,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 72.56,
+      "swing": 10.28,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 278,
+          "pct": 42.38
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 171,
+          "pct": 26.07
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 147,
+          "pct": 22.41
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 18,
+          "pct": 2.74
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.44
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 2.29
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 11,
+          "pct": 1.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 476,
+          "elected": true,
+          "pct": 72.56
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 180,
+          "elected": false,
+          "pct": 27.44
+        }
+      ]
+    },
+    {
+      "boothId": 97820,
+      "name": "Modbury ADELAIDE PPVC",
+      "formal": 593,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 69.98,
+      "swing": 12.89,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 283,
+          "pct": 47.72
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 133,
+          "pct": 22.43
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 18.55
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 5.06
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 18,
+          "pct": 3.04
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.53
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 4,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 415,
+          "elected": true,
+          "pct": 69.98
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 178,
+          "elected": false,
+          "pct": 30.02
+        }
+      ]
+    },
+    {
+      "boothId": 83454,
+      "name": "Adelaide West",
+      "formal": 586,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 79.18,
+      "swing": 7.87,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 252,
+          "pct": 43.0
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 182,
+          "pct": 31.06
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 94,
+          "pct": 16.04
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 18,
+          "pct": 3.07
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 14,
+          "pct": 2.39
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 2.39
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 464,
+          "elected": true,
+          "pct": 79.18
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 122,
+          "elected": false,
+          "pct": 20.82
+        }
+      ]
+    },
+    {
+      "boothId": 6682,
+      "name": "Prospect South",
+      "formal": 533,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 63.79,
+      "swing": -0.61,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 218,
+          "pct": 40.9
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 149,
+          "pct": 27.95
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 20.64
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 4.13
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.44
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 12,
+          "pct": 2.25
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 9,
+          "pct": 1.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 340,
+          "elected": true,
+          "pct": 63.79
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 193,
+          "elected": false,
+          "pct": 36.21
+        }
+      ]
+    },
+    {
+      "boothId": 96649,
+      "name": "Flinders Park (Adelaide)",
+      "formal": 508,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 67.72,
+      "swing": 6.48,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 230,
+          "pct": 45.28
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 111,
+          "pct": 21.85
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 91,
+          "pct": 17.91
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 7.28
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 4.53
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 13,
+          "pct": 2.56
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 3,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 344,
+          "elected": true,
+          "pct": 67.72
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 164,
+          "elected": false,
+          "pct": 32.28
+        }
+      ]
+    },
+    {
+      "boothId": 96647,
+      "name": "Brooklyn Park (Adelaide)",
+      "formal": 204,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 77.94,
+      "swing": 16.04,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 109,
+          "pct": 53.43
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 36,
+          "pct": 17.65
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 35,
+          "pct": 17.16
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 4.41
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 8,
+          "pct": 3.92
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.94
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 1,
+          "pct": 0.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 159,
+          "elected": true,
+          "pct": 77.94
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 45,
+          "elected": false,
+          "pct": 22.06
+        }
+      ]
+    },
+    {
+      "boothId": 108812,
+      "name": "Special Hospital Team 1",
+      "formal": 130,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 58.46,
+      "swing": 0.07,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 62,
+          "pct": 47.69
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 50,
+          "pct": 38.46
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 8,
+          "pct": 6.15
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 4.62
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 2.31
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.77
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 76,
+          "elected": true,
+          "pct": 58.46
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 54,
+          "elected": false,
+          "pct": 41.54
+        }
+      ]
+    },
+    {
+      "boothId": 109118,
+      "name": "Special Hospital Team 3",
+      "formal": 124,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 62.9,
+      "swing": 4.22,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 58,
+          "pct": 46.77
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 41,
+          "pct": 33.06
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 8.06
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 7.26
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.42
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 1.61
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 1,
+          "pct": 0.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 78,
+          "elected": true,
+          "pct": 62.9
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 46,
+          "elected": false,
+          "pct": 37.1
+        }
+      ]
+    },
+    {
+      "boothId": 108818,
+      "name": "Special Hospital Team 2",
+      "formal": 119,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 81.51,
+      "swing": 23.18,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 86,
+          "pct": 72.27
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 18,
+          "pct": 15.13
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 5.88
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 3,
+          "pct": 2.52
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 2.52
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 1.68
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "elected": true,
+          "pct": 81.51
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 22,
+          "elected": false,
+          "pct": 18.49
+        }
+      ]
+    },
+    {
+      "boothId": 109133,
+      "name": "Special Hospital Team 5",
+      "formal": 118,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 61.02,
+      "swing": 2.29,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 60,
+          "pct": 50.85
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 40,
+          "pct": 33.9
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 8.47
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 4.24
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.85
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 1,
+          "pct": 0.85
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 72,
+          "elected": true,
+          "pct": 61.02
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 46,
+          "elected": false,
+          "pct": 38.98
+        }
+      ]
+    },
+    {
+      "boothId": 109119,
+      "name": "Special Hospital Team 4",
+      "formal": 106,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 71.7,
+      "swing": 13.24,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 62,
+          "pct": 58.49
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 24,
+          "pct": 22.64
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 8,
+          "pct": 7.55
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 5.66
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 3.77
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.94
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 1,
+          "pct": 0.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 76,
+          "elected": true,
+          "pct": 71.7
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 30,
+          "elected": false,
+          "pct": 28.3
+        }
+      ]
+    },
+    {
+      "boothId": 65713,
+      "name": "Other Mobile Team 1",
+      "formal": 88,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 77.27,
+      "swing": -1.8,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 41,
+          "pct": 46.59
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 20,
+          "pct": 22.73
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 13,
+          "pct": 14.77
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 7.95
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 3,
+          "pct": 3.41
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 2.27
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 2.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 68,
+          "elected": true,
+          "pct": 77.27
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 20,
+          "elected": false,
+          "pct": 22.73
+        }
+      ]
+    },
+    {
+      "boothId": 110744,
+      "name": "Special Hospital Team 7",
+      "formal": 66,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 63.64,
+      "swing": 5.12,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 33,
+          "pct": 50.0
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 21,
+          "pct": 31.82
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 13.64
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 1,
+          "pct": 1.52
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 1,
+          "pct": 1.52
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 1.52
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 42,
+          "elected": true,
+          "pct": 63.64
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 24,
+          "elected": false,
+          "pct": 36.36
+        }
+      ]
+    },
+    {
+      "boothId": 110743,
+      "name": "Special Hospital Team 6",
+      "formal": 39,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 61.54,
+      "swing": 3.21,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 15,
+          "pct": 38.46
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 12,
+          "pct": 30.77
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 20.51
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 5.13
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 2,
+          "pct": 5.13
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 24,
+          "elected": true,
+          "pct": 61.54
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 15,
+          "elected": false,
+          "pct": 38.46
+        }
+      ]
+    },
+    {
+      "boothId": 65592,
+      "name": "EAV Adelaide PPVC",
+      "formal": 30,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 53.33,
+      "swing": -20.35,
+      "candidates": [
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 12,
+          "pct": 40.0
+        },
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "pct": 30.0
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 16.67
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 6.67
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 6.67
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "elected": true,
+          "pct": 53.33
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 14,
+          "elected": false,
+          "pct": 46.67
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 114089,
+    "candidates": [
+      {
+        "id": "C41809",
+        "party": "ajp",
+        "displayShort": "AJP",
+        "displayLong": "AJP \u2014 Pengilley"
+      },
+      {
+        "id": "C41210",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Georganas"
+      },
+      {
+        "id": "C41039",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Marks"
+      },
+      {
+        "id": "C41013",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Monti"
+      },
+      {
+        "id": "C41060",
+        "party": "fus",
+        "displayShort": "FUS",
+        "displayLong": "FUS \u2014 Mcmillan"
+      },
+      {
+        "id": "C42034",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Size"
+      },
+      {
+        "id": "C41014",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Grantham"
+      }
+    ],
+    "rounds": [
+      {
+        "C41809": 2745,
+        "C41210": 53036,
+        "C41039": 3144,
+        "C41013": 21642,
+        "C41060": 1367,
+        "C42034": 4584,
+        "C41014": 27571
+      },
+      {
+        "C41809": 3107,
+        "C41210": 53271,
+        "C41039": 3228,
+        "C41013": 22133,
+        "C42034": 4705,
+        "C41014": 27645
+      },
+      {
+        "C41210": 54358,
+        "C41039": 3551,
+        "C41013": 23370,
+        "C42034": 4951,
+        "C41014": 27859
+      },
+      {
+        "C41210": 55072,
+        "C41013": 23968,
+        "C42034": 6597,
+        "C41014": 28452
+      },
+      {
+        "C41210": 56236,
+        "C41013": 25299,
+        "C41014": 32554
+      },
+      {
+        "C41210": 78796,
+        "C41014": 35293
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            58.53,
+            57.69,
+            53.95,
+            54.65,
+            58.18,
+            61.91,
+            69.07
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            41.47,
+            42.31,
+            46.05,
+            45.35,
+            41.82,
+            38.09,
+            30.93
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 38.43,
+            "ALP": 48.26,
+            "GRN": 9.75,
+            "FFP": 2.03,
+            "OTH": 1.53
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "GRN": 13.69,
+            "ALP": 43.89,
+            "FFP": 2.18,
+            "LIB": 37.57,
+            "OTH": 2.66
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "TOP": 2.12,
+            "FFP": 2.37,
+            "ALP": 42.26,
+            "GRN": 10.12,
+            "LIB": 42.06,
+            "OTH": 1.07
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "GRN": 10.44,
+            "ALP": 35.93,
+            "CA": 12.86,
+            "LIB": 36.43,
+            "OTH": 4.35
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "ALP": 40.27,
+            "AJP": 2.7,
+            "GRN": 15.72,
+            "TOP": 3.25,
+            "LIB": 36.16,
+            "OTH": 1.9
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "TOP": 2.71,
+            "LIB": 32.0,
+            "ALP": 39.98,
+            "ON": 2.99,
+            "GRN": 20.1,
+            "OTH": 2.22
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "AJP": 2.41,
+            "CYA": 2.76,
+            "ON": 4.02,
+            "LIB": 24.17,
+            "ALP": 46.49,
+            "GRN": 18.97,
+            "OTH": 1.2
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 197621,
+    "medianAge": 36,
+    "medianHouseholdIncomeWeekly": 1662,
+    "medianRentWeekly": 345,
+    "averageHouseholdSize": 2.3,
+    "bornOverseasPct": 38.3,
+    "indigenousPct": 1.4,
+    "bachelorPlusPct": 56.6,
+    "renterPct": 41.4,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 117231,
+        "pct": 61.73,
+        "natPct": 70.73
+      },
+      {
+        "label": "India",
+        "count": 6846,
+        "pct": 3.6,
+        "natPct": 1.51
+      },
+      {
+        "label": "China",
+        "count": 3273,
+        "pct": 1.72,
+        "natPct": 1.0
+      },
+      {
+        "label": "England",
+        "count": 3141,
+        "pct": 1.65,
+        "natPct": 1.95
+      },
+      {
+        "label": "Afghanistan",
+        "count": 2225,
+        "pct": 1.17,
+        "natPct": 0.25
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 78155,
+        "pct": 39.55,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 73789,
+        "pct": 37.34,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 11486,
+        "pct": 5.81,
+        "natPct": 7.27
+      },
+      {
+        "label": "Hinduism",
+        "count": 10327,
+        "pct": 5.23,
+        "natPct": 2.69
+      },
+      {
+        "label": "Islam",
+        "count": 9566,
+        "pct": 4.84,
+        "natPct": 3.2
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Adelaide is an Australian electoral division in South Australia and is named for the city of Adelaide, South Australia's capital.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Adelaide",
+    "retrievedAt": "2026-01-30T22:40:08Z"
+  }
+}

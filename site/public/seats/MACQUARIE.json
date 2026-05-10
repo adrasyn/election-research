@@ -1,0 +1,5062 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "MACQUARIE",
+    "divisionId": 133,
+    "name": "Macquarie",
+    "state": "NSW",
+    "totalFormal": 109705,
+    "informalVotes": 4147,
+    "informalRate": 4.26,
+    "winner": {
+      "candidateId": "C41425",
+      "surname": "TEMPLEMAN",
+      "givenName": "Susan",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 15.42,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41425",
+      "surname": "TEMPLEMAN",
+      "givenName": "Susan",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 40021,
+      "pct": 42.99
+    },
+    {
+      "candidateId": "C41490",
+      "surname": "CREED",
+      "givenName": "Mike",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 29342,
+      "pct": 31.52
+    },
+    {
+      "candidateId": "C41602",
+      "surname": "MORGAN",
+      "givenName": "Terry",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 11638,
+      "pct": 12.5
+    },
+    {
+      "candidateId": "C41882",
+      "surname": "JACOBSON",
+      "givenName": "Matthew",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 7813,
+      "pct": 8.39
+    },
+    {
+      "candidateId": "C41801",
+      "surname": "BOWEN",
+      "givenName": "Roger Gerard",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 2740,
+      "pct": 2.94
+    },
+    {
+      "candidateId": "C41873",
+      "surname": "DE LIMA",
+      "givenName": "Joaquim Eduardo",
+      "party": "oth",
+      "partyAb": "LTP",
+      "votes": 1536,
+      "pct": 1.65
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41425",
+      "surname": "TEMPLEMAN",
+      "givenName": "Susan",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 63306,
+      "pct": 57.71,
+      "elected": true
+    },
+    {
+      "candidateId": "C41490",
+      "surname": "CREED",
+      "givenName": "Mike",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 46399,
+      "pct": 42.29,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 34038,
+      "name": "Springwood PPVC",
+      "formal": 10406,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 65.61,
+      "swing": 0.76,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5347,
+          "pct": 51.38
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2691,
+          "pct": 25.86
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1259,
+          "pct": 12.1
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 645,
+          "pct": 6.2
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 309,
+          "pct": 2.97
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 155,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6827,
+          "elected": true,
+          "pct": 65.61
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3579,
+          "elected": false,
+          "pct": 34.39
+        }
+      ]
+    },
+    {
+      "boothId": 47782,
+      "name": "Richmond MACQUARIE PPVC",
+      "formal": 9126,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 55.08,
+      "swing": 1.55,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4051,
+          "pct": 44.39
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3325,
+          "pct": 36.43
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 834,
+          "pct": 9.14
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 532,
+          "pct": 5.83
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 243,
+          "pct": 2.66
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 141,
+          "pct": 1.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4099,
+          "elected": true,
+          "pct": 44.92
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5027,
+          "elected": false,
+          "pct": 55.08
+        }
+      ]
+    },
+    {
+      "boothId": 34037,
+      "name": "Katoomba PPVC",
+      "formal": 8914,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 74.89,
+      "swing": 0.64,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4688,
+          "pct": 52.59
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1830,
+          "pct": 20.53
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1639,
+          "pct": 18.39
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 438,
+          "pct": 4.91
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 182,
+          "pct": 2.04
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 137,
+          "pct": 1.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6676,
+          "elected": true,
+          "pct": 74.89
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2238,
+          "elected": false,
+          "pct": 25.11
+        }
+      ]
+    },
+    {
+      "boothId": 97408,
+      "name": "Windsor PPVC",
+      "formal": 7281,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 55.56,
+      "swing": -0.14,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3189,
+          "pct": 43.8
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2609,
+          "pct": 35.83
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 790,
+          "pct": 10.85
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 411,
+          "pct": 5.64
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 188,
+          "pct": 2.58
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 94,
+          "pct": 1.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3236,
+          "elected": true,
+          "pct": 44.44
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4045,
+          "elected": false,
+          "pct": 55.56
+        }
+      ]
+    },
+    {
+      "boothId": 97409,
+      "name": "Emu Plains MACQUARIE PPVC",
+      "formal": 6280,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 50.11,
+      "swing": 4.45,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2530,
+          "pct": 40.29
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2486,
+          "pct": 39.59
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 536,
+          "pct": 8.54
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 475,
+          "pct": 7.56
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 174,
+          "pct": 2.77
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 79,
+          "pct": 1.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3147,
+          "elected": true,
+          "pct": 50.11
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3133,
+          "elected": false,
+          "pct": 49.89
+        }
+      ]
+    },
+    {
+      "boothId": 1476,
+      "name": "Blaxland East",
+      "formal": 2118,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 64.83,
+      "swing": 5.75,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1020,
+          "pct": 48.16
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 501,
+          "pct": 23.65
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 305,
+          "pct": 14.4
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 143,
+          "pct": 6.75
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 102,
+          "pct": 4.82
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 47,
+          "pct": 2.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1373,
+          "elected": true,
+          "pct": 64.83
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 745,
+          "elected": false,
+          "pct": 35.17
+        }
+      ]
+    },
+    {
+      "boothId": 1485,
+      "name": "Glenbrook",
+      "formal": 1796,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 64.64,
+      "swing": 4.23,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 871,
+          "pct": 48.5
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 505,
+          "pct": 28.12
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 264,
+          "pct": 14.7
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 74,
+          "pct": 4.12
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 3.34
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1161,
+          "elected": true,
+          "pct": 64.64
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 635,
+          "elected": false,
+          "pct": 35.36
+        }
+      ]
+    },
+    {
+      "boothId": 1802,
+      "name": "North Richmond",
+      "formal": 1694,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 50.3,
+      "swing": 0.74,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 643,
+          "pct": 37.96
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 605,
+          "pct": 35.71
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 193,
+          "pct": 11.39
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 162,
+          "pct": 9.56
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 3.54
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 1.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 852,
+          "elected": true,
+          "pct": 50.3
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 842,
+          "elected": false,
+          "pct": 49.7
+        }
+      ]
+    },
+    {
+      "boothId": 1812,
+      "name": "Wentworth Falls",
+      "formal": 1693,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 76.9,
+      "swing": 3.02,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 896,
+          "pct": 52.92
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 376,
+          "pct": 22.21
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "pct": 14.77
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 99,
+          "pct": 5.85
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 2.36
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 1.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1302,
+          "elected": true,
+          "pct": 76.9
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 391,
+          "elected": false,
+          "pct": 23.1
+        }
+      ]
+    },
+    {
+      "boothId": 8874,
+      "name": "Bligh Park",
+      "formal": 1603,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 50.78,
+      "swing": -5.08,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 604,
+          "pct": 37.68
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 581,
+          "pct": 36.24
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 212,
+          "pct": 13.23
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 125,
+          "pct": 7.8
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 63,
+          "pct": 3.93
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 789,
+          "elected": true,
+          "pct": 49.22
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 814,
+          "elected": false,
+          "pct": 50.78
+        }
+      ]
+    },
+    {
+      "boothId": 1749,
+      "name": "Blackheath",
+      "formal": 1583,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 77.95,
+      "swing": 5.39,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 766,
+          "pct": 48.39
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 447,
+          "pct": 28.24
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 252,
+          "pct": 15.92
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 3.66
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 2.15
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 1.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1234,
+          "elected": true,
+          "pct": 77.95
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 349,
+          "elected": false,
+          "pct": 22.05
+        }
+      ]
+    },
+    {
+      "boothId": 1816,
+      "name": "Winmalee",
+      "formal": 1558,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 62.32,
+      "swing": 2.4,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 719,
+          "pct": 46.15
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 442,
+          "pct": 28.37
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 204,
+          "pct": 13.09
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 107,
+          "pct": 6.87
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 61,
+          "pct": 3.92
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 971,
+          "elected": true,
+          "pct": 62.32
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 587,
+          "elected": false,
+          "pct": 37.68
+        }
+      ]
+    },
+    {
+      "boothId": 1768,
+      "name": "Hazelbrook",
+      "formal": 1530,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 73.59,
+      "swing": -0.92,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 740,
+          "pct": 48.37
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 345,
+          "pct": 22.55
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "pct": 16.34
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 112,
+          "pct": 7.32
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 2.81
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 2.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1126,
+          "elected": true,
+          "pct": 73.59
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 404,
+          "elected": false,
+          "pct": 26.41
+        }
+      ]
+    },
+    {
+      "boothId": 1797,
+      "name": "Pitt Town",
+      "formal": 1449,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 69.5,
+      "swing": 0.05,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 834,
+          "pct": 57.56
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 368,
+          "pct": 25.4
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 157,
+          "pct": 10.84
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 3.17
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 1.93
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 442,
+          "elected": true,
+          "pct": 30.5
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1007,
+          "elected": false,
+          "pct": 69.5
+        }
+      ]
+    },
+    {
+      "boothId": 1780,
+      "name": "Lawson",
+      "formal": 1431,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 77.08,
+      "swing": 4.13,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 682,
+          "pct": 47.66
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 365,
+          "pct": 25.51
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 200,
+          "pct": 13.98
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 99,
+          "pct": 6.92
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 3.07
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 41,
+          "pct": 2.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1103,
+          "elected": true,
+          "pct": 77.08
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 328,
+          "elected": false,
+          "pct": 22.92
+        }
+      ]
+    },
+    {
+      "boothId": 1761,
+      "name": "Faulconbridge",
+      "formal": 1357,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 70.08,
+      "swing": 1.98,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 657,
+          "pct": 48.42
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 276,
+          "pct": 20.34
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 248,
+          "pct": 18.28
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 87,
+          "pct": 6.41
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 64,
+          "pct": 4.72
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 951,
+          "elected": true,
+          "pct": 70.08
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 406,
+          "elected": false,
+          "pct": 29.92
+        }
+      ]
+    },
+    {
+      "boothId": 8875,
+      "name": "Springwood North",
+      "formal": 1354,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 61.89,
+      "swing": -2.09,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 641,
+          "pct": 47.34
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 370,
+          "pct": 27.33
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 163,
+          "pct": 12.04
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 89,
+          "pct": 6.57
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 56,
+          "pct": 4.14
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 838,
+          "elected": true,
+          "pct": 61.89
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 516,
+          "elected": false,
+          "pct": 38.11
+        }
+      ]
+    },
+    {
+      "boothId": 1493,
+      "name": "Mount Riverview",
+      "formal": 1341,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 61.67,
+      "swing": 3.04,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 641,
+          "pct": 47.8
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 377,
+          "pct": 28.11
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 11.33
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 5.74
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 68,
+          "pct": 5.07
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 1.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 827,
+          "elected": true,
+          "pct": 61.67
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 514,
+          "elected": false,
+          "pct": 38.33
+        }
+      ]
+    },
+    {
+      "boothId": 1815,
+      "name": "Windsor South",
+      "formal": 1337,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 56.39,
+      "swing": 1.8,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 562,
+          "pct": 42.03
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 401,
+          "pct": 29.99
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 185,
+          "pct": 13.84
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 119,
+          "pct": 8.9
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 51,
+          "pct": 3.81
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 754,
+          "elected": true,
+          "pct": 56.39
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 583,
+          "elected": false,
+          "pct": 43.61
+        }
+      ]
+    },
+    {
+      "boothId": 1769,
+      "name": "Hobartville",
+      "formal": 1223,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 54.7,
+      "swing": -2.95,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 509,
+          "pct": 41.62
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 374,
+          "pct": 30.58
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 145,
+          "pct": 11.86
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 126,
+          "pct": 10.3
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 53,
+          "pct": 4.33
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 669,
+          "elected": true,
+          "pct": 54.7
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 554,
+          "elected": false,
+          "pct": 45.3
+        }
+      ]
+    },
+    {
+      "boothId": 1800,
+      "name": "Richmond",
+      "formal": 1189,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 56.35,
+      "swing": 4.28,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 485,
+          "pct": 40.79
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 363,
+          "pct": 30.53
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 143,
+          "pct": 12.03
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 129,
+          "pct": 10.85
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 4.37
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 670,
+          "elected": true,
+          "pct": 56.35
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 519,
+          "elected": false,
+          "pct": 43.65
+        }
+      ]
+    },
+    {
+      "boothId": 1490,
+      "name": "Lapstone",
+      "formal": 1174,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 66.52,
+      "swing": 6.02,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 602,
+          "pct": 51.28
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 311,
+          "pct": 26.49
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 159,
+          "pct": 13.54
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 5.28
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 2.64
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 781,
+          "elected": true,
+          "pct": 66.52
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 393,
+          "elected": false,
+          "pct": 33.48
+        }
+      ]
+    },
+    {
+      "boothId": 1777,
+      "name": "Kurrajong",
+      "formal": 1089,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 53.26,
+      "swing": 1.73,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 438,
+          "pct": 40.22
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 361,
+          "pct": 33.15
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 122,
+          "pct": 11.2
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 113,
+          "pct": 10.38
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 2.94
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 580,
+          "elected": true,
+          "pct": 53.26
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 509,
+          "elected": false,
+          "pct": 46.74
+        }
+      ]
+    },
+    {
+      "boothId": 1813,
+      "name": "Wilberforce",
+      "formal": 1077,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 63.42,
+      "swing": -2.37,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 516,
+          "pct": 47.91
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 300,
+          "pct": 27.86
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 154,
+          "pct": 14.3
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 59,
+          "pct": 5.48
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 3.44
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 394,
+          "elected": true,
+          "pct": 36.58
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 683,
+          "elected": false,
+          "pct": 63.42
+        }
+      ]
+    },
+    {
+      "boothId": 1483,
+      "name": "Emu Heights",
+      "formal": 1014,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 56.31,
+      "swing": 11.88,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 421,
+          "pct": 41.52
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 289,
+          "pct": 28.5
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 124,
+          "pct": 12.23
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 116,
+          "pct": 11.44
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 51,
+          "pct": 5.03
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 571,
+          "elected": true,
+          "pct": 56.31
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 443,
+          "elected": false,
+          "pct": 43.69
+        }
+      ]
+    },
+    {
+      "boothId": 32744,
+      "name": "Bligh Park East",
+      "formal": 987,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 55.02,
+      "swing": 3.55,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 421,
+          "pct": 42.65
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 331,
+          "pct": 33.54
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 112,
+          "pct": 11.35
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "pct": 8.61
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 3.14
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 543,
+          "elected": true,
+          "pct": 55.02
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 444,
+          "elected": false,
+          "pct": 44.98
+        }
+      ]
+    },
+    {
+      "boothId": 1806,
+      "name": "Springwood South",
+      "formal": 983,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 71.01,
+      "swing": 4.59,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 492,
+          "pct": 50.05
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 206,
+          "pct": 20.96
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 182,
+          "pct": 18.51
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 5.29
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 3.76
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 698,
+          "elected": true,
+          "pct": 71.01
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 285,
+          "elected": false,
+          "pct": 28.99
+        }
+      ]
+    },
+    {
+      "boothId": 1763,
+      "name": "Freemans Reach",
+      "formal": 941,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 63.44,
+      "swing": 2.79,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 460,
+          "pct": 48.88
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 254,
+          "pct": 26.99
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 126,
+          "pct": 13.39
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 6.06
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 3.4
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 344,
+          "elected": true,
+          "pct": 36.56
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 597,
+          "elected": false,
+          "pct": 63.44
+        }
+      ]
+    },
+    {
+      "boothId": 1765,
+      "name": "Glossodia",
+      "formal": 940,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 56.7,
+      "swing": 3.23,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 385,
+          "pct": 40.96
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 299,
+          "pct": 31.81
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 147,
+          "pct": 15.64
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 7.87
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 2.45
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 407,
+          "elected": true,
+          "pct": 43.3
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 533,
+          "elected": false,
+          "pct": 56.7
+        }
+      ]
+    },
+    {
+      "boothId": 1491,
+      "name": "Leonay",
+      "formal": 895,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 51.4,
+      "swing": -13.33,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 360,
+          "pct": 40.22
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 329,
+          "pct": 36.76
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 92,
+          "pct": 10.28
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 8.38
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 3.69
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 435,
+          "elected": true,
+          "pct": 48.6
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 460,
+          "elected": false,
+          "pct": 51.4
+        }
+      ]
+    },
+    {
+      "boothId": 1794,
+      "name": "Oakville",
+      "formal": 862,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 69.49,
+      "swing": -3.07,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 479,
+          "pct": 55.57
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 193,
+          "pct": 22.39
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 109,
+          "pct": 12.65
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 48,
+          "pct": 5.57
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 2.67
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 263,
+          "elected": true,
+          "pct": 30.51
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 599,
+          "elected": false,
+          "pct": 69.49
+        }
+      ]
+    },
+    {
+      "boothId": 65193,
+      "name": "Penrith MACQUARIE PPVC",
+      "formal": 844,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 55.57,
+      "swing": 7.42,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 339,
+          "pct": 40.17
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 268,
+          "pct": 31.75
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 126,
+          "pct": 14.93
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 9.0
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 2.61
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 469,
+          "elected": true,
+          "pct": 55.57
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 375,
+          "elected": false,
+          "pct": 44.43
+        }
+      ]
+    },
+    {
+      "boothId": 1484,
+      "name": "Emu Plains",
+      "formal": 840,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 52.98,
+      "swing": 11.49,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 341,
+          "pct": 40.6
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 299,
+          "pct": 35.6
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 81,
+          "pct": 9.64
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 8.57
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 3.45
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 445,
+          "elected": true,
+          "pct": 52.98
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 395,
+          "elected": false,
+          "pct": 47.02
+        }
+      ]
+    },
+    {
+      "boothId": 1774,
+      "name": "Katoomba North",
+      "formal": 834,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 79.62,
+      "swing": 2.62,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 412,
+          "pct": 49.4
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 227,
+          "pct": 27.22
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 91,
+          "pct": 10.91
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 6.35
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 4.2
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 664,
+          "elected": true,
+          "pct": 79.62
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 170,
+          "elected": false,
+          "pct": 20.38
+        }
+      ]
+    },
+    {
+      "boothId": 1776,
+      "name": "Kurmond",
+      "formal": 818,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 57.46,
+      "swing": 2.32,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 345,
+          "pct": 42.18
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 250,
+          "pct": 30.56
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 112,
+          "pct": 13.69
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 61,
+          "pct": 7.46
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 3.3
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 348,
+          "elected": true,
+          "pct": 42.54
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 470,
+          "elected": false,
+          "pct": 57.46
+        }
+      ]
+    },
+    {
+      "boothId": 1766,
+      "name": "Grose Wold",
+      "formal": 813,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 53.75,
+      "swing": 7.17,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 335,
+          "pct": 41.21
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 288,
+          "pct": 35.42
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 96,
+          "pct": 11.81
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 66,
+          "pct": 8.12
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.97
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 376,
+          "elected": true,
+          "pct": 46.25
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 437,
+          "elected": false,
+          "pct": 53.75
+        }
+      ]
+    },
+    {
+      "boothId": 1775,
+      "name": "Katoomba Central",
+      "formal": 764,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 79.97,
+      "swing": 4.1,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 356,
+          "pct": 46.6
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 232,
+          "pct": 30.37
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 101,
+          "pct": 13.22
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 4.19
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.88
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 2.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 611,
+          "elected": true,
+          "pct": 79.97
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 153,
+          "elected": false,
+          "pct": 20.03
+        }
+      ]
+    },
+    {
+      "boothId": 1811,
+      "name": "Warrimoo",
+      "formal": 762,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 76.12,
+      "swing": 5.6,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 396,
+          "pct": 51.97
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 162,
+          "pct": 21.26
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 109,
+          "pct": 14.3
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 6.17
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 4.33
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 580,
+          "elected": true,
+          "pct": 76.12
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 182,
+          "elected": false,
+          "pct": 23.88
+        }
+      ]
+    },
+    {
+      "boothId": 1814,
+      "name": "Windsor",
+      "formal": 752,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 56.38,
+      "swing": -0.95,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 316,
+          "pct": 42.02
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 235,
+          "pct": 31.25
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 89,
+          "pct": 11.84
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 86,
+          "pct": 11.44
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.99
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 424,
+          "elected": true,
+          "pct": 56.38
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 328,
+          "elected": false,
+          "pct": 43.62
+        }
+      ]
+    },
+    {
+      "boothId": 1805,
+      "name": "Springwood",
+      "formal": 746,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 69.03,
+      "swing": -0.5,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 351,
+          "pct": 47.05
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 158,
+          "pct": 21.18
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 156,
+          "pct": 20.91
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 5.36
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 4.29
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 515,
+          "elected": true,
+          "pct": 69.03
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 231,
+          "elected": false,
+          "pct": 30.97
+        }
+      ]
+    },
+    {
+      "boothId": 1771,
+      "name": "Katoomba",
+      "formal": 739,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 86.6,
+      "swing": 4.12,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 388,
+          "pct": 52.5
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 235,
+          "pct": 31.8
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 58,
+          "pct": 7.85
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 3.79
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.57
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 640,
+          "elected": true,
+          "pct": 86.6
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 99,
+          "elected": false,
+          "pct": 13.4
+        }
+      ]
+    },
+    {
+      "boothId": 1759,
+      "name": "Ebenezer",
+      "formal": 680,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 63.53,
+      "swing": -0.52,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 319,
+          "pct": 46.91
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 190,
+          "pct": 27.94
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 109,
+          "pct": 16.03
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 44,
+          "pct": 6.47
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 1.91
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 248,
+          "elected": true,
+          "pct": 36.47
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 432,
+          "elected": false,
+          "pct": 63.53
+        }
+      ]
+    },
+    {
+      "boothId": 1781,
+      "name": "Leura",
+      "formal": 667,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 74.96,
+      "swing": 1.68,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 334,
+          "pct": 50.07
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 151,
+          "pct": 22.64
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 101,
+          "pct": 15.14
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 6.45
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 3.15
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 500,
+          "elected": true,
+          "pct": 74.96
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 167,
+          "elected": false,
+          "pct": 25.04
+        }
+      ]
+    },
+    {
+      "boothId": 1757,
+      "name": "Kurrajong North",
+      "formal": 666,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 57.81,
+      "swing": 2.96,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 305,
+          "pct": 45.8
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 220,
+          "pct": 33.03
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 12.61
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 40,
+          "pct": 6.01
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 1.35
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 281,
+          "elected": true,
+          "pct": 42.19
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 385,
+          "elected": false,
+          "pct": 57.81
+        }
+      ]
+    },
+    {
+      "boothId": 1494,
+      "name": "Emu Plains North",
+      "formal": 639,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 56.03,
+      "swing": 12.27,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 248,
+          "pct": 38.81
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 211,
+          "pct": 33.02
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 86,
+          "pct": 13.46
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 10.95
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 2.97
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 358,
+          "elected": true,
+          "pct": 56.03
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 281,
+          "elected": false,
+          "pct": 43.97
+        }
+      ]
+    },
+    {
+      "boothId": 1818,
+      "name": "Woodford",
+      "formal": 612,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 72.88,
+      "swing": 1.66,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 301,
+          "pct": 49.18
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 125,
+          "pct": 20.42
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 96,
+          "pct": 15.69
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 7.03
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 4.58
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 446,
+          "elected": true,
+          "pct": 72.88
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 166,
+          "elected": false,
+          "pct": 27.12
+        }
+      ]
+    },
+    {
+      "boothId": 1809,
+      "name": "Valley Heights",
+      "formal": 532,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 64.29,
+      "swing": 3.27,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 283,
+          "pct": 53.2
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 133,
+          "pct": 25.0
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 49,
+          "pct": 9.21
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 6.95
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 3.95
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 342,
+          "elected": true,
+          "pct": 64.29
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 190,
+          "elected": false,
+          "pct": 35.71
+        }
+      ]
+    },
+    {
+      "boothId": 1786,
+      "name": "McGraths Hill",
+      "formal": 531,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 51.22,
+      "swing": -5.31,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 202,
+          "pct": 38.04
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 196,
+          "pct": 36.91
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 14.5
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 40,
+          "pct": 7.53
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 1.88
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 259,
+          "elected": true,
+          "pct": 48.78
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 272,
+          "elected": false,
+          "pct": 51.22
+        }
+      ]
+    },
+    {
+      "boothId": 1782,
+      "name": "Leura Central",
+      "formal": 516,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 71.12,
+      "swing": -0.01,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 247,
+          "pct": 47.87
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 113,
+          "pct": 21.9
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 112,
+          "pct": 21.71
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 3.29
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.71
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 367,
+          "elected": true,
+          "pct": 71.12
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 149,
+          "elected": false,
+          "pct": 28.88
+        }
+      ]
+    },
+    {
+      "boothId": 1778,
+      "name": "Kurrajong East",
+      "formal": 488,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 65.16,
+      "swing": 5.48,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 207,
+          "pct": 42.42
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 129,
+          "pct": 26.43
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 94,
+          "pct": 19.26
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 31,
+          "pct": 6.35
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 4.51
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "elected": true,
+          "pct": 34.84
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 318,
+          "elected": false,
+          "pct": 65.16
+        }
+      ]
+    },
+    {
+      "boothId": 1475,
+      "name": "Blaxland",
+      "formal": 467,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 68.52,
+      "swing": 9.38,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 233,
+          "pct": 49.89
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 97,
+          "pct": 20.77
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 15.85
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 7.92
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 4.28
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 320,
+          "elected": true,
+          "pct": 68.52
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 147,
+          "elected": false,
+          "pct": 31.48
+        }
+      ]
+    },
+    {
+      "boothId": 1748,
+      "name": "Bilpin",
+      "formal": 462,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 58.23,
+      "swing": -7.77,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 227,
+          "pct": 49.13
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 137,
+          "pct": 29.65
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 9.09
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 38,
+          "pct": 8.23
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 2.16
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 269,
+          "elected": true,
+          "pct": 58.23
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 193,
+          "elected": false,
+          "pct": 41.77
+        }
+      ]
+    },
+    {
+      "boothId": 1792,
+      "name": "Mount Victoria",
+      "formal": 425,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 72.47,
+      "swing": 1.3,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 177,
+          "pct": 41.65
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 114,
+          "pct": 26.82
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 77,
+          "pct": 18.12
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 8.47
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 4.47
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 308,
+          "elected": true,
+          "pct": 72.47
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 117,
+          "elected": false,
+          "pct": 27.53
+        }
+      ]
+    },
+    {
+      "boothId": 1787,
+      "name": "Maraylya (Macquarie)",
+      "formal": 421,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 70.55,
+      "swing": 0.3,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 234,
+          "pct": 55.58
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 92,
+          "pct": 21.85
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 12.35
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 26,
+          "pct": 6.18
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 2.14
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 124,
+          "elected": true,
+          "pct": 29.45
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 297,
+          "elected": false,
+          "pct": 70.55
+        }
+      ]
+    },
+    {
+      "boothId": 83599,
+      "name": "Emu Plains Central",
+      "formal": 387,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 54.26,
+      "swing": -4.89,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 154,
+          "pct": 39.79
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 136,
+          "pct": 35.14
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 37,
+          "pct": 9.56
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 9.04
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 4.13
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 177,
+          "elected": true,
+          "pct": 45.74
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 210,
+          "elected": false,
+          "pct": 54.26
+        }
+      ]
+    },
+    {
+      "boothId": 1819,
+      "name": "Yarramundi",
+      "formal": 313,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 55.59,
+      "swing": 1.28,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 136,
+          "pct": 43.45
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 102,
+          "pct": 32.59
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 11.5
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 22,
+          "pct": 7.03
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 4.47
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "elected": true,
+          "pct": 44.41
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 174,
+          "elected": false,
+          "pct": 55.59
+        }
+      ]
+    },
+    {
+      "boothId": 57669,
+      "name": "Vineyard East (Macquarie)",
+      "formal": 298,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 55.03,
+      "swing": 2.09,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 131,
+          "pct": 43.96
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 100,
+          "pct": 33.56
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 12.08
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 21,
+          "pct": 7.05
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 2.35
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 134,
+          "elected": true,
+          "pct": 44.97
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 164,
+          "elected": false,
+          "pct": 55.03
+        }
+      ]
+    },
+    {
+      "boothId": 109190,
+      "name": "Special Hospital Team 1",
+      "formal": 241,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 58.92,
+      "swing": 2.55,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 120,
+          "pct": 49.79
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 82,
+          "pct": 34.02
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 7.88
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 7.05
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.83
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 142,
+          "elected": true,
+          "pct": 58.92
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 99,
+          "elected": false,
+          "pct": 41.08
+        }
+      ]
+    },
+    {
+      "boothId": 1756,
+      "name": "Colo Heights",
+      "formal": 153,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 52.94,
+      "swing": 2.28,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 65,
+          "pct": 42.48
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 39,
+          "pct": 25.49
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 17.65
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 6.54
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 4.58
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 3.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 81,
+          "elected": true,
+          "pct": 52.94
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 72,
+          "elected": false,
+          "pct": 47.06
+        }
+      ]
+    },
+    {
+      "boothId": 109191,
+      "name": "Special Hospital Team 2",
+      "formal": 148,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 51.35,
+      "swing": 7.87,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 66,
+          "pct": 44.59
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 60,
+          "pct": 40.54
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 8.11
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 4.73
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.35
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 72,
+          "elected": true,
+          "pct": 48.65
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 76,
+          "elected": false,
+          "pct": 51.35
+        }
+      ]
+    },
+    {
+      "boothId": 1804,
+      "name": "St Albans",
+      "formal": 146,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 56.16,
+      "swing": -7.42,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 64,
+          "pct": 43.84
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 40,
+          "pct": 27.4
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 13.7
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 10.27
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.74
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 82,
+          "elected": true,
+          "pct": 56.16
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 64,
+          "elected": false,
+          "pct": 43.84
+        }
+      ]
+    },
+    {
+      "boothId": 1755,
+      "name": "Cattai",
+      "formal": 145,
+      "winnerParty": "lib",
+      "winnerSurname": "CREED",
+      "winnerPct": 66.21,
+      "swing": 5.37,
+      "candidates": [
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 81,
+          "pct": 55.86
+        },
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 42,
+          "pct": 28.97
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 11.03
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 3.45
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.69
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "elected": true,
+          "pct": 33.79
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 96,
+          "elected": false,
+          "pct": 66.21
+        }
+      ]
+    },
+    {
+      "boothId": 65414,
+      "name": "EAV Macquarie PPVC",
+      "formal": 16,
+      "winnerParty": "alp",
+      "winnerSurname": "TEMPLEMAN",
+      "winnerPct": 62.5,
+      "swing": 4.17,
+      "candidates": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10,
+          "pct": 62.5
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5,
+          "pct": 31.25
+        },
+        {
+          "surname": "BOWEN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "JACOBSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "DE LIMA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MORGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "TEMPLEMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10,
+          "elected": true,
+          "pct": 62.5
+        },
+        {
+          "surname": "CREED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6,
+          "elected": false,
+          "pct": 37.5
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 109705,
+    "candidates": [
+      {
+        "id": "C41882",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Jacobson"
+      },
+      {
+        "id": "C41490",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Creed"
+      },
+      {
+        "id": "C41873",
+        "party": "oth",
+        "displayShort": "LTP",
+        "displayLong": "LTP \u2014 De Lima"
+      },
+      {
+        "id": "C41602",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Morgan"
+      },
+      {
+        "id": "C41425",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Templeman"
+      },
+      {
+        "id": "C41801",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Bowen"
+      }
+    ],
+    "rounds": [
+      {
+        "C41882": 9587,
+        "C41490": 34643,
+        "C41873": 1810,
+        "C41602": 13666,
+        "C41425": 46773,
+        "C41801": 3226
+      },
+      {
+        "C41882": 10431,
+        "C41490": 34891,
+        "C41602": 13820,
+        "C41425": 46925,
+        "C41801": 3638
+      },
+      {
+        "C41882": 12315,
+        "C41490": 35624,
+        "C41602": 14251,
+        "C41425": 47515
+      },
+      {
+        "C41490": 44329,
+        "C41602": 15864,
+        "C41425": 49512
+      },
+      {
+        "C41490": 46399,
+        "C41425": 63306
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            57.04,
+            48.74,
+            45.52,
+            52.19,
+            50.19,
+            57.77,
+            57.71
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            42.96,
+            51.26,
+            54.48,
+            47.81,
+            49.81,
+            42.23,
+            42.29
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "ALP": 44.08,
+            "IND": 4.72,
+            "LIB": 37.84,
+            "GRN": 10.36,
+            "OTH": 2.98
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "LIB": 44.47,
+            "ALP": 32.36,
+            "IND": 2.03,
+            "CDP": 2.15,
+            "GRN": 14.09,
+            "LDP": 2.39,
+            "OTH": 2.5
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "LIB": 47.36,
+            "GRN": 11.1,
+            "CDP": 3.02,
+            "ALP": 31.0,
+            "TOP": 4.15,
+            "OTH": 3.36
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "SFF": 3.88,
+            "AJP": 2.79,
+            "LIB": 38.21,
+            "CDP": 3.9,
+            "ALP": 35.52,
+            "GRN": 11.22,
+            "OTH": 4.48
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "ALP": 38.27,
+            "TOP": 4.0,
+            "AJP": 3.72,
+            "LIB": 44.85,
+            "GRN": 9.15
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "AJP": 2.11,
+            "ON": 5.19,
+            "GRN": 9.55,
+            "TOP": 2.91,
+            "LIB": 34.55,
+            "ALP": 42.98,
+            "OTH": 2.71
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "LIB": 31.58,
+            "FFP": 2.94,
+            "ALP": 42.64,
+            "GRN": 12.46,
+            "ON": 8.74,
+            "OTH": 1.65
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 145330,
+    "medianAge": 42,
+    "medianHouseholdIncomeWeekly": 1857,
+    "medianRentWeekly": 400,
+    "averageHouseholdSize": 2.6,
+    "bornOverseasPct": 16.1,
+    "indigenousPct": 3.7,
+    "bachelorPlusPct": 37.7,
+    "renterPct": 20.5,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 117234,
+        "pct": 83.87,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 3196,
+        "pct": 2.29,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 946,
+        "pct": 0.68,
+        "natPct": 1.11
+      },
+      {
+        "label": "India",
+        "count": 492,
+        "pct": 0.35,
+        "natPct": 1.51
+      },
+      {
+        "label": "Scotland",
+        "count": 398,
+        "pct": 0.28,
+        "natPct": 0.25
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 72983,
+        "pct": 50.22,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 59020,
+        "pct": 40.61,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 8194,
+        "pct": 5.64,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 1520,
+        "pct": 1.05,
+        "natPct": 2.42
+      },
+      {
+        "label": "Other religions",
+        "count": 1068,
+        "pct": 0.73,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Macquarie is an Australian electoral division in the state of New South Wales. The division was created in 1901 and was one of the original 65 divisions contested at the first federal election. It is named for Lachlan Macquarie, who was Governor of New South Wales between 1810 and 1821.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Macquarie",
+    "retrievedAt": "2026-02-24T12:32:11Z"
+  }
+}

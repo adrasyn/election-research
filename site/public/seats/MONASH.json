@@ -1,0 +1,7707 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "MONASH",
+    "divisionId": 323,
+    "name": "Monash",
+    "state": "VIC",
+    "totalFormal": 102520,
+    "informalVotes": 5460,
+    "informalRate": 6.31,
+    "winner": {
+      "candidateId": "C40769",
+      "surname": "ALDRED",
+      "givenName": "Mary",
+      "party": "lib",
+      "partyAb": "LIB",
+      "incumbent": false
+    },
+    "previousWinnerParty": "LIB",
+    "tcpMargin": 8.18,
+    "result": "LIB RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40769",
+      "surname": "ALDRED",
+      "givenName": "Mary",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 25668,
+      "pct": 31.66
+    },
+    {
+      "candidateId": "C40818",
+      "surname": "FLETCHER",
+      "givenName": "Tully",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 16509,
+      "pct": 20.36
+    },
+    {
+      "candidateId": "C36065",
+      "surname": "LEONARD",
+      "givenName": "Deb",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 14464,
+      "pct": 17.84
+    },
+    {
+      "candidateId": "C36737",
+      "surname": "BROADBENT",
+      "givenName": "Russell",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 8136,
+      "pct": 10.03
+    },
+    {
+      "candidateId": "C41598",
+      "surname": "ROBINSON",
+      "givenName": "Kuljeet Kaur",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 6350,
+      "pct": 7.83
+    },
+    {
+      "candidateId": "C41100",
+      "surname": "STEELE",
+      "givenName": "Terence",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 3761,
+      "pct": 4.64
+    },
+    {
+      "candidateId": "C41233",
+      "surname": "O'REILLY",
+      "givenName": "David",
+      "party": "oth",
+      "partyAb": "HMP",
+      "votes": 2785,
+      "pct": 3.43
+    },
+    {
+      "candidateId": "C41366",
+      "surname": "WEHBE",
+      "givenName": "Alex",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 1975,
+      "pct": 2.44
+    },
+    {
+      "candidateId": "C41534",
+      "surname": "DETHLEFS",
+      "givenName": "Geoff",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 1438,
+      "pct": 1.77
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40769",
+      "surname": "ALDRED",
+      "givenName": "Mary",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 55451,
+      "pct": 54.09,
+      "elected": true
+    },
+    {
+      "candidateId": "C40818",
+      "surname": "FLETCHER",
+      "givenName": "Tully",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 47069,
+      "pct": 45.91,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 34224,
+      "name": "Warragul MONASH PPVC",
+      "formal": 17190,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 61.11,
+      "swing": 3.66,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6766,
+          "pct": 39.36
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3013,
+          "pct": 17.53
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2806,
+          "pct": 16.32
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1678,
+          "pct": 9.76
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1306,
+          "pct": 7.6
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 597,
+          "pct": 3.47
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 388,
+          "pct": 2.26
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 320,
+          "pct": 1.86
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 316,
+          "pct": 1.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 10505,
+          "elected": true,
+          "pct": 61.11
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6685,
+          "elected": false,
+          "pct": 38.89
+        }
+      ]
+    },
+    {
+      "boothId": 38307,
+      "name": "Wonthaggi PPVC",
+      "formal": 11908,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 50.3,
+      "swing": 1.13,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3775,
+          "pct": 31.7
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2837,
+          "pct": 23.82
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2311,
+          "pct": 19.41
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1010,
+          "pct": 8.48
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 649,
+          "pct": 5.45
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 582,
+          "pct": 4.89
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 346,
+          "pct": 2.91
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 239,
+          "pct": 2.01
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 159,
+          "pct": 1.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5990,
+          "elected": true,
+          "pct": 50.3
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5918,
+          "elected": false,
+          "pct": 49.7
+        }
+      ]
+    },
+    {
+      "boothId": 83638,
+      "name": "Moe PPVC",
+      "formal": 7167,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 51.58,
+      "swing": -2.01,
+      "candidates": [
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1955,
+          "pct": 27.28
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1785,
+          "pct": 24.91
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 915,
+          "pct": 12.77
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 864,
+          "pct": 12.06
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 803,
+          "pct": 11.2
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 254,
+          "pct": 3.54
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 229,
+          "pct": 3.2
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 228,
+          "pct": 3.18
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 134,
+          "pct": 1.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3470,
+          "elected": true,
+          "pct": 48.42
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3697,
+          "elected": false,
+          "pct": 51.58
+        }
+      ]
+    },
+    {
+      "boothId": 46625,
+      "name": "Cowes PPVC",
+      "formal": 6212,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 51.38,
+      "swing": 0.13,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1868,
+          "pct": 30.07
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1654,
+          "pct": 26.63
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1392,
+          "pct": 22.41
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 394,
+          "pct": 6.34
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 284,
+          "pct": 4.57
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 277,
+          "pct": 4.46
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 157,
+          "pct": 2.53
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 120,
+          "pct": 1.93
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 66,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3020,
+          "elected": true,
+          "pct": 48.62
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3192,
+          "elected": false,
+          "pct": 51.38
+        }
+      ]
+    },
+    {
+      "boothId": 3777,
+      "name": "Korumburra",
+      "formal": 1658,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 53.44,
+      "swing": -0.26,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 464,
+          "pct": 27.99
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 360,
+          "pct": 21.71
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 299,
+          "pct": 18.03
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 190,
+          "pct": 11.46
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 157,
+          "pct": 9.47
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 71,
+          "pct": 4.28
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 66,
+          "pct": 3.98
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 1.87
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 1.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 886,
+          "elected": true,
+          "pct": 53.44
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 772,
+          "elected": false,
+          "pct": 46.56
+        }
+      ]
+    },
+    {
+      "boothId": 3779,
+      "name": "Leongatha",
+      "formal": 1444,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 60.11,
+      "swing": -0.81,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 517,
+          "pct": 35.8
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 250,
+          "pct": 17.31
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 224,
+          "pct": 15.51
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 178,
+          "pct": 12.33
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 100,
+          "pct": 6.93
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 57,
+          "pct": 3.95
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 56,
+          "pct": 3.88
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.42
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 1.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 868,
+          "elected": true,
+          "pct": 60.11
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 576,
+          "elected": false,
+          "pct": 39.89
+        }
+      ]
+    },
+    {
+      "boothId": 4391,
+      "name": "Drouin",
+      "formal": 1225,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 52.0,
+      "swing": 0.37,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 309,
+          "pct": 25.22
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 256,
+          "pct": 20.9
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 195,
+          "pct": 15.92
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 122,
+          "pct": 9.96
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 115,
+          "pct": 9.39
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 6.04
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 56,
+          "pct": 4.57
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 4.24
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 637,
+          "elected": true,
+          "pct": 52.0
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 588,
+          "elected": false,
+          "pct": 48.0
+        }
+      ]
+    },
+    {
+      "boothId": 3772,
+      "name": "Inverloch",
+      "formal": 1168,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 55.91,
+      "swing": 1.85,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 344,
+          "pct": 29.45
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 270,
+          "pct": 23.12
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 258,
+          "pct": 22.09
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 99,
+          "pct": 8.48
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 78,
+          "pct": 6.68
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 4.37
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.65
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.14
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 515,
+          "elected": true,
+          "pct": 44.09
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 653,
+          "elected": false,
+          "pct": 55.91
+        }
+      ]
+    },
+    {
+      "boothId": 4427,
+      "name": "Trafalgar",
+      "formal": 1165,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 50.47,
+      "swing": -3.69,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 333,
+          "pct": 28.58
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 259,
+          "pct": 22.23
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 181,
+          "pct": 15.54
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 109,
+          "pct": 9.36
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 103,
+          "pct": 8.84
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 61,
+          "pct": 5.24
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 4.38
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.43
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 2.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 588,
+          "elected": true,
+          "pct": 50.47
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 577,
+          "elected": false,
+          "pct": 49.53
+        }
+      ]
+    },
+    {
+      "boothId": 4434,
+      "name": "Warragul",
+      "formal": 1078,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 51.02,
+      "swing": -0.48,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 247,
+          "pct": 22.91
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 232,
+          "pct": 21.52
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 202,
+          "pct": 18.74
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 100,
+          "pct": 9.28
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 86,
+          "pct": 7.98
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 72,
+          "pct": 6.68
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 57,
+          "pct": 5.29
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 46,
+          "pct": 4.27
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 3.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 528,
+          "elected": true,
+          "pct": 48.98
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 550,
+          "elected": false,
+          "pct": 51.02
+        }
+      ]
+    },
+    {
+      "boothId": 83613,
+      "name": "Leongatha East",
+      "formal": 1056,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 57.39,
+      "swing": 2.75,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 381,
+          "pct": 36.08
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 180,
+          "pct": 17.05
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 175,
+          "pct": 16.57
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 110,
+          "pct": 10.42
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 61,
+          "pct": 5.78
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 5.3
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 45,
+          "pct": 4.26
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 2.37
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 606,
+          "elected": true,
+          "pct": 57.39
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 450,
+          "elected": false,
+          "pct": 42.61
+        }
+      ]
+    },
+    {
+      "boothId": 3794,
+      "name": "Mirboo North",
+      "formal": 1052,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 51.14,
+      "swing": 3.54,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 283,
+          "pct": 26.9
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 231,
+          "pct": 21.96
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 180,
+          "pct": 17.11
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 136,
+          "pct": 12.93
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 90,
+          "pct": 8.56
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 59,
+          "pct": 5.61
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 4.37
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.81
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 0.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 538,
+          "elected": true,
+          "pct": 51.14
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 514,
+          "elected": false,
+          "pct": 48.86
+        }
+      ]
+    },
+    {
+      "boothId": 64676,
+      "name": "Drouin Summerhill",
+      "formal": 1039,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 51.78,
+      "swing": 5.49,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 254,
+          "pct": 24.45
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 203,
+          "pct": 19.54
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 169,
+          "pct": 16.27
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 111,
+          "pct": 10.68
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 104,
+          "pct": 10.01
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 68,
+          "pct": 6.54
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 65,
+          "pct": 6.26
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.46
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 2.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 538,
+          "elected": true,
+          "pct": 51.78
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 501,
+          "elected": false,
+          "pct": 48.22
+        }
+      ]
+    },
+    {
+      "boothId": 3760,
+      "name": "Foster",
+      "formal": 988,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 50.91,
+      "swing": 0.0,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 296,
+          "pct": 29.96
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 216,
+          "pct": 21.86
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 185,
+          "pct": 18.72
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 106,
+          "pct": 10.73
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 59,
+          "pct": 5.97
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 5.06
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 45,
+          "pct": 4.55
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.02
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 485,
+          "elected": true,
+          "pct": 49.09
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 503,
+          "elected": false,
+          "pct": 50.91
+        }
+      ]
+    },
+    {
+      "boothId": 65905,
+      "name": "Morwell MONASH PPVC",
+      "formal": 971,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 51.18,
+      "swing": 3.91,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 237,
+          "pct": 24.41
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 183,
+          "pct": 18.85
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 146,
+          "pct": 15.04
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 133,
+          "pct": 13.7
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 132,
+          "pct": 13.59
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 60,
+          "pct": 6.18
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 42,
+          "pct": 4.33
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 2.68
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 497,
+          "elected": true,
+          "pct": 51.18
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 474,
+          "elected": false,
+          "pct": 48.82
+        }
+      ]
+    },
+    {
+      "boothId": 4405,
+      "name": "Moe",
+      "formal": 946,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 56.66,
+      "swing": -1.91,
+      "candidates": [
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 241,
+          "pct": 25.48
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 180,
+          "pct": 19.03
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 147,
+          "pct": 15.54
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 107,
+          "pct": 11.31
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 93,
+          "pct": 9.83
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 65,
+          "pct": 6.87
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 54,
+          "pct": 5.71
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 4.44
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 1.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 410,
+          "elected": true,
+          "pct": 43.34
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 536,
+          "elected": false,
+          "pct": 56.66
+        }
+      ]
+    },
+    {
+      "boothId": 4403,
+      "name": "Longwarry",
+      "formal": 917,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 57.14,
+      "swing": 2.83,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 249,
+          "pct": 27.15
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 182,
+          "pct": 19.85
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 147,
+          "pct": 16.03
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 100,
+          "pct": 10.91
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 92,
+          "pct": 10.03
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 55,
+          "pct": 6.0
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 4.47
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 3.05
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 524,
+          "elected": true,
+          "pct": 57.14
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 393,
+          "elected": false,
+          "pct": 42.86
+        }
+      ]
+    },
+    {
+      "boothId": 3623,
+      "name": "Cowes",
+      "formal": 787,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 56.54,
+      "swing": -0.72,
+      "candidates": [
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 229,
+          "pct": 29.1
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 165,
+          "pct": 20.97
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 158,
+          "pct": 20.08
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 72,
+          "pct": 9.15
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 56,
+          "pct": 7.12
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 42,
+          "pct": 5.34
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 5.08
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.03
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 1.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 342,
+          "elected": true,
+          "pct": 43.46
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 445,
+          "elected": false,
+          "pct": 56.54
+        }
+      ]
+    },
+    {
+      "boothId": 4436,
+      "name": "Warragul North",
+      "formal": 776,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 50.9,
+      "swing": 1.76,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 212,
+          "pct": 27.32
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 159,
+          "pct": 20.49
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 146,
+          "pct": 18.81
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 70,
+          "pct": 9.02
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 7.09
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 48,
+          "pct": 6.19
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 34,
+          "pct": 4.38
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 3.87
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 381,
+          "elected": true,
+          "pct": 49.1
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 395,
+          "elected": false,
+          "pct": 50.9
+        }
+      ]
+    },
+    {
+      "boothId": 4417,
+      "name": "Newborough East",
+      "formal": 776,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 56.31,
+      "swing": -3.26,
+      "candidates": [
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 215,
+          "pct": 27.71
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 139,
+          "pct": 17.91
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 108,
+          "pct": 13.92
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 101,
+          "pct": 13.02
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 87,
+          "pct": 11.21
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 50,
+          "pct": 6.44
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 31,
+          "pct": 3.99
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 2.96
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 339,
+          "elected": true,
+          "pct": 43.69
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 437,
+          "elected": false,
+          "pct": 56.31
+        }
+      ]
+    },
+    {
+      "boothId": 3669,
+      "name": "Wonthaggi",
+      "formal": 772,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 57.9,
+      "swing": -0.97,
+      "candidates": [
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 180,
+          "pct": 23.32
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 144,
+          "pct": 18.65
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 136,
+          "pct": 17.62
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 9.46
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 69,
+          "pct": 8.94
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 60,
+          "pct": 7.77
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 7.38
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 3.5
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 325,
+          "elected": true,
+          "pct": 42.1
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 447,
+          "elected": false,
+          "pct": 57.9
+        }
+      ]
+    },
+    {
+      "boothId": 3634,
+      "name": "Grantville",
+      "formal": 720,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 52.64,
+      "swing": 0.24,
+      "candidates": [
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 195,
+          "pct": 27.08
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 168,
+          "pct": 23.33
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 87,
+          "pct": 12.08
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 11.25
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 67,
+          "pct": 9.31
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 5.97
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 4.58
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 3.89
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 2.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 341,
+          "elected": true,
+          "pct": 47.36
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 379,
+          "elected": false,
+          "pct": 52.64
+        }
+      ]
+    },
+    {
+      "boothId": 4440,
+      "name": "Yarragon",
+      "formal": 697,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 53.08,
+      "swing": 1.4,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 210,
+          "pct": 30.13
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 135,
+          "pct": 19.37
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 129,
+          "pct": 18.51
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 66,
+          "pct": 9.47
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 8.03
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 38,
+          "pct": 5.45
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 34,
+          "pct": 4.88
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 2.15
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 370,
+          "elected": true,
+          "pct": 53.08
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 327,
+          "elected": false,
+          "pct": 46.92
+        }
+      ]
+    },
+    {
+      "boothId": 3622,
+      "name": "Corinella",
+      "formal": 683,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 53.0,
+      "swing": 4.69,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 194,
+          "pct": 28.4
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 146,
+          "pct": 21.38
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 91,
+          "pct": 13.32
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 74,
+          "pct": 10.83
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 55,
+          "pct": 8.05
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 42,
+          "pct": 6.15
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 40,
+          "pct": 5.86
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 4.1
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 1.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 362,
+          "elected": true,
+          "pct": 53.0
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 321,
+          "elected": false,
+          "pct": 47.0
+        }
+      ]
+    },
+    {
+      "boothId": 4415,
+      "name": "Neerim South",
+      "formal": 675,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 66.22,
+      "swing": 5.18,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 253,
+          "pct": 37.48
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "pct": 14.37
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 91,
+          "pct": 13.48
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 85,
+          "pct": 12.59
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 80,
+          "pct": 11.85
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 26,
+          "pct": 3.85
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.67
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.22
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 1.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 447,
+          "elected": true,
+          "pct": 66.22
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 228,
+          "elected": false,
+          "pct": 33.78
+        }
+      ]
+    },
+    {
+      "boothId": 4435,
+      "name": "Warragul East",
+      "formal": 657,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 50.23,
+      "swing": 0.65,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 141,
+          "pct": 21.46
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 141,
+          "pct": 21.46
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 134,
+          "pct": 20.4
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 78,
+          "pct": 11.87
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 7.76
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 48,
+          "pct": 7.31
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 3.5
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 21,
+          "pct": 3.2
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 3.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 327,
+          "elected": true,
+          "pct": 49.77
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 330,
+          "elected": false,
+          "pct": 50.23
+        }
+      ]
+    },
+    {
+      "boothId": 3648,
+      "name": "Nyora",
+      "formal": 628,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 62.9,
+      "swing": 1.48,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 216,
+          "pct": 34.39
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 91,
+          "pct": 14.49
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 91,
+          "pct": 14.49
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 83,
+          "pct": 13.22
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 59,
+          "pct": 9.39
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 5.41
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 24,
+          "pct": 3.82
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.03
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 395,
+          "elected": true,
+          "pct": 62.9
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 233,
+          "elected": false,
+          "pct": 37.1
+        }
+      ]
+    },
+    {
+      "boothId": 83698,
+      "name": "Drouin Central",
+      "formal": 627,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 51.83,
+      "swing": 5.85,
+      "candidates": [
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 164,
+          "pct": 26.16
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 161,
+          "pct": 25.68
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 101,
+          "pct": 16.11
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 9.57
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 51,
+          "pct": 8.13
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 34,
+          "pct": 5.42
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 3.19
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.03
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 2.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 302,
+          "elected": true,
+          "pct": 48.17
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 325,
+          "elected": false,
+          "pct": 51.83
+        }
+      ]
+    },
+    {
+      "boothId": 3671,
+      "name": "Wonthaggi North",
+      "formal": 619,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 53.8,
+      "swing": 0.06,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "pct": 23.1
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 126,
+          "pct": 20.36
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 111,
+          "pct": 17.93
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 9.21
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 54,
+          "pct": 8.72
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 8.08
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 6.95
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 3.39
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 286,
+          "elected": true,
+          "pct": 46.2
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 333,
+          "elected": false,
+          "pct": 53.8
+        }
+      ]
+    },
+    {
+      "boothId": 3757,
+      "name": "Fish Creek",
+      "formal": 605,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 53.88,
+      "swing": 2.7,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 182,
+          "pct": 30.08
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 159,
+          "pct": 26.28
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "pct": 16.03
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 66,
+          "pct": 10.91
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 65,
+          "pct": 10.74
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 1.98
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.82
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.32
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 279,
+          "elected": true,
+          "pct": 46.12
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 326,
+          "elected": false,
+          "pct": 53.88
+        }
+      ]
+    },
+    {
+      "boothId": 3790,
+      "name": "Meeniyan",
+      "formal": 565,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 62.48,
+      "swing": 1.0,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 218,
+          "pct": 38.58
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 111,
+          "pct": 19.65
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 88,
+          "pct": 15.58
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 59,
+          "pct": 10.44
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 5.31
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 5.13
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.83
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.42
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 353,
+          "elected": true,
+          "pct": 62.48
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 212,
+          "elected": false,
+          "pct": 37.52
+        }
+      ]
+    },
+    {
+      "boothId": 3830,
+      "name": "Tarwin Lower",
+      "formal": 559,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 56.53,
+      "swing": 1.63,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 137,
+          "pct": 24.51
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 136,
+          "pct": 24.33
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 132,
+          "pct": 23.61
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 9.3
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 6.08
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 5.9
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.86
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 1.79
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 243,
+          "elected": true,
+          "pct": 43.47
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 316,
+          "elected": false,
+          "pct": 56.53
+        }
+      ]
+    },
+    {
+      "boothId": 4407,
+      "name": "Moe West",
+      "formal": 550,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 52.91,
+      "swing": 0.47,
+      "candidates": [
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 128,
+          "pct": 23.27
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 94,
+          "pct": 17.09
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 76,
+          "pct": 13.82
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 72,
+          "pct": 13.09
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 12.91
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 37,
+          "pct": 6.73
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 5.45
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 5.09
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 259,
+          "elected": true,
+          "pct": 47.09
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 291,
+          "elected": false,
+          "pct": 52.91
+        }
+      ]
+    },
+    {
+      "boothId": 3647,
+      "name": "Newhaven",
+      "formal": 550,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 64.18,
+      "swing": 6.9,
+      "candidates": [
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 209,
+          "pct": 38.0
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 105,
+          "pct": 19.09
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 100,
+          "pct": 18.18
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 50,
+          "pct": 9.09
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 5.64
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 4.0
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 2.91
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.82
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 197,
+          "elected": true,
+          "pct": 35.82
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 353,
+          "elected": false,
+          "pct": 64.18
+        }
+      ]
+    },
+    {
+      "boothId": 3660,
+      "name": "San Remo",
+      "formal": 542,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 59.59,
+      "swing": 5.94,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 170,
+          "pct": 31.37
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 143,
+          "pct": 26.38
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "pct": 17.9
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 7.75
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 34,
+          "pct": 6.27
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 3.69
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.51
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.66
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 323,
+          "elected": true,
+          "pct": 59.59
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 219,
+          "elected": false,
+          "pct": 40.41
+        }
+      ]
+    },
+    {
+      "boothId": 4418,
+      "name": "Nilma",
+      "formal": 531,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 60.45,
+      "swing": -4.26,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 201,
+          "pct": 37.85
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 93,
+          "pct": 17.51
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 85,
+          "pct": 16.01
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 9.42
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 7.91
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 3.58
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 3.01
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.45
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 321,
+          "elected": true,
+          "pct": 60.45
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 210,
+          "elected": false,
+          "pct": 39.55
+        }
+      ]
+    },
+    {
+      "boothId": 4392,
+      "name": "Drouin West",
+      "formal": 459,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 65.58,
+      "swing": 10.19,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 166,
+          "pct": 36.17
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 68,
+          "pct": 14.81
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 62,
+          "pct": 13.51
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 54,
+          "pct": 11.76
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 9.59
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 4.14
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 18,
+          "pct": 3.92
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 3.49
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 301,
+          "elected": true,
+          "pct": 65.58
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 158,
+          "elected": false,
+          "pct": 34.42
+        }
+      ]
+    },
+    {
+      "boothId": 3835,
+      "name": "Toora",
+      "formal": 434,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 50.46,
+      "swing": 2.83,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 117,
+          "pct": 26.96
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 80,
+          "pct": 18.43
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 74,
+          "pct": 17.05
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 68,
+          "pct": 15.67
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 9.45
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 26,
+          "pct": 5.99
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 4.61
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.61
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 215,
+          "elected": true,
+          "pct": 49.54
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 219,
+          "elected": false,
+          "pct": 50.46
+        }
+      ]
+    },
+    {
+      "boothId": 4384,
+      "name": "Buln Buln",
+      "formal": 429,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 62.47,
+      "swing": 0.49,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 163,
+          "pct": 38.0
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 86,
+          "pct": 20.05
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 12.12
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 40,
+          "pct": 9.32
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 9.09
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 16,
+          "pct": 3.73
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 3.26
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.56
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 268,
+          "elected": true,
+          "pct": 62.47
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 161,
+          "elected": false,
+          "pct": 37.53
+        }
+      ]
+    },
+    {
+      "boothId": 3650,
+      "name": "Poowong",
+      "formal": 427,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 63.7,
+      "swing": 5.09,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 159,
+          "pct": 37.24
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 82,
+          "pct": 19.2
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 60,
+          "pct": 14.05
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 10.77
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 10.54
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 2.58
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.58
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.64
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 1.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 272,
+          "elected": true,
+          "pct": 63.7
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 155,
+          "elected": false,
+          "pct": 36.3
+        }
+      ]
+    },
+    {
+      "boothId": 4438,
+      "name": "Willowgrove",
+      "formal": 422,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 69.91,
+      "swing": 7.67,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 165,
+          "pct": 39.1
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 57,
+          "pct": 13.51
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 56,
+          "pct": 13.27
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 53,
+          "pct": 12.56
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "pct": 11.61
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 4.27
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 2.37
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.66
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 1.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 295,
+          "elected": true,
+          "pct": 69.91
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 127,
+          "elected": false,
+          "pct": 30.09
+        }
+      ]
+    },
+    {
+      "boothId": 3776,
+      "name": "Koonwarra",
+      "formal": 413,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 54.24,
+      "swing": -5.41,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 150,
+          "pct": 36.32
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 87,
+          "pct": 21.07
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 73,
+          "pct": 17.68
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 47,
+          "pct": 11.38
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 24,
+          "pct": 5.81
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 2.91
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.42
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.21
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 224,
+          "elected": true,
+          "pct": 54.24
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 189,
+          "elected": false,
+          "pct": 45.76
+        }
+      ]
+    },
+    {
+      "boothId": 3750,
+      "name": "Drouin South",
+      "formal": 410,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 69.02,
+      "swing": -0.42,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 162,
+          "pct": 39.51
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 51,
+          "pct": 12.44
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 12.2
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 47,
+          "pct": 11.46
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 10.24
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 4.88
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 3.41
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 13,
+          "pct": 3.17
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 283,
+          "elected": true,
+          "pct": 69.02
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 127,
+          "elected": false,
+          "pct": 30.98
+        }
+      ]
+    },
+    {
+      "boothId": 3754,
+      "name": "Ellinbank",
+      "formal": 404,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 60.4,
+      "swing": -6.45,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 159,
+          "pct": 39.36
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 88,
+          "pct": 21.78
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "pct": 12.13
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 47,
+          "pct": 11.63
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 7.67
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 2.97
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.98
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.24
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 244,
+          "elected": true,
+          "pct": 60.4
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 160,
+          "elected": false,
+          "pct": 39.6
+        }
+      ]
+    },
+    {
+      "boothId": 3780,
+      "name": "Leongatha South",
+      "formal": 380,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 72.11,
+      "swing": -0.13,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 187,
+          "pct": 49.21
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 61,
+          "pct": 16.05
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 49,
+          "pct": 12.89
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 29,
+          "pct": 7.63
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 3.68
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 3.16
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 2.63
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 2.37
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 274,
+          "elected": true,
+          "pct": 72.11
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 106,
+          "elected": false,
+          "pct": 27.89
+        }
+      ]
+    },
+    {
+      "boothId": 3722,
+      "name": "Bena",
+      "formal": 365,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 63.29,
+      "swing": 1.62,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 159,
+          "pct": 43.56
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 53,
+          "pct": 14.52
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 13.7
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 10.14
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 7.12
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 3.56
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 13,
+          "pct": 3.56
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.74
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 231,
+          "elected": true,
+          "pct": 63.29
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 134,
+          "elected": false,
+          "pct": 36.71
+        }
+      ]
+    },
+    {
+      "boothId": 93057,
+      "name": "Pakenham MONASH PPVC",
+      "formal": 364,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 56.04,
+      "swing": -3.25,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 116,
+          "pct": 31.87
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 72,
+          "pct": 19.78
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 13.74
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 8.79
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 8.24
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 7.42
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 5.22
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 3.57
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 204,
+          "elected": true,
+          "pct": 56.04
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 160,
+          "elected": false,
+          "pct": 43.96
+        }
+      ]
+    },
+    {
+      "boothId": 3751,
+      "name": "Dumbalk",
+      "formal": 361,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 67.04,
+      "swing": 0.12,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 167,
+          "pct": 46.26
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 54,
+          "pct": 14.96
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 10.8
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 10.53
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 7.76
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 3.88
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.77
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.94
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 242,
+          "elected": true,
+          "pct": 67.04
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 119,
+          "elected": false,
+          "pct": 32.96
+        }
+      ]
+    },
+    {
+      "boothId": 4390,
+      "name": "Darnum",
+      "formal": 360,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 68.06,
+      "swing": 7.86,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 144,
+          "pct": 40.0
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 54,
+          "pct": 15.0
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 47,
+          "pct": 13.06
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 10.28
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 9.72
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 4.72
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 3.06
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 2.5
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 245,
+          "elected": true,
+          "pct": 68.06
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 115,
+          "elected": false,
+          "pct": 31.94
+        }
+      ]
+    },
+    {
+      "boothId": 3801,
+      "name": "Nerrena",
+      "formal": 360,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 72.78,
+      "swing": 0.51,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 190,
+          "pct": 52.78
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 47,
+          "pct": 13.06
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "pct": 10.83
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 9.17
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 6.94
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.78
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.5
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 1.67
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 262,
+          "elected": true,
+          "pct": 72.78
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 98,
+          "elected": false,
+          "pct": 27.22
+        }
+      ]
+    },
+    {
+      "boothId": 3838,
+      "name": "Welshpool",
+      "formal": 360,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 65.0,
+      "swing": -1.58,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 151,
+          "pct": 41.94
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 67,
+          "pct": 18.61
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 49,
+          "pct": 13.61
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 10.0
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 6.94
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 3.89
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.78
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.94
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 234,
+          "elected": true,
+          "pct": 65.0
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 126,
+          "elected": false,
+          "pct": 35.0
+        }
+      ]
+    },
+    {
+      "boothId": 3627,
+      "name": "Dalyston",
+      "formal": 344,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 54.65,
+      "swing": 1.22,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 79,
+          "pct": 22.97
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 77,
+          "pct": 22.38
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 66,
+          "pct": 19.19
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 9.59
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 9.3
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 6.98
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 6.4
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 2.33
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 156,
+          "elected": true,
+          "pct": 45.35
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 188,
+          "elected": false,
+          "pct": 54.65
+        }
+      ]
+    },
+    {
+      "boothId": 3641,
+      "name": "Loch",
+      "formal": 341,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 56.6,
+      "swing": 1.77,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 123,
+          "pct": 36.07
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 67,
+          "pct": 19.65
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "pct": 14.37
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 9.68
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 7.33
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 5.28
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 13,
+          "pct": 3.81
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.64
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 193,
+          "elected": true,
+          "pct": 56.6
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 148,
+          "elected": false,
+          "pct": 43.4
+        }
+      ]
+    },
+    {
+      "boothId": 4416,
+      "name": "Newborough",
+      "formal": 339,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 59.0,
+      "swing": -1.09,
+      "candidates": [
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 95,
+          "pct": 28.02
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 55,
+          "pct": 16.22
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 12.39
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 12.09
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 10.91
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 28,
+          "pct": 8.26
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 27,
+          "pct": 7.96
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 3.24
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 0.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 139,
+          "elected": true,
+          "pct": 41.0
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 200,
+          "elected": false,
+          "pct": 59.0
+        }
+      ]
+    },
+    {
+      "boothId": 4406,
+      "name": "Moe Central",
+      "formal": 329,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 61.7,
+      "swing": 2.39,
+      "candidates": [
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 91,
+          "pct": 27.66
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 58,
+          "pct": 17.63
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 14.59
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 44,
+          "pct": 13.37
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 8.21
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 7.29
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 22,
+          "pct": 6.69
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 3.04
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 126,
+          "elected": true,
+          "pct": 38.3
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 203,
+          "elected": false,
+          "pct": 61.7
+        }
+      ]
+    },
+    {
+      "boothId": 4383,
+      "name": "Bona Vista",
+      "formal": 302,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 60.6,
+      "swing": 10.93,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 113,
+          "pct": 37.42
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 67,
+          "pct": 22.19
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 41,
+          "pct": 13.58
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 12.91
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 4.64
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 3.31
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.98
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.99
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 183,
+          "elected": true,
+          "pct": 60.6
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 119,
+          "elected": false,
+          "pct": 39.4
+        }
+      ]
+    },
+    {
+      "boothId": 3614,
+      "name": "Bass",
+      "formal": 301,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 54.15,
+      "swing": -2.22,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 92,
+          "pct": 30.56
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 65,
+          "pct": 21.59
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 17.28
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 8.64
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 6.98
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 4.65
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 3.99
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 3.65
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 2.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 163,
+          "elected": true,
+          "pct": 54.15
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 138,
+          "elected": false,
+          "pct": 45.85
+        }
+      ]
+    },
+    {
+      "boothId": 8891,
+      "name": "Cape Paterson",
+      "formal": 290,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 65.52,
+      "swing": 2.68,
+      "candidates": [
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 99,
+          "pct": 34.14
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 70,
+          "pct": 24.14
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 58,
+          "pct": 20.0
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 24,
+          "pct": 8.28
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 6.9
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 2.76
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.72
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.38
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 100,
+          "elected": true,
+          "pct": 34.48
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 190,
+          "elected": false,
+          "pct": 65.52
+        }
+      ]
+    },
+    {
+      "boothId": 3654,
+      "name": "Rhyll",
+      "formal": 280,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 55.36,
+      "swing": 7.89,
+      "candidates": [
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 84,
+          "pct": 30.0
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 75,
+          "pct": 26.79
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 62,
+          "pct": 22.14
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 8.21
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 3.93
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 3.57
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 3.21
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.07
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 125,
+          "elected": true,
+          "pct": 44.64
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 155,
+          "elected": false,
+          "pct": 55.36
+        }
+      ]
+    },
+    {
+      "boothId": 3832,
+      "name": "Thorpdale",
+      "formal": 273,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 63.0,
+      "swing": -2.63,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 92,
+          "pct": 33.7
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 58,
+          "pct": 21.25
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 15.02
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 37,
+          "pct": 13.55
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 8.06
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 3.66
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 2.93
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.47
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 172,
+          "elected": true,
+          "pct": 63.0
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 101,
+          "elected": false,
+          "pct": 37.0
+        }
+      ]
+    },
+    {
+      "boothId": 3716,
+      "name": "Arawata",
+      "formal": 242,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 68.18,
+      "swing": -3.82,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 101,
+          "pct": 41.74
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 18.6
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 15.29
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 24,
+          "pct": 9.92
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 7.85
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 3.31
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.65
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.24
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 165,
+          "elected": true,
+          "pct": 68.18
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 77,
+          "elected": false,
+          "pct": 31.82
+        }
+      ]
+    },
+    {
+      "boothId": 3636,
+      "name": "Kilcunda",
+      "formal": 241,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 53.94,
+      "swing": -4.27,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 67,
+          "pct": 27.8
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 59,
+          "pct": 24.48
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "pct": 18.67
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 24,
+          "pct": 9.96
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 7.05
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 5.81
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.9
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.66
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 111,
+          "elected": true,
+          "pct": 46.06
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 130,
+          "elected": false,
+          "pct": 53.94
+        }
+      ]
+    },
+    {
+      "boothId": 4399,
+      "name": "Jindivick",
+      "formal": 238,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 60.08,
+      "swing": 0.44,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 72,
+          "pct": 30.25
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 18.91
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 17.65
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "pct": 12.61
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 10.08
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 5.88
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 2.52
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.1
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 143,
+          "elected": true,
+          "pct": 60.08
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 95,
+          "elected": false,
+          "pct": 39.92
+        }
+      ]
+    },
+    {
+      "boothId": 4400,
+      "name": "Labertouche",
+      "formal": 233,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 74.68,
+      "swing": 8.16,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 125,
+          "pct": 53.65
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 32,
+          "pct": 13.73
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 10.73
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 6.01
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 5.58
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 3.86
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 2.15
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.15
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 2.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 174,
+          "elected": true,
+          "pct": 74.68
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 59,
+          "elected": false,
+          "pct": 25.32
+        }
+      ]
+    },
+    {
+      "boothId": 82829,
+      "name": "Erica",
+      "formal": 228,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 60.09,
+      "swing": 9.41,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 63,
+          "pct": 27.63
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 20.18
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 32,
+          "pct": 14.04
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 14.04
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 10.09
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 17,
+          "pct": 7.46
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 4.39
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.75
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 137,
+          "elected": true,
+          "pct": 60.09
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 91,
+          "elected": false,
+          "pct": 39.91
+        }
+      ]
+    },
+    {
+      "boothId": 3775,
+      "name": "Kongwak",
+      "formal": 217,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 58.53,
+      "swing": 1.33,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 69,
+          "pct": 31.8
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 19.82
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 17.05
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 27,
+          "pct": 12.44
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 6.45
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 5.99
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 5.53
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.92
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 127,
+          "elected": true,
+          "pct": 58.53
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 90,
+          "elected": false,
+          "pct": 41.47
+        }
+      ]
+    },
+    {
+      "boothId": 3812,
+      "name": "Port Franklin",
+      "formal": 198,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 56.57,
+      "swing": 3.02,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 77,
+          "pct": 38.89
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 17.68
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 33,
+          "pct": 16.67
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 11.11
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 5.05
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 4.04
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 3.03
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 3.03
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 112,
+          "elected": true,
+          "pct": 56.57
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 86,
+          "elected": false,
+          "pct": 43.43
+        }
+      ]
+    },
+    {
+      "boothId": 4419,
+      "name": "Noojee",
+      "formal": 192,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 59.38,
+      "swing": -2.65,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 61,
+          "pct": 31.77
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 15.62
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 14.58
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 14.06
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 24,
+          "pct": 12.5
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 4.17
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 4.17
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.08
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 114,
+          "elected": true,
+          "pct": 59.38
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 78,
+          "elected": false,
+          "pct": 40.62
+        }
+      ]
+    },
+    {
+      "boothId": 3845,
+      "name": "Yanakie",
+      "formal": 183,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 51.37,
+      "swing": 2.72,
+      "candidates": [
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 27.32
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 45,
+          "pct": 24.59
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 28,
+          "pct": 15.3
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 15.3
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 8.74
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 3.83
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 3.83
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.55
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 89,
+          "elected": true,
+          "pct": 48.63
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "elected": false,
+          "pct": 51.37
+        }
+      ]
+    },
+    {
+      "boothId": 3796,
+      "name": "Mount Eccles",
+      "formal": 153,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 67.97,
+      "swing": 3.95,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 78,
+          "pct": 50.98
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 25,
+          "pct": 16.34
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 9.8
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 9.15
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 8.5
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 2.61
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.31
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.65
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 104,
+          "elected": true,
+          "pct": 67.97
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "elected": false,
+          "pct": 32.03
+        }
+      ]
+    },
+    {
+      "boothId": 3800,
+      "name": "Narracan",
+      "formal": 149,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 71.81,
+      "swing": 4.73,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 64,
+          "pct": 42.95
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 13.42
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 12.75
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 14,
+          "pct": 9.4
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 9.4
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 5.37
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 4.7
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 2.01
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 107,
+          "elected": true,
+          "pct": 71.81
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 42,
+          "elected": false,
+          "pct": 28.19
+        }
+      ]
+    },
+    {
+      "boothId": 109023,
+      "name": "Special Hospital Team 2",
+      "formal": 142,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 64.08,
+      "swing": 5.79,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 53,
+          "pct": 37.32
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 27.46
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 35,
+          "pct": 24.65
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 4.93
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 4.23
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.41
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 91,
+          "elected": true,
+          "pct": 64.08
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 51,
+          "elected": false,
+          "pct": 35.92
+        }
+      ]
+    },
+    {
+      "boothId": 108413,
+      "name": "Special Hospital Team 1",
+      "formal": 120,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 67.5,
+      "swing": 9.41,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 49,
+          "pct": 40.83
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 21.67
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 25,
+          "pct": 20.83
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 8.33
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 7.5
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.83
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 81,
+          "elected": true,
+          "pct": 67.5
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "elected": false,
+          "pct": 32.5
+        }
+      ]
+    },
+    {
+      "boothId": 109077,
+      "name": "Special Hospital Team 4",
+      "formal": 113,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 59.29,
+      "swing": 0.96,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 51,
+          "pct": 45.13
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 38,
+          "pct": 33.63
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 9.73
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 6.19
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 3.54
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 1.77
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 67,
+          "elected": true,
+          "pct": 59.29
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 46,
+          "elected": false,
+          "pct": 40.71
+        }
+      ]
+    },
+    {
+      "boothId": 32326,
+      "name": "Kernot",
+      "formal": 106,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 59.43,
+      "swing": -5.76,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 35,
+          "pct": 33.02
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 18.87
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 17,
+          "pct": 16.04
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 13.21
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 10.38
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 3.77
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.83
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.94
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 63,
+          "elected": true,
+          "pct": 59.43
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 43,
+          "elected": false,
+          "pct": 40.57
+        }
+      ]
+    },
+    {
+      "boothId": 109066,
+      "name": "Special Hospital Team 3",
+      "formal": 74,
+      "winnerParty": "lib",
+      "winnerSurname": "ALDRED",
+      "winnerPct": 54.05,
+      "swing": -4.44,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 24,
+          "pct": 32.43
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "pct": 25.68
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 17.57
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 17.57
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 4.05
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 2.7
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 40,
+          "elected": true,
+          "pct": 54.05
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 34,
+          "elected": false,
+          "pct": 45.95
+        }
+      ]
+    },
+    {
+      "boothId": 65555,
+      "name": "EAV Monash PPVC",
+      "formal": 7,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 71.43,
+      "swing": 31.43,
+      "candidates": [
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2,
+          "pct": 28.57
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 28.57
+        },
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1,
+          "pct": 14.29
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 14.29
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 14.29
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "elected": true,
+          "pct": 28.57
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "elected": false,
+          "pct": 71.43
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 102520,
+    "candidates": [
+      {
+        "id": "C41598",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Robinson"
+      },
+      {
+        "id": "C40818",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Fletcher"
+      },
+      {
+        "id": "C36737",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Broadbent"
+      },
+      {
+        "id": "C40769",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Aldred"
+      },
+      {
+        "id": "C36065",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Leonard"
+      },
+      {
+        "id": "C41534",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Dethlefs"
+      },
+      {
+        "id": "C41233",
+        "party": "oth",
+        "displayShort": "HMP",
+        "displayLong": "HMP \u2014 O'Reilly"
+      },
+      {
+        "id": "C41100",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Steele"
+      },
+      {
+        "id": "C41366",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Wehbe"
+      }
+    ],
+    "rounds": [
+      {
+        "C41598": 8166,
+        "C40818": 20804,
+        "C36737": 10450,
+        "C40769": 32579,
+        "C36065": 17529,
+        "C41534": 1801,
+        "C41233": 3521,
+        "C41100": 5062,
+        "C41366": 2608
+      },
+      {
+        "C41598": 8522,
+        "C40818": 20915,
+        "C36737": 10805,
+        "C40769": 32986,
+        "C36065": 17663,
+        "C41233": 3724,
+        "C41100": 5145,
+        "C41366": 2760
+      },
+      {
+        "C41598": 9587,
+        "C40818": 21057,
+        "C36737": 11321,
+        "C40769": 33310,
+        "C36065": 17893,
+        "C41233": 4066,
+        "C41100": 5286
+      },
+      {
+        "C41598": 10367,
+        "C40818": 21666,
+        "C36737": 11845,
+        "C40769": 33729,
+        "C36065": 18716,
+        "C41100": 6197
+      },
+      {
+        "C41598": 10662,
+        "C40818": 23904,
+        "C36737": 12234,
+        "C40769": 34036,
+        "C36065": 21684
+      },
+      {
+        "C40818": 25545,
+        "C36737": 16674,
+        "C40769": 37227,
+        "C36065": 23074
+      },
+      {
+        "C40818": 28459,
+        "C40769": 47024,
+        "C36065": 27037
+      },
+      {
+        "C40818": 47069,
+        "C40769": 55451
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            57.36,
+            52.9,
+            54.09
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            42.64,
+            47.1,
+            45.91
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2019",
+          "shares": {
+            "TOP": 4.01,
+            "GRN": 7.01,
+            "ON": 7.62,
+            "LIB": 46.28,
+            "IND": 5.57,
+            "ALP": 29.51
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "IND": 10.72,
+            "TOP": 4.13,
+            "GRN": 9.86,
+            "ALP": 25.6,
+            "LDP": 3.67,
+            "LIB": 37.79,
+            "ON": 7.54,
+            "OTH": 0.7
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "HMP": 3.43,
+            "ALP": 20.29,
+            "ON": 7.97,
+            "CYA": 2.54,
+            "GRN": 4.94,
+            "IND": 27.29,
+            "LIB": 31.78,
+            "OTH": 1.76
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 146349,
+    "medianAge": 46,
+    "medianHouseholdIncomeWeekly": 1283,
+    "medianRentWeekly": 290,
+    "averageHouseholdSize": 2.3,
+    "bornOverseasPct": 13.9,
+    "indigenousPct": 1.4,
+    "bachelorPlusPct": 26.8,
+    "renterPct": 19.9,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 117087,
+        "pct": 86.06,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 2747,
+        "pct": 2.02,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 880,
+        "pct": 0.65,
+        "natPct": 1.11
+      },
+      {
+        "label": "Netherlands",
+        "count": 537,
+        "pct": 0.39,
+        "natPct": 0.14
+      },
+      {
+        "label": "Germany",
+        "count": 407,
+        "pct": 0.3,
+        "natPct": 0.2
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 71716,
+        "pct": 49.0,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 59059,
+        "pct": 40.35,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 12072,
+        "pct": 8.25,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 1109,
+        "pct": 0.76,
+        "natPct": 2.42
+      },
+      {
+        "label": "Other religions",
+        "count": 728,
+        "pct": 0.5,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Monash is an Australian Electoral Division in the state of Victoria, which was contested for the first time at the 2019 federal election.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Monash",
+    "retrievedAt": "2026-02-13T12:13:19Z"
+  }
+}

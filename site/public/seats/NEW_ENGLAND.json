@@ -1,0 +1,8896 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "NEW_ENGLAND",
+    "divisionId": 135,
+    "name": "New England",
+    "state": "NSW",
+    "totalFormal": 114346,
+    "informalVotes": 5416,
+    "informalRate": 5.09,
+    "winner": {
+      "candidateId": "C41945",
+      "surname": "JOYCE",
+      "givenName": "Barnaby",
+      "party": "nat",
+      "partyAb": "NAT",
+      "incumbent": true
+    },
+    "previousWinnerParty": "NAT",
+    "tcpMargin": 34.12,
+    "result": "NAT RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41945",
+      "surname": "JOYCE",
+      "givenName": "Barnaby",
+      "party": "nat",
+      "partyAb": "NAT",
+      "votes": 52895,
+      "pct": 52.37
+    },
+    {
+      "candidateId": "C41423",
+      "surname": "HUGHES",
+      "givenName": "Laura",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 20698,
+      "pct": 20.49
+    },
+    {
+      "candidateId": "C41894",
+      "surname": "LARKHAM",
+      "givenName": "Brent",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 10003,
+      "pct": 9.9
+    },
+    {
+      "candidateId": "C41622",
+      "surname": "WALES",
+      "givenName": "Wendy",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 7820,
+      "pct": 7.74
+    },
+    {
+      "candidateId": "C33409",
+      "surname": "LEDGER",
+      "givenName": "Natasha",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 3625,
+      "pct": 3.59
+    },
+    {
+      "candidateId": "C41805",
+      "surname": "MASTERS",
+      "givenName": "Holly",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 3240,
+      "pct": 3.21
+    },
+    {
+      "candidateId": "C41681",
+      "surname": "JUCHAU",
+      "givenName": "Todd Charles",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2720,
+      "pct": 2.69
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41945",
+      "surname": "JOYCE",
+      "givenName": "Barnaby",
+      "party": "nat",
+      "partyAb": "NAT",
+      "votes": 76680,
+      "pct": 67.06,
+      "elected": true
+    },
+    {
+      "candidateId": "C41423",
+      "surname": "HUGHES",
+      "givenName": "Laura",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 37666,
+      "pct": 32.94,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 33755,
+      "name": "Tamworth PPVC",
+      "formal": 13313,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 68.72,
+      "swing": 0.59,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 7317,
+          "pct": 54.96
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2678,
+          "pct": 20.12
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1343,
+          "pct": 10.09
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 780,
+          "pct": 5.86
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 530,
+          "pct": 3.98
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 357,
+          "pct": 2.68
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 308,
+          "pct": 2.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 9149,
+          "elected": true,
+          "pct": 68.72
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4164,
+          "elected": false,
+          "pct": 31.28
+        }
+      ]
+    },
+    {
+      "boothId": 33752,
+      "name": "Armidale PPVC",
+      "formal": 10791,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 60.1,
+      "swing": 1.57,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 5384,
+          "pct": 49.89
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2713,
+          "pct": 25.14
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1278,
+          "pct": 11.84
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 533,
+          "pct": 4.94
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 358,
+          "pct": 3.32
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 349,
+          "pct": 3.23
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 176,
+          "pct": 1.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 6485,
+          "elected": true,
+          "pct": 60.1
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4306,
+          "elected": false,
+          "pct": 39.9
+        }
+      ]
+    },
+    {
+      "boothId": 33977,
+      "name": "Muswellbrook PPVC",
+      "formal": 7722,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 61.47,
+      "swing": 10.72,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 3231,
+          "pct": 41.84
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2009,
+          "pct": 26.02
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1172,
+          "pct": 15.18
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 461,
+          "pct": 5.97
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 338,
+          "pct": 4.38
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 278,
+          "pct": 3.6
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 233,
+          "pct": 3.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 4747,
+          "elected": true,
+          "pct": 61.47
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2975,
+          "elected": false,
+          "pct": 38.53
+        }
+      ]
+    },
+    {
+      "boothId": 33754,
+      "name": "Inverell PPVC",
+      "formal": 6790,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 77.85,
+      "swing": 2.1,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 4292,
+          "pct": 63.21
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 969,
+          "pct": 14.27
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 715,
+          "pct": 10.53
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 289,
+          "pct": 4.26
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 190,
+          "pct": 2.8
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 186,
+          "pct": 2.74
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 149,
+          "pct": 2.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 5286,
+          "elected": true,
+          "pct": 77.85
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1504,
+          "elected": false,
+          "pct": 22.15
+        }
+      ]
+    },
+    {
+      "boothId": 97651,
+      "name": "Tamworth South PPVC",
+      "formal": 5740,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 71.93,
+      "swing": 1.87,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 3419,
+          "pct": 59.56
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1069,
+          "pct": 18.62
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 592,
+          "pct": 10.31
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 246,
+          "pct": 4.29
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 189,
+          "pct": 3.29
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 118,
+          "pct": 2.06
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 107,
+          "pct": 1.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 4129,
+          "elected": true,
+          "pct": 71.93
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1611,
+          "elected": false,
+          "pct": 28.07
+        }
+      ]
+    },
+    {
+      "boothId": 83197,
+      "name": "Glen Innes PPVC",
+      "formal": 3804,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 75.0,
+      "swing": 1.19,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 2379,
+          "pct": 62.54
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 592,
+          "pct": 15.56
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 317,
+          "pct": 8.33
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 236,
+          "pct": 6.2
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 116,
+          "pct": 3.05
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 96,
+          "pct": 2.52
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 68,
+          "pct": 1.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 2853,
+          "elected": true,
+          "pct": 75.0
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 951,
+          "elected": false,
+          "pct": 25.0
+        }
+      ]
+    },
+    {
+      "boothId": 65440,
+      "name": "Tenterfield PPVC",
+      "formal": 2301,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 72.79,
+      "swing": -0.21,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 1399,
+          "pct": 60.8
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 392,
+          "pct": 17.04
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 175,
+          "pct": 7.61
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 165,
+          "pct": 7.17
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 66,
+          "pct": 2.87
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 58,
+          "pct": 2.52
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 46,
+          "pct": 2.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 1675,
+          "elected": true,
+          "pct": 72.79
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 626,
+          "elected": false,
+          "pct": 27.21
+        }
+      ]
+    },
+    {
+      "boothId": 1978,
+      "name": "Tamworth South",
+      "formal": 1700,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 60.53,
+      "swing": 4.32,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 727,
+          "pct": 42.76
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 399,
+          "pct": 23.47
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 181,
+          "pct": 10.65
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 165,
+          "pct": 9.71
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 98,
+          "pct": 5.76
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 70,
+          "pct": 4.12
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 60,
+          "pct": 3.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 1029,
+          "elected": true,
+          "pct": 60.53
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 671,
+          "elected": false,
+          "pct": 39.47
+        }
+      ]
+    },
+    {
+      "boothId": 1980,
+      "name": "Tamworth East",
+      "formal": 1655,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 58.31,
+      "swing": 2.74,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 747,
+          "pct": 45.14
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 440,
+          "pct": 26.59
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 175,
+          "pct": 10.57
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 110,
+          "pct": 6.65
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 86,
+          "pct": 5.2
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 67,
+          "pct": 4.05
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 1.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 965,
+          "elected": true,
+          "pct": 58.31
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 690,
+          "elected": false,
+          "pct": 41.69
+        }
+      ]
+    },
+    {
+      "boothId": 124046,
+      "name": "Quirindi PPVC",
+      "formal": 1644,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 72.26,
+      "swing": 3.6,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 963,
+          "pct": 58.58
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 332,
+          "pct": 20.19
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 148,
+          "pct": 9.0
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 67,
+          "pct": 4.08
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 60,
+          "pct": 3.65
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 2.92
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 1.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 1188,
+          "elected": true,
+          "pct": 72.26
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 456,
+          "elected": false,
+          "pct": 27.74
+        }
+      ]
+    },
+    {
+      "boothId": 1913,
+      "name": "Armidale",
+      "formal": 1471,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 50.44,
+      "swing": 3.21,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 522,
+          "pct": 35.49
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 370,
+          "pct": 25.15
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 282,
+          "pct": 19.17
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 137,
+          "pct": 9.31
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 5.17
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 3.54
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 742,
+          "elected": true,
+          "pct": 50.44
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 729,
+          "elected": false,
+          "pct": 49.56
+        }
+      ]
+    },
+    {
+      "boothId": 1118,
+      "name": "Manilla",
+      "formal": 1299,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 70.21,
+      "swing": 1.36,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 696,
+          "pct": 53.58
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 239,
+          "pct": 18.4
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 163,
+          "pct": 12.55
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 58,
+          "pct": 4.46
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 54,
+          "pct": 4.16
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.62
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 42,
+          "pct": 3.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 912,
+          "elected": true,
+          "pct": 70.21
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 387,
+          "elected": false,
+          "pct": 29.79
+        }
+      ]
+    },
+    {
+      "boothId": 1146,
+      "name": "Scone",
+      "formal": 1268,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 70.5,
+      "swing": 0.45,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 718,
+          "pct": 56.62
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 240,
+          "pct": 18.93
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 114,
+          "pct": 8.99
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 94,
+          "pct": 7.41
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 3.0
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 2.6
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 2.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 894,
+          "elected": true,
+          "pct": 70.5
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 374,
+          "elected": false,
+          "pct": 29.5
+        }
+      ]
+    },
+    {
+      "boothId": 1918,
+      "name": "Armidale West",
+      "formal": 1231,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 52.8,
+      "swing": 1.44,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 514,
+          "pct": 41.75
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 332,
+          "pct": 26.97
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 215,
+          "pct": 17.47
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 4.87
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 3.74
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 3.49
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 650,
+          "elected": true,
+          "pct": 52.8
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 581,
+          "elected": false,
+          "pct": 47.2
+        }
+      ]
+    },
+    {
+      "boothId": 1132,
+      "name": "Muswellbrook East",
+      "formal": 1223,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 53.88,
+      "swing": 6.83,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 339,
+          "pct": 27.72
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 325,
+          "pct": 26.57
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 235,
+          "pct": 19.22
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 140,
+          "pct": 11.45
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 64,
+          "pct": 5.23
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 62,
+          "pct": 5.07
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 58,
+          "pct": 4.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 659,
+          "elected": true,
+          "pct": 53.88
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 564,
+          "elected": false,
+          "pct": 46.12
+        }
+      ]
+    },
+    {
+      "boothId": 1970,
+      "name": "Oxley Vale",
+      "formal": 1204,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 59.63,
+      "swing": 1.83,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 509,
+          "pct": 42.28
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 268,
+          "pct": 22.26
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 161,
+          "pct": 13.37
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 120,
+          "pct": 9.97
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 61,
+          "pct": 5.07
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 49,
+          "pct": 4.07
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 2.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 718,
+          "elected": true,
+          "pct": 59.63
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 486,
+          "elected": false,
+          "pct": 40.37
+        }
+      ]
+    },
+    {
+      "boothId": 1922,
+      "name": "Ben Venue",
+      "formal": 1132,
+      "winnerParty": "alp",
+      "winnerSurname": "HUGHES",
+      "winnerPct": 53.09,
+      "swing": 0.84,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 421,
+          "pct": 37.19
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 308,
+          "pct": 27.21
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 269,
+          "pct": 23.76
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 53,
+          "pct": 4.68
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 3.27
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 2.21
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 531,
+          "elected": true,
+          "pct": 46.91
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 601,
+          "elected": false,
+          "pct": 53.09
+        }
+      ]
+    },
+    {
+      "boothId": 1131,
+      "name": "Muswellbrook",
+      "formal": 1094,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 56.12,
+      "swing": 5.16,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 316,
+          "pct": 28.88
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 276,
+          "pct": 25.23
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 193,
+          "pct": 17.64
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 126,
+          "pct": 11.52
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 65,
+          "pct": 5.94
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 61,
+          "pct": 5.58
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 57,
+          "pct": 5.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 614,
+          "elected": true,
+          "pct": 56.12
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 480,
+          "elected": false,
+          "pct": 43.88
+        }
+      ]
+    },
+    {
+      "boothId": 34947,
+      "name": "Tamworth North",
+      "formal": 1070,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 61.31,
+      "swing": 2.6,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 485,
+          "pct": 45.33
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 249,
+          "pct": 23.27
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 116,
+          "pct": 10.84
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 107,
+          "pct": 10.0
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 3.83
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 3.74
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 656,
+          "elected": true,
+          "pct": 61.31
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 414,
+          "elected": false,
+          "pct": 38.69
+        }
+      ]
+    },
+    {
+      "boothId": 1949,
+      "name": "Inverell",
+      "formal": 1049,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 73.59,
+      "swing": 1.71,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 565,
+          "pct": 53.86
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 162,
+          "pct": 15.44
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 116,
+          "pct": 11.06
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 79,
+          "pct": 7.53
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 4.96
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 3.72
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 772,
+          "elected": true,
+          "pct": 73.59
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 277,
+          "elected": false,
+          "pct": 26.41
+        }
+      ]
+    },
+    {
+      "boothId": 1989,
+      "name": "Walcha",
+      "formal": 993,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 82.78,
+      "swing": -0.96,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 748,
+          "pct": 75.33
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 116,
+          "pct": 11.68
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 45,
+          "pct": 4.53
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 4.33
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 1.81
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 1.51
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 822,
+          "elected": true,
+          "pct": 82.78
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 171,
+          "elected": false,
+          "pct": 17.22
+        }
+      ]
+    },
+    {
+      "boothId": 1955,
+      "name": "Kootingal",
+      "formal": 984,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 73.17,
+      "swing": 2.48,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 548,
+          "pct": 55.69
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 155,
+          "pct": 15.75
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 109,
+          "pct": 11.08
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 55,
+          "pct": 5.59
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 4.88
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 40,
+          "pct": 4.07
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 720,
+          "elected": true,
+          "pct": 73.17
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 264,
+          "elected": false,
+          "pct": 26.83
+        }
+      ]
+    },
+    {
+      "boothId": 1988,
+      "name": "Uralla",
+      "formal": 957,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 60.71,
+      "swing": 2.82,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 460,
+          "pct": 48.07
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 233,
+          "pct": 24.35
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 120,
+          "pct": 12.54
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 7.84
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 2.72
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 2.3
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 2.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 581,
+          "elected": true,
+          "pct": 60.71
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 376,
+          "elected": false,
+          "pct": 39.29
+        }
+      ]
+    },
+    {
+      "boothId": 1929,
+      "name": "Calala",
+      "formal": 956,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 67.47,
+      "swing": -1.14,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 501,
+          "pct": 52.41
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 184,
+          "pct": 19.25
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 101,
+          "pct": 10.56
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 75,
+          "pct": 7.85
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 46,
+          "pct": 4.81
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 3.77
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 645,
+          "elected": true,
+          "pct": 67.47
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 311,
+          "elected": false,
+          "pct": 32.53
+        }
+      ]
+    },
+    {
+      "boothId": 1947,
+      "name": "Hillvue",
+      "formal": 940,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 68.3,
+      "swing": 1.7,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 504,
+          "pct": 53.62
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 161,
+          "pct": 17.13
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 96,
+          "pct": 10.21
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 79,
+          "pct": 8.4
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 4.26
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 3.19
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 3.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 642,
+          "elected": true,
+          "pct": 68.3
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 298,
+          "elected": false,
+          "pct": 31.7
+        }
+      ]
+    },
+    {
+      "boothId": 1971,
+      "name": "Peel West",
+      "formal": 934,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 61.13,
+      "swing": -3.43,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 426,
+          "pct": 45.61
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 214,
+          "pct": 22.91
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 110,
+          "pct": 11.78
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 100,
+          "pct": 10.71
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 4.18
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 3.75
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 571,
+          "elected": true,
+          "pct": 61.13
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 363,
+          "elected": false,
+          "pct": 38.87
+        }
+      ]
+    },
+    {
+      "boothId": 1144,
+      "name": "Quirindi",
+      "formal": 907,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 69.13,
+      "swing": 0.54,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 475,
+          "pct": 52.37
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 189,
+          "pct": 20.84
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 110,
+          "pct": 12.13
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 44,
+          "pct": 4.85
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 3.53
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 3.31
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 2.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 627,
+          "elected": true,
+          "pct": 69.13
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 280,
+          "elected": false,
+          "pct": 30.87
+        }
+      ]
+    },
+    {
+      "boothId": 1147,
+      "name": "Scone South",
+      "formal": 899,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 69.08,
+      "swing": 0.07,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 456,
+          "pct": 50.72
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "pct": 18.91
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 118,
+          "pct": 13.13
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 77,
+          "pct": 8.57
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 3.11
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 3.0
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 2.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 621,
+          "elected": true,
+          "pct": 69.08
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 278,
+          "elected": false,
+          "pct": 30.92
+        }
+      ]
+    },
+    {
+      "boothId": 1944,
+      "name": "Guyra",
+      "formal": 894,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 77.96,
+      "swing": -0.2,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 589,
+          "pct": 65.88
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 114,
+          "pct": 12.75
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 78,
+          "pct": 8.72
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 4.59
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 3.02
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.68
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 2.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 697,
+          "elected": true,
+          "pct": 77.96
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 197,
+          "elected": false,
+          "pct": 22.04
+        }
+      ]
+    },
+    {
+      "boothId": 1158,
+      "name": "Warialda",
+      "formal": 865,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 78.27,
+      "swing": -2.2,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 539,
+          "pct": 62.31
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 140,
+          "pct": 16.18
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 104,
+          "pct": 12.02
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 28,
+          "pct": 3.24
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 2.77
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.54
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 677,
+          "elected": true,
+          "pct": 78.27
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 188,
+          "elected": false,
+          "pct": 21.73
+        }
+      ]
+    },
+    {
+      "boothId": 1977,
+      "name": "Tamworth",
+      "formal": 856,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 61.68,
+      "swing": 1.19,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 373,
+          "pct": 43.57
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 192,
+          "pct": 22.43
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 100,
+          "pct": 11.68
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 98,
+          "pct": 11.45
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 5.26
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 2.92
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 528,
+          "elected": true,
+          "pct": 61.68
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 328,
+          "elected": false,
+          "pct": 38.32
+        }
+      ]
+    },
+    {
+      "boothId": 1067,
+      "name": "Bingara",
+      "formal": 855,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 73.1,
+      "swing": 2.21,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 513,
+          "pct": 60.0
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "pct": 19.42
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 85,
+          "pct": 9.94
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 28,
+          "pct": 3.27
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 2.92
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 2.46
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 625,
+          "elected": true,
+          "pct": 73.1
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 230,
+          "elected": false,
+          "pct": 26.9
+        }
+      ]
+    },
+    {
+      "boothId": 1363,
+      "name": "Denman",
+      "formal": 845,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 59.41,
+      "swing": 2.32,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 325,
+          "pct": 38.46
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 234,
+          "pct": 27.69
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 141,
+          "pct": 16.69
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 56,
+          "pct": 6.63
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 4.02
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 3.91
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 2.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 502,
+          "elected": true,
+          "pct": 59.41
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 343,
+          "elected": false,
+          "pct": 40.59
+        }
+      ]
+    },
+    {
+      "boothId": 1393,
+      "name": "Merriwa",
+      "formal": 832,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 62.14,
+      "swing": -7.22,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 393,
+          "pct": 47.24
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 218,
+          "pct": 26.2
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 101,
+          "pct": 12.14
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 3.97
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 3.97
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 3.85
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 2.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 517,
+          "elected": true,
+          "pct": 62.14
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 315,
+          "elected": false,
+          "pct": 37.86
+        }
+      ]
+    },
+    {
+      "boothId": 1941,
+      "name": "Glen Innes West",
+      "formal": 830,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 70.36,
+      "swing": 3.66,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 447,
+          "pct": 53.86
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 126,
+          "pct": 15.18
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 91,
+          "pct": 10.96
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 68,
+          "pct": 8.19
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 39,
+          "pct": 4.7
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 3.61
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 3.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 584,
+          "elected": true,
+          "pct": 70.36
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 246,
+          "elected": false,
+          "pct": 29.64
+        }
+      ]
+    },
+    {
+      "boothId": 1990,
+      "name": "Westdale",
+      "formal": 816,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 65.2,
+      "swing": -0.22,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 384,
+          "pct": 47.06
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 160,
+          "pct": 19.61
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 121,
+          "pct": 14.83
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 6.37
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 49,
+          "pct": 6.0
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 3.19
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 532,
+          "elected": true,
+          "pct": 65.2
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 284,
+          "elected": false,
+          "pct": 34.8
+        }
+      ]
+    },
+    {
+      "boothId": 38334,
+      "name": "Hillvue West",
+      "formal": 807,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 55.76,
+      "swing": -8.21,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 331,
+          "pct": 41.02
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 192,
+          "pct": 23.79
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 92,
+          "pct": 11.4
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 91,
+          "pct": 11.28
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 5.2
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 4.71
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 450,
+          "elected": true,
+          "pct": 55.76
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 357,
+          "elected": false,
+          "pct": 44.24
+        }
+      ]
+    },
+    {
+      "boothId": 1064,
+      "name": "Barraba",
+      "formal": 799,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 74.72,
+      "swing": 2.76,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 496,
+          "pct": 62.08
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 131,
+          "pct": 16.4
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 7.38
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 3.75
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 3.63
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 28,
+          "pct": 3.5
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 597,
+          "elected": true,
+          "pct": 74.72
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 202,
+          "elected": false,
+          "pct": 25.28
+        }
+      ]
+    },
+    {
+      "boothId": 1974,
+      "name": "Ross Hill",
+      "formal": 712,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 72.89,
+      "swing": 2.13,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 380,
+          "pct": 53.37
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 112,
+          "pct": 15.73
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 65,
+          "pct": 9.13
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 51,
+          "pct": 7.16
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 46,
+          "pct": 6.46
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 5.34
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 519,
+          "elected": true,
+          "pct": 72.89
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 193,
+          "elected": false,
+          "pct": 27.11
+        }
+      ]
+    },
+    {
+      "boothId": 1148,
+      "name": "Scone East",
+      "formal": 706,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 66.86,
+      "swing": -4.21,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 371,
+          "pct": 52.55
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 163,
+          "pct": 23.09
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 7.37
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 49,
+          "pct": 6.94
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 4.25
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 2.97
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 2.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 472,
+          "elected": true,
+          "pct": 66.86
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 234,
+          "elected": false,
+          "pct": 33.14
+        }
+      ]
+    },
+    {
+      "boothId": 1981,
+      "name": "Tamworth West",
+      "formal": 688,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 60.32,
+      "swing": 2.2,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 296,
+          "pct": 43.02
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 180,
+          "pct": 26.16
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 8.87
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 8.28
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 4.94
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 4.65
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 4.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 415,
+          "elected": true,
+          "pct": 60.32
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 273,
+          "elected": false,
+          "pct": 39.68
+        }
+      ]
+    },
+    {
+      "boothId": 1061,
+      "name": "Aberdeen",
+      "formal": 677,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 66.17,
+      "swing": 3.03,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 308,
+          "pct": 45.49
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 140,
+          "pct": 20.68
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 103,
+          "pct": 15.21
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 6.79
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 5.02
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 3.55
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 3.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 448,
+          "elected": true,
+          "pct": 66.17
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 229,
+          "elected": false,
+          "pct": 33.83
+        }
+      ]
+    },
+    {
+      "boothId": 1916,
+      "name": "Armidale South",
+      "formal": 670,
+      "winnerParty": "alp",
+      "winnerSurname": "HUGHES",
+      "winnerPct": 59.4,
+      "swing": 1.38,
+      "candidates": [
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 229,
+          "pct": 34.18
+        },
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 203,
+          "pct": 30.3
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 156,
+          "pct": 23.28
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 33,
+          "pct": 4.93
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 3.88
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.09
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.34
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 272,
+          "elected": true,
+          "pct": 40.6
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 398,
+          "elected": false,
+          "pct": 59.4
+        }
+      ]
+    },
+    {
+      "boothId": 1130,
+      "name": "Murrurundi",
+      "formal": 617,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 68.72,
+      "swing": -2.56,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 319,
+          "pct": 51.7
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 111,
+          "pct": 17.99
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 11.83
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 62,
+          "pct": 10.05
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 4.21
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.27
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 424,
+          "elected": true,
+          "pct": 68.72
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 193,
+          "elected": false,
+          "pct": 31.28
+        }
+      ]
+    },
+    {
+      "boothId": 1166,
+      "name": "Werris Creek",
+      "formal": 617,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 57.86,
+      "swing": 2.76,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 250,
+          "pct": 40.52
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 173,
+          "pct": 28.04
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 11.35
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 6.16
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 4.86
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 4.7
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 4.38
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 357,
+          "elected": true,
+          "pct": 57.86
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 260,
+          "elected": false,
+          "pct": 42.14
+        }
+      ]
+    },
+    {
+      "boothId": 1950,
+      "name": "Inverell East",
+      "formal": 615,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 72.68,
+      "swing": 5.78,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 321,
+          "pct": 52.2
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 89,
+          "pct": 14.47
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 12.36
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 49,
+          "pct": 7.97
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 5.2
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 4.07
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 3.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 447,
+          "elected": true,
+          "pct": 72.68
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 168,
+          "elected": false,
+          "pct": 27.32
+        }
+      ]
+    },
+    {
+      "boothId": 123927,
+      "name": "Special Hospital Team 5",
+      "formal": 594,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 53.54,
+      "swing": -13.13,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 257,
+          "pct": 43.27
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 165,
+          "pct": 27.78
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 53,
+          "pct": 8.92
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 8.08
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 8.08
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 3.03
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 318,
+          "elected": true,
+          "pct": 53.54
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 276,
+          "elected": false,
+          "pct": 46.46
+        }
+      ]
+    },
+    {
+      "boothId": 1914,
+      "name": "Newling",
+      "formal": 585,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 52.48,
+      "swing": -1.41,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 238,
+          "pct": 40.68
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 177,
+          "pct": 30.26
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 82,
+          "pct": 14.02
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 6.84
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 4.27
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 2.22
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 307,
+          "elected": true,
+          "pct": 52.48
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 278,
+          "elected": false,
+          "pct": 47.52
+        }
+      ]
+    },
+    {
+      "boothId": 1964,
+      "name": "Nemingha",
+      "formal": 583,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 75.99,
+      "swing": 3.26,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 348,
+          "pct": 59.69
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 68,
+          "pct": 11.66
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 9.95
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 45,
+          "pct": 7.72
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 4.8
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 3.09
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 3.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 443,
+          "elected": true,
+          "pct": 75.99
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 140,
+          "elected": false,
+          "pct": 24.01
+        }
+      ]
+    },
+    {
+      "boothId": 1983,
+      "name": "Tenterfield",
+      "formal": 563,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 70.34,
+      "swing": 0.87,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 293,
+          "pct": 52.04
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 85,
+          "pct": 15.1
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 12.26
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 50,
+          "pct": 8.88
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 4.97
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 3.55
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 3.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 396,
+          "elected": true,
+          "pct": 70.34
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 167,
+          "elected": false,
+          "pct": 29.66
+        }
+      ]
+    },
+    {
+      "boothId": 1962,
+      "name": "Moore Creek",
+      "formal": 515,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 66.41,
+      "swing": -1.11,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 265,
+          "pct": 51.46
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 123,
+          "pct": 23.88
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 11.46
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 28,
+          "pct": 5.44
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 3.5
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 2.52
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 342,
+          "elected": true,
+          "pct": 66.41
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 173,
+          "elected": false,
+          "pct": 33.59
+        }
+      ]
+    },
+    {
+      "boothId": 1920,
+      "name": "Attunga",
+      "formal": 372,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 75.54,
+      "swing": -1.74,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 213,
+          "pct": 57.26
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 53,
+          "pct": 14.25
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 13.98
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 16,
+          "pct": 4.3
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 3.49
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 3.49
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 3.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 281,
+          "elected": true,
+          "pct": 75.54
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 91,
+          "elected": false,
+          "pct": 24.46
+        }
+      ]
+    },
+    {
+      "boothId": 1985,
+      "name": "Timbumburi",
+      "formal": 347,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 76.08,
+      "swing": -0.99,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 223,
+          "pct": 64.27
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "pct": 14.12
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 8.93
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 6.34
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 3.46
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.73
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 264,
+          "elected": true,
+          "pct": 76.08
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 83,
+          "elected": false,
+          "pct": 23.92
+        }
+      ]
+    },
+    {
+      "boothId": 1919,
+      "name": "Ashford",
+      "formal": 330,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 80.3,
+      "swing": 5.23,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 191,
+          "pct": 57.88
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 16.36
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 34,
+          "pct": 10.3
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 4.55
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 4.24
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 3.64
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 3.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 265,
+          "elected": true,
+          "pct": 80.3
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 65,
+          "elected": false,
+          "pct": 19.7
+        }
+      ]
+    },
+    {
+      "boothId": 1973,
+      "name": "Rocky River",
+      "formal": 323,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 59.13,
+      "swing": 0.44,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 150,
+          "pct": 46.44
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 93,
+          "pct": 28.79
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "pct": 8.98
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 7.74
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 3.41
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 2.79
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 1.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 191,
+          "elected": true,
+          "pct": 59.13
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 132,
+          "elected": false,
+          "pct": 40.87
+        }
+      ]
+    },
+    {
+      "boothId": 1928,
+      "name": "Bundarra",
+      "formal": 296,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 84.8,
+      "swing": 5.99,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 210,
+          "pct": 70.95
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 31,
+          "pct": 10.47
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 9.8
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 3.38
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.7
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 1.69
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 251,
+          "elected": true,
+          "pct": 84.8
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "elected": false,
+          "pct": 15.2
+        }
+      ]
+    },
+    {
+      "boothId": 1968,
+      "name": "Nundle",
+      "formal": 288,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 70.49,
+      "swing": -0.1,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 152,
+          "pct": 52.78
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 53,
+          "pct": 18.4
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 12.15
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 4.86
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 4.17
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 4.17
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 3.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 203,
+          "elected": true,
+          "pct": 70.49
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 85,
+          "elected": false,
+          "pct": 29.51
+        }
+      ]
+    },
+    {
+      "boothId": 1923,
+      "name": "Bendemeer",
+      "formal": 287,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 79.09,
+      "swing": 4.57,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 190,
+          "pct": 66.2
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "pct": 13.59
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 9.41
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 4.88
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 2.44
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 1.74
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 227,
+          "elected": true,
+          "pct": 79.09
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 60,
+          "elected": false,
+          "pct": 20.91
+        }
+      ]
+    },
+    {
+      "boothId": 1169,
+      "name": "Willow Tree",
+      "formal": 279,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 86.02,
+      "swing": 7.59,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 201,
+          "pct": 72.04
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 25,
+          "pct": 8.96
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 8.6
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 3.94
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 3.23
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.15
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 240,
+          "elected": true,
+          "pct": 86.02
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "elected": false,
+          "pct": 13.98
+        }
+      ]
+    },
+    {
+      "boothId": 1939,
+      "name": "Glen Innes",
+      "formal": 279,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 64.52,
+      "swing": -8.76,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 141,
+          "pct": 50.54
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "pct": 17.56
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 31,
+          "pct": 11.11
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 9.32
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 5.02
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 3.58
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 180,
+          "elected": true,
+          "pct": 64.52
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 99,
+          "elected": false,
+          "pct": 35.48
+        }
+      ]
+    },
+    {
+      "boothId": 1986,
+      "name": "Tingha",
+      "formal": 271,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 77.12,
+      "swing": 8.7,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 154,
+          "pct": 56.83
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 42,
+          "pct": 15.5
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 12.92
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 4.43
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 4.06
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 3.32
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 209,
+          "elected": true,
+          "pct": 77.12
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 62,
+          "elected": false,
+          "pct": 22.88
+        }
+      ]
+    },
+    {
+      "boothId": 109361,
+      "name": "Special Hospital Team 3",
+      "formal": 269,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 70.26,
+      "swing": 3.59,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 168,
+          "pct": 62.45
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 44,
+          "pct": 16.36
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 7.43
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 5.58
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 5.2
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.49
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 189,
+          "elected": true,
+          "pct": 70.26
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "elected": false,
+          "pct": 29.74
+        }
+      ]
+    },
+    {
+      "boothId": 1961,
+      "name": "Moonbi",
+      "formal": 257,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 73.93,
+      "swing": 5.02,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 138,
+          "pct": 53.7
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "pct": 15.18
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 12.45
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 5.45
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 5.06
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 4.67
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 3.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 190,
+          "elected": true,
+          "pct": 73.93
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 67,
+          "elected": false,
+          "pct": 26.07
+        }
+      ]
+    },
+    {
+      "boothId": 1931,
+      "name": "Deepwater",
+      "formal": 243,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 71.19,
+      "swing": -0.18,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 118,
+          "pct": 48.56
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 42,
+          "pct": 17.28
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 12.35
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 18,
+          "pct": 7.41
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 6.58
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 4.53
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 3.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 173,
+          "elected": true,
+          "pct": 71.19
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 70,
+          "elected": false,
+          "pct": 28.81
+        }
+      ]
+    },
+    {
+      "boothId": 1097,
+      "name": "Delungra",
+      "formal": 236,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 83.9,
+      "swing": 1.41,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 170,
+          "pct": 72.03
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 24,
+          "pct": 10.17
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 8.05
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 3.81
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.54
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 2.12
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 198,
+          "elected": true,
+          "pct": 83.9
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 38,
+          "elected": false,
+          "pct": 16.1
+        }
+      ]
+    },
+    {
+      "boothId": 2070,
+      "name": "Drake",
+      "formal": 234,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 52.99,
+      "swing": 3.69,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 87,
+          "pct": 37.18
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 61,
+          "pct": 26.07
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 34,
+          "pct": 14.53
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 11.11
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 5.13
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 3.85
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 124,
+          "elected": true,
+          "pct": 52.99
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "elected": false,
+          "pct": 47.01
+        }
+      ]
+    },
+    {
+      "boothId": 1095,
+      "name": "Currabubula",
+      "formal": 234,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 78.63,
+      "swing": 4.16,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 151,
+          "pct": 64.53
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 29,
+          "pct": 12.39
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 9.4
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 4.7
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 3.42
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 3.42
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 2.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 184,
+          "elected": true,
+          "pct": 78.63
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 50,
+          "elected": false,
+          "pct": 21.37
+        }
+      ]
+    },
+    {
+      "boothId": 1938,
+      "name": "Gilgai",
+      "formal": 222,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 78.38,
+      "swing": 8.04,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 119,
+          "pct": 53.6
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 15.77
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 26,
+          "pct": 11.71
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 6.76
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 5.86
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 3.6
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 174,
+          "elected": true,
+          "pct": 78.38
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 48,
+          "elected": false,
+          "pct": 21.62
+        }
+      ]
+    },
+    {
+      "boothId": 1415,
+      "name": "Sandy Hollow",
+      "formal": 221,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 64.25,
+      "swing": 7.97,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 93,
+          "pct": 42.08
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 56,
+          "pct": 25.34
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 17.65
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 6.79
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 3.62
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.26
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.26
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 142,
+          "elected": true,
+          "pct": 64.25
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 79,
+          "elected": false,
+          "pct": 35.75
+        }
+      ]
+    },
+    {
+      "boothId": 1934,
+      "name": "Duri",
+      "formal": 203,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 79.31,
+      "swing": 0.88,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 136,
+          "pct": 67.0
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 22,
+          "pct": 10.84
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 6.4
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 5.42
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 4.43
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 3.45
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 161,
+          "elected": true,
+          "pct": 79.31
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 42,
+          "elected": false,
+          "pct": 20.69
+        }
+      ]
+    },
+    {
+      "boothId": 1162,
+      "name": "Wallabadah",
+      "formal": 201,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 80.1,
+      "swing": 0.49,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 122,
+          "pct": 60.7
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 16.42
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 21,
+          "pct": 10.45
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 4.48
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 4.48
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.99
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 161,
+          "elected": true,
+          "pct": 80.1
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 40,
+          "elected": false,
+          "pct": 19.9
+        }
+      ]
+    },
+    {
+      "boothId": 1107,
+      "name": "Gundy",
+      "formal": 199,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 73.87,
+      "swing": -4.35,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 130,
+          "pct": 65.33
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 26,
+          "pct": 13.07
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 17,
+          "pct": 8.54
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 6.03
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 3.02
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.01
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 147,
+          "elected": true,
+          "pct": 73.87
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 52,
+          "elected": false,
+          "pct": 26.13
+        }
+      ]
+    },
+    {
+      "boothId": 109266,
+      "name": "Special Hospital Team 2",
+      "formal": 195,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 78.97,
+      "swing": 12.3,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 145,
+          "pct": 74.36
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 38,
+          "pct": 19.49
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.56
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 2.56
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 0.51
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.51
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 154,
+          "elected": true,
+          "pct": 78.97
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 41,
+          "elected": false,
+          "pct": 21.03
+        }
+      ]
+    },
+    {
+      "boothId": 1937,
+      "name": "Emmaville",
+      "formal": 194,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 74.74,
+      "swing": -1.4,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 105,
+          "pct": 54.12
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "pct": 15.46
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 14.95
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 6.19
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 4.12
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.58
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 145,
+          "elected": true,
+          "pct": 74.74
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "elected": false,
+          "pct": 25.26
+        }
+      ]
+    },
+    {
+      "boothId": 108454,
+      "name": "Special Hospital Team 1",
+      "formal": 181,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 69.61,
+      "swing": 2.94,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 113,
+          "pct": 62.43
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 44,
+          "pct": 24.31
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 6.08
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 3.31
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 2.21
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.66
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 126,
+          "elected": true,
+          "pct": 69.61
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "elected": false,
+          "pct": 30.39
+        }
+      ]
+    },
+    {
+      "boothId": 1975,
+      "name": "Somerton",
+      "formal": 176,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 82.95,
+      "swing": 1.25,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 119,
+          "pct": 67.61
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 11.93
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "pct": 9.09
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 5.68
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.27
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.27
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 146,
+          "elected": true,
+          "pct": 82.95
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "elected": false,
+          "pct": 17.05
+        }
+      ]
+    },
+    {
+      "boothId": 1953,
+      "name": "Kentucky",
+      "formal": 175,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 69.14,
+      "swing": 2.47,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 103,
+          "pct": 58.86
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 25,
+          "pct": 14.29
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 23,
+          "pct": 13.14
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 5.71
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 4.0
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.29
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 121,
+          "elected": true,
+          "pct": 69.14
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 54,
+          "elected": false,
+          "pct": 30.86
+        }
+      ]
+    },
+    {
+      "boothId": 1994,
+      "name": "Woolomin",
+      "formal": 171,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 78.95,
+      "swing": 8.12,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 97,
+          "pct": 56.73
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 21.64
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 21,
+          "pct": 12.28
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 2.92
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.34
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.34
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 135,
+          "elected": true,
+          "pct": 78.95
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 36,
+          "elected": false,
+          "pct": 21.05
+        }
+      ]
+    },
+    {
+      "boothId": 1933,
+      "name": "Dungowan",
+      "formal": 170,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 86.47,
+      "swing": 5.54,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 128,
+          "pct": 75.29
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 10.59
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 12,
+          "pct": 7.06
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 4.12
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 1.18
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.18
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 147,
+          "elected": true,
+          "pct": 86.47
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 23,
+          "elected": false,
+          "pct": 13.53
+        }
+      ]
+    },
+    {
+      "boothId": 1917,
+      "name": "Madgwick",
+      "formal": 167,
+      "winnerParty": "alp",
+      "winnerSurname": "HUGHES",
+      "winnerPct": 63.47,
+      "swing": -7.81,
+      "candidates": [
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 55,
+          "pct": 32.93
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 46,
+          "pct": 27.54
+        },
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 39,
+          "pct": 23.35
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 6.59
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 5.39
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.4
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 1.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 61,
+          "elected": true,
+          "pct": 36.53
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 106,
+          "elected": false,
+          "pct": 63.47
+        }
+      ]
+    },
+    {
+      "boothId": 1930,
+      "name": "Dangarsleigh",
+      "formal": 166,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 66.87,
+      "swing": -1.76,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 97,
+          "pct": 58.43
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 41,
+          "pct": 24.7
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 7.23
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 5.42
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 3.61
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.6
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 111,
+          "elected": true,
+          "pct": 66.87
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "elected": false,
+          "pct": 33.13
+        }
+      ]
+    },
+    {
+      "boothId": 1167,
+      "name": "Wingen",
+      "formal": 164,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 70.73,
+      "swing": -6.6,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 89,
+          "pct": 54.27
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 24,
+          "pct": 14.63
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 12.8
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 6.71
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 4.27
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 3.66
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 3.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 116,
+          "elected": true,
+          "pct": 70.73
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 48,
+          "elected": false,
+          "pct": 29.27
+        }
+      ]
+    },
+    {
+      "boothId": 1925,
+      "name": "Black Mountain",
+      "formal": 163,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 66.26,
+      "swing": -0.41,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 86,
+          "pct": 52.76
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "pct": 18.4
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 23,
+          "pct": 14.11
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 8.59
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 4.29
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.23
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 108,
+          "elected": true,
+          "pct": 66.26
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 55,
+          "elected": false,
+          "pct": 33.74
+        }
+      ]
+    },
+    {
+      "boothId": 1149,
+      "name": "Spring Ridge",
+      "formal": 154,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 87.66,
+      "swing": 8.17,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 108,
+          "pct": 70.13
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 12.34
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "pct": 7.14
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 4.55
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 2.6
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.6
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 135,
+          "elected": true,
+          "pct": 87.66
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "elected": false,
+          "pct": 12.34
+        }
+      ]
+    },
+    {
+      "boothId": 1106,
+      "name": "Gravesend",
+      "formal": 153,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 81.05,
+      "swing": -4.42,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 101,
+          "pct": 66.01
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "pct": 12.42
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 10.46
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 5.23
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 2.61
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.61
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 124,
+          "elected": true,
+          "pct": 81.05
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 29,
+          "elected": false,
+          "pct": 18.95
+        }
+      ]
+    },
+    {
+      "boothId": 2096,
+      "name": "Liston",
+      "formal": 143,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 68.53,
+      "swing": -5.66,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 75,
+          "pct": 52.45
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 27,
+          "pct": 18.88
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 15.38
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 5.59
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 4.9
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.4
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 98,
+          "elected": true,
+          "pct": 68.53
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "elected": false,
+          "pct": 31.47
+        }
+      ]
+    },
+    {
+      "boothId": 2126,
+      "name": "Urbenville",
+      "formal": 139,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 75.54,
+      "swing": 6.79,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 78,
+          "pct": 56.12
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 14.39
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 17,
+          "pct": 12.23
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 7.19
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 5.04
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 3.6
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 105,
+          "elected": true,
+          "pct": 75.54
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 34,
+          "elected": false,
+          "pct": 24.46
+        }
+      ]
+    },
+    {
+      "boothId": 1081,
+      "name": "Caroona",
+      "formal": 127,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 76.38,
+      "swing": 8.6,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 80,
+          "pct": 62.99
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 22,
+          "pct": 17.32
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 11.81
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 3.94
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.36
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.57
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 97,
+          "elected": true,
+          "pct": 76.38
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "elected": false,
+          "pct": 23.62
+        }
+      ]
+    },
+    {
+      "boothId": 1083,
+      "name": "Cassilis",
+      "formal": 117,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 70.94,
+      "swing": -8.71,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 55,
+          "pct": 47.01
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "pct": 16.24
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 14.53
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 9.4
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 5.98
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 4.27
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 2.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 83,
+          "elected": true,
+          "pct": 70.94
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 34,
+          "elected": false,
+          "pct": 29.06
+        }
+      ]
+    },
+    {
+      "boothId": 109363,
+      "name": "Special Hospital Team 4",
+      "formal": 113,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 73.45,
+      "swing": 6.44,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 69,
+          "pct": 61.06
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 17,
+          "pct": 15.04
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 6.19
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 5.31
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 5.31
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 5.31
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 83,
+          "elected": true,
+          "pct": 73.45
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "elected": false,
+          "pct": 26.55
+        }
+      ]
+    },
+    {
+      "boothId": 1993,
+      "name": "Woolbrook",
+      "formal": 107,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 77.57,
+      "swing": 2.08,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 76,
+          "pct": 71.03
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 18,
+          "pct": 16.82
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 5.61
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 3.74
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.87
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.93
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 83,
+          "elected": true,
+          "pct": 77.57
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 24,
+          "elected": false,
+          "pct": 22.43
+        }
+      ]
+    },
+    {
+      "boothId": 1921,
+      "name": "Ben Lomond",
+      "formal": 93,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 86.02,
+      "swing": -3.45,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 71,
+          "pct": 76.34
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "pct": 7.53
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 7.53
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 4.3
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 2.15
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 2.15
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 80,
+          "elected": true,
+          "pct": 86.02
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 13,
+          "elected": false,
+          "pct": 13.98
+        }
+      ]
+    },
+    {
+      "boothId": 1137,
+      "name": "North Star",
+      "formal": 91,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 93.41,
+      "swing": 11.51,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 79,
+          "pct": 86.81
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 7.69
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "pct": 3.3
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 1.1
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.1
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 85,
+          "elected": true,
+          "pct": 93.41
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "elected": false,
+          "pct": 6.59
+        }
+      ]
+    },
+    {
+      "boothId": 1935,
+      "name": "Ebor",
+      "formal": 87,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 72.41,
+      "swing": 1.82,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 58,
+          "pct": 66.67
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "pct": 12.64
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 9.2
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 4.6
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 3.45
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 2.3
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 63,
+          "elected": true,
+          "pct": 72.41
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 24,
+          "elected": false,
+          "pct": 27.59
+        }
+      ]
+    },
+    {
+      "boothId": 2095,
+      "name": "Legume",
+      "formal": 86,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 69.77,
+      "swing": -2.76,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 46,
+          "pct": 53.49
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 13,
+          "pct": 15.12
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 13,
+          "pct": 15.12
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 6.98
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 5.81
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 3.49
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 60,
+          "elected": true,
+          "pct": 69.77
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 26,
+          "elected": false,
+          "pct": 30.23
+        }
+      ]
+    },
+    {
+      "boothId": 1958,
+      "name": "Loomberah",
+      "formal": 86,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 80.23,
+      "swing": 6.62,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 64,
+          "pct": 74.42
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 8.14
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "pct": 8.14
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 3.49
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 3.49
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.16
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 69,
+          "elected": true,
+          "pct": 80.23
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 17,
+          "elected": false,
+          "pct": 19.77
+        }
+      ]
+    },
+    {
+      "boothId": 1172,
+      "name": "Yetman",
+      "formal": 84,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 80.95,
+      "swing": -2.17,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 56,
+          "pct": 66.67
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 11.9
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "pct": 10.71
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 8.33
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 2.38
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 68,
+          "elected": true,
+          "pct": 80.95
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "elected": false,
+          "pct": 19.05
+        }
+      ]
+    },
+    {
+      "boothId": 1966,
+      "name": "Nowendoc",
+      "formal": 59,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 81.36,
+      "swing": -14.74,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 41,
+          "pct": 69.49
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "pct": 11.86
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 8.47
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 3.39
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 3.39
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 1.69
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 48,
+          "elected": true,
+          "pct": 81.36
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "elected": false,
+          "pct": 18.64
+        }
+      ]
+    },
+    {
+      "boothId": 1954,
+      "name": "Kingstown",
+      "formal": 57,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 89.47,
+      "swing": 3.32,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 42,
+          "pct": 73.68
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 14.04
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "pct": 5.26
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 3.51
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 3.51
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 51,
+          "elected": true,
+          "pct": 89.47
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "elected": false,
+          "pct": 10.53
+        }
+      ]
+    },
+    {
+      "boothId": 1996,
+      "name": "Yarrowitch",
+      "formal": 49,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 97.96,
+      "swing": 10.24,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 46,
+          "pct": 93.88
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1,
+          "pct": 2.04
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 2.04
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 2.04
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 48,
+          "elected": true,
+          "pct": 97.96
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1,
+          "elected": false,
+          "pct": 2.04
+        }
+      ]
+    },
+    {
+      "boothId": 1070,
+      "name": "Blackville",
+      "formal": 42,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 83.33,
+      "swing": 10.6,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 25,
+          "pct": 59.52
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "pct": 16.67
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 14.29
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 4.76
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 4.76
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 35,
+          "elected": true,
+          "pct": 83.33
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "elected": false,
+          "pct": 16.67
+        }
+      ]
+    },
+    {
+      "boothId": 1926,
+      "name": "Bonshaw",
+      "formal": 41,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 78.05,
+      "swing": -7.4,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 28,
+          "pct": 68.29
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 14.63
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 7.32
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 4.88
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 2.44
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 2.44
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 32,
+          "elected": true,
+          "pct": 78.05
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "elected": false,
+          "pct": 21.95
+        }
+      ]
+    },
+    {
+      "boothId": 123928,
+      "name": "Other Mobile Team 1",
+      "formal": 16,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 62.5,
+      "swing": -4.55,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 8,
+          "pct": 50.0
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "pct": 25.0
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 18.75
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 10,
+          "elected": true,
+          "pct": 62.5
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "elected": false,
+          "pct": 37.5
+        }
+      ]
+    },
+    {
+      "boothId": 65476,
+      "name": "EAV New England PPVC",
+      "formal": 12,
+      "winnerParty": "alp",
+      "winnerSurname": "HUGHES",
+      "winnerPct": 66.67,
+      "swing": -11.11,
+      "candidates": [
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 50.0
+        },
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 4,
+          "pct": 33.33
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 16.67
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 4,
+          "elected": true,
+          "pct": 33.33
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8,
+          "elected": false,
+          "pct": 66.67
+        }
+      ]
+    },
+    {
+      "boothId": 123929,
+      "name": "Other Mobile Team 2",
+      "formal": 12,
+      "winnerParty": "alp",
+      "winnerSurname": "HUGHES",
+      "winnerPct": 58.33,
+      "swing": 25.0,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 5,
+          "pct": 41.67
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "pct": 33.33
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 8.33
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 8.33
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 8.33
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 5,
+          "elected": true,
+          "pct": 41.67
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "elected": false,
+          "pct": 58.33
+        }
+      ]
+    },
+    {
+      "boothId": 123930,
+      "name": "Other Mobile Team 3",
+      "formal": 8,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 62.5,
+      "swing": -4.17,
+      "candidates": [
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "pct": 37.5
+        },
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 2,
+          "pct": 25.0
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 25.0
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 12.5
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 5,
+          "elected": true,
+          "pct": 62.5
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "elected": false,
+          "pct": 37.5
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 114346,
+    "candidates": [
+      {
+        "id": "C41945",
+        "party": "nat",
+        "displayShort": "NAT",
+        "displayLong": "NAT \u2014 Joyce"
+      },
+      {
+        "id": "C41622",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Wales"
+      },
+      {
+        "id": "C33409",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Ledger"
+      },
+      {
+        "id": "C41423",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Hughes"
+      },
+      {
+        "id": "C41805",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Masters"
+      },
+      {
+        "id": "C41681",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Juchau"
+      },
+      {
+        "id": "C41894",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Larkham"
+      }
+    ],
+    "rounds": [
+      {
+        "C41945": 59711,
+        "C41622": 9023,
+        "C33409": 4240,
+        "C41423": 23233,
+        "C41805": 3646,
+        "C41681": 3106,
+        "C41894": 11387
+      },
+      {
+        "C41945": 60351,
+        "C41622": 9138,
+        "C33409": 4515,
+        "C41423": 23427,
+        "C41805": 4019,
+        "C41894": 12896
+      },
+      {
+        "C41945": 61119,
+        "C41622": 9482,
+        "C33409": 5315,
+        "C41423": 23951,
+        "C41894": 14479
+      },
+      {
+        "C41945": 62309,
+        "C41622": 10821,
+        "C41423": 25444,
+        "C41894": 15772
+      },
+      {
+        "C41945": 64265,
+        "C41423": 33157,
+        "C41894": 16924
+      },
+      {
+        "C41945": 76680,
+        "C41423": 37666
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "NAT",
+          "party": "nat",
+          "label": "NAT",
+          "points": [
+            25.67,
+            28.48,
+            64.46,
+            58.52,
+            64.36,
+            66.43,
+            67.06
+          ]
+        },
+        {
+          "id": "IND",
+          "party": "ind",
+          "label": "IND",
+          "points": [
+            74.33,
+            71.52,
+            35.54,
+            41.48,
+            35.64,
+            null,
+            null
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            33.57,
+            32.94
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "NAT": 23.31,
+            "ON": 1.26,
+            "IND": 61.94,
+            "CLR": 9.83,
+            "GRN": 3.4,
+            "OTH": 0.26
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "ON": 0.87,
+            "CLR": 8.13,
+            "NAT": 25.22,
+            "GRN": 3.57,
+            "IND": 61.88,
+            "OTH": 0.34
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "IND": 20.41,
+            "ON": 1.72,
+            "CLR": 11.86,
+            "TOP": 5.2,
+            "GRN": 4.58,
+            "NAT": 54.21,
+            "OTH": 2.03
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "NAT": 52.29,
+            "IND": 32.92,
+            "GRN": 2.92,
+            "ALP": 7.01,
+            "OTH": 4.86
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "TOP": 4.58,
+            "IND": 21.14,
+            "GRN": 4.43,
+            "CDP": 2.28,
+            "ALP": 12.75,
+            "NAT": 54.82
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "ALP": 18.56,
+            "ON": 4.7,
+            "GRN": 7.74,
+            "LDP": 3.26,
+            "TOP": 2.62,
+            "NAT": 52.47,
+            "IND": 10.66
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "GRN": 7.89,
+            "ON": 9.96,
+            "IND": 3.71,
+            "FFP": 3.19,
+            "CYA": 2.72,
+            "ALP": 20.32,
+            "NAT": 52.22
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 158649,
+    "medianAge": 42,
+    "medianHouseholdIncomeWeekly": 1302,
+    "medianRentWeekly": 280,
+    "averageHouseholdSize": 2.4,
+    "bornOverseasPct": 10.0,
+    "indigenousPct": 10.3,
+    "bachelorPlusPct": 26.9,
+    "renterPct": 28.4,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 130245,
+        "pct": 89.97,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 1203,
+        "pct": 0.83,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 701,
+        "pct": 0.48,
+        "natPct": 1.11
+      },
+      {
+        "label": "India",
+        "count": 510,
+        "pct": 0.35,
+        "natPct": 1.51
+      },
+      {
+        "label": "Philippines",
+        "count": 402,
+        "pct": 0.28,
+        "natPct": 0.47
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 88592,
+        "pct": 55.84,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 49606,
+        "pct": 31.27,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 15425,
+        "pct": 9.72,
+        "natPct": 7.27
+      },
+      {
+        "label": "Other religions",
+        "count": 1417,
+        "pct": 0.89,
+        "natPct": 1.28
+      },
+      {
+        "label": "Hinduism",
+        "count": 1178,
+        "pct": 0.74,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of New England is an Australian electoral division in the state of New South Wales.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_New_England",
+    "retrievedAt": "2026-04-05T16:29:34Z"
+  }
+}

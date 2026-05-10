@@ -1,0 +1,4526 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "FLINDERS",
+    "divisionId": 211,
+    "name": "Flinders",
+    "state": "VIC",
+    "totalFormal": 114923,
+    "informalVotes": 3495,
+    "informalRate": 3.86,
+    "winner": {
+      "candidateId": "C40748",
+      "surname": "McKENZIE",
+      "givenName": "Zoe",
+      "party": "lib",
+      "partyAb": "LIB",
+      "incumbent": true
+    },
+    "previousWinnerParty": "LIB",
+    "tcpMargin": 4.58,
+    "result": "LIB RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40748",
+      "surname": "McKENZIE",
+      "givenName": "Zoe",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 34265,
+      "pct": 39.34
+    },
+    {
+      "candidateId": "C40838",
+      "surname": "SMITH",
+      "givenName": "Ben",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 20247,
+      "pct": 23.25
+    },
+    {
+      "candidateId": "C40853",
+      "surname": "RACE",
+      "givenName": "Sarah",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 19678,
+      "pct": 22.59
+    },
+    {
+      "candidateId": "C41131",
+      "surname": "FROGLEY",
+      "givenName": "Adam",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 5371,
+      "pct": 6.17
+    },
+    {
+      "candidateId": "C41509",
+      "surname": "BROWN",
+      "givenName": "Mike",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 4672,
+      "pct": 5.36
+    },
+    {
+      "candidateId": "C41371",
+      "surname": "SMART",
+      "givenName": "Jason",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2181,
+      "pct": 2.5
+    },
+    {
+      "candidateId": "C40892",
+      "surname": "TOSCANO",
+      "givenName": "Joseph",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 685,
+      "pct": 0.79
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40748",
+      "surname": "McKENZIE",
+      "givenName": "Zoe",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 60090,
+      "pct": 52.29,
+      "elected": true
+    },
+    {
+      "candidateId": "C40838",
+      "surname": "SMITH",
+      "givenName": "Ben",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 54833,
+      "pct": 47.71,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 66007,
+      "name": "Rosebud PPVC",
+      "formal": 19769,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 50.62,
+      "swing": 50.62,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 8192,
+          "pct": 41.44
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4784,
+          "pct": 24.2
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4319,
+          "pct": 21.85
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1046,
+          "pct": 5.29
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 852,
+          "pct": 4.31
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 455,
+          "pct": 2.3
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 121,
+          "pct": 0.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 10008,
+          "elected": true,
+          "pct": 50.62
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9761,
+          "elected": false,
+          "pct": 49.38
+        }
+      ]
+    },
+    {
+      "boothId": 82831,
+      "name": "Mount Martha PPVC",
+      "formal": 13477,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 52.43,
+      "swing": 52.43,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6003,
+          "pct": 44.54
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3207,
+          "pct": 23.8
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2739,
+          "pct": 20.32
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 719,
+          "pct": 5.34
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 473,
+          "pct": 3.51
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 277,
+          "pct": 2.06
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 59,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 7066,
+          "elected": true,
+          "pct": 52.43
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6411,
+          "elected": false,
+          "pct": 47.57
+        }
+      ]
+    },
+    {
+      "boothId": 31697,
+      "name": "Hastings FLINDERS PPVC",
+      "formal": 12069,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 52.22,
+      "swing": 52.22,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4556,
+          "pct": 37.75
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3090,
+          "pct": 25.6
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2234,
+          "pct": 18.51
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1052,
+          "pct": 8.72
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 696,
+          "pct": 5.77
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 333,
+          "pct": 2.76
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 108,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6303,
+          "elected": true,
+          "pct": 52.22
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5766,
+          "elected": false,
+          "pct": 47.78
+        }
+      ]
+    },
+    {
+      "boothId": 120474,
+      "name": "Mount Eliza FLINDERS PPVC",
+      "formal": 4944,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 54.39,
+      "swing": 54.39,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2349,
+          "pct": 47.51
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1095,
+          "pct": 22.15
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1009,
+          "pct": 20.41
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 271,
+          "pct": 5.48
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 111,
+          "pct": 2.25
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 82,
+          "pct": 1.66
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2689,
+          "elected": true,
+          "pct": 54.39
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2255,
+          "elected": false,
+          "pct": 45.61
+        }
+      ]
+    },
+    {
+      "boothId": 31452,
+      "name": "Mornington East",
+      "formal": 1857,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 51.97,
+      "swing": 51.97,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 688,
+          "pct": 37.05
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 429,
+          "pct": 23.1
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 382,
+          "pct": 20.57
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 147,
+          "pct": 7.92
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 134,
+          "pct": 7.22
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 59,
+          "pct": 3.18
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 965,
+          "elected": true,
+          "pct": 51.97
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 892,
+          "elected": false,
+          "pct": 48.03
+        }
+      ]
+    },
+    {
+      "boothId": 3646,
+      "name": "Mount Martha",
+      "formal": 1639,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 53.33,
+      "swing": 53.33,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 620,
+          "pct": 37.83
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 479,
+          "pct": 29.23
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 327,
+          "pct": 19.95
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 131,
+          "pct": 7.99
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 2.68
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 1.83
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 0.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 765,
+          "elected": true,
+          "pct": 46.67
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 874,
+          "elected": false,
+          "pct": 53.33
+        }
+      ]
+    },
+    {
+      "boothId": 11520,
+      "name": "Mount Martha North",
+      "formal": 1636,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 52.14,
+      "swing": 52.14,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 586,
+          "pct": 35.82
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 462,
+          "pct": 28.24
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 320,
+          "pct": 19.56
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 124,
+          "pct": 7.58
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 5.13
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 49,
+          "pct": 3.0
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 783,
+          "elected": true,
+          "pct": 47.86
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 853,
+          "elected": false,
+          "pct": 52.14
+        }
+      ]
+    },
+    {
+      "boothId": 3663,
+      "name": "Somerville West",
+      "formal": 1525,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 53.97,
+      "swing": 53.97,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 574,
+          "pct": 37.64
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 378,
+          "pct": 24.79
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 268,
+          "pct": 17.57
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 150,
+          "pct": 9.84
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 111,
+          "pct": 7.28
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.3
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 823,
+          "elected": true,
+          "pct": 53.97
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 702,
+          "elected": false,
+          "pct": 46.03
+        }
+      ]
+    },
+    {
+      "boothId": 3605,
+      "name": "Mornington",
+      "formal": 1468,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 51.36,
+      "swing": 51.36,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 608,
+          "pct": 41.42
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 388,
+          "pct": 26.43
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 294,
+          "pct": 20.03
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 92,
+          "pct": 6.27
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 3.47
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 1.91
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 0.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 754,
+          "elected": true,
+          "pct": 51.36
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 714,
+          "elected": false,
+          "pct": 48.64
+        }
+      ]
+    },
+    {
+      "boothId": 3658,
+      "name": "Rye",
+      "formal": 1230,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 57.89,
+      "swing": 57.89,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 384,
+          "pct": 31.22
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 346,
+          "pct": 28.13
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 283,
+          "pct": 23.01
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 103,
+          "pct": 8.37
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 5.2
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.85
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 1.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 518,
+          "elected": true,
+          "pct": 42.11
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 712,
+          "elected": false,
+          "pct": 57.89
+        }
+      ]
+    },
+    {
+      "boothId": 31059,
+      "name": "Somerville East",
+      "formal": 1155,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 51.86,
+      "swing": 51.86,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 416,
+          "pct": 36.02
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 320,
+          "pct": 27.71
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 193,
+          "pct": 16.71
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 88,
+          "pct": 7.62
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 6.67
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.98
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 599,
+          "elected": true,
+          "pct": 51.86
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 556,
+          "elected": false,
+          "pct": 48.14
+        }
+      ]
+    },
+    {
+      "boothId": 83772,
+      "name": "Hastings West",
+      "formal": 1148,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 51.05,
+      "swing": 51.05,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 400,
+          "pct": 34.84
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 319,
+          "pct": 27.79
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 206,
+          "pct": 17.94
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 8.1
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 67,
+          "pct": 5.84
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 44,
+          "pct": 3.83
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 1.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 586,
+          "elected": true,
+          "pct": 51.05
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 562,
+          "elected": false,
+          "pct": 48.95
+        }
+      ]
+    },
+    {
+      "boothId": 65124,
+      "name": "Mount Eliza South",
+      "formal": 1146,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 55.5,
+      "swing": 55.5,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 421,
+          "pct": 36.74
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 294,
+          "pct": 25.65
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 281,
+          "pct": 24.52
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 90,
+          "pct": 7.85
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 3.23
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.22
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 510,
+          "elected": true,
+          "pct": 44.5
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 636,
+          "elected": false,
+          "pct": 55.5
+        }
+      ]
+    },
+    {
+      "boothId": 3629,
+      "name": "Dromana",
+      "formal": 1146,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 54.71,
+      "swing": 54.71,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 384,
+          "pct": 33.51
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 315,
+          "pct": 27.49
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 228,
+          "pct": 19.9
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 109,
+          "pct": 9.51
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 6.89
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.18
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 0.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 519,
+          "elected": true,
+          "pct": 45.29
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 627,
+          "elected": false,
+          "pct": 54.71
+        }
+      ]
+    },
+    {
+      "boothId": 11517,
+      "name": "Rosebud South",
+      "formal": 1058,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 55.77,
+      "swing": 55.77,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 340,
+          "pct": 32.14
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 300,
+          "pct": 28.36
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 245,
+          "pct": 23.16
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 7.18
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 6.33
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 1.98
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 468,
+          "elected": true,
+          "pct": 44.23
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 590,
+          "elected": false,
+          "pct": 55.77
+        }
+      ]
+    },
+    {
+      "boothId": 3667,
+      "name": "Tyabb",
+      "formal": 1006,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 52.68,
+      "swing": 52.68,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 355,
+          "pct": 35.29
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 245,
+          "pct": 24.35
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 181,
+          "pct": 17.99
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 94,
+          "pct": 9.34
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 7.55
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 4.27
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 530,
+          "elected": true,
+          "pct": 52.68
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 476,
+          "elected": false,
+          "pct": 47.32
+        }
+      ]
+    },
+    {
+      "boothId": 3656,
+      "name": "Rosebud East",
+      "formal": 1006,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 56.76,
+      "swing": 56.76,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 289,
+          "pct": 28.73
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 239,
+          "pct": 23.76
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 233,
+          "pct": 23.16
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 124,
+          "pct": 12.33
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 80,
+          "pct": 7.95
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 2.98
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 1.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 435,
+          "elected": true,
+          "pct": 43.24
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 571,
+          "elected": false,
+          "pct": 56.76
+        }
+      ]
+    },
+    {
+      "boothId": 3609,
+      "name": "Mornington Park",
+      "formal": 964,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 59.44,
+      "swing": 59.44,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 270,
+          "pct": 28.01
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 258,
+          "pct": 26.76
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 254,
+          "pct": 26.35
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 73,
+          "pct": 7.57
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 53,
+          "pct": 5.5
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 40,
+          "pct": 4.15
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 391,
+          "elected": true,
+          "pct": 40.56
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 573,
+          "elected": false,
+          "pct": 59.44
+        }
+      ]
+    },
+    {
+      "boothId": 3613,
+      "name": "Balnarring",
+      "formal": 946,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 62.05,
+      "swing": 62.05,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 357,
+          "pct": 37.74
+        },
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 277,
+          "pct": 29.28
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 169,
+          "pct": 17.86
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 80,
+          "pct": 8.46
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 3.49
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.01
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 359,
+          "elected": true,
+          "pct": 37.95
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 587,
+          "elected": false,
+          "pct": 62.05
+        }
+      ]
+    },
+    {
+      "boothId": 69887,
+      "name": "Dromana North",
+      "formal": 922,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 51.08,
+      "swing": 51.08,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 356,
+          "pct": 38.61
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 224,
+          "pct": 24.3
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 191,
+          "pct": 20.72
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 6.94
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 40,
+          "pct": 4.34
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 3.58
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 471,
+          "elected": true,
+          "pct": 51.08
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 451,
+          "elected": false,
+          "pct": 48.92
+        }
+      ]
+    },
+    {
+      "boothId": 3607,
+      "name": "Mount Eliza (Flinders)",
+      "formal": 909,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 50.39,
+      "swing": 50.39,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 381,
+          "pct": 41.91
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 233,
+          "pct": 25.63
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 190,
+          "pct": 20.9
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 49,
+          "pct": 5.39
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 2.75
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.64
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 0.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 451,
+          "elected": true,
+          "pct": 49.61
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 458,
+          "elected": false,
+          "pct": 50.39
+        }
+      ]
+    },
+    {
+      "boothId": 3657,
+      "name": "Rosebud West",
+      "formal": 890,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 59.44,
+      "swing": 59.44,
+      "candidates": [
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 261,
+          "pct": 29.33
+        },
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 242,
+          "pct": 27.19
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 220,
+          "pct": 24.72
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "pct": 9.55
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 4.38
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 4.04
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 361,
+          "elected": true,
+          "pct": 40.56
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 529,
+          "elected": false,
+          "pct": 59.44
+        }
+      ]
+    },
+    {
+      "boothId": 105509,
+      "name": "Mornington Central",
+      "formal": 866,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 55.31,
+      "swing": 55.31,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 319,
+          "pct": 36.84
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 243,
+          "pct": 28.06
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 200,
+          "pct": 23.09
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 63,
+          "pct": 7.27
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 2.31
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.85
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 0.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 387,
+          "elected": true,
+          "pct": 44.69
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 479,
+          "elected": false,
+          "pct": 55.31
+        }
+      ]
+    },
+    {
+      "boothId": 3604,
+      "name": "Mount Eliza West",
+      "formal": 838,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 52.51,
+      "swing": 52.51,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 335,
+          "pct": 39.98
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 210,
+          "pct": 25.06
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 193,
+          "pct": 23.03
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 59,
+          "pct": 7.04
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 2.63
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.43
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 398,
+          "elected": true,
+          "pct": 47.49
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 440,
+          "elected": false,
+          "pct": 52.51
+        }
+      ]
+    },
+    {
+      "boothId": 3618,
+      "name": "Blairgowrie",
+      "formal": 768,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 51.43,
+      "swing": 51.43,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 337,
+          "pct": 43.88
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 175,
+          "pct": 22.79
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 147,
+          "pct": 19.14
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 65,
+          "pct": 8.46
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.47
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 2.47
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 0.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 395,
+          "elected": true,
+          "pct": 51.43
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 373,
+          "elected": false,
+          "pct": 48.57
+        }
+      ]
+    },
+    {
+      "boothId": 3617,
+      "name": "Bittern",
+      "formal": 762,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 54.72,
+      "swing": 54.72,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 224,
+          "pct": 29.4
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 193,
+          "pct": 25.33
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 164,
+          "pct": 21.52
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 78,
+          "pct": 10.24
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 8.14
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 3.81
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 345,
+          "elected": true,
+          "pct": 45.28
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 417,
+          "elected": false,
+          "pct": 54.72
+        }
+      ]
+    },
+    {
+      "boothId": 3625,
+      "name": "Crib Point",
+      "formal": 761,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 56.77,
+      "swing": 56.77,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 217,
+          "pct": 28.52
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 181,
+          "pct": 23.78
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 178,
+          "pct": 23.39
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 9.86
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 8.94
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 4.47
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 1.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 329,
+          "elected": true,
+          "pct": 43.23
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 432,
+          "elected": false,
+          "pct": 56.77
+        }
+      ]
+    },
+    {
+      "boothId": 91941,
+      "name": "Frankston FLINDERS PPVC",
+      "formal": 756,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 52.91,
+      "swing": 52.91,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 226,
+          "pct": 29.89
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 192,
+          "pct": 25.4
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 133,
+          "pct": 17.59
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 118,
+          "pct": 15.61
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 5.82
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 4.37
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 356,
+          "elected": true,
+          "pct": 47.09
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 400,
+          "elected": false,
+          "pct": 52.91
+        }
+      ]
+    },
+    {
+      "boothId": 83697,
+      "name": "Somerville",
+      "formal": 754,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 59.02,
+      "swing": 59.02,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 312,
+          "pct": 41.38
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 178,
+          "pct": 23.61
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 111,
+          "pct": 14.72
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 8.22
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 55,
+          "pct": 7.29
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 3.98
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 0.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 445,
+          "elected": true,
+          "pct": 59.02
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 309,
+          "elected": false,
+          "pct": 40.98
+        }
+      ]
+    },
+    {
+      "boothId": 3615,
+      "name": "Baxter (Flinders)",
+      "formal": 751,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 55.13,
+      "swing": 55.13,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 230,
+          "pct": 30.63
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 220,
+          "pct": 29.29
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 140,
+          "pct": 18.64
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 8.39
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 59,
+          "pct": 7.86
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 4.13
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 1.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 337,
+          "elected": true,
+          "pct": 44.87
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 414,
+          "elected": false,
+          "pct": 55.13
+        }
+      ]
+    },
+    {
+      "boothId": 83809,
+      "name": "Mount Martha Nepean",
+      "formal": 750,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 53.07,
+      "swing": 53.07,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 275,
+          "pct": 36.67
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 206,
+          "pct": 27.47
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 145,
+          "pct": 19.33
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 58,
+          "pct": 7.73
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 4.27
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 4.0
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 352,
+          "elected": true,
+          "pct": 46.93
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 398,
+          "elected": false,
+          "pct": 53.07
+        }
+      ]
+    },
+    {
+      "boothId": 3666,
+      "name": "Tootgarook",
+      "formal": 722,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 59.97,
+      "swing": 59.97,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 200,
+          "pct": 27.7
+        },
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 196,
+          "pct": 27.15
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 183,
+          "pct": 25.35
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 64,
+          "pct": 8.86
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 6.37
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 3.74
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 289,
+          "elected": true,
+          "pct": 40.03
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 433,
+          "elected": false,
+          "pct": 59.97
+        }
+      ]
+    },
+    {
+      "boothId": 3653,
+      "name": "Red Hill",
+      "formal": 722,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 60.11,
+      "swing": 60.11,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 280,
+          "pct": 38.78
+        },
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 251,
+          "pct": 34.76
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "pct": 15.24
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 6.37
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 2.49
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.25
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 288,
+          "elected": true,
+          "pct": 39.89
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 434,
+          "elected": false,
+          "pct": 60.11
+        }
+      ]
+    },
+    {
+      "boothId": 3664,
+      "name": "Sorrento",
+      "formal": 683,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 60.32,
+      "swing": 60.32,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 369,
+          "pct": 54.03
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 125,
+          "pct": 18.3
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 122,
+          "pct": 17.86
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 39,
+          "pct": 5.71
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 2.05
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.61
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 412,
+          "elected": true,
+          "pct": 60.32
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 271,
+          "elected": false,
+          "pct": 39.68
+        }
+      ]
+    },
+    {
+      "boothId": 3635,
+      "name": "Hastings",
+      "formal": 662,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 55.44,
+      "swing": 55.44,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 171,
+          "pct": 25.83
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 168,
+          "pct": 25.38
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 160,
+          "pct": 24.17
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 9.67
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 61,
+          "pct": 9.21
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 4.53
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 1.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 295,
+          "elected": true,
+          "pct": 44.56
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 367,
+          "elected": false,
+          "pct": 55.44
+        }
+      ]
+    },
+    {
+      "boothId": 3606,
+      "name": "Mornington South",
+      "formal": 642,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 58.41,
+      "swing": 58.41,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 201,
+          "pct": 31.31
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 178,
+          "pct": 27.73
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 159,
+          "pct": 24.77
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 62,
+          "pct": 9.66
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 3.74
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.18
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 267,
+          "elected": true,
+          "pct": 41.59
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 375,
+          "elected": false,
+          "pct": 58.41
+        }
+      ]
+    },
+    {
+      "boothId": 3662,
+      "name": "Somers",
+      "formal": 618,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 68.77,
+      "swing": 68.77,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 255,
+          "pct": 41.26
+        },
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 144,
+          "pct": 23.3
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 134,
+          "pct": 21.68
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 7.44
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 3.07
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.62
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 193,
+          "elected": true,
+          "pct": 31.23
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 425,
+          "elected": false,
+          "pct": 68.77
+        }
+      ]
+    },
+    {
+      "boothId": 3645,
+      "name": "Moorooduc",
+      "formal": 505,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 61.98,
+      "swing": 61.98,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 264,
+          "pct": 52.28
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 97,
+          "pct": 19.21
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 76,
+          "pct": 15.05
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 6.53
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 4.95
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.19
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 313,
+          "elected": true,
+          "pct": 61.98
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 192,
+          "elected": false,
+          "pct": 38.02
+        }
+      ]
+    },
+    {
+      "boothId": 3631,
+      "name": "Flinders",
+      "formal": 479,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 54.28,
+      "swing": 54.28,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 197,
+          "pct": 41.13
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 166,
+          "pct": 34.66
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 73,
+          "pct": 15.24
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 23,
+          "pct": 4.8
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.88
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 1.46
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 219,
+          "elected": true,
+          "pct": 45.72
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 260,
+          "elected": false,
+          "pct": 54.28
+        }
+      ]
+    },
+    {
+      "boothId": 11652,
+      "name": "Mount Eliza Central",
+      "formal": 465,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 57.42,
+      "swing": 57.42,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 234,
+          "pct": 50.32
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 98,
+          "pct": 21.08
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 83,
+          "pct": 17.85
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 4.09
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 3.87
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 2.15
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 0.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 267,
+          "elected": true,
+          "pct": 57.42
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 198,
+          "elected": false,
+          "pct": 42.58
+        }
+      ]
+    },
+    {
+      "boothId": 31465,
+      "name": "St Andrews Beach",
+      "formal": 444,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 57.21,
+      "swing": 57.21,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 145,
+          "pct": 32.66
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 133,
+          "pct": 29.95
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 99,
+          "pct": 22.3
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 7.43
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 4.73
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.58
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 1.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 190,
+          "elected": true,
+          "pct": 42.79
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 254,
+          "elected": false,
+          "pct": 57.21
+        }
+      ]
+    },
+    {
+      "boothId": 31295,
+      "name": "Dromana Beach",
+      "formal": 371,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 58.76,
+      "swing": 58.76,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 117,
+          "pct": 31.54
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 100,
+          "pct": 26.95
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 98,
+          "pct": 26.42
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 27,
+          "pct": 7.28
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 3.77
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.7
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 1.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 153,
+          "elected": true,
+          "pct": 41.24
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 218,
+          "elected": false,
+          "pct": 58.76
+        }
+      ]
+    },
+    {
+      "boothId": 3619,
+      "name": "Boneo",
+      "formal": 366,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 51.91,
+      "swing": 51.91,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 136,
+          "pct": 37.16
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 98,
+          "pct": 26.78
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 69,
+          "pct": 18.85
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 8.2
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 6.01
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.64
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 176,
+          "elected": true,
+          "pct": 48.09
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 190,
+          "elected": false,
+          "pct": 51.91
+        }
+      ]
+    },
+    {
+      "boothId": 3661,
+      "name": "Shoreham",
+      "formal": 327,
+      "winnerParty": "ind",
+      "winnerSurname": "SMITH",
+      "winnerPct": 67.28,
+      "swing": 67.28,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 123,
+          "pct": 37.61
+        },
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 90,
+          "pct": 27.52
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 69,
+          "pct": 21.1
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 24,
+          "pct": 7.34
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 4.59
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.92
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 107,
+          "elected": true,
+          "pct": 32.72
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 220,
+          "elected": false,
+          "pct": 67.28
+        }
+      ]
+    },
+    {
+      "boothId": 109098,
+      "name": "Special Hospital Team 4",
+      "formal": 311,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 60.13,
+      "swing": 60.13,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 164,
+          "pct": 52.73
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "pct": 31.19
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 8.36
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 3.86
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 2.57
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.29
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 187,
+          "elected": true,
+          "pct": 60.13
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 124,
+          "elected": false,
+          "pct": 39.87
+        }
+      ]
+    },
+    {
+      "boothId": 108777,
+      "name": "Special Hospital Team 1",
+      "formal": 239,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 52.3,
+      "swing": 52.3,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 104,
+          "pct": 43.51
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 53,
+          "pct": 22.18
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 21.76
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 4.18
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 3.77
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 2.51
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 125,
+          "elected": true,
+          "pct": 52.3
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 114,
+          "elected": false,
+          "pct": 47.7
+        }
+      ]
+    },
+    {
+      "boothId": 109079,
+      "name": "Special Hospital Team 3",
+      "formal": 221,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 61.09,
+      "swing": 61.09,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 108,
+          "pct": 48.87
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 61,
+          "pct": 27.6
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 12.22
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 4.52
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 4.52
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 1.81
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 135,
+          "elected": true,
+          "pct": 61.09
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 86,
+          "elected": false,
+          "pct": 38.91
+        }
+      ]
+    },
+    {
+      "boothId": 3652,
+      "name": "Portsea",
+      "formal": 207,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 63.77,
+      "swing": 63.77,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 126,
+          "pct": 60.87
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 46,
+          "pct": 22.22
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "pct": 9.18
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 3.38
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 1.93
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.45
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 132,
+          "elected": true,
+          "pct": 63.77
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 75,
+          "elected": false,
+          "pct": 36.23
+        }
+      ]
+    },
+    {
+      "boothId": 109074,
+      "name": "Special Hospital Team 2",
+      "formal": 188,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 55.85,
+      "swing": 55.85,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 76,
+          "pct": 40.43
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 57,
+          "pct": 30.32
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 16.49
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 4.26
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 3.72
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 3.19
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 105,
+          "elected": true,
+          "pct": 55.85
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 83,
+          "elected": false,
+          "pct": 44.15
+        }
+      ]
+    },
+    {
+      "boothId": 65434,
+      "name": "EAV Flinders PPVC",
+      "formal": 11,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 63.64,
+      "swing": 63.64,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6,
+          "pct": 54.55
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2,
+          "pct": 18.18
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 18.18
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 9.09
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 7,
+          "elected": true,
+          "pct": 63.64
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "elected": false,
+          "pct": 36.36
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 114923,
+    "candidates": [
+      {
+        "id": "C41371",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Smart"
+      },
+      {
+        "id": "C40838",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Smith"
+      },
+      {
+        "id": "C40748",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Mckenzie"
+      },
+      {
+        "id": "C41509",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Brown"
+      },
+      {
+        "id": "C40892",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Toscano"
+      },
+      {
+        "id": "C40853",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Race"
+      },
+      {
+        "id": "C41131",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Frogley"
+      }
+    ],
+    "rounds": [
+      {
+        "C41371": 3144,
+        "C40838": 24406,
+        "C40748": 47375,
+        "C41509": 6091,
+        "C40892": 980,
+        "C40853": 25622,
+        "C41131": 7305
+      },
+      {
+        "C41371": 3252,
+        "C40838": 24721,
+        "C40748": 47493,
+        "C41509": 6225,
+        "C40853": 25771,
+        "C41131": 7461
+      },
+      {
+        "C40838": 25684,
+        "C40748": 48216,
+        "C41509": 7439,
+        "C40853": 25973,
+        "C41131": 7611
+      },
+      {
+        "C40838": 27411,
+        "C40748": 52872,
+        "C40853": 26669,
+        "C41131": 7971
+      },
+      {
+        "C40838": 31285,
+        "C40748": 53444,
+        "C40853": 30194
+      },
+      {
+        "C40838": 54833,
+        "C40748": 60090
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            58.25,
+            59.11,
+            61.81,
+            57.77,
+            55.64,
+            56.7,
+            52.29
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            41.75,
+            40.89,
+            38.19,
+            42.23,
+            44.36,
+            43.3,
+            null
+          ]
+        },
+        {
+          "id": "IND",
+          "party": "ind",
+          "label": "IND",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            47.71
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 54.47,
+            "GRN": 8.48,
+            "FFP": 2.24,
+            "ALP": 33.88,
+            "OTH": 0.93
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "GRN": 11.5,
+            "FFP": 2.43,
+            "LIB": 54.3,
+            "ALP": 31.76
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "GRN": 9.74,
+            "TOP": 6.0,
+            "LIB": 55.34,
+            "ALP": 25.2,
+            "OTH": 3.72
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "LIB": 51.6,
+            "IND": 3.06,
+            "AJP": 4.28,
+            "RUA": 3.33,
+            "ALP": 27.03,
+            "GRN": 10.7
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "LIB": 46.72,
+            "AJP": 2.38,
+            "TOP": 2.52,
+            "ALP": 24.74,
+            "IND": 15.73,
+            "GRN": 6.81,
+            "OTH": 1.11
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "IND": 12.49,
+            "GRN": 9.4,
+            "ON": 3.41,
+            "LDP": 2.39,
+            "AJP": 2.08,
+            "ALP": 21.73,
+            "LIB": 43.49,
+            "TOP": 4.52,
+            "OTH": 0.49
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "GRN": 6.36,
+            "ON": 5.3,
+            "ALP": 22.29,
+            "CYA": 2.74,
+            "LIB": 41.22,
+            "IND": 22.09
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 150355,
+    "medianAge": 48,
+    "medianHouseholdIncomeWeekly": 1479,
+    "medianRentWeekly": 375,
+    "averageHouseholdSize": 2.3,
+    "bornOverseasPct": 18.2,
+    "indigenousPct": 1.1,
+    "bachelorPlusPct": 31.9,
+    "renterPct": 19.7,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 115501,
+        "pct": 81.81,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 4731,
+        "pct": 3.35,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 1005,
+        "pct": 0.71,
+        "natPct": 1.11
+      },
+      {
+        "label": "Italy",
+        "count": 655,
+        "pct": 0.46,
+        "natPct": 0.35
+      },
+      {
+        "label": "Scotland",
+        "count": 654,
+        "pct": 0.46,
+        "natPct": 0.25
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 72909,
+        "pct": 48.49,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 63020,
+        "pct": 41.91,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 11291,
+        "pct": 7.51,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 979,
+        "pct": 0.65,
+        "natPct": 2.42
+      },
+      {
+        "label": "Other religions",
+        "count": 447,
+        "pct": 0.3,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Flinders is an Australian Electoral Division in Victoria. The division is one of the original 65 divisions contested at the first federal election. It is named after Matthew Flinders, the first man to circumnavigate Australia, and the person credited with giving Australia its name.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Flinders",
+    "retrievedAt": "2026-04-07T10:27:35Z"
+  }
+}

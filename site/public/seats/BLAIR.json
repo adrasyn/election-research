@@ -1,0 +1,7244 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "BLAIR",
+    "divisionId": 304,
+    "name": "Blair",
+    "state": "QLD",
+    "totalFormal": 116953,
+    "informalVotes": 6914,
+    "informalRate": 7.31,
+    "winner": {
+      "candidateId": "C40725",
+      "surname": "NEUMANN",
+      "givenName": "Shayne",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 11.42,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40725",
+      "surname": "NEUMANN",
+      "givenName": "Shayne",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 32636,
+      "pct": 37.24
+    },
+    {
+      "candidateId": "C41202",
+      "surname": "MUTZELBURG",
+      "givenName": "Carl",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 23456,
+      "pct": 26.76
+    },
+    {
+      "candidateId": "C41250",
+      "surname": "TONER",
+      "givenName": "Paul",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 9317,
+      "pct": 10.63
+    },
+    {
+      "candidateId": "C40920",
+      "surname": "KROSS",
+      "givenName": "Brendan",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 8123,
+      "pct": 9.27
+    },
+    {
+      "candidateId": "C40927",
+      "surname": "HOPKINS",
+      "givenName": "Anthony",
+      "party": "oth",
+      "partyAb": "HMP",
+      "votes": 4046,
+      "pct": 4.62
+    },
+    {
+      "candidateId": "C40963",
+      "surname": "CHADWICK",
+      "givenName": "Kathryn",
+      "party": "oth",
+      "partyAb": "GRPF",
+      "votes": 3408,
+      "pct": 3.89
+    },
+    {
+      "candidateId": "C41325",
+      "surname": "McDONALD",
+      "givenName": "Edward",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2698,
+      "pct": 3.08
+    },
+    {
+      "candidateId": "C40846",
+      "surname": "PURDON",
+      "givenName": "John Frederick",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 1778,
+      "pct": 2.03
+    },
+    {
+      "candidateId": "C41530",
+      "surname": "LOWERY",
+      "givenName": "Angela",
+      "party": "ajp",
+      "partyAb": "AJP",
+      "votes": 1324,
+      "pct": 1.51
+    },
+    {
+      "candidateId": "C42043",
+      "surname": "BULL",
+      "givenName": "Anthony",
+      "party": "oth",
+      "partyAb": "LTP",
+      "votes": 856,
+      "pct": 0.98
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40725",
+      "surname": "NEUMANN",
+      "givenName": "Shayne",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 65156,
+      "pct": 55.71,
+      "elected": true
+    },
+    {
+      "candidateId": "C41202",
+      "surname": "MUTZELBURG",
+      "givenName": "Carl",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 51797,
+      "pct": 44.29,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 65808,
+      "name": "Ipswich South PPVC",
+      "formal": 15088,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 55.02,
+      "swing": 3.95,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6223,
+          "pct": 41.24
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4639,
+          "pct": 30.75
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1223,
+          "pct": 8.11
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1046,
+          "pct": 6.93
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 555,
+          "pct": 3.68
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 451,
+          "pct": 2.99
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 373,
+          "pct": 2.47
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 306,
+          "pct": 2.03
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 147,
+          "pct": 0.97
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 125,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8302,
+          "elected": true,
+          "pct": 55.02
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6786,
+          "elected": false,
+          "pct": 44.98
+        }
+      ]
+    },
+    {
+      "boothId": 47733,
+      "name": "Ipswich BLAIR PPVC",
+      "formal": 8727,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 59.1,
+      "swing": 0.63,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3394,
+          "pct": 38.89
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2325,
+          "pct": 26.64
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1184,
+          "pct": 13.57
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 620,
+          "pct": 7.1
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 331,
+          "pct": 3.79
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 323,
+          "pct": 3.7
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 216,
+          "pct": 2.48
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 147,
+          "pct": 1.68
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 121,
+          "pct": 1.39
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 66,
+          "pct": 0.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5158,
+          "elected": true,
+          "pct": 59.1
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3569,
+          "elected": false,
+          "pct": 40.9
+        }
+      ]
+    },
+    {
+      "boothId": 97770,
+      "name": "North Ipswich PPVC",
+      "formal": 8379,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 53.83,
+      "swing": -2.08,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3099,
+          "pct": 36.99
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2504,
+          "pct": 29.88
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 853,
+          "pct": 10.18
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 723,
+          "pct": 8.63
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 331,
+          "pct": 3.95
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 296,
+          "pct": 3.53
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 230,
+          "pct": 2.74
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 147,
+          "pct": 1.75
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 141,
+          "pct": 1.68
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 55,
+          "pct": 0.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4510,
+          "elected": true,
+          "pct": 53.83
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3869,
+          "elected": false,
+          "pct": 46.17
+        }
+      ]
+    },
+    {
+      "boothId": 83236,
+      "name": "Springfield Central BLAIR PPVC",
+      "formal": 7661,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 63.26,
+      "swing": 0.95,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3414,
+          "pct": 44.56
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1858,
+          "pct": 24.25
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 930,
+          "pct": 12.14
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 483,
+          "pct": 6.3
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 249,
+          "pct": 3.25
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 191,
+          "pct": 2.49
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 178,
+          "pct": 2.32
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 155,
+          "pct": 2.02
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 118,
+          "pct": 1.54
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 85,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4846,
+          "elected": true,
+          "pct": 63.26
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2815,
+          "elected": false,
+          "pct": 36.74
+        }
+      ]
+    },
+    {
+      "boothId": 108714,
+      "name": "Somerset Regional PPVC",
+      "formal": 1812,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 59.27,
+      "swing": 7.75,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 735,
+          "pct": 40.56
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 554,
+          "pct": 30.57
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 213,
+          "pct": 11.75
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 103,
+          "pct": 5.68
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 3.75
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 59,
+          "pct": 3.26
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 39,
+          "pct": 2.15
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 17,
+          "pct": 0.94
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 0.77
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 738,
+          "elected": true,
+          "pct": 40.73
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1074,
+          "elected": false,
+          "pct": 59.27
+        }
+      ]
+    },
+    {
+      "boothId": 6383,
+      "name": "Redbank Plains (Blair)",
+      "formal": 1710,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 63.16,
+      "swing": -4.09,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 665,
+          "pct": 38.89
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 317,
+          "pct": 18.54
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 263,
+          "pct": 15.38
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 129,
+          "pct": 7.54
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 102,
+          "pct": 5.96
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 68,
+          "pct": 3.98
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 63,
+          "pct": 3.68
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 59,
+          "pct": 3.45
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.4
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 20,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1080,
+          "elected": true,
+          "pct": 63.16
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 630,
+          "elected": false,
+          "pct": 36.84
+        }
+      ]
+    },
+    {
+      "boothId": 6516,
+      "name": "Karana Downs",
+      "formal": 1660,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 51.99,
+      "swing": 0.64,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 515,
+          "pct": 31.02
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 512,
+          "pct": 30.84
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 267,
+          "pct": 16.08
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 104,
+          "pct": 6.27
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 99,
+          "pct": 5.96
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.13
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 2.29
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 1.75
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 24,
+          "pct": 1.45
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 863,
+          "elected": true,
+          "pct": 51.99
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 797,
+          "elected": false,
+          "pct": 48.01
+        }
+      ]
+    },
+    {
+      "boothId": 6369,
+      "name": "Karalee",
+      "formal": 1638,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 54.21,
+      "swing": -0.24,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 565,
+          "pct": 34.49
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 479,
+          "pct": 29.24
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 158,
+          "pct": 9.65
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 152,
+          "pct": 9.28
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 85,
+          "pct": 5.19
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 70,
+          "pct": 4.27
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 54,
+          "pct": 3.3
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 2.2
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.22
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 19,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 750,
+          "elected": true,
+          "pct": 45.79
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 888,
+          "elected": false,
+          "pct": 54.21
+        }
+      ]
+    },
+    {
+      "boothId": 6361,
+      "name": "Fernvale",
+      "formal": 1516,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 54.16,
+      "swing": 0.11,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 463,
+          "pct": 30.54
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 426,
+          "pct": 28.1
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 235,
+          "pct": 15.5
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 98,
+          "pct": 6.46
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 91,
+          "pct": 6.0
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 80,
+          "pct": 5.28
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 56,
+          "pct": 3.69
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 1.58
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.52
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 20,
+          "pct": 1.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 695,
+          "elected": true,
+          "pct": 45.84
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 821,
+          "elected": false,
+          "pct": 54.16
+        }
+      ]
+    },
+    {
+      "boothId": 108713,
+      "name": "Ripley Valley",
+      "formal": 1358,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 65.76,
+      "swing": 9.77,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 575,
+          "pct": 42.34
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 293,
+          "pct": 21.58
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 220,
+          "pct": 16.2
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 87,
+          "pct": 6.41
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 66,
+          "pct": 4.86
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 36,
+          "pct": 2.65
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.84
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 1.84
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 18,
+          "pct": 1.33
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 893,
+          "elected": true,
+          "pct": 65.76
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 465,
+          "elected": false,
+          "pct": 34.24
+        }
+      ]
+    },
+    {
+      "boothId": 6347,
+      "name": "Brassall",
+      "formal": 1351,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 58.33,
+      "swing": -0.4,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 483,
+          "pct": 35.75
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 324,
+          "pct": 23.98
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 154,
+          "pct": 11.4
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 122,
+          "pct": 9.03
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 98,
+          "pct": 7.25
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 62,
+          "pct": 4.59
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 2.44
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 2.29
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.15
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 15,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 788,
+          "elected": true,
+          "pct": 58.33
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 563,
+          "elected": false,
+          "pct": 41.67
+        }
+      ]
+    },
+    {
+      "boothId": 31647,
+      "name": "Rosewood",
+      "formal": 1308,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 50.99,
+      "swing": 3.97,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 383,
+          "pct": 29.28
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 378,
+          "pct": 28.9
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 173,
+          "pct": 13.23
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 97,
+          "pct": 7.42
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 78,
+          "pct": 5.96
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 64,
+          "pct": 4.89
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.98
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 46,
+          "pct": 3.52
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 26,
+          "pct": 1.99
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 641,
+          "elected": true,
+          "pct": 49.01
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 667,
+          "elected": false,
+          "pct": 50.99
+        }
+      ]
+    },
+    {
+      "boothId": 6348,
+      "name": "Brassall North",
+      "formal": 1303,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 63.09,
+      "swing": -0.15,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 487,
+          "pct": 37.38
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 258,
+          "pct": 19.8
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 174,
+          "pct": 13.35
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 131,
+          "pct": 10.05
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 112,
+          "pct": 8.6
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.3
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.69
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 25,
+          "pct": 1.92
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.69
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 1.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 822,
+          "elected": true,
+          "pct": 63.09
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 481,
+          "elected": false,
+          "pct": 36.91
+        }
+      ]
+    },
+    {
+      "boothId": 6390,
+      "name": "Walloon",
+      "formal": 1278,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 51.64,
+      "swing": 1.52,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 410,
+          "pct": 32.08
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 304,
+          "pct": 23.79
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 196,
+          "pct": 15.34
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 116,
+          "pct": 9.08
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 76,
+          "pct": 5.95
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 67,
+          "pct": 5.24
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 54,
+          "pct": 4.23
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 22,
+          "pct": 1.72
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 1.56
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 660,
+          "elected": true,
+          "pct": 51.64
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 618,
+          "elected": false,
+          "pct": 48.36
+        }
+      ]
+    },
+    {
+      "boothId": 6387,
+      "name": "Silkstone",
+      "formal": 1245,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 64.58,
+      "swing": 2.21,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 462,
+          "pct": 37.11
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 233,
+          "pct": 18.71
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 206,
+          "pct": 16.55
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 94,
+          "pct": 7.55
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 85,
+          "pct": 6.83
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 50,
+          "pct": 4.02
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 48,
+          "pct": 3.86
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 2.33
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 27,
+          "pct": 2.17
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 804,
+          "elected": true,
+          "pct": 64.58
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 441,
+          "elected": false,
+          "pct": 35.42
+        }
+      ]
+    },
+    {
+      "boothId": 6350,
+      "name": "Bundamba South",
+      "formal": 1242,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 62.8,
+      "swing": 0.44,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 449,
+          "pct": 36.15
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 212,
+          "pct": 17.07
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 165,
+          "pct": 13.29
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 152,
+          "pct": 12.24
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 81,
+          "pct": 6.52
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 55,
+          "pct": 4.43
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 50,
+          "pct": 4.03
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 45,
+          "pct": 3.62
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 1.53
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 780,
+          "elected": true,
+          "pct": 62.8
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 462,
+          "elected": false,
+          "pct": 37.2
+        }
+      ]
+    },
+    {
+      "boothId": 6381,
+      "name": "Raceview",
+      "formal": 1204,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 61.54,
+      "swing": 2.11,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 450,
+          "pct": 37.38
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 223,
+          "pct": 18.52
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 129,
+          "pct": 10.71
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 128,
+          "pct": 10.63
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 101,
+          "pct": 8.39
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 50,
+          "pct": 4.15
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.9
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 3.07
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 22,
+          "pct": 1.83
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 741,
+          "elected": true,
+          "pct": 61.54
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 463,
+          "elected": false,
+          "pct": 38.46
+        }
+      ]
+    },
+    {
+      "boothId": 6373,
+      "name": "Lowood",
+      "formal": 1169,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 51.07,
+      "swing": 2.72,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 366,
+          "pct": 31.31
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 343,
+          "pct": 29.34
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 159,
+          "pct": 13.6
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 68,
+          "pct": 5.82
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 58,
+          "pct": 4.96
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 58,
+          "pct": 4.96
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 47,
+          "pct": 4.02
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 2.65
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 29,
+          "pct": 2.48
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 572,
+          "elected": true,
+          "pct": 48.93
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 597,
+          "elected": false,
+          "pct": 51.07
+        }
+      ]
+    },
+    {
+      "boothId": 5488,
+      "name": "Kilcoy",
+      "formal": 1157,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 55.32,
+      "swing": -3.73,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 378,
+          "pct": 32.67
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 353,
+          "pct": 30.51
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 167,
+          "pct": 14.43
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 66,
+          "pct": 5.7
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 51,
+          "pct": 4.41
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.72
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.72
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 2.59
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.21
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 12,
+          "pct": 1.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 517,
+          "elected": true,
+          "pct": 44.68
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 640,
+          "elected": false,
+          "pct": 55.32
+        }
+      ]
+    },
+    {
+      "boothId": 47718,
+      "name": "Raceview West",
+      "formal": 1141,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 56.62,
+      "swing": -0.88,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 394,
+          "pct": 34.53
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 264,
+          "pct": 23.14
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 124,
+          "pct": 10.87
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 119,
+          "pct": 10.43
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 67,
+          "pct": 5.87
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 66,
+          "pct": 5.78
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 48,
+          "pct": 4.21
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 3.16
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 13,
+          "pct": 1.14
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 646,
+          "elected": true,
+          "pct": 56.62
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 495,
+          "elected": false,
+          "pct": 43.38
+        }
+      ]
+    },
+    {
+      "boothId": 108873,
+      "name": "Bellbowrie BLAIR PPVC",
+      "formal": 1107,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 52.3,
+      "swing": -2.63,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 357,
+          "pct": 32.25
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 342,
+          "pct": 30.89
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 200,
+          "pct": 18.07
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 5.33
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 56,
+          "pct": 5.06
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 3.16
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.62
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 12,
+          "pct": 1.08
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 0.99
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 579,
+          "elected": true,
+          "pct": 52.3
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 528,
+          "elected": false,
+          "pct": 47.7
+        }
+      ]
+    },
+    {
+      "boothId": 6362,
+      "name": "Flinders View",
+      "formal": 1099,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 56.78,
+      "swing": -0.1,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 377,
+          "pct": 34.3
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 288,
+          "pct": 26.21
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 160,
+          "pct": 14.56
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 83,
+          "pct": 7.55
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 48,
+          "pct": 4.37
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.91
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 3.28
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.82
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 18,
+          "pct": 1.64
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 624,
+          "elected": true,
+          "pct": 56.78
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 475,
+          "elected": false,
+          "pct": 43.22
+        }
+      ]
+    },
+    {
+      "boothId": 47717,
+      "name": "Yamanto",
+      "formal": 1012,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 54.84,
+      "swing": 4.22,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 361,
+          "pct": 35.67
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 255,
+          "pct": 25.2
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 103,
+          "pct": 10.18
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 81,
+          "pct": 8.0
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 70,
+          "pct": 6.92
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 56,
+          "pct": 5.53
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 41,
+          "pct": 4.05
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 2.57
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.99
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 9,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 555,
+          "elected": true,
+          "pct": 54.84
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 457,
+          "elected": false,
+          "pct": 45.16
+        }
+      ]
+    },
+    {
+      "boothId": 6345,
+      "name": "Sadliers Crossing",
+      "formal": 979,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 61.18,
+      "swing": -0.24,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 332,
+          "pct": 33.91
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 231,
+          "pct": 23.6
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 189,
+          "pct": 19.31
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 7.25
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 58,
+          "pct": 5.92
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 32,
+          "pct": 3.27
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.04
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 19,
+          "pct": 1.94
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 1.84
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 599,
+          "elected": true,
+          "pct": 61.18
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 380,
+          "elected": false,
+          "pct": 38.82
+        }
+      ]
+    },
+    {
+      "boothId": 83217,
+      "name": "Deebing Heights",
+      "formal": 927,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 57.17,
+      "swing": 0.43,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 367,
+          "pct": 39.59
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 211,
+          "pct": 22.76
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 103,
+          "pct": 11.11
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 82,
+          "pct": 8.85
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 53,
+          "pct": 5.72
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.34
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 30,
+          "pct": 3.24
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 2.48
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 18,
+          "pct": 1.94
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 530,
+          "elected": true,
+          "pct": 57.17
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 397,
+          "elected": false,
+          "pct": 42.83
+        }
+      ]
+    },
+    {
+      "boothId": 6389,
+      "name": "Tivoli",
+      "formal": 923,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 54.6,
+      "swing": 2.24,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 282,
+          "pct": 30.55
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 241,
+          "pct": 26.11
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 123,
+          "pct": 13.33
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 88,
+          "pct": 9.53
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 71,
+          "pct": 7.69
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 42,
+          "pct": 4.55
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 2.93
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 2.82
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 15,
+          "pct": 1.63
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 504,
+          "elected": true,
+          "pct": 54.6
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 419,
+          "elected": false,
+          "pct": 45.4
+        }
+      ]
+    },
+    {
+      "boothId": 6358,
+      "name": "East Ipswich",
+      "formal": 908,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 63.88,
+      "swing": 2.55,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 323,
+          "pct": 35.57
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 160,
+          "pct": 17.62
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 16.74
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 83,
+          "pct": 9.14
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 78,
+          "pct": 8.59
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.07
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 3.85
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 2.31
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 13,
+          "pct": 1.43
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 580,
+          "elected": true,
+          "pct": 63.88
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 328,
+          "elected": false,
+          "pct": 36.12
+        }
+      ]
+    },
+    {
+      "boothId": 6349,
+      "name": "Bundamba",
+      "formal": 905,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 59.89,
+      "swing": -5.42,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 312,
+          "pct": 34.48
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 185,
+          "pct": 20.44
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 112,
+          "pct": 12.38
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 87,
+          "pct": 9.61
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 64,
+          "pct": 7.07
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 44,
+          "pct": 4.86
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.09
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 2.76
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 22,
+          "pct": 2.43
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 542,
+          "elected": true,
+          "pct": 59.89
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 363,
+          "elected": false,
+          "pct": 40.11
+        }
+      ]
+    },
+    {
+      "boothId": 6372,
+      "name": "Leichhardt",
+      "formal": 862,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 61.02,
+      "swing": -5.82,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 292,
+          "pct": 33.87
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 123,
+          "pct": 14.27
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 123,
+          "pct": 14.27
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 100,
+          "pct": 11.6
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 99,
+          "pct": 11.48
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 40,
+          "pct": 4.64
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 4.06
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 2.32
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 16,
+          "pct": 1.86
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 526,
+          "elected": true,
+          "pct": 61.02
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 336,
+          "elected": false,
+          "pct": 38.98
+        }
+      ]
+    },
+    {
+      "boothId": 47719,
+      "name": "Redbank Plains East (Blair)",
+      "formal": 858,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 66.08,
+      "swing": -2.49,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 345,
+          "pct": 40.21
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 138,
+          "pct": 16.08
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 15.5
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 73,
+          "pct": 8.51
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 68,
+          "pct": 7.93
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 3.5
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.03
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 2.91
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 13,
+          "pct": 1.52
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 567,
+          "elected": true,
+          "pct": 66.08
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 291,
+          "elected": false,
+          "pct": 33.92
+        }
+      ]
+    },
+    {
+      "boothId": 6371,
+      "name": "One Mile",
+      "formal": 841,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 69.08,
+      "swing": 4.51,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 327,
+          "pct": 38.88
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 158,
+          "pct": 18.79
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 111,
+          "pct": 13.2
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 85,
+          "pct": 10.11
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 68,
+          "pct": 8.09
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.69
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.73
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 22,
+          "pct": 2.62
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.31
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 581,
+          "elected": true,
+          "pct": 69.08
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 260,
+          "elected": false,
+          "pct": 30.92
+        }
+      ]
+    },
+    {
+      "boothId": 60354,
+      "name": "Springfield Central (Blair)",
+      "formal": 830,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 66.02,
+      "swing": 3.53,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 369,
+          "pct": 44.46
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 176,
+          "pct": 21.2
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 114,
+          "pct": 13.73
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 5.78
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 5.18
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.53
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.41
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 2.05
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.45
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 548,
+          "elected": true,
+          "pct": 66.02
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 282,
+          "elected": false,
+          "pct": 33.98
+        }
+      ]
+    },
+    {
+      "boothId": 82913,
+      "name": "Raymonds Hill",
+      "formal": 820,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 58.17,
+      "swing": -1.77,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 276,
+          "pct": 33.66
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 194,
+          "pct": 23.66
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 124,
+          "pct": 15.12
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 9.39
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 41,
+          "pct": 5.0
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 41,
+          "pct": 5.0
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 4.02
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 2.07
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 1.22
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 477,
+          "elected": true,
+          "pct": 58.17
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 343,
+          "elected": false,
+          "pct": 41.83
+        }
+      ]
+    },
+    {
+      "boothId": 60352,
+      "name": "Collingwood Park South",
+      "formal": 801,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 67.04,
+      "swing": 2.27,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 311,
+          "pct": 38.83
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 134,
+          "pct": 16.73
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 128,
+          "pct": 15.98
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 7.87
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 58,
+          "pct": 7.24
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 3.75
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 2.87
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.75
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 21,
+          "pct": 2.62
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 537,
+          "elected": true,
+          "pct": 67.04
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 264,
+          "elected": false,
+          "pct": 32.96
+        }
+      ]
+    },
+    {
+      "boothId": 6384,
+      "name": "Riverview",
+      "formal": 796,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 62.19,
+      "swing": -4.33,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 322,
+          "pct": 40.45
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 148,
+          "pct": 18.59
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 82,
+          "pct": 10.3
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 81,
+          "pct": 10.18
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 69,
+          "pct": 8.67
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 27,
+          "pct": 3.39
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.27
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 2.76
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 14,
+          "pct": 1.76
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 495,
+          "elected": true,
+          "pct": 62.19
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 301,
+          "elected": false,
+          "pct": 37.81
+        }
+      ]
+    },
+    {
+      "boothId": 6352,
+      "name": "Ipswich Central",
+      "formal": 778,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 61.18,
+      "swing": -1.94,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 281,
+          "pct": 36.12
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 171,
+          "pct": 21.98
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 128,
+          "pct": 16.45
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 9.38
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 50,
+          "pct": 6.43
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 3.6
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.19
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 1.8
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 1.29
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 476,
+          "elected": true,
+          "pct": 61.18
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 302,
+          "elected": false,
+          "pct": 38.82
+        }
+      ]
+    },
+    {
+      "boothId": 82912,
+      "name": "Newtown Ipswich",
+      "formal": 764,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 65.84,
+      "swing": 4.22,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 290,
+          "pct": 37.96
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 161,
+          "pct": 21.07
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 139,
+          "pct": 18.19
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 7.33
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 36,
+          "pct": 4.71
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 25,
+          "pct": 3.27
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 3.27
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 18,
+          "pct": 2.36
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.92
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 503,
+          "elected": true,
+          "pct": 65.84
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 261,
+          "elected": false,
+          "pct": 34.16
+        }
+      ]
+    },
+    {
+      "boothId": 6377,
+      "name": "North Booval",
+      "formal": 679,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 64.06,
+      "swing": -0.73,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 269,
+          "pct": 39.62
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 140,
+          "pct": 20.62
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 99,
+          "pct": 14.58
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 7.66
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 44,
+          "pct": 6.48
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 4.12
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 2.36
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 15,
+          "pct": 2.21
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.91
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 435,
+          "elected": true,
+          "pct": 64.06
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 244,
+          "elected": false,
+          "pct": 35.94
+        }
+      ]
+    },
+    {
+      "boothId": 6355,
+      "name": "Coominya",
+      "formal": 630,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 56.03,
+      "swing": 0.87,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 182,
+          "pct": 28.89
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 177,
+          "pct": 28.1
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 126,
+          "pct": 20.0
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 37,
+          "pct": 5.87
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 30,
+          "pct": 4.76
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 28,
+          "pct": 4.44
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 3.97
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 1.59
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 9,
+          "pct": 1.43
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 277,
+          "elected": true,
+          "pct": 43.97
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 353,
+          "elected": false,
+          "pct": 56.03
+        }
+      ]
+    },
+    {
+      "boothId": 6375,
+      "name": "Minden",
+      "formal": 605,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 54.05,
+      "swing": 0.63,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 180,
+          "pct": 29.75
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 173,
+          "pct": 28.6
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 118,
+          "pct": 19.5
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 44,
+          "pct": 7.27
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 29,
+          "pct": 4.79
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 4.3
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.31
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 1.65
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 1.49
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 278,
+          "elected": true,
+          "pct": 45.95
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 327,
+          "elected": false,
+          "pct": 54.05
+        }
+      ]
+    },
+    {
+      "boothId": 5513,
+      "name": "Toogoolawah",
+      "formal": 599,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 61.44,
+      "swing": -0.24,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 234,
+          "pct": 39.07
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 155,
+          "pct": 25.88
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 14.02
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 42,
+          "pct": 7.01
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "pct": 4.84
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 21,
+          "pct": 3.51
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.67
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.34
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.0
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 4,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 231,
+          "elected": true,
+          "pct": 38.56
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 368,
+          "elected": false,
+          "pct": 61.44
+        }
+      ]
+    },
+    {
+      "boothId": 109713,
+      "name": "Springfield Central North",
+      "formal": 586,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 67.24,
+      "swing": 5.48,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 263,
+          "pct": 44.88
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 123,
+          "pct": 20.99
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 77,
+          "pct": 13.14
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 5.46
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 30,
+          "pct": 5.12
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.73
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.56
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 11,
+          "pct": 1.88
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.88
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 394,
+          "elected": true,
+          "pct": 67.24
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 192,
+          "elected": false,
+          "pct": 32.76
+        }
+      ]
+    },
+    {
+      "boothId": 6378,
+      "name": "North Ipswich",
+      "formal": 566,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 65.19,
+      "swing": -0.39,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 206,
+          "pct": 36.4
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 102,
+          "pct": 18.02
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 83,
+          "pct": 14.66
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 50,
+          "pct": 8.83
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 7.6
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 28,
+          "pct": 4.95
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 4.24
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 15,
+          "pct": 2.65
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 1.59
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 369,
+          "elected": true,
+          "pct": 65.19
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 197,
+          "elected": false,
+          "pct": 34.81
+        }
+      ]
+    },
+    {
+      "boothId": 6379,
+      "name": "Pine Mountain",
+      "formal": 562,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 54.8,
+      "swing": -1.09,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 210,
+          "pct": 37.37
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 168,
+          "pct": 29.89
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 12.28
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 42,
+          "pct": 7.47
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.38
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 18,
+          "pct": 3.2
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 3.2
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 1.25
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 6,
+          "pct": 1.07
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 254,
+          "elected": true,
+          "pct": 45.2
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 308,
+          "elected": false,
+          "pct": 54.8
+        }
+      ]
+    },
+    {
+      "boothId": 6353,
+      "name": "Churchill",
+      "formal": 550,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 60.73,
+      "swing": -1.87,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 221,
+          "pct": 40.18
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 117,
+          "pct": 21.27
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 9.82
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 45,
+          "pct": 8.18
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 7.27
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 4.73
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 18,
+          "pct": 3.27
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 13,
+          "pct": 2.36
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 2.36
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 334,
+          "elected": true,
+          "pct": 60.73
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 216,
+          "elected": false,
+          "pct": 39.27
+        }
+      ]
+    },
+    {
+      "boothId": 6360,
+      "name": "Esk",
+      "formal": 548,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 58.58,
+      "swing": 3.97,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 172,
+          "pct": 31.39
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 143,
+          "pct": 26.09
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 12.23
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 50,
+          "pct": 9.12
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 34,
+          "pct": 6.2
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 28,
+          "pct": 5.11
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 3.28
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 3.28
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 11,
+          "pct": 2.01
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 227,
+          "elected": true,
+          "pct": 41.42
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 321,
+          "elected": false,
+          "pct": 58.58
+        }
+      ]
+    },
+    {
+      "boothId": 55256,
+      "name": "Collingwood Park (Blair)",
+      "formal": 493,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 64.71,
+      "swing": 5.12,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 189,
+          "pct": 38.34
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 111,
+          "pct": 22.52
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 15.01
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 8.52
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 4.87
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 4.06
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.03
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 2.03
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.62
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 319,
+          "elected": true,
+          "pct": 64.71
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 174,
+          "elected": false,
+          "pct": 35.29
+        }
+      ]
+    },
+    {
+      "boothId": 6388,
+      "name": "Tarampa",
+      "formal": 481,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 54.26,
+      "swing": -5.9,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 163,
+          "pct": 33.89
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 163,
+          "pct": 33.89
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 68,
+          "pct": 14.14
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 25,
+          "pct": 5.2
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 21,
+          "pct": 4.37
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.91
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 2.08
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 6,
+          "pct": 1.25
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.25
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 220,
+          "elected": true,
+          "pct": 45.74
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 261,
+          "elected": false,
+          "pct": 54.26
+        }
+      ]
+    },
+    {
+      "boothId": 6374,
+      "name": "Marburg",
+      "formal": 449,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 55.9,
+      "swing": 4.17,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 153,
+          "pct": 34.08
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 118,
+          "pct": 26.28
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 68,
+          "pct": 15.14
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 9.13
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 18,
+          "pct": 4.01
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 4.01
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 4.01
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 1.56
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.11
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 198,
+          "elected": true,
+          "pct": 44.1
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 251,
+          "elected": false,
+          "pct": 55.9
+        }
+      ]
+    },
+    {
+      "boothId": 6364,
+      "name": "Glamorgan Vale",
+      "formal": 441,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 59.64,
+      "swing": 2.99,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 162,
+          "pct": 36.73
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 121,
+          "pct": 27.44
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 14.51
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 27,
+          "pct": 6.12
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 18,
+          "pct": 4.08
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 3.63
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 3.17
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 2.27
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.36
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 178,
+          "elected": true,
+          "pct": 40.36
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 263,
+          "elected": false,
+          "pct": 59.64
+        }
+      ]
+    },
+    {
+      "boothId": 82914,
+      "name": "Willowbank",
+      "formal": 406,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 54.43,
+      "swing": -3.54,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 121,
+          "pct": 29.8
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 111,
+          "pct": 27.34
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 17.73
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "pct": 7.14
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 21,
+          "pct": 5.17
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 4.19
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 14,
+          "pct": 3.45
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 2.46
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 9,
+          "pct": 2.22
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 185,
+          "elected": true,
+          "pct": 45.57
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 221,
+          "elected": false,
+          "pct": 54.43
+        }
+      ]
+    },
+    {
+      "boothId": 5498,
+      "name": "Mount Kilcoy",
+      "formal": 334,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 62.57,
+      "swing": -1.45,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 130,
+          "pct": 38.92
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 87,
+          "pct": 26.05
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 14.97
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 18,
+          "pct": 5.39
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 5.09
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 14,
+          "pct": 4.19
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.1
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.8
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 3,
+          "pct": 0.9
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 125,
+          "elected": true,
+          "pct": 37.43
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 209,
+          "elected": false,
+          "pct": 62.57
+        }
+      ]
+    },
+    {
+      "boothId": 6366,
+      "name": "Haigslea",
+      "formal": 308,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 63.31,
+      "swing": -5.97,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 116,
+          "pct": 37.66
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 69,
+          "pct": 22.4
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 15.91
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 8.44
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 16,
+          "pct": 5.19
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 12,
+          "pct": 3.9
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 2.6
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.95
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.97
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 3,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 113,
+          "elected": true,
+          "pct": 36.69
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 195,
+          "elected": false,
+          "pct": 63.31
+        }
+      ]
+    },
+    {
+      "boothId": 6391,
+      "name": "West Ipswich",
+      "formal": 278,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 60.07,
+      "swing": -1.09,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 98,
+          "pct": 35.25
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 64,
+          "pct": 23.02
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 15.47
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 8.63
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 5.76
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 13,
+          "pct": 4.68
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 9,
+          "pct": 3.24
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.16
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.8
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 167,
+          "elected": true,
+          "pct": 60.07
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 111,
+          "elected": false,
+          "pct": 39.93
+        }
+      ]
+    },
+    {
+      "boothId": 6445,
+      "name": "Grandchester",
+      "formal": 272,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 66.18,
+      "swing": 1.89,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 92,
+          "pct": 33.82
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 63,
+          "pct": 23.16
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 20.22
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 28,
+          "pct": 10.29
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 16,
+          "pct": 5.88
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 3.31
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.47
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.1
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.74
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 92,
+          "elected": true,
+          "pct": 33.82
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 180,
+          "elected": false,
+          "pct": 66.18
+        }
+      ]
+    },
+    {
+      "boothId": 82944,
+      "name": "Springfield Lakes (Blair)",
+      "formal": 250,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 68.0,
+      "swing": 7.79,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 112,
+          "pct": 44.8
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 50,
+          "pct": 20.0
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 16.4
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 5.2
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 4.4
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.8
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.4
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.0
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.2
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 2,
+          "pct": 0.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "elected": true,
+          "pct": 68.0
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 80,
+          "elected": false,
+          "pct": 32.0
+        }
+      ]
+    },
+    {
+      "boothId": 109811,
+      "name": "Special Hospital Team 3",
+      "formal": 244,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 66.39,
+      "swing": 12.1,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 121,
+          "pct": 49.59
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 47,
+          "pct": 19.26
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 20,
+          "pct": 8.2
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 6.56
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 10,
+          "pct": 4.1
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.87
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.46
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.46
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 2.46
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 5,
+          "pct": 2.05
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 162,
+          "elected": true,
+          "pct": 66.39
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 82,
+          "elected": false,
+          "pct": 33.61
+        }
+      ]
+    },
+    {
+      "boothId": 6376,
+      "name": "Mount Tarampa",
+      "formal": 242,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 54.55,
+      "swing": 1.63,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 79,
+          "pct": 32.64
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 73,
+          "pct": 30.17
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 45,
+          "pct": 18.6
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 4.55
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 9,
+          "pct": 3.72
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 3.31
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 2.89
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 5,
+          "pct": 2.07
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.24
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "elected": true,
+          "pct": 45.45
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 132,
+          "elected": false,
+          "pct": 54.55
+        }
+      ]
+    },
+    {
+      "boothId": 5495,
+      "name": "Moore",
+      "formal": 227,
+      "winnerParty": "lnp",
+      "winnerSurname": "MUTZELBURG",
+      "winnerPct": 61.67,
+      "swing": 2.91,
+      "candidates": [
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 101,
+          "pct": 44.49
+        },
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 52,
+          "pct": 22.91
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 8.81
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 14,
+          "pct": 6.17
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 5.73
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 5.29
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 4.85
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.88
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 1,
+          "pct": 0.44
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 87,
+          "elected": true,
+          "pct": 38.33
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 140,
+          "elected": false,
+          "pct": 61.67
+        }
+      ]
+    },
+    {
+      "boothId": 108435,
+      "name": "Special Hospital Team 1",
+      "formal": 196,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 56.12,
+      "swing": 2.07,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 84,
+          "pct": 42.86
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 69,
+          "pct": 35.2
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 3.57
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 3.57
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 3.06
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 3.06
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 5,
+          "pct": 2.55
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.04
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.04
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "elected": true,
+          "pct": 56.12
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 86,
+          "elected": false,
+          "pct": 43.88
+        }
+      ]
+    },
+    {
+      "boothId": 109813,
+      "name": "Special Hospital Team 4",
+      "formal": 143,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 67.83,
+      "swing": 13.69,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 75,
+          "pct": 52.45
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 27,
+          "pct": 18.88
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 16,
+          "pct": 11.19
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 6.99
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 4.9
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.1
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.4
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.7
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 1,
+          "pct": 0.7
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "elected": true,
+          "pct": 67.83
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 46,
+          "elected": false,
+          "pct": 32.17
+        }
+      ]
+    },
+    {
+      "boothId": 109044,
+      "name": "Special Hospital Team 2",
+      "formal": 138,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 60.14,
+      "swing": 5.99,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 73,
+          "pct": 52.9
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 38,
+          "pct": 27.54
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 3.62
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 3.62
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.9
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.9
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 3,
+          "pct": 2.17
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.17
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 1.45
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 83,
+          "elected": true,
+          "pct": 60.14
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 55,
+          "elected": false,
+          "pct": 39.86
+        }
+      ]
+    },
+    {
+      "boothId": 109814,
+      "name": "Special Hospital Team 5",
+      "formal": 127,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 74.02,
+      "swing": 19.83,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 74,
+          "pct": 58.27
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 23,
+          "pct": 18.11
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 3.94
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 5,
+          "pct": 3.94
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 3.94
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 3.15
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 3.15
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 2.36
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.57
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "elected": true,
+          "pct": 74.02
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 33,
+          "elected": false,
+          "pct": 25.98
+        }
+      ]
+    },
+    {
+      "boothId": 124157,
+      "name": "Special Hospital Team 6",
+      "formal": 100,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 68.0,
+      "swing": 13.67,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 56,
+          "pct": 56.0
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 25,
+          "pct": 25.0
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 5,
+          "pct": 5.0
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 3.0
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 3.0
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 2,
+          "pct": 2.0
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 2.0
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 2.0
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 2.0
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 68,
+          "elected": true,
+          "pct": 68.0
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 32,
+          "elected": false,
+          "pct": 32.0
+        }
+      ]
+    },
+    {
+      "boothId": 109422,
+      "name": "Other Mobile Team 1",
+      "formal": 16,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 62.5,
+      "swing": 9.92,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8,
+          "pct": 50.0
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4,
+          "pct": 25.0
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 12.5
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10,
+          "elected": true,
+          "pct": 62.5
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6,
+          "elected": false,
+          "pct": 37.5
+        }
+      ]
+    },
+    {
+      "boothId": 65494,
+      "name": "EAV Blair PPVC",
+      "formal": 15,
+      "winnerParty": "alp",
+      "winnerSurname": "NEUMANN",
+      "winnerPct": 80.0,
+      "swing": 24.44,
+      "candidates": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 12,
+          "pct": 80.0
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2,
+          "pct": 13.33
+        },
+        {
+          "surname": "TONER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 6.67
+        },
+        {
+          "surname": "BULL",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "CHADWICK",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "LOWERY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "PURDON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HOPKINS",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "KROSS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NEUMANN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 12,
+          "elected": true,
+          "pct": 80.0
+        },
+        {
+          "surname": "MUTZELBURG",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3,
+          "elected": false,
+          "pct": 20.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 116953,
+    "candidates": [
+      {
+        "id": "C41202",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 Mutzelburg"
+      },
+      {
+        "id": "C42043",
+        "party": "oth",
+        "displayShort": "LTP",
+        "displayLong": "LTP \u2014 Bull"
+      },
+      {
+        "id": "C40963",
+        "party": "oth",
+        "displayShort": "GRPF",
+        "displayLong": "GRPF \u2014 Chadwick"
+      },
+      {
+        "id": "C41530",
+        "party": "ajp",
+        "displayShort": "AJP",
+        "displayLong": "AJP \u2014 Lowery"
+      },
+      {
+        "id": "C41325",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Mcdonald"
+      },
+      {
+        "id": "C40725",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Neumann"
+      },
+      {
+        "id": "C40846",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Purdon"
+      },
+      {
+        "id": "C41250",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Toner"
+      },
+      {
+        "id": "C40927",
+        "party": "oth",
+        "displayShort": "HMP",
+        "displayLong": "HMP \u2014 Hopkins"
+      },
+      {
+        "id": "C40920",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Kross"
+      }
+    ],
+    "rounds": [
+      {
+        "C41202": 31797,
+        "C42043": 1132,
+        "C40963": 4421,
+        "C41530": 1874,
+        "C41325": 3769,
+        "C40725": 42825,
+        "C40846": 2334,
+        "C41250": 12104,
+        "C40927": 5353,
+        "C40920": 11344
+      },
+      {
+        "C41202": 32058,
+        "C40963": 4655,
+        "C41530": 1966,
+        "C41325": 3858,
+        "C40725": 42942,
+        "C40846": 2425,
+        "C41250": 12150,
+        "C40927": 5426,
+        "C40920": 11473
+      },
+      {
+        "C41202": 32214,
+        "C40963": 4897,
+        "C41325": 3976,
+        "C40725": 43200,
+        "C40846": 2658,
+        "C41250": 12559,
+        "C40927": 5851,
+        "C40920": 11598
+      },
+      {
+        "C41202": 32603,
+        "C40963": 5524,
+        "C41325": 4165,
+        "C40725": 43511,
+        "C41250": 12875,
+        "C40927": 6137,
+        "C40920": 12138
+      },
+      {
+        "C41202": 33217,
+        "C40963": 6093,
+        "C40725": 44021,
+        "C41250": 13143,
+        "C40927": 6698,
+        "C40920": 13781
+      },
+      {
+        "C41202": 34118,
+        "C40725": 44540,
+        "C41250": 13588,
+        "C40927": 7556,
+        "C40920": 17151
+      },
+      {
+        "C41202": 35014,
+        "C40725": 45971,
+        "C41250": 16043,
+        "C40920": 19925
+      },
+      {
+        "C41202": 36635,
+        "C40725": 57563,
+        "C40920": 22755
+      },
+      {
+        "C41202": 51797,
+        "C40725": 65156
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            54.48,
+            54.24,
+            55.26,
+            58.88,
+            51.21,
+            55.23,
+            55.71
+          ]
+        },
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            45.76,
+            44.74,
+            41.12,
+            48.79,
+            44.77,
+            44.29
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            45.52,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 42.19,
+            "ALP": 48.83,
+            "FFP": 2.06,
+            "GRN": 3.92,
+            "OTH": 3.01
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "ALP": 42.08,
+            "GRN": 11.06,
+            "FFP": 4.91,
+            "LIB": 37.5,
+            "IND": 4.45
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "ALP": 41.55,
+            "GRN": 4.25,
+            "TOP": 12.41,
+            "KAP": 3.15,
+            "LIB": 33.85,
+            "FFP": 2.86,
+            "OTH": 1.92
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "ALP": 41.9,
+            "LIB": 28.71,
+            "FFP": 2.82,
+            "ON": 15.58,
+            "IND": 4.81,
+            "GRN": 6.18
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "IND": 6.22,
+            "LIB": 29.03,
+            "FACN": 2.09,
+            "GRN": 8.68,
+            "ON": 16.8,
+            "ALP": 31.26,
+            "TOP": 3.4,
+            "DLP": 2.52
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "TOP": 6.09,
+            "LIB": 28.89,
+            "ALP": 35.01,
+            "AUVA": 2.02,
+            "ON": 9.99,
+            "AJP": 2.46,
+            "GRN": 12.58,
+            "LDP": 2.95
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "HMP": 4.58,
+            "LIB": 27.19,
+            "FFP": 2.0,
+            "CYA": 3.22,
+            "GRPF": 3.78,
+            "ALP": 36.62,
+            "ON": 9.7,
+            "GRN": 10.35,
+            "OTH": 2.57
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 189948,
+    "medianAge": 35,
+    "medianHouseholdIncomeWeekly": 1576,
+    "medianRentWeekly": 320,
+    "averageHouseholdSize": 2.7,
+    "bornOverseasPct": 18.1,
+    "indigenousPct": 5.6,
+    "bachelorPlusPct": 24.7,
+    "renterPct": 36.3,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 146809,
+        "pct": 81.86,
+        "natPct": 70.73
+      },
+      {
+        "label": "New Zealand",
+        "count": 3974,
+        "pct": 2.22,
+        "natPct": 1.11
+      },
+      {
+        "label": "England",
+        "count": 2663,
+        "pct": 1.48,
+        "natPct": 1.95
+      },
+      {
+        "label": "India",
+        "count": 1421,
+        "pct": 0.79,
+        "natPct": 1.51
+      },
+      {
+        "label": "Philippines",
+        "count": 887,
+        "pct": 0.49,
+        "natPct": 0.47
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 85874,
+        "pct": 45.21,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 80636,
+        "pct": 42.45,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 15492,
+        "pct": 8.16,
+        "natPct": 7.27
+      },
+      {
+        "label": "Hinduism",
+        "count": 2369,
+        "pct": 1.25,
+        "natPct": 2.69
+      },
+      {
+        "label": "Other religions",
+        "count": 1902,
+        "pct": 1.0,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Blair is an Australian Electoral Division in Queensland. The current MP is Shayne Neumann of the Australian Labor Party (ALP).",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Blair",
+    "retrievedAt": "2026-01-22T07:17:34Z"
+  }
+}

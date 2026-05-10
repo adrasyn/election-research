@@ -1,0 +1,3591 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "BEAN",
+    "divisionId": 318,
+    "name": "Bean",
+    "state": "ACT",
+    "totalFormal": 102700,
+    "informalVotes": 2389,
+    "informalRate": 2.59,
+    "winner": {
+      "candidateId": "C40676",
+      "surname": "SMITH",
+      "givenName": "David",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 0.68,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40676",
+      "surname": "SMITH",
+      "givenName": "David",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 36877,
+      "pct": 41.08
+    },
+    {
+      "candidateId": "C41682",
+      "surname": "PRICE",
+      "givenName": "Jessie",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 24395,
+      "pct": 27.17
+    },
+    {
+      "candidateId": "C41076",
+      "surname": "LAMERTON",
+      "givenName": "David",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 20237,
+      "pct": 22.54
+    },
+    {
+      "candidateId": "C41436",
+      "surname": "CARTER",
+      "givenName": "Sam",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 8265,
+      "pct": 9.21
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40676",
+      "surname": "SMITH",
+      "givenName": "David",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 51700,
+      "pct": 50.34,
+      "elected": true
+    },
+    {
+      "candidateId": "C41682",
+      "surname": "PRICE",
+      "givenName": "Jessie",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 51000,
+      "pct": 49.66,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 32704,
+      "name": "Tuggeranong BEAN PPVC",
+      "formal": 20388,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 50.32,
+      "swing": 50.32,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8839,
+          "pct": 43.35
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5310,
+          "pct": 26.04
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5029,
+          "pct": 24.67
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1210,
+          "pct": 5.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10260,
+          "elected": true,
+          "pct": 50.32
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10128,
+          "elected": false,
+          "pct": 49.68
+        }
+      ]
+    },
+    {
+      "boothId": 32705,
+      "name": "Woden BEAN PPVC",
+      "formal": 11950,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 50.8,
+      "swing": 50.8,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5030,
+          "pct": 42.09
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2982,
+          "pct": 24.95
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2868,
+          "pct": 24.0
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1070,
+          "pct": 8.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6071,
+          "elected": true,
+          "pct": 50.8
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5879,
+          "elected": false,
+          "pct": 49.2
+        }
+      ]
+    },
+    {
+      "boothId": 97479,
+      "name": "Parkes BEAN PPVC",
+      "formal": 2350,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 52.0,
+      "swing": 52.0,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 989,
+          "pct": 42.09
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 717,
+          "pct": 30.51
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 408,
+          "pct": 17.36
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 236,
+          "pct": 10.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1222,
+          "elected": true,
+          "pct": 52.0
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1128,
+          "elected": false,
+          "pct": 48.0
+        }
+      ]
+    },
+    {
+      "boothId": 82523,
+      "name": "Coombs",
+      "formal": 2319,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 55.07,
+      "swing": 55.07,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 999,
+          "pct": 43.08
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 606,
+          "pct": 26.13
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 366,
+          "pct": 15.78
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 348,
+          "pct": 15.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1277,
+          "elected": true,
+          "pct": 55.07
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1042,
+          "elected": false,
+          "pct": 44.93
+        }
+      ]
+    },
+    {
+      "boothId": 12072,
+      "name": "Gordon",
+      "formal": 2220,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 53.24,
+      "swing": 53.24,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 983,
+          "pct": 44.28
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 566,
+          "pct": 25.5
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 481,
+          "pct": 21.67
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 190,
+          "pct": 8.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1182,
+          "elected": true,
+          "pct": 53.24
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1038,
+          "elected": false,
+          "pct": 46.76
+        }
+      ]
+    },
+    {
+      "boothId": 8761,
+      "name": "Chapman",
+      "formal": 2099,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 53.12,
+      "swing": 53.12,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 812,
+          "pct": 38.69
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 658,
+          "pct": 31.35
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 443,
+          "pct": 21.11
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 186,
+          "pct": 8.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 984,
+          "elected": true,
+          "pct": 46.88
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1115,
+          "elected": false,
+          "pct": 53.12
+        }
+      ]
+    },
+    {
+      "boothId": 31298,
+      "name": "Conder",
+      "formal": 1830,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 51.69,
+      "swing": 51.69,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 772,
+          "pct": 42.19
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 490,
+          "pct": 26.78
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 386,
+          "pct": 21.09
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 182,
+          "pct": 9.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 946,
+          "elected": true,
+          "pct": 51.69
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 884,
+          "elected": false,
+          "pct": 48.31
+        }
+      ]
+    },
+    {
+      "boothId": 8777,
+      "name": "Kambah South",
+      "formal": 1774,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 52.37,
+      "swing": 52.37,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 686,
+          "pct": 38.67
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 567,
+          "pct": 31.96
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 281,
+          "pct": 15.84
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 240,
+          "pct": 13.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 845,
+          "elected": true,
+          "pct": 47.63
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 929,
+          "elected": false,
+          "pct": 52.37
+        }
+      ]
+    },
+    {
+      "boothId": 8769,
+      "name": "Farrer",
+      "formal": 1770,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 50.85,
+      "swing": 50.85,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 716,
+          "pct": 40.45
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 509,
+          "pct": 28.76
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 396,
+          "pct": 22.37
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 149,
+          "pct": 8.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 870,
+          "elected": true,
+          "pct": 49.15
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 900,
+          "elected": false,
+          "pct": 50.85
+        }
+      ]
+    },
+    {
+      "boothId": 8792,
+      "name": "Waramanga",
+      "formal": 1768,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 50.06,
+      "swing": 50.06,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 726,
+          "pct": 41.06
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 565,
+          "pct": 31.96
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 272,
+          "pct": 15.38
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 205,
+          "pct": 11.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 885,
+          "elected": true,
+          "pct": 50.06
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 883,
+          "elected": false,
+          "pct": 49.94
+        }
+      ]
+    },
+    {
+      "boothId": 11452,
+      "name": "Calwell",
+      "formal": 1739,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 51.41,
+      "swing": 51.41,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 707,
+          "pct": 40.66
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 482,
+          "pct": 27.72
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 406,
+          "pct": 23.35
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 144,
+          "pct": 8.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 845,
+          "elected": true,
+          "pct": 48.59
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 894,
+          "elected": false,
+          "pct": 51.41
+        }
+      ]
+    },
+    {
+      "boothId": 8767,
+      "name": "Duffy",
+      "formal": 1738,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 50.69,
+      "swing": 50.69,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 701,
+          "pct": 40.33
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 557,
+          "pct": 32.05
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 282,
+          "pct": 16.23
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 198,
+          "pct": 11.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 857,
+          "elected": true,
+          "pct": 49.31
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 881,
+          "elected": false,
+          "pct": 50.69
+        }
+      ]
+    },
+    {
+      "boothId": 8781,
+      "name": "Monash",
+      "formal": 1720,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 54.48,
+      "swing": 54.48,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 654,
+          "pct": 38.02
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 521,
+          "pct": 30.29
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 402,
+          "pct": 23.37
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 143,
+          "pct": 8.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 783,
+          "elected": true,
+          "pct": 45.52
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 937,
+          "elected": false,
+          "pct": 54.48
+        }
+      ]
+    },
+    {
+      "boothId": 8780,
+      "name": "Mawson",
+      "formal": 1693,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 50.21,
+      "swing": 50.21,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 680,
+          "pct": 40.17
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 475,
+          "pct": 28.06
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 342,
+          "pct": 20.2
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 196,
+          "pct": 11.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 850,
+          "elected": true,
+          "pct": 50.21
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 843,
+          "elected": false,
+          "pct": 49.79
+        }
+      ]
+    },
+    {
+      "boothId": 8884,
+      "name": "Isabella Plains",
+      "formal": 1642,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 51.71,
+      "swing": 51.71,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 663,
+          "pct": 40.38
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 495,
+          "pct": 30.15
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 343,
+          "pct": 20.89
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 141,
+          "pct": 8.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 793,
+          "elected": true,
+          "pct": 48.29
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 849,
+          "elected": false,
+          "pct": 51.71
+        }
+      ]
+    },
+    {
+      "boothId": 8778,
+      "name": "Kambah West",
+      "formal": 1637,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 53.15,
+      "swing": 53.15,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 628,
+          "pct": 38.36
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 499,
+          "pct": 30.48
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 373,
+          "pct": 22.79
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 137,
+          "pct": 8.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 767,
+          "elected": true,
+          "pct": 46.85
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 870,
+          "elected": false,
+          "pct": 53.15
+        }
+      ]
+    },
+    {
+      "boothId": 8790,
+      "name": "Wanniassa",
+      "formal": 1547,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 52.75,
+      "swing": 52.75,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 595,
+          "pct": 38.46
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 472,
+          "pct": 30.51
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 331,
+          "pct": 21.4
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 149,
+          "pct": 9.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 731,
+          "elected": true,
+          "pct": 47.25
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 816,
+          "elected": false,
+          "pct": 52.75
+        }
+      ]
+    },
+    {
+      "boothId": 8776,
+      "name": "Kambah North",
+      "formal": 1542,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 55.25,
+      "swing": 55.25,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 547,
+          "pct": 35.47
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 506,
+          "pct": 32.81
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 312,
+          "pct": 20.23
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 177,
+          "pct": 11.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 690,
+          "elected": true,
+          "pct": 44.75
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 852,
+          "elected": false,
+          "pct": 55.25
+        }
+      ]
+    },
+    {
+      "boothId": 93922,
+      "name": "City BEAN PPVC",
+      "formal": 1529,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 55.13,
+      "swing": 55.13,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 654,
+          "pct": 42.77
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 367,
+          "pct": 24.0
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 323,
+          "pct": 21.12
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 185,
+          "pct": 12.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 843,
+          "elected": true,
+          "pct": 55.13
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 686,
+          "elected": false,
+          "pct": 44.87
+        }
+      ]
+    },
+    {
+      "boothId": 8768,
+      "name": "Fadden",
+      "formal": 1527,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 50.95,
+      "swing": 50.95,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 620,
+          "pct": 40.6
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 429,
+          "pct": 28.09
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 372,
+          "pct": 24.36
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 106,
+          "pct": 6.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 749,
+          "elected": true,
+          "pct": 49.05
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 778,
+          "elected": false,
+          "pct": 50.95
+        }
+      ]
+    },
+    {
+      "boothId": 8763,
+      "name": "Chisholm",
+      "formal": 1499,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 50.5,
+      "swing": 50.5,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 615,
+          "pct": 41.03
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 369,
+          "pct": 24.62
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 369,
+          "pct": 24.62
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 146,
+          "pct": 9.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 757,
+          "elected": true,
+          "pct": 50.5
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 742,
+          "elected": false,
+          "pct": 49.5
+        }
+      ]
+    },
+    {
+      "boothId": 8772,
+      "name": "Gowrie",
+      "formal": 1489,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 51.98,
+      "swing": 51.98,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 578,
+          "pct": 38.82
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 450,
+          "pct": 30.22
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 329,
+          "pct": 22.1
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 132,
+          "pct": 8.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 715,
+          "elected": true,
+          "pct": 48.02
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 774,
+          "elected": false,
+          "pct": 51.98
+        }
+      ]
+    },
+    {
+      "boothId": 97445,
+      "name": "Greenway",
+      "formal": 1441,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 52.12,
+      "swing": 52.12,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 561,
+          "pct": 38.93
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 352,
+          "pct": 24.43
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 289,
+          "pct": 20.06
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 239,
+          "pct": 16.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 751,
+          "elected": true,
+          "pct": 52.12
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 690,
+          "elected": false,
+          "pct": 47.88
+        }
+      ]
+    },
+    {
+      "boothId": 8773,
+      "name": "Holder",
+      "formal": 1434,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 53.63,
+      "swing": 53.63,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 553,
+          "pct": 38.56
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 417,
+          "pct": 29.08
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 372,
+          "pct": 25.94
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 92,
+          "pct": 6.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 665,
+          "elected": true,
+          "pct": 46.37
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 769,
+          "elected": false,
+          "pct": 53.63
+        }
+      ]
+    },
+    {
+      "boothId": 8791,
+      "name": "Wanniassa Hills",
+      "formal": 1355,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 51.81,
+      "swing": 51.81,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 538,
+          "pct": 39.7
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 421,
+          "pct": 31.07
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 289,
+          "pct": 21.33
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 107,
+          "pct": 7.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 653,
+          "elected": true,
+          "pct": 48.19
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 702,
+          "elected": false,
+          "pct": 51.81
+        }
+      ]
+    },
+    {
+      "boothId": 108985,
+      "name": "Denman Prospect",
+      "formal": 1340,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 55.07,
+      "swing": 55.07,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 589,
+          "pct": 43.96
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 337,
+          "pct": 25.15
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 247,
+          "pct": 18.43
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 167,
+          "pct": 12.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 738,
+          "elected": true,
+          "pct": 55.07
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 602,
+          "elected": false,
+          "pct": 44.93
+        }
+      ]
+    },
+    {
+      "boothId": 8784,
+      "name": "Pearce",
+      "formal": 1316,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 51.22,
+      "swing": 51.22,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 522,
+          "pct": 39.67
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 418,
+          "pct": 31.76
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 261,
+          "pct": 19.83
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 115,
+          "pct": 8.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 642,
+          "elected": true,
+          "pct": 48.78
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 674,
+          "elected": false,
+          "pct": 51.22
+        }
+      ]
+    },
+    {
+      "boothId": 8793,
+      "name": "Weston",
+      "formal": 1302,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 51.31,
+      "swing": 51.31,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 500,
+          "pct": 38.4
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 397,
+          "pct": 30.49
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 247,
+          "pct": 18.97
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 158,
+          "pct": 12.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 634,
+          "elected": true,
+          "pct": 48.69
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 668,
+          "elected": false,
+          "pct": 51.31
+        }
+      ]
+    },
+    {
+      "boothId": 93925,
+      "name": "Belconnen BEAN PPVC",
+      "formal": 1250,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 60.08,
+      "swing": 60.08,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 591,
+          "pct": 47.28
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 272,
+          "pct": 21.76
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 232,
+          "pct": 18.56
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 155,
+          "pct": 12.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 751,
+          "elected": true,
+          "pct": 60.08
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 499,
+          "elected": false,
+          "pct": 39.92
+        }
+      ]
+    },
+    {
+      "boothId": 11878,
+      "name": "Theodore",
+      "formal": 1202,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 50.25,
+      "swing": 50.25,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 488,
+          "pct": 40.6
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 319,
+          "pct": 26.54
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 288,
+          "pct": 23.96
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 107,
+          "pct": 8.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 598,
+          "elected": true,
+          "pct": 49.75
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 604,
+          "elected": false,
+          "pct": 50.25
+        }
+      ]
+    },
+    {
+      "boothId": 8771,
+      "name": "Gilmore",
+      "formal": 1184,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 50.17,
+      "swing": 50.17,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 484,
+          "pct": 40.88
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 315,
+          "pct": 26.6
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 297,
+          "pct": 25.08
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 88,
+          "pct": 7.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 590,
+          "elected": true,
+          "pct": 49.83
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 594,
+          "elected": false,
+          "pct": 50.17
+        }
+      ]
+    },
+    {
+      "boothId": 11877,
+      "name": "Bonython",
+      "formal": 1145,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 53.54,
+      "swing": 53.54,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 439,
+          "pct": 38.34
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 333,
+          "pct": 29.08
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 254,
+          "pct": 22.18
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 119,
+          "pct": 10.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 532,
+          "elected": true,
+          "pct": 46.46
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 613,
+          "elected": false,
+          "pct": 53.54
+        }
+      ]
+    },
+    {
+      "boothId": 83835,
+      "name": "Conder North",
+      "formal": 1025,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 53.85,
+      "swing": 53.85,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 389,
+          "pct": 37.95
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 285,
+          "pct": 27.8
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 272,
+          "pct": 26.54
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 79,
+          "pct": 7.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 473,
+          "elected": true,
+          "pct": 46.15
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 552,
+          "elected": false,
+          "pct": 53.85
+        }
+      ]
+    },
+    {
+      "boothId": 8786,
+      "name": "Richardson",
+      "formal": 961,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 53.28,
+      "swing": 53.28,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 370,
+          "pct": 38.5
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 277,
+          "pct": 28.82
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 230,
+          "pct": 23.93
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 84,
+          "pct": 8.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 449,
+          "elected": true,
+          "pct": 46.72
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 512,
+          "elected": false,
+          "pct": 53.28
+        }
+      ]
+    },
+    {
+      "boothId": 98052,
+      "name": "Torrens",
+      "formal": 844,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 50.71,
+      "swing": 50.71,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 346,
+          "pct": 41.0
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 275,
+          "pct": 32.58
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 145,
+          "pct": 17.18
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 78,
+          "pct": 9.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 416,
+          "elected": true,
+          "pct": 49.29
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 428,
+          "elected": false,
+          "pct": 50.71
+        }
+      ]
+    },
+    {
+      "boothId": 93928,
+      "name": "Parkes (Bean)",
+      "formal": 762,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 50.39,
+      "swing": 50.39,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 300,
+          "pct": 39.37
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 253,
+          "pct": 33.2
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 17.45
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 76,
+          "pct": 9.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 378,
+          "elected": true,
+          "pct": 49.61
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 384,
+          "elected": false,
+          "pct": 50.39
+        }
+      ]
+    },
+    {
+      "boothId": 83841,
+      "name": "Waramanga West",
+      "formal": 702,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 50.57,
+      "swing": 50.57,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 282,
+          "pct": 40.17
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 217,
+          "pct": 30.91
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 135,
+          "pct": 19.23
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 9.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 347,
+          "elected": true,
+          "pct": 49.43
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 355,
+          "elected": false,
+          "pct": 50.57
+        }
+      ]
+    },
+    {
+      "boothId": 124103,
+      "name": "City North BEAN PPVC",
+      "formal": 555,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 54.05,
+      "swing": 54.05,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 232,
+          "pct": 41.8
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 129,
+          "pct": 23.24
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 121,
+          "pct": 21.8
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 73,
+          "pct": 13.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 300,
+          "elected": true,
+          "pct": 54.05
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 255,
+          "elected": false,
+          "pct": 45.95
+        }
+      ]
+    },
+    {
+      "boothId": 93913,
+      "name": "Garran (Bean)",
+      "formal": 536,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 52.05,
+      "swing": 52.05,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 207,
+          "pct": 38.62
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 115,
+          "pct": 21.46
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 109,
+          "pct": 20.34
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 105,
+          "pct": 19.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 279,
+          "elected": true,
+          "pct": 52.05
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 257,
+          "elected": false,
+          "pct": 47.95
+        }
+      ]
+    },
+    {
+      "boothId": 66153,
+      "name": "Norfolk Island PPVC",
+      "formal": 530,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 66.6,
+      "swing": 66.6,
+      "candidates": [
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 236,
+          "pct": 44.53
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 145,
+          "pct": 27.36
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 110,
+          "pct": 20.75
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 39,
+          "pct": 7.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 177,
+          "elected": true,
+          "pct": 33.4
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 353,
+          "elected": false,
+          "pct": 66.6
+        }
+      ]
+    },
+    {
+      "boothId": 98056,
+      "name": "Queanbeyan BEAN PPVC",
+      "formal": 517,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 55.9,
+      "swing": 55.9,
+      "candidates": [
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 187,
+          "pct": 36.17
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "pct": 32.88
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 118,
+          "pct": 22.82
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 42,
+          "pct": 8.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 228,
+          "elected": true,
+          "pct": 44.1
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 289,
+          "elected": false,
+          "pct": 55.9
+        }
+      ]
+    },
+    {
+      "boothId": 93909,
+      "name": "Lyons (Bean)",
+      "formal": 502,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 50.4,
+      "swing": 50.4,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 186,
+          "pct": 37.05
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 131,
+          "pct": 26.1
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 99,
+          "pct": 19.72
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 86,
+          "pct": 17.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 253,
+          "elected": true,
+          "pct": 50.4
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 249,
+          "elected": false,
+          "pct": 49.6
+        }
+      ]
+    },
+    {
+      "boothId": 83837,
+      "name": "Gordon North",
+      "formal": 455,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 51.21,
+      "swing": 51.21,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 154,
+          "pct": 33.85
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 153,
+          "pct": 33.63
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 114,
+          "pct": 25.05
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 34,
+          "pct": 7.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 222,
+          "elected": true,
+          "pct": 48.79
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 233,
+          "elected": false,
+          "pct": 51.21
+        }
+      ]
+    },
+    {
+      "boothId": 93929,
+      "name": "Gungahlin BEAN PPVC",
+      "formal": 369,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 57.99,
+      "swing": 57.99,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 159,
+          "pct": 43.09
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 95,
+          "pct": 25.75
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 63,
+          "pct": 17.07
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 52,
+          "pct": 14.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 214,
+          "elected": true,
+          "pct": 57.99
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 155,
+          "elected": false,
+          "pct": 42.01
+        }
+      ]
+    },
+    {
+      "boothId": 65739,
+      "name": "Norfolk Island",
+      "formal": 340,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 64.71,
+      "swing": 64.71,
+      "candidates": [
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 147,
+          "pct": 43.24
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "pct": 27.65
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 63,
+          "pct": 18.53
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 36,
+          "pct": 10.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 120,
+          "elected": true,
+          "pct": 35.29
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 220,
+          "elected": false,
+          "pct": 64.71
+        }
+      ]
+    },
+    {
+      "boothId": 109007,
+      "name": "Special Hospital Team 1",
+      "formal": 296,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 56.08,
+      "swing": 56.08,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 138,
+          "pct": 46.62
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 106,
+          "pct": 35.81
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 13.85
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 3.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "elected": true,
+          "pct": 56.08
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 130,
+          "elected": false,
+          "pct": 43.92
+        }
+      ]
+    },
+    {
+      "boothId": 93906,
+      "name": "Curtin (Bean)",
+      "formal": 231,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 56.28,
+      "swing": 56.28,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 93,
+          "pct": 40.26
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 51,
+          "pct": 22.08
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 45,
+          "pct": 19.48
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 42,
+          "pct": 18.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 130,
+          "elected": true,
+          "pct": 56.28
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 101,
+          "elected": false,
+          "pct": 43.72
+        }
+      ]
+    },
+    {
+      "boothId": 8788,
+      "name": "Tharwa",
+      "formal": 141,
+      "winnerParty": "ind",
+      "winnerSurname": "PRICE",
+      "winnerPct": 68.09,
+      "swing": 68.09,
+      "candidates": [
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 55,
+          "pct": 39.01
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 38,
+          "pct": 26.95
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 37,
+          "pct": 26.24
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 7.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "elected": true,
+          "pct": 31.91
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 96,
+          "elected": false,
+          "pct": 68.09
+        }
+      ]
+    },
+    {
+      "boothId": 93908,
+      "name": "Hughes (Bean)",
+      "formal": 116,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 56.03,
+      "swing": 56.03,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 46,
+          "pct": 39.66
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 29.31
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 16.38
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 17,
+          "pct": 14.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 65,
+          "elected": true,
+          "pct": 56.03
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 51,
+          "elected": false,
+          "pct": 43.97
+        }
+      ]
+    },
+    {
+      "boothId": 93916,
+      "name": "City (Bean)",
+      "formal": 68,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 77.94,
+      "swing": 77.94,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 36,
+          "pct": 52.94
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 20,
+          "pct": 29.41
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 7,
+          "pct": 10.29
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 7.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 53,
+          "elected": true,
+          "pct": 77.94
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "elected": false,
+          "pct": 22.06
+        }
+      ]
+    },
+    {
+      "boothId": 124111,
+      "name": "City North (Bean)",
+      "formal": 61,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 63.93,
+      "swing": 63.93,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 25,
+          "pct": 40.98
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 13,
+          "pct": 21.31
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 19.67
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 18.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "elected": true,
+          "pct": 63.93
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "elected": false,
+          "pct": 36.07
+        }
+      ]
+    },
+    {
+      "boothId": 93927,
+      "name": "EAV Bean PPVC",
+      "formal": 16,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 56.25,
+      "swing": 56.25,
+      "candidates": [
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5,
+          "pct": 31.25
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 31.25
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "pct": 31.25
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 6.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "elected": true,
+          "pct": 56.25
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "elected": false,
+          "pct": 43.75
+        }
+      ]
+    },
+    {
+      "boothId": 109423,
+      "name": "Other Mobile Team 1",
+      "formal": 8,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": 62.5,
+      "swing": 62.5,
+      "candidates": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "pct": 50.0
+        },
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "pct": 25.0
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 25.0
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "elected": true,
+          "pct": 62.5
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "elected": false,
+          "pct": 37.5
+        }
+      ]
+    },
+    {
+      "boothId": 109493,
+      "name": "Other Mobile Team 2",
+      "formal": 0,
+      "winnerParty": "alp",
+      "winnerSurname": "SMITH",
+      "winnerPct": null,
+      "swing": 0.0,
+      "candidates": [
+        {
+          "surname": "LAMERTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "CARTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SMITH",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "elected": true,
+          "pct": 0.0
+        },
+        {
+          "surname": "PRICE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "elected": false,
+          "pct": 0.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 102700,
+    "candidates": [
+      {
+        "id": "C41076",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Lamerton"
+      },
+      {
+        "id": "C41682",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Price"
+      },
+      {
+        "id": "C41436",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Carter"
+      },
+      {
+        "id": "C40676",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Smith"
+      }
+    ],
+    "rounds": [
+      {
+        "C41076": 23665,
+        "C41682": 27120,
+        "C41436": 9757,
+        "C40676": 42158
+      },
+      {
+        "C41076": 23959,
+        "C41682": 31882,
+        "C40676": 46859
+      },
+      {
+        "C41682": 51000,
+        "C40676": 51700
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            57.52,
+            62.95,
+            50.34
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            42.48,
+            37.05,
+            null
+          ]
+        },
+        {
+          "id": "IND",
+          "party": "ind",
+          "label": "IND",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            49.66
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2019",
+          "shares": {
+            "TOP": 2.4,
+            "GRN": 13.09,
+            "IND": 8.27,
+            "ALP": 38.14,
+            "AUP": 2.93,
+            "LIB": 31.44,
+            "LDP": 2.73,
+            "OTH": 1.0
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "ALP": 41.73,
+            "LIB": 29.72,
+            "GRN": 14.8,
+            "ON": 2.72,
+            "TOP": 2.88,
+            "IND": 8.15
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "GRN": 9.5,
+            "IND": 26.41,
+            "ALP": 41.05,
+            "LIB": 23.04
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 152610,
+    "medianAge": 38,
+    "medianHouseholdIncomeWeekly": 2322,
+    "medianRentWeekly": 430,
+    "averageHouseholdSize": 2.6,
+    "bornOverseasPct": 25.5,
+    "indigenousPct": 2.5,
+    "bachelorPlusPct": 52.4,
+    "renterPct": 23.0,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 109927,
+        "pct": 74.46,
+        "natPct": 70.73
+      },
+      {
+        "label": "India",
+        "count": 2606,
+        "pct": 1.77,
+        "natPct": 1.51
+      },
+      {
+        "label": "England",
+        "count": 2405,
+        "pct": 1.63,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 988,
+        "pct": 0.67,
+        "natPct": 1.11
+      },
+      {
+        "label": "Nepal",
+        "count": 913,
+        "pct": 0.62,
+        "natPct": 0.28
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 65794,
+        "pct": 43.11,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 63238,
+        "pct": 41.44,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 8104,
+        "pct": 5.31,
+        "natPct": 7.27
+      },
+      {
+        "label": "Hinduism",
+        "count": 5361,
+        "pct": 3.51,
+        "natPct": 2.69
+      },
+      {
+        "label": "Islam",
+        "count": 3936,
+        "pct": 2.58,
+        "natPct": 3.2
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Bean is an electoral division for the Australian House of Representatives in the Australian Capital Territory (ACT) and Norfolk Island, which was created in 2018 and contested for the first time at the 2019 federal election.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Bean",
+    "retrievedAt": "2026-01-26T08:37:29Z"
+  }
+}

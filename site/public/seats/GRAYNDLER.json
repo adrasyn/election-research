@@ -1,0 +1,5069 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "GRAYNDLER",
+    "divisionId": 121,
+    "name": "Grayndler",
+    "state": "NSW",
+    "totalFormal": 110878,
+    "informalVotes": 4131,
+    "informalRate": 4.26,
+    "winner": {
+      "candidateId": "C41373",
+      "surname": "ALBANESE",
+      "givenName": "Anthony",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 33.72,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41373",
+      "surname": "ALBANESE",
+      "givenName": "Anthony",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 50232,
+      "pct": 54.04
+    },
+    {
+      "candidateId": "C41565",
+      "surname": "THOMAS",
+      "givenName": "Hannah",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 23593,
+      "pct": 25.38
+    },
+    {
+      "candidateId": "C41472",
+      "surname": "SMALLBONE",
+      "givenName": "David",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 12902,
+      "pct": 13.88
+    },
+    {
+      "candidateId": "C41960",
+      "surname": "SMITH",
+      "givenName": "Rodney",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 2810,
+      "pct": 3.02
+    },
+    {
+      "candidateId": "C40978",
+      "surname": "BRADBURY",
+      "givenName": "David",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 2031,
+      "pct": 2.19
+    },
+    {
+      "candidateId": "C41714",
+      "surname": "BURRELL",
+      "givenName": "Cheri Rae",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 1382,
+      "pct": 1.49
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41373",
+      "surname": "ALBANESE",
+      "givenName": "Anthony",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 74138,
+      "pct": 66.86,
+      "elected": true
+    },
+    {
+      "candidateId": "C41565",
+      "surname": "THOMAS",
+      "givenName": "Hannah",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 36740,
+      "pct": 33.14,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 33893,
+      "name": "Ashfield GRAYNDLER PPVC",
+      "formal": 12225,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 72.08,
+      "swing": 9.96,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6568,
+          "pct": 53.73
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2547,
+          "pct": 20.83
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2219,
+          "pct": 18.15
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 426,
+          "pct": 3.48
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 243,
+          "pct": 1.99
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 222,
+          "pct": 1.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8812,
+          "elected": true,
+          "pct": 72.08
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3413,
+          "elected": false,
+          "pct": 27.92
+        }
+      ]
+    },
+    {
+      "boothId": 83882,
+      "name": "Leichhardt GRAYNDLER PPVC",
+      "formal": 9900,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 72.67,
+      "swing": 0.77,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5634,
+          "pct": 56.91
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1949,
+          "pct": 19.69
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1738,
+          "pct": 17.56
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 250,
+          "pct": 2.53
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 207,
+          "pct": 2.09
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 122,
+          "pct": 1.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7194,
+          "elected": true,
+          "pct": 72.67
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2706,
+          "elected": false,
+          "pct": 27.33
+        }
+      ]
+    },
+    {
+      "boothId": 33898,
+      "name": "Marrickville GRAYNDLER PPVC",
+      "formal": 9630,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 67.86,
+      "swing": -0.51,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5329,
+          "pct": 55.34
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2335,
+          "pct": 24.25
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1226,
+          "pct": 12.73
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 349,
+          "pct": 3.62
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 225,
+          "pct": 2.34
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 166,
+          "pct": 1.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6535,
+          "elected": true,
+          "pct": 67.86
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3095,
+          "elected": false,
+          "pct": 32.14
+        }
+      ]
+    },
+    {
+      "boothId": 97560,
+      "name": "Newtown GRAYNDLER PPVC",
+      "formal": 4436,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 62.6,
+      "swing": 3.02,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2351,
+          "pct": 53.0
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1390,
+          "pct": 31.33
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 470,
+          "pct": 10.6
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 90,
+          "pct": 2.03
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 81,
+          "pct": 1.83
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 54,
+          "pct": 1.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2777,
+          "elected": true,
+          "pct": 62.6
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1659,
+          "elected": false,
+          "pct": 37.4
+        }
+      ]
+    },
+    {
+      "boothId": 1529,
+      "name": "Croydon Park",
+      "formal": 2102,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 71.17,
+      "swing": 22.91,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 998,
+          "pct": 47.48
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 531,
+          "pct": 25.26
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 377,
+          "pct": 17.94
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 124,
+          "pct": 5.9
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 1.76
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 1.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1496,
+          "elected": true,
+          "pct": 71.17
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 606,
+          "elected": false,
+          "pct": 28.83
+        }
+      ]
+    },
+    {
+      "boothId": 2764,
+      "name": "Stanmore",
+      "formal": 2048,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 60.64,
+      "swing": -4.09,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1103,
+          "pct": 53.86
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 717,
+          "pct": 35.01
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 135,
+          "pct": 6.59
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 1.76
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 1.61
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1242,
+          "elected": true,
+          "pct": 60.64
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 806,
+          "elected": false,
+          "pct": 39.36
+        }
+      ]
+    },
+    {
+      "boothId": 2751,
+      "name": "Lewisham",
+      "formal": 1915,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 63.76,
+      "swing": -4.51,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1062,
+          "pct": 55.46
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 587,
+          "pct": 30.65
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 161,
+          "pct": 8.41
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 2.61
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 1.67
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1221,
+          "elected": true,
+          "pct": 63.76
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 694,
+          "elected": false,
+          "pct": 36.24
+        }
+      ]
+    },
+    {
+      "boothId": 2738,
+      "name": "Dulwich Hill",
+      "formal": 1795,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 63.45,
+      "swing": -5.39,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 970,
+          "pct": 54.04
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 534,
+          "pct": 29.75
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 185,
+          "pct": 10.31
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 2.84
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 2.06
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1139,
+          "elected": true,
+          "pct": 63.45
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 656,
+          "elected": false,
+          "pct": 36.55
+        }
+      ]
+    },
+    {
+      "boothId": 2728,
+      "name": "Annandale North",
+      "formal": 1783,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 69.15,
+      "swing": -0.79,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1056,
+          "pct": 59.23
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 434,
+          "pct": 24.34
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 209,
+          "pct": 11.72
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 1.96
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 1.63
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1233,
+          "elected": true,
+          "pct": 69.15
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 550,
+          "elected": false,
+          "pct": 30.85
+        }
+      ]
+    },
+    {
+      "boothId": 2748,
+      "name": "Leichhardt",
+      "formal": 1777,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 64.94,
+      "swing": 0.85,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 934,
+          "pct": 52.56
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 491,
+          "pct": 27.63
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 231,
+          "pct": 13.0
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 2.7
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 2.42
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 1.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1154,
+          "elected": true,
+          "pct": 64.94
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 623,
+          "elected": false,
+          "pct": 35.06
+        }
+      ]
+    },
+    {
+      "boothId": 1008,
+      "name": "Marrickville",
+      "formal": 1774,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 61.22,
+      "swing": -6.05,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 949,
+          "pct": 53.49
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 576,
+          "pct": 32.47
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 132,
+          "pct": 7.44
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 3.16
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 2.42
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1086,
+          "elected": true,
+          "pct": 61.22
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 688,
+          "elected": false,
+          "pct": 38.78
+        }
+      ]
+    },
+    {
+      "boothId": 1009,
+      "name": "Marrickville Central",
+      "formal": 1705,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 62.93,
+      "swing": -6.09,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 965,
+          "pct": 56.6
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 566,
+          "pct": 33.2
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 112,
+          "pct": 6.57
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 1.94
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 1.17
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1073,
+          "elected": true,
+          "pct": 62.93
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 632,
+          "elected": false,
+          "pct": 37.07
+        }
+      ]
+    },
+    {
+      "boothId": 1015,
+      "name": "Summer Hill South",
+      "formal": 1690,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 65.15,
+      "swing": -3.66,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 973,
+          "pct": 57.57
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 515,
+          "pct": 30.47
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 120,
+          "pct": 7.1
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 2.49
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 1.36
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1101,
+          "elected": true,
+          "pct": 65.15
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 589,
+          "elected": false,
+          "pct": 34.85
+        }
+      ]
+    },
+    {
+      "boothId": 985,
+      "name": "Ashbury",
+      "formal": 1684,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 76.25,
+      "swing": 24.39,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 888,
+          "pct": 52.73
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 398,
+          "pct": 23.63
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 251,
+          "pct": 14.9
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 4.33
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 41,
+          "pct": 2.43
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 1.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1284,
+          "elected": true,
+          "pct": 76.25
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 400,
+          "elected": false,
+          "pct": 23.75
+        }
+      ]
+    },
+    {
+      "boothId": 44534,
+      "name": "Annandale",
+      "formal": 1630,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 66.01,
+      "swing": 0.95,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 906,
+          "pct": 55.58
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 471,
+          "pct": 28.9
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 166,
+          "pct": 10.18
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 2.33
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 2.02
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 0.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1076,
+          "elected": true,
+          "pct": 66.01
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 554,
+          "elected": false,
+          "pct": 33.99
+        }
+      ]
+    },
+    {
+      "boothId": 2734,
+      "name": "Newtown South",
+      "formal": 1588,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 56.8,
+      "swing": -4.57,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 805,
+          "pct": 50.69
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 623,
+          "pct": 39.23
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 85,
+          "pct": 5.35
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 2.2
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 1.76
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 0.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 902,
+          "elected": true,
+          "pct": 56.8
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 686,
+          "elected": false,
+          "pct": 43.2
+        }
+      ]
+    },
+    {
+      "boothId": 1011,
+      "name": "Marrickville West",
+      "formal": 1557,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 62.11,
+      "swing": -10.02,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 847,
+          "pct": 54.4
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 497,
+          "pct": 31.92
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 99,
+          "pct": 6.36
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 3.28
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 2.44
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 967,
+          "elected": true,
+          "pct": 62.11
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 590,
+          "elected": false,
+          "pct": 37.89
+        }
+      ]
+    },
+    {
+      "boothId": 80662,
+      "name": "Ashfield",
+      "formal": 1452,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 61.16,
+      "swing": -1.26,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 715,
+          "pct": 49.24
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 462,
+          "pct": 31.82
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 159,
+          "pct": 10.95
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 3.72
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 2.62
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 1.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 888,
+          "elected": true,
+          "pct": 61.16
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 564,
+          "elected": false,
+          "pct": 38.84
+        }
+      ]
+    },
+    {
+      "boothId": 995,
+      "name": "Canterbury North",
+      "formal": 1451,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 66.23,
+      "swing": 2.55,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 790,
+          "pct": 54.45
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 355,
+          "pct": 24.47
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 174,
+          "pct": 11.99
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 3.86
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 2.83
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 961,
+          "elected": true,
+          "pct": 66.23
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 490,
+          "elected": false,
+          "pct": 33.77
+        }
+      ]
+    },
+    {
+      "boothId": 1017,
+      "name": "Ashfield South",
+      "formal": 1401,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 68.88,
+      "swing": 4.22,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 808,
+          "pct": 57.67
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 352,
+          "pct": 25.12
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 158,
+          "pct": 11.28
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 2.21
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 1.86
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 965,
+          "elected": true,
+          "pct": 68.88
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 436,
+          "elected": false,
+          "pct": 31.12
+        }
+      ]
+    },
+    {
+      "boothId": 997,
+      "name": "Dulwich Hill West",
+      "formal": 1350,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 60.96,
+      "swing": -6.91,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 737,
+          "pct": 54.59
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 450,
+          "pct": 33.33
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 81,
+          "pct": 6.0
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 2.52
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.37
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 823,
+          "elected": true,
+          "pct": 60.96
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 527,
+          "elected": false,
+          "pct": 39.04
+        }
+      ]
+    },
+    {
+      "boothId": 2739,
+      "name": "Enmore",
+      "formal": 1321,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 59.2,
+      "swing": -2.39,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 676,
+          "pct": 51.17
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 470,
+          "pct": 35.58
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 91,
+          "pct": 6.89
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 2.65
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.97
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 782,
+          "elected": true,
+          "pct": 59.2
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 539,
+          "elected": false,
+          "pct": 40.8
+        }
+      ]
+    },
+    {
+      "boothId": 2747,
+      "name": "Leichhardt West",
+      "formal": 1278,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 67.37,
+      "swing": 2.59,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 723,
+          "pct": 56.57
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 354,
+          "pct": 27.7
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 132,
+          "pct": 10.33
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.58
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 1.88
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 0.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 861,
+          "elected": true,
+          "pct": 67.37
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 417,
+          "elected": false,
+          "pct": 32.63
+        }
+      ]
+    },
+    {
+      "boothId": 1532,
+      "name": "Enfield (Grayndler)",
+      "formal": 1248,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 72.04,
+      "swing": 25.7,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 612,
+          "pct": 49.04
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 324,
+          "pct": 25.96
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 174,
+          "pct": 13.94
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 5.85
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 2.64
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 899,
+          "elected": true,
+          "pct": 72.04
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 349,
+          "elected": false,
+          "pct": 27.96
+        }
+      ]
+    },
+    {
+      "boothId": 2737,
+      "name": "Dobroyd Point",
+      "formal": 1216,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 77.55,
+      "swing": 0.65,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 643,
+          "pct": 52.88
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 321,
+          "pct": 26.4
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 161,
+          "pct": 13.24
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 2.96
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.71
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 943,
+          "elected": true,
+          "pct": 77.55
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 273,
+          "elected": false,
+          "pct": 22.45
+        }
+      ]
+    },
+    {
+      "boothId": 2757,
+      "name": "Marrickville North",
+      "formal": 1214,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 67.96,
+      "swing": -1.21,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 727,
+          "pct": 59.88
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 330,
+          "pct": 27.18
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 104,
+          "pct": 8.57
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 1.98
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 1.81
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 825,
+          "elected": true,
+          "pct": 67.96
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 389,
+          "elected": false,
+          "pct": 32.04
+        }
+      ]
+    },
+    {
+      "boothId": 1013,
+      "name": "Summer Hill",
+      "formal": 1196,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 58.19,
+      "swing": -5.71,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 570,
+          "pct": 47.66
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 433,
+          "pct": 36.2
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 106,
+          "pct": 8.86
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 38,
+          "pct": 3.18
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 2.93
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 696,
+          "elected": true,
+          "pct": 58.19
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 500,
+          "elected": false,
+          "pct": 41.81
+        }
+      ]
+    },
+    {
+      "boothId": 1467,
+      "name": "St Peters",
+      "formal": 1093,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 61.39,
+      "swing": -0.46,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 596,
+          "pct": 54.53
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 365,
+          "pct": 33.39
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 77,
+          "pct": 7.04
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 2.65
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 1.56
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 0.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 671,
+          "elected": true,
+          "pct": 61.39
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 422,
+          "elected": false,
+          "pct": 38.61
+        }
+      ]
+    },
+    {
+      "boothId": 2758,
+      "name": "Petersham",
+      "formal": 1048,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 59.16,
+      "swing": -6.11,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 534,
+          "pct": 50.95
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 367,
+          "pct": 35.02
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 87,
+          "pct": 8.3
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 2.48
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 2.29
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 0.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 620,
+          "elected": true,
+          "pct": 59.16
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 428,
+          "elected": false,
+          "pct": 40.84
+        }
+      ]
+    },
+    {
+      "boothId": 1004,
+      "name": "Hurlstone Park",
+      "formal": 1008,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 68.55,
+      "swing": 2.88,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 579,
+          "pct": 57.44
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 227,
+          "pct": 22.52
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 127,
+          "pct": 12.6
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 3.08
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 2.58
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 691,
+          "elected": true,
+          "pct": 68.55
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 317,
+          "elected": false,
+          "pct": 31.45
+        }
+      ]
+    },
+    {
+      "boothId": 2765,
+      "name": "Stanmore North",
+      "formal": 1008,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 74.01,
+      "swing": 4.76,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 596,
+          "pct": 59.13
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 203,
+          "pct": 20.14
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 146,
+          "pct": 14.48
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 3.37
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 2.18
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 746,
+          "elected": true,
+          "pct": 74.01
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 262,
+          "elected": false,
+          "pct": 25.99
+        }
+      ]
+    },
+    {
+      "boothId": 1470,
+      "name": "Tempe",
+      "formal": 983,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 66.02,
+      "swing": -1.97,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 538,
+          "pct": 54.73
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 230,
+          "pct": 23.4
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 126,
+          "pct": 12.82
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 3.97
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 2.95
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 649,
+          "elected": true,
+          "pct": 66.02
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 334,
+          "elected": false,
+          "pct": 33.98
+        }
+      ]
+    },
+    {
+      "boothId": 988,
+      "name": "Ashfield North",
+      "formal": 979,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 62.0,
+      "swing": -1.71,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 489,
+          "pct": 49.95
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 317,
+          "pct": 32.38
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 110,
+          "pct": 11.24
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 2.66
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 2.55
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 607,
+          "elected": true,
+          "pct": 62.0
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 372,
+          "elected": false,
+          "pct": 38.0
+        }
+      ]
+    },
+    {
+      "boothId": 1016,
+      "name": "Marrickville Park",
+      "formal": 945,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 64.34,
+      "swing": -4.65,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 492,
+          "pct": 52.06
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 268,
+          "pct": 28.36
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 104,
+          "pct": 11.01
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 4.13
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 24,
+          "pct": 2.54
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 608,
+          "elected": true,
+          "pct": 64.34
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 337,
+          "elected": false,
+          "pct": 35.66
+        }
+      ]
+    },
+    {
+      "boothId": 2746,
+      "name": "Haberfield West",
+      "formal": 943,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 69.57,
+      "swing": -4.54,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 502,
+          "pct": 53.23
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 196,
+          "pct": 20.78
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 179,
+          "pct": 18.98
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 3.18
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 2.33
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 656,
+          "elected": true,
+          "pct": 69.57
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 287,
+          "elected": false,
+          "pct": 30.43
+        }
+      ]
+    },
+    {
+      "boothId": 65174,
+      "name": "Wynyard GRAYNDLER PPVC",
+      "formal": 907,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 70.23,
+      "swing": 4.77,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 518,
+          "pct": 57.11
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 224,
+          "pct": 24.7
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 124,
+          "pct": 13.67
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 1.98
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.76
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 0.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 637,
+          "elected": true,
+          "pct": 70.23
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 270,
+          "elected": false,
+          "pct": 29.77
+        }
+      ]
+    },
+    {
+      "boothId": 1010,
+      "name": "Marrickville South",
+      "formal": 829,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 67.07,
+      "swing": -4.28,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 474,
+          "pct": 57.18
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 229,
+          "pct": 27.62
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 80,
+          "pct": 9.65
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 2.77
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 1.81
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 556,
+          "elected": true,
+          "pct": 67.07
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 273,
+          "elected": false,
+          "pct": 32.93
+        }
+      ]
+    },
+    {
+      "boothId": 987,
+      "name": "Ashfield East",
+      "formal": 785,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 63.31,
+      "swing": -1.99,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 403,
+          "pct": 51.34
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 214,
+          "pct": 27.26
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 102,
+          "pct": 12.99
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 3.31
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.8
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 2.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 497,
+          "elected": true,
+          "pct": 63.31
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 288,
+          "elected": false,
+          "pct": 36.69
+        }
+      ]
+    },
+    {
+      "boothId": 1469,
+      "name": "Sydenham",
+      "formal": 782,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 69.31,
+      "swing": 5.33,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 468,
+          "pct": 59.85
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 187,
+          "pct": 23.91
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 72,
+          "pct": 9.21
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 3.84
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.79
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 542,
+          "elected": true,
+          "pct": 69.31
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 240,
+          "elected": false,
+          "pct": 30.69
+        }
+      ]
+    },
+    {
+      "boothId": 97593,
+      "name": "Glebe GRAYNDLER PPVC",
+      "formal": 741,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 60.05,
+      "swing": -3.63,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 394,
+          "pct": 53.17
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 258,
+          "pct": 34.82
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 59,
+          "pct": 7.96
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 2.02
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.62
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 445,
+          "elected": true,
+          "pct": 60.05
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 296,
+          "elected": false,
+          "pct": 39.95
+        }
+      ]
+    },
+    {
+      "boothId": 65692,
+      "name": "Haymarket GRAYNDLER PPVC",
+      "formal": 724,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 61.74,
+      "swing": -2.86,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 374,
+          "pct": 51.66
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 220,
+          "pct": 30.39
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 78,
+          "pct": 10.77
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 3.45
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 2.21
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 447,
+          "elected": true,
+          "pct": 61.74
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 277,
+          "elected": false,
+          "pct": 38.26
+        }
+      ]
+    },
+    {
+      "boothId": 2750,
+      "name": "Leichhardt South",
+      "formal": 700,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 76.14,
+      "swing": 5.6,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 436,
+          "pct": 62.29
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 126,
+          "pct": 18.0
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 92,
+          "pct": 13.14
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 2.86
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.29
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 533,
+          "elected": true,
+          "pct": 76.14
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 167,
+          "elected": false,
+          "pct": 23.86
+        }
+      ]
+    },
+    {
+      "boothId": 2749,
+      "name": "Leichhardt East",
+      "formal": 694,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 69.16,
+      "swing": 2.93,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 384,
+          "pct": 55.33
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 147,
+          "pct": 21.18
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 113,
+          "pct": 16.28
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 2.59
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 2.45
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 480,
+          "elected": true,
+          "pct": 69.16
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 214,
+          "elected": false,
+          "pct": 30.84
+        }
+      ]
+    },
+    {
+      "boothId": 2759,
+      "name": "Petersham East",
+      "formal": 693,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 60.03,
+      "swing": -3.79,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 362,
+          "pct": 52.24
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 219,
+          "pct": 31.6
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 73,
+          "pct": 10.53
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 3.32
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 1.88
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 416,
+          "elected": true,
+          "pct": 60.03
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 277,
+          "elected": false,
+          "pct": 39.97
+        }
+      ]
+    },
+    {
+      "boothId": 2745,
+      "name": "Haberfield",
+      "formal": 639,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 74.8,
+      "swing": 1.84,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 312,
+          "pct": 48.83
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 171,
+          "pct": 26.76
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 103,
+          "pct": 16.12
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 4.23
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.03
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 2.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 478,
+          "elected": true,
+          "pct": 74.8
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 161,
+          "elected": false,
+          "pct": 25.2
+        }
+      ]
+    },
+    {
+      "boothId": 999,
+      "name": "Enfield South",
+      "formal": 576,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 71.53,
+      "swing": 30.47,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 255,
+          "pct": 44.27
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 175,
+          "pct": 30.38
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 67,
+          "pct": 11.63
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 9.72
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 2.95
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 1.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 412,
+          "elected": true,
+          "pct": 71.53
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 164,
+          "elected": false,
+          "pct": 28.47
+        }
+      ]
+    },
+    {
+      "boothId": 97567,
+      "name": "Ultimo GRAYNDLER PPVC",
+      "formal": 546,
+      "winnerParty": "grn",
+      "winnerSurname": "THOMAS",
+      "winnerPct": 50.73,
+      "swing": 12.82,
+      "candidates": [
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 252,
+          "pct": 46.15
+        },
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 242,
+          "pct": 44.32
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 31,
+          "pct": 5.68
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 1.47
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 1.47
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 269,
+          "elected": true,
+          "pct": 49.27
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 277,
+          "elected": false,
+          "pct": 50.73
+        }
+      ]
+    },
+    {
+      "boothId": 82988,
+      "name": "Newtown East (Grayndler)",
+      "formal": 528,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 50.95,
+      "swing": 1.89,
+      "candidates": [
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 240,
+          "pct": 45.45
+        },
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 230,
+          "pct": 43.56
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 33,
+          "pct": 6.25
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 2.27
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.52
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 0.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 269,
+          "elected": true,
+          "pct": 50.95
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 259,
+          "elected": false,
+          "pct": 49.05
+        }
+      ]
+    },
+    {
+      "boothId": 83727,
+      "name": "Annandale Central",
+      "formal": 489,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 66.87,
+      "swing": 5.65,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 264,
+          "pct": 53.99
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 134,
+          "pct": 27.4
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 59,
+          "pct": 12.07
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 2.86
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 2.66
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 327,
+          "elected": true,
+          "pct": 66.87
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 162,
+          "elected": false,
+          "pct": 33.13
+        }
+      ]
+    },
+    {
+      "boothId": 82982,
+      "name": "Marrickville East",
+      "formal": 464,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 58.84,
+      "swing": -7.66,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 221,
+          "pct": 47.63
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 162,
+          "pct": 34.91
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 49,
+          "pct": 10.56
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 4.31
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 1.72
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 273,
+          "elected": true,
+          "pct": 58.84
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 191,
+          "elected": false,
+          "pct": 41.16
+        }
+      ]
+    },
+    {
+      "boothId": 122317,
+      "name": "Belmore GRAYNDLER PPVC",
+      "formal": 413,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 69.01,
+      "swing": 15.87,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 200,
+          "pct": 48.43
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 98,
+          "pct": 23.73
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 49,
+          "pct": 11.86
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 7.75
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 4.84
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 3.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 285,
+          "elected": true,
+          "pct": 69.01
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 128,
+          "elected": false,
+          "pct": 30.99
+        }
+      ]
+    },
+    {
+      "boothId": 1012,
+      "name": "Dulwich Hill South",
+      "formal": 389,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 64.78,
+      "swing": -5.57,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 205,
+          "pct": 52.7
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 105,
+          "pct": 26.99
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 46,
+          "pct": 11.83
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 3.86
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.31
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 2.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 252,
+          "elected": true,
+          "pct": 64.78
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 137,
+          "elected": false,
+          "pct": 35.22
+        }
+      ]
+    },
+    {
+      "boothId": 12071,
+      "name": "Newtown North (Grayndler)",
+      "formal": 327,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 54.43,
+      "swing": -0.46,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 160,
+          "pct": 48.93
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 134,
+          "pct": 40.98
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 16,
+          "pct": 4.89
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 3.36
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 1.53
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 178,
+          "elected": true,
+          "pct": 54.43
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 149,
+          "elected": false,
+          "pct": 45.57
+        }
+      ]
+    },
+    {
+      "boothId": 1000,
+      "name": "Enfield West (Grayndler)",
+      "formal": 288,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 68.06,
+      "swing": 26.39,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 131,
+          "pct": 45.49
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 78,
+          "pct": 27.08
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 11.46
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 6.6
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 4.86
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 4.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 196,
+          "elected": true,
+          "pct": 68.06
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 92,
+          "elected": false,
+          "pct": 31.94
+        }
+      ]
+    },
+    {
+      "boothId": 122324,
+      "name": "Croydon (Grayndler)",
+      "formal": 279,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 69.53,
+      "swing": 29.87,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 123,
+          "pct": 44.09
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 82,
+          "pct": 29.39
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 15.41
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 6.09
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 2.87
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 194,
+          "elected": true,
+          "pct": 69.53
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "elected": false,
+          "pct": 30.47
+        }
+      ]
+    },
+    {
+      "boothId": 80671,
+      "name": "Camperdown South (Grayndler)",
+      "formal": 265,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 54.34,
+      "swing": -1.99,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 133,
+          "pct": 50.19
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 41.51
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 9,
+          "pct": 3.4
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 2.64
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.51
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 144,
+          "elected": true,
+          "pct": 54.34
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 121,
+          "elected": false,
+          "pct": 45.66
+        }
+      ]
+    },
+    {
+      "boothId": 122321,
+      "name": "Croydon South (Grayndler)",
+      "formal": 189,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 75.66,
+      "swing": 26.89,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 100,
+          "pct": 52.91
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 47,
+          "pct": 24.87
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 34,
+          "pct": 17.99
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.12
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.59
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 0.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 143,
+          "elected": true,
+          "pct": 75.66
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "elected": false,
+          "pct": 24.34
+        }
+      ]
+    },
+    {
+      "boothId": 109204,
+      "name": "Special Hospital Team 2",
+      "formal": 120,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 80.83,
+      "swing": 19.52,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 72,
+          "pct": 60.0
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 30,
+          "pct": 25.0
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 6.67
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 4.17
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 3.33
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "elected": true,
+          "pct": 80.83
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 23,
+          "elected": false,
+          "pct": 19.17
+        }
+      ]
+    },
+    {
+      "boothId": 109203,
+      "name": "Special Hospital Team 1",
+      "formal": 82,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 76.83,
+      "swing": 15.49,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 47,
+          "pct": 57.32
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 21,
+          "pct": 25.61
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 12.2
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 2.44
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 1.22
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 1.22
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 63,
+          "elected": true,
+          "pct": 76.83
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "elected": false,
+          "pct": 23.17
+        }
+      ]
+    },
+    {
+      "boothId": 108393,
+      "name": "Ultimo (Grayndler)",
+      "formal": 50,
+      "winnerParty": "grn",
+      "winnerSurname": "THOMAS",
+      "winnerPct": 54.0,
+      "swing": 18.0,
+      "candidates": [
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 25,
+          "pct": 50.0
+        },
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 18,
+          "pct": 36.0
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6,
+          "pct": 12.0
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 2.0
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 23,
+          "elected": true,
+          "pct": 46.0
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 27,
+          "elected": false,
+          "pct": 54.0
+        }
+      ]
+    },
+    {
+      "boothId": 108394,
+      "name": "Wynyard (Grayndler)",
+      "formal": 48,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 62.5,
+      "swing": 3.6,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 25,
+          "pct": 52.08
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 17,
+          "pct": 35.42
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "pct": 8.33
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 4.17
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "elected": true,
+          "pct": 62.5
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 18,
+          "elected": false,
+          "pct": 37.5
+        }
+      ]
+    },
+    {
+      "boothId": 65467,
+      "name": "EAV Grayndler PPVC",
+      "formal": 16,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 68.75,
+      "swing": -2.08,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10,
+          "pct": 62.5
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 31.25
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "elected": true,
+          "pct": 68.75
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "elected": false,
+          "pct": 31.25
+        }
+      ]
+    },
+    {
+      "boothId": 123943,
+      "name": "Other Mobile Team 1",
+      "formal": 14,
+      "winnerParty": "alp",
+      "winnerSurname": "ALBANESE",
+      "winnerPct": 64.29,
+      "swing": 3.0,
+      "candidates": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 42.86
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 28.57
+        },
+        {
+          "surname": "SMALLBONE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "pct": 14.29
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 7.14
+        },
+        {
+          "surname": "BRADBURY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 7.14
+        },
+        {
+          "surname": "BURRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALBANESE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "elected": true,
+          "pct": 64.29
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "elected": false,
+          "pct": 35.71
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 110878,
+    "candidates": [
+      {
+        "id": "C41960",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Smith"
+      },
+      {
+        "id": "C41472",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Smallbone"
+      },
+      {
+        "id": "C41714",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Burrell"
+      },
+      {
+        "id": "C41565",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Thomas"
+      },
+      {
+        "id": "C41373",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Albanese"
+      },
+      {
+        "id": "C40978",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Bradbury"
+      }
+    ],
+    "rounds": [
+      {
+        "C41960": 3505,
+        "C41472": 15867,
+        "C41714": 1729,
+        "C41565": 27847,
+        "C41373": 59364,
+        "C40978": 2566
+      },
+      {
+        "C41960": 4302,
+        "C41472": 16252,
+        "C41565": 27988,
+        "C41373": 59530,
+        "C40978": 2806
+      },
+      {
+        "C41960": 4788,
+        "C41472": 16682,
+        "C41565": 29049,
+        "C41373": 60359
+      },
+      {
+        "C41472": 20213,
+        "C41565": 29703,
+        "C41373": 60962
+      },
+      {
+        "C41565": 36740,
+        "C41373": 74138
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            74.93,
+            54.23,
+            70.34,
+            65.82,
+            66.3,
+            67.05,
+            66.86
+          ]
+        },
+        {
+          "id": "GRN",
+          "party": "grn",
+          "label": "GRN",
+          "points": [
+            null,
+            45.77,
+            null,
+            34.18,
+            33.7,
+            32.95,
+            33.14
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            25.07,
+            null,
+            29.66,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 20.86,
+            "GRN": 18.7,
+            "ALP": 55.47,
+            "OTH": 4.97
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "GRN": 25.9,
+            "ALP": 46.09,
+            "LIB": 24.24,
+            "OTH": 3.77
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "ALP": 47.2,
+            "GRN": 23.03,
+            "LIB": 24.7,
+            "CDP": 2.05,
+            "OTH": 3.03
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "AJP": 2.08,
+            "ALP": 46.07,
+            "GRN": 22.24,
+            "LIB": 23.31,
+            "OTH": 6.29
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "FUT": 2.73,
+            "ALP": 50.86,
+            "LIB": 21.76,
+            "GRN": 22.55,
+            "OTH": 2.11
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "LIB": 15.98,
+            "ALP": 53.63,
+            "TOP": 2.22,
+            "ON": 1.53,
+            "GRN": 22.04,
+            "IND": 2.09,
+            "OTH": 2.5
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "GRN": 25.11,
+            "IND": 2.31,
+            "ALP": 53.54,
+            "LIB": 14.31,
+            "ON": 3.16,
+            "OTH": 1.56
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 150729,
+    "medianAge": 38,
+    "medianHouseholdIncomeWeekly": 2388,
+    "medianRentWeekly": 500,
+    "averageHouseholdSize": 2.3,
+    "bornOverseasPct": 33.9,
+    "indigenousPct": 1.2,
+    "bachelorPlusPct": 65.6,
+    "renterPct": 44.1,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 95460,
+        "pct": 66.09,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 4113,
+        "pct": 2.85,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 1647,
+        "pct": 1.14,
+        "natPct": 1.11
+      },
+      {
+        "label": "China",
+        "count": 1447,
+        "pct": 1.0,
+        "natPct": 1.0
+      },
+      {
+        "label": "Italy",
+        "count": 1146,
+        "pct": 0.79,
+        "natPct": 0.35
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 75760,
+        "pct": 50.26,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 53387,
+        "pct": 35.42,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 9059,
+        "pct": 6.01,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 4534,
+        "pct": 3.01,
+        "natPct": 2.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 3039,
+        "pct": 2.02,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Grayndler is an Australian electoral division in Sydney, New South Wales. It is currently represented by Prime Minister of Australia and Leader of the Australian Labor Party Anthony Albanese.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Grayndler",
+    "retrievedAt": "2025-10-20T05:01:05Z"
+  }
+}

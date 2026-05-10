@@ -1,0 +1,3591 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "CLARK",
+    "divisionId": 319,
+    "name": "Clark",
+    "state": "TAS",
+    "totalFormal": 67531,
+    "informalVotes": 1421,
+    "informalRate": 2.55,
+    "winner": {
+      "candidateId": "C33553",
+      "surname": "WILKIE",
+      "givenName": "Andrew",
+      "party": "ind",
+      "partyAb": "IND",
+      "incumbent": true
+    },
+    "previousWinnerParty": "IND",
+    "tcpMargin": 40.76,
+    "result": "IND RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C33553",
+      "surname": "WILKIE",
+      "givenName": "Andrew",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 26617,
+      "pct": 48.98
+    },
+    {
+      "candidateId": "C41524",
+      "surname": "HECK",
+      "givenName": "Heidi",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 10960,
+      "pct": 20.17
+    },
+    {
+      "candidateId": "C41157",
+      "surname": "SHELLEY",
+      "givenName": "Janet",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 7346,
+      "pct": 13.52
+    },
+    {
+      "candidateId": "C40766",
+      "surname": "DI FLORIO",
+      "givenName": "Marilena",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 7229,
+      "pct": 13.3
+    },
+    {
+      "candidateId": "C42055",
+      "surname": "GRIGGS",
+      "givenName": "Cathy",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 2188,
+      "pct": 4.03
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C33553",
+      "surname": "WILKIE",
+      "givenName": "Andrew",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 47531,
+      "pct": 70.38,
+      "elected": true
+    },
+    {
+      "candidateId": "C41524",
+      "surname": "HECK",
+      "givenName": "Heidi",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 20000,
+      "pct": 29.62,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 58685,
+      "name": "Glenorchy CLARK PPVC",
+      "formal": 7664,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 65.83,
+      "swing": -0.93,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3608,
+          "pct": 47.08
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1896,
+          "pct": 24.74
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1192,
+          "pct": 15.55
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 575,
+          "pct": 7.5
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 393,
+          "pct": 5.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5045,
+          "elected": true,
+          "pct": 65.83
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2619,
+          "elected": false,
+          "pct": 34.17
+        }
+      ]
+    },
+    {
+      "boothId": 31107,
+      "name": "Hobart CLARK PPVC",
+      "formal": 6347,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 76.24,
+      "swing": 0.76,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3238,
+          "pct": 51.02
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1055,
+          "pct": 16.62
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 959,
+          "pct": 15.11
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 946,
+          "pct": 14.9
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 149,
+          "pct": 2.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4839,
+          "elected": true,
+          "pct": 76.24
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1508,
+          "elected": false,
+          "pct": 23.76
+        }
+      ]
+    },
+    {
+      "boothId": 8467,
+      "name": "Lenah Valley",
+      "formal": 2130,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 70.23,
+      "swing": -1.04,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1071,
+          "pct": 50.28
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 449,
+          "pct": 21.08
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 330,
+          "pct": 15.49
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 228,
+          "pct": 10.7
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 2.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1496,
+          "elected": true,
+          "pct": 70.23
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 634,
+          "elected": false,
+          "pct": 29.77
+        }
+      ]
+    },
+    {
+      "boothId": 8457,
+      "name": "Glenorchy",
+      "formal": 1921,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 63.82,
+      "swing": 4.03,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 901,
+          "pct": 46.9
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 510,
+          "pct": 26.55
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 204,
+          "pct": 10.62
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 186,
+          "pct": 9.68
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 120,
+          "pct": 6.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1226,
+          "elected": true,
+          "pct": 63.82
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 695,
+          "elected": false,
+          "pct": 36.18
+        }
+      ]
+    },
+    {
+      "boothId": 108854,
+      "name": "Kingston CLARK PPVC",
+      "formal": 1877,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 75.49,
+      "swing": 6.67,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 984,
+          "pct": 52.42
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 323,
+          "pct": 17.21
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 291,
+          "pct": 15.5
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 198,
+          "pct": 10.55
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 4.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1417,
+          "elected": true,
+          "pct": 75.49
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 460,
+          "elected": false,
+          "pct": 24.51
+        }
+      ]
+    },
+    {
+      "boothId": 8466,
+      "name": "West Hobart Central",
+      "formal": 1696,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 77.65,
+      "swing": 2.06,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 956,
+          "pct": 56.37
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 304,
+          "pct": 17.92
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 260,
+          "pct": 15.33
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 126,
+          "pct": 7.43
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 2.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1317,
+          "elected": true,
+          "pct": 77.65
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 379,
+          "elected": false,
+          "pct": 22.35
+        }
+      ]
+    },
+    {
+      "boothId": 8443,
+      "name": "Moonah East",
+      "formal": 1585,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 66.88,
+      "swing": 4.49,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 736,
+          "pct": 46.44
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 359,
+          "pct": 22.65
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 275,
+          "pct": 17.35
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 154,
+          "pct": 9.72
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 3.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1060,
+          "elected": true,
+          "pct": 66.88
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 525,
+          "elected": false,
+          "pct": 33.12
+        }
+      ]
+    },
+    {
+      "boothId": 8452,
+      "name": "New Town West",
+      "formal": 1477,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 69.6,
+      "swing": -0.04,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 718,
+          "pct": 48.61
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 311,
+          "pct": 21.06
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 214,
+          "pct": 14.49
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 202,
+          "pct": 13.68
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 2.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1028,
+          "elected": true,
+          "pct": 69.6
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 449,
+          "elected": false,
+          "pct": 30.4
+        }
+      ]
+    },
+    {
+      "boothId": 8495,
+      "name": "Austins Ferry",
+      "formal": 1432,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 60.89,
+      "swing": -4.63,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 588,
+          "pct": 41.06
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 405,
+          "pct": 28.28
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 233,
+          "pct": 16.27
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 106,
+          "pct": 7.4
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 100,
+          "pct": 6.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 872,
+          "elected": true,
+          "pct": 60.89
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 560,
+          "elected": false,
+          "pct": 39.11
+        }
+      ]
+    },
+    {
+      "boothId": 8485,
+      "name": "Glenorchy West",
+      "formal": 1431,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 60.66,
+      "swing": 2.1,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 610,
+          "pct": 42.63
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 397,
+          "pct": 27.74
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 173,
+          "pct": 12.09
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 160,
+          "pct": 11.18
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 91,
+          "pct": 6.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 868,
+          "elected": true,
+          "pct": 60.66
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 563,
+          "elected": false,
+          "pct": 39.34
+        }
+      ]
+    },
+    {
+      "boothId": 8487,
+      "name": "Claremont South",
+      "formal": 1411,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 61.59,
+      "swing": 0.81,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 595,
+          "pct": 42.17
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 371,
+          "pct": 26.29
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 177,
+          "pct": 12.54
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 138,
+          "pct": 9.78
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 130,
+          "pct": 9.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 869,
+          "elected": true,
+          "pct": 61.59
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 542,
+          "elected": false,
+          "pct": 38.41
+        }
+      ]
+    },
+    {
+      "boothId": 8472,
+      "name": "Derwent Park",
+      "formal": 1392,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 65.45,
+      "swing": -0.11,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 619,
+          "pct": 44.47
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 318,
+          "pct": 22.84
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 238,
+          "pct": 17.1
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 154,
+          "pct": 11.06
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 4.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 911,
+          "elected": true,
+          "pct": 65.45
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 481,
+          "elected": false,
+          "pct": 34.55
+        }
+      ]
+    },
+    {
+      "boothId": 8542,
+      "name": "Taroona",
+      "formal": 1306,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 78.33,
+      "swing": -1.05,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 738,
+          "pct": 56.51
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 224,
+          "pct": 17.15
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 194,
+          "pct": 14.85
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 130,
+          "pct": 9.95
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 1.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1023,
+          "elected": true,
+          "pct": 78.33
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 283,
+          "elected": false,
+          "pct": 21.67
+        }
+      ]
+    },
+    {
+      "boothId": 8484,
+      "name": "North Hobart Central",
+      "formal": 1298,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 74.65,
+      "swing": 2.37,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 663,
+          "pct": 51.08
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 258,
+          "pct": 19.88
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 227,
+          "pct": 17.49
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 119,
+          "pct": 9.17
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 2.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 969,
+          "elected": true,
+          "pct": 74.65
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 329,
+          "elected": false,
+          "pct": 25.35
+        }
+      ]
+    },
+    {
+      "boothId": 8464,
+      "name": "South Hobart",
+      "formal": 1213,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 79.06,
+      "swing": 0.78,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 679,
+          "pct": 55.98
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 201,
+          "pct": 16.57
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 164,
+          "pct": 13.52
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 139,
+          "pct": 11.46
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 2.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 959,
+          "elected": true,
+          "pct": 79.06
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 254,
+          "elected": false,
+          "pct": 20.94
+        }
+      ]
+    },
+    {
+      "boothId": 8482,
+      "name": "Sandy Bay",
+      "formal": 1204,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 75.17,
+      "swing": -0.85,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 586,
+          "pct": 48.67
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 261,
+          "pct": 21.68
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 181,
+          "pct": 15.03
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 142,
+          "pct": 11.79
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 2.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 905,
+          "elected": true,
+          "pct": 75.17
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 299,
+          "elected": false,
+          "pct": 24.83
+        }
+      ]
+    },
+    {
+      "boothId": 8473,
+      "name": "Mount Nelson",
+      "formal": 1169,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 75.96,
+      "swing": -3.32,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 626,
+          "pct": 53.55
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 191,
+          "pct": 16.34
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 178,
+          "pct": 15.23
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 146,
+          "pct": 12.49
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 2.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 888,
+          "elected": true,
+          "pct": 75.96
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 281,
+          "elected": false,
+          "pct": 24.04
+        }
+      ]
+    },
+    {
+      "boothId": 8453,
+      "name": "Sandy Bay Central",
+      "formal": 1151,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 75.07,
+      "swing": -2.38,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 606,
+          "pct": 52.65
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 185,
+          "pct": 16.07
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 171,
+          "pct": 14.86
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 167,
+          "pct": 14.51
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 1.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 864,
+          "elected": true,
+          "pct": 75.07
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 287,
+          "elected": false,
+          "pct": 24.93
+        }
+      ]
+    },
+    {
+      "boothId": 8471,
+      "name": "Moonah",
+      "formal": 1085,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 67.19,
+      "swing": 0.17,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 495,
+          "pct": 45.62
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 256,
+          "pct": 23.59
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 160,
+          "pct": 14.75
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 128,
+          "pct": 11.8
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 4.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 729,
+          "elected": true,
+          "pct": 67.19
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 356,
+          "elected": false,
+          "pct": 32.81
+        }
+      ]
+    },
+    {
+      "boothId": 8486,
+      "name": "Sandy Bay South",
+      "formal": 1064,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 76.97,
+      "swing": -1.73,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 535,
+          "pct": 50.28
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 234,
+          "pct": 21.99
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 155,
+          "pct": 14.57
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 115,
+          "pct": 10.81
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 2.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 819,
+          "elected": true,
+          "pct": 76.97
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 245,
+          "elected": false,
+          "pct": 23.03
+        }
+      ]
+    },
+    {
+      "boothId": 8445,
+      "name": "Cascades",
+      "formal": 1023,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 83.48,
+      "swing": 4.77,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 598,
+          "pct": 58.46
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 244,
+          "pct": 23.85
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 103,
+          "pct": 10.07
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 55,
+          "pct": 5.38
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 2.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 854,
+          "elected": true,
+          "pct": 83.48
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 169,
+          "elected": false,
+          "pct": 16.52
+        }
+      ]
+    },
+    {
+      "boothId": 8446,
+      "name": "Chigwell",
+      "formal": 1015,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 57.44,
+      "swing": -4.62,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 407,
+          "pct": 40.1
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 314,
+          "pct": 30.94
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 122,
+          "pct": 12.02
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 87,
+          "pct": 8.57
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "pct": 8.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 583,
+          "elected": true,
+          "pct": 57.44
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 432,
+          "elected": false,
+          "pct": 42.56
+        }
+      ]
+    },
+    {
+      "boothId": 8465,
+      "name": "West Hobart South",
+      "formal": 959,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 77.89,
+      "swing": 3.02,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 536,
+          "pct": 55.89
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 185,
+          "pct": 19.29
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 140,
+          "pct": 14.6
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 81,
+          "pct": 8.45
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 1.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 747,
+          "elected": true,
+          "pct": 77.89
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 212,
+          "elected": false,
+          "pct": 22.11
+        }
+      ]
+    },
+    {
+      "boothId": 8461,
+      "name": "Hobart City (Clark)",
+      "formal": 941,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 66.63,
+      "swing": 1.52,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 369,
+          "pct": 39.21
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 272,
+          "pct": 28.91
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 191,
+          "pct": 20.3
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 77,
+          "pct": 8.18
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 3.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 627,
+          "elected": true,
+          "pct": 66.63
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 314,
+          "elected": false,
+          "pct": 33.37
+        }
+      ]
+    },
+    {
+      "boothId": 8447,
+      "name": "Claremont",
+      "formal": 889,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 57.93,
+      "swing": -5.96,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 354,
+          "pct": 39.82
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 273,
+          "pct": 30.71
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 120,
+          "pct": 13.5
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 79,
+          "pct": 8.89
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 7.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 515,
+          "elected": true,
+          "pct": 57.93
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 374,
+          "elected": false,
+          "pct": 42.07
+        }
+      ]
+    },
+    {
+      "boothId": 8474,
+      "name": "Mount Stuart",
+      "formal": 862,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 74.94,
+      "swing": 0.72,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 471,
+          "pct": 54.64
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 163,
+          "pct": 18.91
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 137,
+          "pct": 15.89
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 77,
+          "pct": 8.93
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 1.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 646,
+          "elected": true,
+          "pct": 74.94
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 216,
+          "elected": false,
+          "pct": 25.06
+        }
+      ]
+    },
+    {
+      "boothId": 8442,
+      "name": "Battery Point",
+      "formal": 858,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 80.77,
+      "swing": 2.16,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 458,
+          "pct": 53.38
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 156,
+          "pct": 18.18
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 127,
+          "pct": 14.8
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 98,
+          "pct": 11.42
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 2.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 693,
+          "elected": true,
+          "pct": 80.77
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 165,
+          "elected": false,
+          "pct": 19.23
+        }
+      ]
+    },
+    {
+      "boothId": 8468,
+      "name": "Lower Sandy Bay",
+      "formal": 769,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 77.89,
+      "swing": 0.24,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 343,
+          "pct": 44.6
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 224,
+          "pct": 29.13
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 108,
+          "pct": 14.04
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 9.62
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 2.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 599,
+          "elected": true,
+          "pct": 77.89
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "elected": false,
+          "pct": 22.11
+        }
+      ]
+    },
+    {
+      "boothId": 108897,
+      "name": "Glenorchy South",
+      "formal": 732,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 62.16,
+      "swing": 1.8,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 330,
+          "pct": 45.08
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 203,
+          "pct": 27.73
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 93,
+          "pct": 12.7
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 65,
+          "pct": 8.88
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 5.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 455,
+          "elected": true,
+          "pct": 62.16
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 277,
+          "elected": false,
+          "pct": 37.84
+        }
+      ]
+    },
+    {
+      "boothId": 8476,
+      "name": "North Hobart",
+      "formal": 690,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 74.2,
+      "swing": -2.11,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 357,
+          "pct": 51.74
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 119,
+          "pct": 17.25
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 104,
+          "pct": 15.07
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 94,
+          "pct": 13.62
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 2.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 512,
+          "elected": true,
+          "pct": 74.2
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 178,
+          "elected": false,
+          "pct": 25.8
+        }
+      ]
+    },
+    {
+      "boothId": 8478,
+      "name": "Claremont North",
+      "formal": 669,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 57.4,
+      "swing": -8.72,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 285,
+          "pct": 42.6
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 207,
+          "pct": 30.94
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 10.01
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 63,
+          "pct": 9.42
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 47,
+          "pct": 7.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 384,
+          "elected": true,
+          "pct": 57.4
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 285,
+          "elected": false,
+          "pct": 42.6
+        }
+      ]
+    },
+    {
+      "boothId": 83688,
+      "name": "Rosetta",
+      "formal": 648,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 65.74,
+      "swing": -0.28,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 296,
+          "pct": 45.68
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 158,
+          "pct": 24.38
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 87,
+          "pct": 13.43
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 74,
+          "pct": 11.42
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 5.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 426,
+          "elected": true,
+          "pct": 65.74
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 222,
+          "elected": false,
+          "pct": 34.26
+        }
+      ]
+    },
+    {
+      "boothId": 46852,
+      "name": "Kingston (Clark)",
+      "formal": 611,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 71.36,
+      "swing": 0.89,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 296,
+          "pct": 48.45
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 107,
+          "pct": 17.51
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 95,
+          "pct": 15.55
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 82,
+          "pct": 13.42
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 5.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 436,
+          "elected": true,
+          "pct": 71.36
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 175,
+          "elected": false,
+          "pct": 28.64
+        }
+      ]
+    },
+    {
+      "boothId": 8483,
+      "name": "Sandy Bay Beach",
+      "formal": 602,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 80.73,
+      "swing": -1.16,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 298,
+          "pct": 49.5
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 203,
+          "pct": 33.72
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 60,
+          "pct": 9.97
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 27,
+          "pct": 4.49
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 2.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 486,
+          "elected": true,
+          "pct": 80.73
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 116,
+          "elected": false,
+          "pct": 19.27
+        }
+      ]
+    },
+    {
+      "boothId": 97939,
+      "name": "New Town Central",
+      "formal": 591,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 67.01,
+      "swing": -4.89,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 293,
+          "pct": 49.58
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 144,
+          "pct": 24.37
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 87,
+          "pct": 14.72
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 52,
+          "pct": 8.8
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 2.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 396,
+          "elected": true,
+          "pct": 67.01
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 195,
+          "elected": false,
+          "pct": 32.99
+        }
+      ]
+    },
+    {
+      "boothId": 8456,
+      "name": "Fern Tree",
+      "formal": 507,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 86.39,
+      "swing": 1.89,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 339,
+          "pct": 66.86
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 86,
+          "pct": 16.96
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 44,
+          "pct": 8.68
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 20,
+          "pct": 3.94
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 3.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 438,
+          "elected": true,
+          "pct": 86.39
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 69,
+          "elected": false,
+          "pct": 13.61
+        }
+      ]
+    },
+    {
+      "boothId": 8458,
+      "name": "Glenorchy Central",
+      "formal": 446,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 63.45,
+      "swing": -0.55,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 173,
+          "pct": 38.79
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "pct": 24.66
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 73,
+          "pct": 16.37
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 59,
+          "pct": 13.23
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 6.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 283,
+          "elected": true,
+          "pct": 63.45
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 163,
+          "elected": false,
+          "pct": 36.55
+        }
+      ]
+    },
+    {
+      "boothId": 8459,
+      "name": "Derwent Park North",
+      "formal": 340,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 60.88,
+      "swing": 2.29,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 154,
+          "pct": 45.29
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 91,
+          "pct": 26.76
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 9.71
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 32,
+          "pct": 9.41
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 30,
+          "pct": 8.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 207,
+          "elected": true,
+          "pct": 60.88
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 133,
+          "elected": false,
+          "pct": 39.12
+        }
+      ]
+    },
+    {
+      "boothId": 8448,
+      "name": "Collinsvale",
+      "formal": 339,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 74.04,
+      "swing": 2.48,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 182,
+          "pct": 53.69
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 66,
+          "pct": 19.47
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 44,
+          "pct": 12.98
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 27,
+          "pct": 7.96
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 5.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 251,
+          "elected": true,
+          "pct": 74.04
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 88,
+          "elected": false,
+          "pct": 25.96
+        }
+      ]
+    },
+    {
+      "boothId": 8481,
+      "name": "Hobart",
+      "formal": 260,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 71.92,
+      "swing": 0.8,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 126,
+          "pct": 48.46
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 50,
+          "pct": 19.23
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 48,
+          "pct": 18.46
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 32,
+          "pct": 12.31
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 1.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 187,
+          "elected": true,
+          "pct": 71.92
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 73,
+          "elected": false,
+          "pct": 28.08
+        }
+      ]
+    },
+    {
+      "boothId": 108404,
+      "name": "Special Hospital Team 1",
+      "formal": 206,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 70.39,
+      "swing": -1.4,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 114,
+          "pct": 55.34
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 45,
+          "pct": 21.84
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 30,
+          "pct": 14.56
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 5.34
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 2.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 145,
+          "elected": true,
+          "pct": 70.39
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 61,
+          "elected": false,
+          "pct": 29.61
+        }
+      ]
+    },
+    {
+      "boothId": 97480,
+      "name": "Kingston Beach (Clark)",
+      "formal": 176,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 75.57,
+      "swing": 0.48,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 94,
+          "pct": 53.41
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 30,
+          "pct": 17.05
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 27,
+          "pct": 15.34
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 17,
+          "pct": 9.66
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 4.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 133,
+          "elected": true,
+          "pct": 75.57
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 43,
+          "elected": false,
+          "pct": 24.43
+        }
+      ]
+    },
+    {
+      "boothId": 109421,
+      "name": "Special Hospital Team 2",
+      "formal": 154,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 70.13,
+      "swing": -1.76,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 97,
+          "pct": 62.99
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 33,
+          "pct": 21.43
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 16,
+          "pct": 10.39
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 3.25
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 1.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 108,
+          "elected": true,
+          "pct": 70.13
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 46,
+          "elected": false,
+          "pct": 29.87
+        }
+      ]
+    },
+    {
+      "boothId": 110738,
+      "name": "Special Hospital Team 3",
+      "formal": 75,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 65.33,
+      "swing": -6.29,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 41.33
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 17,
+          "pct": 22.67
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 14,
+          "pct": 18.67
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 14.67
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 2.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 49,
+          "elected": true,
+          "pct": 65.33
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 26,
+          "elected": false,
+          "pct": 34.67
+        }
+      ]
+    },
+    {
+      "boothId": 112280,
+      "name": "Special Hospital Team 4",
+      "formal": 74,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 63.51,
+      "swing": -8.28,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 52.7
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 21,
+          "pct": 28.38
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 9.46
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5,
+          "pct": 6.76
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 2.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 47,
+          "elected": true,
+          "pct": 63.51
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 27,
+          "elected": false,
+          "pct": 36.49
+        }
+      ]
+    },
+    {
+      "boothId": 109415,
+      "name": "Other Mobile Team 2",
+      "formal": 26,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 53.85,
+      "swing": -19.79,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 50.0
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "pct": 34.62
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 7.69
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 7.69
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "elected": true,
+          "pct": 53.85
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 12,
+          "elected": false,
+          "pct": 46.15
+        }
+      ]
+    },
+    {
+      "boothId": 65559,
+      "name": "EAV Clark PPVC",
+      "formal": 21,
+      "winnerParty": "ind",
+      "winnerSurname": "WILKIE",
+      "winnerPct": 71.43,
+      "swing": -3.57,
+      "candidates": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 52.38
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 19.05
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "pct": 19.05
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1,
+          "pct": 4.76
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 4.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "elected": true,
+          "pct": 71.43
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "elected": false,
+          "pct": 28.57
+        }
+      ]
+    },
+    {
+      "boothId": 109411,
+      "name": "Other Mobile Team 1",
+      "formal": 4,
+      "winnerParty": "alp",
+      "winnerSurname": "HECK",
+      "winnerPct": 75.0,
+      "swing": 49.0,
+      "candidates": [
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2,
+          "pct": 50.0
+        },
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 25.0
+        },
+        {
+          "surname": "SHELLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 25.0
+        },
+        {
+          "surname": "DI FLORIO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "GRIGGS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WILKIE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "elected": true,
+          "pct": 25.0
+        },
+        {
+          "surname": "HECK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "elected": false,
+          "pct": 75.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 67531,
+    "candidates": [
+      {
+        "id": "C33553",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Wilkie"
+      },
+      {
+        "id": "C41157",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Shelley"
+      },
+      {
+        "id": "C40766",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Di Florio"
+      },
+      {
+        "id": "C41524",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Heck"
+      },
+      {
+        "id": "C42055",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Griggs"
+      }
+    ],
+    "rounds": [
+      {
+        "C33553": 33011,
+        "C41157": 8908,
+        "C40766": 9239,
+        "C41524": 13539,
+        "C42055": 2834
+      },
+      {
+        "C33553": 34116,
+        "C41157": 9074,
+        "C40766": 10334,
+        "C41524": 14007
+      },
+      {
+        "C33553": 40513,
+        "C40766": 10640,
+        "C41524": 16378
+      },
+      {
+        "C33553": 47531,
+        "C41524": 20000
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "IND",
+          "party": "ind",
+          "label": "IND",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            72.12,
+            70.82,
+            70.38
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            null,
+            null,
+            null,
+            null,
+            27.88,
+            29.18,
+            29.62
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2019",
+          "shares": {
+            "IND": 50.05,
+            "LIB": 17.37,
+            "GRN": 9.57,
+            "TOP": 2.79,
+            "ALP": 20.22
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "IND": 45.54,
+            "LIB": 15.85,
+            "ON": 2.6,
+            "ALP": 18.76,
+            "GRN": 13.45,
+            "OTH": 3.81
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "IND": 48.88,
+            "ON": 4.2,
+            "LIB": 13.68,
+            "ALP": 20.05,
+            "GRN": 13.19
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 111750,
+    "medianAge": 37,
+    "medianHouseholdIncomeWeekly": 1573,
+    "medianRentWeekly": 355,
+    "averageHouseholdSize": 2.4,
+    "bornOverseasPct": 26.3,
+    "indigenousPct": 3.3,
+    "bachelorPlusPct": 54.7,
+    "renterPct": 34.7,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 78774,
+        "pct": 73.75,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 1829,
+        "pct": 1.71,
+        "natPct": 1.95
+      },
+      {
+        "label": "India",
+        "count": 1785,
+        "pct": 1.67,
+        "natPct": 1.51
+      },
+      {
+        "label": "Nepal",
+        "count": 1695,
+        "pct": 1.59,
+        "natPct": 0.28
+      },
+      {
+        "label": "China",
+        "count": 1635,
+        "pct": 1.53,
+        "natPct": 1.0
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 55602,
+        "pct": 49.76,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 37665,
+        "pct": 33.7,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 6779,
+        "pct": 6.07,
+        "natPct": 7.27
+      },
+      {
+        "label": "Hinduism",
+        "count": 4973,
+        "pct": 4.45,
+        "natPct": 2.69
+      },
+      {
+        "label": "Islam",
+        "count": 2276,
+        "pct": 2.04,
+        "natPct": 3.2
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Clark is an Australian Electoral Division in the state of Tasmania, first contested at the 2019 federal election.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Clark",
+    "retrievedAt": "2025-07-14T08:11:33Z"
+  }
+}

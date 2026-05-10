@@ -1,0 +1,6006 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "MCEWEN",
+    "divisionId": 226,
+    "name": "McEwen",
+    "state": "VIC",
+    "totalFormal": 104616,
+    "informalVotes": 4385,
+    "informalRate": 5.6,
+    "winner": {
+      "candidateId": "C40812",
+      "surname": "MITCHELL",
+      "givenName": "Rob",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 9.52,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C40812",
+      "surname": "MITCHELL",
+      "givenName": "Rob",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 28188,
+      "pct": 38.16
+    },
+    {
+      "candidateId": "C40804",
+      "surname": "McCLINTOCK",
+      "givenName": "Jason",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 23587,
+      "pct": 31.93
+    },
+    {
+      "candidateId": "C41120",
+      "surname": "McRAE McLEOD",
+      "givenName": "Marley",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 8656,
+      "pct": 11.72
+    },
+    {
+      "candidateId": "C41614",
+      "surname": "JOHNSON",
+      "givenName": "Jeremy",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 4480,
+      "pct": 6.07
+    },
+    {
+      "candidateId": "C41237",
+      "surname": "FORREST",
+      "givenName": "Tom",
+      "party": "oth",
+      "partyAb": "HMP",
+      "votes": 2729,
+      "pct": 3.69
+    },
+    {
+      "candidateId": "C40985",
+      "surname": "ANTONIOU",
+      "givenName": "Ali",
+      "party": "oth",
+      "partyAb": "GRPF",
+      "votes": 2545,
+      "pct": 3.45
+    },
+    {
+      "candidateId": "C41591",
+      "surname": "VALENCIA",
+      "givenName": "Julio G",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 1720,
+      "pct": 2.33
+    },
+    {
+      "candidateId": "C41318",
+      "surname": "NICOLOSI",
+      "givenName": "Chloe",
+      "party": "ajp",
+      "partyAb": "AJP",
+      "votes": 1381,
+      "pct": 1.87
+    },
+    {
+      "candidateId": "C41767",
+      "surname": "McGRATH",
+      "givenName": "Erin",
+      "party": "fus",
+      "partyAb": "FUS",
+      "votes": 576,
+      "pct": 0.78
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C40812",
+      "surname": "MITCHELL",
+      "givenName": "Rob",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 57288,
+      "pct": 54.76,
+      "elected": true
+    },
+    {
+      "candidateId": "C40804",
+      "surname": "McCLINTOCK",
+      "givenName": "Jason",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 47328,
+      "pct": 45.24,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 109574,
+      "name": "Gisborne PPVC",
+      "formal": 7990,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 52.8,
+      "swing": 1.55,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2926,
+          "pct": 36.62
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2923,
+          "pct": 36.58
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 891,
+          "pct": 11.15
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 452,
+          "pct": 5.66
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 250,
+          "pct": 3.13
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 194,
+          "pct": 2.43
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 192,
+          "pct": 2.4
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 96,
+          "pct": 1.2
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 66,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4219,
+          "elected": true,
+          "pct": 52.8
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3771,
+          "elected": false,
+          "pct": 47.2
+        }
+      ]
+    },
+    {
+      "boothId": 83416,
+      "name": "Wandong PPVC",
+      "formal": 6007,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 51.22,
+      "swing": -0.78,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2250,
+          "pct": 37.46
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2091,
+          "pct": 34.81
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 543,
+          "pct": 9.04
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 416,
+          "pct": 6.93
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 216,
+          "pct": 3.6
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 213,
+          "pct": 3.55
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 139,
+          "pct": 2.31
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 96,
+          "pct": 1.6
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 43,
+          "pct": 0.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3077,
+          "elected": true,
+          "pct": 51.22
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2930,
+          "elected": false,
+          "pct": 48.78
+        }
+      ]
+    },
+    {
+      "boothId": 97522,
+      "name": "Mill Park MCEWEN PPVC",
+      "formal": 5036,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 54.51,
+      "swing": 3.03,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1996,
+          "pct": 39.63
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1649,
+          "pct": 32.74
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 522,
+          "pct": 10.37
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 299,
+          "pct": 5.94
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 176,
+          "pct": 3.49
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 157,
+          "pct": 3.12
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 133,
+          "pct": 2.64
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 77,
+          "pct": 1.53
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 27,
+          "pct": 0.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2745,
+          "elected": true,
+          "pct": 54.51
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2291,
+          "elected": false,
+          "pct": 45.49
+        }
+      ]
+    },
+    {
+      "boothId": 98129,
+      "name": "Greensborough MCEWEN PPVC",
+      "formal": 4145,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 53.51,
+      "swing": 1.51,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1543,
+          "pct": 37.23
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1503,
+          "pct": 36.26
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 559,
+          "pct": 13.49
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 175,
+          "pct": 4.22
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 109,
+          "pct": 2.63
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 89,
+          "pct": 2.15
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 79,
+          "pct": 1.91
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 61,
+          "pct": 1.47
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 27,
+          "pct": 0.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2218,
+          "elected": true,
+          "pct": 53.51
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1927,
+          "elected": false,
+          "pct": 46.49
+        }
+      ]
+    },
+    {
+      "boothId": 58744,
+      "name": "Epping MCEWEN PPVC",
+      "formal": 2380,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 58.03,
+      "swing": 1.21,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1006,
+          "pct": 42.27
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 690,
+          "pct": 28.99
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 209,
+          "pct": 8.78
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 162,
+          "pct": 6.81
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 96,
+          "pct": 4.03
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 83,
+          "pct": 3.49
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 76,
+          "pct": 3.19
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 38,
+          "pct": 1.6
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 20,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1381,
+          "elected": true,
+          "pct": 58.03
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 999,
+          "elected": false,
+          "pct": 41.97
+        }
+      ]
+    },
+    {
+      "boothId": 92669,
+      "name": "Mernda Central (McEwen)",
+      "formal": 2133,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 63.43,
+      "swing": 1.79,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 978,
+          "pct": 45.85
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 520,
+          "pct": 24.38
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 252,
+          "pct": 11.81
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 99,
+          "pct": 4.64
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 95,
+          "pct": 4.45
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 74,
+          "pct": 3.47
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 73,
+          "pct": 3.42
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 31,
+          "pct": 1.45
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 11,
+          "pct": 0.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1353,
+          "elected": true,
+          "pct": 63.43
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 780,
+          "elected": false,
+          "pct": 36.57
+        }
+      ]
+    },
+    {
+      "boothId": 3380,
+      "name": "Diamond Creek",
+      "formal": 1987,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 59.79,
+      "swing": 4.56,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 784,
+          "pct": 39.46
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 608,
+          "pct": 30.6
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 313,
+          "pct": 15.75
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 68,
+          "pct": 3.42
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 62,
+          "pct": 3.12
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 56,
+          "pct": 2.82
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 39,
+          "pct": 1.96
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 33,
+          "pct": 1.66
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 24,
+          "pct": 1.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1188,
+          "elected": true,
+          "pct": 59.79
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 799,
+          "elected": false,
+          "pct": 40.21
+        }
+      ]
+    },
+    {
+      "boothId": 3323,
+      "name": "Romsey",
+      "formal": 1846,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 53.95,
+      "swing": 1.44,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 624,
+          "pct": 33.8
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 581,
+          "pct": 31.47
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 203,
+          "pct": 11.0
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 162,
+          "pct": 8.78
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 90,
+          "pct": 4.88
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 81,
+          "pct": 4.39
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 50,
+          "pct": 2.71
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 1.73
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 23,
+          "pct": 1.25
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 996,
+          "elected": true,
+          "pct": 53.95
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 850,
+          "elected": false,
+          "pct": 46.05
+        }
+      ]
+    },
+    {
+      "boothId": 47802,
+      "name": "Laurimar",
+      "formal": 1815,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 56.31,
+      "swing": 5.03,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 735,
+          "pct": 40.5
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 573,
+          "pct": 31.57
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 185,
+          "pct": 10.19
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 91,
+          "pct": 5.01
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 84,
+          "pct": 4.63
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 62,
+          "pct": 3.42
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 2.26
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 35,
+          "pct": 1.93
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 9,
+          "pct": 0.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1022,
+          "elected": true,
+          "pct": 56.31
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 793,
+          "elected": false,
+          "pct": 43.69
+        }
+      ]
+    },
+    {
+      "boothId": 65896,
+      "name": "Doreen Central",
+      "formal": 1514,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 57.27,
+      "swing": 0.54,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 600,
+          "pct": 39.63
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 458,
+          "pct": 30.25
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 10.96
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 93,
+          "pct": 6.14
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 82,
+          "pct": 5.42
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 54,
+          "pct": 3.57
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 35,
+          "pct": 2.31
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 19,
+          "pct": 1.25
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 7,
+          "pct": 0.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 867,
+          "elected": true,
+          "pct": 57.27
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 647,
+          "elected": false,
+          "pct": 42.73
+        }
+      ]
+    },
+    {
+      "boothId": 3385,
+      "name": "Hurstbridge",
+      "formal": 1509,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 65.94,
+      "swing": 3.88,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 545,
+          "pct": 36.12
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 367,
+          "pct": 24.32
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 348,
+          "pct": 23.06
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 4.57
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.11
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 44,
+          "pct": 2.92
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.78
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 29,
+          "pct": 1.92
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 18,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 995,
+          "elected": true,
+          "pct": 65.94
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 514,
+          "elected": false,
+          "pct": 34.06
+        }
+      ]
+    },
+    {
+      "boothId": 4340,
+      "name": "Mernda",
+      "formal": 1499,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 60.71,
+      "swing": 2.74,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 630,
+          "pct": 42.03
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 391,
+          "pct": 26.08
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 180,
+          "pct": 12.01
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 5.27
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 71,
+          "pct": 4.74
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 66,
+          "pct": 4.4
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 2.74
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 26,
+          "pct": 1.73
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 15,
+          "pct": 1.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 910,
+          "elected": true,
+          "pct": 60.71
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 589,
+          "elected": false,
+          "pct": 39.29
+        }
+      ]
+    },
+    {
+      "boothId": 4374,
+      "name": "Whittlesea",
+      "formal": 1483,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 50.78,
+      "swing": -2.18,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 527,
+          "pct": 35.54
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 471,
+          "pct": 31.76
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 134,
+          "pct": 9.04
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 130,
+          "pct": 8.77
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 67,
+          "pct": 4.52
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 55,
+          "pct": 3.71
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 54,
+          "pct": 3.64
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 35,
+          "pct": 2.36
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 730,
+          "elected": true,
+          "pct": 49.22
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 753,
+          "elected": false,
+          "pct": 50.78
+        }
+      ]
+    },
+    {
+      "boothId": 4371,
+      "name": "Wallan Wallan",
+      "formal": 1447,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 57.29,
+      "swing": 0.3,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 516,
+          "pct": 35.66
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 345,
+          "pct": 23.84
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 166,
+          "pct": 11.47
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 158,
+          "pct": 10.92
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 99,
+          "pct": 6.84
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 73,
+          "pct": 5.04
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 37,
+          "pct": 2.56
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 2.07
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 23,
+          "pct": 1.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 829,
+          "elected": true,
+          "pct": 57.29
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 618,
+          "elected": false,
+          "pct": 42.71
+        }
+      ]
+    },
+    {
+      "boothId": 109477,
+      "name": "Kalkallo (McEwen)",
+      "formal": 1429,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 63.33,
+      "swing": -0.66,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 700,
+          "pct": 48.99
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 412,
+          "pct": 28.83
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 139,
+          "pct": 9.73
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 3.36
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 2.66
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 33,
+          "pct": 2.31
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.24
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 21,
+          "pct": 1.47
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 6,
+          "pct": 0.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 905,
+          "elected": true,
+          "pct": 63.33
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 524,
+          "elected": false,
+          "pct": 36.67
+        }
+      ]
+    },
+    {
+      "boothId": 4312,
+      "name": "Beveridge",
+      "formal": 1422,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 64.63,
+      "swing": 7.54,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 644,
+          "pct": 45.29
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 333,
+          "pct": 23.42
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 147,
+          "pct": 10.34
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 83,
+          "pct": 5.84
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 82,
+          "pct": 5.77
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 49,
+          "pct": 3.45
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 42,
+          "pct": 2.95
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 33,
+          "pct": 2.32
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 9,
+          "pct": 0.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 919,
+          "elected": true,
+          "pct": 64.63
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 503,
+          "elected": false,
+          "pct": 35.37
+        }
+      ]
+    },
+    {
+      "boothId": 3339,
+      "name": "Woodend",
+      "formal": 1344,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 64.36,
+      "swing": 1.47,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 537,
+          "pct": 39.96
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 305,
+          "pct": 22.69
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 235,
+          "pct": 17.49
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 5.88
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 52,
+          "pct": 3.87
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 49,
+          "pct": 3.65
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.42
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 1.86
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 16,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 865,
+          "elected": true,
+          "pct": 64.36
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 479,
+          "elected": false,
+          "pct": 35.64
+        }
+      ]
+    },
+    {
+      "boothId": 83324,
+      "name": "Mernda South",
+      "formal": 1343,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 58.23,
+      "swing": 0.91,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 551,
+          "pct": 41.03
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 383,
+          "pct": 28.52
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 179,
+          "pct": 13.33
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 5.36
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 57,
+          "pct": 4.24
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 2.98
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 40,
+          "pct": 2.98
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 15,
+          "pct": 1.12
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 6,
+          "pct": 0.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 782,
+          "elected": true,
+          "pct": 58.23
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 561,
+          "elected": false,
+          "pct": 41.77
+        }
+      ]
+    },
+    {
+      "boothId": 65865,
+      "name": "Craigieburn MCEWEN PPVC",
+      "formal": 1343,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 62.55,
+      "swing": 3.26,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 635,
+          "pct": 47.28
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 378,
+          "pct": 28.15
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 141,
+          "pct": 10.5
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 47,
+          "pct": 3.5
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 3.5
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 45,
+          "pct": 3.35
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.16
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 11,
+          "pct": 0.82
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 840,
+          "elected": true,
+          "pct": 62.55
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 503,
+          "elected": false,
+          "pct": 37.45
+        }
+      ]
+    },
+    {
+      "boothId": 65451,
+      "name": "Wallan South",
+      "formal": 1337,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 57.52,
+      "swing": 0.53,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 505,
+          "pct": 37.77
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 324,
+          "pct": 24.23
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 130,
+          "pct": 9.72
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 122,
+          "pct": 9.12
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 120,
+          "pct": 8.98
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 56,
+          "pct": 4.19
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 36,
+          "pct": 2.69
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 2.54
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 0.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 769,
+          "elected": true,
+          "pct": 57.52
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 568,
+          "elected": false,
+          "pct": 42.48
+        }
+      ]
+    },
+    {
+      "boothId": 105103,
+      "name": "Sunbury MCEWEN PPVC",
+      "formal": 1310,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 51.22,
+      "swing": 2.27,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 470,
+          "pct": 35.88
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 429,
+          "pct": 32.75
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 130,
+          "pct": 9.92
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 105,
+          "pct": 8.02
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 55,
+          "pct": 4.2
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 52,
+          "pct": 3.97
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 35,
+          "pct": 2.67
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 1.98
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 0.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 639,
+          "elected": true,
+          "pct": 48.78
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 671,
+          "elected": false,
+          "pct": 51.22
+        }
+      ]
+    },
+    {
+      "boothId": 3322,
+      "name": "Riddell",
+      "formal": 1291,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 58.95,
+      "swing": 3.12,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 467,
+          "pct": 36.17
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 383,
+          "pct": 29.67
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 225,
+          "pct": 17.43
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 6.27
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 42,
+          "pct": 3.25
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.02
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 1.86
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 22,
+          "pct": 1.7
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 0.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 761,
+          "elected": true,
+          "pct": 58.95
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 530,
+          "elected": false,
+          "pct": 41.05
+        }
+      ]
+    },
+    {
+      "boothId": 4318,
+      "name": "Doreen",
+      "formal": 1228,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 50.57,
+      "swing": -0.06,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 467,
+          "pct": 38.03
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 458,
+          "pct": 37.3
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 98,
+          "pct": 7.98
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 4.07
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 45,
+          "pct": 3.66
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.5
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.26
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 25,
+          "pct": 2.04
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 2,
+          "pct": 0.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 607,
+          "elected": true,
+          "pct": 49.43
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 621,
+          "elected": false,
+          "pct": 50.57
+        }
+      ]
+    },
+    {
+      "boothId": 3299,
+      "name": "Lancefield",
+      "formal": 1215,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 50.78,
+      "swing": 1.21,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 417,
+          "pct": 34.32
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 382,
+          "pct": 31.44
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 145,
+          "pct": 11.93
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 92,
+          "pct": 7.57
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 63,
+          "pct": 5.19
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 54,
+          "pct": 4.44
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 34,
+          "pct": 2.8
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 1.32
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 12,
+          "pct": 0.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 617,
+          "elected": true,
+          "pct": 50.78
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 598,
+          "elected": false,
+          "pct": 49.22
+        }
+      ]
+    },
+    {
+      "boothId": 3284,
+      "name": "Gisborne",
+      "formal": 1202,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 57.24,
+      "swing": 4.75,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 435,
+          "pct": 36.19
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 360,
+          "pct": 29.95
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 185,
+          "pct": 15.39
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 5.74
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 55,
+          "pct": 4.58
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 45,
+          "pct": 3.74
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 2.08
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 17,
+          "pct": 1.41
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 11,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 688,
+          "elected": true,
+          "pct": 57.24
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 514,
+          "elected": false,
+          "pct": 42.76
+        }
+      ]
+    },
+    {
+      "boothId": 82920,
+      "name": "Doreen East",
+      "formal": 1070,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 64.11,
+      "swing": 10.13,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 514,
+          "pct": 48.04
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 258,
+          "pct": 24.11
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 129,
+          "pct": 12.06
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 4.3
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 3.83
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.99
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 2.34
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 18,
+          "pct": 1.68
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 7,
+          "pct": 0.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 686,
+          "elected": true,
+          "pct": 64.11
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 384,
+          "elected": false,
+          "pct": 35.89
+        }
+      ]
+    },
+    {
+      "boothId": 4334,
+      "name": "Woodstock",
+      "formal": 1050,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 60.1,
+      "swing": 2.02,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 480,
+          "pct": 45.71
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 336,
+          "pct": 32.0
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 115,
+          "pct": 10.95
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 2.95
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 2.86
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.29
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.71
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 9,
+          "pct": 0.86
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 631,
+          "elected": true,
+          "pct": 60.1
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 419,
+          "elected": false,
+          "pct": 39.9
+        }
+      ]
+    },
+    {
+      "boothId": 4353,
+      "name": "Plenty",
+      "formal": 984,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 57.42,
+      "swing": -6.61,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 479,
+          "pct": 48.68
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 308,
+          "pct": 31.3
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 72,
+          "pct": 7.32
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 5.08
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.03
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.93
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 16,
+          "pct": 1.63
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 1.32
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 7,
+          "pct": 0.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 419,
+          "elected": true,
+          "pct": 42.58
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 565,
+          "elected": false,
+          "pct": 57.42
+        }
+      ]
+    },
+    {
+      "boothId": 3381,
+      "name": "Diamond Creek East",
+      "formal": 947,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 54.7,
+      "swing": -0.04,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 352,
+          "pct": 37.17
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 327,
+          "pct": 34.53
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 125,
+          "pct": 13.2
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 4.96
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.64
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.53
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 22,
+          "pct": 2.32
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 1.8
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 518,
+          "elected": true,
+          "pct": 54.7
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 429,
+          "elected": false,
+          "pct": 45.3
+        }
+      ]
+    },
+    {
+      "boothId": 82935,
+      "name": "Woodend East",
+      "formal": 918,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 73.09,
+      "swing": 6.5,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 335,
+          "pct": 36.49
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 266,
+          "pct": 28.98
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 176,
+          "pct": 19.17
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 33,
+          "pct": 3.59
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 3.27
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.61
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.96
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 1.96
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 18,
+          "pct": 1.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 671,
+          "elected": true,
+          "pct": 73.09
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 247,
+          "elected": false,
+          "pct": 26.91
+        }
+      ]
+    },
+    {
+      "boothId": 3411,
+      "name": "Yarrambat",
+      "formal": 907,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 57.77,
+      "swing": 0.39,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 435,
+          "pct": 47.96
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 273,
+          "pct": 30.1
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 8.16
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 4.52
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 29,
+          "pct": 3.2
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 27,
+          "pct": 2.98
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 1.98
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 0.77
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 3,
+          "pct": 0.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 383,
+          "elected": true,
+          "pct": 42.23
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 524,
+          "elected": false,
+          "pct": 57.77
+        }
+      ]
+    },
+    {
+      "boothId": 3317,
+      "name": "New Gisborne",
+      "formal": 882,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 55.67,
+      "swing": 4.3,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 321,
+          "pct": 36.39
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 290,
+          "pct": 32.88
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 119,
+          "pct": 13.49
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 6.24
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 34,
+          "pct": 3.85
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.51
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 17,
+          "pct": 1.93
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 0.91
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 491,
+          "elected": true,
+          "pct": 55.67
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 391,
+          "elected": false,
+          "pct": 44.33
+        }
+      ]
+    },
+    {
+      "boothId": 11529,
+      "name": "Wattle Glen",
+      "formal": 861,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 63.53,
+      "swing": 6.41,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 331,
+          "pct": 38.44
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 247,
+          "pct": 28.69
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 161,
+          "pct": 18.7
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 42,
+          "pct": 4.88
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 3.95
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.67
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 9,
+          "pct": 1.05
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 0.93
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 6,
+          "pct": 0.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 547,
+          "elected": true,
+          "pct": 63.53
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 314,
+          "elected": false,
+          "pct": 36.47
+        }
+      ]
+    },
+    {
+      "boothId": 109762,
+      "name": "Laurimar East",
+      "formal": 850,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 53.41,
+      "swing": 4.64,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 350,
+          "pct": 41.18
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 281,
+          "pct": 33.06
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 8.24
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 4.47
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 35,
+          "pct": 4.12
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 35,
+          "pct": 4.12
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 2.0
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 14,
+          "pct": 1.65
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 1.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 396,
+          "elected": true,
+          "pct": 46.59
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 454,
+          "elected": false,
+          "pct": 53.41
+        }
+      ]
+    },
+    {
+      "boothId": 47803,
+      "name": "Gisborne South",
+      "formal": 766,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 59.01,
+      "swing": 8.79,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 299,
+          "pct": 39.03
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 212,
+          "pct": 27.68
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 104,
+          "pct": 13.58
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 6.14
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 35,
+          "pct": 4.57
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 34,
+          "pct": 4.44
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 17,
+          "pct": 2.22
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 1.31
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 1.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 452,
+          "elected": true,
+          "pct": 59.01
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 314,
+          "elected": false,
+          "pct": 40.99
+        }
+      ]
+    },
+    {
+      "boothId": 109570,
+      "name": "Diamond Creek West",
+      "formal": 762,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 61.42,
+      "swing": 6.19,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 306,
+          "pct": 40.16
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 225,
+          "pct": 29.53
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 120,
+          "pct": 15.75
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 33,
+          "pct": 4.33
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 3.02
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.76
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 1.84
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 1.31
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 1.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 468,
+          "elected": true,
+          "pct": 61.42
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 294,
+          "elected": false,
+          "pct": 38.58
+        }
+      ]
+    },
+    {
+      "boothId": 3302,
+      "name": "Macedon",
+      "formal": 738,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 65.58,
+      "swing": 3.8,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 302,
+          "pct": 40.92
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 166,
+          "pct": 22.49
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 138,
+          "pct": 18.7
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 38,
+          "pct": 5.15
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 4.88
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 23,
+          "pct": 3.12
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 15,
+          "pct": 2.03
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 1.76
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 7,
+          "pct": 0.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 484,
+          "elected": true,
+          "pct": 65.58
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 254,
+          "elected": false,
+          "pct": 34.42
+        }
+      ]
+    },
+    {
+      "boothId": 83308,
+      "name": "Whittlesea Central",
+      "formal": 735,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 55.37,
+      "swing": 1.93,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 275,
+          "pct": 37.41
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 206,
+          "pct": 28.03
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 9.52
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 8.71
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 45,
+          "pct": 6.12
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 43,
+          "pct": 5.85
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 3.27
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 8,
+          "pct": 1.09
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 407,
+          "elected": true,
+          "pct": 55.37
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 328,
+          "elected": false,
+          "pct": 44.63
+        }
+      ]
+    },
+    {
+      "boothId": 4370,
+      "name": "Wallan Central",
+      "formal": 721,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 52.43,
+      "swing": 10.95,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 259,
+          "pct": 35.92
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 225,
+          "pct": 31.21
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 10.54
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 65,
+          "pct": 9.02
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 37,
+          "pct": 5.13
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 27,
+          "pct": 3.74
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 2.77
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 0.97
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 5,
+          "pct": 0.69
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 343,
+          "elected": true,
+          "pct": 47.57
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 378,
+          "elected": false,
+          "pct": 52.43
+        }
+      ]
+    },
+    {
+      "boothId": 83314,
+      "name": "Laurimar Central",
+      "formal": 707,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 54.74,
+      "swing": 9.71,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 256,
+          "pct": 36.21
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 234,
+          "pct": 33.1
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 73,
+          "pct": 10.33
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 39,
+          "pct": 5.52
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 5.37
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 30,
+          "pct": 4.24
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 2.97
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 14,
+          "pct": 1.98
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 2,
+          "pct": 0.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 387,
+          "elected": true,
+          "pct": 54.74
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 320,
+          "elected": false,
+          "pct": 45.26
+        }
+      ]
+    },
+    {
+      "boothId": 4309,
+      "name": "Arthurs Creek",
+      "formal": 656,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 51.22,
+      "swing": 3.83,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 241,
+          "pct": 36.74
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 224,
+          "pct": 34.15
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 66,
+          "pct": 10.06
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 35,
+          "pct": 5.34
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 5.18
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 3.66
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 2.44
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 13,
+          "pct": 1.98
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 3,
+          "pct": 0.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 336,
+          "elected": true,
+          "pct": 51.22
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 320,
+          "elected": false,
+          "pct": 48.78
+        }
+      ]
+    },
+    {
+      "boothId": 82923,
+      "name": "Mernda Park (McEwen)",
+      "formal": 643,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 56.92,
+      "swing": -9.45,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 259,
+          "pct": 40.28
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 180,
+          "pct": 27.99
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 73,
+          "pct": 11.35
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 45,
+          "pct": 7.0
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 4.67
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 25,
+          "pct": 3.89
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.8
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 1.09
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 6,
+          "pct": 0.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 366,
+          "elected": true,
+          "pct": 56.92
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 277,
+          "elected": false,
+          "pct": 43.08
+        }
+      ]
+    },
+    {
+      "boothId": 105087,
+      "name": "St Helena (McEwen)",
+      "formal": 602,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 53.99,
+      "swing": 3.7,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 226,
+          "pct": 37.54
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 223,
+          "pct": 37.04
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 11.3
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.16
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 17,
+          "pct": 2.82
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.66
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 2.66
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 2.49
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 2,
+          "pct": 0.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 325,
+          "elected": true,
+          "pct": 53.99
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 277,
+          "elected": false,
+          "pct": 46.01
+        }
+      ]
+    },
+    {
+      "boothId": 4372,
+      "name": "Wandong",
+      "formal": 558,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 51.61,
+      "swing": -1.99,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 187,
+          "pct": 33.51
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 164,
+          "pct": 29.39
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 15.05
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 44,
+          "pct": 7.89
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 32,
+          "pct": 5.73
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 21,
+          "pct": 3.76
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 2.69
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 1.25
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 4,
+          "pct": 0.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 270,
+          "elected": true,
+          "pct": 48.39
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 288,
+          "elected": false,
+          "pct": 51.61
+        }
+      ]
+    },
+    {
+      "boothId": 3313,
+      "name": "Mount Macedon",
+      "formal": 463,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 61.34,
+      "swing": 4.76,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 189,
+          "pct": 40.82
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 145,
+          "pct": 31.32
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 67,
+          "pct": 14.47
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 21,
+          "pct": 4.54
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 4.54
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 8,
+          "pct": 1.73
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.08
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 4,
+          "pct": 0.86
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 0.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 284,
+          "elected": true,
+          "pct": 61.34
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 179,
+          "elected": false,
+          "pct": 38.66
+        }
+      ]
+    },
+    {
+      "boothId": 4377,
+      "name": "Yan Yean",
+      "formal": 452,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 51.11,
+      "swing": 0.73,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 165,
+          "pct": 36.5
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 163,
+          "pct": 36.06
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 44,
+          "pct": 9.73
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 5.09
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 21,
+          "pct": 4.65
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 3.32
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.65
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 1.55
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 2,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 231,
+          "elected": true,
+          "pct": 51.11
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 221,
+          "elected": false,
+          "pct": 48.89
+        }
+      ]
+    },
+    {
+      "boothId": 3395,
+      "name": "Panton Hill",
+      "formal": 426,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 52.11,
+      "swing": 0.21,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 159,
+          "pct": 37.32
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 135,
+          "pct": 31.69
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 15.96
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 3.76
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 3.52
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.58
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 10,
+          "pct": 2.35
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.41
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 6,
+          "pct": 1.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 222,
+          "elected": true,
+          "pct": 52.11
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 204,
+          "elected": false,
+          "pct": 47.89
+        }
+      ]
+    },
+    {
+      "boothId": 3318,
+      "name": "Newham",
+      "formal": 407,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 53.07,
+      "swing": 1.29,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 129,
+          "pct": 31.7
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 124,
+          "pct": 30.47
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 77,
+          "pct": 18.92
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 6.88
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 18,
+          "pct": 4.42
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 3.19
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 7,
+          "pct": 1.72
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.47
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 5,
+          "pct": 1.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 216,
+          "elected": true,
+          "pct": 53.07
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 191,
+          "elected": false,
+          "pct": 46.93
+        }
+      ]
+    },
+    {
+      "boothId": 3260,
+      "name": "Bolinda",
+      "formal": 347,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 52.74,
+      "swing": -7.55,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 131,
+          "pct": 37.75
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 121,
+          "pct": 34.87
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 8.65
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "pct": 8.36
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 18,
+          "pct": 5.19
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.02
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 5,
+          "pct": 1.44
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 4,
+          "pct": 1.15
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 164,
+          "elected": true,
+          "pct": 47.26
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 183,
+          "elected": false,
+          "pct": 52.74
+        }
+      ]
+    },
+    {
+      "boothId": 120977,
+      "name": "St Andrews (McEwen)",
+      "formal": 273,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 60.81,
+      "swing": -5.33,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "pct": 29.3
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 61,
+          "pct": 22.34
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 59,
+          "pct": 21.61
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 9.16
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 6.23
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 15,
+          "pct": 5.49
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 2.2
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 6,
+          "pct": 2.2
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 4,
+          "pct": 1.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "elected": true,
+          "pct": 60.81
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 107,
+          "elected": false,
+          "pct": 39.19
+        }
+      ]
+    },
+    {
+      "boothId": 4317,
+      "name": "Darraweit Guim",
+      "formal": 235,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 50.21,
+      "swing": 3.02,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 81,
+          "pct": 34.47
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 78,
+          "pct": 33.19
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 11.06
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 20,
+          "pct": 8.51
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 4.68
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.98
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 6,
+          "pct": 2.55
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.7
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 2,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 117,
+          "elected": true,
+          "pct": 49.79
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 118,
+          "elected": false,
+          "pct": 50.21
+        }
+      ]
+    },
+    {
+      "boothId": 3263,
+      "name": "Bullengarook",
+      "formal": 213,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 54.46,
+      "swing": 5.35,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 75,
+          "pct": 35.21
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 53,
+          "pct": 24.88
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 28,
+          "pct": 13.15
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 9.86
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 15,
+          "pct": 7.04
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 5.16
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 6,
+          "pct": 2.82
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.94
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 2,
+          "pct": 0.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "elected": true,
+          "pct": 45.54
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 116,
+          "elected": false,
+          "pct": 54.46
+        }
+      ]
+    },
+    {
+      "boothId": 11891,
+      "name": "Clonbinane",
+      "formal": 145,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 57.93,
+      "swing": 6.21,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 52,
+          "pct": 35.86
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 33,
+          "pct": 22.76
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 14.48
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 8.97
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 8.28
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 6,
+          "pct": 4.14
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 6,
+          "pct": 4.14
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 2,
+          "pct": 1.38
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 84,
+          "elected": true,
+          "pct": 57.93
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 61,
+          "elected": false,
+          "pct": 42.07
+        }
+      ]
+    },
+    {
+      "boothId": 109128,
+      "name": "Special Hospital Team 2",
+      "formal": 110,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 51.82,
+      "swing": 0.25,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 52,
+          "pct": 47.27
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 44,
+          "pct": 40.0
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 8,
+          "pct": 7.27
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 2.73
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.82
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 0.91
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 57,
+          "elected": true,
+          "pct": 51.82
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 53,
+          "elected": false,
+          "pct": 48.18
+        }
+      ]
+    },
+    {
+      "boothId": 109129,
+      "name": "Special Hospital Team 1",
+      "formal": 63,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 58.73,
+      "swing": 7.05,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 33,
+          "pct": 52.38
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 21,
+          "pct": 33.33
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 9.52
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.59
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.59
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 1.59
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 37,
+          "elected": true,
+          "pct": 58.73
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 26,
+          "elected": false,
+          "pct": 41.27
+        }
+      ]
+    },
+    {
+      "boothId": 64156,
+      "name": "Kangaroo Ground (McEwen)",
+      "formal": 60,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 53.33,
+      "swing": -10.73,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 22,
+          "pct": 36.67
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 22,
+          "pct": 36.67
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 15.0
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 5.0
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.67
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.67
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 1.67
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 1,
+          "pct": 1.67
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 32,
+          "elected": true,
+          "pct": 53.33
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 28,
+          "elected": false,
+          "pct": 46.67
+        }
+      ]
+    },
+    {
+      "boothId": 109614,
+      "name": "Wollert South (McEwen)",
+      "formal": 47,
+      "winnerParty": "alp",
+      "winnerSurname": "MITCHELL",
+      "winnerPct": 68.09,
+      "swing": 12.62,
+      "candidates": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 22,
+          "pct": 46.81
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 12,
+          "pct": 25.53
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 12.77
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 4.26
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 4.26
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 1,
+          "pct": 2.13
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 1,
+          "pct": 2.13
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 1,
+          "pct": 2.13
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 32,
+          "elected": true,
+          "pct": 68.09
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 15,
+          "elected": false,
+          "pct": 31.91
+        }
+      ]
+    },
+    {
+      "boothId": 65428,
+      "name": "EAV McEwen PPVC",
+      "formal": 9,
+      "winnerParty": "lib",
+      "winnerSurname": "McCLINTOCK",
+      "winnerPct": 66.67,
+      "swing": 16.67,
+      "candidates": [
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5,
+          "pct": 55.56
+        },
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "pct": 33.33
+        },
+        {
+          "surname": "VALENCIA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 11.11
+        },
+        {
+          "surname": "ANTONIOU",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "FORREST",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "McRAE McLEOD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "NICOLOSI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "JOHNSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "McGRATH",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MITCHELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "elected": true,
+          "pct": 33.33
+        },
+        {
+          "surname": "McCLINTOCK",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6,
+          "elected": false,
+          "pct": 66.67
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 104616,
+    "candidates": [
+      {
+        "id": "C40985",
+        "party": "oth",
+        "displayShort": "GRPF",
+        "displayLong": "GRPF \u2014 Antoniou"
+      },
+      {
+        "id": "C41237",
+        "party": "oth",
+        "displayShort": "HMP",
+        "displayLong": "HMP \u2014 Forrest"
+      },
+      {
+        "id": "C41591",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Valencia"
+      },
+      {
+        "id": "C41120",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Mcrae Mcleod"
+      },
+      {
+        "id": "C41318",
+        "party": "ajp",
+        "displayShort": "AJP",
+        "displayLong": "AJP \u2014 Nicolosi"
+      },
+      {
+        "id": "C41614",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Johnson"
+      },
+      {
+        "id": "C40804",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Mcclintock"
+      },
+      {
+        "id": "C41767",
+        "party": "fus",
+        "displayShort": "FUS",
+        "displayLong": "FUS \u2014 Mcgrath"
+      },
+      {
+        "id": "C40812",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Mitchell"
+      }
+    ],
+    "rounds": [
+      {
+        "C40985": 3538,
+        "C41237": 4057,
+        "C41591": 2499,
+        "C41120": 11611,
+        "C41318": 2100,
+        "C41614": 6869,
+        "C40804": 34023,
+        "C41767": 840,
+        "C40812": 39079
+      },
+      {
+        "C40985": 3591,
+        "C41237": 4175,
+        "C41591": 2547,
+        "C41120": 11821,
+        "C41318": 2277,
+        "C41614": 6909,
+        "C40804": 34073,
+        "C40812": 39223
+      },
+      {
+        "C40985": 3712,
+        "C41237": 4761,
+        "C41591": 2825,
+        "C41120": 12455,
+        "C41614": 7109,
+        "C40804": 34211,
+        "C40812": 39543
+      },
+      {
+        "C40985": 4321,
+        "C41237": 5142,
+        "C41120": 12782,
+        "C41614": 7668,
+        "C40804": 34857,
+        "C40812": 39846
+      },
+      {
+        "C41237": 6178,
+        "C41120": 13153,
+        "C41614": 9880,
+        "C40804": 35219,
+        "C40812": 40186
+      },
+      {
+        "C41120": 15920,
+        "C41614": 11349,
+        "C40804": 35911,
+        "C40812": 41436
+      },
+      {
+        "C41120": 18242,
+        "C40804": 42874,
+        "C40812": 43500
+      },
+      {
+        "C40804": 47328,
+        "C40812": 57288
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            50.02,
+            44.68,
+            49.85,
+            42.15,
+            44.98,
+            46.72,
+            45.24
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            49.98,
+            55.32,
+            50.15,
+            57.85,
+            55.02,
+            53.28,
+            54.76
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "GRN": 8.68,
+            "ALP": 40.2,
+            "LIB": 45.77,
+            "FFP": 2.49,
+            "OTH": 2.86
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "ALP": 43.17,
+            "FFP": 3.19,
+            "LIB": 40.01,
+            "GRN": 11.84,
+            "OTH": 1.79
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "LIB": 40.34,
+            "ALP": 37.62,
+            "ASXP": 3.22,
+            "FFP": 2.87,
+            "TOP": 6.74,
+            "GRN": 7.1,
+            "OTH": 2.12
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "AJP": 2.65,
+            "FFP": 3.27,
+            "IND": 2.66,
+            "LIB": 33.7,
+            "GRN": 7.58,
+            "NAT": 2.36,
+            "ALP": 44.69,
+            "OTH": 3.08
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "AJP": 3.01,
+            "LIB": 34.5,
+            "ON": 5.92,
+            "ALP": 39.44,
+            "HJP": 4.03,
+            "GRN": 8.35,
+            "TOP": 3.14,
+            "OTH": 1.61
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "ALP": 36.81,
+            "TOP": 5.72,
+            "GRN": 14.13,
+            "ON": 5.63,
+            "LIB": 33.22,
+            "LDP": 2.69,
+            "OTH": 1.8
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "FFP": 2.39,
+            "ON": 6.57,
+            "HMP": 3.88,
+            "GRPF": 3.38,
+            "ALP": 37.35,
+            "LIB": 32.52,
+            "GRN": 11.1,
+            "AJP": 2.01,
+            "OTH": 0.8
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 159894,
+    "medianAge": 36,
+    "medianHouseholdIncomeWeekly": 2094,
+    "medianRentWeekly": 381,
+    "averageHouseholdSize": 2.9,
+    "bornOverseasPct": 19.9,
+    "indigenousPct": 1.2,
+    "bachelorPlusPct": 37.0,
+    "renterPct": 16.4,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 122561,
+        "pct": 80.11,
+        "natPct": 70.73
+      },
+      {
+        "label": "India",
+        "count": 3161,
+        "pct": 2.07,
+        "natPct": 1.51
+      },
+      {
+        "label": "England",
+        "count": 2448,
+        "pct": 1.6,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 1048,
+        "pct": 0.69,
+        "natPct": 1.11
+      },
+      {
+        "label": "Italy",
+        "count": 653,
+        "pct": 0.43,
+        "natPct": 0.35
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 69123,
+        "pct": 43.23,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 66706,
+        "pct": 41.72,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 9329,
+        "pct": 5.83,
+        "natPct": 7.27
+      },
+      {
+        "label": "Hinduism",
+        "count": 4459,
+        "pct": 2.79,
+        "natPct": 2.69
+      },
+      {
+        "label": "Other religions",
+        "count": 4082,
+        "pct": 2.55,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of McEwen is an Australian Electoral Division in the state of Victoria. The electorate is located in the centre of the state, north of its capital city Melbourne. Classed as a rural seat, it includes the towns of Gisborne, Macedon, Whittlesea, and Wallan, though it also includes the newly developed Melbourne suburbs of Mernda, Doreen and Donnybrook.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_McEwen",
+    "retrievedAt": "2026-03-26T08:00:46Z"
+  }
+}

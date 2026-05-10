@@ -1,0 +1,4633 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "MONCRIEFF",
+    "divisionId": 172,
+    "name": "Moncrieff",
+    "state": "QLD",
+    "totalFormal": 100326,
+    "informalVotes": 6251,
+    "informalRate": 7.6,
+    "winner": {
+      "candidateId": "C41174",
+      "surname": "BELL",
+      "givenName": "Angie",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "LNP",
+    "tcpMargin": 17.6,
+    "result": "LNP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41174",
+      "surname": "BELL",
+      "givenName": "Angie",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 31732,
+      "pct": 41.75
+    },
+    {
+      "candidateId": "C40791",
+      "surname": "STUART",
+      "givenName": "Blair",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 18525,
+      "pct": 24.38
+    },
+    {
+      "candidateId": "C41278",
+      "surname": "SPAIN",
+      "givenName": "Sally",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 7113,
+      "pct": 9.36
+    },
+    {
+      "candidateId": "C40697",
+      "surname": "ARROWSMITH",
+      "givenName": "Nicole",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 6212,
+      "pct": 8.17
+    },
+    {
+      "candidateId": "C40947",
+      "surname": "WADSWORTH",
+      "givenName": "Glen",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 4197,
+      "pct": 5.52
+    },
+    {
+      "candidateId": "C41368",
+      "surname": "NAICKER",
+      "givenName": "Vic",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 3066,
+      "pct": 4.03
+    },
+    {
+      "candidateId": "C40967",
+      "surname": "SZORKOVSZKY",
+      "givenName": "Natasha Anne",
+      "party": "oth",
+      "partyAb": "GRPF",
+      "votes": 2786,
+      "pct": 3.67
+    },
+    {
+      "candidateId": "C40908",
+      "surname": "FEA",
+      "givenName": "Ruth",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 1211,
+      "pct": 1.59
+    },
+    {
+      "candidateId": "C41459",
+      "surname": "WELD ALI",
+      "givenName": "Waddah",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 1158,
+      "pct": 1.52
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41174",
+      "surname": "BELL",
+      "givenName": "Angie",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 58991,
+      "pct": 58.8,
+      "elected": true
+    },
+    {
+      "candidateId": "C40791",
+      "surname": "STUART",
+      "givenName": "Blair",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 41335,
+      "pct": 41.2,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 32562,
+      "name": "Southport MONCRIEFF PPVC",
+      "formal": 13389,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 58.9,
+      "swing": -2.64,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5999,
+          "pct": 44.81
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3405,
+          "pct": 25.43
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1208,
+          "pct": 9.02
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1046,
+          "pct": 7.81
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 515,
+          "pct": 3.85
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 455,
+          "pct": 3.4
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 400,
+          "pct": 2.99
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 211,
+          "pct": 1.58
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 150,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7886,
+          "elected": true,
+          "pct": 58.9
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5503,
+          "elected": false,
+          "pct": 41.1
+        }
+      ]
+    },
+    {
+      "boothId": 83238,
+      "name": "Carrara MONCRIEFF PPVC",
+      "formal": 13101,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 60.53,
+      "swing": -1.53,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5697,
+          "pct": 43.49
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3253,
+          "pct": 24.83
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 969,
+          "pct": 7.4
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 898,
+          "pct": 6.85
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 817,
+          "pct": 6.24
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 551,
+          "pct": 4.21
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 507,
+          "pct": 3.87
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 227,
+          "pct": 1.73
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 182,
+          "pct": 1.39
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7930,
+          "elected": true,
+          "pct": 60.53
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5171,
+          "elected": false,
+          "pct": 39.47
+        }
+      ]
+    },
+    {
+      "boothId": 32573,
+      "name": "Broadbeach Waters MONCRIEFF PPVC",
+      "formal": 9371,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 65.49,
+      "swing": -2.29,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4793,
+          "pct": 51.15
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1922,
+          "pct": 20.51
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 775,
+          "pct": 8.27
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 674,
+          "pct": 7.19
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 366,
+          "pct": 3.91
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 298,
+          "pct": 3.18
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 287,
+          "pct": 3.06
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 153,
+          "pct": 1.63
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 103,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6137,
+          "elected": true,
+          "pct": 65.49
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3234,
+          "elected": false,
+          "pct": 34.51
+        }
+      ]
+    },
+    {
+      "boothId": 32563,
+      "name": "Surfers Paradise PPVC",
+      "formal": 4986,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 62.41,
+      "swing": -2.52,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 2314,
+          "pct": 46.41
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1288,
+          "pct": 25.83
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 322,
+          "pct": 6.46
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 299,
+          "pct": 6.0
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 283,
+          "pct": 5.68
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 215,
+          "pct": 4.31
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 163,
+          "pct": 3.27
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 56,
+          "pct": 1.12
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 46,
+          "pct": 0.92
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 3112,
+          "elected": true,
+          "pct": 62.41
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1874,
+          "elected": false,
+          "pct": 37.59
+        }
+      ]
+    },
+    {
+      "boothId": 58698,
+      "name": "Burleigh Heads MONCRIEFF PPVC",
+      "formal": 2329,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 56.29,
+      "swing": -3.83,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 940,
+          "pct": 40.36
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 605,
+          "pct": 25.98
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 241,
+          "pct": 10.35
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 229,
+          "pct": 9.83
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 119,
+          "pct": 5.11
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 81,
+          "pct": 3.48
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 71,
+          "pct": 3.05
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 0.99
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1311,
+          "elected": true,
+          "pct": 56.29
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1018,
+          "elected": false,
+          "pct": 43.71
+        }
+      ]
+    },
+    {
+      "boothId": 6092,
+      "name": "Nerang South",
+      "formal": 2052,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 50.54,
+      "swing": -2.15,
+      "candidates": [
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 632,
+          "pct": 30.8
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 603,
+          "pct": 29.39
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 216,
+          "pct": 10.53
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 184,
+          "pct": 8.97
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 147,
+          "pct": 7.16
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 103,
+          "pct": 5.02
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 80,
+          "pct": 3.9
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 54,
+          "pct": 2.63
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 1.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1037,
+          "elected": true,
+          "pct": 50.54
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1015,
+          "elected": false,
+          "pct": 49.46
+        }
+      ]
+    },
+    {
+      "boothId": 32516,
+      "name": "Nerang West (Moncrieff)",
+      "formal": 2034,
+      "winnerParty": "alp",
+      "winnerSurname": "STUART",
+      "winnerPct": 51.43,
+      "swing": 3.34,
+      "candidates": [
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 574,
+          "pct": 28.22
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 551,
+          "pct": 27.09
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 288,
+          "pct": 14.16
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 185,
+          "pct": 9.1
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 176,
+          "pct": 8.65
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 106,
+          "pct": 5.21
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 85,
+          "pct": 4.18
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 2.36
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 1.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 988,
+          "elected": true,
+          "pct": 48.57
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1046,
+          "elected": false,
+          "pct": 51.43
+        }
+      ]
+    },
+    {
+      "boothId": 6254,
+      "name": "Ashmore",
+      "formal": 1985,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 57.33,
+      "swing": 0.31,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 718,
+          "pct": 36.17
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 474,
+          "pct": 23.88
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 210,
+          "pct": 10.58
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 159,
+          "pct": 8.01
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 144,
+          "pct": 7.25
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 117,
+          "pct": 5.89
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 89,
+          "pct": 4.48
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 38,
+          "pct": 1.91
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 1.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1138,
+          "elected": true,
+          "pct": 57.33
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 847,
+          "elected": false,
+          "pct": 42.67
+        }
+      ]
+    },
+    {
+      "boothId": 6258,
+      "name": "Benowa",
+      "formal": 1797,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 60.04,
+      "swing": -6.34,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 749,
+          "pct": 41.68
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 433,
+          "pct": 24.1
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 153,
+          "pct": 8.51
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 148,
+          "pct": 8.24
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 95,
+          "pct": 5.29
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 85,
+          "pct": 4.73
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 64,
+          "pct": 3.56
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 2.0
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 1.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1079,
+          "elected": true,
+          "pct": 60.04
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 718,
+          "elected": false,
+          "pct": 39.96
+        }
+      ]
+    },
+    {
+      "boothId": 12061,
+      "name": "Broadbeach",
+      "formal": 1472,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 55.43,
+      "swing": -2.51,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 557,
+          "pct": 37.84
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 386,
+          "pct": 26.22
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 151,
+          "pct": 10.26
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 138,
+          "pct": 9.38
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 71,
+          "pct": 4.82
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 66,
+          "pct": 4.48
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 65,
+          "pct": 4.42
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 1.49
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 816,
+          "elected": true,
+          "pct": 55.43
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 656,
+          "elected": false,
+          "pct": 44.57
+        }
+      ]
+    },
+    {
+      "boothId": 32500,
+      "name": "Carrara",
+      "formal": 1461,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 57.08,
+      "swing": -7.09,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 576,
+          "pct": 39.43
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 363,
+          "pct": 24.85
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 130,
+          "pct": 8.9
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 117,
+          "pct": 8.01
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 78,
+          "pct": 5.34
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 78,
+          "pct": 5.34
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 56,
+          "pct": 3.83
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.19
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 2.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 834,
+          "elected": true,
+          "pct": 57.08
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 627,
+          "elected": false,
+          "pct": 42.92
+        }
+      ]
+    },
+    {
+      "boothId": 6085,
+      "name": "Miami West (Moncrieff)",
+      "formal": 1445,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 55.71,
+      "swing": -0.31,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 549,
+          "pct": 37.99
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 320,
+          "pct": 22.15
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 192,
+          "pct": 13.29
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 192,
+          "pct": 13.29
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 56,
+          "pct": 3.88
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 56,
+          "pct": 3.88
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.25
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.18
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 805,
+          "elected": true,
+          "pct": 55.71
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 640,
+          "elected": false,
+          "pct": 44.29
+        }
+      ]
+    },
+    {
+      "boothId": 6080,
+      "name": "Isle Of Capri",
+      "formal": 1419,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 68.22,
+      "swing": 1.42,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 684,
+          "pct": 48.2
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 238,
+          "pct": 16.77
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 129,
+          "pct": 9.09
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 107,
+          "pct": 7.54
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 95,
+          "pct": 6.69
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 74,
+          "pct": 5.21
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 3.74
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 1.55
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 968,
+          "elected": true,
+          "pct": 68.22
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 451,
+          "elected": false,
+          "pct": 31.78
+        }
+      ]
+    },
+    {
+      "boothId": 6279,
+      "name": "Southport North (Moncrieff)",
+      "formal": 1347,
+      "winnerParty": "alp",
+      "winnerSurname": "STUART",
+      "winnerPct": 56.87,
+      "swing": 0.81,
+      "candidates": [
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 376,
+          "pct": 27.91
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 289,
+          "pct": 21.46
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 268,
+          "pct": 19.9
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 105,
+          "pct": 7.8
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 5.72
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 68,
+          "pct": 5.05
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 62,
+          "pct": 4.6
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 54,
+          "pct": 4.01
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 3.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 581,
+          "elected": true,
+          "pct": 43.13
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 766,
+          "elected": false,
+          "pct": 56.87
+        }
+      ]
+    },
+    {
+      "boothId": 83214,
+      "name": "Bellevue Park",
+      "formal": 1328,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 53.84,
+      "swing": -3.85,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 487,
+          "pct": 36.67
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 323,
+          "pct": 24.32
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 153,
+          "pct": 11.52
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 133,
+          "pct": 10.02
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 5.42
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 3.99
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 48,
+          "pct": 3.61
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.48
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 1.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 715,
+          "elected": true,
+          "pct": 53.84
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 613,
+          "elected": false,
+          "pct": 46.16
+        }
+      ]
+    },
+    {
+      "boothId": 6087,
+      "name": "Merrimac East (Moncrieff)",
+      "formal": 1240,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 59.27,
+      "swing": -5.05,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 531,
+          "pct": 42.82
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 259,
+          "pct": 20.89
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 131,
+          "pct": 10.56
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 118,
+          "pct": 9.52
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 5.16
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 54,
+          "pct": 4.35
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.71
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 1.69
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 1.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 735,
+          "elected": true,
+          "pct": 59.27
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 505,
+          "elected": false,
+          "pct": 40.73
+        }
+      ]
+    },
+    {
+      "boothId": 6289,
+      "name": "Southport",
+      "formal": 1208,
+      "winnerParty": "alp",
+      "winnerSurname": "STUART",
+      "winnerPct": 51.99,
+      "swing": -0.18,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 353,
+          "pct": 29.22
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 334,
+          "pct": 27.65
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 188,
+          "pct": 15.56
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 120,
+          "pct": 9.93
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 5.05
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 56,
+          "pct": 4.64
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.56
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 2.81
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 1.57
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 580,
+          "elected": true,
+          "pct": 48.01
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 628,
+          "elected": false,
+          "pct": 51.99
+        }
+      ]
+    },
+    {
+      "boothId": 6083,
+      "name": "Mermaid Beach",
+      "formal": 1095,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 60.09,
+      "swing": -3.58,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 468,
+          "pct": 42.74
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 205,
+          "pct": 18.72
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 145,
+          "pct": 13.24
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 142,
+          "pct": 12.97
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 4.75
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 3.11
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.92
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 0.82
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 0.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 658,
+          "elected": true,
+          "pct": 60.09
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 437,
+          "elected": false,
+          "pct": 39.91
+        }
+      ]
+    },
+    {
+      "boothId": 6082,
+      "name": "Main Beach",
+      "formal": 996,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 71.89,
+      "swing": -0.53,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 562,
+          "pct": 56.43
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 149,
+          "pct": 14.96
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 81,
+          "pct": 8.13
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 64,
+          "pct": 6.43
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 5.02
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.61
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 32,
+          "pct": 3.21
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 1.61
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 0.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 716,
+          "elected": true,
+          "pct": 71.89
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 280,
+          "elected": false,
+          "pct": 28.11
+        }
+      ]
+    },
+    {
+      "boothId": 6089,
+      "name": "Broadbeach Waters",
+      "formal": 995,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 66.63,
+      "swing": 1.98,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 454,
+          "pct": 45.63
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "pct": 16.68
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 93,
+          "pct": 9.35
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 83,
+          "pct": 8.34
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 56,
+          "pct": 5.63
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 50,
+          "pct": 5.03
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 48,
+          "pct": 4.82
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 3.02
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 1.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 663,
+          "elected": true,
+          "pct": 66.63
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 332,
+          "elected": false,
+          "pct": 33.37
+        }
+      ]
+    },
+    {
+      "boothId": 6076,
+      "name": "Bundall",
+      "formal": 977,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 61.82,
+      "swing": -2.92,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 426,
+          "pct": 43.6
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 202,
+          "pct": 20.68
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 114,
+          "pct": 11.67
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 77,
+          "pct": 7.88
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 6.24
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 5.42
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.17
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 0.72
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 0.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 604,
+          "elected": true,
+          "pct": 61.82
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 373,
+          "elected": false,
+          "pct": 38.18
+        }
+      ]
+    },
+    {
+      "boothId": 97779,
+      "name": "Labrador MONCRIEFF PPVC",
+      "formal": 895,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 51.4,
+      "swing": -4.86,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 279,
+          "pct": 31.17
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 246,
+          "pct": 27.49
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 111,
+          "pct": 12.4
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 8.16
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 56,
+          "pct": 6.26
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 5.25
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 38,
+          "pct": 4.25
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 3.35
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 1.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 460,
+          "elected": true,
+          "pct": 51.4
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 435,
+          "elected": false,
+          "pct": 48.6
+        }
+      ]
+    },
+    {
+      "boothId": 65802,
+      "name": "Runaway Bay MONCRIEFF PPVC",
+      "formal": 860,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 60.58,
+      "swing": -2.0,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 360,
+          "pct": 41.86
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 230,
+          "pct": 26.74
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 74,
+          "pct": 8.6
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 71,
+          "pct": 8.26
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 4.42
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 3.26
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 28,
+          "pct": 3.26
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 1.98
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 521,
+          "elected": true,
+          "pct": 60.58
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 339,
+          "elected": false,
+          "pct": 39.42
+        }
+      ]
+    },
+    {
+      "boothId": 12028,
+      "name": "Worongary",
+      "formal": 847,
+      "winnerParty": "alp",
+      "winnerSurname": "STUART",
+      "winnerPct": 53.36,
+      "swing": 5.03,
+      "candidates": [
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 259,
+          "pct": 30.58
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 212,
+          "pct": 25.03
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 109,
+          "pct": 12.87
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 91,
+          "pct": 10.74
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 54,
+          "pct": 6.38
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 6.14
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 40,
+          "pct": 4.72
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 2.36
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 1.18
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 395,
+          "elected": true,
+          "pct": 46.64
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 452,
+          "elected": false,
+          "pct": 53.36
+        }
+      ]
+    },
+    {
+      "boothId": 58825,
+      "name": "Reedy Creek MONCRIEFF PPVC",
+      "formal": 839,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 54.47,
+      "swing": -4.05,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 294,
+          "pct": 35.04
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 202,
+          "pct": 24.08
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 123,
+          "pct": 14.66
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 58,
+          "pct": 6.91
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 6.08
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 36,
+          "pct": 4.29
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 3.81
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 3.58
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 1.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 457,
+          "elected": true,
+          "pct": 54.47
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 382,
+          "elected": false,
+          "pct": 45.53
+        }
+      ]
+    },
+    {
+      "boothId": 6292,
+      "name": "Southport Central",
+      "formal": 782,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 50.77,
+      "swing": 1.52,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 246,
+          "pct": 31.46
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 201,
+          "pct": 25.7
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 108,
+          "pct": 13.81
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 84,
+          "pct": 10.74
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 5.12
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 35,
+          "pct": 4.48
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 3.45
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 2.69
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 2.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 397,
+          "elected": true,
+          "pct": 50.77
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 385,
+          "elected": false,
+          "pct": 49.23
+        }
+      ]
+    },
+    {
+      "boothId": 97744,
+      "name": "Helensvale MONCRIEFF PPVC",
+      "formal": 691,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 52.97,
+      "swing": -2.17,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 240,
+          "pct": 34.73
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 203,
+          "pct": 29.38
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 11.0
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 7.81
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 6.08
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 3.91
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.76
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 2.03
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 366,
+          "elected": true,
+          "pct": 52.97
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 325,
+          "elected": false,
+          "pct": 47.03
+        }
+      ]
+    },
+    {
+      "boothId": 6099,
+      "name": "Surfers Paradise",
+      "formal": 645,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 53.8,
+      "swing": 1.34,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 190,
+          "pct": 29.46
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 169,
+          "pct": 26.2
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 96,
+          "pct": 14.88
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 6.67
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 6.05
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 5.89
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 36,
+          "pct": 5.58
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 3.1
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 347,
+          "elected": true,
+          "pct": 53.8
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 298,
+          "elected": false,
+          "pct": 46.2
+        }
+      ]
+    },
+    {
+      "boothId": 6088,
+      "name": "Miami",
+      "formal": 617,
+      "winnerParty": "alp",
+      "winnerSurname": "STUART",
+      "winnerPct": 50.08,
+      "swing": 4.32,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 207,
+          "pct": 33.55
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "pct": 22.53
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 110,
+          "pct": 17.83
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 95,
+          "pct": 15.4
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 4.21
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 22,
+          "pct": 3.57
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 1.62
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 0.81
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 0.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 308,
+          "elected": true,
+          "pct": 49.92
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 309,
+          "elected": false,
+          "pct": 50.08
+        }
+      ]
+    },
+    {
+      "boothId": 12062,
+      "name": "Merrimac (Moncrieff)",
+      "formal": 609,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 56.81,
+      "swing": -3.56,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 218,
+          "pct": 35.8
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "pct": 27.26
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 66,
+          "pct": 10.84
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 7.55
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 6.08
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 5.58
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 27,
+          "pct": 4.43
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.81
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 346,
+          "elected": true,
+          "pct": 56.81
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 263,
+          "elected": false,
+          "pct": 43.19
+        }
+      ]
+    },
+    {
+      "boothId": 6291,
+      "name": "Keebra Park",
+      "formal": 569,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 50.44,
+      "swing": -3.95,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 180,
+          "pct": 31.63
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 151,
+          "pct": 26.54
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 71,
+          "pct": 12.48
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 53,
+          "pct": 9.31
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 37,
+          "pct": 6.5
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 5.8
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 3.34
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 2.46
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 287,
+          "elected": true,
+          "pct": 50.44
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 282,
+          "elected": false,
+          "pct": 49.56
+        }
+      ]
+    },
+    {
+      "boothId": 97781,
+      "name": "Molendinar",
+      "formal": 542,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 51.48,
+      "swing": -2.55,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 156,
+          "pct": 28.78
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "pct": 25.65
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 13.65
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 51,
+          "pct": 9.41
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 8.49
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 6.64
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 22,
+          "pct": 4.06
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.58
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 279,
+          "elected": true,
+          "pct": 51.48
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 263,
+          "elected": false,
+          "pct": 48.52
+        }
+      ]
+    },
+    {
+      "boothId": 31728,
+      "name": "Nerang East",
+      "formal": 449,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 59.69,
+      "swing": -10.98,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 205,
+          "pct": 45.66
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 128,
+          "pct": 28.51
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 31,
+          "pct": 6.9
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 6.24
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 4.9
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.67
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.45
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 2.23
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 268,
+          "elected": true,
+          "pct": 59.69
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 181,
+          "elected": false,
+          "pct": 40.31
+        }
+      ]
+    },
+    {
+      "boothId": 109761,
+      "name": "Burleigh Waters (Moncrieff)",
+      "formal": 389,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 51.93,
+      "swing": 1.47,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 125,
+          "pct": 32.13
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 86,
+          "pct": 22.11
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 14.65
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 12.85
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 22,
+          "pct": 5.66
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 5.14
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 4.88
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 1.54
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 1.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 202,
+          "elected": true,
+          "pct": 51.93
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 187,
+          "elected": false,
+          "pct": 48.07
+        }
+      ]
+    },
+    {
+      "boothId": 12060,
+      "name": "Broadbeach Waters West",
+      "formal": 264,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 64.39,
+      "swing": -4.72,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 137,
+          "pct": 51.89
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 54,
+          "pct": 20.45
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 21,
+          "pct": 7.95
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 7.2
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 6.06
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 3.03
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.52
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.14
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 170,
+          "elected": true,
+          "pct": 64.39
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "elected": false,
+          "pct": 35.61
+        }
+      ]
+    },
+    {
+      "boothId": 97443,
+      "name": "Southport West",
+      "formal": 232,
+      "winnerParty": "alp",
+      "winnerSurname": "STUART",
+      "winnerPct": 51.29,
+      "swing": 5.94,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 76,
+          "pct": 32.76
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 70,
+          "pct": 30.17
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 39,
+          "pct": 16.81
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 6.03
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 4.74
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 3.88
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 7,
+          "pct": 3.02
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.72
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 113,
+          "elected": true,
+          "pct": 48.71
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 119,
+          "elected": false,
+          "pct": 51.29
+        }
+      ]
+    },
+    {
+      "boothId": 37797,
+      "name": "Burleigh Heads (Moncrieff)",
+      "formal": 189,
+      "winnerParty": "alp",
+      "winnerSurname": "STUART",
+      "winnerPct": 51.32,
+      "swing": 0.19,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 45,
+          "pct": 23.81
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 38,
+          "pct": 20.11
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 37,
+          "pct": 19.58
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 11.64
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 7.94
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 7.41
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 4.76
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 7,
+          "pct": 3.7
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 92,
+          "elected": true,
+          "pct": 48.68
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 97,
+          "elected": false,
+          "pct": 51.32
+        }
+      ]
+    },
+    {
+      "boothId": 83395,
+      "name": "Burleigh North (Moncrieff)",
+      "formal": 175,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 55.43,
+      "swing": -3.76,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 66,
+          "pct": 37.71
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "pct": 22.29
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 20,
+          "pct": 11.43
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 10.29
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 7.43
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 11,
+          "pct": 6.29
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.86
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.71
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 97,
+          "elected": true,
+          "pct": 55.43
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 78,
+          "elected": false,
+          "pct": 44.57
+        }
+      ]
+    },
+    {
+      "boothId": 108462,
+      "name": "Special Hospital Team 1",
+      "formal": 156,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 62.82,
+      "swing": -3.12,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 73,
+          "pct": 46.79
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 47,
+          "pct": 30.13
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 6.41
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 6.41
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 2.56
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.56
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.92
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.92
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 98,
+          "elected": true,
+          "pct": 62.82
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 58,
+          "elected": false,
+          "pct": 37.18
+        }
+      ]
+    },
+    {
+      "boothId": 109365,
+      "name": "Special Hospital Team 2",
+      "formal": 115,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 67.83,
+      "swing": 1.81,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 57,
+          "pct": 49.57
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 29,
+          "pct": 25.22
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 10.43
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 4.35
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 3.48
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 2.61
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.61
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.74
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 78,
+          "elected": true,
+          "pct": 67.83
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 37,
+          "elected": false,
+          "pct": 32.17
+        }
+      ]
+    },
+    {
+      "boothId": 109821,
+      "name": "Special Hospital Team 3",
+      "formal": 45,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 82.22,
+      "swing": 16.32,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 30,
+          "pct": 66.67
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "pct": 15.56
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 6.67
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 4.44
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 4.44
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 2.22
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 37,
+          "elected": true,
+          "pct": 82.22
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8,
+          "elected": false,
+          "pct": 17.78
+        }
+      ]
+    },
+    {
+      "boothId": 109822,
+      "name": "Special Hospital Team 4",
+      "formal": 38,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 73.68,
+      "swing": 7.78,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 24,
+          "pct": 63.16
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 15.79
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 7.89
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 5.26
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 2.63
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 1,
+          "pct": 2.63
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 2.63
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 28,
+          "elected": true,
+          "pct": 73.68
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10,
+          "elected": false,
+          "pct": 26.32
+        }
+      ]
+    },
+    {
+      "boothId": 65489,
+      "name": "EAV Moncrieff PPVC",
+      "formal": 25,
+      "winnerParty": "lnp",
+      "winnerSurname": "BELL",
+      "winnerPct": 56.0,
+      "swing": -14.0,
+      "candidates": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 12,
+          "pct": 48.0
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "pct": 36.0
+        },
+        {
+          "surname": "ARROWSMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 8.0
+        },
+        {
+          "surname": "SPAIN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 4.0
+        },
+        {
+          "surname": "FEA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 4.0
+        },
+        {
+          "surname": "WELD ALI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "WADSWORTH",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "SZORKOVSZKY",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "NAICKER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELL",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 14,
+          "elected": true,
+          "pct": 56.0
+        },
+        {
+          "surname": "STUART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "elected": false,
+          "pct": 44.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 100326,
+    "candidates": [
+      {
+        "id": "C40697",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Arrowsmith"
+      },
+      {
+        "id": "C41459",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Weld Ali"
+      },
+      {
+        "id": "C41278",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Spain"
+      },
+      {
+        "id": "C41174",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 Bell"
+      },
+      {
+        "id": "C40947",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Wadsworth"
+      },
+      {
+        "id": "C40908",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Fea"
+      },
+      {
+        "id": "C40967",
+        "party": "oth",
+        "displayShort": "GRPF",
+        "displayLong": "GRPF \u2014 Szorkovszky"
+      },
+      {
+        "id": "C40791",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Stuart"
+      },
+      {
+        "id": "C41368",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Naicker"
+      }
+    ],
+    "rounds": [
+      {
+        "C40697": 7641,
+        "C41459": 1393,
+        "C41278": 9558,
+        "C41174": 42047,
+        "C40947": 5894,
+        "C40908": 1645,
+        "C40967": 3547,
+        "C40791": 24536,
+        "C41368": 4065
+      },
+      {
+        "C40697": 8194,
+        "C41278": 10015,
+        "C41174": 42152,
+        "C40947": 5938,
+        "C40908": 1712,
+        "C40967": 3570,
+        "C40791": 24650,
+        "C41368": 4095
+      },
+      {
+        "C40697": 8390,
+        "C41278": 10210,
+        "C41174": 42403,
+        "C40947": 6253,
+        "C40967": 4054,
+        "C40791": 24793,
+        "C41368": 4223
+      },
+      {
+        "C40697": 8814,
+        "C41278": 10413,
+        "C41174": 42714,
+        "C40947": 7816,
+        "C40791": 25050,
+        "C41368": 5519
+      },
+      {
+        "C40697": 9995,
+        "C41278": 10642,
+        "C41174": 43522,
+        "C40947": 10474,
+        "C40791": 25693
+      },
+      {
+        "C41278": 14537,
+        "C41174": 45460,
+        "C40947": 12289,
+        "C40791": 28040
+      },
+      {
+        "C41278": 17289,
+        "C41174": 53334,
+        "C40791": 29703
+      },
+      {
+        "C41174": 58991,
+        "C40791": 41335
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            35.99,
+            32.51,
+            32.05,
+            35.06,
+            34.64,
+            38.81,
+            41.2
+          ]
+        },
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            67.49,
+            67.95,
+            64.94,
+            65.36,
+            61.19,
+            58.8
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            64.01,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "LIB": 59.77,
+            "ALP": 30.01,
+            "GRN": 6.21,
+            "OTH": 4.01
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "ALP": 23.48,
+            "LIB": 61.85,
+            "GRN": 11.56,
+            "FFP": 3.11
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "FFP": 2.19,
+            "ALP": 20.82,
+            "TOP": 13.68,
+            "LIB": 55.69,
+            "GRN": 6.45,
+            "ON": 0.75,
+            "OTH": 0.41
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "FFP": 6.54,
+            "LIB": 58.97,
+            "ALP": 24.38,
+            "GRN": 10.12
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "TOP": 3.72,
+            "ALP": 21.56,
+            "LIB": 51.52,
+            "AJP": 3.86,
+            "GRN": 9.68,
+            "ON": 6.44,
+            "OTH": 3.21
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "LIB": 45.94,
+            "TOP": 5.58,
+            "LDP": 4.38,
+            "ON": 7.11,
+            "AJP": 2.43,
+            "ALP": 20.81,
+            "GRN": 12.07,
+            "OTH": 1.68
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "ALP": 24.46,
+            "GRPF": 3.54,
+            "ON": 5.87,
+            "CYA": 4.05,
+            "IND": 9.0,
+            "GRN": 9.53,
+            "LIB": 41.91,
+            "OTH": 1.64
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 182143,
+    "medianAge": 40,
+    "medianHouseholdIncomeWeekly": 1489,
+    "medianRentWeekly": 430,
+    "averageHouseholdSize": 2.3,
+    "bornOverseasPct": 34.8,
+    "indigenousPct": 1.9,
+    "bachelorPlusPct": 36.4,
+    "renterPct": 39.4,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 109946,
+        "pct": 65.23,
+        "natPct": 70.73
+      },
+      {
+        "label": "New Zealand",
+        "count": 5789,
+        "pct": 3.43,
+        "natPct": 1.11
+      },
+      {
+        "label": "England",
+        "count": 4021,
+        "pct": 2.39,
+        "natPct": 1.95
+      },
+      {
+        "label": "Brazil",
+        "count": 2477,
+        "pct": 1.47,
+        "natPct": 0.19
+      },
+      {
+        "label": "India",
+        "count": 1524,
+        "pct": 0.9,
+        "natPct": 1.51
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 78793,
+        "pct": 43.26,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 75305,
+        "pct": 41.34,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 16935,
+        "pct": 9.3,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 3359,
+        "pct": 1.84,
+        "natPct": 2.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 2577,
+        "pct": 1.41,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Moncrieff is an Australian Electoral Division in Queensland. The current MP is Angie Bell of the Liberal Party.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Moncrieff",
+    "retrievedAt": "2026-03-09T06:20:54Z"
+  }
+}

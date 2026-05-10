@@ -1,0 +1,5565 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "BANKS",
+    "divisionId": 103,
+    "name": "Banks",
+    "state": "NSW",
+    "totalFormal": 98935,
+    "informalVotes": 9644,
+    "informalRate": 10.56,
+    "winner": {
+      "candidateId": "C41350",
+      "surname": "SOON",
+      "givenName": "Zhi",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": false
+    },
+    "previousWinnerParty": "LIB",
+    "tcpMargin": 4.78,
+    "result": "ALP GAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41411",
+      "surname": "COLEMAN",
+      "givenName": "David",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 31881,
+      "pct": 39.03
+    },
+    {
+      "candidateId": "C41350",
+      "surname": "SOON",
+      "givenName": "Zhi",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 29923,
+      "pct": 36.64
+    },
+    {
+      "candidateId": "C41486",
+      "surname": "HANNA",
+      "givenName": "Natalie",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 9809,
+      "pct": 12.01
+    },
+    {
+      "candidateId": "C41858",
+      "surname": "NICOL",
+      "givenName": "Todd",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 2868,
+      "pct": 3.51
+    },
+    {
+      "candidateId": "C41763",
+      "surname": "TARUSTE",
+      "givenName": "Allan",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2765,
+      "pct": 3.39
+    },
+    {
+      "candidateId": "C41871",
+      "surname": "MOMIRCEVSKI",
+      "givenName": "Marika",
+      "party": "oth",
+      "partyAb": "LTP",
+      "votes": 2343,
+      "pct": 2.87
+    },
+    {
+      "candidateId": "C40625",
+      "surname": "COYNE",
+      "givenName": "John",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 1523,
+      "pct": 1.86
+    },
+    {
+      "candidateId": "C41990",
+      "surname": "PEARCE",
+      "givenName": "Phillip",
+      "party": "dem",
+      "partyAb": "DEM",
+      "votes": 564,
+      "pct": 0.69
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41350",
+      "surname": "SOON",
+      "givenName": "Zhi",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 51830,
+      "pct": 52.39,
+      "elected": true
+    },
+    {
+      "candidateId": "C41411",
+      "surname": "COLEMAN",
+      "givenName": "David",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 47105,
+      "pct": 47.61,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 58722,
+      "name": "Padstow BANKS PPVC",
+      "formal": 13798,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 50.7,
+      "swing": 7.02,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5788,
+          "pct": 41.95
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5153,
+          "pct": 37.35
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1380,
+          "pct": 10.0
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 460,
+          "pct": 3.33
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 395,
+          "pct": 2.86
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 350,
+          "pct": 2.54
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 202,
+          "pct": 1.46
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 70,
+          "pct": 0.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6995,
+          "elected": true,
+          "pct": 50.7
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6803,
+          "elected": false,
+          "pct": 49.3
+        }
+      ]
+    },
+    {
+      "boothId": 109347,
+      "name": "Mortdale BANKS PPVC",
+      "formal": 13257,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 52.35,
+      "swing": 2.28,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5859,
+          "pct": 44.2
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4685,
+          "pct": 35.34
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1179,
+          "pct": 8.89
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 474,
+          "pct": 3.58
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 382,
+          "pct": 2.88
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 380,
+          "pct": 2.87
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 245,
+          "pct": 1.85
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 53,
+          "pct": 0.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6317,
+          "elected": true,
+          "pct": 47.65
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6940,
+          "elected": false,
+          "pct": 52.35
+        }
+      ]
+    },
+    {
+      "boothId": 34046,
+      "name": "Hurstville BANKS PPVC",
+      "formal": 3774,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 55.91,
+      "swing": 5.97,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1637,
+          "pct": 43.38
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1463,
+          "pct": 38.77
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 339,
+          "pct": 8.98
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 93,
+          "pct": 2.46
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 90,
+          "pct": 2.38
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 66,
+          "pct": 1.75
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 49,
+          "pct": 1.3
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 37,
+          "pct": 0.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2110,
+          "elected": true,
+          "pct": 55.91
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1664,
+          "elected": false,
+          "pct": 44.09
+        }
+      ]
+    },
+    {
+      "boothId": 42,
+      "name": "Connells Point",
+      "formal": 2228,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 54.31,
+      "swing": -9.62,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1019,
+          "pct": 45.74
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 710,
+          "pct": 31.87
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 205,
+          "pct": 9.2
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 93,
+          "pct": 4.17
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 87,
+          "pct": 3.9
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 75,
+          "pct": 3.37
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 1.44
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 7,
+          "pct": 0.31
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1018,
+          "elected": true,
+          "pct": 45.69
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1210,
+          "elected": false,
+          "pct": 54.31
+        }
+      ]
+    },
+    {
+      "boothId": 6,
+      "name": "Narwee",
+      "formal": 1940,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 59.23,
+      "swing": 6.99,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 802,
+          "pct": 41.34
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 631,
+          "pct": 32.53
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 288,
+          "pct": 14.85
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 64,
+          "pct": 3.3
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 3.2
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 2.37
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 1.75
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 13,
+          "pct": 0.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1149,
+          "elected": true,
+          "pct": 59.23
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 791,
+          "elected": false,
+          "pct": 40.77
+        }
+      ]
+    },
+    {
+      "boothId": 14,
+      "name": "Panania South",
+      "formal": 1775,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 50.82,
+      "swing": -6.26,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 730,
+          "pct": 41.13
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 592,
+          "pct": 33.35
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 217,
+          "pct": 12.23
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 74,
+          "pct": 4.17
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 62,
+          "pct": 3.49
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 48,
+          "pct": 2.7
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 40,
+          "pct": 2.25
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 12,
+          "pct": 0.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 873,
+          "elected": true,
+          "pct": 49.18
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 902,
+          "elected": false,
+          "pct": 50.82
+        }
+      ]
+    },
+    {
+      "boothId": 18,
+      "name": "Peakhurst West",
+      "formal": 1755,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 52.08,
+      "swing": 6.94,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 666,
+          "pct": 37.95
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 618,
+          "pct": 35.21
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 248,
+          "pct": 14.13
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 72,
+          "pct": 4.1
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 62,
+          "pct": 3.53
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 3.53
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 1.31
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 4,
+          "pct": 0.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 914,
+          "elected": true,
+          "pct": 52.08
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 841,
+          "elected": false,
+          "pct": 47.92
+        }
+      ]
+    },
+    {
+      "boothId": 26,
+      "name": "Revesby South",
+      "formal": 1724,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 52.38,
+      "swing": 7.44,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 660,
+          "pct": 38.28
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 556,
+          "pct": 32.25
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 291,
+          "pct": 16.88
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 74,
+          "pct": 4.29
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 57,
+          "pct": 3.31
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 2.96
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.51
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 9,
+          "pct": 0.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 903,
+          "elected": true,
+          "pct": 52.38
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 821,
+          "elected": false,
+          "pct": 47.62
+        }
+      ]
+    },
+    {
+      "boothId": 1,
+      "name": "Beverly Hills North (Banks)",
+      "formal": 1604,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 60.1,
+      "swing": -0.76,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 598,
+          "pct": 37.28
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 478,
+          "pct": 29.8
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 275,
+          "pct": 17.14
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 86,
+          "pct": 5.36
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 70,
+          "pct": 4.36
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 50,
+          "pct": 3.12
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 2.56
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 6,
+          "pct": 0.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 964,
+          "elected": true,
+          "pct": 60.1
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 640,
+          "elected": false,
+          "pct": 39.9
+        }
+      ]
+    },
+    {
+      "boothId": 4,
+      "name": "Lugarno",
+      "formal": 1584,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 55.11,
+      "swing": -8.08,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 748,
+          "pct": 47.22
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 506,
+          "pct": 31.94
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 170,
+          "pct": 10.73
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 48,
+          "pct": 3.03
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 2.97
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 2.65
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 0.95
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 8,
+          "pct": 0.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 711,
+          "elected": true,
+          "pct": 44.89
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 873,
+          "elected": false,
+          "pct": 55.11
+        }
+      ]
+    },
+    {
+      "boothId": 174,
+      "name": "Milperra",
+      "formal": 1551,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 51.45,
+      "swing": -1.02,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 639,
+          "pct": 41.2
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 508,
+          "pct": 32.75
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 180,
+          "pct": 11.61
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 5.42
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 59,
+          "pct": 3.8
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.19
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 2.0
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 16,
+          "pct": 1.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 753,
+          "elected": true,
+          "pct": 48.55
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 798,
+          "elected": false,
+          "pct": 51.45
+        }
+      ]
+    },
+    {
+      "boothId": 10,
+      "name": "Padstow South",
+      "formal": 1507,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 50.63,
+      "swing": 8.98,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 594,
+          "pct": 39.42
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 503,
+          "pct": 33.38
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 184,
+          "pct": 12.21
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 68,
+          "pct": 4.51
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 55,
+          "pct": 3.65
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.05
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 2.72
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 16,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 763,
+          "elected": true,
+          "pct": 50.63
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 744,
+          "elected": false,
+          "pct": 49.37
+        }
+      ]
+    },
+    {
+      "boothId": 33,
+      "name": "Blakehurst South",
+      "formal": 1498,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 61.48,
+      "swing": -6.55,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 763,
+          "pct": 50.93
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 401,
+          "pct": 26.77
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 140,
+          "pct": 9.35
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 53,
+          "pct": 3.54
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 3.4
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 3.07
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.2
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 11,
+          "pct": 0.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 577,
+          "elected": true,
+          "pct": 38.52
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 921,
+          "elected": false,
+          "pct": 61.48
+        }
+      ]
+    },
+    {
+      "boothId": 25,
+      "name": "Revesby North",
+      "formal": 1484,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 58.63,
+      "swing": 9.35,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 580,
+          "pct": 39.08
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 481,
+          "pct": 32.41
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 221,
+          "pct": 14.89
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 64,
+          "pct": 4.31
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 4.18
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 34,
+          "pct": 2.29
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 33,
+          "pct": 2.22
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 9,
+          "pct": 0.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 870,
+          "elected": true,
+          "pct": 58.63
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 614,
+          "elected": false,
+          "pct": 41.37
+        }
+      ]
+    },
+    {
+      "boothId": 60,
+      "name": "Penshurst Central",
+      "formal": 1465,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 58.7,
+      "swing": 4.29,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 576,
+          "pct": 39.32
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 477,
+          "pct": 32.56
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 210,
+          "pct": 14.33
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 4.37
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.14
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.14
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 1.98
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 17,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 860,
+          "elected": true,
+          "pct": 58.7
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 605,
+          "elected": false,
+          "pct": 41.3
+        }
+      ]
+    },
+    {
+      "boothId": 13,
+      "name": "Panania North",
+      "formal": 1452,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 56.47,
+      "swing": 10.91,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 528,
+          "pct": 36.36
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 472,
+          "pct": 32.51
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 229,
+          "pct": 15.77
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 58,
+          "pct": 3.99
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 3.79
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 50,
+          "pct": 3.44
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 31,
+          "pct": 2.13
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 2.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 820,
+          "elected": true,
+          "pct": 56.47
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 632,
+          "elected": false,
+          "pct": 43.53
+        }
+      ]
+    },
+    {
+      "boothId": 7,
+      "name": "Padstow",
+      "formal": 1388,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 57.71,
+      "swing": 10.21,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 513,
+          "pct": 36.96
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 432,
+          "pct": 31.12
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 217,
+          "pct": 15.63
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 5.26
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 61,
+          "pct": 4.39
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.39
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 2.67
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 8,
+          "pct": 0.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 801,
+          "elected": true,
+          "pct": 57.71
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 587,
+          "elected": false,
+          "pct": 42.29
+        }
+      ]
+    },
+    {
+      "boothId": 59,
+      "name": "Oatley West",
+      "formal": 1386,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 50.51,
+      "swing": -1.99,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 605,
+          "pct": 43.65
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 491,
+          "pct": 35.43
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 158,
+          "pct": 11.4
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 2.6
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 2.31
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 30,
+          "pct": 2.16
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.66
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 11,
+          "pct": 0.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 686,
+          "elected": true,
+          "pct": 49.49
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 700,
+          "elected": false,
+          "pct": 50.51
+        }
+      ]
+    },
+    {
+      "boothId": 55,
+      "name": "Mortdale Central",
+      "formal": 1342,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 56.48,
+      "swing": 11.8,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 469,
+          "pct": 34.95
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 461,
+          "pct": 34.35
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 215,
+          "pct": 16.02
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 4.4
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 51,
+          "pct": 3.8
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 50,
+          "pct": 3.73
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 2.16
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 8,
+          "pct": 0.6
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 758,
+          "elected": true,
+          "pct": 56.48
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 584,
+          "elected": false,
+          "pct": 43.52
+        }
+      ]
+    },
+    {
+      "boothId": 5,
+      "name": "Mortdale West",
+      "formal": 1341,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 54.29,
+      "swing": 5.66,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 491,
+          "pct": 36.61
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 483,
+          "pct": 36.02
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 194,
+          "pct": 14.47
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 4.1
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.5
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 2.24
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 2.01
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 14,
+          "pct": 1.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 728,
+          "elected": true,
+          "pct": 54.29
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 613,
+          "elected": false,
+          "pct": 45.71
+        }
+      ]
+    },
+    {
+      "boothId": 3,
+      "name": "Riverwood East",
+      "formal": 1311,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 62.7,
+      "swing": 7.75,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 540,
+          "pct": 41.19
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 397,
+          "pct": 30.28
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 206,
+          "pct": 15.71
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 71,
+          "pct": 5.42
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 3.51
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.75
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 1.53
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 8,
+          "pct": 0.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 822,
+          "elected": true,
+          "pct": 62.7
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 489,
+          "elected": false,
+          "pct": 37.3
+        }
+      ]
+    },
+    {
+      "boothId": 17,
+      "name": "Peakhurst South",
+      "formal": 1301,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 54.34,
+      "swing": -4.32,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 588,
+          "pct": 45.2
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 415,
+          "pct": 31.9
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 125,
+          "pct": 9.61
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 3.54
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 46,
+          "pct": 3.54
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 44,
+          "pct": 3.38
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 2.0
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 11,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 594,
+          "elected": true,
+          "pct": 45.66
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 707,
+          "elected": false,
+          "pct": 54.34
+        }
+      ]
+    },
+    {
+      "boothId": 16,
+      "name": "Peakhurst East",
+      "formal": 1270,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 55.35,
+      "swing": 8.16,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 487,
+          "pct": 38.35
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 446,
+          "pct": 35.12
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 157,
+          "pct": 12.36
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 58,
+          "pct": 4.57
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 4.17
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 30,
+          "pct": 2.36
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 2.13
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 12,
+          "pct": 0.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 703,
+          "elected": true,
+          "pct": 55.35
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 567,
+          "elected": false,
+          "pct": 44.65
+        }
+      ]
+    },
+    {
+      "boothId": 22,
+      "name": "Picnic Point North",
+      "formal": 1158,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 53.97,
+      "swing": -6.51,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 500,
+          "pct": 43.18
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 359,
+          "pct": 31.0
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 141,
+          "pct": 12.18
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 4.66
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.45
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 3.2
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.21
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 13,
+          "pct": 1.12
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 533,
+          "elected": true,
+          "pct": 46.03
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 625,
+          "elected": false,
+          "pct": 53.97
+        }
+      ]
+    },
+    {
+      "boothId": 57281,
+      "name": "Revesby",
+      "formal": 1147,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 53.44,
+      "swing": 4.7,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 415,
+          "pct": 36.18
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 404,
+          "pct": 35.22
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 155,
+          "pct": 13.51
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 53,
+          "pct": 4.62
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 3.57
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 3.05
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 2.88
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 11,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 613,
+          "elected": true,
+          "pct": 53.44
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 534,
+          "elected": false,
+          "pct": 46.56
+        }
+      ]
+    },
+    {
+      "boothId": 45,
+      "name": "Hurstville Grove",
+      "formal": 1133,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 52.6,
+      "swing": 8.25,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 467,
+          "pct": 41.22
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 441,
+          "pct": 38.92
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 137,
+          "pct": 12.09
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 2.38
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 21,
+          "pct": 1.85
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 1.59
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.5
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 5,
+          "pct": 0.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 596,
+          "elected": true,
+          "pct": 52.6
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 537,
+          "elected": false,
+          "pct": 47.4
+        }
+      ]
+    },
+    {
+      "boothId": 58,
+      "name": "Oatley",
+      "formal": 1129,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 55.54,
+      "swing": 6.77,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 415,
+          "pct": 36.76
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 407,
+          "pct": 36.05
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 175,
+          "pct": 15.5
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.83
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.83
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 2.75
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 2.21
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 12,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 627,
+          "elected": true,
+          "pct": 55.54
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 502,
+          "elected": false,
+          "pct": 44.46
+        }
+      ]
+    },
+    {
+      "boothId": 8,
+      "name": "Padstow East",
+      "formal": 1116,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 59.86,
+      "swing": 12.93,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 372,
+          "pct": 33.33
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 341,
+          "pct": 30.56
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 250,
+          "pct": 22.4
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 4.57
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 47,
+          "pct": 4.21
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.23
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 1.16
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 6,
+          "pct": 0.54
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 668,
+          "elected": true,
+          "pct": 59.86
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 448,
+          "elected": false,
+          "pct": 40.14
+        }
+      ]
+    },
+    {
+      "boothId": 2,
+      "name": "East Hills",
+      "formal": 1097,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 54.97,
+      "swing": 7.51,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 395,
+          "pct": 36.01
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 368,
+          "pct": 33.55
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 177,
+          "pct": 16.13
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 4.92
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 3.46
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 33,
+          "pct": 3.01
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 2.55
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 4,
+          "pct": 0.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 603,
+          "elected": true,
+          "pct": 54.97
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 494,
+          "elected": false,
+          "pct": 45.03
+        }
+      ]
+    },
+    {
+      "boothId": 28,
+      "name": "Riverwood South",
+      "formal": 1063,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 57.1,
+      "swing": 10.28,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 458,
+          "pct": 43.09
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 374,
+          "pct": 35.18
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 107,
+          "pct": 10.07
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 4.8
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 3.39
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.6
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 1.41
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 5,
+          "pct": 0.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 607,
+          "elected": true,
+          "pct": 57.1
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 456,
+          "elected": false,
+          "pct": 42.9
+        }
+      ]
+    },
+    {
+      "boothId": 97646,
+      "name": "Bankstown BANKS PPVC",
+      "formal": 955,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 67.85,
+      "swing": 8.5,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 430,
+          "pct": 45.03
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 200,
+          "pct": 20.94
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 121,
+          "pct": 12.67
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 80,
+          "pct": 8.38
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 4.29
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.77
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 3.14
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 17,
+          "pct": 1.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 648,
+          "elected": true,
+          "pct": 67.85
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 307,
+          "elected": false,
+          "pct": 32.15
+        }
+      ]
+    },
+    {
+      "boothId": 56,
+      "name": "Mortdale East",
+      "formal": 947,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 65.68,
+      "swing": 13.49,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 417,
+          "pct": 44.03
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 256,
+          "pct": 27.03
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 157,
+          "pct": 16.58
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 4.12
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.32
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.22
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 20,
+          "pct": 2.11
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 1.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 622,
+          "elected": true,
+          "pct": 65.68
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 325,
+          "elected": false,
+          "pct": 34.32
+        }
+      ]
+    },
+    {
+      "boothId": 12,
+      "name": "Panania Central",
+      "formal": 918,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 54.36,
+      "swing": 12.55,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 346,
+          "pct": 37.69
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 336,
+          "pct": 36.6
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 123,
+          "pct": 13.4
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 4.03
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 3.05
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 24,
+          "pct": 2.61
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 1.53
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 10,
+          "pct": 1.09
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 499,
+          "elected": true,
+          "pct": 54.36
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 419,
+          "elected": false,
+          "pct": 45.64
+        }
+      ]
+    },
+    {
+      "boothId": 27,
+      "name": "Riverwood North",
+      "formal": 909,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 62.71,
+      "swing": 4.77,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 412,
+          "pct": 45.32
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 294,
+          "pct": 32.34
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 116,
+          "pct": 12.76
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 3.85
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 2.2
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.54
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 1.43
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 5,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 570,
+          "elected": true,
+          "pct": 62.71
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 339,
+          "elected": false,
+          "pct": 37.29
+        }
+      ]
+    },
+    {
+      "boothId": 121520,
+      "name": "Punchbowl (Banks)",
+      "formal": 835,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 69.22,
+      "swing": 0.56,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 288,
+          "pct": 34.49
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 234,
+          "pct": 28.02
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 180,
+          "pct": 21.56
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 45,
+          "pct": 5.39
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 4.19
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 2.51
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 2.4
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 12,
+          "pct": 1.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 578,
+          "elected": true,
+          "pct": 69.22
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 257,
+          "elected": false,
+          "pct": 30.78
+        }
+      ]
+    },
+    {
+      "boothId": 19,
+      "name": "Penshurst",
+      "formal": 806,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 58.19,
+      "swing": 7.29,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 346,
+          "pct": 42.93
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 292,
+          "pct": 36.23
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 88,
+          "pct": 10.92
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 29,
+          "pct": 3.6
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 2.11
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 1.99
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.86
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 3,
+          "pct": 0.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 469,
+          "elected": true,
+          "pct": 58.19
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 337,
+          "elected": false,
+          "pct": 41.81
+        }
+      ]
+    },
+    {
+      "boothId": 40,
+      "name": "Carss Park",
+      "formal": 721,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 57.0,
+      "swing": -7.31,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 361,
+          "pct": 50.07
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 210,
+          "pct": 29.13
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 64,
+          "pct": 8.88
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 4.44
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.91
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 2.64
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 1.8
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 1,
+          "pct": 0.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 310,
+          "elected": true,
+          "pct": 43.0
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 411,
+          "elected": false,
+          "pct": 57.0
+        }
+      ]
+    },
+    {
+      "boothId": 121548,
+      "name": "Belmore BANKS PPVC",
+      "formal": 705,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 62.84,
+      "swing": -2.81,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 308,
+          "pct": 43.69
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 194,
+          "pct": 27.52
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 84,
+          "pct": 11.91
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 62,
+          "pct": 8.79
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 4.4
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 2.41
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.13
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 1,
+          "pct": 0.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 443,
+          "elected": true,
+          "pct": 62.84
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 262,
+          "elected": false,
+          "pct": 37.16
+        }
+      ]
+    },
+    {
+      "boothId": 11,
+      "name": "Panania",
+      "formal": 692,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 53.61,
+      "swing": 8.45,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 261,
+          "pct": 37.72
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 252,
+          "pct": 36.42
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 83,
+          "pct": 11.99
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 33,
+          "pct": 4.77
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 3.32
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.75
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 1.88
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 8,
+          "pct": 1.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 371,
+          "elected": true,
+          "pct": 53.61
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 321,
+          "elected": false,
+          "pct": 46.39
+        }
+      ]
+    },
+    {
+      "boothId": 43,
+      "name": "Hurstville South",
+      "formal": 610,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 56.23,
+      "swing": 4.2,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 252,
+          "pct": 41.31
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 213,
+          "pct": 34.92
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 58,
+          "pct": 9.51
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 5.25
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 3.61
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.62
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 2.3
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 3,
+          "pct": 0.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 343,
+          "elected": true,
+          "pct": 56.23
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 267,
+          "elected": false,
+          "pct": 43.77
+        }
+      ]
+    },
+    {
+      "boothId": 83630,
+      "name": "Oatley East",
+      "formal": 549,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 52.46,
+      "swing": -8.19,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 248,
+          "pct": 45.17
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 177,
+          "pct": 32.24
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 71,
+          "pct": 12.93
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 2.91
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.37
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.19
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.64
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 3,
+          "pct": 0.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 261,
+          "elected": true,
+          "pct": 47.54
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 288,
+          "elected": false,
+          "pct": 52.46
+        }
+      ]
+    },
+    {
+      "boothId": 79612,
+      "name": "Beverly Hills South (Banks)",
+      "formal": 449,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 61.25,
+      "swing": 5.35,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 200,
+          "pct": 44.54
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 141,
+          "pct": 31.4
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 71,
+          "pct": 15.81
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 13,
+          "pct": 2.9
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.67
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.34
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 4,
+          "pct": 0.89
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 2,
+          "pct": 0.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 275,
+          "elected": true,
+          "pct": 61.25
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 174,
+          "elected": false,
+          "pct": 38.75
+        }
+      ]
+    },
+    {
+      "boothId": 97647,
+      "name": "Lugarno North",
+      "formal": 416,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 62.02,
+      "swing": -2.27,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 215,
+          "pct": 51.68
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 109,
+          "pct": 26.2
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 7.21
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 6.49
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.88
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 2.64
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 1.68
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 5,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 158,
+          "elected": true,
+          "pct": 37.98
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 258,
+          "elected": false,
+          "pct": 62.02
+        }
+      ]
+    },
+    {
+      "boothId": 121514,
+      "name": "Ramsgate BANKS PPVC",
+      "formal": 369,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 59.35,
+      "swing": -1.91,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 181,
+          "pct": 49.05
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 105,
+          "pct": 28.46
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 37,
+          "pct": 10.03
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 5.69
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.17
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 2.17
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.63
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 3,
+          "pct": 0.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 150,
+          "elected": true,
+          "pct": 40.65
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 219,
+          "elected": false,
+          "pct": 59.35
+        }
+      ]
+    },
+    {
+      "boothId": 97610,
+      "name": "Wynyard BANKS PPVC",
+      "formal": 283,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 62.9,
+      "swing": 8.56,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 126,
+          "pct": 44.52
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 91,
+          "pct": 32.16
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 15.19
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.47
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 2.12
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.12
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.06
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 1,
+          "pct": 0.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 178,
+          "elected": true,
+          "pct": 62.9
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 105,
+          "elected": false,
+          "pct": 37.1
+        }
+      ]
+    },
+    {
+      "boothId": 121444,
+      "name": "Allawah South (Banks)",
+      "formal": 275,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 53.09,
+      "swing": 3.09,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 110,
+          "pct": 40.0
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 104,
+          "pct": 37.82
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 33,
+          "pct": 12.0
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.91
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 2.91
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.55
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.09
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 2,
+          "pct": 0.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 146,
+          "elected": true,
+          "pct": 53.09
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 129,
+          "elected": false,
+          "pct": 46.91
+        }
+      ]
+    },
+    {
+      "boothId": 121442,
+      "name": "Blakehurst North (Banks)",
+      "formal": 264,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 60.61,
+      "swing": 12.56,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 119,
+          "pct": 45.08
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 80,
+          "pct": 30.3
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 31,
+          "pct": 11.74
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 5.68
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 2.27
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.27
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 4,
+          "pct": 1.52
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 160,
+          "elected": true,
+          "pct": 60.61
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 104,
+          "elected": false,
+          "pct": 39.39
+        }
+      ]
+    },
+    {
+      "boothId": 97645,
+      "name": "Haymarket BANKS PPVC",
+      "formal": 233,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 58.8,
+      "swing": 1.08,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 102,
+          "pct": 43.78
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 83,
+          "pct": 35.62
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 12.88
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.58
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.72
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 1.72
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.29
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 1,
+          "pct": 0.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 137,
+          "elected": true,
+          "pct": 58.8
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 96,
+          "elected": false,
+          "pct": 41.2
+        }
+      ]
+    },
+    {
+      "boothId": 121441,
+      "name": "Allawah (Banks)",
+      "formal": 229,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 62.01,
+      "swing": 11.62,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 94,
+          "pct": 41.05
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 60,
+          "pct": 26.2
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 36,
+          "pct": 15.72
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 6.99
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 4.8
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 2.62
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 4,
+          "pct": 1.75
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 142,
+          "elected": true,
+          "pct": 62.01
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 87,
+          "elected": false,
+          "pct": 37.99
+        }
+      ]
+    },
+    {
+      "boothId": 79613,
+      "name": "Hurstville (Banks)",
+      "formal": 207,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 60.39,
+      "swing": 5.29,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 87,
+          "pct": 42.03
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 63,
+          "pct": 30.43
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "pct": 14.01
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 4.83
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 3.86
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.42
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.93
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 1,
+          "pct": 0.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 125,
+          "elected": true,
+          "pct": 60.39
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 82,
+          "elected": false,
+          "pct": 39.61
+        }
+      ]
+    },
+    {
+      "boothId": 109501,
+      "name": "Rockdale BANKS PPVC",
+      "formal": 173,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 58.38,
+      "swing": 10.18,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 62,
+          "pct": 35.84
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 53,
+          "pct": 30.64
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 25,
+          "pct": 14.45
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 4.62
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 4.05
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 4.05
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 6,
+          "pct": 3.47
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 2.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 101,
+          "elected": true,
+          "pct": 58.38
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 72,
+          "elected": false,
+          "pct": 41.62
+        }
+      ]
+    },
+    {
+      "boothId": 109100,
+      "name": "Special Hospital Team 2",
+      "formal": 155,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 51.61,
+      "swing": 4.42,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 66,
+          "pct": 42.58
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 61,
+          "pct": 39.35
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 7.74
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 5.81
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 1.94
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 2,
+          "pct": 1.29
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 1.29
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "elected": true,
+          "pct": 51.61
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 75,
+          "elected": false,
+          "pct": 48.39
+        }
+      ]
+    },
+    {
+      "boothId": 109006,
+      "name": "Special Hospital Team 1",
+      "formal": 123,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 56.91,
+      "swing": 9.99,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 51,
+          "pct": 41.46
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 42,
+          "pct": 34.15
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 8.13
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 6.5
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 4.07
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 3.25
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.63
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 1,
+          "pct": 0.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 70,
+          "elected": true,
+          "pct": 56.91
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 53,
+          "elected": false,
+          "pct": 43.09
+        }
+      ]
+    },
+    {
+      "boothId": 97644,
+      "name": "Ultimo BANKS PPVC",
+      "formal": 118,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 71.19,
+      "swing": 12.46,
+      "candidates": [
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 38,
+          "pct": 32.2
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 36,
+          "pct": 30.51
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 28,
+          "pct": 23.73
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 5.93
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 4.24
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.69
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 0.85
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 1,
+          "pct": 0.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 84,
+          "elected": true,
+          "pct": 71.19
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 34,
+          "elected": false,
+          "pct": 28.81
+        }
+      ]
+    },
+    {
+      "boothId": 83635,
+      "name": "Picnic Point South",
+      "formal": 104,
+      "winnerParty": "lib",
+      "winnerSurname": "COLEMAN",
+      "winnerPct": 67.31,
+      "swing": -4.04,
+      "candidates": [
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 55,
+          "pct": 52.88
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "pct": 15.38
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 14.42
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 6.73
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 4.81
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.88
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 2.88
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 34,
+          "elected": true,
+          "pct": 32.69
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 70,
+          "elected": false,
+          "pct": 67.31
+        }
+      ]
+    },
+    {
+      "boothId": 65425,
+      "name": "EAV Banks PPVC",
+      "formal": 22,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 72.73,
+      "swing": 25.11,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 14,
+          "pct": 63.64
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5,
+          "pct": 22.73
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 9.09
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 1,
+          "pct": 4.55
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "elected": true,
+          "pct": 72.73
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 6,
+          "elected": false,
+          "pct": 27.27
+        }
+      ]
+    },
+    {
+      "boothId": 108390,
+      "name": "Wynyard (Banks)",
+      "formal": 18,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 83.33,
+      "swing": 34.85,
+      "candidates": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7,
+          "pct": 38.89
+        },
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 33.33
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "pct": 16.67
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 5.56
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 5.56
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 15,
+          "elected": true,
+          "pct": 83.33
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "elected": false,
+          "pct": 16.67
+        }
+      ]
+    },
+    {
+      "boothId": 108389,
+      "name": "Ultimo (Banks)",
+      "formal": 13,
+      "winnerParty": "alp",
+      "winnerSurname": "SOON",
+      "winnerPct": 84.62,
+      "swing": 11.29,
+      "candidates": [
+        {
+          "surname": "HANNA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 46.15
+        },
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "pct": 38.46
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "pct": 15.38
+        },
+        {
+          "surname": "TARUSTE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "NICOL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "PEARCE",
+          "partyAb": "DEM",
+          "party": "dem",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MOMIRCEVSKI",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "COYNE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SOON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "elected": true,
+          "pct": 84.62
+        },
+        {
+          "surname": "COLEMAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2,
+          "elected": false,
+          "pct": 15.38
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 98935,
+    "candidates": [
+      {
+        "id": "C41763",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Taruste"
+      },
+      {
+        "id": "C41858",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Nicol"
+      },
+      {
+        "id": "C41990",
+        "party": "dem",
+        "displayShort": "DEM",
+        "displayLong": "DEM \u2014 Pearce"
+      },
+      {
+        "id": "C41871",
+        "party": "oth",
+        "displayShort": "LTP",
+        "displayLong": "LTP \u2014 Momircevski"
+      },
+      {
+        "id": "C41486",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Hanna"
+      },
+      {
+        "id": "C41350",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Soon"
+      },
+      {
+        "id": "C41411",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Coleman"
+      },
+      {
+        "id": "C40625",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Coyne"
+      }
+    ],
+    "rounds": [
+      {
+        "C41763": 3430,
+        "C41858": 3666,
+        "C41990": 688,
+        "C41871": 2678,
+        "C41486": 11756,
+        "C41350": 36039,
+        "C41411": 38683,
+        "C40625": 1995
+      },
+      {
+        "C41763": 3470,
+        "C41858": 3747,
+        "C41871": 2761,
+        "C41486": 11934,
+        "C41350": 36167,
+        "C41411": 38755,
+        "C40625": 2101
+      },
+      {
+        "C41763": 3659,
+        "C41858": 3922,
+        "C41871": 2958,
+        "C41486": 12632,
+        "C41350": 36651,
+        "C41411": 39113
+      },
+      {
+        "C41763": 4093,
+        "C41858": 5299,
+        "C41486": 12961,
+        "C41350": 36960,
+        "C41411": 39622
+      },
+      {
+        "C41858": 7989,
+        "C41486": 13312,
+        "C41350": 37328,
+        "C41411": 40306
+      },
+      {
+        "C41486": 15625,
+        "C41350": 38450,
+        "C41411": 44860
+      },
+      {
+        "C41350": 51830,
+        "C41411": 47105
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            61.08,
+            51.45,
+            48.17,
+            48.56,
+            43.74,
+            46.8,
+            52.39
+          ]
+        },
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            38.92,
+            48.55,
+            51.83,
+            51.44,
+            56.26,
+            53.2,
+            47.61
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "ALP": 54.62,
+            "CDP": 3.85,
+            "LIB": 33.61,
+            "GRN": 5.59,
+            "OTH": 2.33
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "GRN": 9.61,
+            "LIB": 45.52,
+            "ON": 1.9,
+            "ALP": 42.96
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "CDP": 2.34,
+            "GRN": 5.0,
+            "LIB": 47.01,
+            "ALP": 41.04,
+            "TOP": 2.5,
+            "OTH": 2.1
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "GRN": 5.82,
+            "CDP": 5.32,
+            "LIB": 43.89,
+            "ALP": 39.95,
+            "OTH": 5.02
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "GRN": 5.82,
+            "TOP": 2.21,
+            "ALP": 36.35,
+            "LIB": 50.92,
+            "CDP": 2.86,
+            "OTH": 1.84
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "ALP": 35.26,
+            "GRN": 8.76,
+            "TOP": 5.48,
+            "LIB": 45.22,
+            "ON": 2.86,
+            "OTH": 2.41
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "IND": 2.02,
+            "ON": 3.71,
+            "LIB": 39.1,
+            "LTP": 2.71,
+            "GRN": 11.88,
+            "CYA": 3.47,
+            "ALP": 36.43,
+            "OTH": 0.7
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 162893,
+    "medianAge": 39,
+    "medianHouseholdIncomeWeekly": 1923,
+    "medianRentWeekly": 435,
+    "averageHouseholdSize": 2.8,
+    "bornOverseasPct": 41.8,
+    "indigenousPct": 1.0,
+    "bachelorPlusPct": 47.9,
+    "renterPct": 32.9,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 91050,
+        "pct": 58.21,
+        "natPct": 70.73
+      },
+      {
+        "label": "China",
+        "count": 7314,
+        "pct": 4.68,
+        "natPct": 1.0
+      },
+      {
+        "label": "Nepal",
+        "count": 3030,
+        "pct": 1.94,
+        "natPct": 0.28
+      },
+      {
+        "label": "Lebanon",
+        "count": 1443,
+        "pct": 0.92,
+        "natPct": 0.19
+      },
+      {
+        "label": "Hong Kong (SAR)",
+        "count": 1426,
+        "pct": 0.91,
+        "natPct": 0.2
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 82781,
+        "pct": 50.82,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 44177,
+        "pct": 27.12,
+        "natPct": 38.42
+      },
+      {
+        "label": "Islam",
+        "count": 10240,
+        "pct": 6.29,
+        "natPct": 3.2
+      },
+      {
+        "label": "Not stated",
+        "count": 9533,
+        "pct": 5.85,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 7292,
+        "pct": 4.48,
+        "natPct": 2.42
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Banks is an Australian electoral division in the state of New South Wales. It is located in the southwestern suburbs of Sydney.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Banks",
+    "retrievedAt": "2025-12-31T10:40:14Z"
+  }
+}

@@ -1,0 +1,5545 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "WIDE_BAY",
+    "divisionId": 178,
+    "name": "Wide Bay",
+    "state": "QLD",
+    "totalFormal": 105058,
+    "informalVotes": 4275,
+    "informalRate": 4.97,
+    "winner": {
+      "candidateId": "C41195",
+      "surname": "O'BRIEN",
+      "givenName": "Llew",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "LNP",
+    "tcpMargin": 15.26,
+    "result": "LNP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41195",
+      "surname": "O'BRIEN",
+      "givenName": "Llew",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 31391,
+      "pct": 38.4
+    },
+    {
+      "candidateId": "C40788",
+      "surname": "CHALMERS",
+      "givenName": "Elliott",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 21660,
+      "pct": 26.5
+    },
+    {
+      "candidateId": "C40961",
+      "surname": "BURGESS",
+      "givenName": "Chad",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 9670,
+      "pct": 11.83
+    },
+    {
+      "candidateId": "C41287",
+      "surname": "BUHSE",
+      "givenName": "Emma",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 7118,
+      "pct": 8.71
+    },
+    {
+      "candidateId": "C40909",
+      "surname": "KENNINGALE",
+      "givenName": "Kirsti",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 4418,
+      "pct": 5.4
+    },
+    {
+      "candidateId": "C40717",
+      "surname": "IDDON",
+      "givenName": "Casey",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 3881,
+      "pct": 4.75
+    },
+    {
+      "candidateId": "C41428",
+      "surname": "PENNICOTT",
+      "givenName": "Gabrial",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 3605,
+      "pct": 4.41
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41195",
+      "surname": "O'BRIEN",
+      "givenName": "Llew",
+      "party": "lnp",
+      "partyAb": "LNP",
+      "votes": 60546,
+      "pct": 57.63,
+      "elected": true
+    },
+    {
+      "candidateId": "C40788",
+      "surname": "CHALMERS",
+      "givenName": "Elliott",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 44512,
+      "pct": 42.37,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 32757,
+      "name": "Tewantin WIDE BAY PPVC",
+      "formal": 15479,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 58.3,
+      "swing": -4.67,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7215,
+          "pct": 46.61
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4303,
+          "pct": 27.8
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1381,
+          "pct": 8.92
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 900,
+          "pct": 5.81
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 706,
+          "pct": 4.56
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 523,
+          "pct": 3.38
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 451,
+          "pct": 2.91
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 9025,
+          "elected": true,
+          "pct": 58.3
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6454,
+          "elected": false,
+          "pct": 41.7
+        }
+      ]
+    },
+    {
+      "boothId": 32767,
+      "name": "Gympie PPVC",
+      "formal": 14548,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 60.7,
+      "swing": -4.26,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5919,
+          "pct": 40.69
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3479,
+          "pct": 23.91
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1927,
+          "pct": 13.25
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1199,
+          "pct": 8.24
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 766,
+          "pct": 5.27
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 678,
+          "pct": 4.66
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 580,
+          "pct": 3.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 8831,
+          "elected": true,
+          "pct": 60.7
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5717,
+          "elected": false,
+          "pct": 39.3
+        }
+      ]
+    },
+    {
+      "boothId": 65764,
+      "name": "Maryborough WIDE BAY PPVC",
+      "formal": 12392,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 56.57,
+      "swing": -2.88,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4808,
+          "pct": 38.8
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3924,
+          "pct": 31.67
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1655,
+          "pct": 13.36
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 572,
+          "pct": 4.62
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 546,
+          "pct": 4.41
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 499,
+          "pct": 4.03
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 388,
+          "pct": 3.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7010,
+          "elected": true,
+          "pct": 56.57
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5382,
+          "elected": false,
+          "pct": 43.43
+        }
+      ]
+    },
+    {
+      "boothId": 6577,
+      "name": "Southside",
+      "formal": 2238,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 60.28,
+      "swing": -3.9,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 820,
+          "pct": 36.64
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 438,
+          "pct": 19.57
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 377,
+          "pct": 16.85
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 197,
+          "pct": 8.8
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 169,
+          "pct": 7.55
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 133,
+          "pct": 5.94
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 104,
+          "pct": 4.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1349,
+          "elected": true,
+          "pct": 60.28
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 889,
+          "elected": false,
+          "pct": 39.72
+        }
+      ]
+    },
+    {
+      "boothId": 5448,
+      "name": "Tewantin",
+      "formal": 2021,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 50.07,
+      "swing": -3.83,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 642,
+          "pct": 31.77
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 591,
+          "pct": 29.24
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 282,
+          "pct": 13.95
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 190,
+          "pct": 9.4
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 116,
+          "pct": 5.74
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 112,
+          "pct": 5.54
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 88,
+          "pct": 4.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 1012,
+          "elected": true,
+          "pct": 50.07
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1009,
+          "elected": false,
+          "pct": 49.93
+        }
+      ]
+    },
+    {
+      "boothId": 97738,
+      "name": "Coolum Beach WIDE BAY PPVC",
+      "formal": 1714,
+      "winnerParty": "alp",
+      "winnerSurname": "CHALMERS",
+      "winnerPct": 52.22,
+      "swing": 3.88,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 587,
+          "pct": 34.25
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 507,
+          "pct": 29.58
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 268,
+          "pct": 15.64
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 132,
+          "pct": 7.7
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 109,
+          "pct": 6.36
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 72,
+          "pct": 4.2
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 39,
+          "pct": 2.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 819,
+          "elected": true,
+          "pct": 47.78
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 895,
+          "elected": false,
+          "pct": 52.22
+        }
+      ]
+    },
+    {
+      "boothId": 6616,
+      "name": "Pomona",
+      "formal": 1491,
+      "winnerParty": "alp",
+      "winnerSurname": "CHALMERS",
+      "winnerPct": 51.71,
+      "swing": 1.9,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 425,
+          "pct": 28.5
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 421,
+          "pct": 28.24
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 205,
+          "pct": 13.75
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 145,
+          "pct": 9.73
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 128,
+          "pct": 8.58
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 88,
+          "pct": 5.9
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 79,
+          "pct": 5.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 720,
+          "elected": true,
+          "pct": 48.29
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 771,
+          "elected": false,
+          "pct": 51.71
+        }
+      ]
+    },
+    {
+      "boothId": 5422,
+      "name": "Cooroy",
+      "formal": 1465,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 51.4,
+      "swing": -7.62,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 468,
+          "pct": 31.95
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 414,
+          "pct": 28.26
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 183,
+          "pct": 12.49
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 141,
+          "pct": 9.62
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 104,
+          "pct": 7.1
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 102,
+          "pct": 6.96
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 53,
+          "pct": 3.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 753,
+          "elected": true,
+          "pct": 51.4
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 712,
+          "elected": false,
+          "pct": 48.6
+        }
+      ]
+    },
+    {
+      "boothId": 6572,
+      "name": "Gympie Central",
+      "formal": 1455,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 53.4,
+      "swing": -8.32,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 394,
+          "pct": 27.08
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 316,
+          "pct": 21.72
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 243,
+          "pct": 16.7
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 189,
+          "pct": 12.99
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 133,
+          "pct": 9.14
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 100,
+          "pct": 6.87
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 80,
+          "pct": 5.5
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 777,
+          "elected": true,
+          "pct": 53.4
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 678,
+          "elected": false,
+          "pct": 46.6
+        }
+      ]
+    },
+    {
+      "boothId": 5443,
+      "name": "Noosa Heads",
+      "formal": 1442,
+      "winnerParty": "alp",
+      "winnerSurname": "CHALMERS",
+      "winnerPct": 54.16,
+      "swing": 7.41,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 476,
+          "pct": 33.01
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 474,
+          "pct": 32.87
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 231,
+          "pct": 16.02
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 88,
+          "pct": 6.1
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 83,
+          "pct": 5.76
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 52,
+          "pct": 3.61
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 2.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 661,
+          "elected": true,
+          "pct": 45.84
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 781,
+          "elected": false,
+          "pct": 54.16
+        }
+      ]
+    },
+    {
+      "boothId": 6628,
+      "name": "Tinana",
+      "formal": 1159,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 56.0,
+      "swing": -7.88,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 388,
+          "pct": 33.48
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 305,
+          "pct": 26.32
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 197,
+          "pct": 17.0
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 84,
+          "pct": 7.25
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 73,
+          "pct": 6.3
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 63,
+          "pct": 5.44
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 49,
+          "pct": 4.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 649,
+          "elected": true,
+          "pct": 56.0
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 510,
+          "elected": false,
+          "pct": 44.0
+        }
+      ]
+    },
+    {
+      "boothId": 65121,
+      "name": "Noosaville East",
+      "formal": 1074,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 54.93,
+      "swing": -5.79,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 400,
+          "pct": 37.24
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 264,
+          "pct": 24.58
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 163,
+          "pct": 15.18
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 78,
+          "pct": 7.26
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 75,
+          "pct": 6.98
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 55,
+          "pct": 5.12
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 590,
+          "elected": true,
+          "pct": 54.93
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 484,
+          "elected": false,
+          "pct": 45.07
+        }
+      ]
+    },
+    {
+      "boothId": 47699,
+      "name": "Cooloola Cove",
+      "formal": 1042,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 57.01,
+      "swing": -1.4,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 378,
+          "pct": 36.28
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 307,
+          "pct": 29.46
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 166,
+          "pct": 15.93
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 65,
+          "pct": 6.24
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 4.61
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 43,
+          "pct": 4.13
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 35,
+          "pct": 3.36
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 594,
+          "elected": true,
+          "pct": 57.01
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 448,
+          "elected": false,
+          "pct": 42.99
+        }
+      ]
+    },
+    {
+      "boothId": 6607,
+      "name": "Murgon",
+      "formal": 977,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 65.4,
+      "swing": -5.01,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 450,
+          "pct": 46.06
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 215,
+          "pct": 22.01
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 126,
+          "pct": 12.9
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 68,
+          "pct": 6.96
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 48,
+          "pct": 4.91
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 42,
+          "pct": 4.3
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 2.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 639,
+          "elected": true,
+          "pct": 65.4
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 338,
+          "elected": false,
+          "pct": 34.6
+        }
+      ]
+    },
+    {
+      "boothId": 6598,
+      "name": "Maryborough East",
+      "formal": 968,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 50.62,
+      "swing": -1.4,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 293,
+          "pct": 30.27
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 266,
+          "pct": 27.48
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 143,
+          "pct": 14.77
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 86,
+          "pct": 8.88
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 81,
+          "pct": 8.37
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 55,
+          "pct": 5.68
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 44,
+          "pct": 4.55
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 490,
+          "elected": true,
+          "pct": 50.62
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 478,
+          "elected": false,
+          "pct": 49.38
+        }
+      ]
+    },
+    {
+      "boothId": 97723,
+      "name": "Cooroy South",
+      "formal": 955,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 50.68,
+      "swing": -5.13,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 307,
+          "pct": 32.15
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 257,
+          "pct": 26.91
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 122,
+          "pct": 12.77
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 94,
+          "pct": 9.84
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 70,
+          "pct": 7.33
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 68,
+          "pct": 7.12
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 3.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 484,
+          "elected": true,
+          "pct": 50.68
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 471,
+          "elected": false,
+          "pct": 49.32
+        }
+      ]
+    },
+    {
+      "boothId": 6610,
+      "name": "Maryborough",
+      "formal": 931,
+      "winnerParty": "alp",
+      "winnerSurname": "CHALMERS",
+      "winnerPct": 51.99,
+      "swing": 8.29,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 299,
+          "pct": 32.12
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 270,
+          "pct": 29.0
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 127,
+          "pct": 13.64
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 90,
+          "pct": 9.67
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 67,
+          "pct": 7.2
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 44,
+          "pct": 4.73
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 3.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 447,
+          "elected": true,
+          "pct": 48.01
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 484,
+          "elected": false,
+          "pct": 51.99
+        }
+      ]
+    },
+    {
+      "boothId": 6629,
+      "name": "Tin Can Bay",
+      "formal": 921,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 61.02,
+      "swing": -2.33,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 382,
+          "pct": 41.48
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 231,
+          "pct": 25.08
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 132,
+          "pct": 14.33
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 63,
+          "pct": 6.84
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 44,
+          "pct": 4.78
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 36,
+          "pct": 3.91
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 3.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 562,
+          "elected": true,
+          "pct": 61.02
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 359,
+          "elected": false,
+          "pct": 38.98
+        }
+      ]
+    },
+    {
+      "boothId": 6538,
+      "name": "Maryborough West",
+      "formal": 905,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 54.59,
+      "swing": -3.62,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 280,
+          "pct": 30.94
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 210,
+          "pct": 23.2
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 163,
+          "pct": 18.01
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 70,
+          "pct": 7.73
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 69,
+          "pct": 7.62
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 65,
+          "pct": 7.18
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 5.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 494,
+          "elected": true,
+          "pct": 54.59
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 411,
+          "elected": false,
+          "pct": 45.41
+        }
+      ]
+    },
+    {
+      "boothId": 6581,
+      "name": "Imbil",
+      "formal": 867,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 56.63,
+      "swing": -1.76,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 251,
+          "pct": 28.95
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 199,
+          "pct": 22.95
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 173,
+          "pct": 19.95
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 75,
+          "pct": 8.65
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 68,
+          "pct": 7.84
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 57,
+          "pct": 6.57
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 44,
+          "pct": 5.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 491,
+          "elected": true,
+          "pct": 56.63
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 376,
+          "elected": false,
+          "pct": 43.37
+        }
+      ]
+    },
+    {
+      "boothId": 6554,
+      "name": "Cooran",
+      "formal": 832,
+      "winnerParty": "alp",
+      "winnerSurname": "CHALMERS",
+      "winnerPct": 60.82,
+      "swing": 3.08,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 244,
+          "pct": 29.33
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 179,
+          "pct": 21.51
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 175,
+          "pct": 21.03
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 8.65
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 68,
+          "pct": 8.17
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 51,
+          "pct": 6.13
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 5.17
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 326,
+          "elected": true,
+          "pct": 39.18
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 506,
+          "elected": false,
+          "pct": 60.82
+        }
+      ]
+    },
+    {
+      "boothId": 6578,
+      "name": "Gympie North",
+      "formal": 808,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 58.29,
+      "swing": -4.92,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 302,
+          "pct": 37.38
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 169,
+          "pct": 20.92
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 97,
+          "pct": 12.0
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "pct": 10.52
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 68,
+          "pct": 8.42
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 6.19
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 4.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 471,
+          "elected": true,
+          "pct": 58.29
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 337,
+          "elected": false,
+          "pct": 41.71
+        }
+      ]
+    },
+    {
+      "boothId": 31543,
+      "name": "Curra",
+      "formal": 749,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 57.54,
+      "swing": -1.51,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 230,
+          "pct": 30.71
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 162,
+          "pct": 21.63
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 156,
+          "pct": 20.83
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 7.61
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 57,
+          "pct": 7.61
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 55,
+          "pct": 7.34
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 4.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 431,
+          "elected": true,
+          "pct": 57.54
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 318,
+          "elected": false,
+          "pct": 42.46
+        }
+      ]
+    },
+    {
+      "boothId": 6575,
+      "name": "Gympie",
+      "formal": 737,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 59.43,
+      "swing": -4.49,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 269,
+          "pct": 36.5
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 149,
+          "pct": 20.22
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 11.4
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 77,
+          "pct": 10.45
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 70,
+          "pct": 9.5
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 51,
+          "pct": 6.92
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 5.02
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 438,
+          "elected": true,
+          "pct": 59.43
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 299,
+          "elected": false,
+          "pct": 40.57
+        }
+      ]
+    },
+    {
+      "boothId": 6560,
+      "name": "Maryborough North",
+      "formal": 722,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 50.28,
+      "swing": -2.86,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 220,
+          "pct": 30.47
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 211,
+          "pct": 29.22
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 107,
+          "pct": 14.82
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 9.7
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 47,
+          "pct": 6.51
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 4.99
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 4.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 363,
+          "elected": true,
+          "pct": 50.28
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 359,
+          "elected": false,
+          "pct": 49.72
+        }
+      ]
+    },
+    {
+      "boothId": 6568,
+      "name": "Granville",
+      "formal": 711,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 52.46,
+      "swing": -2.72,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 191,
+          "pct": 26.86
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 183,
+          "pct": 25.74
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 148,
+          "pct": 20.82
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 10.41
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 54,
+          "pct": 7.59
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 4.5
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 4.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 373,
+          "elected": true,
+          "pct": 52.46
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 338,
+          "elected": false,
+          "pct": 47.54
+        }
+      ]
+    },
+    {
+      "boothId": 34128,
+      "name": "Tinbeerwah",
+      "formal": 676,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 52.07,
+      "swing": -4.81,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 236,
+          "pct": 34.91
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 182,
+          "pct": 26.92
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 80,
+          "pct": 11.83
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 7.69
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 7.4
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 45,
+          "pct": 6.66
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 4.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 352,
+          "elected": true,
+          "pct": 52.07
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 324,
+          "elected": false,
+          "pct": 47.93
+        }
+      ]
+    },
+    {
+      "boothId": 6550,
+      "name": "Chatsworth",
+      "formal": 652,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 65.49,
+      "swing": -3.69,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 283,
+          "pct": 43.4
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 111,
+          "pct": 17.02
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 92,
+          "pct": 14.11
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 51,
+          "pct": 7.82
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 42,
+          "pct": 6.44
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 38,
+          "pct": 5.83
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 5.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 427,
+          "elected": true,
+          "pct": 65.49
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 225,
+          "elected": false,
+          "pct": 34.51
+        }
+      ]
+    },
+    {
+      "boothId": 5444,
+      "name": "Noosaville",
+      "formal": 614,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 56.19,
+      "swing": -8.76,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 258,
+          "pct": 42.02
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 171,
+          "pct": 27.85
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 73,
+          "pct": 11.89
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 5.37
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 5.21
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 4.23
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 3.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 345,
+          "elected": true,
+          "pct": 56.19
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 269,
+          "elected": false,
+          "pct": 43.81
+        }
+      ]
+    },
+    {
+      "boothId": 5447,
+      "name": "Peregian Beach",
+      "formal": 601,
+      "winnerParty": "alp",
+      "winnerSurname": "CHALMERS",
+      "winnerPct": 57.74,
+      "swing": 6.51,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 180,
+          "pct": 29.95
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 175,
+          "pct": 29.12
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 123,
+          "pct": 20.47
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 7.99
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 36,
+          "pct": 5.99
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 4.16
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 254,
+          "elected": true,
+          "pct": 42.26
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 347,
+          "elected": false,
+          "pct": 57.74
+        }
+      ]
+    },
+    {
+      "boothId": 6564,
+      "name": "Glenwood",
+      "formal": 598,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 56.19,
+      "swing": 1.36,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 143,
+          "pct": 23.91
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 142,
+          "pct": 23.75
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 136,
+          "pct": 22.74
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 58,
+          "pct": 9.7
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 46,
+          "pct": 7.69
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 44,
+          "pct": 7.36
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 29,
+          "pct": 4.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 336,
+          "elected": true,
+          "pct": 56.19
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 262,
+          "elected": false,
+          "pct": 43.81
+        }
+      ]
+    },
+    {
+      "boothId": 6573,
+      "name": "Gympie East",
+      "formal": 565,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 52.39,
+      "swing": -5.01,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 157,
+          "pct": 27.79
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "pct": 19.47
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 81,
+          "pct": 14.34
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 65,
+          "pct": 11.5
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 63,
+          "pct": 11.15
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 8.32
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 42,
+          "pct": 7.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 296,
+          "elected": true,
+          "pct": 52.39
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 269,
+          "elected": false,
+          "pct": 47.61
+        }
+      ]
+    },
+    {
+      "boothId": 6618,
+      "name": "Rainbow Beach",
+      "formal": 499,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 55.31,
+      "swing": -7.56,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 190,
+          "pct": 38.08
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 143,
+          "pct": 28.66
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 8.42
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 36,
+          "pct": 7.21
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 34,
+          "pct": 6.81
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 6.21
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 4.61
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 276,
+          "elected": true,
+          "pct": 55.31
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 223,
+          "elected": false,
+          "pct": 44.69
+        }
+      ]
+    },
+    {
+      "boothId": 6566,
+      "name": "Goomboorian",
+      "formal": 473,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 68.5,
+      "swing": 4.18,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 191,
+          "pct": 40.38
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 96,
+          "pct": 20.3
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 75,
+          "pct": 15.86
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 6.98
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 6.55
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 6.34
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 3.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 324,
+          "elected": true,
+          "pct": 68.5
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 149,
+          "elected": false,
+          "pct": 31.5
+        }
+      ]
+    },
+    {
+      "boothId": 6537,
+      "name": "Amamoor",
+      "formal": 447,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 61.97,
+      "swing": -2.84,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 160,
+          "pct": 35.79
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 84,
+          "pct": 18.79
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 15.44
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 48,
+          "pct": 10.74
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 9.62
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 5.59
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 4.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 277,
+          "elected": true,
+          "pct": 61.97
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 170,
+          "elected": false,
+          "pct": 38.03
+        }
+      ]
+    },
+    {
+      "boothId": 6539,
+      "name": "Bauple",
+      "formal": 433,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 55.89,
+      "swing": -9.34,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 125,
+          "pct": 28.87
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 124,
+          "pct": 28.64
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 79,
+          "pct": 18.24
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 36,
+          "pct": 8.31
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 30,
+          "pct": 6.93
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 5.08
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 17,
+          "pct": 3.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 242,
+          "elected": true,
+          "pct": 55.89
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 191,
+          "elected": false,
+          "pct": 44.11
+        }
+      ]
+    },
+    {
+      "boothId": 6639,
+      "name": "Widgee",
+      "formal": 421,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 69.83,
+      "swing": 1.41,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 176,
+          "pct": 41.81
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 86,
+          "pct": 20.43
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 68,
+          "pct": 16.15
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 7.84
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 5.7
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 17,
+          "pct": 4.04
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 4.04
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 294,
+          "elected": true,
+          "pct": 69.83
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 127,
+          "elected": false,
+          "pct": 30.17
+        }
+      ]
+    },
+    {
+      "boothId": 6583,
+      "name": "Monkland",
+      "formal": 419,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 60.38,
+      "swing": 2.85,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 131,
+          "pct": 31.26
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 85,
+          "pct": 20.29
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 19.33
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 10.26
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 8.35
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 5.49
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 5.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 253,
+          "elected": true,
+          "pct": 60.38
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 166,
+          "elected": false,
+          "pct": 39.62
+        }
+      ]
+    },
+    {
+      "boothId": 33132,
+      "name": "Noosaville West",
+      "formal": 416,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 63.7,
+      "swing": 1.66,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 171,
+          "pct": 41.11
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 87,
+          "pct": 20.91
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 11.78
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 37,
+          "pct": 8.89
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 8.41
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 5.53
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 3.37
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 265,
+          "elected": true,
+          "pct": 63.7
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 151,
+          "elected": false,
+          "pct": 36.3
+        }
+      ]
+    },
+    {
+      "boothId": 6587,
+      "name": "Kilkivan",
+      "formal": 412,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 68.45,
+      "swing": 0.7,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 199,
+          "pct": 48.3
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 88,
+          "pct": 21.36
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 14.81
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 20,
+          "pct": 4.85
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 3.88
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 3.64
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 3.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 282,
+          "elected": true,
+          "pct": 68.45
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 130,
+          "elected": false,
+          "pct": 31.55
+        }
+      ]
+    },
+    {
+      "boothId": 6557,
+      "name": "Greens Creek",
+      "formal": 412,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 63.59,
+      "swing": -2.57,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 167,
+          "pct": 40.53
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 78,
+          "pct": 18.93
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 14.32
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 7.28
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 6.8
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 6.31
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 5.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 262,
+          "elected": true,
+          "pct": 63.59
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 150,
+          "elected": false,
+          "pct": 36.41
+        }
+      ]
+    },
+    {
+      "boothId": 6567,
+      "name": "Goomeri",
+      "formal": 410,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 72.68,
+      "swing": -5.18,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 237,
+          "pct": 57.8
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 65,
+          "pct": 15.85
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 9.27
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 24,
+          "pct": 5.85
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 5.12
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 4.39
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 1.71
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 298,
+          "elected": true,
+          "pct": 72.68
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 112,
+          "elected": false,
+          "pct": 27.32
+        }
+      ]
+    },
+    {
+      "boothId": 6606,
+      "name": "Mungar",
+      "formal": 407,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 63.39,
+      "swing": -5.79,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 143,
+          "pct": 35.14
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 107,
+          "pct": 26.29
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 82,
+          "pct": 20.15
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 6.39
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 4.67
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 16,
+          "pct": 3.93
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 3.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 258,
+          "elected": true,
+          "pct": 63.39
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 149,
+          "elected": false,
+          "pct": 36.61
+        }
+      ]
+    },
+    {
+      "boothId": 6637,
+      "name": "Veteran",
+      "formal": 404,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 64.6,
+      "swing": -1.1,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 140,
+          "pct": 34.65
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "pct": 19.8
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 14.85
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 41,
+          "pct": 10.15
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 30,
+          "pct": 7.43
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 28,
+          "pct": 6.93
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 6.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 261,
+          "elected": true,
+          "pct": 64.6
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 143,
+          "elected": false,
+          "pct": 35.4
+        }
+      ]
+    },
+    {
+      "boothId": 6592,
+      "name": "Kin Kin",
+      "formal": 393,
+      "winnerParty": "alp",
+      "winnerSurname": "CHALMERS",
+      "winnerPct": 55.98,
+      "swing": 4.08,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 117,
+          "pct": 29.77
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 82,
+          "pct": 20.87
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 13.74
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 53,
+          "pct": 13.49
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 8.4
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 6.87
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 6.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 173,
+          "elected": true,
+          "pct": 44.02
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 220,
+          "elected": false,
+          "pct": 55.98
+        }
+      ]
+    },
+    {
+      "boothId": 6627,
+      "name": "Tiaro",
+      "formal": 389,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 64.78,
+      "swing": -0.87,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 168,
+          "pct": 43.19
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 77,
+          "pct": 19.79
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 70,
+          "pct": 17.99
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 21,
+          "pct": 5.4
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 4.88
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 4.63
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 4.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 252,
+          "elected": true,
+          "pct": 64.78
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 137,
+          "elected": false,
+          "pct": 35.22
+        }
+      ]
+    },
+    {
+      "boothId": 6569,
+      "name": "Gunalda",
+      "formal": 372,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 60.75,
+      "swing": -3.21,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 137,
+          "pct": 36.83
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 75,
+          "pct": 20.16
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 18.55
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 31,
+          "pct": 8.33
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 6.18
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 5.11
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 18,
+          "pct": 4.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 226,
+          "elected": true,
+          "pct": 60.75
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 146,
+          "elected": false,
+          "pct": 39.25
+        }
+      ]
+    },
+    {
+      "boothId": 6584,
+      "name": "Kandanga",
+      "formal": 372,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 59.41,
+      "swing": -2.66,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 125,
+          "pct": 33.6
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 87,
+          "pct": 23.39
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 64,
+          "pct": 17.2
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 35,
+          "pct": 9.41
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 6.99
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 5.38
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 15,
+          "pct": 4.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 221,
+          "elected": true,
+          "pct": 59.41
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 151,
+          "elected": false,
+          "pct": 40.59
+        }
+      ]
+    },
+    {
+      "boothId": 6561,
+      "name": "Federal",
+      "formal": 365,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 56.71,
+      "swing": 1.38,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 113,
+          "pct": 30.96
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 86,
+          "pct": 23.56
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 49,
+          "pct": 13.42
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 11.23
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 8.49
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 6.58
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 5.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 207,
+          "elected": true,
+          "pct": 56.71
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 158,
+          "elected": false,
+          "pct": 43.29
+        }
+      ]
+    },
+    {
+      "boothId": 83340,
+      "name": "Tewantin South",
+      "formal": 364,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 52.2,
+      "swing": -2.45,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 123,
+          "pct": 33.79
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 113,
+          "pct": 31.04
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 50,
+          "pct": 13.74
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 5.77
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 5.49
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 5.22
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 4.95
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 190,
+          "elected": true,
+          "pct": 52.2
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 174,
+          "elected": false,
+          "pct": 47.8
+        }
+      ]
+    },
+    {
+      "boothId": 6541,
+      "name": "Boonooroo",
+      "formal": 329,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 55.93,
+      "swing": -2.81,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 120,
+          "pct": 36.47
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 113,
+          "pct": 34.35
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 52,
+          "pct": 15.81
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 4.26
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 3.95
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 2.74
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.43
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 184,
+          "elected": true,
+          "pct": 55.93
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 145,
+          "elected": false,
+          "pct": 44.07
+        }
+      ]
+    },
+    {
+      "boothId": 6644,
+      "name": "Lower Wonga",
+      "formal": 264,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 78.79,
+      "swing": -0.72,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 134,
+          "pct": 50.76
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 48,
+          "pct": 18.18
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 36,
+          "pct": 13.64
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 7.95
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 3.41
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 3.03
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 3.03
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 208,
+          "elected": true,
+          "pct": 78.79
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 56,
+          "elected": false,
+          "pct": 21.21
+        }
+      ]
+    },
+    {
+      "boothId": 109278,
+      "name": "Special Hospital Team 2",
+      "formal": 261,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 52.49,
+      "swing": -12.74,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 117,
+          "pct": 44.83
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 96,
+          "pct": 36.78
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 4.6
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 3.83
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 3.83
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 8,
+          "pct": 3.07
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 3.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 137,
+          "elected": true,
+          "pct": 52.49
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 124,
+          "elected": false,
+          "pct": 47.51
+        }
+      ]
+    },
+    {
+      "boothId": 109029,
+      "name": "Special Hospital Team 1",
+      "formal": 241,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 66.8,
+      "swing": 1.39,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 128,
+          "pct": 53.11
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 54,
+          "pct": 22.41
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 10.79
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 21,
+          "pct": 8.71
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 5,
+          "pct": 2.07
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.07
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 0.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 161,
+          "elected": true,
+          "pct": 66.8
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "elected": false,
+          "pct": 33.2
+        }
+      ]
+    },
+    {
+      "boothId": 6551,
+      "name": "Cherbourg",
+      "formal": 226,
+      "winnerParty": "alp",
+      "winnerSurname": "CHALMERS",
+      "winnerPct": 76.11,
+      "swing": 17.2,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 135,
+          "pct": 59.73
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 34,
+          "pct": 15.04
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 10.18
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 21,
+          "pct": 9.29
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.65
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 1.77
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 54,
+          "elected": true,
+          "pct": 23.89
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 172,
+          "elected": false,
+          "pct": 76.11
+        }
+      ]
+    },
+    {
+      "boothId": 6552,
+      "name": "Cloyna",
+      "formal": 209,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 79.9,
+      "swing": 0.71,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 118,
+          "pct": 56.46
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 16.27
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "pct": 9.09
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 6.22
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 5.74
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 4.78
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 1.44
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 167,
+          "elected": true,
+          "pct": 79.9
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 42,
+          "elected": false,
+          "pct": 20.1
+        }
+      ]
+    },
+    {
+      "boothId": 6641,
+      "name": "Wolvi",
+      "formal": 179,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 68.72,
+      "swing": 7.94,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 80,
+          "pct": 44.69
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 18.99
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 28,
+          "pct": 15.64
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 17,
+          "pct": 9.5
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 5.59
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 3.35
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.23
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 123,
+          "elected": true,
+          "pct": 68.72
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 56,
+          "elected": false,
+          "pct": 31.28
+        }
+      ]
+    },
+    {
+      "boothId": 109279,
+      "name": "Special Hospital Team 3",
+      "formal": 162,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 50.62,
+      "swing": -14.75,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 76,
+          "pct": 46.91
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 68,
+          "pct": 41.98
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 4.32
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 4.32
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 1.85
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.62
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 82,
+          "elected": true,
+          "pct": 50.62
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "elected": false,
+          "pct": 49.38
+        }
+      ]
+    },
+    {
+      "boothId": 6547,
+      "name": "Brooweena",
+      "formal": 102,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 71.57,
+      "swing": -0.72,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 48,
+          "pct": 47.06
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "pct": 18.63
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 15.69
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 6.86
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 4.9
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 3.92
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 2.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 73,
+          "elected": true,
+          "pct": 71.57
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 29,
+          "elected": false,
+          "pct": 28.43
+        }
+      ]
+    },
+    {
+      "boothId": 65423,
+      "name": "EAV Wide Bay PPVC",
+      "formal": 20,
+      "winnerParty": "alp",
+      "winnerSurname": "CHALMERS",
+      "winnerPct": 70.0,
+      "swing": 36.67,
+      "candidates": [
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "pct": 55.0
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 4,
+          "pct": 20.0
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 10.0
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 5.0
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 5.0
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 5.0
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 6,
+          "elected": true,
+          "pct": 30.0
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 14,
+          "elected": false,
+          "pct": 70.0
+        }
+      ]
+    },
+    {
+      "boothId": 109457,
+      "name": "Other Mobile Team 1",
+      "formal": 17,
+      "winnerParty": "alp",
+      "winnerSurname": "CHALMERS",
+      "winnerPct": 70.59,
+      "swing": 36.01,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5,
+          "pct": 29.41
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 23.53
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "pct": 17.65
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 11.76
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 11.76
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 5.88
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 5,
+          "elected": true,
+          "pct": 29.41
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 12,
+          "elected": false,
+          "pct": 70.59
+        }
+      ]
+    },
+    {
+      "boothId": 109380,
+      "name": "Remote Mobile Team 1",
+      "formal": 16,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": 62.5,
+      "swing": -4.17,
+      "candidates": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 7,
+          "pct": 43.75
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 37.5
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 12.5
+        },
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 10,
+          "elected": true,
+          "pct": 62.5
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "elected": false,
+          "pct": 37.5
+        }
+      ]
+    },
+    {
+      "boothId": 32756,
+      "name": "Noosa Heads PPVC",
+      "formal": 0,
+      "winnerParty": "lnp",
+      "winnerSurname": "O'BRIEN",
+      "winnerPct": null,
+      "swing": 0.0,
+      "candidates": [
+        {
+          "surname": "KENNINGALE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BURGESS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "IDDON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BUHSE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "PENNICOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 0,
+          "elected": true,
+          "pct": 0.0
+        },
+        {
+          "surname": "CHALMERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 0,
+          "elected": false,
+          "pct": 0.0
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 105058,
+    "candidates": [
+      {
+        "id": "C40909",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Kenningale"
+      },
+      {
+        "id": "C40788",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Chalmers"
+      },
+      {
+        "id": "C40961",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Burgess"
+      },
+      {
+        "id": "C41195",
+        "party": "lnp",
+        "displayShort": "LNP",
+        "displayLong": "LNP \u2014 O'Brien"
+      },
+      {
+        "id": "C40717",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Iddon"
+      },
+      {
+        "id": "C41287",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Buhse"
+      },
+      {
+        "id": "C41428",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Pennicott"
+      }
+    ],
+    "rounds": [
+      {
+        "C40909": 5394,
+        "C40788": 27271,
+        "C40961": 12646,
+        "C41195": 41055,
+        "C40717": 5090,
+        "C41287": 9080,
+        "C41428": 4522
+      },
+      {
+        "C40909": 6072,
+        "C40788": 27515,
+        "C40961": 14335,
+        "C41195": 41626,
+        "C40717": 6066,
+        "C41287": 9444
+      },
+      {
+        "C40909": 7582,
+        "C40788": 28679,
+        "C40961": 15398,
+        "C41195": 42395,
+        "C41287": 11004
+      },
+      {
+        "C40788": 29978,
+        "C40961": 19777,
+        "C41195": 43401,
+        "C41287": 11902
+      },
+      {
+        "C40788": 38175,
+        "C40961": 21655,
+        "C41195": 45228
+      },
+      {
+        "C40788": 44512,
+        "C41195": 60546
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            41.53,
+            34.39,
+            36.84,
+            41.86,
+            36.85,
+            38.66,
+            42.37
+          ]
+        },
+        {
+          "id": "LNP",
+          "party": "lnp",
+          "label": "LNP",
+          "points": [
+            null,
+            65.61,
+            63.16,
+            58.14,
+            63.15,
+            61.34,
+            57.63
+          ]
+        },
+        {
+          "id": "NAT",
+          "party": "nat",
+          "label": "NAT",
+          "points": [
+            58.47,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "NAT": 48.59,
+            "ON": 1.24,
+            "FFP": 3.46,
+            "GRN": 8.2,
+            "IND": 6.92,
+            "ALP": 30.7,
+            "OTH": 0.89
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "LIB": 58.86,
+            "GRN": 11.0,
+            "ON": 2.3,
+            "FFP": 3.74,
+            "ALP": 24.1
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "LIB": 48.87,
+            "GRN": 6.55,
+            "KAP": 5.88,
+            "ALP": 20.71,
+            "TOP": 15.88,
+            "OTH": 2.1
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "GLT": 4.54,
+            "ON": 15.6,
+            "ALP": 22.58,
+            "GRN": 8.18,
+            "LIB": 43.8,
+            "KAP": 2.62,
+            "FFP": 2.67
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "TOP": 3.61,
+            "IND": 4.5,
+            "GRN": 9.94,
+            "FACN": 2.29,
+            "LIB": 47.09,
+            "ON": 10.83,
+            "ALP": 21.75
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "ON": 10.2,
+            "TOP": 4.6,
+            "GRN": 9.5,
+            "LIB": 43.47,
+            "IMO": 2.19,
+            "ALP": 21.26,
+            "IND": 7.15,
+            "OTH": 1.62
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "LIB": 39.08,
+            "GRN": 8.64,
+            "FFP": 5.13,
+            "ON": 12.04,
+            "CYA": 4.3,
+            "IND": 4.84,
+            "ALP": 25.96
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 152236,
+    "medianAge": 49,
+    "medianHouseholdIncomeWeekly": 1213,
+    "medianRentWeekly": 300,
+    "averageHouseholdSize": 2.4,
+    "bornOverseasPct": 16.5,
+    "indigenousPct": 4.5,
+    "bachelorPlusPct": 24.6,
+    "renterPct": 22.2,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 118403,
+        "pct": 83.54,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 3683,
+        "pct": 2.6,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 2152,
+        "pct": 1.52,
+        "natPct": 1.11
+      },
+      {
+        "label": "Germany",
+        "count": 433,
+        "pct": 0.31,
+        "natPct": 0.2
+      },
+      {
+        "label": "Canada",
+        "count": 385,
+        "pct": 0.27,
+        "natPct": 0.21
+      }
+    ],
+    "religion": [
+      {
+        "label": "No religion",
+        "count": 67321,
+        "pct": 44.22,
+        "natPct": 38.42
+      },
+      {
+        "label": "Christianity",
+        "count": 67241,
+        "pct": 44.17,
+        "natPct": 43.85
+      },
+      {
+        "label": "Not stated",
+        "count": 14200,
+        "pct": 9.33,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 1193,
+        "pct": 0.78,
+        "natPct": 2.42
+      },
+      {
+        "label": "Other religions",
+        "count": 743,
+        "pct": 0.49,
+        "natPct": 1.28
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Wide Bay is an Australian electoral division in the state of Queensland. The current MP is Llew O'Brien of the National Party.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Wide_Bay",
+    "retrievedAt": "2026-02-03T06:00:43Z"
+  }
+}

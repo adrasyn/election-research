@@ -1,0 +1,6501 @@
+{
+  "schema": 1,
+  "year": 2025,
+  "seat": {
+    "id": "GILMORE",
+    "divisionId": 120,
+    "name": "Gilmore",
+    "state": "NSW",
+    "totalFormal": 111053,
+    "informalVotes": 7276,
+    "informalRate": 7.23,
+    "winner": {
+      "candidateId": "C41365",
+      "surname": "PHILLIPS",
+      "givenName": "Fiona",
+      "party": "alp",
+      "partyAb": "ALP",
+      "incumbent": true
+    },
+    "previousWinnerParty": "ALP",
+    "tcpMargin": 10.26,
+    "result": "ALP RETAIN"
+  },
+  "primary": [
+    {
+      "candidateId": "C41365",
+      "surname": "PHILLIPS",
+      "givenName": "Fiona",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 35518,
+      "pct": 38.05
+    },
+    {
+      "candidateId": "C41739",
+      "surname": "CONSTANCE",
+      "givenName": "Andrew",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 32142,
+      "pct": 34.43
+    },
+    {
+      "candidateId": "C42070",
+      "surname": "DEZARNAULDS",
+      "givenName": "Kate",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 7443,
+      "pct": 7.97
+    },
+    {
+      "candidateId": "C41616",
+      "surname": "KILLIAN",
+      "givenName": "Debbie",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 6517,
+      "pct": 6.98
+    },
+    {
+      "candidateId": "C41969",
+      "surname": "HAWKE",
+      "givenName": "John",
+      "party": "on",
+      "partyAb": "ON",
+      "votes": 4516,
+      "pct": 4.84
+    },
+    {
+      "candidateId": "C41939",
+      "surname": "CARLE",
+      "givenName": "Adrian Richard",
+      "party": "oth",
+      "partyAb": "HMP",
+      "votes": 3453,
+      "pct": 3.7
+    },
+    {
+      "candidateId": "C41710",
+      "surname": "WISE",
+      "givenName": "Melissa",
+      "party": "oth",
+      "partyAb": "CYA",
+      "votes": 2053,
+      "pct": 2.2
+    },
+    {
+      "candidateId": "C41799",
+      "surname": "BROWN",
+      "givenName": "Graham",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 1708,
+      "pct": 1.83
+    }
+  ],
+  "tcp": [
+    {
+      "candidateId": "C41365",
+      "surname": "PHILLIPS",
+      "givenName": "Fiona",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 61223,
+      "pct": 55.13,
+      "elected": true
+    },
+    {
+      "candidateId": "C41739",
+      "surname": "CONSTANCE",
+      "givenName": "Andrew",
+      "party": "lib",
+      "partyAb": "LIB",
+      "votes": 49830,
+      "pct": 44.87,
+      "elected": false
+    }
+  ],
+  "booths": [
+    {
+      "boothId": 34039,
+      "name": "Nowra PPVC",
+      "formal": 13002,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 54.59,
+      "swing": 4.28,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5227,
+          "pct": 40.2
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4684,
+          "pct": 36.03
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 947,
+          "pct": 7.28
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 741,
+          "pct": 5.7
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 607,
+          "pct": 4.67
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 341,
+          "pct": 2.62
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 258,
+          "pct": 1.98
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 197,
+          "pct": 1.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 7098,
+          "elected": true,
+          "pct": 54.59
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5904,
+          "elected": false,
+          "pct": 45.41
+        }
+      ]
+    },
+    {
+      "boothId": 33747,
+      "name": "Ulladulla PPVC",
+      "formal": 10850,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 53.59,
+      "swing": 5.68,
+      "candidates": [
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4018,
+          "pct": 37.03
+        },
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3850,
+          "pct": 35.48
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1238,
+          "pct": 11.41
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 590,
+          "pct": 5.44
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 482,
+          "pct": 4.44
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 318,
+          "pct": 2.93
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 213,
+          "pct": 1.96
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 141,
+          "pct": 1.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5814,
+          "elected": true,
+          "pct": 53.59
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5036,
+          "elected": false,
+          "pct": 46.41
+        }
+      ]
+    },
+    {
+      "boothId": 33919,
+      "name": "Batemans Bay PPVC",
+      "formal": 10045,
+      "winnerParty": "lib",
+      "winnerSurname": "CONSTANCE",
+      "winnerPct": 50.61,
+      "swing": -3.71,
+      "candidates": [
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4107,
+          "pct": 40.89
+        },
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3664,
+          "pct": 36.48
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 604,
+          "pct": 6.01
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 520,
+          "pct": 5.18
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 480,
+          "pct": 4.78
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 278,
+          "pct": 2.77
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 217,
+          "pct": 2.16
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 175,
+          "pct": 1.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4961,
+          "elected": true,
+          "pct": 49.39
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5084,
+          "elected": false,
+          "pct": 50.61
+        }
+      ]
+    },
+    {
+      "boothId": 33746,
+      "name": "Kiama PPVC",
+      "formal": 8478,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 56.24,
+      "swing": 4.33,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3306,
+          "pct": 39.0
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3109,
+          "pct": 36.67
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 757,
+          "pct": 8.93
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 711,
+          "pct": 8.39
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 211,
+          "pct": 2.49
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 147,
+          "pct": 1.73
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 144,
+          "pct": 1.7
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 93,
+          "pct": 1.1
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4768,
+          "elected": true,
+          "pct": 56.24
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3710,
+          "elected": false,
+          "pct": 43.76
+        }
+      ]
+    },
+    {
+      "boothId": 83547,
+      "name": "St Georges Basin PPVC",
+      "formal": 6967,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 52.68,
+      "swing": 2.67,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2764,
+          "pct": 39.67
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2641,
+          "pct": 37.91
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 405,
+          "pct": 5.81
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 354,
+          "pct": 5.08
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 308,
+          "pct": 4.42
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 215,
+          "pct": 3.09
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 174,
+          "pct": 2.5
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 106,
+          "pct": 1.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3670,
+          "elected": true,
+          "pct": 52.68
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3297,
+          "elected": false,
+          "pct": 47.32
+        }
+      ]
+    },
+    {
+      "boothId": 97802,
+      "name": "Nowra South PPVC",
+      "formal": 6774,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 51.12,
+      "swing": 2.86,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 2524,
+          "pct": 37.26
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 2522,
+          "pct": 37.23
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 448,
+          "pct": 6.61
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 356,
+          "pct": 5.26
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 337,
+          "pct": 4.97
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 282,
+          "pct": 4.16
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 180,
+          "pct": 2.66
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 125,
+          "pct": 1.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3463,
+          "elected": true,
+          "pct": 51.12
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3311,
+          "elected": false,
+          "pct": 48.88
+        }
+      ]
+    },
+    {
+      "boothId": 708,
+      "name": "Moruya",
+      "formal": 1568,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 60.84,
+      "swing": 5.42,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 612,
+          "pct": 39.03
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 430,
+          "pct": 27.42
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 152,
+          "pct": 9.69
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 124,
+          "pct": 7.91
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 87,
+          "pct": 5.55
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 81,
+          "pct": 5.17
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 63,
+          "pct": 4.02
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 1.21
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 954,
+          "elected": true,
+          "pct": 60.84
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 614,
+          "elected": false,
+          "pct": 39.16
+        }
+      ]
+    },
+    {
+      "boothId": 964,
+      "name": "Sussex Inlet",
+      "formal": 1354,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 53.62,
+      "swing": 9.13,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 558,
+          "pct": 41.21
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 478,
+          "pct": 35.3
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 95,
+          "pct": 7.02
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 67,
+          "pct": 4.95
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 59,
+          "pct": 4.36
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 48,
+          "pct": 3.55
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 2.66
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 0.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 726,
+          "elected": true,
+          "pct": 53.62
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 628,
+          "elected": false,
+          "pct": 46.38
+        }
+      ]
+    },
+    {
+      "boothId": 2776,
+      "name": "Berry",
+      "formal": 1342,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 56.86,
+      "swing": 8.0,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 475,
+          "pct": 35.39
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 446,
+          "pct": 33.23
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 184,
+          "pct": 13.71
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 120,
+          "pct": 8.94
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 2.76
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 2.61
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 1.86
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 763,
+          "elected": true,
+          "pct": 56.86
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 579,
+          "elected": false,
+          "pct": 43.14
+        }
+      ]
+    },
+    {
+      "boothId": 2777,
+      "name": "Bomaderry",
+      "formal": 1329,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 58.39,
+      "swing": 2.38,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 513,
+          "pct": 38.6
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 385,
+          "pct": 28.97
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 108,
+          "pct": 8.13
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 93,
+          "pct": 7.0
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 91,
+          "pct": 6.85
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 63,
+          "pct": 4.74
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 43,
+          "pct": 3.24
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 2.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 776,
+          "elected": true,
+          "pct": 58.39
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 553,
+          "elected": false,
+          "pct": 41.61
+        }
+      ]
+    },
+    {
+      "boothId": 2807,
+      "name": "Shoalhaven Heads",
+      "formal": 1282,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 60.53,
+      "swing": 10.98,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 557,
+          "pct": 43.45
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 408,
+          "pct": 31.83
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 104,
+          "pct": 8.11
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 87,
+          "pct": 6.79
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 39,
+          "pct": 3.04
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.65
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 2.65
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 1.48
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 776,
+          "elected": true,
+          "pct": 60.53
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 506,
+          "elected": false,
+          "pct": 39.47
+        }
+      ]
+    },
+    {
+      "boothId": 962,
+      "name": "Sanctuary Point",
+      "formal": 1200,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 60.83,
+      "swing": 2.19,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 469,
+          "pct": 39.08
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 301,
+          "pct": 25.08
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 107,
+          "pct": 8.92
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 94,
+          "pct": 7.83
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 89,
+          "pct": 7.42
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 82,
+          "pct": 6.83
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 1.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 730,
+          "elected": true,
+          "pct": 60.83
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 470,
+          "elected": false,
+          "pct": 39.17
+        }
+      ]
+    },
+    {
+      "boothId": 2790,
+      "name": "Kiama",
+      "formal": 1162,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 65.15,
+      "swing": 11.26,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 445,
+          "pct": 38.3
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 303,
+          "pct": 26.08
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 163,
+          "pct": 14.03
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 134,
+          "pct": 11.53
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 3.7
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 2.67
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 26,
+          "pct": 2.24
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.46
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 757,
+          "elected": true,
+          "pct": 65.15
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 405,
+          "elected": false,
+          "pct": 34.85
+        }
+      ]
+    },
+    {
+      "boothId": 732,
+      "name": "Ulladulla",
+      "formal": 1159,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 57.46,
+      "swing": 4.62,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 358,
+          "pct": 30.89
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 310,
+          "pct": 26.75
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 158,
+          "pct": 13.63
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 118,
+          "pct": 10.18
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 75,
+          "pct": 6.47
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 72,
+          "pct": 6.21
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.11
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 2.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 666,
+          "elected": true,
+          "pct": 57.46
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 493,
+          "elected": false,
+          "pct": 42.54
+        }
+      ]
+    },
+    {
+      "boothId": 974,
+      "name": "Vincentia",
+      "formal": 1105,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 59.73,
+      "swing": 8.76,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 437,
+          "pct": 39.55
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 333,
+          "pct": 30.14
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 114,
+          "pct": 10.32
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 87,
+          "pct": 7.87
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 4.16
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 42,
+          "pct": 3.8
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 2.17
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 1.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 660,
+          "elected": true,
+          "pct": 59.73
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 445,
+          "elected": false,
+          "pct": 40.27
+        }
+      ]
+    },
+    {
+      "boothId": 31484,
+      "name": "Nowra South",
+      "formal": 977,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 59.88,
+      "swing": 1.61,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 343,
+          "pct": 35.11
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 222,
+          "pct": 22.72
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 104,
+          "pct": 10.64
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 97,
+          "pct": 9.93
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 74,
+          "pct": 7.57
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 7.47
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 3.68
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 2.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 585,
+          "elected": true,
+          "pct": 59.88
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 392,
+          "elected": false,
+          "pct": 40.12
+        }
+      ]
+    },
+    {
+      "boothId": 954,
+      "name": "Nowra Bomaderry",
+      "formal": 974,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 56.16,
+      "swing": 2.37,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 338,
+          "pct": 34.7
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 271,
+          "pct": 27.82
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 87,
+          "pct": 8.93
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "pct": 8.73
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 78,
+          "pct": 8.01
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 62,
+          "pct": 6.37
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 27,
+          "pct": 2.77
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 2.67
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 547,
+          "elected": true,
+          "pct": 56.16
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 427,
+          "elected": false,
+          "pct": 43.84
+        }
+      ]
+    },
+    {
+      "boothId": 917,
+      "name": "Culburra",
+      "formal": 972,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 59.16,
+      "swing": 9.29,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 375,
+          "pct": 38.58
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 281,
+          "pct": 28.91
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 96,
+          "pct": 9.88
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 80,
+          "pct": 8.23
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 54,
+          "pct": 5.56
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 45,
+          "pct": 4.63
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 2.37
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 18,
+          "pct": 1.85
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 575,
+          "elected": true,
+          "pct": 59.16
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 397,
+          "elected": false,
+          "pct": 40.84
+        }
+      ]
+    },
+    {
+      "boothId": 2783,
+      "name": "Gerringong",
+      "formal": 924,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 62.12,
+      "swing": 5.18,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 344,
+          "pct": 37.23
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 262,
+          "pct": 28.35
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 125,
+          "pct": 13.53
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 95,
+          "pct": 10.28
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 4.55
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 29,
+          "pct": 3.14
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 16,
+          "pct": 1.73
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 574,
+          "elected": true,
+          "pct": 62.12
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 350,
+          "elected": false,
+          "pct": 37.88
+        }
+      ]
+    },
+    {
+      "boothId": 32478,
+      "name": "Callala Bay",
+      "formal": 899,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 60.51,
+      "swing": 4.27,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 393,
+          "pct": 43.72
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 257,
+          "pct": 28.59
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 66,
+          "pct": 7.34
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 58,
+          "pct": 6.45
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 51,
+          "pct": 5.67
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 43,
+          "pct": 4.78
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.34
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 1.11
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 544,
+          "elected": true,
+          "pct": 60.51
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 355,
+          "elected": false,
+          "pct": 39.49
+        }
+      ]
+    },
+    {
+      "boothId": 670,
+      "name": "Batemans Bay",
+      "formal": 892,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 54.15,
+      "swing": 9.9,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 316,
+          "pct": 35.43
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 267,
+          "pct": 29.93
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 77,
+          "pct": 8.63
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 66,
+          "pct": 7.4
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 6.84
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 50,
+          "pct": 5.61
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 36,
+          "pct": 4.04
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 2.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 483,
+          "elected": true,
+          "pct": 54.15
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 409,
+          "elected": false,
+          "pct": 45.85
+        }
+      ]
+    },
+    {
+      "boothId": 963,
+      "name": "Nowra Centre",
+      "formal": 877,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 59.86,
+      "swing": 5.02,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 321,
+          "pct": 36.6
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 222,
+          "pct": 25.31
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 82,
+          "pct": 9.35
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 77,
+          "pct": 8.78
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 71,
+          "pct": 8.1
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 4.68
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 35,
+          "pct": 3.99
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 3.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 525,
+          "elected": true,
+          "pct": 59.86
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 352,
+          "elected": false,
+          "pct": 40.14
+        }
+      ]
+    },
+    {
+      "boothId": 11638,
+      "name": "Broulee",
+      "formal": 791,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 66.88,
+      "swing": 8.7,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 343,
+          "pct": 43.36
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 190,
+          "pct": 24.02
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 106,
+          "pct": 13.4
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 74,
+          "pct": 9.36
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 3.41
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 2.4
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.28
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 529,
+          "elected": true,
+          "pct": 66.88
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 262,
+          "elected": false,
+          "pct": 33.12
+        }
+      ]
+    },
+    {
+      "boothId": 909,
+      "name": "Cambewarra",
+      "formal": 767,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 56.06,
+      "swing": 9.59,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 295,
+          "pct": 38.46
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 229,
+          "pct": 29.86
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 75,
+          "pct": 9.78
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 58,
+          "pct": 7.56
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 4.95
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 32,
+          "pct": 4.17
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.87
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 430,
+          "elected": true,
+          "pct": 56.06
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 337,
+          "elected": false,
+          "pct": 43.94
+        }
+      ]
+    },
+    {
+      "boothId": 2797,
+      "name": "Minnamurra",
+      "formal": 753,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 58.3,
+      "swing": 4.2,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 304,
+          "pct": 40.37
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 238,
+          "pct": 31.61
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 81,
+          "pct": 10.76
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 49,
+          "pct": 6.51
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 4.25
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.92
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 2.52
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 439,
+          "elected": true,
+          "pct": 58.3
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 314,
+          "elected": false,
+          "pct": 41.7
+        }
+      ]
+    },
+    {
+      "boothId": 2791,
+      "name": "Kiama Downs",
+      "formal": 746,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 59.12,
+      "swing": 5.79,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 288,
+          "pct": 38.61
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 214,
+          "pct": 28.69
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 93,
+          "pct": 12.47
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 6.97
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 5.63
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 3.49
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 17,
+          "pct": 2.28
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.88
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 441,
+          "elected": true,
+          "pct": 59.12
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 305,
+          "elected": false,
+          "pct": 40.88
+        }
+      ]
+    },
+    {
+      "boothId": 726,
+      "name": "Sunshine Bay",
+      "formal": 741,
+      "winnerParty": "lib",
+      "winnerSurname": "CONSTANCE",
+      "winnerPct": 50.47,
+      "swing": -6.24,
+      "candidates": [
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 277,
+          "pct": 37.38
+        },
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 245,
+          "pct": 33.06
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 68,
+          "pct": 9.18
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 5.94
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 39,
+          "pct": 5.26
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 4.45
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 23,
+          "pct": 3.1
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 1.62
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 367,
+          "elected": true,
+          "pct": 49.53
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 374,
+          "elected": false,
+          "pct": 50.47
+        }
+      ]
+    },
+    {
+      "boothId": 960,
+      "name": "St Georges Basin",
+      "formal": 712,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 58.15,
+      "swing": 8.1,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 262,
+          "pct": 36.8
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 186,
+          "pct": 26.12
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 72,
+          "pct": 10.11
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 61,
+          "pct": 8.57
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 58,
+          "pct": 8.15
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 6.04
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.25
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 1.97
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 414,
+          "elected": true,
+          "pct": 58.15
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 298,
+          "elected": false,
+          "pct": 41.85
+        }
+      ]
+    },
+    {
+      "boothId": 936,
+      "name": "Huskisson",
+      "formal": 672,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 59.97,
+      "swing": 4.44,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 249,
+          "pct": 37.05
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 193,
+          "pct": 28.72
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 87,
+          "pct": 12.95
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 10.42
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 22,
+          "pct": 3.27
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 3.12
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.68
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 403,
+          "elected": true,
+          "pct": 59.97
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 269,
+          "elected": false,
+          "pct": 40.03
+        }
+      ]
+    },
+    {
+      "boothId": 950,
+      "name": "Nowra",
+      "formal": 662,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 57.7,
+      "swing": 0.11,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 237,
+          "pct": 35.8
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 173,
+          "pct": 26.13
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 73,
+          "pct": 11.03
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 59,
+          "pct": 8.91
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 41,
+          "pct": 6.19
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 39,
+          "pct": 5.89
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 4.08
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 1.96
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 382,
+          "elected": true,
+          "pct": 57.7
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 280,
+          "elected": false,
+          "pct": 42.3
+        }
+      ]
+    },
+    {
+      "boothId": 669,
+      "name": "Batehaven",
+      "formal": 655,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 53.28,
+      "swing": 8.84,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 251,
+          "pct": 38.32
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 210,
+          "pct": 32.06
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 47,
+          "pct": 7.18
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 37,
+          "pct": 5.65
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 36,
+          "pct": 5.5
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 31,
+          "pct": 4.73
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 24,
+          "pct": 3.66
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 19,
+          "pct": 2.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 349,
+          "elected": true,
+          "pct": 53.28
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 306,
+          "elected": false,
+          "pct": 46.72
+        }
+      ]
+    },
+    {
+      "boothId": 2788,
+      "name": "Jamberoo",
+      "formal": 631,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 57.21,
+      "swing": 4.41,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 224,
+          "pct": 35.5
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 211,
+          "pct": 33.44
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 72,
+          "pct": 11.41
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 57,
+          "pct": 9.03
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 27,
+          "pct": 4.28
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 21,
+          "pct": 3.33
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 1.74
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 361,
+          "elected": true,
+          "pct": 57.21
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 270,
+          "elected": false,
+          "pct": 42.79
+        }
+      ]
+    },
+    {
+      "boothId": 951,
+      "name": "Nowra East",
+      "formal": 619,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 63.81,
+      "swing": 3.65,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 240,
+          "pct": 38.77
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 126,
+          "pct": 20.36
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 78,
+          "pct": 12.6
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 62,
+          "pct": 10.02
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 6.3
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 5.01
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 3.88
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 3.07
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 395,
+          "elected": true,
+          "pct": 63.81
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 224,
+          "elected": false,
+          "pct": 36.19
+        }
+      ]
+    },
+    {
+      "boothId": 2811,
+      "name": "Werri Beach",
+      "formal": 607,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 60.79,
+      "swing": 11.38,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 235,
+          "pct": 38.71
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 202,
+          "pct": 33.28
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 58,
+          "pct": 9.56
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 56,
+          "pct": 9.23
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 3.13
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 2.97
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 2.31
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 0.82
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 369,
+          "elected": true,
+          "pct": 60.79
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 238,
+          "elected": false,
+          "pct": 39.21
+        }
+      ]
+    },
+    {
+      "boothId": 33136,
+      "name": "Nowra North",
+      "formal": 581,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 55.08,
+      "swing": 3.35,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 200,
+          "pct": 34.42
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 183,
+          "pct": 31.5
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 48,
+          "pct": 8.26
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 48,
+          "pct": 8.26
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 42,
+          "pct": 7.23
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 4.3
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 3.27
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 320,
+          "elected": true,
+          "pct": 55.08
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 261,
+          "elected": false,
+          "pct": 44.92
+        }
+      ]
+    },
+    {
+      "boothId": 972,
+      "name": "Tomerong",
+      "formal": 570,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 53.86,
+      "swing": 1.67,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 185,
+          "pct": 32.46
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 171,
+          "pct": 30.0
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 9.12
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 47,
+          "pct": 8.25
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 42,
+          "pct": 7.37
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 5.44
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 3.86
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 3.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 307,
+          "elected": true,
+          "pct": 53.86
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 263,
+          "elected": false,
+          "pct": 46.14
+        }
+      ]
+    },
+    {
+      "boothId": 916,
+      "name": "Cudmirrah",
+      "formal": 560,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 55.36,
+      "swing": 5.8,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 245,
+          "pct": 43.75
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 176,
+          "pct": 31.43
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 43,
+          "pct": 7.68
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 28,
+          "pct": 5.0
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 25,
+          "pct": 4.46
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 23,
+          "pct": 4.11
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 2.68
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 0.89
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 310,
+          "elected": true,
+          "pct": 55.36
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "elected": false,
+          "pct": 44.64
+        }
+      ]
+    },
+    {
+      "boothId": 938,
+      "name": "Kangaroo Valley",
+      "formal": 545,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 67.34,
+      "swing": 2.78,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 226,
+          "pct": 41.47
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 130,
+          "pct": 23.85
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 94,
+          "pct": 17.25
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 8.44
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 3.67
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 2.94
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.65
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 0.73
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 367,
+          "elected": true,
+          "pct": 67.34
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 178,
+          "elected": false,
+          "pct": 32.66
+        }
+      ]
+    },
+    {
+      "boothId": 707,
+      "name": "Narrawallee",
+      "formal": 522,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 55.56,
+      "swing": 4.17,
+      "candidates": [
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 177,
+          "pct": 33.91
+        },
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 168,
+          "pct": 32.18
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 78,
+          "pct": 14.94
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 8.81
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 3.45
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 3.07
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 2.49
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 290,
+          "elected": true,
+          "pct": 55.56
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 232,
+          "elected": false,
+          "pct": 44.44
+        }
+      ]
+    },
+    {
+      "boothId": 83544,
+      "name": "Moruya South",
+      "formal": 501,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 60.88,
+      "swing": 9.4,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 201,
+          "pct": 40.12
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 133,
+          "pct": 26.55
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 9.18
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 41,
+          "pct": 8.18
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 27,
+          "pct": 5.39
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 5.19
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.79
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 13,
+          "pct": 2.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 305,
+          "elected": true,
+          "pct": 60.88
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 196,
+          "elected": false,
+          "pct": 39.12
+        }
+      ]
+    },
+    {
+      "boothId": 705,
+      "name": "Milton",
+      "formal": 491,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 61.51,
+      "swing": 7.37,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 168,
+          "pct": 34.22
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 141,
+          "pct": 28.72
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 74,
+          "pct": 15.07
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 53,
+          "pct": 10.79
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 5.7
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.83
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 1.83
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 1.83
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 302,
+          "elected": true,
+          "pct": 61.51
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 189,
+          "elected": false,
+          "pct": 38.49
+        }
+      ]
+    },
+    {
+      "boothId": 31033,
+      "name": "Tomakin",
+      "formal": 490,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 59.8,
+      "swing": 6.86,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 197,
+          "pct": 40.2
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 147,
+          "pct": 30.0
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 52,
+          "pct": 10.61
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 7.96
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 3.88
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 3.06
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 13,
+          "pct": 2.65
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.63
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 293,
+          "elected": true,
+          "pct": 59.8
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 197,
+          "elected": false,
+          "pct": 40.2
+        }
+      ]
+    },
+    {
+      "boothId": 11943,
+      "name": "Basin View",
+      "formal": 471,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 53.72,
+      "swing": 4.69,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 150,
+          "pct": 31.85
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 148,
+          "pct": 31.42
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 40,
+          "pct": 8.49
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 40,
+          "pct": 8.49
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 33,
+          "pct": 7.01
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 5.94
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 24,
+          "pct": 5.1
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 8,
+          "pct": 1.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 253,
+          "elected": true,
+          "pct": 53.72
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 218,
+          "elected": false,
+          "pct": 46.28
+        }
+      ]
+    },
+    {
+      "boothId": 686,
+      "name": "Burrill Lake",
+      "formal": 465,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 60.22,
+      "swing": 6.7,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 174,
+          "pct": 37.42
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 123,
+          "pct": 26.45
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 51,
+          "pct": 10.97
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 45,
+          "pct": 9.68
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 6.02
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 20,
+          "pct": 4.3
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 3.44
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 280,
+          "elected": true,
+          "pct": 60.22
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 185,
+          "elected": false,
+          "pct": 39.78
+        }
+      ]
+    },
+    {
+      "boothId": 932,
+      "name": "Greenwell Point",
+      "formal": 432,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 52.78,
+      "swing": 4.96,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 179,
+          "pct": 41.44
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 163,
+          "pct": 37.73
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 31,
+          "pct": 7.18
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 18,
+          "pct": 4.17
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 3.7
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 15,
+          "pct": 3.47
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 1.39
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 0.93
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 228,
+          "elected": true,
+          "pct": 52.78
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 204,
+          "elected": false,
+          "pct": 47.22
+        }
+      ]
+    },
+    {
+      "boothId": 11637,
+      "name": "Malua Bay",
+      "formal": 405,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 59.75,
+      "swing": 11.96,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 174,
+          "pct": 42.96
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 121,
+          "pct": 29.88
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 39,
+          "pct": 9.63
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 23,
+          "pct": 5.68
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 18,
+          "pct": 4.44
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.96
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 2.47
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 1.98
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 242,
+          "elected": true,
+          "pct": 59.75
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 163,
+          "elected": false,
+          "pct": 40.25
+        }
+      ]
+    },
+    {
+      "boothId": 31839,
+      "name": "Long Beach",
+      "formal": 391,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 53.2,
+      "swing": 6.83,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 137,
+          "pct": 35.04
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 135,
+          "pct": 34.53
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 35,
+          "pct": 8.95
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 24,
+          "pct": 6.14
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 5.63
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 4.35
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 3.58
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 1.79
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 208,
+          "elected": true,
+          "pct": 53.2
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 183,
+          "elected": false,
+          "pct": 46.8
+        }
+      ]
+    },
+    {
+      "boothId": 970,
+      "name": "Terara",
+      "formal": 376,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 54.26,
+      "swing": 11.04,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 144,
+          "pct": 38.3
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 127,
+          "pct": 33.78
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 23,
+          "pct": 6.12
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 5.85
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 5.59
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 18,
+          "pct": 4.79
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 3.72
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 1.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 204,
+          "elected": true,
+          "pct": 54.26
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 172,
+          "elected": false,
+          "pct": 45.74
+        }
+      ]
+    },
+    {
+      "boothId": 671,
+      "name": "Bawley Point",
+      "formal": 371,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 61.73,
+      "swing": 2.26,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 133,
+          "pct": 35.85
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 106,
+          "pct": 28.57
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 41,
+          "pct": 11.05
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 10.51
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 5.39
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 4.31
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 12,
+          "pct": 3.23
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 229,
+          "elected": true,
+          "pct": 61.73
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 142,
+          "elected": false,
+          "pct": 38.27
+        }
+      ]
+    },
+    {
+      "boothId": 31482,
+      "name": "Kiama South",
+      "formal": 357,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 66.39,
+      "swing": 8.5,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 135,
+          "pct": 37.82
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 97,
+          "pct": 27.17
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 46,
+          "pct": 12.89
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 45,
+          "pct": 12.61
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 16,
+          "pct": 4.48
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 3.08
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.12
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 0.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 237,
+          "elected": true,
+          "pct": 66.39
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 120,
+          "elected": false,
+          "pct": 33.61
+        }
+      ]
+    },
+    {
+      "boothId": 920,
+      "name": "Erowal Bay",
+      "formal": 300,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 57.0,
+      "swing": 0.15,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 125,
+          "pct": 41.67
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 96,
+          "pct": 32.0
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 31,
+          "pct": 10.33
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 4.67
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 4.0
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 4.0
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.33
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 171,
+          "elected": true,
+          "pct": 57.0
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 129,
+          "elected": false,
+          "pct": 43.0
+        }
+      ]
+    },
+    {
+      "boothId": 952,
+      "name": "Nowra Hill",
+      "formal": 290,
+      "winnerParty": "lib",
+      "winnerSurname": "CONSTANCE",
+      "winnerPct": 54.14,
+      "swing": -4.78,
+      "candidates": [
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 113,
+          "pct": 38.97
+        },
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 88,
+          "pct": 30.34
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 10.34
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 7.24
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 5.17
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 4.14
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.07
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.72
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 133,
+          "elected": true,
+          "pct": 45.86
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 157,
+          "elected": false,
+          "pct": 54.14
+        }
+      ]
+    },
+    {
+      "boothId": 942,
+      "name": "Manyana",
+      "formal": 284,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 67.61,
+      "swing": 3.2,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 124,
+          "pct": 43.66
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 59,
+          "pct": 20.77
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 36,
+          "pct": 12.68
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 27,
+          "pct": 9.51
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 17,
+          "pct": 5.99
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 3.87
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.82
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 0.7
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 192,
+          "elected": true,
+          "pct": 67.61
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 92,
+          "elected": false,
+          "pct": 32.39
+        }
+      ]
+    },
+    {
+      "boothId": 911,
+      "name": "Lake Conjola",
+      "formal": 276,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 56.88,
+      "swing": 6.88,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 115,
+          "pct": 41.67
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 99,
+          "pct": 35.87
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 18,
+          "pct": 6.52
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 14,
+          "pct": 5.07
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 5.07
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 3.62
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.17
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 157,
+          "elected": true,
+          "pct": 56.88
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 119,
+          "elected": false,
+          "pct": 43.12
+        }
+      ]
+    },
+    {
+      "boothId": 108905,
+      "name": "Special Hospital Team 1",
+      "formal": 264,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 60.98,
+      "swing": 14.35,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "pct": 52.65
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 89,
+          "pct": 33.71
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 3.41
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.27
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 2.27
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.27
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 1.89
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 161,
+          "elected": true,
+          "pct": 60.98
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 103,
+          "elected": false,
+          "pct": 39.02
+        }
+      ]
+    },
+    {
+      "boothId": 109092,
+      "name": "Special Hospital Team 3",
+      "formal": 255,
+      "winnerParty": "lib",
+      "winnerSurname": "CONSTANCE",
+      "winnerPct": 53.33,
+      "swing": -0.07,
+      "candidates": [
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 125,
+          "pct": 49.02
+        },
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 104,
+          "pct": 40.78
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 3.14
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 2.75
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 1.57
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.18
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.78
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.78
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 119,
+          "elected": true,
+          "pct": 46.67
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 136,
+          "elected": false,
+          "pct": 53.33
+        }
+      ]
+    },
+    {
+      "boothId": 908,
+      "name": "Callala Beach",
+      "formal": 251,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 59.36,
+      "swing": 3.84,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 109,
+          "pct": 43.43
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 78,
+          "pct": 31.08
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 19,
+          "pct": 7.57
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 7.57
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 12,
+          "pct": 4.78
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.79
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.59
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.2
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 149,
+          "elected": true,
+          "pct": 59.36
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 102,
+          "elected": false,
+          "pct": 40.64
+        }
+      ]
+    },
+    {
+      "boothId": 2784,
+      "name": "Gerroa",
+      "formal": 237,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 56.54,
+      "swing": 2.03,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 88,
+          "pct": 37.13
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 84,
+          "pct": 35.44
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 27,
+          "pct": 11.39
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 6.75
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 9,
+          "pct": 3.8
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.53
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.69
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.27
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 134,
+          "elected": true,
+          "pct": 56.54
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 103,
+          "elected": false,
+          "pct": 43.46
+        }
+      ]
+    },
+    {
+      "boothId": 922,
+      "name": "Falls Creek",
+      "formal": 229,
+      "winnerParty": "lib",
+      "winnerSurname": "CONSTANCE",
+      "winnerPct": 56.77,
+      "swing": -3.0,
+      "candidates": [
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 93,
+          "pct": 40.61
+        },
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 66,
+          "pct": 28.82
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 10.48
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 9.17
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 10,
+          "pct": 4.37
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 3.93
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.62
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 99,
+          "elected": true,
+          "pct": 43.23
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 130,
+          "elected": false,
+          "pct": 56.77
+        }
+      ]
+    },
+    {
+      "boothId": 918,
+      "name": "Currarong",
+      "formal": 225,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 55.56,
+      "swing": 9.3,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 95,
+          "pct": 42.22
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 91,
+          "pct": 40.44
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 15,
+          "pct": 6.67
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 4.0
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 2.67
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 5,
+          "pct": 2.22
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 1.78
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 125,
+          "elected": true,
+          "pct": 55.56
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 100,
+          "elected": false,
+          "pct": 44.44
+        }
+      ]
+    },
+    {
+      "boothId": 706,
+      "name": "Mogo",
+      "formal": 196,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 55.61,
+      "swing": 11.39,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 70,
+          "pct": 35.71
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 63,
+          "pct": 32.14
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 18,
+          "pct": 9.18
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 8.67
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 6.63
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 8,
+          "pct": 4.08
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.04
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 109,
+          "elected": true,
+          "pct": 55.61
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 87,
+          "elected": false,
+          "pct": 44.39
+        }
+      ]
+    },
+    {
+      "boothId": 108906,
+      "name": "Special Hospital Team 2",
+      "formal": 150,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 57.33,
+      "swing": 10.71,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 72,
+          "pct": 48.0
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 57,
+          "pct": 38.0
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 4.0
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 3.33
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.67
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.0
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 3,
+          "pct": 2.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 86,
+          "elected": true,
+          "pct": 57.33
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 64,
+          "elected": false,
+          "pct": 42.67
+        }
+      ]
+    },
+    {
+      "boothId": 725,
+      "name": "South Durras",
+      "formal": 147,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 65.31,
+      "swing": 16.56,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 65,
+          "pct": 44.22
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 39,
+          "pct": 26.53
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 15,
+          "pct": 10.2
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "pct": 7.48
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 5.44
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 2.72
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 2.72
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.68
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 96,
+          "elected": true,
+          "pct": 65.31
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 51,
+          "elected": false,
+          "pct": 34.69
+        }
+      ]
+    },
+    {
+      "boothId": 711,
+      "name": "Nelligen",
+      "formal": 135,
+      "winnerParty": "lib",
+      "winnerSurname": "CONSTANCE",
+      "winnerPct": 57.04,
+      "swing": -0.54,
+      "candidates": [
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 56,
+          "pct": 41.48
+        },
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 38,
+          "pct": 28.15
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 16,
+          "pct": 11.85
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 7.41
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 6,
+          "pct": 4.44
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 2.96
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 4,
+          "pct": 2.96
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 58,
+          "elected": true,
+          "pct": 42.96
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 77,
+          "elected": false,
+          "pct": 57.04
+        }
+      ]
+    },
+    {
+      "boothId": 123975,
+      "name": "Other Mobile Team 3",
+      "formal": 40,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 75.0,
+      "swing": 27.38,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 17,
+          "pct": 42.5
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 8,
+          "pct": 20.0
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 15.0
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 12.5
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 5.0
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 5.0
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 30,
+          "elected": true,
+          "pct": 75.0
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 10,
+          "elected": false,
+          "pct": 25.0
+        }
+      ]
+    },
+    {
+      "boothId": 123973,
+      "name": "Other Mobile Team 1",
+      "formal": 16,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 68.75,
+      "swing": 21.13,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "pct": 31.25
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 4,
+          "pct": 25.0
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 12.5
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 12.5
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 12.5
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 11,
+          "elected": true,
+          "pct": 68.75
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5,
+          "elected": false,
+          "pct": 31.25
+        }
+      ]
+    },
+    {
+      "boothId": 123974,
+      "name": "Other Mobile Team 2",
+      "formal": 15,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 66.67,
+      "swing": 19.05,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 9,
+          "pct": 60.0
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "pct": 20.0
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 6.67
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 6.67
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 6.67
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10,
+          "elected": true,
+          "pct": 66.67
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5,
+          "elected": false,
+          "pct": 33.33
+        }
+      ]
+    },
+    {
+      "boothId": 123976,
+      "name": "Other Mobile Team 4",
+      "formal": 13,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 76.92,
+      "swing": 29.3,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 5,
+          "pct": 38.46
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 15.38
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 15.38
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 7.69
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 1,
+          "pct": 7.69
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 1,
+          "pct": 7.69
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 7.69
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 10,
+          "elected": true,
+          "pct": 76.92
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "elected": false,
+          "pct": 23.08
+        }
+      ]
+    },
+    {
+      "boothId": 65612,
+      "name": "EAV Gilmore PPVC",
+      "formal": 11,
+      "winnerParty": "alp",
+      "winnerSurname": "PHILLIPS",
+      "winnerPct": 72.73,
+      "swing": 22.73,
+      "candidates": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 54.55
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "pct": 27.27
+        },
+        {
+          "surname": "DEZARNAULDS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 9.09
+        },
+        {
+          "surname": "KILLIAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 9.09
+        },
+        {
+          "surname": "WISE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HAWKE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "CARLE",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PHILLIPS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 8,
+          "elected": true,
+          "pct": 72.73
+        },
+        {
+          "surname": "CONSTANCE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 3,
+          "elected": false,
+          "pct": 27.27
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "totalFormal": 111053,
+    "candidates": [
+      {
+        "id": "C41365",
+        "party": "alp",
+        "displayShort": "ALP",
+        "displayLong": "ALP \u2014 Phillips"
+      },
+      {
+        "id": "C42070",
+        "party": "ind",
+        "displayShort": "IND",
+        "displayLong": "IND \u2014 Dezarnaulds"
+      },
+      {
+        "id": "C41710",
+        "party": "oth",
+        "displayShort": "CYA",
+        "displayLong": "CYA \u2014 Wise"
+      },
+      {
+        "id": "C41616",
+        "party": "grn",
+        "displayShort": "GRN",
+        "displayLong": "GRN \u2014 Killian"
+      },
+      {
+        "id": "C41799",
+        "party": "ffp",
+        "displayShort": "FFP",
+        "displayLong": "FFP \u2014 Brown"
+      },
+      {
+        "id": "C41739",
+        "party": "lib",
+        "displayShort": "LIB",
+        "displayLong": "LIB \u2014 Constance"
+      },
+      {
+        "id": "C41969",
+        "party": "on",
+        "displayShort": "ON",
+        "displayLong": "ON \u2014 Hawke"
+      },
+      {
+        "id": "C41939",
+        "party": "oth",
+        "displayShort": "HMP",
+        "displayLong": "HMP \u2014 Carle"
+      }
+    ],
+    "rounds": [
+      {
+        "C41365": 42342,
+        "C42070": 8371,
+        "C41710": 2476,
+        "C41616": 7932,
+        "C41799": 2004,
+        "C41739": 38247,
+        "C41969": 5557,
+        "C41939": 4124
+      },
+      {
+        "C41365": 42497,
+        "C42070": 8538,
+        "C41710": 2684,
+        "C41616": 8032,
+        "C41739": 38556,
+        "C41969": 6491,
+        "C41939": 4255
+      },
+      {
+        "C41365": 42734,
+        "C42070": 8982,
+        "C41616": 8156,
+        "C41739": 38976,
+        "C41969": 7678,
+        "C41939": 4527
+      },
+      {
+        "C41365": 43726,
+        "C42070": 9762,
+        "C41616": 9097,
+        "C41739": 39549,
+        "C41969": 8919
+      },
+      {
+        "C41365": 44673,
+        "C42070": 12616,
+        "C41616": 9689,
+        "C41739": 44075
+      },
+      {
+        "C41365": 49361,
+        "C42070": 16968,
+        "C41739": 44724
+      },
+      {
+        "C41365": 61223,
+        "C41739": 49830
+      }
+    ]
+  },
+  "history": {
+    "trend": {
+      "years": [
+        "2007",
+        "2010",
+        "2013",
+        "2016",
+        "2019",
+        "2022",
+        "2025"
+      ],
+      "series": [
+        {
+          "id": "LIB",
+          "party": "lib",
+          "label": "LIB",
+          "points": [
+            54.07,
+            55.32,
+            52.65,
+            50.73,
+            47.39,
+            49.83,
+            44.87
+          ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            45.93,
+            44.68,
+            47.35,
+            49.27,
+            52.61,
+            50.17,
+            55.13
+          ]
+        }
+      ]
+    },
+    "primary": {
+      "rows": [
+        {
+          "year": "2007",
+          "shares": {
+            "GRN": 7.55,
+            "LIB": 50.39,
+            "ALP": 37.79,
+            "CDP": 2.18,
+            "OTH": 2.08
+          }
+        },
+        {
+          "year": "2010",
+          "shares": {
+            "CDP": 2.67,
+            "GRN": 9.57,
+            "ALP": 35.18,
+            "LIB": 50.93,
+            "OTH": 1.65
+          }
+        },
+        {
+          "year": "2013",
+          "shares": {
+            "ALP": 35.05,
+            "TOP": 6.31,
+            "GRN": 9.3,
+            "LIB": 46.0,
+            "CDP": 3.34
+          }
+        },
+        {
+          "year": "2016",
+          "shares": {
+            "GRN": 10.49,
+            "CDP": 5.0,
+            "ALP": 39.23,
+            "LIB": 45.28
+          }
+        },
+        {
+          "year": "2019",
+          "shares": {
+            "GRN": 9.97,
+            "ALP": 36.19,
+            "IND": 7.04,
+            "TOP": 3.38,
+            "NAT": 12.5,
+            "LIB": 29.19,
+            "OTH": 1.72
+          }
+        },
+        {
+          "year": "2022",
+          "shares": {
+            "ALP": 35.97,
+            "GRN": 10.22,
+            "IND": 4.23,
+            "TOP": 2.78,
+            "ON": 3.99,
+            "LIB": 42.02,
+            "OTH": 0.8
+          }
+        },
+        {
+          "year": "2025",
+          "shares": {
+            "IND": 7.54,
+            "ALP": 38.13,
+            "GRN": 7.14,
+            "HMP": 3.71,
+            "ON": 5.0,
+            "CYA": 2.23,
+            "LIB": 34.44,
+            "OTH": 1.8
+          }
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "totalPopulation": 163743,
+    "medianAge": 49,
+    "medianHouseholdIncomeWeekly": 1293,
+    "medianRentWeekly": 350,
+    "averageHouseholdSize": 2.3,
+    "bornOverseasPct": 14.6,
+    "indigenousPct": 5.8,
+    "bachelorPlusPct": 28.4,
+    "renterPct": 23.2,
+    "countryOfBirth": [
+      {
+        "label": "Australia",
+        "count": 130606,
+        "pct": 85.36,
+        "natPct": 70.73
+      },
+      {
+        "label": "England",
+        "count": 3694,
+        "pct": 2.41,
+        "natPct": 1.95
+      },
+      {
+        "label": "New Zealand",
+        "count": 1027,
+        "pct": 0.67,
+        "natPct": 1.11
+      },
+      {
+        "label": "Scotland",
+        "count": 435,
+        "pct": 0.28,
+        "natPct": 0.25
+      },
+      {
+        "label": "Germany",
+        "count": 406,
+        "pct": 0.27,
+        "natPct": 0.2
+      }
+    ],
+    "religion": [
+      {
+        "label": "Christianity",
+        "count": 79234,
+        "pct": 48.39,
+        "natPct": 43.85
+      },
+      {
+        "label": "No religion",
+        "count": 67307,
+        "pct": 41.11,
+        "natPct": 38.42
+      },
+      {
+        "label": "Not stated",
+        "count": 13175,
+        "pct": 8.05,
+        "natPct": 7.27
+      },
+      {
+        "label": "Buddhism",
+        "count": 1271,
+        "pct": 0.78,
+        "natPct": 2.42
+      },
+      {
+        "label": "Hinduism",
+        "count": 685,
+        "pct": 0.42,
+        "natPct": 2.69
+      }
+    ],
+    "national": {
+      "totalPopulation": 25422819,
+      "medianAge": 39,
+      "medianHouseholdIncomeWeekly": 1773,
+      "medianRentWeekly": 375,
+      "averageHouseholdSize": 2.6,
+      "bornOverseasPct": 29.3,
+      "indigenousPct": 3.2,
+      "bachelorPlusPct": 41.6,
+      "renterPct": 30.6,
+      "countryOfBirth": {
+        "Afghanistan": {
+          "count": 59761,
+          "pct": 0.25
+        },
+        "Australia": {
+          "count": 17020354,
+          "pct": 70.73
+        },
+        "Bangladesh": {
+          "count": 51440,
+          "pct": 0.21
+        },
+        "Bosnia & Herzegovina": {
+          "count": 26163,
+          "pct": 0.11
+        },
+        "Brazil": {
+          "count": 46781,
+          "pct": 0.19
+        },
+        "Cambodia": {
+          "count": 39026,
+          "pct": 0.16
+        },
+        "Canada": {
+          "count": 50224,
+          "pct": 0.21
+        },
+        "Chile": {
+          "count": 14188,
+          "pct": 0.06
+        },
+        "China": {
+          "count": 239962,
+          "pct": 1.0
+        },
+        "Croatia": {
+          "count": 20975,
+          "pct": 0.09
+        },
+        "Egypt": {
+          "count": 22372,
+          "pct": 0.09
+        },
+        "England": {
+          "count": 468659,
+          "pct": 1.95
+        },
+        "Fiji": {
+          "count": 32009,
+          "pct": 0.13
+        },
+        "France": {
+          "count": 18347,
+          "pct": 0.08
+        },
+        "Germany": {
+          "count": 46978,
+          "pct": 0.2
+        },
+        "Greece": {
+          "count": 43579,
+          "pct": 0.18
+        },
+        "Hong Kong (SAR)": {
+          "count": 47231,
+          "pct": 0.2
+        },
+        "India": {
+          "count": 362203,
+          "pct": 1.51
+        },
+        "Indonesia": {
+          "count": 35982,
+          "pct": 0.15
+        },
+        "Iran": {
+          "count": 37347,
+          "pct": 0.16
+        },
+        "Iraq": {
+          "count": 47012,
+          "pct": 0.2
+        },
+        "Ireland": {
+          "count": 42669,
+          "pct": 0.18
+        },
+        "Italy": {
+          "count": 83081,
+          "pct": 0.35
+        },
+        "Japan": {
+          "count": 13537,
+          "pct": 0.06
+        },
+        "South Korea": {
+          "count": 45957,
+          "pct": 0.19
+        },
+        "Lebanon": {
+          "count": 45101,
+          "pct": 0.19
+        },
+        "Malaysia": {
+          "count": 77167,
+          "pct": 0.32
+        },
+        "Malta": {
+          "count": 17661,
+          "pct": 0.07
+        },
+        "Mauritius": {
+          "count": 12610,
+          "pct": 0.05
+        },
+        "Myanmar": {
+          "count": 19526,
+          "pct": 0.08
+        },
+        "Nepal": {
+          "count": 66426,
+          "pct": 0.28
+        },
+        "Netherlands": {
+          "count": 33188,
+          "pct": 0.14
+        },
+        "New Zealand": {
+          "count": 267279,
+          "pct": 1.11
+        },
+        "North Macedonia": {
+          "count": 20404,
+          "pct": 0.08
+        },
+        "Pakistan": {
+          "count": 52678,
+          "pct": 0.22
+        },
+        "PNG": {
+          "count": 13218,
+          "pct": 0.05
+        },
+        "Philippines": {
+          "count": 113012,
+          "pct": 0.47
+        },
+        "Poland": {
+          "count": 19452,
+          "pct": 0.08
+        },
+        "Samoa": {
+          "count": 14133,
+          "pct": 0.06
+        },
+        "Scotland": {
+          "count": 58992,
+          "pct": 0.25
+        }
+      },
+      "religion": {
+        "Christianity": {
+          "count": 11148841,
+          "pct": 43.85
+        },
+        "Buddhism": {
+          "count": 615825,
+          "pct": 2.42
+        },
+        "Hinduism": {
+          "count": 683988,
+          "pct": 2.69
+        },
+        "Islam": {
+          "count": 813419,
+          "pct": 3.2
+        },
+        "Judaism": {
+          "count": 99941,
+          "pct": 0.39
+        },
+        "No religion": {
+          "count": 9767463,
+          "pct": 38.42
+        },
+        "Not stated": {
+          "count": 1848398,
+          "pct": 7.27
+        },
+        "Other religions": {
+          "count": 325465,
+          "pct": 1.28
+        }
+      }
+    }
+  },
+  "bio": {
+    "text": "The Division of Gilmore is an Australian electoral division in the state of New South Wales. It lies on the South Coast between Kiama and Moruya.",
+    "source": "https://en.wikipedia.org/wiki/Division_of_Gilmore",
+    "retrievedAt": "2026-03-03T11:00:34Z"
+  }
+}
