@@ -53,6 +53,8 @@ def build_demographics(files: CensusFiles) -> dict[str, dict[str, Any]]:
     g09b = _read_csv(files.table("G09B"))
     g09c = _read_csv(files.table("G09C"))
     g14 = _read_csv(files.table("G14"))
+    g37 = _read_csv(files.table("G37"))   # Tenure type × dwelling structure
+    g49b = _read_csv(files.table("G49B")) # Non-school qualification (Persons)
 
     # Per-CED, per-country/-religion vote tallies.
     cob_per_ced = _country_of_birth_lookup(g09a, g09b, g09c)
@@ -61,7 +63,7 @@ def build_demographics(files: CensusFiles) -> dict[str, dict[str, Any]]:
     religion_national = _religion_national(religion_per_ced, g14)
 
     # National anchors — computed from AUS-level row across all CEDs.
-    nat_aus = _aus_row(g01, g02)
+    nat_aus = _aus_row(g01, g02, g37=g37, g49b=g49b)
     nat_aus["countryOfBirth"] = cob_national
     nat_aus["religion"] = religion_national
 
@@ -69,16 +71,37 @@ def build_demographics(files: CensusFiles) -> dict[str, dict[str, Any]]:
     for code, name_lc in code_to_name.items():
         g01_row = g01.filter(pl.col("CED_CODE_2021") == code)
         g02_row = g02.filter(pl.col("CED_CODE_2021") == code)
+        g37_row = g37.filter(pl.col("CED_CODE_2021") == code)
+        g49_row = g49b.filter(pl.col("CED_CODE_2021") == code)
         if g01_row.is_empty() or g02_row.is_empty():
             continue
         g01r = g01_row.row(0, named=True)
         g02r = g02_row.row(0, named=True)
+        g37r = g37_row.row(0, named=True) if not g37_row.is_empty() else {}
+        g49r = g49_row.row(0, named=True) if not g49_row.is_empty() else {}
 
         tot = int(g01r.get("Tot_P_P") or 0)
         bp_aus = int(g01r.get("Birthplace_Australia_P") or 0)
         bp_else = int(g01r.get("Birthplace_Elsewhere_P") or 0)
         bp_known = bp_aus + bp_else
         born_overseas_pct = (bp_else / bp_known * 100) if bp_known else None
+
+        # Indigenous % (Aboriginal + Torres Strait Is + Both)
+        indig = int(g01r.get("Indigenous_P_Tot_P") or 0)
+        indigenous_pct = (indig / tot * 100) if tot else None
+
+        # Bachelor+ rate: bachelor + grad dip/cert + postgrad over total
+        # qualification-eligible (P_Tot_Total = persons aged 15+).
+        pgrad = int(g49r.get("P_PGrad_Deg_Total") or 0)
+        gdip = int(g49r.get("P_GradDip_and_GradCert_Total") or 0)
+        bach = int(g49r.get("P_BachDeg_Total") or 0)
+        qual_total = int(g49r.get("P_Tot_Total") or 0)
+        bachelor_plus_pct = ((pgrad + gdip + bach) / qual_total * 100) if qual_total else None
+
+        # Tenure: renter share of all dwellings (incl. social housing).
+        rent_total = int(g37r.get("R_Tot_Total") or 0)
+        all_dwell = int(g37r.get("Total_Total") or 0)
+        renter_pct = (rent_total / all_dwell * 100) if all_dwell else None
 
         out[name_lc] = {
             "totalPopulation": tot,
@@ -87,6 +110,9 @@ def build_demographics(files: CensusFiles) -> dict[str, dict[str, Any]]:
             "medianRentWeekly": _to_int(g02r.get("Median_rent_weekly")),
             "averageHouseholdSize": _to_float(g02r.get("Average_household_size")),
             "bornOverseasPct": _round(born_overseas_pct, 1),
+            "indigenousPct": _round(indigenous_pct, 1),
+            "bachelorPlusPct": _round(bachelor_plus_pct, 1),
+            "renterPct": _round(renter_pct, 1),
             "countryOfBirth": _top_n_with_anchor(cob_per_ced.get(code, {}), tot, cob_national, n=5),
             "religion": _top_n_with_anchor(religion_per_ced.get(code, {}), tot, religion_national, n=5),
             "national": nat_aus,
@@ -249,15 +275,39 @@ def _top_n_with_anchor(
     return out
 
 
-def _aus_row(g01: pl.DataFrame, g02: pl.DataFrame) -> dict[str, Any]:
+def _aus_row(g01: pl.DataFrame, g02: pl.DataFrame, g37: pl.DataFrame | None = None,
+             g49b: pl.DataFrame | None = None) -> dict[str, Any]:
     """Compute national anchors by summing CED-level rows across the country."""
     tot = int(g01["Tot_P_P"].sum())
     bp_aus = int(g01["Birthplace_Australia_P"].sum())
     bp_else = int(g01["Birthplace_Elsewhere_P"].sum())
     bp_known = bp_aus + bp_else
     born_overseas_pct = (bp_else / bp_known * 100) if bp_known else None
-    # Medians can't be summed; AEC panel really wants population-weighted
-    # mean of medians — close enough for a comparison anchor.
+    indig = int(g01["Indigenous_P_Tot_P"].sum())
+    indigenous_pct = (indig / tot * 100) if tot else None
+
+    bachelor_plus_pct = None
+    if g49b is not None:
+        try:
+            bach_n = int(g49b["P_BachDeg_Total"].sum())
+            grad_n = int(g49b["P_GradDip_and_GradCert_Total"].sum())
+            pgrd_n = int(g49b["P_PGrad_Deg_Total"].sum())
+            qual_d = int(g49b["P_Tot_Total"].sum())
+            if qual_d:
+                bachelor_plus_pct = (bach_n + grad_n + pgrd_n) / qual_d * 100
+        except Exception:  # noqa: BLE001
+            pass
+
+    renter_pct = None
+    if g37 is not None:
+        try:
+            rent_n = int(g37["R_Tot_Total"].sum())
+            dwell_d = int(g37["Total_Total"].sum())
+            if dwell_d:
+                renter_pct = rent_n / dwell_d * 100
+        except Exception:  # noqa: BLE001
+            pass
+
     persons = g01.select("CED_CODE_2021", pl.col("Tot_P_P").alias("pop"))
     weighted = (
         g02.join(persons, on="CED_CODE_2021", how="left")
@@ -283,6 +333,9 @@ def _aus_row(g01: pl.DataFrame, g02: pl.DataFrame) -> dict[str, Any]:
         "medianRentWeekly": _round(wmean("Median_rent_weekly"), 0),
         "averageHouseholdSize": _round(wmean("Average_household_size"), 1),
         "bornOverseasPct": _round(born_overseas_pct, 1),
+        "indigenousPct": _round(indigenous_pct, 1),
+        "bachelorPlusPct": _round(bachelor_plus_pct, 1),
+        "renterPct": _round(renter_pct, 1),
     }
 
 

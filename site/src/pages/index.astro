@@ -685,6 +685,9 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         cell('Median household income', dem.medianHouseholdIncomeWeekly, nat.medianHouseholdIncomeWeekly, fmtMoney, ' /wk', 0) +
         cell('Median rent',             dem.medianRentWeekly,            nat.medianRentWeekly,            fmtMoney, ' /wk', 0) +
         cell('Born overseas',           dem.bornOverseasPct,             nat.bornOverseasPct,             fmtPct,   '%',    1) +
+        cell('Bachelor +',              dem.bachelorPlusPct,             nat.bachelorPlusPct,             fmtPct,   '%',    1) +
+        cell('Renters',                 dem.renterPct,                   nat.renterPct,                   fmtPct,   '%',    1) +
+        cell('Indigenous',              dem.indigenousPct,               nat.indigenousPct,               fmtPct,   '%',    1) +
         cell('Avg household size',      dem.averageHouseholdSize,        nat.averageHouseholdSize,        fmtDec,   ' p',   1) +
         cell('Total population',        dem.totalPopulation,             null,                            fmtInt,   '',     0);
 
