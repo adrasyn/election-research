@@ -128,16 +128,16 @@
   .quad-demo   { grid-area: demo;   position: relative; border-right: 1px solid var(--line); overflow: auto; padding: 18px 22px; }
   .quad-detail { grid-area: detail; position: relative; overflow: auto; }
   /* In the quadrant layout the panel fills its grid cell rather than
-     overlaying a slide-in drawer. Override the absolute-positioning. */
+     overlaying a slide-in drawer. Override the absolute-positioning,
+     and make the panel itself the scroll container for its column. */
   .quad-detail.panel {
     position: static;
     width: auto;
     border-left: 0;
     box-shadow: none;
+    overflow: auto;
+    height: 100%;
   }
-  /* Quadrant cell does the scrolling; the panel itself must let
-     its overflowing content out so the quadrant can pick it up. */
-  .quad-detail.panel { overflow: visible; }
   .quad-detail .panel-body { flex: none; overflow-y: visible; }
   .quad-detail .panel-sub { max-width: none; }
 
