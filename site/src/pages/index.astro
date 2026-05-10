@@ -431,6 +431,21 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     document.getElementById('lc-oth').textContent   = String(counts.OTH).padStart(2, '0');
   });
 
+  // Subtle fade+slide on the panel + demographic quadrant whenever
+  // the seat changes — signals "new content arrived" without being
+  // dramatic. 220ms on the same easing curve as the TCP bar grow.
+  const FADE_KEYFRAMES = [
+    { opacity: 0.45, transform: 'translateY(3px)' },
+    { opacity: 1,    transform: 'translateY(0)'   },
+  ];
+  const FADE_OPTS = { duration: 220, easing: 'cubic-bezier(0.32, 0.72, 0.20, 1)' };
+  function flashIn(...elements) {
+    for (const el of elements) {
+      if (!el || !el.animate) continue;
+      el.animate(FADE_KEYFRAMES, FADE_OPTS);
+    }
+  }
+
   // ── Panel population ──
   async function openPanel(props) {
     const seatId = (props.divisionNm || '').toUpperCase().replace(/ /g, '_');
@@ -440,12 +455,12 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       data = await res.json();
     } catch (err) {
-      // No per-seat JSON yet — Phase C ships all 150. Fall back to the
-      // tile-level info so the panel still tells you who won.
       renderStub(props);
+      flashIn(document.querySelector('.quad-detail'), document.querySelector('.quad-demo'));
       return;
     }
     renderFull(data);
+    flashIn(document.querySelector('.quad-detail'), document.querySelector('.quad-demo'));
   }
 
   function fmt(n) { return Number(n).toLocaleString('en-AU'); }
@@ -549,17 +564,25 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     const labels = $('p-primary-labels');
     track.innerHTML = '';
     labels.innerHTML = '';
-    for (const c of (d.tcp || [])) {
+    const tcpRows = d.tcp || [];
+    // Build segments + labels at width:0 then RAF-flip to target
+    // so they grow into place rather than appearing fully formed.
+    const pendingTargets = [];
+    for (const c of tcpRows) {
       const seg = document.createElement('span');
-      seg.style.cssText = `background:var(--${c.party}); width:${c.pct}%`;
+      seg.style.cssText = `background:var(--${c.party}); width:0%`;
       track.appendChild(seg);
       const lbl = document.createElement('div');
       lbl.className = 'pl';
-      lbl.style.width = c.pct + '%';
+      lbl.style.width = '0%';
       lbl.style.setProperty('--party-c', `var(--${c.party})`);
       lbl.innerHTML = `<span class="who">${escapeHTML(c.partyAb || 'IND')}</span><span class="v">${c.pct.toFixed(1)}%</span>`;
       labels.appendChild(lbl);
+      pendingTargets.push([seg, c.pct + '%'], [lbl, c.pct + '%']);
     }
+    requestAnimationFrame(() => {
+      for (const [el, w] of pendingTargets) el.style.width = w;
+    });
 
     // Booth rows — every booth, click-to-expand for full primary + TCP breakdown.
     const tbody = $('p-booth-rows');
