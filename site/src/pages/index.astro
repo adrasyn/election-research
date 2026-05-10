@@ -555,8 +555,9 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       track.appendChild(seg);
       const lbl = document.createElement('div');
       lbl.className = 'pl';
+      lbl.style.width = c.pct + '%';
       lbl.style.setProperty('--party-c', `var(--${c.party})`);
-      lbl.innerHTML = `<span class="who">${escapeHTML(c.partyAb || 'IND')}</span><span class="v">${c.pct.toFixed(2)}</span>`;
+      lbl.innerHTML = `<span class="who">${escapeHTML(c.partyAb || 'IND')}</span><span class="v">${c.pct.toFixed(1)}%</span>`;
       labels.appendChild(lbl);
     }
 
