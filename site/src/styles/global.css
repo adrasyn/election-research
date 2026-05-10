@@ -1090,7 +1090,17 @@
   }
   .chart-legend .ll .sw { width: 10px; height: 2px; }
 
-  .chart-svg { width: 100%; height: auto; aspect-ratio: 440/140; display: block; }
+  /* Cap the chart at its natural viewBox size so axis text + dots
+     stay at their designed visual size. Wider containers just leave
+     the chart at native; narrow ones still shrink it proportionally. */
+  .chart-svg {
+    display: block;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    aspect-ratio: 440 / 140;
+  }
+  .chart-wrap { max-width: 520px; }
   .chart-grid {
     stroke: var(--line-faint);
     stroke-width: 0.5;
@@ -1254,19 +1264,25 @@
     height: 5px;
     background: var(--bg-elev-3);
     border-radius: 1px;
-    overflow: hidden;
     position: relative;
+    /* Allow the AUS marker to extend above and below the bar so it
+       reads as a tick mark, not a sliver hidden inside the bar. */
+    overflow: visible;
   }
   .mix-row .bar-track > span {
     display: block;
     height: 100%;
     background: linear-gradient(to right, var(--accent), rgba(93, 169, 255, 0.6));
+    border-radius: 1px;
   }
   .mix-row .bar-track .nat {
     position: absolute;
-    top: -2px; bottom: -2px;
-    width: 1px;
-    background: var(--t-3);
+    top: -3px; bottom: -3px;
+    width: 2px;
+    margin-left: -1px;          /* centre the 2px tick on the marker x */
+    background: var(--t-1);     /* high-contrast against the dark bar */
+    box-shadow: 0 0 0 1px rgba(10, 13, 17, 0.85); /* halo so the tick reads on coloured fills */
+    pointer-events: none;
   }
   .mix-row .v {
     text-align: right;
