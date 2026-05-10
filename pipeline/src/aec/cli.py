@@ -24,9 +24,8 @@ from .sources.coastline import fetch_land
 from .sources.mediafeed import EVENT_IDS, STATES, fetch_event, fetch_event_lite
 from .transform.historical import (
     history_blocks,
-    load_tpp,
     primary_by_division,
-    tpp_by_division,
+    tcp_pairings_by_division,
 )
 from .transform.preferences import load_dop, waterfall_for_division
 from .transform.results import (
@@ -118,14 +117,15 @@ def build(
     if not no_history:
         history_years = [y for y in DEFAULT_HISTORY_YEARS if y >= history_from and y <= year]
         click.echo(f"▸ Historical trend  years={history_years}")
-        tpp_frames: list = []
+        tcp_frames: list = []
         primary_frames: list = []
         for hy in history_years:
             click.echo(f"  · fetching {hy}")
             hfiles = fetch_event_lite(hy, cache_dir, refresh=refresh)
-            tpp_frames.append(tpp_by_division(load_tpp(hfiles.tpp_by_division), hy))
-            primary_frames.append(primary_by_division(load_dop(hfiles.dop_by_division), hy))
-        history_lookup = history_blocks(tpp_frames, primary_frames)
+            hdop = load_dop(hfiles.dop_by_division)
+            tcp_frames.append(tcp_pairings_by_division(hdop, hy))
+            primary_frames.append(primary_by_division(hdop, hy))
+        history_lookup = history_blocks(tcp_frames, primary_frames)
         click.echo(f"▸ Built history for {len(history_lookup)} unique division names.")
 
     division_ids = _resolve_division_ids(candidates, seat_filter)

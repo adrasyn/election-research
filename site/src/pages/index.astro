@@ -628,13 +628,10 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       const t = d.history.trend;
       $('p-history-meta').textContent = `${t.years[0]} → ${t.years[t.years.length - 1]} · ${t.years.length} ELECTIONS`;
       window.renderTrendChart(trendHost, {
-        title: `Two-Party preferred · ${seat.name}`,
+        title: `Two-Candidate preferred · ${seat.name}`,
         xLabels: t.years,
         threshold: 50,
-        series: [
-          { id: 'ALP', party: 'alp', label: 'ALP', points: t.alp },
-          { id: 'COA', party: 'lib', label: 'L/NP', points: t.coalition },
-        ],
+        series: t.series,
       });
 
       // Primary stack — collapse the per-row party set into a stable
