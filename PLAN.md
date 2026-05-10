@@ -3,27 +3,41 @@
 > Status: **shipped 2026-05-10. Live at https://electionresearch.wlsn.me/**
 > Phases A–F all complete. Post-deploy queue at the bottom of this doc.
 
-## Project state snapshot (post-Phase F)
+## Project state snapshot
 
 - **Live**: https://electionresearch.wlsn.me/ (Cloudflare Pages, custom domain on Hover)
 - **GitHub**: https://github.com/adrasyn/election-research (public; auto-deploys on push to main)
-- **Coverage**: 150/150 seats with bio + booth + history (1996–2025) + preferences + demographics
+- **Coverage**: 150/150 seats with bio + booth + history (1996–2025) + preferences + demographics + classification chips
 - **Stack confirmed shipped**: Python+Polars pipeline → 2× simplified GeoJSON + per-seat JSON → Astro 5 + MapLibre (geojson sources, no PMTiles) → Cloudflare Pages
 - **QA**: pipeline/scripts/qa_check.py passes 6/6 categories; matches AEC declared 2025 outcome (ALP 94 / LIB 18 / LNP 16 / NAT 9 / IND 10 / GRN 1 / CA 1 / KAP 1)
+
+## Session log
+
+### 2026-05-10 — chips + theming polish
+- Shipped queue item #2 (classification chips). Standalone classifier at `pipeline/scripts/classify.py`; not part of the build pipeline (read-existing-JSON, compute quartiles, write-back).
+- Editorial rule that landed: only emit chips for Q1/Q4 of each demographic axis — middle quartiles get no chip so every visible chip means the seat is atypical.
+- Terminology decision: **First Nations** everywhere user-facing (chip labels, tooltips, demographic-grid row label). Internal data fields keep ABS schema naming (`indigenousPct`).
+- Terminology decision: **electorates** (not "seats") in tooltips.
+- Tooltips are styled `data-tip` + `::after` pseudo, not native `title` — appear instantly, charcoal palette, max-width 280px so they wrap.
+- MapLibre zoom controls (+/−) recoloured to match panel chrome (was stock white, jarring on charcoal).
+
+### Earlier
+- 2026-05-10 morning: booth-inset map shipped (queue item #3), commit `d9cfbd9`.
+- 2026-05-10 evening: Phase F code-review fixes (XSS sink + a11y), commit `ef8b1d9`.
 
 ## Post-deploy queue
 
 Prioritised order is up to the user; each is independent.
 
-1. **Nationwide insights view** — Cross-seat charts, faceted small multiples (each dot = one seat, x = a demographic dimension, y = swing or TPP margin or party position; coloured by winning party). Wires up the "National analysis" tab in the chrome-top that's currently `[TBC]`. Existing data already supports this — primarily a frontend build. Now also benefits from the chip classification (#2 below) as a grouping dimension.
+1. **Nationwide insights view** — Cross-seat charts, faceted small multiples (each dot = one seat, x = a demographic dimension, y = swing or TPP margin or party position; coloured by winning party). Wires up the "National analysis" tab in the chrome-top that's currently `[TBC]`. Existing data already supports this — primarily a frontend build. Benefits from the chip classification as a grouping dimension. **This is the natural next pickup** — biggest visible feature, no new data pipeline work needed.
 
-2. ~~**Electorate classification + tag chips on bio**~~ — **Shipped 2026-05-10.** Top/bottom quartile chips for income, age, migrant share, education, tenure + absolute-cut First Nations tier. Standalone classifier at `pipeline/scripts/classify.py`. Middle two quartiles intentionally unlabelled so every visible chip means the seat is genuinely atypical. Marginality + TCP-shape deliberately excluded — that info is already on-panel.
+2. ~~**Electorate classification + tag chips on bio**~~ — **Shipped 2026-05-10.** Top/bottom quartile chips for income, age, migrant share, education, tenure + absolute-cut First Nations tier. See session log above.
 
-3. **Booth-inset map** — Per-seat SVG inset above the booth table: real electorate outline (clipped from the GADM-clipped GeoJSON we already have) + real booth lat/lng dots from AEC's polling-place feed. Click a dot ↔ highlight the corresponding row in the booth table.
+3. ~~**Booth-inset map**~~ — **Shipped 2026-05-10** (commit `d9cfbd9`). Per-seat SVG inset above the booth table: real electorate outline + real booth lat/lng dots from AEC's polling-place feed; click-to-highlight wired up.
 
-4. **Booth-level demographic estimation (Voronoi × SA1)** — Voronoi tessellation of polling-place lat/lng clipped to electorate boundary, intersected with ABS SA1 polygons, area-weighted to derive synthetic per-booth demographics (income, age, born-overseas, etc.). Joins to existing booth results to support "this booth votes ALP and has median income $X" analyses.
+4. **Booth-level demographic estimation (Voronoi × SA1)** — Voronoi tessellation of polling-place lat/lng clipped to electorate boundary, intersected with ABS SA1 polygons, area-weighted to derive synthetic per-booth demographics (income, age, born-overseas, etc.). Joins to existing booth results to support "this booth votes ALP and has median income $X" analyses. **Heaviest pipeline work** of remaining items.
 
-5. **1996–2004 historical scrape** — Currently history goes back to 2007 (AEC structured feeds). Pre-2007 needs HTML scraping from results.aec.gov.au/{event_id}/Website/... pages. Adds 4 more elections to the trend chart.
+5. **1996–2004 historical scrape** — Currently history goes back to 2007 (AEC structured feeds). Pre-2007 needs HTML scraping from results.aec.gov.au/{event_id}/Website/... pages. Adds 4 more elections to the trend chart. **Lightest pickup** if you want a quick session.
 
 ## Polish items deferred from Phase F code review
 
