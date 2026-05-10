@@ -33,6 +33,33 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     .maplibregl-ctrl-attrib { display: none !important; }
     .maplibregl-ctrl-bottom-right { display: none !important; }
     .maplibregl-canvas { outline: none; }
+    /* Zoom controls — recolour from MapLibre's stock white to the
+       panel's charcoal palette so they stop competing with the map. */
+    .map-host .maplibregl-ctrl-group {
+      background: var(--bg-elev-2);
+      border: 1px solid var(--line-strong);
+      border-radius: 3px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+      overflow: hidden;
+    }
+    .map-host .maplibregl-ctrl-group button {
+      background-color: transparent;
+      width: 28px;
+      height: 28px;
+      transition: background-color 120ms var(--ease);
+    }
+    .map-host .maplibregl-ctrl-group button:hover {
+      background-color: var(--bg-elev-3);
+    }
+    .map-host .maplibregl-ctrl-group button:focus {
+      box-shadow: none;
+    }
+    .map-host .maplibregl-ctrl-group button + button {
+      border-top: 1px solid var(--line);
+    }
+    .map-host .maplibregl-ctrl-group button .maplibregl-ctrl-icon {
+      filter: invert(0.85) brightness(1.2);
+    }
     /* Tight cursor cue: hand on hovered seats, default elsewhere. */
     .map-host { cursor: default; }
     .map-host.is-pickable { cursor: pointer; }
