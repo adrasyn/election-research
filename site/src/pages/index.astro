@@ -79,8 +79,8 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     </div>
   </div>
   <nav class="chrome-segment chrome-tabs" role="tablist" aria-label="View">
-    <button class="chrome-tab is-active" type="button" aria-selected="true">Electorate analysis</button>
-    <button class="chrome-tab is-disabled" type="button" aria-selected="false" aria-disabled="true" title="Cross-seat insights — coming soon">
+    <button class="chrome-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="electorate-view">Electorate analysis</button>
+    <button class="chrome-tab is-disabled" type="button" role="tab" aria-selected="false" aria-disabled="true" tabindex="-1" title="Cross-seat insights — coming soon">
       National analysis <span class="chrome-tab-tag">TBC</span>
     </button>
   </nav>
@@ -231,7 +231,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 
       <footer class="panel-foot">
         Source · AEC Media Feed (CTH/2025) · ABS 2021 Census (CED) · GADM 4.1 ·
-        <a href="#" id="p-methodology">Methodology ↗</a>
+        Wikipedia (per-seat bios)
       </footer>
     </div>
   </aside>
@@ -361,9 +361,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 
   const tooltip = document.getElementById('map-tooltip');
   const mapHost = document.getElementById('map-host');
-  // Bottom-chrome was removed in the quadrant redesign; bcSelected may
-  // be absent so we noop it.
-  const bcSelected = document.getElementById('bc-selected') || { textContent: '' };
   const subSeat = document.getElementById('sub-seat');
   let hoverId = null;
   let activeId = null;
@@ -379,11 +376,16 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     map.setFeatureState({ source: 'seats', id: hoverId }, { hover: true });
 
     const p = f.properties;
+    const partyColor = PARTY_FILL[p.winnerParty] || '#fff';
+    const marginNum = Number(p.tcpMargin);
+    const marginStr = Number.isFinite(marginNum) ? `${marginNum > 0 ? '+' : ''}${marginNum}%` : '';
+    // All free-text fields run through escapeHTML — AEC data is curated
+    // but the tooltip is the only innerHTML sink that touches names.
     tooltip.innerHTML =
-      `<div class="tt-name">${p.divisionNm}</div>` +
-      `<div class="tt-meta"><span class="tt-party" style="color:${PARTY_FILL[p.winnerParty] || '#fff'}">${p.winnerPartyAb}</span>` +
-      `<span>${p.winnerSurname || ''}</span>` +
-      `<span style="margin-left:auto">${p.tcpMargin > 0 ? '+' : ''}${p.tcpMargin}%</span></div>`;
+      `<div class="tt-name">${escapeHTML(p.divisionNm)}</div>` +
+      `<div class="tt-meta"><span class="tt-party" style="color:${partyColor}">${escapeHTML(p.winnerPartyAb)}</span>` +
+      `<span>${escapeHTML(p.winnerSurname || '')}</span>` +
+      `<span style="margin-left:auto">${marginStr}</span></div>`;
     tooltip.style.left = e.point.x + 'px';
     tooltip.style.top = e.point.y + 'px';
     tooltip.classList.add('show');
@@ -493,7 +495,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
   }
 
   function renderStub(props) {
-    bcSelected.textContent = `${props.divisionNm} · ${props.state}`;
     subSeat.style.display = '';
     subSeat.querySelector('span').textContent = `${props.divisionNm.toUpperCase()} · DIV ${String(props.divisionId).padStart(3,'0')}`;
 
@@ -525,7 +526,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 
   function renderFull(d) {
     const seat = d.seat;
-    bcSelected.textContent = `${seat.name} · ${seat.state}`;
     subSeat.style.display = '';
     subSeat.querySelector('span').textContent = `${seat.name.toUpperCase()} · DIV ${String(seat.divisionId).padStart(3,'0')}`;
 
@@ -654,6 +654,10 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     for (const b of d.booths) {
       const tr = document.createElement('tr');
       tr.className = 'booth-row';
+      // Keyboard a11y: row is reachable + togglable with Enter/Space.
+      tr.tabIndex = 0;
+      tr.setAttribute('role', 'button');
+      tr.setAttribute('aria-expanded', 'false');
       const swingTxt = b.swing != null ? (b.swing >= 0 ? '+' : '') + b.swing.toFixed(1) : '—';
       const swingCls = b.swing != null ? (b.swing >= 0 ? 'pos' : 'neg') : '';
       tr.innerHTML =
@@ -665,14 +669,24 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       expandTr.className = 'booth-expand-row';
       expandTr.style.display = 'none';
       expandTr.innerHTML = renderExpanded(b);
-      tr.addEventListener('click', () => {
+      const toggleExpand = () => {
         const open = expandTr.style.display !== 'none';
-        // Close any other open rows for tidiness.
         tbody.querySelectorAll('.booth-expand-row').forEach(r => r.style.display = 'none');
-        tbody.querySelectorAll('.booth-row').forEach(r => r.classList.remove('is-open'));
+        tbody.querySelectorAll('.booth-row').forEach(r => {
+          r.classList.remove('is-open');
+          r.setAttribute('aria-expanded', 'false');
+        });
         if (!open) {
           expandTr.style.display = '';
           tr.classList.add('is-open');
+          tr.setAttribute('aria-expanded', 'true');
+        }
+      };
+      tr.addEventListener('click', toggleExpand);
+      tr.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggleExpand();
         }
       });
       tbody.appendChild(tr);
