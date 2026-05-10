@@ -111,6 +111,34 @@
     background: var(--bg-base);
   }
 
+  /* Quadrant layout: left half holds map (top) + demographics (bottom),
+     right half is the election-research panel (full height). */
+  .canvas-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "map  detail"
+      "demo detail";
+    overflow: hidden;
+    height: 100%;
+    background: var(--bg-base);
+  }
+  .quad-map    { grid-area: map;    position: relative; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); overflow: hidden; }
+  .quad-demo   { grid-area: demo;   position: relative; border-right: 1px solid var(--line); overflow: auto; padding: 18px 22px; }
+  .quad-detail { grid-area: detail; position: relative; overflow: auto; }
+  /* In the quadrant layout the panel fills its grid cell rather than
+     overlaying a slide-in drawer. Override the absolute-positioning. */
+  .quad-detail.panel {
+    position: static;
+    width: auto;
+    border-left: 0;
+    box-shadow: none;
+  }
+  /* Quadrant cell does the scrolling; suppress the panel-body's
+     own internal scroll so we don't end up nested. */
+  .quad-detail .panel-body { flex: none; overflow-y: visible; }
+
   /* ──────────────────────────────────────────────────────────
      TOP CHROME (header)
      ────────────────────────────────────────────────────────── */

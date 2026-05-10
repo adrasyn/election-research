@@ -108,14 +108,13 @@ import 'maplibre-gl/dist/maplibre-gl.css';
   </div>
 </div>
 
-<!-- ─────────────────────────── MAIN STAGE ─────────────────────────── -->
-<main class="canvas">
+<!-- ─────────────────────────── MAIN STAGE — QUADRANT LAYOUT ─────────────────────────── -->
+<main class="canvas-grid">
 
-  <div class="map-host" id="map-host">
+  <!-- TL: Map ─────────────────────────────────────────── -->
+  <div class="quad-map map-host" id="map-host">
     <div id="map"></div>
     <div class="map-tooltip" id="map-tooltip"></div>
-
-    <!-- Map legend (shared with concept-01) -->
     <div class="legend">
       <div class="legend-title">2025 H/R · winner</div>
       <div class="legend-row"><span class="swatch" style="background:var(--alp)"></span><span>Labor (ALP)</span><span class="count" id="lc-alp">…</span></div>
@@ -127,10 +126,17 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     </div>
   </div>
 
-  <!-- ───────────────────── RIGHT PANEL (per-seat) ───────────────────── -->
-  <aside class="panel" id="panel" style="display:none">
-    <button class="panel-close" id="panel-close" title="Close">×</button>
+  <!-- BL: Demographics ─────────────────────────────────── -->
+  <div class="quad-demo">
+    <div class="pillar-head" style="margin-bottom: 14px;">
+      <h2 class="pillar-title" id="d-title">Demographic context</h2>
+      <span class="pillar-meta">ABS 2021 CENSUS · CED</span>
+    </div>
+    <div class="demo-grid" id="p-demo-grid"></div>
+  </div>
 
+  <!-- R: Election research ─────────────────────────────── -->
+  <aside class="quad-detail panel" id="panel">
     <header class="panel-head">
       <div class="meta-strip">
         <span id="p-state">…</span>
@@ -139,8 +145,9 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         <span class="sep">/</span>
         <span class="meta-tag" id="p-result">…</span>
       </div>
-      <h1 class="panel-title" id="p-name">…</h1>
-      <p class="panel-sub" id="p-sub">…</p>
+      <h1 class="panel-title" id="p-name">— click a seat to begin —</h1>
+      <p class="panel-sub" id="p-sub">Click any electorate on the map. The detail panel updates with that seat's contest, history, demographics, and a brief profile.</p>
+      <p class="panel-sub" id="p-bio" style="display:none; margin-top:14px; color:var(--t-2); font-size:12.5px; line-height:1.6;"></p>
     </header>
 
     <div class="panel-body">
@@ -166,10 +173,10 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         <div class="mp-row">
           <div class="mp-portrait" id="p-mp-initials">··</div>
           <div class="mp-text">
-            <div class="mp-name" id="p-mp-name">…</div>
+            <div class="mp-name" id="p-mp-name">—</div>
             <div class="mp-meta">
-              <span class="party-chip" id="p-mp-chip">…</span>
-              <span id="p-mp-flavour">…</span>
+              <span class="party-chip" id="p-mp-chip">—</span>
+              <span id="p-mp-flavour"></span>
             </div>
           </div>
         </div>
@@ -180,14 +187,29 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         </div>
       </section>
 
-      <nav class="panel-tabs">
-        <button class="active">Booths <span class="num-tag" id="p-tab-booths">…</span></button>
-        <button>History <span class="num-tag">PHASE D</span></button>
-        <button>Demographics <span class="num-tag">PHASE D</span></button>
-        <button>Preferences <span class="num-tag" id="p-tab-rounds">…</span></button>
-      </nav>
+      <section class="pillar">
+        <div class="pillar-head">
+          <h2 class="pillar-title">Preference distribution</h2>
+          <span class="pillar-meta" id="p-pref-meta">…</span>
+        </div>
+        <div class="prefs-intro">
+          Each round excludes the lowest-polling candidate. Ribbons between
+          rounds show their preferences flowing to remaining candidates —
+          every ribbon's width represents an exact number of votes,
+          conserved end-to-end (Sankey-style).
+        </div>
+        <div class="waterfall" id="p-waterfall"></div>
+      </section>
 
-      <!-- ── Booth pillar ── -->
+      <section class="pillar" id="p-history-section">
+        <div class="pillar-head">
+          <h2 class="pillar-title">Historical trend</h2>
+          <span class="pillar-meta" id="p-history-meta">…</span>
+        </div>
+        <div id="p-trend-host"></div>
+        <div id="p-stack-host"></div>
+      </section>
+
       <section class="pillar">
         <div class="pillar-head">
           <h2 class="pillar-title">Booth-level results</h2>
@@ -204,47 +226,11 @@ import 'maplibre-gl/dist/maplibre-gl.css';
           </thead>
           <tbody id="p-booth-rows"></tbody>
         </table>
-        <div class="table-footer">
-          <span id="p-booth-footer">…</span>
-        </div>
-      </section>
-
-      <!-- ── Preferences pillar (waterfall) ── -->
-      <section class="pillar">
-        <div class="pillar-head">
-          <h2 class="pillar-title">Preference distribution</h2>
-          <span class="pillar-meta" id="p-pref-meta">…</span>
-        </div>
-        <div class="prefs-intro">
-          Each round excludes the lowest-polling candidate. Ribbons between
-          rounds show their preferences flowing to remaining candidates —
-          every ribbon's width represents an exact number of votes,
-          conserved end-to-end (Sankey-style).
-        </div>
-        <div class="waterfall" id="p-waterfall"></div>
-      </section>
-
-      <!-- ── History pillar (1996–2025 trend + primary stack) ── -->
-      <section class="pillar" id="p-history-section">
-        <div class="pillar-head">
-          <h2 class="pillar-title">Historical trend</h2>
-          <span class="pillar-meta" id="p-history-meta">…</span>
-        </div>
-        <div id="p-trend-host"></div>
-        <div id="p-stack-host"></div>
-      </section>
-
-      <!-- ── Demographics pillar (ABS 2021 Census, CED-level) ── -->
-      <section class="pillar" id="p-demo-section">
-        <div class="pillar-head">
-          <h2 class="pillar-title">Demographic context</h2>
-          <span class="pillar-meta">SOURCE · ABS 2021 CENSUS (CED)</span>
-        </div>
-        <div class="demo-grid" id="p-demo-grid"></div>
+        <div class="table-footer"><span id="p-booth-footer">…</span></div>
       </section>
 
       <footer class="panel-foot">
-        Source · AEC Media Feed (CTH/2025) · Polygons from AEC GIS ·
+        Source · AEC Media Feed (CTH/2025) · ABS 2021 Census (CED) · GADM 4.1 ·
         <a href="#" id="p-methodology">Methodology ↗</a>
       </footer>
     </div>
@@ -428,16 +414,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     await openPanel(f.properties);
   });
 
-  document.getElementById('panel-close').addEventListener('click', () => {
-    document.getElementById('panel').style.display = 'none';
-    if (activeId !== null) {
-      map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: activeId }, { active: false });
-      activeId = null;
-    }
-    bcSelected.textContent = '— click a seat —';
-    subSeat.style.display = 'none';
-  });
-
   // Once the source is loaded, populate the legend counts from the tile metadata.
   map.on('idle', () => {
     if (window.__legendDone) return;
@@ -465,12 +441,14 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     document.getElementById('lc-oth').textContent   = String(counts.OTH).padStart(2, '0');
   });
 
+  // ── Bio strings (proof-of-concept; pipeline-side fetcher comes later). ──
+  const BIOS = {
+    'BENNELONG': `Created in 1949 and named after Woollarawarre Bennelong, the seat covers 60 sq km of Sydney's northern lower North Shore — Ryde, Lane Cove, Hunter's Hill, parts of Willoughby and Parramatta. Historically a safe Liberal seat best known as John Howard's home base for 33 years; Howard's loss to Labor's Maxine McKew in 2007 made him only the second sitting PM in Australian history to lose his own electorate. Migration from China, Hong Kong, South Korea and India has steadily reshaped Bennelong's character into one of Australia's most demographically distinctive seats. Jerome Laxale (ALP) holds it after his 2022 win and a decisive 2025 retain — the strongest Labor result in the seat's history.`,
+  };
+
   // ── Panel population ──
   async function openPanel(props) {
     const seatId = (props.divisionNm || '').toUpperCase().replace(/ /g, '_');
-    const panel = document.getElementById('panel');
-    panel.style.display = 'flex';
-
     let data;
     try {
       const res = await fetch(`/seats/${seatId}.json`);
@@ -541,6 +519,21 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     $('p-result').className = `meta-tag ${seat.winner?.party ?? 'oth'}-tag`;
     $('p-name').textContent = seat.name;
     $('p-sub').textContent = `${seat.state} · ${fmt(seat.totalFormal)} formal votes counted at ${d.booths.length} booths.`;
+
+    // Bio — sourced from Wikipedia (manual for proof-of-concept; pipeline
+    // will populate per-seat in a follow-on).
+    const bio = (d.bio && d.bio.text) || BIOS[seat.id] || null;
+    const bioEl = $('p-bio');
+    if (bio) {
+      bioEl.textContent = bio;
+      bioEl.style.display = '';
+    } else {
+      bioEl.style.display = 'none';
+    }
+
+    // Demographic quadrant title
+    const dTitle = $('d-title');
+    if (dTitle) dTitle.textContent = `Demographic context · ${seat.name}`;
 
     $('p-margin').textContent = (seat.tcpMargin ?? 0).toFixed(2);
     const winnerTcp = d.tcp?.[0];
