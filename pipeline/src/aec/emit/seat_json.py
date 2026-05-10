@@ -44,6 +44,40 @@ def tcp_from_waterfall(waterfall: dict[str, Any]) -> list[dict[str, Any]]:
     return out
 
 
+def _previous_winner_party_ab(history: dict[str, Any] | None, current_year: int) -> str | None:
+    """Return the canonical partyAb that won this seat at the prior
+    election, derived from the history trend block. None if no prior
+    data exists (newly-created seat) or the year just before is missing.
+    """
+    if not history:
+        return None
+    trend = history.get("trend") or {}
+    years = trend.get("years") or []
+    series = trend.get("series") or []
+    if not years or not series:
+        return None
+    target = str(current_year)
+    if target not in years:
+        return None
+    cur_idx = years.index(target)
+    if cur_idx == 0:
+        return None
+    prev_idx = cur_idx - 1
+    best_party: str | None = None
+    best_pct: float = -1.0
+    for s in series:
+        pts = s.get("points") or []
+        if prev_idx >= len(pts):
+            continue
+        pt = pts[prev_idx]
+        if pt is None:
+            continue
+        if pt > best_pct:
+            best_pct = float(pt)
+            best_party = s.get("label") or s.get("id")
+    return (best_party or "").upper() or None
+
+
 def build_seat_json(
     *,
     meta: dict[str, Any],
@@ -78,6 +112,7 @@ def build_seat_json(
         tcp_runner = None
         margin = None
 
+    prev_party = _previous_winner_party_ab(history, year)
     return {
         "schema": 1,
         "year": year,
@@ -90,8 +125,9 @@ def build_seat_json(
             "informalVotes": informal["informalVotes"],
             "informalRate": informal["informalRate"],
             "winner": meta["winner"],
+            "previousWinnerParty": prev_party,
             "tcpMargin": margin,
-            "result": _result_label(meta, tcp_winner),
+            "result": _result_label_with_history(meta, prev_party),
         },
         "primary": primary,
         "tcp": tcp,
@@ -112,15 +148,26 @@ def write_seat_json(payload: dict[str, Any], out_dir: Path) -> Path:
     return path
 
 
-def _result_label(meta: dict[str, Any], tcp_winner: dict[str, Any] | None) -> str:
-    """Render 'ALP RETAIN' / 'ALP GAIN' / 'IND HOLD' style label.
+def _result_label_with_history(
+    meta: dict[str, Any], prev_party_ab: str | None
+) -> str:
+    """Render 'NAT RETAIN' / 'ALP GAIN' / 'IND WIN' style label.
 
-    For Phase A we don't have prior-election data joined yet, so this is
-    a placeholder that just shows the winning party. Phase D fills in the
-    proper RETAIN/GAIN logic against the previous election's holder.
+    A seat is RETAIN if the same party held it at the prior election —
+    even if the individual MP changed (e.g. Parkes 2025: Mark Coulton
+    retired, Jamie Chaffey replaced him, NAT retained the seat). This
+    comes from the history trend block; for newly-created seats with
+    no prior-election data we fall back to a plain 'WIN'.
+
+    Coalition partner alignment is treated naively: LIB / LNP / NAT /
+    CLP are distinct parties for this calculation. State-by-state
+    Coalition mergers / splits create some edge cases — acceptable for
+    v1; can refine later.
     """
-    winner = meta.get("winner")
-    if not winner:
-        return "RESULT TBC"
+    winner = meta.get("winner") or {}
     party_ab = (winner.get("partyAb") or "IND").upper()
-    return f"{party_ab} {'RETAIN' if winner.get('incumbent') else 'WIN'}"
+    if not party_ab:
+        return "RESULT TBC"
+    if prev_party_ab is None:
+        return f"{party_ab} WIN"
+    return f"{party_ab} {'RETAIN' if prev_party_ab == party_ab else 'GAIN'}"
