@@ -23,6 +23,7 @@ from .sources.boundaries import fetch_boundaries
 from .sources.census import fetch_census
 from .sources.coastline import fetch_land
 from .sources.mediafeed import EVENT_IDS, STATES, fetch_event, fetch_event_lite
+from .sources.wikipedia import fetch_all_bios
 from .transform.demographics import build_demographics
 from .transform.historical import (
     history_blocks,
@@ -81,6 +82,11 @@ DEFAULT_HISTORY_YEARS = (2007, 2010, 2013, 2016, 2019, 2022, 2025)
     is_flag=True,
     help="Skip ABS Census demographic join.",
 )
+@click.option(
+    "--no-bios",
+    is_flag=True,
+    help="Skip Wikipedia bio fetch (uses cache from previous runs if present).",
+)
 @click.option("--refresh", is_flag=True, help="Force re-download of source CSVs.")
 @click.option(
     "--out-dir",
@@ -102,6 +108,7 @@ def build(
     history_from: int,
     no_history: bool,
     no_demographics: bool,
+    no_bios: bool,
     refresh: bool,
     out_dir: Path,
     cache_dir: Path,
@@ -144,6 +151,19 @@ def build(
         click.echo(f"▸ Built demographics for {len(demographics_lookup)} CEDs.")
 
     division_ids = _resolve_division_ids(candidates, seat_filter)
+
+    bios_lookup: dict[str, dict] = {}
+    if not no_bios:
+        click.echo(f"▸ Wikipedia bios for {len(division_ids)} division(s)")
+        names = (
+            candidates.filter(pl.col("DivisionID").is_in(division_ids))
+            .select(pl.col("DivisionNm").unique())
+            ["DivisionNm"]
+            .to_list()
+        )
+        bios_lookup = fetch_all_bios(names, cache_dir, refresh=refresh)
+        click.echo(f"  ✓ {len(bios_lookup)} / {len(names)} divisions have a Wikipedia bio")
+
     click.echo(f"▸ Building {len(division_ids)} seat(s) → {out_dir}")
 
     out_paths: list[Path] = []
@@ -158,6 +178,7 @@ def build(
                 year=year,
                 history_lookup=history_lookup,
                 demographics_lookup=demographics_lookup,
+                bios_lookup=bios_lookup,
             )
         except Exception as exc:  # noqa: BLE001 — surface bad-seat info
             import traceback
@@ -197,6 +218,7 @@ def _build_one(
     year: int,
     history_lookup: dict[str, dict] | None = None,
     demographics_lookup: dict[str, dict] | None = None,
+    bios_lookup: dict[str, dict] | None = None,
 ) -> dict:
     meta = division_meta(candidates, division_id)
     primary = primary_for_division(first_prefs, division_id)
@@ -210,6 +232,9 @@ def _build_one(
     demographics = None
     if demographics_lookup:
         demographics = demographics_lookup.get(meta["name"].lower())
+    bio = None
+    if bios_lookup:
+        bio = bios_lookup.get(meta["name"].lower())
     return build_seat_json(
         meta=meta,
         primary=primary,
@@ -219,6 +244,7 @@ def _build_one(
         informal=informal,
         history=history,
         demographics=demographics,
+        bio=bio,
         year=year,
     )
 

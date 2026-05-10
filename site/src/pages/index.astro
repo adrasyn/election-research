@@ -431,11 +431,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     document.getElementById('lc-oth').textContent   = String(counts.OTH).padStart(2, '0');
   });
 
-  // ── Bio strings (proof-of-concept; pipeline-side fetcher comes later). ──
-  const BIOS = {
-    'BENNELONG': `Created in 1949 and named after Woollarawarre Bennelong, the seat covers 60 sq km of Sydney's northern lower North Shore — Ryde, Lane Cove, Hunter's Hill, parts of Willoughby and Parramatta. Historically a safe Liberal seat best known as John Howard's home base for 33 years; Howard's loss to Labor's Maxine McKew in 2007 made him only the second sitting PM in Australian history to lose his own electorate. Migration from China, Hong Kong, South Korea and India has steadily reshaped Bennelong's character into one of Australia's most demographically distinctive seats. Jerome Laxale (ALP) holds it after his 2022 win and a decisive 2025 retain — the strongest Labor result in the seat's history.`,
-  };
-
   // ── Panel population ──
   async function openPanel(props) {
     const seatId = (props.divisionNm || '').toUpperCase().replace(/ /g, '_');
@@ -508,12 +503,13 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     $('p-name').textContent = seat.name;
     $('p-sub').textContent = `${seat.state} · ${fmt(seat.totalFormal)} formal votes counted at ${d.booths.length} booths.`;
 
-    // Bio — sourced from Wikipedia (manual for proof-of-concept; pipeline
-    // will populate per-seat in a follow-on).
-    const bio = (d.bio && d.bio.text) || BIOS[seat.id] || null;
+    // Bio — Wikipedia intro, fetched per seat by the pipeline.
     const bioEl = $('p-bio');
-    if (bio) {
-      bioEl.textContent = bio;
+    if (d.bio && d.bio.text) {
+      const link = d.bio.source
+        ? ` <a href="${escapeHTML(d.bio.source)}" target="_blank" rel="noopener" style="color:var(--t-3); text-decoration:none; border-bottom:1px dotted var(--t-4)">Wikipedia ↗</a>`
+        : '';
+      bioEl.innerHTML = escapeHTML(d.bio.text) + link;
       bioEl.style.display = '';
     } else {
       bioEl.style.display = 'none';
