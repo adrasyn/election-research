@@ -712,15 +712,19 @@ import 'maplibre-gl/dist/maplibre-gl.css';
           demoGrid.after(m);
           return m;
         })();
+      const ausLegend = `<div class="demo-foot" style="margin-top:10px">
+        <span class="nat-marker"><span class="nat-tick"></span>AUS %</span>
+      </div>`;
       mixHost.innerHTML =
         (dem.countryOfBirth?.length ? `<div class="demo-cell wide">
           <div class="demo-label">Country of birth · top 5</div>
           ${mixRows(dem.countryOfBirth)}
-          <div class="demo-foot" style="margin-top:8px"><span class="nat-marker">│ AUS %</span></div>
+          ${ausLegend}
         </div>` : '') +
         (dem.religion?.length ? `<div class="demo-cell wide">
           <div class="demo-label">Religion · top 5</div>
           ${mixRows(dem.religion)}
+          ${ausLegend}
         </div>` : '');
 
     }

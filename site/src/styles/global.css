@@ -1090,17 +1090,15 @@
   }
   .chart-legend .ll .sw { width: 10px; height: 2px; }
 
-  /* Cap the chart at its natural viewBox size so axis text + dots
-     stay at their designed visual size. Wider containers just leave
-     the chart at native; narrow ones still shrink it proportionally. */
+  /* Chart fills the full panel width; in-SVG font + dot sizes are
+     pre-shrunk so they read at the right visual size after the SVG
+     scales up to match the container. */
   .chart-svg {
     display: block;
     width: 100%;
-    max-width: 520px;
     height: auto;
     aspect-ratio: 440 / 140;
   }
-  .chart-wrap { max-width: 520px; }
   .chart-grid {
     stroke: var(--line-faint);
     stroke-width: 0.5;
@@ -1110,30 +1108,32 @@
     stroke-width: 0.5;
     stroke-dasharray: 2 3;
   }
+  /* Sizes pre-shrunk so when the SVG scales 1.4–1.6× to fill a wide
+     panel the visual sizes match the rest of the panel typography. */
   .chart-axis-label {
     font-family: var(--mono);
-    font-size: 8.5px;
+    font-size: 5.5px;
     fill: var(--t-4);
     letter-spacing: 0.08em;
     text-transform: uppercase;
   }
-  .chart-line-alp { stroke: var(--alp); stroke-width: 1.6; fill: none; }
-  .chart-line-lib { stroke: var(--lib); stroke-width: 1.6; fill: none; }
+  .chart-line-alp { stroke: var(--alp); stroke-width: 1.1; fill: none; }
+  .chart-line-lib { stroke: var(--lib); stroke-width: 1.1; fill: none; }
   .chart-fill-alp { fill: var(--alp-soft); }
   .chart-fill-lib { fill: var(--lib-soft); }
   .chart-pt {
     fill: var(--bg-base);
-    stroke-width: 1.4;
+    stroke-width: 1.0;
   }
   .chart-pt.alp { stroke: var(--alp); }
   .chart-pt.lib { stroke: var(--lib); }
   .chart-pt.active {
     stroke: var(--accent);
-    stroke-width: 1.6;
+    stroke-width: 1.1;
   }
   .chart-x-label {
     font-family: var(--mono);
-    font-size: 9px;
+    font-size: 6px;
     fill: var(--t-4);
     letter-spacing: 0.04em;
   }
@@ -1229,6 +1229,16 @@
     border: 1px solid var(--line);
     border-radius: var(--radius);
     padding: 14px 16px;
+  }
+  /* Inline tick that mirrors the AUS-anchor marker on each bar. */
+  .nat-tick {
+    display: inline-block;
+    width: 2px;
+    height: 11px;
+    background: var(--t-1);
+    box-shadow: 0 0 0 1px rgba(10, 13, 17, 0.85);
+    vertical-align: -2px;
+    margin-right: 4px;
   }
 
   .demo-spark {
