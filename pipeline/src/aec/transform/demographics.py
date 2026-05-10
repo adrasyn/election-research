@@ -63,7 +63,7 @@ def build_demographics(files: CensusFiles) -> dict[str, dict[str, Any]]:
     religion_national = _religion_national(religion_per_ced, g14)
 
     # National anchors — computed from AUS-level row across all CEDs.
-    nat_aus = _aus_row(g01, g02, g37=g37, g49b=g49b)
+    nat_aus = _aus_row(g01, g02, g37=g37, g49b=g49b, cob_national=cob_national)
     nat_aus["countryOfBirth"] = cob_national
     nat_aus["religion"] = religion_national
 
@@ -81,10 +81,17 @@ def build_demographics(files: CensusFiles) -> dict[str, dict[str, Any]]:
         g49r = g49_row.row(0, named=True) if not g49_row.is_empty() else {}
 
         tot = int(g01r.get("Tot_P_P") or 0)
+        # Born-overseas + country-of-birth share the same denominator —
+        # bp_known = people who answered the country-of-birth question
+        # (G01.Birthplace_Australia + G01.Birthplace_Elsewhere). G01
+        # captures everyone who answered, so bp_known is more complete
+        # than summing G09 buckets (G09 only itemises the top ~60
+        # countries individually). Australia% + Born overseas% = 100%.
         bp_aus = int(g01r.get("Birthplace_Australia_P") or 0)
         bp_else = int(g01r.get("Birthplace_Elsewhere_P") or 0)
         bp_known = bp_aus + bp_else
         born_overseas_pct = (bp_else / bp_known * 100) if bp_known else None
+        cob_bucket = cob_per_ced.get(code, {})
 
         # Indigenous % (Aboriginal + Torres Strait Is + Both)
         indig = int(g01r.get("Indigenous_P_Tot_P") or 0)
@@ -113,7 +120,13 @@ def build_demographics(files: CensusFiles) -> dict[str, dict[str, Any]]:
             "indigenousPct": _round(indigenous_pct, 1),
             "bachelorPlusPct": _round(bachelor_plus_pct, 1),
             "renterPct": _round(renter_pct, 1),
-            "countryOfBirth": _top_n_with_anchor(cob_per_ced.get(code, {}), tot, cob_national, n=5),
+            # COB uses its own bucket-total denominator (people who
+            # answered the question) so percentages sum to ~100% and
+            # match the born-overseas% above.
+            # Denominator is bp_known so Australia% + Born overseas% = 100%.
+            # Listed top-5 will not sum to 100% (the long tail of unlisted
+            # countries is implicit in the "100% − Australia − top4" gap).
+            "countryOfBirth": _top_n_with_anchor(cob_bucket, bp_known, cob_national, n=5),
             "religion": _top_n_with_anchor(religion_per_ced.get(code, {}), tot, religion_national, n=5),
             "national": nat_aus,
         }
@@ -189,16 +202,23 @@ def _humanise_country(token: str) -> str:
 def _country_of_birth_national(
     per_ced: dict[str, dict[str, int]], g01: pl.DataFrame
 ) -> dict[str, dict[str, Any]]:
-    """National per-country totals + persons-percent."""
-    nat_pop = int(g01["Tot_P_P"].sum())
+    """National per-country totals + persons-percent.
+
+    Denominator is bp_known (G01 Australia + Elsewhere), matching the
+    per-CED Country-of-Birth bar denominator. Listed top-N won't sum
+    to 100% (G09 only itemises the top ~60 countries).
+    """
     sums: dict[str, int] = {}
     for ced_counts in per_ced.values():
         for country, n in ced_counts.items():
             sums[country] = sums.get(country, 0) + n
+    nat_bp_aus = int(g01["Birthplace_Australia_P"].sum())
+    nat_bp_else = int(g01["Birthplace_Elsewhere_P"].sum())
+    nat_bp_known = (nat_bp_aus + nat_bp_else) or 1
     return {
         country: {
             "count": n,
-            "pct": round(n / nat_pop * 100, 2) if nat_pop else 0.0,
+            "pct": round(n / nat_bp_known * 100, 2),
         }
         for country, n in sums.items()
     }
@@ -276,8 +296,14 @@ def _top_n_with_anchor(
 
 
 def _aus_row(g01: pl.DataFrame, g02: pl.DataFrame, g37: pl.DataFrame | None = None,
-             g49b: pl.DataFrame | None = None) -> dict[str, Any]:
-    """Compute national anchors by summing CED-level rows across the country."""
+             g49b: pl.DataFrame | None = None,
+             cob_national: dict[str, dict[str, Any]] | None = None) -> dict[str, Any]:
+    """Compute national anchors by summing CED-level rows across the country.
+
+    born_overseas_pct uses the sum of country-of-birth bucket counts
+    (the same denominator the per-CED bars use) so the per-seat born-
+    overseas% and the AUS-anchor born-overseas% are computed the same way.
+    """
     tot = int(g01["Tot_P_P"].sum())
     bp_aus = int(g01["Birthplace_Australia_P"].sum())
     bp_else = int(g01["Birthplace_Elsewhere_P"].sum())

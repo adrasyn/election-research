@@ -680,16 +680,17 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       const fmtInt   = (n) => fmt(Math.round(n));
       const fmtDec   = (n) => Number(n).toFixed(1);
 
-      demoGrid.innerHTML =
+      const metricCells =
         cell('Median age',              dem.medianAge,                   nat.medianAge,                   fmtInt,   ' yrs', 0) +
         cell('Median household income', dem.medianHouseholdIncomeWeekly, nat.medianHouseholdIncomeWeekly, fmtMoney, ' /wk', 0) +
         cell('Median rent',             dem.medianRentWeekly,            nat.medianRentWeekly,            fmtMoney, ' /wk', 0) +
         cell('Born overseas',           dem.bornOverseasPct,             nat.bornOverseasPct,             fmtPct,   '%',    1) +
-        cell('Bachelor +',              dem.bachelorPlusPct,             nat.bachelorPlusPct,             fmtPct,   '%',    1) +
+        cell('Bachelor degree',         dem.bachelorPlusPct,             nat.bachelorPlusPct,             fmtPct,   '%',    1) +
         cell('Renters',                 dem.renterPct,                   nat.renterPct,                   fmtPct,   '%',    1) +
         cell('Indigenous',              dem.indigenousPct,               nat.indigenousPct,               fmtPct,   '%',    1) +
         cell('Avg household size',      dem.averageHouseholdSize,        nat.averageHouseholdSize,        fmtDec,   ' p',   1) +
         cell('Total population',        dem.totalPopulation,             null,                            fmtInt,   '',     0);
+      demoGrid.innerHTML = metricCells;
 
       // Country of birth + religion — top-N mix bars with national anchor lines.
       function mixRows(items, total) {
@@ -706,18 +707,25 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         }).join('')}</div>`;
       }
 
-      if (dem.countryOfBirth?.length || dem.religion?.length) {
-        demoGrid.innerHTML +=
-          (dem.countryOfBirth?.length ? `<div class="demo-cell wide">
-            <div class="demo-label">Country of birth · top 5</div>
-            ${mixRows(dem.countryOfBirth)}
-            <div class="demo-foot" style="margin-top:8px"><span class="nat-marker">│ AUS %</span></div>
-          </div>` : '') +
-          (dem.religion?.length ? `<div class="demo-cell wide">
-            <div class="demo-label">Religion · top 5</div>
-            ${mixRows(dem.religion)}
-          </div>` : '');
-      }
+      // Wide mix-bars (country of birth + religion) live in a sibling
+      // stack below the metric grid so the gap reads as deliberate.
+      const mixHost = demoGrid.parentElement.querySelector('.demo-mix-stack')
+        ?? (() => {
+          const m = document.createElement('div');
+          m.className = 'demo-mix-stack';
+          demoGrid.after(m);
+          return m;
+        })();
+      mixHost.innerHTML =
+        (dem.countryOfBirth?.length ? `<div class="demo-cell wide">
+          <div class="demo-label">Country of birth · top 5</div>
+          ${mixRows(dem.countryOfBirth)}
+          <div class="demo-foot" style="margin-top:8px"><span class="nat-marker">│ AUS %</span></div>
+        </div>` : '') +
+        (dem.religion?.length ? `<div class="demo-cell wide">
+          <div class="demo-label">Religion · top 5</div>
+          ${mixRows(dem.religion)}
+        </div>` : '');
 
     }
 

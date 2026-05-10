@@ -1203,11 +1203,22 @@
     letter-spacing: 0.04em;
     display: flex; align-items: center; gap: 6px;
   }
-  .demo-foot .delta-pos { color: var(--positive); }
-  .demo-foot .delta-neg { color: var(--negative); }
+  /* Deltas: grey-on-grey rather than positive/negative semantics —
+     the comparison is descriptive, not "good vs bad". */
+  .demo-foot .delta-pos,
+  .demo-foot .delta-neg { color: var(--t-3); }
   .demo-foot .nat-marker {
     flex-shrink: 0;
     color: var(--t-4);
+  }
+  /* Wide-cell mix bars (country of birth, religion) sit beneath the
+     metric grid with a clear gap so they don't look like more cells. */
+  .demo-mix-stack { margin-top: 18px; display: flex; flex-direction: column; gap: 18px; }
+  .demo-mix-stack .demo-cell.wide {
+    background: var(--bg-elev-1);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 14px 16px;
   }
 
   .demo-spark {
