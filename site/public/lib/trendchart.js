@@ -172,7 +172,15 @@
         d += (started ? ' L ' : 'M ') + xs[i].toFixed(2) + ' ' + yAt(p).toFixed(2);
         started = true;
       }
-      if (d) svg.appendChild(svgEl('path', { class: `chart-line-${s.party}`, d }));
+      if (d) {
+        svg.appendChild(svgEl('path', {
+          class: `chart-line chart-line-${s.party}`,
+          // Inline stroke so any party (grn, ind, ca, nat, on, …) renders
+          // correctly without needing a per-party CSS rule.
+          style: `stroke: var(--${s.party}); stroke-width: 1.6; fill: none;`,
+          d,
+        }));
+      }
     }
 
     // active election dashed vertical
@@ -192,6 +200,8 @@
         if (p == null) continue;
         svg.appendChild(svgEl('circle', {
           class: `chart-pt ${s.party}`,
+          // Inline stroke matches the line colour for any party.
+          style: `stroke: var(--${s.party}); stroke-width: 1.4; fill: var(--bg-base);`,
           cx: xs[i].toFixed(2),
           cy: yAt(p).toFixed(2),
           r: '3.6',
