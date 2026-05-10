@@ -186,7 +186,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         </div>
       </section>
 
-      <section class="pillar">
+      <section class="pillar" id="p-prefs-section">
         <div class="pillar-head">
           <h2 class="pillar-title">Preference distribution</h2>
           <span class="pillar-meta" id="p-pref-meta">…</span>
@@ -208,7 +208,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         <div id="p-stack-host"></div>
       </section>
 
-      <section class="pillar">
+      <section class="pillar" id="p-booths-section">
         <div class="pillar-head">
           <h2 class="pillar-title">Booth-level results</h2>
           <span class="pillar-meta" id="p-booth-meta">…</span>
@@ -431,20 +431,30 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     document.getElementById('lc-oth').textContent   = String(counts.OTH).padStart(2, '0');
   });
 
-  // Subtle fade+slide on the panel + demographic quadrant whenever
-  // the seat changes — signals "new content arrived" without being
-  // dramatic. 220ms on the same easing curve as the TCP bar grow.
+  // Cascading fade+slide across panel sections on every seat change.
+  // Each section starts ~90ms after the prior so the layout reads as
+  // a wave through the page rather than a single big flash.
   const FADE_KEYFRAMES = [
     { opacity: 0.15, transform: 'translateY(8px)' },
     { opacity: 1,    transform: 'translateY(0)'   },
   ];
-  const FADE_OPTS = { duration: 380, easing: 'cubic-bezier(0.32, 0.72, 0.20, 1)' };
-  function flashIn(...elements) {
-    for (const el of elements) {
-      if (!el || !el.animate) continue;
-      el.animate(FADE_KEYFRAMES, FADE_OPTS);
-    }
+  const FADE_OPTS = { duration: 380, easing: 'cubic-bezier(0.32, 0.72, 0.20, 1)', fill: 'backwards' };
+  const STAGGER  = 90; // ms between section starts
+  function cascadeIn(selectors) {
+    selectors.forEach((sel, i) => {
+      const el = typeof sel === 'string' ? document.querySelector(sel) : sel;
+      if (!el || !el.animate) return;
+      el.animate(FADE_KEYFRAMES, { ...FADE_OPTS, delay: i * STAGGER });
+    });
   }
+  const SEAT_CASCADE = [
+    '.quad-detail .panel-head',
+    '.quad-detail .panel-context',
+    '.quad-demo',
+    '#p-prefs-section',
+    '#p-history-section',
+    '#p-booths-section',
+  ];
 
   // ── Panel population ──
   async function openPanel(props) {
@@ -456,11 +466,11 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       data = await res.json();
     } catch (err) {
       renderStub(props);
-      flashIn(document.querySelector('.quad-detail'), document.querySelector('.quad-demo'));
+      cascadeIn(SEAT_CASCADE);
       return;
     }
     renderFull(data);
-    flashIn(document.querySelector('.quad-detail'), document.querySelector('.quad-demo'));
+    cascadeIn(SEAT_CASCADE);
   }
 
   function fmt(n) { return Number(n).toLocaleString('en-AU'); }
@@ -580,8 +590,14 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       labels.appendChild(lbl);
       pendingTargets.push([seg, c.pct + '%'], [lbl, c.pct + '%']);
     }
+    // Force a layout pass at width:0 before flipping to the target so
+    // the CSS transition fires on every click, not just the first time
+    // the element is created.
+    track.offsetHeight;  // eslint-disable-line no-unused-expressions
     requestAnimationFrame(() => {
-      for (const [el, w] of pendingTargets) el.style.width = w;
+      requestAnimationFrame(() => {
+        for (const [el, w] of pendingTargets) el.style.width = w;
+      });
     });
 
     // Booth rows — every booth, click-to-expand for full primary + TCP breakdown.
