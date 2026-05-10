@@ -78,12 +78,12 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       <div class="brand-mark">Election Research</div>
     </div>
   </div>
-  <div class="chrome-segment">
-    <span class="seg-label">EVENT</span>
-    <button class="selector"><span>2025 Federal Election</span><span class="caret">▾</span></button>
-    <span class="seg-label" style="margin-left:auto">CHAMBER</span>
-    <button class="selector"><span>House of Representatives</span><span class="caret">▾</span></button>
-  </div>
+  <nav class="chrome-segment chrome-tabs" role="tablist" aria-label="View">
+    <button class="chrome-tab is-active" type="button" aria-selected="true">Electorate analysis</button>
+    <button class="chrome-tab is-disabled" type="button" aria-selected="false" aria-disabled="true" title="Cross-seat insights — coming soon">
+      National analysis <span class="chrome-tab-tag">TBC</span>
+    </button>
+  </nav>
   <div class="chrome-segment status">
     <div class="status-pieces">
       <div><span class="lbl">DATA</span>FINAL</div>
