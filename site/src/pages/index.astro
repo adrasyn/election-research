@@ -572,12 +572,47 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       labels.appendChild(lbl);
     }
 
-    // Booth rows
+    // Booth rows — every booth, click-to-expand for full primary + TCP breakdown.
     const tbody = $('p-booth-rows');
     tbody.innerHTML = '';
     $('p-booth-meta').textContent = `${d.booths.length} BOOTHS · ${fmt(seat.totalFormal)} VOTES`;
-    for (const b of d.booths.slice(0, 12)) {
+
+    function renderExpanded(b) {
+      const candRows = (b.candidates || []).map(c => `
+        <div class="booth-cand-row">
+          <span class="booth-cand-pip ${c.party}"></span>
+          <span class="booth-cand-name">${escapeHTML(c.partyAb || 'IND')} · ${escapeHTML(c.surname || '')}</span>
+          <span class="booth-cand-bar"><span style="width:${c.pct}%; background:var(--${c.party})"></span></span>
+          <span class="booth-cand-pct">${c.pct.toFixed(1)}%</span>
+          <span class="booth-cand-votes">${fmt(c.votes)}</span>
+        </div>
+      `).join('');
+      const tcpRows = (b.tcp || []).map(c => `
+        <div class="booth-cand-row tcp">
+          <span class="booth-cand-pip ${c.party}"></span>
+          <span class="booth-cand-name"><strong>${escapeHTML(c.partyAb || 'IND')} · ${escapeHTML(c.surname || '')}</strong>${c.elected ? ' <span style="color:var(--positive)">▲</span>' : ''}</span>
+          <span class="booth-cand-bar"><span style="width:${c.pct}%; background:var(--${c.party})"></span></span>
+          <span class="booth-cand-pct">${c.pct.toFixed(1)}%</span>
+          <span class="booth-cand-votes">${fmt(c.votes)}</span>
+        </div>
+      `).join('');
+      return `<td colspan="4" class="booth-expand">
+        <div class="booth-expand-cols">
+          <div>
+            <div class="booth-expand-label">PRIMARY · first preferences</div>
+            ${candRows}
+          </div>
+          <div>
+            <div class="booth-expand-label">TWO-CANDIDATE PREFERRED</div>
+            ${tcpRows}
+          </div>
+        </div>
+      </td>`;
+    }
+
+    for (const b of d.booths) {
       const tr = document.createElement('tr');
+      tr.className = 'booth-row';
       const swingTxt = b.swing != null ? (b.swing >= 0 ? '+' : '') + b.swing.toFixed(1) : '—';
       const swingCls = b.swing != null ? (b.swing >= 0 ? 'pos' : 'neg') : '';
       tr.innerHTML =
@@ -585,9 +620,24 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         `<td class="r">${escapeHTML((b.winnerParty || 'oth').toUpperCase())} ${b.winnerPct?.toFixed(1) ?? '—'}</td>` +
         `<td class="r swing-cell ${swingCls}">${swingTxt}</td>` +
         `<td class="r">${fmt(b.formal)}</td>`;
+      const expandTr = document.createElement('tr');
+      expandTr.className = 'booth-expand-row';
+      expandTr.style.display = 'none';
+      expandTr.innerHTML = renderExpanded(b);
+      tr.addEventListener('click', () => {
+        const open = expandTr.style.display !== 'none';
+        // Close any other open rows for tidiness.
+        tbody.querySelectorAll('.booth-expand-row').forEach(r => r.style.display = 'none');
+        tbody.querySelectorAll('.booth-row').forEach(r => r.classList.remove('is-open'));
+        if (!open) {
+          expandTr.style.display = '';
+          tr.classList.add('is-open');
+        }
+      });
       tbody.appendChild(tr);
+      tbody.appendChild(expandTr);
     }
-    $('p-booth-footer').textContent = `Showing ${Math.min(12, d.booths.length)} of ${d.booths.length} · sorted by votes`;
+    $('p-booth-footer').textContent = `${d.booths.length} booths · click any row for the full primary + TCP breakdown · booth-inset map coming next`;
 
     // Waterfall
     $('p-pref-meta').textContent = `${d.preferences.rounds.length} ROUNDS · ${fmt(d.preferences.totalFormal)} FORMAL`;

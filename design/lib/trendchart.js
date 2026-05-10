@@ -134,7 +134,9 @@
     }
 
     // ── SVG ──
-    const svg = svgEl('svg', { class: 'chart-svg', viewBox: `0 0 ${W} ${H}`, preserveAspectRatio: 'none' });
+    // Default preserveAspectRatio="xMidYMid meet" keeps circles round and
+     // text un-squashed at any container width.
+    const svg = svgEl('svg', { class: 'chart-svg', viewBox: `0 0 ${W} ${H}` });
 
     // gridlines: 5 evenly spaced (top, q1, mid, q3, bottom)
     const gridYs = [yPlotTop, yPlotTop + (yPlotBot - yPlotTop) * 0.25, (yPlotTop + yPlotBot) / 2, yPlotTop + (yPlotBot - yPlotTop) * 0.75, yPlotBot];

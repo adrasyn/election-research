@@ -117,21 +117,22 @@ def tcp_for_division(tcp: pl.DataFrame, division_id: int) -> list[dict[str, Any]
 def booths_for_division(
     first_prefs: pl.DataFrame, tcp: pl.DataFrame, division_id: int
 ) -> list[dict[str, Any]]:
-    """Per-booth row: name, total formal votes, TCP winner + margin, swing.
+    """Per-booth row: summary fields + full primary + TCP breakdowns.
 
-    Informal rows (PartyAb null) are excluded from the formal-vote count;
-    the booth-level inset shows formal votes only.
+    The summary fields drive the booth table's collapsed row; the
+    `candidates` and `tcp` arrays power the click-to-expand detail view.
+    Informal rows (PartyAb null) are excluded from formal vote totals.
     """
     fp_seat = first_prefs.filter(
         (pl.col("DivisionID") == division_id) & (pl.col("PartyAb").is_not_null())
     )
     tcp_seat = tcp.filter(pl.col("DivisionID") == division_id)
 
+    # Summary fields per booth
     formal_per_booth = (
         fp_seat.group_by("PollingPlaceID", "PollingPlace")
         .agg(pl.col("OrdinaryVotes").sum().alias("formal"))
     )
-
     tcp_winner = (
         tcp_seat.sort(["PollingPlaceID", "OrdinaryVotes"], descending=[False, True])
         .group_by("PollingPlaceID", "PollingPlace", maintain_order=True)
@@ -143,22 +144,70 @@ def booths_for_division(
             pl.col("Swing").first().alias("winner_swing"),
         )
     )
+    joined = formal_per_booth.join(
+        tcp_winner, on=["PollingPlaceID", "PollingPlace"], how="left"
+    )
 
-    joined = formal_per_booth.join(tcp_winner, on=["PollingPlaceID", "PollingPlace"], how="left")
+    # Per-booth primary breakdown (every candidate)
+    primary_per_booth: dict[int, list[dict[str, Any]]] = {}
+    for row in fp_seat.iter_rows(named=True):
+        bid = int(row["PollingPlaceID"])
+        primary_per_booth.setdefault(bid, []).append(
+            {
+                "surname": row["Surname"],
+                "partyAb": display_short(row["PartyAb"]),
+                "party": css_key(row["PartyAb"]),
+                "votes": int(row["OrdinaryVotes"] or 0),
+            }
+        )
+
+    # Per-booth TCP breakdown (the two finalists)
+    tcp_per_booth: dict[int, list[dict[str, Any]]] = {}
+    for row in tcp_seat.iter_rows(named=True):
+        bid = int(row["PollingPlaceID"])
+        tcp_per_booth.setdefault(bid, []).append(
+            {
+                "surname": row["Surname"],
+                "partyAb": display_short(row["PartyAb"]),
+                "party": css_key(row["PartyAb"]),
+                "votes": int(row["OrdinaryVotes"] or 0),
+                "elected": (row.get("Elected") or "").strip() == "Y",
+            }
+        )
+
     out: list[dict[str, Any]] = []
     for row in joined.sort("formal", descending=True).iter_rows(named=True):
+        bid = int(row["PollingPlaceID"])
         winner_votes = row["winner_votes"]
         tcp_total = row["tcp_total"] or 0
         pct = (winner_votes / tcp_total * 100) if winner_votes and tcp_total else None
+        formal = int(row["formal"])
+
+        # Sort primary by votes desc, attach per-candidate pct of formal.
+        primary = sorted(primary_per_booth.get(bid, []), key=lambda c: c["votes"], reverse=True)
+        for c in primary:
+            c["pct"] = round(c["votes"] / formal * 100, 2) if formal else 0.0
+
+        # TCP — winner first, then runner-up. Add pct of TCP total.
+        tcp_rows = sorted(
+            tcp_per_booth.get(bid, []),
+            key=lambda c: (0 if c["elected"] else 1, -c["votes"]),
+        )
+        tcp_t = sum(c["votes"] for c in tcp_rows)
+        for c in tcp_rows:
+            c["pct"] = round(c["votes"] / tcp_t * 100, 2) if tcp_t else 0.0
+
         out.append(
             {
-                "boothId": int(row["PollingPlaceID"]),
+                "boothId": bid,
                 "name": row["PollingPlace"],
-                "formal": int(row["formal"]),
+                "formal": formal,
                 "winnerParty": css_key(row["winner_party"]),
                 "winnerSurname": row["winner_surname"],
                 "winnerPct": round(pct, 2) if pct is not None else None,
                 "swing": float(row["winner_swing"]) if row["winner_swing"] is not None else None,
+                "candidates": primary,
+                "tcp": tcp_rows,
             }
         )
     return out

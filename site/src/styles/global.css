@@ -985,6 +985,60 @@
   }
   .booth-table .winner-pip.alp { background: var(--alp); }
   .booth-table .winner-pip.lib { background: var(--lib); }
+  .booth-table .booth-row { cursor: pointer; }
+  .booth-table .booth-row.is-open td { background: var(--bg-elev-2); color: var(--t-1); }
+  .booth-table .booth-row.is-open td:first-child::before {
+    content: '▾'; margin-right: 6px; color: var(--accent);
+  }
+  .booth-table .booth-expand-row td { padding: 0; background: var(--bg-elev-1); }
+  .booth-table .booth-expand {
+    padding: 14px 16px !important;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .booth-table .booth-expand-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .booth-table .booth-expand-label {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    color: var(--t-3);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .booth-cand-row {
+    display: grid;
+    grid-template-columns: 8px 1fr 100px 50px 60px;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+    font-size: 11.5px;
+    color: var(--t-2);
+  }
+  .booth-cand-row.tcp { color: var(--t-1); }
+  .booth-cand-pip { width: 6px; height: 6px; border-radius: 50%; background: var(--oth); }
+  .booth-cand-pip.alp { background: var(--alp); }
+  .booth-cand-pip.lib { background: var(--lib); }
+  .booth-cand-pip.lnp { background: var(--lnp); }
+  .booth-cand-pip.nat { background: var(--nat); }
+  .booth-cand-pip.grn { background: var(--grn); }
+  .booth-cand-pip.ind { background: var(--ind); }
+  .booth-cand-pip.on  { background: var(--on);  }
+  .booth-cand-pip.ca  { background: var(--ca);  }
+  .booth-cand-name { font-family: var(--sans); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .booth-cand-bar { background: var(--bg-elev-2); height: 6px; border-radius: 1px; overflow: hidden; }
+  .booth-cand-bar > span { display: block; height: 100%; }
+  .booth-cand-pct {
+    font-family: var(--mono); font-variant-numeric: tabular-nums;
+    text-align: right; color: var(--t-1);
+  }
+  .booth-cand-votes {
+    font-family: var(--mono); font-variant-numeric: tabular-nums;
+    text-align: right; color: var(--t-3); font-size: 10.5px;
+  }
 
   .table-footer {
     display: flex;
@@ -1035,7 +1089,7 @@
   }
   .chart-legend .ll .sw { width: 10px; height: 2px; }
 
-  .chart-svg { width: 100%; height: 145px; display: block; }
+  .chart-svg { width: 100%; height: auto; aspect-ratio: 440/140; display: block; }
   .chart-grid {
     stroke: var(--line-faint);
     stroke-width: 0.5;
