@@ -15,9 +15,9 @@
 
 Prioritised order is up to the user; each is independent.
 
-1. **Nationwide insights view** — Cross-seat charts, faceted small multiples (each dot = one seat, x = a demographic dimension, y = swing or TPP margin or party position; coloured by winning party). Wires up the "National analysis" tab in the chrome-top that's currently `[TBC]`. Existing data already supports this — primarily a frontend build.
+1. **Nationwide insights view** — Cross-seat charts, faceted small multiples (each dot = one seat, x = a demographic dimension, y = swing or TPP margin or party position; coloured by winning party). Wires up the "National analysis" tab in the chrome-top that's currently `[TBC]`. Existing data already supports this — primarily a frontend build. Now also benefits from the chip classification (#2 below) as a grouping dimension.
 
-2. **Electorate classification + tag chips on bio** — Tag each seat along income / age / migrant share / tenure / education / marginality / TCP shape / Indigenous-share axes; render as small chips under the bio in the right panel. Used as both editorial colour and the grouping dimension for #1.
+2. ~~**Electorate classification + tag chips on bio**~~ — **Shipped 2026-05-10.** Top/bottom quartile chips for income, age, migrant share, education, tenure + absolute-cut First Nations tier. Standalone classifier at `pipeline/scripts/classify.py`. Middle two quartiles intentionally unlabelled so every visible chip means the seat is genuinely atypical. Marginality + TCP-shape deliberately excluded — that info is already on-panel.
 
 3. **Booth-inset map** — Per-seat SVG inset above the booth table: real electorate outline (clipped from the GADM-clipped GeoJSON we already have) + real booth lat/lng dots from AEC's polling-place feed. Click a dot ↔ highlight the corresponding row in the booth table.
 
