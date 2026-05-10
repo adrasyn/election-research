@@ -52,9 +52,12 @@ parties:
     aec_name: Liberal Party of Australia
     display: Liberal
     abbr: LIB
-    colour: "#1746a8"
+    # Lifted to match LNP for legibility on the dark canvas — the
+    # original 1746a8 read too dark next to ALP red. All Coalition
+    # Liberals now share the brighter Coalition blue.
+    colour: "#2167cb"
     colour_canon: "#080CAB"
-    colour_soft: "rgba(23, 70, 168, 0.16)"
+    colour_soft: "rgba(33, 103, 203, 0.16)"
     aliases: [Liberal, LP, LIB, Liberal Party]
     category: major
     coalition_family: liberal
