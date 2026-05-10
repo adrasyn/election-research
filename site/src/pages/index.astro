@@ -243,12 +243,11 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 <script src="/lib/primarystack.js" is:inline></script>
 <script>
   import maplibregl from 'maplibre-gl';
-  import { Protocol } from 'pmtiles';
-
-  // Register the pmtiles:// protocol so MapLibre can load PMTiles via
-  // HTTP range requests (no separate tile server needed).
-  const protocol = new Protocol({ metadata: true });
-  maplibregl.addProtocol('pmtiles', protocol.tile);
+  // We previously used PMTiles + the pmtiles:// protocol but Cloudflare
+  // Pages doesn't serve HTTP Range requests reliably, which is what the
+  // PMTiles client needs to bootstrap. Two pre-simplified GeoJSONs
+  // (mapshaper, topology-preserving, ~6 MB raw / ~2 MB on the wire
+  // after Brotli) work on any static host without special config.
 
   const PARTY_FILL = {
     alp:  '#d4253a',
@@ -279,33 +278,31 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       glyphs: 'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
       sources: {
         seats: {
-          type: 'vector',
-          url: 'pmtiles:///tiles/aec-2025.pmtiles',
+          type: 'geojson',
+          data: '/tiles/seats.geojson',
+          // promoteId tells MapLibre to use the divisionId property as
+          // the feature.id so setFeatureState (hover / active outlines)
+          // can target each seat by its integer key.
+          promoteId: 'divisionId',
           attribution: 'Boundaries © AEC',
+        },
+        land: {
+          type: 'geojson',
+          data: '/tiles/land.geojson',
         },
       },
       layers: [
+        { id: 'bg', type: 'background', paint: { 'background-color': '#070a0e' } },
         {
-          id: 'bg',
-          type: 'background',
-          paint: { 'background-color': '#070a0e' }, // ocean
-        },
-        {
-          // Subtle land-vs-ocean tone underneath the seat fills.
           id: 'land',
           type: 'fill',
-          source: 'seats',
-          'source-layer': 'land',
-          paint: {
-            'fill-color': '#0d141d',
-            'fill-outline-color': '#0d141d',
-          },
+          source: 'land',
+          paint: { 'fill-color': '#0d141d', 'fill-outline-color': '#0d141d' },
         },
         {
           id: 'seats-fill',
           type: 'fill',
           source: 'seats',
-          'source-layer': 'seats',
           paint: {
             'fill-color': fillColorExpr,
             'fill-opacity': [
@@ -319,7 +316,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
           id: 'seats-line',
           type: 'line',
           source: 'seats',
-          'source-layer': 'seats',
           paint: {
             'line-color': '#0a0d11',
             'line-width': [
@@ -333,7 +329,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
           id: 'seats-line-active',
           type: 'line',
           source: 'seats',
-          'source-layer': 'seats',
           paint: {
             'line-color': '#5da9ff',
             'line-width': [
@@ -368,10 +363,10 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     const f = e.features[0];
     mapHost.classList.add('is-pickable');
     if (hoverId !== null) {
-      map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: hoverId }, { hover: false });
+      map.setFeatureState({ source: 'seats', id: hoverId }, { hover: false });
     }
     hoverId = f.id;
-    map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: hoverId }, { hover: true });
+    map.setFeatureState({ source: 'seats', id: hoverId }, { hover: true });
 
     const p = f.properties;
     tooltip.innerHTML =
@@ -387,7 +382,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
   map.on('mouseleave', 'seats-fill', () => {
     mapHost.classList.remove('is-pickable');
     if (hoverId !== null) {
-      map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: hoverId }, { hover: false });
+      map.setFeatureState({ source: 'seats', id: hoverId }, { hover: false });
     }
     hoverId = null;
     tooltip.classList.remove('show');
@@ -397,17 +392,17 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     if (!e.features?.length) return;
     const f = e.features[0];
     if (activeId !== null) {
-      map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: activeId }, { active: false });
+      map.setFeatureState({ source: 'seats', id: activeId }, { active: false });
     }
     activeId = f.id;
-    map.setFeatureState({ source: 'seats', sourceLayer: 'seats', id: activeId }, { active: true });
+    map.setFeatureState({ source: 'seats', id: activeId }, { active: true });
     await openPanel(f.properties);
   });
 
   // Once the source is loaded, populate the legend counts from the tile metadata.
   map.on('idle', () => {
     if (window.__legendDone) return;
-    const features = map.querySourceFeatures('seats', { sourceLayer: 'seats' });
+    const features = map.querySourceFeatures('seats');
     if (!features.length) return;
     window.__legendDone = true;
     const counts = { ALP: 0, LIB_NP: 0, NAT: 0, GRN: 0, IND: 0, OTH: 0 };

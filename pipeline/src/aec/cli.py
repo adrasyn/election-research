@@ -17,6 +17,7 @@ from .emit.pmtiles import (
     enrich_geojson,
     geojsons_to_pmtiles,
     shapefile_to_geojson,
+    simplify_geojson,
 )
 from .emit.seat_json import build_seat_json, write_seat_json
 from .sources.boundaries import fetch_boundaries
@@ -284,7 +285,7 @@ def build_tiles(year: int, refresh: bool, out_path: Path, cache_dir: Path) -> No
     raw_geojson = geo_dir / f"aec-{year}-raw.geojson"
     enriched_geojson = geo_dir / f"aec-{year}-enriched.geojson"
     clipped_geojson = geo_dir / f"aec-{year}-clipped.geojson"
-    land_geojson = geo_dir / f"aus-land-{year}.geojson"
+    land_geojson_full = geo_dir / f"aus-land-{year}.geojson"
 
     click.echo("▸ ogr2ogr  Shapefile → GeoJSON (WGS84)")
     shapefile_to_geojson(boundary.shapefile, raw_geojson)
@@ -299,16 +300,34 @@ def build_tiles(year: int, refresh: bool, out_path: Path, cache_dir: Path) -> No
     clip_to_land(enriched_geojson, clipped_geojson, land_shp)
 
     click.echo("▸ ogr2ogr  GADM land → GeoJSON (basemap layer)")
-    shapefile_to_geojson(land_shp, land_geojson)
+    shapefile_to_geojson(land_shp, land_geojson_full)
 
-    click.echo("▸ tippecanoe  GeoJSON → PMTiles  (layers: seats, land)")
-    geojsons_to_pmtiles(
-        {"seats": clipped_geojson, "land": land_geojson},
-        out_path,
+    # Cloudflare Pages doesn't honour HTTP Range requests on static
+    # assets reliably, so PMTiles (which needs Range to bootstrap) is
+    # broken there. Switching to two pre-simplified GeoJSONs served
+    # whole-file works on any host and gzips well.
+    seats_out = out_path.parent / "seats.geojson"
+    land_out = out_path.parent / "land.geojson"
+    seats_out.parent.mkdir(parents=True, exist_ok=True)
+
+    click.echo("▸ mapshaper  simplify seats (topology-preserving, no slivers)")
+    simplify_geojson(clipped_geojson, seats_out, percent=8.0)
+
+    click.echo("▸ mapshaper  simplify land basemap")
+    simplify_geojson(land_geojson_full, land_out, percent=4.0)
+
+    seats_mb = seats_out.stat().st_size / 1_048_576
+    land_mb = land_out.stat().st_size / 1_048_576
+    click.echo(
+        f"▸ Wrote {seats_out.name} ({seats_mb:.2f} MB) + "
+        f"{land_out.name} ({land_mb:.2f} MB) → site/public/tiles/"
     )
 
-    size_mb = out_path.stat().st_size / 1_048_576
-    click.echo(f"▸ Wrote {out_path}  ({size_mb:.2f} MB)")
+    # Remove any stale .pmtiles file from prior builds.
+    legacy_pmtiles = out_path.parent / "aec-2025.pmtiles"
+    if legacy_pmtiles.exists():
+        legacy_pmtiles.unlink()
+        click.echo(f"▸ Removed legacy {legacy_pmtiles.name}")
 
 
 if __name__ == "__main__":

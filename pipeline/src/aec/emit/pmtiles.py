@@ -50,6 +50,64 @@ def shapefile_to_geojson(shapefile: Path, geojson_out: Path) -> Path:
     return geojson_out
 
 
+def simplify_geojson(geojson_in: Path, geojson_out: Path, *, percent: float = 8.0) -> Path:
+    """Topology-aware simplification via mapshaper.
+
+    Crucially uses mapshaper's default Visvalingam algorithm with shared-
+    border preservation — adjacent polygons stay edge-aligned (no slivers
+    between divisions like the early tippecanoe attempt produced).
+
+    `percent` is the proportion of vertices to RETAIN (not drop). 8% keeps
+    enough detail for a national-scale map without bloating the file.
+    """
+    _require_tool("mapshaper")
+    geojson_out.parent.mkdir(parents=True, exist_ok=True)
+    geojson_out.unlink(missing_ok=True)
+    log.info("mapshaper simplify %s%% → %s", percent, geojson_out.name)
+    # `type=polygon` filters out any stray point/line geometries the
+    # clip step left behind so mapshaper's output stays a single layer
+    # (otherwise it auto-splits by geometry type into N files).
+    subprocess.run(
+        [
+            "mapshaper",
+            "-i",
+            str(geojson_in),
+            "name=poly",
+            "-filter-slivers",
+            "-clean",
+            "-simplify",
+            f"{percent}%",
+            "keep-shapes",
+            "-o",
+            "format=geojson",
+            "precision=0.00001",
+            f"target=poly",
+            str(geojson_out),
+        ],
+        check=True,
+    )
+    # Mapshaper still appends N to outputs when multiple geometry types
+    # were present pre-filter. Pick the polygon file and clean siblings.
+    if not geojson_out.exists():
+        candidates = sorted(geojson_out.parent.glob(f"{geojson_out.stem}*.geojson"))
+        for c in candidates:
+            try:
+                data = json.loads(c.read_text())
+            except Exception:  # noqa: BLE001
+                continue
+            geom_types = {f.get("geometry", {}).get("type")
+                          for f in data.get("features", [])
+                          if f.get("geometry")}
+            if geom_types & {"Polygon", "MultiPolygon"}:
+                c.rename(geojson_out)
+            else:
+                c.unlink(missing_ok=True)
+    # Tidy any leftover siblings.
+    for c in geojson_out.parent.glob(f"{geojson_out.stem}[0-9]*.geojson"):
+        c.unlink(missing_ok=True)
+    return geojson_out
+
+
 def clip_to_land(geojson_in: Path, geojson_out: Path, land_shapefile: Path) -> Path:
     """Clip AEC polygons to a land-only mask.
 
@@ -72,6 +130,11 @@ def clip_to_land(geojson_in: Path, geojson_out: Path, land_shapefile: Path) -> P
             "-clipsrc",
             str(land_shapefile),
             "-makevalid",  # clipping can create slivers / self-intersections
+            # Promote everything to MultiPolygon so mapshaper sees a
+            # single uniform layer; without this, ogr2ogr emits
+            # GeometryCollection for some clipped features (mixed
+            # polygons + line slivers) and downstream tooling chokes.
+            "-nlt", "MULTIPOLYGON",
             str(geojson_out),
             str(geojson_in),
         ],
