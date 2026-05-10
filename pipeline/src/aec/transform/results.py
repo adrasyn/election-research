@@ -233,7 +233,7 @@ def division_meta(
                 "surname": winner["Surname"],
                 "givenName": winner["GivenNm"],
                 "party": css_key(winner["PartyAb"]),
-                "partyAb": winner["PartyAb"],
+                "partyAb": display_short(winner["PartyAb"]),
                 "incumbent": (winner["HistoricElected"] or "").strip() == "Y",
             }
             if winner
