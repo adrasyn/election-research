@@ -1,0 +1,15 @@
+# PMTiles needs HTTP Range request support. Setting explicit
+# long-cache + immutable so Cloudflare's CDN caches the response,
+# which is what unlocks Range serving for static assets on Pages.
+/tiles/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# Per-seat JSON: short cache so a re-build picks up new data quickly,
+# but does cache so the same seat re-clicked is instant.
+/seats/*
+  Cache-Control: public, max-age=300
+
+# Chart-generator JS — versioning is by content; long cache OK.
+/lib/*
+  Cache-Control: public, max-age=86400
