@@ -1,7 +1,38 @@
 # AEC Elections Dashboard — Implementation Plan
 
-> Status: **approved 2026-05-09, in execution.**
-> Estimated total: **5–7 working days** of focused execution.
+> Status: **shipped 2026-05-10. Live at https://electionresearch.wlsn.me/**
+> Phases A–F all complete. Post-deploy queue at the bottom of this doc.
+
+## Project state snapshot (post-Phase F)
+
+- **Live**: https://electionresearch.wlsn.me/ (Cloudflare Pages, custom domain on Hover)
+- **GitHub**: https://github.com/adrasyn/election-research (public; auto-deploys on push to main)
+- **Coverage**: 150/150 seats with bio + booth + history (1996–2025) + preferences + demographics
+- **Stack confirmed shipped**: Python+Polars pipeline → 2× simplified GeoJSON + per-seat JSON → Astro 5 + MapLibre (geojson sources, no PMTiles) → Cloudflare Pages
+- **QA**: pipeline/scripts/qa_check.py passes 6/6 categories; matches AEC declared 2025 outcome (ALP 94 / LIB 18 / LNP 16 / NAT 9 / IND 10 / GRN 1 / CA 1 / KAP 1)
+
+## Post-deploy queue
+
+Prioritised order is up to the user; each is independent.
+
+1. **Nationwide insights view** — Cross-seat charts, faceted small multiples (each dot = one seat, x = a demographic dimension, y = swing or TPP margin or party position; coloured by winning party). Wires up the "National analysis" tab in the chrome-top that's currently `[TBC]`. Existing data already supports this — primarily a frontend build.
+
+2. **Electorate classification + tag chips on bio** — Tag each seat along income / age / migrant share / tenure / education / marginality / TCP shape / Indigenous-share axes; render as small chips under the bio in the right panel. Used as both editorial colour and the grouping dimension for #1.
+
+3. **Booth-inset map** — Per-seat SVG inset above the booth table: real electorate outline (clipped from the GADM-clipped GeoJSON we already have) + real booth lat/lng dots from AEC's polling-place feed. Click a dot ↔ highlight the corresponding row in the booth table.
+
+4. **Booth-level demographic estimation (Voronoi × SA1)** — Voronoi tessellation of polling-place lat/lng clipped to electorate boundary, intersected with ABS SA1 polygons, area-weighted to derive synthetic per-booth demographics (income, age, born-overseas, etc.). Joins to existing booth results to support "this booth votes ALP and has median income $X" analyses.
+
+5. **1996–2004 historical scrape** — Currently history goes back to 2007 (AEC structured feeds). Pre-2007 needs HTML scraping from results.aec.gov.au/{event_id}/Website/... pages. Adds 4 more elections to the trend chart.
+
+## Polish items deferred from Phase F code review
+
+- maplibre-gl bundle (~700 KB) is loaded eagerly. Could lazy-import after first paint of the panel — defer.
+- `design/lib/` duplicates `site/public/lib/`. Kept for the design reference HTMLs (`design/concept-01.html`, etc.). Sync risk noted; consolidate via a symlink or build step when convenient.
+- Map seats are not keyboard-navigable (MapLibre canvas constraint — would need a parallel ARIA listbox or skip-link). Not on the critical path for a desktop research tool.
+- Pipeline `except Exception` per-seat in `cli.py` logs but doesn't fail the build. `qa_check.py` catches missing seats downstream so this is OK; consider a `--strict` flag.
+
+## Original phase plan (for history)
 
 ## Decisions locked at kickoff (2026-05-09)
 
