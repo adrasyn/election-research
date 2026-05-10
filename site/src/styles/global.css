@@ -105,7 +105,7 @@
      ────────────────────────────────────────────────────────── */
   .app {
     display: grid;
-    grid-template-rows: 44px 24px 1fr 22px;
+    grid-template-rows: 44px 24px 1fr;
     height: 100vh;
     width: 100vw;
     background: var(--bg-base);
@@ -135,9 +135,11 @@
     border-left: 0;
     box-shadow: none;
   }
-  /* Quadrant cell does the scrolling; suppress the panel-body's
-     own internal scroll so we don't end up nested. */
+  /* Quadrant cell does the scrolling; the panel itself must let
+     its overflowing content out so the quadrant can pick it up. */
+  .quad-detail.panel { overflow: visible; }
   .quad-detail .panel-body { flex: none; overflow-y: visible; }
+  .quad-detail .panel-sub { max-width: none; }
 
   /* ──────────────────────────────────────────────────────────
      TOP CHROME (header)

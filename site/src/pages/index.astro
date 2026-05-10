@@ -238,16 +238,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 
 </main>
 
-<!-- ─────────────────────────── BOTTOM CHROME ─────────────────────────── -->
-<footer class="chrome-bottom">
-  <div class="seg"><span class="lbl">VIEW</span><span class="v">National · H/R</span></div>
-  <div class="seg"><span class="lbl">PROJ</span><span class="v">Web Mercator</span></div>
-  <div class="seg"><span class="lbl">SEATS</span><span class="v">150 · 100% reporting</span></div>
-  <div class="seg"><span class="lbl">SELECTED</span><span class="v acc" id="bc-selected">— click a seat —</span></div>
-  <div class="grow"></div>
-  <div class="seg"><span class="lbl">REV</span><span class="v">phase B</span></div>
-</footer>
-
 </div>
 
 <script src="/lib/waterfall.js" is:inline></script>
@@ -368,7 +358,9 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 
   const tooltip = document.getElementById('map-tooltip');
   const mapHost = document.getElementById('map-host');
-  const bcSelected = document.getElementById('bc-selected');
+  // Bottom-chrome was removed in the quadrant redesign; bcSelected may
+  // be absent so we noop it.
+  const bcSelected = document.getElementById('bc-selected') || { textContent: '' };
   const subSeat = document.getElementById('sub-seat');
   let hoverId = null;
   let activeId = null;
