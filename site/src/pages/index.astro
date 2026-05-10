@@ -600,7 +600,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     }
 
     // Demographics pillar — render ABS 2021 metrics with national-anchor lines
-    const demoSection = $('p-demo-section');
     const demoGrid = $('p-demo-grid');
     demoGrid.innerHTML = '';
     if (d.demographics) {
@@ -673,9 +672,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
           </div>` : '');
       }
 
-      demoSection.style.display = '';
-    } else {
-      demoSection.style.display = 'none';
     }
 
     // History pillar — trend chart + primary stack
