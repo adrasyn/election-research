@@ -20,8 +20,10 @@ from .emit.pmtiles import (
 )
 from .emit.seat_json import build_seat_json, write_seat_json
 from .sources.boundaries import fetch_boundaries
+from .sources.census import fetch_census
 from .sources.coastline import fetch_land
 from .sources.mediafeed import EVENT_IDS, STATES, fetch_event, fetch_event_lite
+from .transform.demographics import build_demographics
 from .transform.historical import (
     history_blocks,
     primary_by_division,
@@ -74,6 +76,11 @@ DEFAULT_HISTORY_YEARS = (2007, 2010, 2013, 2016, 2019, 2022, 2025)
     is_flag=True,
     help="Skip building the history block (useful for fast single-seat dev iteration).",
 )
+@click.option(
+    "--no-demographics",
+    is_flag=True,
+    help="Skip ABS Census demographic join.",
+)
 @click.option("--refresh", is_flag=True, help="Force re-download of source CSVs.")
 @click.option(
     "--out-dir",
@@ -94,6 +101,7 @@ def build(
     seat_filter: str | None,
     history_from: int,
     no_history: bool,
+    no_demographics: bool,
     refresh: bool,
     out_dir: Path,
     cache_dir: Path,
@@ -128,6 +136,13 @@ def build(
         history_lookup = history_blocks(tcp_frames, primary_frames)
         click.echo(f"▸ Built history for {len(history_lookup)} unique division names.")
 
+    demographics_lookup: dict[str, dict] = {}
+    if not no_demographics:
+        click.echo("▸ ABS 2021 Census GCP (CED-level)")
+        census = fetch_census(cache_dir, refresh=refresh)
+        demographics_lookup = build_demographics(census)
+        click.echo(f"▸ Built demographics for {len(demographics_lookup)} CEDs.")
+
     division_ids = _resolve_division_ids(candidates, seat_filter)
     click.echo(f"▸ Building {len(division_ids)} seat(s) → {out_dir}")
 
@@ -142,6 +157,7 @@ def build(
                 division_id=div_id,
                 year=year,
                 history_lookup=history_lookup,
+                demographics_lookup=demographics_lookup,
             )
         except Exception as exc:  # noqa: BLE001 — surface bad-seat info
             import traceback
@@ -180,6 +196,7 @@ def _build_one(
     division_id: int,
     year: int,
     history_lookup: dict[str, dict] | None = None,
+    demographics_lookup: dict[str, dict] | None = None,
 ) -> dict:
     meta = division_meta(candidates, division_id)
     primary = primary_for_division(first_prefs, division_id)
@@ -190,6 +207,9 @@ def _build_one(
     history = None
     if history_lookup:
         history = history_lookup.get(meta["name"].lower())
+    demographics = None
+    if demographics_lookup:
+        demographics = demographics_lookup.get(meta["name"].lower())
     return build_seat_json(
         meta=meta,
         primary=primary,
@@ -198,6 +218,7 @@ def _build_one(
         waterfall=waterfall,
         informal=informal,
         history=history,
+        demographics=demographics,
         year=year,
     )
 

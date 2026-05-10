@@ -53,6 +53,7 @@ def build_seat_json(
     waterfall: dict[str, Any],
     informal: dict[str, Any],
     history: dict[str, Any] | None,
+    demographics: dict[str, Any] | None,
     year: int,
 ) -> dict[str, Any]:
     """Assemble the full per-seat payload."""
@@ -96,6 +97,7 @@ def build_seat_json(
         "booths": booths,
         "preferences": waterfall_clean,
         "history": history,
+        "demographics": demographics,
     }
 
 
