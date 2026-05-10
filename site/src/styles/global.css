@@ -805,10 +805,10 @@
   /* TCP bar segments transition their width on each seat change so
      the new contest reads as "drawn in" rather than swapped. */
   .primary-track > span {
-    transition: width 320ms cubic-bezier(0.32, 0.72, 0.20, 1);
+    transition: width 520ms cubic-bezier(0.32, 0.72, 0.20, 1);
   }
   .primary-labels .pl {
-    transition: width 320ms cubic-bezier(0.32, 0.72, 0.20, 1);
+    transition: width 520ms cubic-bezier(0.32, 0.72, 0.20, 1);
   }
 
   /* Labels track the bar above — each .pl is set to its segment's

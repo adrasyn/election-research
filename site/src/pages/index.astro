@@ -435,10 +435,10 @@ import 'maplibre-gl/dist/maplibre-gl.css';
   // the seat changes — signals "new content arrived" without being
   // dramatic. 220ms on the same easing curve as the TCP bar grow.
   const FADE_KEYFRAMES = [
-    { opacity: 0.45, transform: 'translateY(3px)' },
+    { opacity: 0.15, transform: 'translateY(8px)' },
     { opacity: 1,    transform: 'translateY(0)'   },
   ];
-  const FADE_OPTS = { duration: 220, easing: 'cubic-bezier(0.32, 0.72, 0.20, 1)' };
+  const FADE_OPTS = { duration: 380, easing: 'cubic-bezier(0.32, 0.72, 0.20, 1)' };
   function flashIn(...elements) {
     for (const el of elements) {
       if (!el || !el.animate) continue;
