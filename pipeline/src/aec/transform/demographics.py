@@ -49,9 +49,21 @@ def build_demographics(files: CensusFiles) -> dict[str, dict[str, Any]]:
 
     g01 = _read_csv(files.table("G01"))
     g02 = _read_csv(files.table("G02"))
+    g09a = _read_csv(files.table("G09A"))
+    g09b = _read_csv(files.table("G09B"))
+    g09c = _read_csv(files.table("G09C"))
+    g14 = _read_csv(files.table("G14"))
+
+    # Per-CED, per-country/-religion vote tallies.
+    cob_per_ced = _country_of_birth_lookup(g09a, g09b, g09c)
+    religion_per_ced = _religion_lookup(g14)
+    cob_national = _country_of_birth_national(cob_per_ced, g01)
+    religion_national = _religion_national(religion_per_ced, g14)
 
     # National anchors — computed from AUS-level row across all CEDs.
     nat_aus = _aus_row(g01, g02)
+    nat_aus["countryOfBirth"] = cob_national
+    nat_aus["religion"] = religion_national
 
     out: dict[str, dict[str, Any]] = {}
     for code, name_lc in code_to_name.items():
@@ -75,10 +87,165 @@ def build_demographics(files: CensusFiles) -> dict[str, dict[str, Any]]:
             "medianRentWeekly": _to_int(g02r.get("Median_rent_weekly")),
             "averageHouseholdSize": _to_float(g02r.get("Average_household_size")),
             "bornOverseasPct": _round(born_overseas_pct, 1),
-            # National anchors so the panel can show "↑ NAT 38" comparisons
-            # without the frontend needing a second fetch.
+            "countryOfBirth": _top_n_with_anchor(cob_per_ced.get(code, {}), tot, cob_national, n=5),
+            "religion": _top_n_with_anchor(religion_per_ced.get(code, {}), tot, religion_national, n=5),
             "national": nat_aus,
         }
+    return out
+
+
+# ── Country of birth (G09 A/B/C) ──
+
+def _country_of_birth_lookup(
+    g09a: pl.DataFrame, g09b: pl.DataFrame, g09c: pl.DataFrame
+) -> dict[str, dict[str, int]]:
+    """Per-CED dict of {country_label: persons-count}."""
+    male_cols = _country_total_cols(g09a, "M") + _country_total_cols(g09b, "M")
+    female_cols = _country_total_cols(g09c, "F")
+    out: dict[str, dict[str, int]] = {}
+    for code in g09a["CED_CODE_2021"].to_list():
+        bucket: dict[str, int] = {}
+        for sex_df, prefix, cols in (
+            (g09a, "M", male_cols),
+            (g09b, "M", male_cols),
+            (g09c, "F", female_cols),
+        ):
+            row = sex_df.filter(pl.col("CED_CODE_2021") == code)
+            if row.is_empty():
+                continue
+            r = row.row(0, named=True)
+            for col, country in cols:
+                if col in r:
+                    bucket[country] = bucket.get(country, 0) + int(r[col] or 0)
+        out[code] = bucket
+    return out
+
+
+def _country_total_cols(df: pl.DataFrame, sex_prefix: str) -> list[tuple[str, str]]:
+    """Return [(column_name, display_country_name)] for every <sex>_<country>_Tot col."""
+    out = []
+    for c in df.columns:
+        if c.startswith(f"{sex_prefix}_") and c.endswith("_Tot"):
+            mid = c[len(sex_prefix) + 1 : -len("_Tot")]
+            country = _humanise_country(mid)
+            out.append((c, country))
+    return out
+
+
+_COUNTRY_FIXES = {
+    "Bosnia_Herzegov": "Bosnia & Herzegovina",
+    "Hong_Kong_SAR_Ch": "Hong Kong (SAR)",       # ABS short-header truncates
+    "Hong_Kong_SAR_China": "Hong Kong (SAR)",
+    "Korea_South": "South Korea",
+    "Korea_North": "North Korea",
+    "South_Africa": "South Africa",
+    "United_Kingdom_CnI": "United Kingdom",
+    "United_Kingdom_Channel_Is_IoM": "United Kingdom",
+    "USA": "United States",
+    "FYROM": "North Macedonia",
+    "Hmong_SE_Asia_nec": "Hmong (SE Asia)",
+    "SE_Europe_nfd": "Other SE Europe",
+    "South_Eastern_Eur_nfd": "Other SE Europe",
+    "Tot_resp": None,
+    "BP_NS": None,
+    "Tot": None,
+}
+
+
+def _humanise_country(token: str) -> str:
+    """Convert an underscored ABS country code to a readable label."""
+    if token in _COUNTRY_FIXES:
+        v = _COUNTRY_FIXES[token]
+        return v if v is not None else "_skip"
+    return token.replace("_", " ")
+
+
+def _country_of_birth_national(
+    per_ced: dict[str, dict[str, int]], g01: pl.DataFrame
+) -> dict[str, dict[str, Any]]:
+    """National per-country totals + persons-percent."""
+    nat_pop = int(g01["Tot_P_P"].sum())
+    sums: dict[str, int] = {}
+    for ced_counts in per_ced.values():
+        for country, n in ced_counts.items():
+            sums[country] = sums.get(country, 0) + n
+    return {
+        country: {
+            "count": n,
+            "pct": round(n / nat_pop * 100, 2) if nat_pop else 0.0,
+        }
+        for country, n in sums.items()
+    }
+
+
+# ── Religion (G14) ──
+
+# Map raw G14 column → display label. Christianity sub-types collapse
+# into "Christianity (total)" since the panel surfaces broad categories.
+_RELIGION_DISPLAY = {
+    "Christianity_Tot_P": "Christianity",
+    "Buddhism_P": "Buddhism",
+    "Hinduism_P": "Hinduism",
+    "Islam_P": "Islam",
+    "Judaism_P": "Judaism",
+    "SB_OSB_NRA_NR_P": "No religion",
+    "Religious_affiliation_ns_P": "Not stated",
+    "Other_Religions_Tot_P": "Other religions",
+}
+
+
+def _religion_lookup(g14: pl.DataFrame) -> dict[str, dict[str, int]]:
+    out: dict[str, dict[str, int]] = {}
+    for r in g14.iter_rows(named=True):
+        bucket: dict[str, int] = {}
+        for col, label in _RELIGION_DISPLAY.items():
+            if col in r:
+                bucket[label] = int(r[col] or 0)
+        out[str(r["CED_CODE_2021"])] = bucket
+    return out
+
+
+def _religion_national(
+    per_ced: dict[str, dict[str, int]], g14: pl.DataFrame
+) -> dict[str, dict[str, Any]]:
+    nat_pop = int(g14["Tot_P"].sum()) if "Tot_P" in g14.columns else None
+    sums: dict[str, int] = {}
+    for ced in per_ced.values():
+        for k, v in ced.items():
+            sums[k] = sums.get(k, 0) + v
+    return {
+        label: {
+            "count": n,
+            "pct": round(n / nat_pop * 100, 2) if nat_pop else 0.0,
+        }
+        for label, n in sums.items()
+    }
+
+
+def _top_n_with_anchor(
+    counts: dict[str, int],
+    tot: int,
+    national: dict[str, dict[str, Any]],
+    n: int,
+) -> list[dict[str, Any]]:
+    """Top-n sorted by local count desc, with national pct anchor each."""
+    if not counts or not tot:
+        return []
+    items: list[tuple[str, int]] = [
+        (label, c) for label, c in counts.items() if label != "_skip" and c > 0
+    ]
+    items.sort(key=lambda x: x[1], reverse=True)
+    out = []
+    for label, c in items[:n]:
+        nat_entry = national.get(label, {})
+        out.append(
+            {
+                "label": label,
+                "count": c,
+                "pct": round(c / tot * 100, 2) if tot else 0.0,
+                "natPct": nat_entry.get("pct", 0.0),
+            }
+        )
     return out
 
 

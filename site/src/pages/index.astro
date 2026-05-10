@@ -621,34 +621,73 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     if (d.demographics) {
       const dem = d.demographics;
       const nat = dem.national || {};
-      function delta(local, national) {
-        if (local == null || national == null) return '';
-        const diff = local - national;
-        const cls = diff >= 0 ? 'delta-pos' : 'delta-neg';
-        const sign = diff >= 0 ? '+' : '';
-        return `<span class="${cls}">${sign}${diff.toFixed(diff % 1 === 0 ? 0 : 1)}</span>`;
-      }
-      function arr(local, national) {
-        if (local == null || national == null) return '·';
-        return local > national ? '↑' : (local < national ? '↓' : '·');
-      }
-      function cell(label, val, unit, natVal, natFmt) {
+
+      // Cell helper takes raw numeric values for the comparison maths,
+      // plus a formatter for the displayed strings. Passing already-
+      // formatted strings to the maths produced "$1,234" - 1234 = NaN.
+      function cell(label, value, national, format, unit, dp) {
+        if (value == null) return '';
+        const valStr = format(value);
+        const natStr = national == null ? '—' : format(national);
+        let foot = '';
+        if (national != null) {
+          const arrow = value > national ? '↑' : (value < national ? '↓' : '·');
+          const diff = value - national;
+          const sign = diff >= 0 ? '+' : '';
+          const diffStr = sign + (Number.isInteger(dp) ? diff.toFixed(dp) : Math.round(diff));
+          const cls = diff >= 0 ? 'delta-pos' : 'delta-neg';
+          foot = `<span class="nat-marker">${arrow} AUS ${escapeHTML(natStr)}</span><span class="${cls}">${diffStr}</span>`;
+        } else {
+          foot = `<span class="nat-marker">·</span>`;
+        }
         return `<div class="demo-cell">
           <div class="demo-label">${escapeHTML(label)}</div>
-          <div class="demo-value">${val ?? '—'}<span class="unit">${unit}</span></div>
-          <div class="demo-foot"><span class="nat-marker">${arr(val, natVal)} NAT ${natFmt}</span>${delta(val, natVal)}</div>
+          <div class="demo-value">${escapeHTML(valStr)}${unit ? `<span class="unit">${unit}</span>` : ''}</div>
+          <div class="demo-foot">${foot}</div>
         </div>`;
       }
+
+      const fmtMoney = (n) => '$' + fmt(Math.round(n));
+      const fmtPct   = (n) => Number(n).toFixed(1);
+      const fmtInt   = (n) => fmt(Math.round(n));
+      const fmtDec   = (n) => Number(n).toFixed(1);
+
       demoGrid.innerHTML =
-        cell('Median age', dem.medianAge, 'yrs', nat.medianAge, nat.medianAge ?? '—') +
-        cell('Median household', dem.medianHouseholdIncomeWeekly ? '$' + fmt(dem.medianHouseholdIncomeWeekly) : null,
-             '/wk', nat.medianHouseholdIncomeWeekly, '$' + fmt(nat.medianHouseholdIncomeWeekly ?? 0)) +
-        cell('Born overseas', dem.bornOverseasPct, '%', nat.bornOverseasPct, (nat.bornOverseasPct ?? 0) + '%') +
-        cell('Median rent', dem.medianRentWeekly ? '$' + fmt(dem.medianRentWeekly) : null,
-             '/wk', nat.medianRentWeekly, '$' + fmt(nat.medianRentWeekly ?? 0)) +
-        cell('Avg household size', dem.averageHouseholdSize, ' p', nat.averageHouseholdSize, (nat.averageHouseholdSize ?? '—') + ' p') +
-        cell('Total population', dem.totalPopulation ? fmt(dem.totalPopulation) : null,
-             '', null, '');
+        cell('Median age',              dem.medianAge,                   nat.medianAge,                   fmtInt,   ' yrs', 0) +
+        cell('Median household income', dem.medianHouseholdIncomeWeekly, nat.medianHouseholdIncomeWeekly, fmtMoney, ' /wk', 0) +
+        cell('Median rent',             dem.medianRentWeekly,            nat.medianRentWeekly,            fmtMoney, ' /wk', 0) +
+        cell('Born overseas',           dem.bornOverseasPct,             nat.bornOverseasPct,             fmtPct,   '%',    1) +
+        cell('Avg household size',      dem.averageHouseholdSize,        nat.averageHouseholdSize,        fmtDec,   ' p',   1) +
+        cell('Total population',        dem.totalPopulation,             null,                            fmtInt,   '',     0);
+
+      // Country of birth + religion — top-N mix bars with national anchor lines.
+      function mixRows(items, total) {
+        if (!items?.length) return '';
+        return `<div class="mix-rows">${items.map(it => {
+          const valPct = (it.pct ?? 0).toFixed(1);
+          const natPct = (it.natPct ?? 0).toFixed(1);
+          const left   = Math.min(99, Math.max(0, it.natPct ?? 0));
+          return `<div class="mix-row">
+            <span class="name">${escapeHTML(it.label)}</span>
+            <div class="bar-track"><span style="width:${valPct}%"></span><span class="nat" style="left:${left}%"></span></div>
+            <span class="v">${valPct}%</span>
+          </div>`;
+        }).join('')}</div>`;
+      }
+
+      if (dem.countryOfBirth?.length || dem.religion?.length) {
+        demoGrid.innerHTML +=
+          (dem.countryOfBirth?.length ? `<div class="demo-cell wide">
+            <div class="demo-label">Country of birth · top 5</div>
+            ${mixRows(dem.countryOfBirth)}
+            <div class="demo-foot" style="margin-top:8px"><span class="nat-marker">│ AUS %</span></div>
+          </div>` : '') +
+          (dem.religion?.length ? `<div class="demo-cell wide">
+            <div class="demo-label">Religion · top 5</div>
+            ${mixRows(dem.religion)}
+          </div>` : '');
+      }
+
       demoSection.style.display = '';
     } else {
       demoSection.style.display = 'none';
