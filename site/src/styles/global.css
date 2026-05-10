@@ -1018,6 +1018,153 @@
     text-transform: uppercase;
   }
 
+  /* Booth-inset map — per-seat raster basemap + electorate boundary
+     + polling-place dots, rendered inline above the booth table.
+     The MapLibre canvas mounts into .booth-inset-map; legend and
+     attribution overlay sit on top via absolute positioning. */
+  .booth-inset {
+    margin: 4px 0 12px;
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+    height: 260px;
+    background: #080b10;
+  }
+  .booth-inset-map {
+    position: absolute;
+    inset: 0;
+  }
+  /* Knock back MapLibre's stock control chrome — the inset uses our
+     own attribution + legend overlays. */
+  .booth-inset .maplibregl-ctrl-attrib,
+  .booth-inset .maplibregl-ctrl-bottom-right,
+  .booth-inset .maplibregl-ctrl-bottom-left { display: none !important; }
+  .booth-inset .maplibregl-canvas { outline: none; }
+  .booth-inset-legend {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+    padding: 6px 8px;
+    background: rgba(8, 11, 16, 0.78);
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.06em;
+    color: var(--t-2);
+    max-width: calc(100% - 16px);
+    z-index: 2;
+    pointer-events: none;
+  }
+  .booth-inset-legend .lg-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+  }
+  .booth-inset-legend .lg-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid rgba(8, 11, 16, 0.85);
+  }
+  .booth-inset-legend .lg-name { color: var(--t-2); }
+  .booth-inset-attrib {
+    position: absolute;
+    bottom: 4px;
+    right: 6px;
+    font-family: var(--mono);
+    font-size: 8.5px;
+    color: var(--t-4);
+    z-index: 2;
+    pointer-events: auto;
+  }
+  .booth-inset-attrib a {
+    color: var(--t-3);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--t-4);
+  }
+  .booth-inset-attrib a:hover { color: var(--t-1); }
+
+  /* Inset detail block — slides out as a drawer below the inset map
+     when a booth dot is clicked, mirroring the in-table booth expansion.
+     The grid-template-rows technique animates from 0 → content height
+     without us needing to measure it explicitly. */
+  .booth-inset-detail {
+    /* Closed: no margin, so the inset's own margin-bottom keeps the
+       normal 12px gap to the booth table.
+       Open: pull up -12px so the drawer's top border kisses the inset
+       and they read as one merged panel. */
+    margin: 0;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 280ms cubic-bezier(0.32, 0.72, 0.20, 1),
+                margin 280ms cubic-bezier(0.32, 0.72, 0.20, 1);
+  }
+  .booth-inset-detail.is-open {
+    grid-template-rows: 1fr;
+    margin: -12px 0 12px;
+  }
+  .booth-inset-detail-inner {
+    overflow: hidden;
+    min-height: 0;
+    border: 1px solid var(--line-strong);
+    border-top: 0;
+    border-color: transparent;
+    background: var(--bg-elev-1);
+    padding: 0 14px;
+    transition: padding 240ms cubic-bezier(0.32, 0.72, 0.20, 1),
+                border-color 200ms ease;
+  }
+  .booth-inset-detail.is-open .booth-inset-detail-inner {
+    border-color: var(--line-strong);
+    padding: 12px 14px 14px;
+  }
+  .booth-inset-detail-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed var(--line-strong);
+  }
+  .booth-inset-detail-head .bid-name {
+    color: var(--t-1);
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+  .booth-inset-detail-head .bid-meta {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    color: var(--t-3);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+  }
+  .booth-inset-detail-head .bid-sep { color: var(--t-4); }
+  .booth-inset-detail-head .bid-party { font-weight: 600; }
+  .booth-inset-detail-head .bid-party-alp { color: var(--alp); }
+  .booth-inset-detail-head .bid-party-lib { color: var(--lib); }
+  .booth-inset-detail-head .bid-party-lnp { color: var(--lnp); }
+  .booth-inset-detail-head .bid-party-clp { color: var(--clp, var(--lib)); }
+  .booth-inset-detail-head .bid-party-nat { color: var(--nat); }
+  .booth-inset-detail-head .bid-party-grn { color: var(--grn); }
+  .booth-inset-detail-head .bid-party-ind { color: var(--ind); }
+  .booth-inset-detail-head .bid-party-on  { color: var(--on); }
+  .booth-inset-detail-head .bid-party-kap { color: var(--kap); }
+  .booth-inset-detail-head .bid-party-ca  { color: var(--ca); }
+  .booth-inset-detail-head .bid-party-oth { color: var(--oth, var(--t-2)); }
+
   /* Booth table */
   .booth-table {
     width: 100%;
@@ -1057,14 +1204,31 @@
   .booth-table .winner-pip.lib { background: var(--lib); }
   .booth-table .booth-row { cursor: pointer; }
   .booth-table .booth-row.is-open td { background: var(--bg-elev-2); color: var(--t-1); }
-  .booth-table .booth-row.is-open td:first-child::before {
-    content: '▾'; margin-right: 6px; color: var(--accent);
-  }
   .booth-table .booth-expand-row td { padding: 0; background: var(--bg-elev-1); }
+  /* Drawer animation for in-table expansion. The grid-template-rows
+     trick collapses content to 0fr without needing to measure height,
+     and padding + border-color cross-fade so nothing pops. */
+  .booth-expand-anim {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 280ms cubic-bezier(0.32, 0.72, 0.20, 1);
+  }
+  .booth-expand-row.is-open .booth-expand-anim {
+    grid-template-rows: 1fr;
+  }
   .booth-table .booth-expand {
-    padding: 14px 16px !important;
-    border-top: 1px solid var(--line);
-    border-bottom: 1px solid var(--line);
+    overflow: hidden;
+    min-height: 0;
+    padding: 0 16px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: padding 240ms cubic-bezier(0.32, 0.72, 0.20, 1),
+                border-color 200ms ease;
+  }
+  .booth-expand-row.is-open .booth-expand {
+    padding: 14px 16px;
+    border-top-color: var(--line);
+    border-bottom-color: var(--line);
   }
   .booth-table .booth-expand-cols {
     display: grid;

@@ -38,8 +38,10 @@ from .transform.results import (
     informal_for_division,
     load_candidates,
     load_first_prefs,
+    load_polling_places,
     load_tcp,
     load_turnout,
+    polling_place_coords,
     primary_for_division,
     tcp_for_division,
     turnout_for_division,
@@ -92,6 +94,11 @@ DEFAULT_HISTORY_YEARS = (2007, 2010, 2013, 2016, 2019, 2022, 2025)
 )
 @click.option("--refresh", is_flag=True, help="Force re-download of source CSVs.")
 @click.option(
+    "--strict",
+    is_flag=True,
+    help="Fail the build on the first per-seat exception instead of logging and continuing.",
+)
+@click.option(
     "--out-dir",
     type=click.Path(file_okay=False, path_type=Path),
     default=Path(__file__).resolve().parents[3] / "site" / "public" / "seats",
@@ -113,6 +120,7 @@ def build(
     no_demographics: bool,
     no_bios: bool,
     refresh: bool,
+    strict: bool,
     out_dir: Path,
     cache_dir: Path,
 ) -> None:
@@ -131,6 +139,7 @@ def build(
     first_prefs = load_first_prefs(
         [files.first_prefs_by_polling_place(s) for s in STATES]
     )
+    coords = polling_place_coords(load_polling_places(files.polling_places))
 
     history_lookup: dict[str, dict] = {}
     if not no_history:
@@ -179,6 +188,7 @@ def build(
                 tcp=tcp,
                 turnout=turnout,
                 first_prefs=first_prefs,
+                coords=coords,
                 division_id=div_id,
                 year=year,
                 history_lookup=history_lookup,
@@ -189,6 +199,10 @@ def build(
             import traceback
             click.secho(f"  ✗ division {div_id}: {exc}", fg="red", err=True)
             click.secho(traceback.format_exc(), fg="yellow", err=True)
+            if strict:
+                raise click.ClickException(
+                    f"Aborting under --strict: division {div_id} failed."
+                )
             continue
         path = write_seat_json(payload, out_dir)
         out_paths.append(path)
@@ -220,6 +234,7 @@ def _build_one(
     tcp: pl.DataFrame,
     turnout: pl.DataFrame,
     first_prefs: pl.DataFrame,
+    coords: dict[int, dict[str, float | None]] | None = None,
     division_id: int,
     year: int,
     history_lookup: dict[str, dict] | None = None,
@@ -229,7 +244,7 @@ def _build_one(
     meta = division_meta(candidates, division_id)
     primary = primary_for_division(first_prefs, division_id)
     tcp_rows = tcp_for_division(tcp, division_id)
-    booths = booths_for_division(first_prefs, tcp, division_id)
+    booths = booths_for_division(first_prefs, tcp, division_id, coords=coords)
     waterfall = waterfall_for_division(dop, division_id)
     informal = informal_for_division(first_prefs, division_id)
     turnout_block = turnout_for_division(turnout, division_id)

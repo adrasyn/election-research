@@ -215,6 +215,10 @@ import 'maplibre-gl/dist/maplibre-gl.css';
           <h2 class="pillar-title">Booth-level results</h2>
           <span class="pillar-meta" id="p-booth-meta">…</span>
         </div>
+        <div class="booth-inset" id="p-booth-inset" hidden></div>
+        <div class="booth-inset-detail" id="p-booth-inset-detail">
+          <div class="booth-inset-detail-inner" id="p-booth-inset-detail-inner"></div>
+        </div>
         <table class="booth-table">
           <thead>
             <tr>
@@ -243,8 +247,12 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 <script src="/lib/waterfall.js" is:inline></script>
 <script src="/lib/trendchart.js" is:inline></script>
 <script src="/lib/primarystack.js" is:inline></script>
+<script src="/lib/boothinset.js" is:inline></script>
 <script>
-  import maplibregl from 'maplibre-gl';
+  // maplibre-gl is ~700 KB minified. We dynamic-import it after the
+  // browser has painted the chrome so first paint isn't blocked on the
+  // map bundle. Vite/Astro emits this as a separate JS chunk.
+  //
   // We previously used PMTiles + the pmtiles:// protocol but Cloudflare
   // Pages doesn't serve HTTP Range requests reliably, which is what the
   // PMTiles client needs to bootstrap. Two pre-simplified GeoJSONs
@@ -273,6 +281,29 @@ import 'maplibre-gl/dist/maplibre-gl.css';
   for (const [k, v] of Object.entries(PARTY_FILL)) { fillColorExpr.push(k, v); }
   fillColorExpr.push('#3a3a48'); // fallback
 
+  const tooltip = document.getElementById('map-tooltip');
+  const mapHost = document.getElementById('map-host');
+  const subSeat = document.getElementById('sub-seat');
+  let hoverId = null;
+  let activeId = null;
+
+  // Defer maplibre-gl until after first paint so the chrome / side
+  // panel render before the 700 KB map bundle is parsed. We use
+  // requestIdleCallback where available and fall back to a 0-ms
+  // setTimeout (which still yields to the paint).
+  //
+  // Both the national map and the per-seat booth-inset use this same
+  // shared promise so the bundle is only fetched once, regardless of
+  // which one is needed first.
+  let _maplibrePromise = null;
+  function loadMaplibre() {
+    if (!_maplibrePromise) {
+      _maplibrePromise = import('maplibre-gl').then(m => m.default);
+    }
+    return _maplibrePromise;
+  }
+  const startMap = async () => {
+    const maplibregl = await loadMaplibre();
   const map = new maplibregl.Map({
     container: 'map',
     style: {
@@ -332,7 +363,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
           type: 'line',
           source: 'seats',
           paint: {
-            'line-color': '#5da9ff',
+            'line-color': '#ffffff',
             'line-width': [
               'case',
               ['boolean', ['feature-state', 'active'], false], 2.2,
@@ -358,12 +389,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
   map.on('load', () => {
     map.fitBounds([[111, -44], [156, -9]], { padding: 12, animate: false });
   });
-
-  const tooltip = document.getElementById('map-tooltip');
-  const mapHost = document.getElementById('map-host');
-  const subSeat = document.getElementById('sub-seat');
-  let hoverId = null;
-  let activeId = null;
 
   map.on('mousemove', 'seats-fill', (e) => {
     if (!e.features?.length) return;
@@ -440,6 +465,13 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     set('lc-kap', counts.KAP);
     set('lc-ind', counts.IND);
   });
+  };
+
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(startMap, { timeout: 600 });
+  } else {
+    setTimeout(startMap, 0);
+  }
 
   // Cascading fade+slide across panel sections on every seat change.
   // Each section starts ~90ms after the prior so the layout reads as
@@ -466,6 +498,34 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     '#p-booths-section',
   ];
 
+  // Lazy-fetch the national seats.geojson once and index by divisionId
+  // for the booth-inset boundary lookup. Browser cache means this is
+  // free — the map source has already fetched it.
+  let _boundariesPromise = null;
+  function loadBoundaries() {
+    if (!_boundariesPromise) {
+      _boundariesPromise = fetch('/tiles/seats.geojson')
+        .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)))
+        .then(geo => {
+          const byId = new Map();
+          for (const f of geo.features) {
+            byId.set(Number(f.properties.divisionId), f.geometry);
+          }
+          return byId;
+        })
+        .catch(() => new Map());
+    }
+    return _boundariesPromise;
+  }
+
+  // Booth-inset state is per-seat (re-rendered on every panel open).
+  // We keep the controller handle here so the booth-row click handler
+  // can push activation back into the inset.
+  let _boothInsetCtl = null;
+  let _boothById = new Map();
+  // Populated by renderFull — renders the detail-block HTML for one booth.
+  let _renderInsetDetailFn = null;
+
   // ── Panel population ──
   async function openPanel(props) {
     const seatId = (props.divisionNm || '').toUpperCase().replace(/ /g, '_');
@@ -481,6 +541,63 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     }
     renderFull(data);
     cascadeIn(SEAT_CASCADE);
+    // Render the booth inset asynchronously — it depends on both
+    // the boundary GeoJSON (one shared fetch) and the maplibre-gl
+    // bundle (shared with the national map, lazy-loaded once).
+    const divId = data.seat.divisionId;
+    Promise.all([loadBoundaries(), loadMaplibre()]).then(([byId, maplibregl]) => {
+      const host = $('p-booth-inset');
+      if (!host) return;
+      const geometry = byId.get(Number(divId)) || null;
+      const hasCoords = (data.booths || []).some(b => b.lat != null && b.lng != null);
+      if (!geometry && !hasCoords) {
+        host.hidden = true;
+        _boothInsetCtl = null;
+        return;
+      }
+      host.hidden = false;
+      _boothInsetCtl = window.renderBoothInset(host, {
+        maplibregl,
+        geometry,
+        booths: data.booths,
+        onSelect: (boothId) => activateBooth(boothId, { fromInset: true }),
+        onDeselect: () => {
+          if (_boothInsetCtl) _boothInsetCtl.setActive(null);
+          hideInsetDetail();
+        },
+      });
+    });
+  }
+
+  function activateBooth(boothId, opts) {
+    opts = opts || {};
+    if (_boothInsetCtl) _boothInsetCtl.setActive(boothId);
+    if (opts.fromInset) {
+      // Render the detail block right under the inset map. Don't
+      // touch the booth-table — the table is for browsing, the
+      // map+detail pair is for click-to-inspect.
+      const b = _boothById.get(Number(boothId)) || _boothById.get(boothId);
+      const host = $('p-booth-inset-detail');
+      const inner = $('p-booth-inset-detail-inner');
+      if (!host || !inner || !b || !_renderInsetDetailFn) return;
+      inner.innerHTML = _renderInsetDetailFn(b);
+      // Force a layout pass so the open transition animates from
+      // the collapsed state on first reveal.
+      void host.offsetHeight;
+      host.classList.add('is-open');
+    }
+  }
+
+  function hideInsetDetail() {
+    const host = $('p-booth-inset-detail');
+    const inner = $('p-booth-inset-detail-inner');
+    if (!host) return;
+    host.classList.remove('is-open');
+    // Wait for the slide-out transition to finish before clearing
+    // the markup so the content doesn't visually pop.
+    setTimeout(() => {
+      if (!host.classList.contains('is-open') && inner) inner.innerHTML = '';
+    }, 320);
   }
 
   function fmt(n) { return Number(n).toLocaleString('en-AU'); }
@@ -618,7 +735,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     tbody.innerHTML = '';
     $('p-booth-meta').textContent = `${d.booths.length} BOOTHS · ${fmt(seat.totalFormal)} VOTES`;
 
-    function renderExpanded(b) {
+    function renderBoothCols(b) {
       const candRows = (b.candidates || []).map(c => `
         <div class="booth-cand-row">
           <span class="booth-cand-pip" style="background:var(--${c.party || 'oth'})"></span>
@@ -637,8 +754,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
           <span class="booth-cand-votes">${fmt(c.votes)}</span>
         </div>
       `).join('');
-      return `<td colspan="4" class="booth-expand">
-        <div class="booth-expand-cols">
+      return `<div class="booth-expand-cols">
           <div>
             <div class="booth-expand-label">PRIMARY · first preferences</div>
             ${candRows}
@@ -647,13 +763,33 @@ import 'maplibre-gl/dist/maplibre-gl.css';
             <div class="booth-expand-label">TWO-CANDIDATE PREFERRED</div>
             ${tcpRows}
           </div>
-        </div>
-      </td>`;
+        </div>`;
     }
+    function renderExpanded(b) {
+      return `<td colspan="4"><div class="booth-expand-anim"><div class="booth-expand">${renderBoothCols(b)}</div></div></td>`;
+    }
+
+    // Index booths by ID so dot clicks on the inset can render the
+    // detail block below the map without re-deriving from the table.
+    _boothById = new Map((d.booths || []).map(b => [b.boothId, b]));
+    _renderInsetDetailFn = (b) => `
+      <div class="booth-inset-detail-head">
+        <span class="bid-name">${escapeHTML(b.name)}</span>
+        <span class="bid-meta">
+          <span class="bid-party bid-party-${b.winnerParty || 'oth'}">${escapeHTML((b.winnerParty || 'oth').toUpperCase())} ${b.winnerPct != null ? b.winnerPct.toFixed(1) + '%' : ''}</span>
+          <span class="bid-sep">·</span>
+          <span>${fmt(b.formal)} VOTES</span>
+        </span>
+      </div>
+      ${renderBoothCols(b)}
+    `;
+    // New seat → wipe any prior inset-detail render.
+    hideInsetDetail();
 
     for (const b of d.booths) {
       const tr = document.createElement('tr');
       tr.className = 'booth-row';
+      tr.dataset.boothId = String(b.boothId);
       // Keyboard a11y: row is reachable + togglable with Enter/Space.
       tr.tabIndex = 0;
       tr.setAttribute('role', 'button');
@@ -667,19 +803,27 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         `<td class="r">${fmt(b.formal)}</td>`;
       const expandTr = document.createElement('tr');
       expandTr.className = 'booth-expand-row';
-      expandTr.style.display = 'none';
       expandTr.innerHTML = renderExpanded(b);
       const toggleExpand = () => {
-        const open = expandTr.style.display !== 'none';
-        tbody.querySelectorAll('.booth-expand-row').forEach(r => r.style.display = 'none');
+        const open = expandTr.classList.contains('is-open');
+        // Always close every other row so only one is open at a time —
+        // the drawer animation handles the visual close gracefully.
+        tbody.querySelectorAll('.booth-expand-row.is-open').forEach(r => r.classList.remove('is-open'));
         tbody.querySelectorAll('.booth-row').forEach(r => {
           r.classList.remove('is-open');
           r.setAttribute('aria-expanded', 'false');
         });
+        // Table is the focus when a row is clicked — clear any
+        // dot-driven detail block so the user only sees one detail
+        // surface at a time.
+        hideInsetDetail();
         if (!open) {
-          expandTr.style.display = '';
+          expandTr.classList.add('is-open');
           tr.classList.add('is-open');
           tr.setAttribute('aria-expanded', 'true');
+          if (_boothInsetCtl) _boothInsetCtl.setActive(b.boothId);
+        } else if (_boothInsetCtl) {
+          _boothInsetCtl.setActive(null);
         }
       };
       tr.addEventListener('click', toggleExpand);

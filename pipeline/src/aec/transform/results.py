@@ -37,6 +37,28 @@ def load_turnout(path) -> pl.DataFrame:
     return pl.read_csv(path, skip_rows=SKIP_ROWS, infer_schema_length=10000)
 
 
+def load_polling_places(path) -> pl.DataFrame:
+    """Master polling-places list with lat/lng for booth-inset rendering."""
+    return pl.read_csv(path, skip_rows=SKIP_ROWS, infer_schema_length=10000)
+
+
+def polling_place_coords(polling_places: pl.DataFrame) -> dict[int, dict[str, float | None]]:
+    """Index PollingPlaceID → {lat, lng}. AEC publishes blanks for some
+    pre-poll/special locations — those return None so the inset just
+    omits the dot.
+    """
+    out: dict[int, dict[str, float | None]] = {}
+    for row in polling_places.iter_rows(named=True):
+        pid = int(row["PollingPlaceID"])
+        lat = row.get("Latitude")
+        lng = row.get("Longitude")
+        out[pid] = {
+            "lat": float(lat) if lat not in (None, 0, 0.0, "") else None,
+            "lng": float(lng) if lng not in (None, 0, 0.0, "") else None,
+        }
+    return out
+
+
 def turnout_for_division(turnout: pl.DataFrame, division_id: int) -> dict[str, Any]:
     row = turnout.filter(pl.col("DivisionID") == division_id)
     if row.is_empty():
@@ -132,7 +154,11 @@ def tcp_for_division(tcp: pl.DataFrame, division_id: int) -> list[dict[str, Any]
 
 
 def booths_for_division(
-    first_prefs: pl.DataFrame, tcp: pl.DataFrame, division_id: int
+    first_prefs: pl.DataFrame,
+    tcp: pl.DataFrame,
+    division_id: int,
+    *,
+    coords: dict[int, dict[str, float | None]] | None = None,
 ) -> list[dict[str, Any]]:
     """Per-booth row: summary fields + full primary + TCP breakdowns.
 
@@ -214,6 +240,7 @@ def booths_for_division(
         for c in tcp_rows:
             c["pct"] = round(c["votes"] / tcp_t * 100, 2) if tcp_t else 0.0
 
+        coord = (coords or {}).get(bid) or {}
         out.append(
             {
                 "boothId": bid,
@@ -223,6 +250,8 @@ def booths_for_division(
                 "winnerSurname": row["winner_surname"],
                 "winnerPct": round(pct, 2) if pct is not None else None,
                 "swing": float(row["winner_swing"]) if row["winner_swing"] is not None else None,
+                "lat": coord.get("lat"),
+                "lng": coord.get("lng"),
                 "candidates": primary,
                 "tcp": tcp_rows,
             }

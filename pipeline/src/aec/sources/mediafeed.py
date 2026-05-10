@@ -65,6 +65,11 @@ class FeedFiles:
         """Per-division Enrolment + Turnout + TurnoutPercentage."""
         return self._path(f"HouseTurnoutByDivisionDownload-{self.event_id}.csv")
 
+    @property
+    def polling_places(self) -> Path:
+        """Master polling-places list (PollingPlaceID → lat/lng + premises)."""
+        return self._path(f"GeneralPollingPlacesDownload-{self.event_id}.csv")
+
     def first_prefs_by_polling_place(self, state: str) -> Path:
         return self._path(
             f"HouseStateFirstPrefsByPollingPlaceDownload-{self.event_id}-{state}.csv"
@@ -98,6 +103,7 @@ def fetch_event(year: int, cache_root: Path, *, refresh: bool = False) -> FeedFi
             files.tcp_by_polling_place,
             files.tpp_by_division,
             files.turnout_by_division,
+            files.polling_places,
             *(files.first_prefs_by_polling_place(s) for s in STATES),
         ]
         for target in targets:
