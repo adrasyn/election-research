@@ -490,8 +490,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     $('p-mp-flavour').textContent = '';
     $('p-primary-track').innerHTML = '';
     $('p-primary-labels').innerHTML = '';
-    $('p-tab-booths').textContent = '—';
-    $('p-tab-rounds').textContent = '—';
     $('p-booth-rows').innerHTML = '';
     $('p-booth-meta').textContent = '';
     $('p-booth-footer').textContent = '';
@@ -577,7 +575,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     // Booth rows
     const tbody = $('p-booth-rows');
     tbody.innerHTML = '';
-    $('p-tab-booths').textContent = String(d.booths.length);
     $('p-booth-meta').textContent = `${d.booths.length} BOOTHS · ${fmt(seat.totalFormal)} VOTES`;
     for (const b of d.booths.slice(0, 12)) {
       const tr = document.createElement('tr');
@@ -593,7 +590,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     $('p-booth-footer').textContent = `Showing ${Math.min(12, d.booths.length)} of ${d.booths.length} · sorted by votes`;
 
     // Waterfall
-    $('p-tab-rounds').textContent = String(d.preferences.rounds.length);
     $('p-pref-meta').textContent = `${d.preferences.rounds.length} ROUNDS · ${fmt(d.preferences.totalFormal)} FORMAL`;
     if (window.renderWaterfall) {
       window.renderWaterfall($('p-waterfall'), d.preferences);
