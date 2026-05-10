@@ -4579,24 +4579,28 @@
         "axis": "age",
         "label": "Young",
         "rank": "low",
-        "value": 35
+        "value": 35,
+        "meaning": "Bottom quartile of electorates by median age"
       },
       {
         "axis": "migrant",
         "label": "Australian-born",
         "rank": "low",
-        "value": 15.1
+        "value": 15.1,
+        "meaning": "Bottom quartile of electorates by share of residents born overseas"
       },
       {
         "axis": "tenure",
         "label": "Renter-heavy",
         "rank": "high",
-        "value": 39.0
+        "value": 39.0,
+        "meaning": "Top quartile of electorates by share of households renting"
       },
       {
         "axis": "indigenous",
         "label": ">5% First Nations",
-        "value": 9.7
+        "value": 9.7,
+        "meaning": ">5% of the electorate is First Nations"
       }
     ]
   }

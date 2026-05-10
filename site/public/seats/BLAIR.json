@@ -7384,24 +7384,28 @@
         "axis": "age",
         "label": "Young",
         "rank": "low",
-        "value": 35
+        "value": 35,
+        "meaning": "Bottom quartile of electorates by median age"
       },
       {
         "axis": "education",
         "label": "Vocation-heavy",
         "rank": "low",
-        "value": 24.7
+        "value": 24.7,
+        "meaning": "Bottom quartile of electorates by share holding a bachelor's degree or higher"
       },
       {
         "axis": "tenure",
         "label": "Renter-heavy",
         "rank": "high",
-        "value": 36.3
+        "value": 36.3,
+        "meaning": "Top quartile of electorates by share of households renting"
       },
       {
         "axis": "indigenous",
         "label": ">5% First Nations",
-        "value": 5.6
+        "value": 5.6,
+        "meaning": ">5% of the electorate is First Nations"
       }
     ]
   }

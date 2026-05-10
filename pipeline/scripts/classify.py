@@ -55,6 +55,16 @@ AXIS_FIELDS: dict[str, str] = {
     "tenure":    "renterPct",
 }
 
+# Plain-English description of each axis used in the chip tooltips.
+AXIS_DESCRIPTIONS: dict[str, str] = {
+    "income":    "median household income (weekly)",
+    "age":       "median age",
+    "migrant":   "share of residents born overseas",
+    "education": "share holding a bachelor's degree or higher",
+    "tenure":    "share of households renting",
+}
+
+
 
 def quartile_cuts(values: list[float]) -> tuple[float, float, float]:
     """Return (q1, median, q3) cuts for a value list."""
@@ -76,27 +86,39 @@ def quartile_index(value: float, cuts: tuple[float, float, float]) -> int:
 
 def indigenous_tag(pct: float | None) -> dict[str, Any] | None:
     """Three absolute tiers — the distribution is heavily right-skewed
-    (most seats <3% Indigenous, only ~30 above 5%), so quartiles don't
-    apply.
+    (most electorates <3% First Nations, only ~30 above 5%), so
+    quartiles don't apply.
 
-      - >=30%: "Plurality First Nations" (Lingiari, the only seat where
-        First Nations are the largest single group).
-      - >=10%: ">10% First Nations" (~8 seats: Parkes, Durack, Leichhardt,
-        Kennedy, New England, Solomon, Herbert, Lingiari again).
-      - >=5%:  ">5% First Nations" (~30 seats — broadly regional).
+      - >=30%: "Plurality First Nations" (Lingiari only).
+      - >=10%: ">10% First Nations" (~8 electorates).
+      - >=5%:  ">5% First Nations" (~30 electorates, broadly regional).
     """
     if pct is None:
         return None
     p = float(pct)
     if p >= 30:
         label = "Plurality First Nations"
+        meaning = ">30% of the electorate is First Nations"
     elif p >= 10:
         label = ">10% First Nations"
+        meaning = ">10% of the electorate is First Nations"
     elif p >= 5:
         label = ">5% First Nations"
+        meaning = ">5% of the electorate is First Nations"
     else:
         return None
-    return {"axis": "indigenous", "label": label, "value": round(p, 1)}
+    return {"axis": "indigenous", "label": label, "value": round(p, 1), "meaning": meaning}
+
+
+def _quartile_meaning(axis: str, rank_idx: int) -> str:
+    """One-line tooltip: which quartile + which metric. The seat's value
+    is already visible in the demographic pillar of the panel, so the
+    chip just needs to define the label."""
+    descr = AXIS_DESCRIPTIONS[axis]
+    band = "Top quartile" if rank_idx == 3 else "Bottom quartile"
+    return f"{band} of electorates by {descr}"
+
+
 
 
 def build_quartile_lookup(seats: list[dict[str, Any]]) -> dict[str, tuple[float, float, float]]:
@@ -144,6 +166,7 @@ def classify_seat(
                 "label": QUARTILE_LABELS[axis][idx],
                 "rank": QUARTILE_RANKS[idx],
                 "value": value,
+                "meaning": _quartile_meaning(axis, idx),
             }
         )
 

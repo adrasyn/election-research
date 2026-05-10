@@ -612,18 +612,6 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     return (name || '').split(/\s+/).map(p => p[0]).join('').slice(0, 2).toUpperCase();
   }
 
-  // Hovered tooltip per chip — cites the seat's value vs. the national
-  // figure so the political tragic gets the actual number, not just the
-  // editorial label.
-  const TAG_TOOLTIPS = {
-    income:      t => `Median household income $${fmt(t.value)}/wk (national $1,773)`,
-    age:         t => `Median age ${t.value} (national 39)`,
-    migrant:     t => `${t.value}% born overseas (national 29.3%)`,
-    education:   t => `${t.value}% bachelor or higher (national 41.6%)`,
-    tenure:      t => `${t.value}% renter households (national 30.6%)`,
-    indigenous:  t => `${t.value}% Indigenous (national 3.2%)`,
-  };
-
   function renderClassificationChips(cls) {
     const host = $('p-tags');
     if (!host) return;
@@ -637,8 +625,11 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       const chip = document.createElement('span');
       chip.className = 'tag-chip';
       chip.textContent = t.label;
-      const tipFn = TAG_TOOLTIPS[t.axis];
-      if (tipFn) chip.title = tipFn(t);
+      // Custom tooltip via data-tip (rather than native `title`) so the
+      // hover popup appears instantly and matches the panel style.
+      // The classify.py script writes the meaning per-tag so this stays
+      // in sync with the quartile cuts.
+      if (t.meaning) chip.setAttribute('data-tip', t.meaning);
       host.appendChild(chip);
     }
     host.style.display = '';
@@ -700,9 +691,10 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       bioEl.style.display = 'none';
     }
 
-    // Classification chips — quick-read tags along the eight editorial
-    // axes (marginality, TCP shape, income, age, migrant share, education,
-    // tenure, Indigenous share). Computed offline by classify.py.
+    // Classification chips — quick-read tags along five demographic
+    // quartile axes (income, age, migrant share, education, tenure)
+    // plus an absolute-cut First Nations tier. Computed offline by
+    // classify.py.
     renderClassificationChips(d.classification);
 
     // Demographic quadrant title
@@ -927,7 +919,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         cell('Born overseas',           dem.bornOverseasPct,             nat.bornOverseasPct,             fmtPct,   '%',    1) +
         cell('Bachelor degree',         dem.bachelorPlusPct,             nat.bachelorPlusPct,             fmtPct,   '%',    1) +
         cell('Renters',                 dem.renterPct,                   nat.renterPct,                   fmtPct,   '%',    1) +
-        cell('Indigenous',              dem.indigenousPct,               nat.indigenousPct,               fmtPct,   '%',    1) +
+        cell('First Nations',           dem.indigenousPct,               nat.indigenousPct,               fmtPct,   '%',    1) +
         cell('Avg household size',      dem.averageHouseholdSize,        nat.averageHouseholdSize,        fmtDec,   ' p',   1) +
         cell('Total population',        dem.totalPopulation,             null,                            fmtInt,   '',     0);
       demoGrid.innerHTML = metricCells;

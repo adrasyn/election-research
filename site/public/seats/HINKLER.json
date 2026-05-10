@@ -4395,24 +4395,28 @@
         "axis": "income",
         "label": "Working-class",
         "rank": "low",
-        "value": 1123
+        "value": 1123,
+        "meaning": "Bottom quartile of electorates by median household income (weekly)"
       },
       {
         "axis": "age",
         "label": "Greying",
         "rank": "high",
-        "value": 49
+        "value": 49,
+        "meaning": "Top quartile of electorates by median age"
       },
       {
         "axis": "education",
         "label": "Vocation-heavy",
         "rank": "low",
-        "value": 22.1
+        "value": 22.1,
+        "meaning": "Bottom quartile of electorates by share holding a bachelor's degree or higher"
       },
       {
         "axis": "indigenous",
         "label": ">5% First Nations",
-        "value": 5.0
+        "value": 5.0,
+        "meaning": ">5% of the electorate is First Nations"
       }
     ]
   }

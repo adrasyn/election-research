@@ -3707,19 +3707,22 @@
         "axis": "income",
         "label": "Affluent",
         "rank": "high",
-        "value": 2322
+        "value": 2322,
+        "meaning": "Top quartile of electorates by median household income (weekly)"
       },
       {
         "axis": "education",
         "label": "Graduate-heavy",
         "rank": "high",
-        "value": 52.4
+        "value": 52.4,
+        "meaning": "Top quartile of electorates by share holding a bachelor's degree or higher"
       },
       {
         "axis": "tenure",
         "label": "Home owner-dominant",
         "rank": "low",
-        "value": 23.0
+        "value": 23.0,
+        "meaning": "Bottom quartile of electorates by share of households renting"
       }
     ]
   }

@@ -5898,19 +5898,22 @@
         "axis": "age",
         "label": "Young",
         "rank": "low",
-        "value": 36
+        "value": 36,
+        "meaning": "Bottom quartile of electorates by median age"
       },
       {
         "axis": "education",
         "label": "Graduate-heavy",
         "rank": "high",
-        "value": 56.6
+        "value": 56.6,
+        "meaning": "Top quartile of electorates by share holding a bachelor's degree or higher"
       },
       {
         "axis": "tenure",
         "label": "Renter-heavy",
         "rank": "high",
-        "value": 41.4
+        "value": 41.4,
+        "meaning": "Top quartile of electorates by share of households renting"
       }
     ]
   }

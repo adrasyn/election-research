@@ -6130,19 +6130,22 @@
         "axis": "income",
         "label": "Affluent",
         "rank": "high",
-        "value": 2094
+        "value": 2094,
+        "meaning": "Top quartile of electorates by median household income (weekly)"
       },
       {
         "axis": "age",
         "label": "Young",
         "rank": "low",
-        "value": 36
+        "value": 36,
+        "meaning": "Bottom quartile of electorates by median age"
       },
       {
         "axis": "tenure",
         "label": "Home owner-dominant",
         "rank": "low",
-        "value": 16.4
+        "value": 16.4,
+        "meaning": "Bottom quartile of electorates by share of households renting"
       }
     ]
   }

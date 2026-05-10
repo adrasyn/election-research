@@ -13190,30 +13190,35 @@
         "axis": "income",
         "label": "Working-class",
         "rank": "low",
-        "value": 1193
+        "value": 1193,
+        "meaning": "Bottom quartile of electorates by median household income (weekly)"
       },
       {
         "axis": "age",
         "label": "Greying",
         "rank": "high",
-        "value": 45
+        "value": 45,
+        "meaning": "Top quartile of electorates by median age"
       },
       {
         "axis": "migrant",
         "label": "Australian-born",
         "rank": "low",
-        "value": 10.9
+        "value": 10.9,
+        "meaning": "Bottom quartile of electorates by share of residents born overseas"
       },
       {
         "axis": "education",
         "label": "Vocation-heavy",
         "rank": "low",
-        "value": 19.4
+        "value": 19.4,
+        "meaning": "Bottom quartile of electorates by share holding a bachelor's degree or higher"
       },
       {
         "axis": "indigenous",
         "label": ">5% First Nations",
-        "value": 7.4
+        "value": 7.4,
+        "meaning": ">5% of the electorate is First Nations"
       }
     ]
   }

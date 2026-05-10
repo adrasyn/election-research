@@ -4300,25 +4300,29 @@
         "axis": "income",
         "label": "Affluent",
         "rank": "high",
-        "value": 2326
+        "value": 2326,
+        "meaning": "Top quartile of electorates by median household income (weekly)"
       },
       {
         "axis": "age",
         "label": "Young",
         "rank": "low",
-        "value": 35
+        "value": 35,
+        "meaning": "Bottom quartile of electorates by median age"
       },
       {
         "axis": "migrant",
         "label": "Multicultural",
         "rank": "high",
-        "value": 47.7
+        "value": 47.7,
+        "meaning": "Top quartile of electorates by share of residents born overseas"
       },
       {
         "axis": "education",
         "label": "Graduate-heavy",
         "rank": "high",
-        "value": 52.1
+        "value": 52.1,
+        "meaning": "Top quartile of electorates by share holding a bachelor's degree or higher"
       }
     ]
   }

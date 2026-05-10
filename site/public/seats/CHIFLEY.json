@@ -4563,19 +4563,22 @@
         "axis": "age",
         "label": "Young",
         "rank": "low",
-        "value": 34
+        "value": 34,
+        "meaning": "Bottom quartile of electorates by median age"
       },
       {
         "axis": "migrant",
         "label": "Multicultural",
         "rank": "high",
-        "value": 47.4
+        "value": 47.4,
+        "meaning": "Top quartile of electorates by share of residents born overseas"
       },
       {
         "axis": "tenure",
         "label": "Renter-heavy",
         "rank": "high",
-        "value": 37.7
+        "value": 37.7,
+        "meaning": "Top quartile of electorates by share of households renting"
       }
     ]
   }
