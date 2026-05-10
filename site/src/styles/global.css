@@ -838,6 +838,38 @@
     border: 1px solid color-mix(in srgb, var(--party-c, var(--oth)) 40%, transparent);
   }
 
+  /* Classification chips — eight axes that characterise a seat
+     (income, age, migrant share, education, tenure, marginality,
+     TCP shape, Indigenous share). Editorial colour for the bio. */
+  .tag-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 12px;
+  }
+  .tag-chip {
+    display: inline-flex;
+    align-items: center;
+    height: 18px;
+    padding: 0 7px;
+    border-radius: 2px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    line-height: 1;
+    text-transform: uppercase;
+    color: var(--t-2);
+    background: transparent;
+    border: 1px solid var(--line-strong);
+    white-space: nowrap;
+    cursor: default;
+    transition: border-color 120ms var(--ease);
+  }
+  .tag-chip:hover {
+    border-color: var(--t-4);
+  }
+
   /* Primary vote bar */
   .primary {
     margin-top: 4px;

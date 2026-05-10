@@ -149,6 +149,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       <h1 class="panel-title" id="p-name">— click a seat to begin —</h1>
       <p class="panel-sub" id="p-sub">Click any electorate on the map. The detail panel updates with that seat's contest, history, demographics, and a brief profile.</p>
       <p class="panel-sub" id="p-bio" style="display:none; margin-top:14px; color:var(--t-2); font-size:12.5px; line-height:1.6;"></p>
+      <div class="tag-strip" id="p-tags" style="display:none;"></div>
     </header>
 
     <div class="panel-body">
@@ -611,6 +612,38 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     return (name || '').split(/\s+/).map(p => p[0]).join('').slice(0, 2).toUpperCase();
   }
 
+  // Hovered tooltip per chip — cites the seat's value vs. the national
+  // figure so the political tragic gets the actual number, not just the
+  // editorial label.
+  const TAG_TOOLTIPS = {
+    income:      t => `Median household income $${fmt(t.value)}/wk (national $1,773)`,
+    age:         t => `Median age ${t.value} (national 39)`,
+    migrant:     t => `${t.value}% born overseas (national 29.3%)`,
+    education:   t => `${t.value}% bachelor or higher (national 41.6%)`,
+    tenure:      t => `${t.value}% renter households (national 30.6%)`,
+    indigenous:  t => `${t.value}% Indigenous (national 3.2%)`,
+  };
+
+  function renderClassificationChips(cls) {
+    const host = $('p-tags');
+    if (!host) return;
+    host.innerHTML = '';
+    const tags = (cls && cls.tags) || [];
+    if (!tags.length) {
+      host.style.display = 'none';
+      return;
+    }
+    for (const t of tags) {
+      const chip = document.createElement('span');
+      chip.className = 'tag-chip';
+      chip.textContent = t.label;
+      const tipFn = TAG_TOOLTIPS[t.axis];
+      if (tipFn) chip.title = tipFn(t);
+      host.appendChild(chip);
+    }
+    host.style.display = '';
+  }
+
   function renderStub(props) {
     subSeat.style.display = '';
     subSeat.querySelector('span').textContent = `${props.divisionNm.toUpperCase()} · DIV ${String(props.divisionId).padStart(3,'0')}`;
@@ -639,6 +672,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     $('p-booth-footer').textContent = '';
     $('p-pref-meta').textContent = '';
     $('p-waterfall').innerHTML = '';
+    renderClassificationChips(null);
   }
 
   function renderFull(d) {
@@ -665,6 +699,11 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     } else {
       bioEl.style.display = 'none';
     }
+
+    // Classification chips — quick-read tags along the eight editorial
+    // axes (marginality, TCP shape, income, age, migrant share, education,
+    // tenure, Indigenous share). Computed offline by classify.py.
+    renderClassificationChips(d.classification);
 
     // Demographic quadrant title
     const dTitle = $('d-title');
