@@ -145,12 +145,12 @@
      TOP CHROME (header)
      ────────────────────────────────────────────────────────── */
   .chrome-top {
-    display: grid;
-    grid-template-columns: 232px auto minmax(220px, 1fr) auto 320px;
+    display: flex;
     align-items: stretch;
     border-bottom: 1px solid var(--line);
     background: linear-gradient(to bottom, var(--bg-elev-1), var(--bg-base));
   }
+  .chrome-top .chrome-segment.status { margin-left: auto; }
 
   .brand {
     display: flex;
@@ -509,16 +509,17 @@
   /* Legend */
   .legend {
     position: absolute;
-    top: 16px;
-    right: calc(480px + 16px);
+    top: 12px;
+    left: 12px;
     display: flex;
     flex-direction: column;
     gap: 4px;
     padding: 10px 12px;
-    background: rgba(10, 13, 17, 0.7);
+    background: rgba(10, 13, 17, 0.78);
     backdrop-filter: blur(6px);
     border: 1px solid var(--line);
     border-radius: var(--radius);
+    z-index: 5;
   }
   .legend-title {
     font-family: var(--mono);

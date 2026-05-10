@@ -75,8 +75,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 <header class="chrome-top">
   <div class="chrome-segment">
     <div class="brand">
-      <div class="brand-mark">ELECTION<span> · </span>RESEARCH</div>
-      <div class="brand-sub">CTH/H+R · v0.1 · ARCHIVE</div>
+      <div class="brand-mark">Election Research</div>
     </div>
   </div>
   <div class="chrome-segment">
@@ -195,8 +194,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
         <div class="prefs-intro">
           Each round excludes the lowest-polling candidate. Ribbons between
           rounds show their preferences flowing to remaining candidates —
-          every ribbon's width represents an exact number of votes,
-          conserved end-to-end (Sankey-style).
+          every ribbon's width represents an exact number of votes.
         </div>
         <div class="waterfall" id="p-waterfall"></div>
       </section>
@@ -419,8 +417,8 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       seen.add(f.properties.divisionId);
       const ab = f.properties.winnerPartyAb;
       if (ab === 'ALP') counts.ALP++;
-      else if (ab === 'LP' || ab === 'LNP' || ab === 'CLP') counts.LIB_NP++;
-      else if (ab === 'NP' || ab === 'NAT') counts.NAT++;
+      else if (ab === 'LIB' || ab === 'LP' || ab === 'LNP' || ab === 'CLP') counts.LIB_NP++;
+      else if (ab === 'NAT' || ab === 'NP') counts.NAT++;
       else if (ab === 'GRN') counts.GRN++;
       else if (ab === 'IND') counts.IND++;
       else counts.OTH++;
