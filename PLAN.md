@@ -13,6 +13,32 @@
 
 ## Session log
 
+### 2026-05-11 — National analysis tab + pipeline QA fix
+
+Two shipped commits today.
+
+**`98c94e9` — Pipeline FP/TCP/informal completeness fix**
+A deep-QA pass (`pipeline/scripts/qa_deep.py`, 7 categories) surfaced three real data issues. The big one: per-candidate primary votes were short by ~21k median per seat (~20%) because the pipeline only ingested booth-level FP. Now reads:
+- `HouseFirstPrefsByCandidateByVoteTypeDownload-{event}.csv` — canonical per-candidate FP across Ordinary+Absent+Provisional+PrePoll+Postal
+- `HouseInformalByDivisionDownload-{event}.csv` — published informal % (matches AEC exactly)
+- `HouseTcpByCandidateByVoteTypeDownload-{event}.csv` — for accurate tile-level TPP margins
+
+Also patched two real fixed-location booths AEC publishes as `0,0` (Henty in Farrer 545 votes; Carlingford North in Parramatta 1602 votes) via a `MANUAL_COORDS` override so they appear on the booth inset. Verified against AEC's published Tally Room for Barton + Kennedy — all numbers now match exactly.
+
+**`e22f0f7` — Nationwide insights view (queue item #1)**
+National analysis tab, four sub-tabs:
+- **Demographics** — 6 beeswarm strips with party-bloc lanes (ALP/Coalition/IND/Other), dots coloured by winning party. Each axis: income, age, born overseas, bachelor+, renting, First Nations.
+- **Results** — National primary share + change-since-2022 bar charts on top; 2CP margin + swing-to-winner + winner first-pref strips below.
+- **Marginals** — Three-column league (Labor / Coalition / Crossbench), full lists sorted most-marginal-first, click-through to seat panel.
+- **Cross-tab** — Free 2D scatter with dropdown axis pickers across demographic / regional / political variables. Dots reuse DOM across axis changes so cx/cy CSS transitions tween smoothly.
+
+Swing-to-winner cascade (133 seats / 14 seats / 3 seats):
+1. AEC's published TCP swing when clean
+2. TPP swing oriented to winner's bloc when AEC's swing is artefact (signature: `abs(swing) ≈ winner_TCP_pct`)
+3. Antony Green's notional 2-Candidate baseline for Mayo, Nicholls, Calare (non-traditional 2CP)
+
+New artefacts: `pipeline/scripts/build_national.py` (emits `site/public/national.json` ~94 KB), and three chart generators in `site/public/lib/`: `nationalbeeswarm.js`, `nationalscatter.js`, `nationalbars.js`.
+
 ### 2026-05-10 — chips + theming polish
 - Shipped queue item #2 (classification chips). Standalone classifier at `pipeline/scripts/classify.py`; not part of the build pipeline (read-existing-JSON, compute quartiles, write-back).
 - Editorial rule that landed: only emit chips for Q1/Q4 of each demographic axis — middle quartiles get no chip so every visible chip means the seat is atypical.
@@ -29,7 +55,7 @@
 
 Prioritised order is up to the user; each is independent.
 
-1. **Nationwide insights view** — Cross-seat charts, faceted small multiples (each dot = one seat, x = a demographic dimension, y = swing or TPP margin or party position; coloured by winning party). Wires up the "National analysis" tab in the chrome-top that's currently `[TBC]`. Existing data already supports this — primarily a frontend build. Benefits from the chip classification as a grouping dimension. **This is the natural next pickup** — biggest visible feature, no new data pipeline work needed.
+1. ~~**Nationwide insights view**~~ — **Shipped 2026-05-11** (commit `e22f0f7`). Four sub-tabs: Demographics (6 party-laned beeswarms), Results (national bars + outcome strips), Marginals (3-column league), Cross-tab (free 2D scatter with dropdown axis pickers). See session log.
 
 2. ~~**Electorate classification + tag chips on bio**~~ — **Shipped 2026-05-10.** Top/bottom quartile chips for income, age, migrant share, education, tenure + absolute-cut First Nations tier. See session log above.
 
