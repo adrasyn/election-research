@@ -106,10 +106,8 @@ import 'maplibre-gl/dist/maplibre-gl.css';
     </div>
   </div>
   <nav class="chrome-segment chrome-tabs" role="tablist" aria-label="View">
-    <button class="chrome-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="electorate-view">Electorate analysis</button>
-    <button class="chrome-tab is-disabled" type="button" role="tab" aria-selected="false" aria-disabled="true" tabindex="-1" title="Cross-seat insights — coming soon">
-      National analysis <span class="chrome-tab-tag">TBC</span>
-    </button>
+    <button id="tab-electorate" class="chrome-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="electorate-view">Electorate analysis</button>
+    <button id="tab-national" class="chrome-tab" type="button" role="tab" aria-selected="false" aria-controls="national-view">National analysis</button>
   </nav>
   <div class="chrome-segment status">
     <div class="status-pieces">
@@ -135,7 +133,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 </div>
 
 <!-- ─────────────────────────── MAIN STAGE — QUADRANT LAYOUT ─────────────────────────── -->
-<main class="canvas-grid">
+<main id="electorate-view" class="canvas-grid view">
 
   <!-- TL: Map ─────────────────────────────────────────── -->
   <div class="quad-map map-host" id="map-host">
@@ -270,12 +268,70 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 
 </main>
 
+<!-- ─────────────────────────── NATIONAL ANALYSIS ─────────────────────────── -->
+<main id="national-view" class="national-view view" hidden>
+  <div class="national-head">
+    <h2 class="national-title">Cross-seat profile</h2>
+    <p class="national-sub" id="national-sub">
+      Every dot is one electorate, positioned by its value on the axis and
+      coloured by the winning party. Hover for the seat; click to drill in.
+    </p>
+  </div>
+
+  <nav class="subnav" role="tablist" aria-label="National view section">
+    <button class="subnav-tab is-active" data-sub="demographics" type="button" role="tab" aria-selected="true">Demographics</button>
+    <button class="subnav-tab" data-sub="results" type="button" role="tab" aria-selected="false">Results</button>
+    <button class="subnav-tab" data-sub="marginals" type="button" role="tab" aria-selected="false">Marginals</button>
+    <button class="subnav-tab" data-sub="crosstab" type="button" role="tab" aria-selected="false">Cross-tab</button>
+  </nav>
+
+  <section class="subview" data-sub="demographics">
+    <div class="national-strips" id="national-strips">
+      <div class="bw-cell" id="bw-income"></div>
+      <div class="bw-cell" id="bw-age"></div>
+      <div class="bw-cell" id="bw-migrant"></div>
+      <div class="bw-cell" id="bw-education"></div>
+      <div class="bw-cell" id="bw-tenure"></div>
+      <div class="bw-cell" id="bw-indigenous"></div>
+    </div>
+  </section>
+
+  <section class="subview" data-sub="results" hidden>
+    <div class="national-bars-row">
+      <div class="nb-cell" id="nb-primary"></div>
+      <div class="nb-cell" id="nb-swing"></div>
+    </div>
+    <div class="national-strips" id="results-strips">
+      <div class="bw-cell" id="bw-margin"></div>
+      <div class="bw-cell" id="bw-swing"></div>
+      <div class="bw-cell bw-cell-full" id="bw-primary"></div>
+    </div>
+  </section>
+
+  <section class="subview" data-sub="marginals" hidden>
+    <div class="marginals-grid" id="marginals-grid"></div>
+  </section>
+
+  <section class="subview" data-sub="crosstab" hidden>
+    <div class="crosstab-host" id="crosstab-host"></div>
+  </section>
+
+  <div class="national-tooltip" id="national-tooltip" hidden></div>
+  <footer class="national-foot">
+    Sources · ABS 2021 Census (CED) · AEC 2025 declared results · Bullwinkel
+    (new 2025 redistribution) is excluded from demographic strips.
+  </footer>
+</main>
+
 </div>
 
 <script src="/lib/waterfall.js" is:inline></script>
 <script src="/lib/trendchart.js" is:inline></script>
 <script src="/lib/primarystack.js" is:inline></script>
 <script src="/lib/boothinset.js" is:inline></script>
+<script src="/lib/nationalbeeswarm.js" is:inline></script>
+<script src="/lib/nationalscatter.js" is:inline></script>
+<script src="/lib/nationalbars.js" is:inline></script>
 <script>
   // maplibre-gl is ~700 KB minified. We dynamic-import it after the
   // browser has painted the chrome so first paint isn't blocked on the
@@ -1029,6 +1085,702 @@ import 'maplibre-gl/dist/maplibre-gl.css';
       hSection.style.display = 'none';
     }
   }
+
+  // ── NATIONAL ANALYSIS — beeswarm strips ─────────────────────────
+  //
+  // Six fixed strips drawn on first activation of the National tab.
+  // Each strip pulls from the same slim national.json aggregate built
+  // by pipeline/scripts/build_national.py. Clicking a dot flips back
+  // to the electorate view and opens that seat's panel.
+
+  const NATIONAL_AXES = [
+    {
+      id: 'income',
+      key: 'medianHouseholdIncomeWeekly',
+      axisLabel: 'Median household income',
+      axisHint: '$ per week · ABS 2021',
+      format: (v) => '$' + Math.round(v).toLocaleString(),
+      ticks: [1000, 1500, 2000, 2500, 3000, 3500],
+    },
+    {
+      id: 'age',
+      key: 'medianAge',
+      axisLabel: 'Median age',
+      axisHint: 'years · ABS 2021',
+      format: (v) => Math.round(v) + ' yrs',
+      ticks: [25, 30, 35, 40, 45, 50, 55],
+    },
+    {
+      id: 'migrant',
+      key: 'bornOverseasPct',
+      axisLabel: 'Born overseas',
+      axisHint: '% of residents · ABS 2021',
+      format: (v) => v.toFixed(0) + '%',
+      ticks: [0, 15, 30, 45, 60, 75],
+    },
+    {
+      id: 'education',
+      key: 'bachelorPlusPct',
+      axisLabel: 'Bachelor degree or higher',
+      axisHint: '% of adults · ABS 2021',
+      format: (v) => v.toFixed(0) + '%',
+      ticks: [10, 25, 40, 55, 70, 85],
+    },
+    {
+      id: 'tenure',
+      key: 'renterPct',
+      axisLabel: 'Households renting',
+      axisHint: '% of dwellings · ABS 2021',
+      format: (v) => v.toFixed(0) + '%',
+      ticks: [10, 20, 30, 40, 50, 60],
+    },
+    {
+      id: 'indigenous',
+      key: 'indigenousPct',
+      axisLabel: 'First Nations',
+      axisHint: '% of residents · ABS 2021',
+      format: (v) => v.toFixed(1) + '%',
+      ticks: [0, 5, 10, 20, 30, 40],
+    },
+  ];
+
+  // Each dot is colour-by-actual-party but y-positioned by political
+  // bloc. Coalition (LIB/LNP/NAT/CLP) shares one lane per project
+  // colour decision; minor crossbench parties get bucketed.
+  const NATIONAL_LANES = [
+    { id: 'alp', label: 'Labor' },
+    { id: 'coa', label: 'Coalition' },
+    { id: 'ind', label: 'Independent' },
+    { id: 'oth', label: 'Other' },
+  ];
+  function laneFor(partyAb) {
+    switch ((partyAb || '').toUpperCase()) {
+      case 'ALP': return 'alp';
+      case 'LIB':
+      case 'LNP':
+      case 'NAT':
+      case 'CLP': return 'coa';
+      case 'IND': return 'ind';
+      default:    return 'oth';   // GRN, KAP, CA, etc.
+    }
+  }
+
+  // Cache the in-flight Promise (not just the resolved data) so rapid
+  // sub-tab clicks don't trigger duplicate /national.json fetches.
+  let _nationalPromise = null;
+  let _nationalControllers = [];
+  let _nationalRenderedAt = 0;
+
+  function loadNational() {
+    if (!_nationalPromise) {
+      _nationalPromise = fetch('/national.json')
+        .then((res) => {
+          if (!res.ok) throw new Error('national.json fetch failed: ' + res.status);
+          return res.json();
+        })
+        .catch((err) => { _nationalPromise = null; throw err; });
+    }
+    return _nationalPromise;
+  }
+
+  function nationalTooltip() { return document.getElementById('national-tooltip'); }
+
+  function showNatTip(d, x, y) {
+    const tip = nationalTooltip();
+    if (!tip) return;
+    const ab = d.partyAb || 'OTH';
+    const partyColor = `var(--${(d.partyKey || 'oth').toLowerCase()})`;
+    tip.innerHTML =
+      `<div class="ntt-name">${escapeHTML(d.name)} · ${escapeHTML(d.state)}</div>` +
+      `<div class="ntt-row"><span class="ntt-party" style="color:${partyColor}">${escapeHTML(ab)}</span>` +
+      ` <span class="ntt-surname">${escapeHTML(d.surname || '')}</span></div>` +
+      `<div class="ntt-axis">${escapeHTML(d._axisLabel)} <span class="ntt-val">${escapeHTML(d._formatted)}</span></div>`;
+    tip.hidden = false;
+    const host = document.getElementById('national-view');
+    const hostRect = host.getBoundingClientRect();
+    const tipRect = tip.getBoundingClientRect();
+    // Position relative to the national-view container (which is the
+    // CSS containing block for the absolutely-positioned tooltip).
+    let left = x - hostRect.left + 14;
+    let top = y - hostRect.top + 14;
+    if (left + tipRect.width > hostRect.width - 8) {
+      left = x - hostRect.left - tipRect.width - 14;
+    }
+    if (top + tipRect.height > hostRect.height - 8) {
+      top = y - hostRect.top - tipRect.height - 14;
+    }
+    tip.style.left = Math.max(8, left) + 'px';
+    tip.style.top = Math.max(8, top) + 'px';
+  }
+
+  function hideNatTip() {
+    const tip = nationalTooltip();
+    if (tip) tip.hidden = true;
+  }
+
+  function onNationalDotClick(d) {
+    // Flip to electorate view and open the seat. The map will recentre
+    // via openPanel; we don't need to drive the MapLibre selection
+    // state from here (the user re-clicking the dot is fine if they
+    // come back to this view).
+    setView('electorate');
+    openPanel({
+      divisionNm: d.name,
+      divisionId: d.divisionId,
+      winnerPartyAb: d.partyAb,
+      winnerParty: d.partyKey,
+      winnerSurname: d.surname,
+      tcpMargin: d.tcpMargin,
+      state: d.state,
+    });
+  }
+
+  async function renderNationalView() {
+    let data;
+    try { data = await loadNational(); }
+    catch (err) {
+      console.error(err);
+      return;
+    }
+    // Tear down any prior controllers (re-render-safe).
+    for (const ctl of _nationalControllers) { try { ctl?.destroy?.(); } catch {} }
+    _nationalControllers = [];
+
+    for (const axis of NATIONAL_AXES) {
+      const cell = document.getElementById('bw-' + axis.id);
+      if (!cell) continue;
+      const points = data.seats
+        .filter((s) => s.demographics && s.demographics[axis.key] != null)
+        .map((s) => ({
+          id: s.id,
+          name: s.name,
+          state: s.state,
+          surname: s.winnerSurname,
+          partyAb: s.winnerPartyAb,
+          partyKey: s.winnerParty,
+          tcpMargin: s.tcpMargin,
+          divisionId: s.divisionId,
+          value: Number(s.demographics[axis.key]),
+          lane: laneFor(s.winnerPartyAb),
+        }));
+      const ctl = window.renderBeeswarmStrip(cell, {
+        data: points,
+        lanes: NATIONAL_LANES,
+        axisLabel: axis.axisLabel,
+        axisHint: axis.axisHint,
+        format: axis.format,
+        ticks: axis.ticks,
+        onHover: (d, x, y) => {
+          d._axisLabel = axis.axisLabel;
+          d._formatted = axis.format(d.value);
+          showNatTip(d, x, y);
+        },
+        onLeave: hideNatTip,
+        onClick: onNationalDotClick,
+      });
+      _nationalControllers.push(ctl);
+    }
+    _nationalRenderedAt = Date.now();
+  }
+
+  function setView(name) {
+    const elView = document.getElementById('electorate-view');
+    const natView = document.getElementById('national-view');
+    const elTab = document.getElementById('tab-electorate');
+    const natTab = document.getElementById('tab-national');
+    const isNat = name === 'national';
+    if (elView) elView.hidden = isNat;
+    if (natView) natView.hidden = !isNat;
+    if (elTab) { elTab.classList.toggle('is-active', !isNat); elTab.setAttribute('aria-selected', String(!isNat)); }
+    if (natTab) { natTab.classList.toggle('is-active', isNat); natTab.setAttribute('aria-selected', String(isNat)); }
+    if (isNat) {
+      // Re-render the currently active sub-tab so the entry stagger
+      // fires on each Electorate→National toggle.
+      setSubView(_activeSub);
+    } else {
+      hideNatTip();
+      // The MapLibre map measured its container while it was hidden
+      // and would otherwise stay collapsed. Nudge it to remeasure.
+      requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
+    }
+  }
+
+  document.getElementById('tab-electorate')?.addEventListener('click', () => setView('electorate'));
+  document.getElementById('tab-national')?.addEventListener('click', () => setView('national'));
+
+  // ── National sub-tabs ──────────────────────────────────────────
+  const SUBVIEW_BLURBS = {
+    demographics: 'Every dot is one electorate, positioned by its value on the axis and coloured by the winning party.',
+    results:      'Same chart, political outcomes instead of demographics. Margin = winner side; swing is ALP 2PP move from 2022.',
+    marginals:    'The seats most worth watching at the next election — sorted by 2CP margin within each bloc.',
+    crosstab:     'Plot any two variables against each other — demographic, regional, or political. Each dot is one electorate, coloured by the winner.',
+  };
+
+  let _activeSub = 'demographics';
+  const _validSubs = new Set(['demographics', 'results', 'marginals', 'crosstab']);
+
+  function setSubView(name) {
+    if (!_validSubs.has(name)) return;
+    document.querySelectorAll('#national-view .subview').forEach((el) => {
+      el.hidden = el.dataset.sub !== name;
+    });
+    document.querySelectorAll('#national-view .subnav-tab').forEach((b) => {
+      const on = b.dataset.sub === name;
+      b.classList.toggle('is-active', on);
+      b.setAttribute('aria-selected', String(on));
+    });
+    const sub = document.getElementById('national-sub');
+    if (sub && SUBVIEW_BLURBS[name]) sub.textContent = SUBVIEW_BLURBS[name];
+    _activeSub = name;
+    hideNatTip();
+
+    // Re-render every time so entry animations fire on each visit.
+    // The fetches are cached after the first call, so this is cheap.
+    if (name === 'demographics') renderNationalView();
+    if (name === 'results')      renderResultsSub();
+    if (name === 'marginals')    renderMarginalsSub();
+    if (name === 'crosstab')     renderCrosstabSub();
+  }
+  document.querySelectorAll('#national-view .subnav-tab').forEach((b) => {
+    b.addEventListener('click', () => setSubView(b.dataset.sub));
+  });
+
+  // ── Results sub-tab — outcome-axis beeswarm strips ────────────
+  let _resultsControllers = [];
+  const RESULTS_AXES = [
+    {
+      id: 'margin',
+      field: 'tcpMargin',
+      axisLabel: '2CP margin',
+      axisHint: 'winner side · pct points',
+      format: (v) => v.toFixed(1) + 'pp',
+      ticks: [0, 5, 10, 20, 30, 40],
+      domain: [0, 45],
+    },
+    {
+      id: 'swing',
+      field: 'swingToWinner',
+      // Swing of the winning candidate's 2CP vs 2022. Positive = winner
+      // gained ground. Cascades through: AEC's published 2CP swing
+      // (where clean), Green's notional 2-Candidate baseline (for 3
+      // seats with 2CP composition changes), and TPP swing oriented to
+      // winner's bloc (for the 14 traditional-2CP seats where AEC's
+      // raw swing is itself an artefact). All 150 seats covered.
+      derive: (s) => s.swingToWinner,
+      axisLabel: 'Swing to winner',
+      axisHint: '2CP swing vs 2022',
+      format: (v) => (v >= 0 ? '+' : '') + v.toFixed(1) + 'pp',
+      ticks: [-10, -5, 0, 5, 10, 15],
+      domain: [-11, 16],
+      quartiles: false,
+      referenceLines: [{ value: 0, label: 'NO SWING' }],
+    },
+    {
+      id: 'primary',
+      field: 'winnerPrimaryPct',
+      axisLabel: 'Winner first-pref share',
+      axisHint: '% of formal · clean mandate vs preference rescue',
+      format: (v) => v.toFixed(0) + '%',
+      ticks: [25, 30, 35, 40, 45, 50, 55],
+      domain: [22, 57],
+    },
+  ];
+
+  const PARTY_BAR_DEFS = [
+    { key: 'alp', label: 'Labor',       color: 'var(--alp)' },
+    { key: 'coa', label: 'Coalition',   color: 'var(--lib)' },
+    { key: 'grn', label: 'Greens',      color: 'var(--grn)' },
+    { key: 'on',  label: 'One Nation',  color: 'var(--on)' },
+    { key: 'ind', label: 'Independent', color: 'var(--ind)' },
+    { key: 'oth', label: 'Other',       color: 'var(--oth)' },
+  ];
+
+  function renderNationalBars(data) {
+    const nat = data.national || {};
+    const primary = nat.primary2025;
+    const swing = nat.primarySwing;
+    const primaryCell = document.getElementById('nb-primary');
+    if (primaryCell && primary) {
+      window.renderBars(primaryCell, {
+        title: 'National primary vote · 2025',
+        hint: 'Share of formal first-prefs · ' + (primary._totalFormal || 0).toLocaleString() + ' formal nationwide',
+        data: PARTY_BAR_DEFS.map((p) => ({
+          label: p.label,
+          value: Number(primary[p.key] || 0),
+          color: p.color,
+        })),
+        format: (v) => v.toFixed(1) + '%',
+      });
+    }
+    const swingCell = document.getElementById('nb-swing');
+    if (swingCell && swing) {
+      window.renderBars(swingCell, {
+        title: 'Change since 2022',
+        hint: 'pct-point movement in national primary vote',
+        signed: true,
+        sortDescending: false,
+        data: PARTY_BAR_DEFS.map((p) => ({
+          label: p.label,
+          value: Number(swing[p.key] || 0),
+          color: p.color,
+        })),
+        format: (v) => (v >= 0 ? '+' : '') + v.toFixed(2) + 'pp',
+      });
+    }
+  }
+
+  async function renderResultsSub() {
+    let data;
+    try { data = await loadNational(); }
+    catch (err) { console.error(err); return; }
+    for (const ctl of _resultsControllers) { try { ctl?.destroy?.(); } catch {} }
+    _resultsControllers = [];
+    renderNationalBars(data);
+    for (const axis of RESULTS_AXES) {
+      const cell = document.getElementById('bw-' + axis.id);
+      if (!cell) continue;
+      const points = data.seats
+        .map((s) => {
+          const raw = axis.derive ? axis.derive(s) : s[axis.field];
+          if (raw == null) return null;
+          return {
+            id: s.id,
+            name: s.name,
+            state: s.state,
+            surname: s.winnerSurname,
+            partyAb: s.winnerPartyAb,
+            partyKey: s.winnerParty,
+            tcpMargin: s.tcpMargin,
+            divisionId: s.divisionId,
+            value: Number(raw),
+            lane: laneFor(s.winnerPartyAb),
+          };
+        })
+        .filter((d) => d !== null);
+      const ctl = window.renderBeeswarmStrip(cell, {
+        data: points,
+        lanes: NATIONAL_LANES,
+        axisLabel: axis.axisLabel,
+        axisHint: axis.axisHint,
+        format: axis.format,
+        ticks: axis.ticks,
+        domain: axis.domain,
+        quartiles: axis.quartiles,
+        referenceLines: axis.referenceLines,
+        onHover: (d, x, y) => {
+          d._axisLabel = axis.axisLabel;
+          d._formatted = axis.format(d.value);
+          showNatTip(d, x, y);
+        },
+        onLeave: hideNatTip,
+        onClick: onNationalDotClick,
+      });
+      _resultsControllers.push(ctl);
+    }
+  }
+
+  // ── Marginals sub-tab — three league tables ───────────────────
+  async function renderMarginalsSub() {
+    const host = document.getElementById('marginals-grid');
+    if (!host) return;
+    let data;
+    try { data = await loadNational(); }
+    catch (err) { console.error(err); return; }
+
+    const groups = [
+      { id: 'alp', title: 'Labor', test: (s) => laneFor(s.winnerPartyAb) === 'alp' },
+      { id: 'coa', title: 'Coalition', test: (s) => laneFor(s.winnerPartyAb) === 'coa' },
+      { id: 'xb',  title: 'Crossbench', test: (s) => laneFor(s.winnerPartyAb) === 'ind' || laneFor(s.winnerPartyAb) === 'oth' },
+    ];
+
+    const cols = groups.map((g) => {
+      const inGroup = data.seats
+        .filter(g.test)
+        .filter((s) => s.tcpMargin != null)
+        .sort((a, b) => a.tcpMargin - b.tcpMargin);
+      const rows = inGroup.map((s) => marginalRow(s)).join('');
+      return (
+        `<div class="mg-col">` +
+        `<div class="mg-col-head">` +
+          `<span class="mg-col-title">${escapeHTML(g.title)}</span>` +
+          `<span class="mg-col-meta">${inGroup.length} ${inGroup.length === 1 ? 'seat' : 'seats'} · most marginal first</span>` +
+        `</div>` +
+        `<div class="mg-scroll">` +
+        `<table class="mg-table">` +
+          `<thead><tr>` +
+            `<th class="mg-th-rank"></th>` +
+            `<th>Electorate</th>` +
+            `<th class="mg-th-num">Margin</th>` +
+            `<th class="mg-th-num">Swing</th>` +
+          `</tr></thead>` +
+          `<tbody>${rows || '<tr><td colspan="4" class="mg-empty">No seats in this bloc.</td></tr>'}</tbody>` +
+        `</table>` +
+        `</div>` +
+        `</div>`
+      );
+    });
+    host.innerHTML = cols.join('');
+
+    // Row clicks → open that seat's panel.
+    host.querySelectorAll('tr[data-seat-id]').forEach((tr) => {
+      tr.addEventListener('click', () => {
+        const id = tr.getAttribute('data-seat-id');
+        const seat = data.seats.find((s) => s.id === id);
+        if (!seat) return;
+        onNationalDotClick({
+          id: seat.id,
+          name: seat.name,
+          state: seat.state,
+          surname: seat.winnerSurname,
+          partyAb: seat.winnerPartyAb,
+          partyKey: seat.winnerParty,
+          tcpMargin: seat.tcpMargin,
+          divisionId: seat.divisionId,
+        });
+      });
+    });
+  }
+
+  function marginalRow(s, idx) {
+    // Restrict to a-z so the value can be safely spliced into both a
+    // class name and an inline `var(--key)` reference without escaping.
+    const partyKey = ((s.winnerParty || 'oth').toLowerCase().match(/^[a-z]+$/) || ['oth'])[0];
+    const margin = s.tcpMargin != null ? s.tcpMargin.toFixed(2) + 'pp' : '—';
+    const swing = s.alp2ppSwing;
+    let swingHtml;
+    if (swing == null) {
+      swingHtml = '<span class="mg-swing-na">—</span>';
+    } else {
+      const sign = swing > 0 ? '+' : '';
+      const cls = swing > 0 ? 'mg-swing-alp' : (swing < 0 ? 'mg-swing-coa' : '');
+      const arrow = swing > 0.05 ? '▲' : (swing < -0.05 ? '▼' : '·');
+      swingHtml = `<span class="${cls}">${arrow} ${sign}${swing.toFixed(2)}</span>`;
+    }
+    return (
+      `<tr data-seat-id="${escapeHTML(s.id)}" class="mg-row">` +
+        `<td class="mg-pip"><span class="mg-pip-dot bw-dot-${partyKey}" style="background:var(--${partyKey})"></span></td>` +
+        `<td class="mg-name">${escapeHTML(s.name)}<span class="mg-state">${escapeHTML(s.state)}</span></td>` +
+        `<td class="mg-num">${margin}</td>` +
+        `<td class="mg-num">${swingHtml}</td>` +
+      `</tr>`
+    );
+  }
+
+  // ── Cross-tab sub-tab — generic XY scatter ────────────────────
+  // Every variable is described by an accessor + axis metadata. The
+  // user picks any two; the scatter generator handles numeric and
+  // categorical axes uniformly.
+  const CT_VARS = [
+    // — Demographic —
+    { id: 'income',    group: 'Demographic', label: 'Median income',     kind: 'num', accessor: (s) => s.demographics?.medianHouseholdIncomeWeekly, format: (v) => '$' + Math.round(v).toLocaleString(), ticks: [1000,1500,2000,2500,3000,3500] },
+    { id: 'age',       group: 'Demographic', label: 'Median age',        kind: 'num', accessor: (s) => s.demographics?.medianAge, format: (v) => Math.round(v) + ' yrs', ticks: [25,30,35,40,45,50,55] },
+    { id: 'migrant',   group: 'Demographic', label: 'Born overseas',     kind: 'num', accessor: (s) => s.demographics?.bornOverseasPct, format: (v) => v.toFixed(0) + '%', ticks: [0,15,30,45,60,75] },
+    { id: 'edu',       group: 'Demographic', label: 'Bachelor+',         kind: 'num', accessor: (s) => s.demographics?.bachelorPlusPct, format: (v) => v.toFixed(0) + '%', ticks: [10,25,40,55,70,85] },
+    { id: 'tenure',    group: 'Demographic', label: 'Renting',           kind: 'num', accessor: (s) => s.demographics?.renterPct, format: (v) => v.toFixed(0) + '%', ticks: [10,20,30,40,50,60] },
+    { id: 'indig',     group: 'Demographic', label: 'First Nations',     kind: 'num', accessor: (s) => s.demographics?.indigenousPct, format: (v) => v.toFixed(1) + '%' },
+    { id: 'rent',      group: 'Demographic', label: 'Median rent',       kind: 'num', accessor: (s) => s.demographics?.medianRentWeekly, format: (v) => '$' + Math.round(v) },
+    // — Region —
+    { id: 'state',     group: 'Region',      label: 'State / Territory', kind: 'cat', accessor: (s) => s.state, categories: ['ACT','NSW','NT','QLD','SA','TAS','VIC','WA'], format: (v) => v },
+    // — Political —
+    { id: 'margin',    group: 'Political',   label: '2CP margin',        kind: 'num', accessor: (s) => s.tcpMargin, format: (v) => v.toFixed(1) + 'pp', ticks: [0,10,20,30,40] },
+    { id: 'swingWin',  group: 'Political',   label: 'Swing to winner', kind: 'num',
+      accessor: (s) => s.swingToWinner,
+      format: (v) => (v>=0?'+':'') + v.toFixed(1) + 'pp', ticks: [-10,-5,0,5,10,15] },
+    { id: 'tppSwing',  group: 'Political',   label: 'TPP swing (vs 2022)', kind: 'num',
+      accessor: (s) => s.tppSwing,
+      format: (v) => (v>=0?'+':'') + v.toFixed(1) + 'pp', ticks: [-10,-5,0,5,10,15] },
+    { id: 'alpTpp',    group: 'Political',   label: 'ALP TPP (2025)', kind: 'num',
+      accessor: (s) => s.alpTpp,
+      format: (v) => v.toFixed(1) + '%', ticks: [20,30,40,50,60,70,80] },
+    { id: 'winnerFP',  group: 'Political',   label: 'Winner first-pref', kind: 'num', accessor: (s) => s.winnerPrimaryPct, format: (v) => v.toFixed(0) + '%', ticks: [25,30,35,40,45,50,55] },
+    { id: 'alpFP',     group: 'Political',   label: 'ALP first-pref',    kind: 'num', accessor: (s) => s.primaryBuckets?.alp, format: (v) => v.toFixed(0) + '%', ticks: [0,15,30,45,60] },
+    { id: 'coaFP',     group: 'Political',   label: 'Coalition first-pref', kind: 'num', accessor: (s) => s.primaryBuckets?.coa, format: (v) => v.toFixed(0) + '%', ticks: [0,15,30,45,60] },
+    { id: 'grnFP',     group: 'Political',   label: 'Greens first-pref', kind: 'num', accessor: (s) => s.primaryBuckets?.grn, format: (v) => v.toFixed(0) + '%', ticks: [0,10,20,30,40] },
+    { id: 'onFP',      group: 'Political',   label: 'One Nation first-pref', kind: 'num', accessor: (s) => s.primaryBuckets?.on, format: (v) => v.toFixed(1) + '%', ticks: [0,5,10,15] },
+    { id: 'indFP',     group: 'Political',   label: 'Independent first-pref', kind: 'num', accessor: (s) => s.primaryBuckets?.ind, format: (v) => v.toFixed(0) + '%', ticks: [0,10,20,30,40,50] },
+    { id: 'othFP',     group: 'Political',   label: 'Other first-pref',  kind: 'num', accessor: (s) => s.primaryBuckets?.oth, format: (v) => v.toFixed(0) + '%', ticks: [0,10,20,30,40] },
+    { id: 'turnout',   group: 'Political',   label: 'Turnout',           kind: 'num', accessor: (s) => s.turnoutPct, format: (v) => v.toFixed(0) + '%', ticks: [70,80,90,95] },
+  ];
+
+  let _crosstabState = { x: 'income', y: 'alpFP' };
+  let _scatterCtl = null;
+
+  async function renderCrosstabSub() {
+    const host = document.getElementById('crosstab-host');
+    if (!host) return;
+    let data;
+    try { data = await loadNational(); }
+    catch (err) { console.error(err); return; }
+
+    function pickerHTML(role) {
+      const current = CT_VARS.find((v) => v.id === _crosstabState[role]) || CT_VARS[0];
+      const otherSelected = _crosstabState[role === 'x' ? 'y' : 'x'];
+      const groups = ['Demographic', 'Region', 'Political'];
+      const menuGroups = groups.map((g) => {
+        const inGroup = CT_VARS.filter((v) => v.group === g);
+        if (!inGroup.length) return '';
+        return (
+          `<div class="ct-dd-group">` +
+            `<div class="ct-dd-group-lbl">${escapeHTML(g)}</div>` +
+            inGroup.map((v) => {
+              const disabled = v.id === otherSelected;
+              const active = v.id === current.id;
+              return (
+                `<button class="ct-dd-opt${active ? ' is-active' : ''}${disabled ? ' is-disabled' : ''}" data-role="${role}" data-var="${v.id}" ${disabled ? 'disabled' : ''}>${escapeHTML(v.label)}</button>`
+              );
+            }).join('') +
+          `</div>`
+        );
+      }).join('');
+      return (
+        `<div class="ct-picker" data-role="${role}">` +
+          `<div class="ct-pick-label">${role === 'x' ? 'X axis · horizontal' : 'Y axis · vertical'}</div>` +
+          `<button class="ct-pick-btn" type="button" data-toggle="${role}" aria-haspopup="listbox">` +
+            `<span class="ct-pick-current">${escapeHTML(current.label)}</span>` +
+            `<span class="ct-pick-meta">${escapeHTML(current.group)}</span>` +
+            `<span class="ct-pick-chev">▾</span>` +
+          `</button>` +
+          `<div class="ct-pick-menu" data-menu="${role}" hidden>${menuGroups}</div>` +
+        `</div>`
+      );
+    }
+
+    function closeAllMenus() {
+      host.querySelectorAll('.ct-pick-menu').forEach((m) => (m.hidden = true));
+      host.querySelectorAll('.ct-pick-btn').forEach((b) => b.classList.remove('is-open'));
+    }
+
+    // Build the outer layout once. Re-renders of axis selection only
+    // touch the sidebar; the scatter container stays so its dots
+    // persist and tween from old → new positions.
+    function setupLayout() {
+      host.innerHTML =
+        `<aside class="ct-sidebar" id="ct-sidebar"></aside>` +
+        `<div class="ct-scatter" id="ct-scatter"></div>`;
+      if (!host.__ctOutside) {
+        host.__ctOutside = (e) => {
+          if (!e.target.closest('.ct-picker')) closeAllMenus();
+        };
+        document.addEventListener('click', host.__ctOutside);
+      }
+    }
+
+    function renderSidebar() {
+      const sidebar = document.getElementById('ct-sidebar');
+      if (!sidebar) return;
+      sidebar.innerHTML = pickerHTML('x') + pickerHTML('y');
+      sidebar.querySelectorAll('.ct-pick-btn').forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const role = btn.dataset.toggle;
+          const menu = sidebar.querySelector(`.ct-pick-menu[data-menu="${role}"]`);
+          const willOpen = menu.hidden;
+          closeAllMenus();
+          if (willOpen) {
+            menu.hidden = false;
+            btn.classList.add('is-open');
+          }
+        });
+      });
+      sidebar.querySelectorAll('.ct-dd-opt:not(.is-disabled)').forEach((b) => {
+        b.addEventListener('click', () => {
+          const role = b.dataset.role;
+          const id = b.dataset.var;
+          if (id === _crosstabState[role === 'x' ? 'y' : 'x']) return;
+          _crosstabState[role] = id;
+          renderSidebar();           // ← refresh dropdowns only
+          updateScatter();           // ← reuse existing dots, animate
+        });
+      });
+    }
+
+    function buildAxisOpts() {
+      const xVar = CT_VARS.find((v) => v.id === _crosstabState.x);
+      const yVar = CT_VARS.find((v) => v.id === _crosstabState.y);
+      if (!xVar || !yVar) return null;
+      const points = data.seats
+        .map((s) => {
+          const xv = xVar.accessor(s);
+          const yv = yVar.accessor(s);
+          if (xv == null || yv == null) return null;
+          return {
+            id: s.id,
+            name: s.name,
+            state: s.state,
+            surname: s.winnerSurname,
+            partyAb: s.winnerPartyAb,
+            partyKey: s.winnerParty,
+            tcpMargin: s.tcpMargin,
+            divisionId: s.divisionId,
+            x: xv,
+            y: yv,
+          };
+        })
+        .filter((d) => d !== null);
+      return {
+        xVar, yVar, points,
+        xAxis: {
+          label: xVar.label,
+          kind: xVar.kind === 'cat' ? 'categorical' : 'continuous',
+          categories: xVar.categories,
+          ticks: xVar.ticks,
+          format: xVar.format,
+        },
+        yAxis: {
+          label: yVar.label,
+          kind: yVar.kind === 'cat' ? 'categorical' : 'continuous',
+          categories: yVar.categories,
+          ticks: yVar.ticks,
+          format: yVar.format,
+        },
+      };
+    }
+
+    function makeOnHover(xVar, yVar) {
+      return (d, x, y) => {
+        d._axisLabel = `${xVar.label} · ${yVar.label}`;
+        d._formatted = `${xVar.format(d.x)}  /  ${yVar.format(d.y)}`;
+        showNatTip(d, x, y);
+      };
+    }
+
+    // First render: build the scatter controller, which we then update
+    // in place on subsequent axis changes so the existing dots tween.
+    function initialPaint() {
+      const cell = document.getElementById('ct-scatter');
+      if (!cell) return;
+      const opts = buildAxisOpts();
+      if (!opts) return;
+      if (_scatterCtl) { try { _scatterCtl.destroy(); } catch {} }
+      _scatterCtl = window.renderScatter(cell, {
+        data: opts.points,
+        xAxis: opts.xAxis,
+        yAxis: opts.yAxis,
+        onHover: makeOnHover(opts.xVar, opts.yVar),
+        onLeave: hideNatTip,
+        onClick: onNationalDotClick,
+      });
+    }
+
+    // Subsequent renders: reuse the existing controller so dots
+    // animate from their old positions to the new ones.
+    function updateScatter() {
+      if (!_scatterCtl) { initialPaint(); return; }
+      const opts = buildAxisOpts();
+      if (!opts) return;
+      _scatterCtl.update({
+        data: opts.points,
+        xAxis: opts.xAxis,
+        yAxis: opts.yAxis,
+        onHover: makeOnHover(opts.xVar, opts.yVar),
+      });
+    }
+
+    setupLayout();
+    renderSidebar();
+    initialPaint();
+  }
+
 </script>
 </body>
 </html>
