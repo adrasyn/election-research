@@ -3000,72 +3000,6 @@
       ]
     },
     {
-      "boothId": 2744,
-      "name": "Glebe North",
-      "formal": 733,
-      "winnerParty": "alp",
-      "winnerSurname": "PLIBERSEK",
-      "winnerPct": 65.76,
-      "swing": 1.76,
-      "lat": -33.8754,
-      "lng": 151.188,
-      "candidates": [
-        {
-          "surname": "PLIBERSEK",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 385,
-          "pct": 52.52
-        },
-        {
-          "surname": "VELEZ",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 206,
-          "pct": 28.1
-        },
-        {
-          "surname": "XU",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 95,
-          "pct": 12.96
-        },
-        {
-          "surname": "TORBARAC",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 26,
-          "pct": 3.55
-        },
-        {
-          "surname": "EVANS",
-          "partyAb": "SAL",
-          "party": "oth",
-          "votes": 21,
-          "pct": 2.86
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "PLIBERSEK",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 482,
-          "elected": true,
-          "pct": 65.76
-        },
-        {
-          "surname": "VELEZ",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 251,
-          "elected": false,
-          "pct": 34.24
-        }
-      ]
-    },
-    {
       "boothId": 2743,
       "name": "Glebe East",
       "formal": 733,
@@ -3128,6 +3062,72 @@
           "votes": 258,
           "elected": false,
           "pct": 35.2
+        }
+      ]
+    },
+    {
+      "boothId": 2744,
+      "name": "Glebe North",
+      "formal": 733,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 65.76,
+      "swing": 1.76,
+      "lat": -33.8754,
+      "lng": 151.188,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 385,
+          "pct": 52.52
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 206,
+          "pct": 28.1
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 95,
+          "pct": 12.96
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 3.55
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 21,
+          "pct": 2.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 482,
+          "elected": true,
+          "pct": 65.76
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 251,
+          "elected": false,
+          "pct": 34.24
         }
       ]
     },
@@ -4316,6 +4316,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -4330,6 +4331,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            66.42,
             69.5,
             67.07,
             64.65,
@@ -4344,6 +4346,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            33.58,
             30.5,
             32.93,
             35.35,
@@ -4363,6 +4366,7 @@
             null,
             null,
             null,
+            null,
             33.31,
             29.05
           ]
@@ -4372,10 +4376,21 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "IND": 2.31,
+            "DEM": 2.07,
+            "ALP": 44.68,
+            "GRN": 21.61,
+            "LIB": 28.46,
+            "OTH": 0.87
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "ALP": 48.99,
             "GRN": 20.71,
+            "ALP": 48.99,
             "LIB": 26.7,
             "OTH": 3.61
           }
@@ -4384,8 +4399,8 @@
           "year": "2010",
           "shares": {
             "LIB": 28.1,
-            "GRN": 23.75,
             "ALP": 43.29,
+            "GRN": 23.75,
             "OTH": 4.85
           }
         },
@@ -4393,50 +4408,50 @@
           "year": "2013",
           "shares": {
             "IND": 2.28,
-            "GRN": 17.33,
             "LIB": 30.52,
             "ALP": 46.03,
+            "GRN": 17.33,
             "OTH": 3.85
           }
         },
         {
           "year": "2016",
           "shares": {
-            "ALP": 43.74,
             "GRN": 18.81,
             "LIB": 29.15,
+            "ALP": 43.74,
             "OTH": 8.3
           }
         },
         {
           "year": "2019",
           "shares": {
-            "ALP": 49.41,
+            "LIB": 26.61,
             "GRN": 18.07,
             "FUT": 3.42,
-            "LIB": 26.61,
+            "ALP": 49.41,
             "OTH": 2.49
           }
         },
         {
           "year": "2022",
           "shares": {
+            "LIB": 19.66,
+            "TOP": 2.23,
             "GRN": 23.01,
             "ON": 1.83,
             "ALP": 50.82,
-            "LIB": 19.66,
-            "TOP": 2.23,
             "OTH": 2.44
           }
         },
         {
           "year": "2025",
           "shares": {
-            "LIB": 17.59,
-            "SAL": 2.22,
             "GRN": 21.6,
-            "ON": 3.45,
-            "ALP": 55.15
+            "SAL": 2.22,
+            "ALP": 55.15,
+            "LIB": 17.59,
+            "ON": 3.45
           }
         }
       ]

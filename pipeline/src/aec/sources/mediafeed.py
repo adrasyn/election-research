@@ -23,6 +23,13 @@ EVENT_IDS: dict[int, int] = {
     2013: 17496,
     2010: 15508,
     2007: 13745,
+    2004: 12246,
+}
+
+# AEC restructured the Tally Room URL between 2004 and 2007. Modern events
+# live under `/Website/Downloads/`; the 2004 archive uses `/results/Downloads/`.
+_URL_PATH_OVERRIDES: dict[int, str] = {
+    12246: "results",
 }
 
 STATES: tuple[str, ...] = ("NSW", "VIC", "QLD", "WA", "SA", "TAS", "ACT", "NT")
@@ -158,7 +165,8 @@ def _fetch_one(client: httpx.Client, event_id: int, target: Path, *, refresh: bo
     if target.exists() and not refresh:
         log.debug("cached: %s", target.name)
         return
-    url = f"https://results.aec.gov.au/{event_id}/Website/Downloads/{target.name}"
+    path_segment = _URL_PATH_OVERRIDES.get(event_id, "Website")
+    url = f"https://results.aec.gov.au/{event_id}/{path_segment}/Downloads/{target.name}"
     log.info("fetching %s", url)
     resp = client.get(url)
     resp.raise_for_status()

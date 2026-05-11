@@ -1154,86 +1154,6 @@
       ]
     },
     {
-      "boothId": 8725,
-      "name": "Driver",
-      "formal": 918,
-      "winnerParty": "clp",
-      "winnerSurname": "BAYLISS",
-      "winnerPct": 50.33,
-      "swing": 2.6,
-      "lat": -12.4949,
-      "lng": 130.973,
-      "candidates": [
-        {
-          "surname": "BAYLISS",
-          "partyAb": "CLP",
-          "party": "clp",
-          "votes": 276,
-          "pct": 30.07
-        },
-        {
-          "surname": "GOSLING",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 270,
-          "pct": 29.41
-        },
-        {
-          "surname": "SCOTT",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 133,
-          "pct": 14.49
-        },
-        {
-          "surname": "PARRY",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 110,
-          "pct": 11.98
-        },
-        {
-          "surname": "CRAKER",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 102,
-          "pct": 11.11
-        },
-        {
-          "surname": "DAVIES",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 21,
-          "pct": 2.29
-        },
-        {
-          "surname": "KRISTO",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 6,
-          "pct": 0.65
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "GOSLING",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 456,
-          "elected": true,
-          "pct": 49.67
-        },
-        {
-          "surname": "BAYLISS",
-          "partyAb": "CLP",
-          "party": "clp",
-          "votes": 462,
-          "elected": false,
-          "pct": 50.33
-        }
-      ]
-    },
-    {
       "boothId": 8716,
       "name": "Karama",
       "formal": 918,
@@ -1310,6 +1230,86 @@
           "votes": 428,
           "elected": false,
           "pct": 46.62
+        }
+      ]
+    },
+    {
+      "boothId": 8725,
+      "name": "Driver",
+      "formal": 918,
+      "winnerParty": "clp",
+      "winnerSurname": "BAYLISS",
+      "winnerPct": 50.33,
+      "swing": 2.6,
+      "lat": -12.4949,
+      "lng": 130.973,
+      "candidates": [
+        {
+          "surname": "BAYLISS",
+          "partyAb": "CLP",
+          "party": "clp",
+          "votes": 276,
+          "pct": 30.07
+        },
+        {
+          "surname": "GOSLING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 270,
+          "pct": 29.41
+        },
+        {
+          "surname": "SCOTT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 133,
+          "pct": 14.49
+        },
+        {
+          "surname": "PARRY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 110,
+          "pct": 11.98
+        },
+        {
+          "surname": "CRAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 102,
+          "pct": 11.11
+        },
+        {
+          "surname": "DAVIES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 21,
+          "pct": 2.29
+        },
+        {
+          "surname": "KRISTO",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.65
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GOSLING",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 456,
+          "elected": true,
+          "pct": 49.67
+        },
+        {
+          "surname": "BAYLISS",
+          "partyAb": "CLP",
+          "party": "clp",
+          "votes": 462,
+          "elected": false,
+          "pct": 50.33
         }
       ]
     },
@@ -2525,6 +2525,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -2535,24 +2536,11 @@
       ],
       "series": [
         {
-          "id": "ALP",
-          "party": "alp",
-          "label": "ALP",
-          "points": [
-            50.19,
-            48.25,
-            48.6,
-            56.0,
-            53.08,
-            59.37,
-            51.31
-          ]
-        },
-        {
           "id": "CLP",
           "party": "clp",
           "label": "CLP",
           "points": [
+            52.81,
             49.81,
             51.75,
             51.4,
@@ -2561,11 +2549,36 @@
             40.63,
             48.69
           ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            47.19,
+            50.19,
+            48.25,
+            48.6,
+            56.0,
+            53.08,
+            59.37,
+            51.31
+          ]
         }
       ]
     },
     "primary": {
       "rows": [
+        {
+          "year": "2004",
+          "shares": {
+            "ALP": 38.53,
+            "CLP": 48.75,
+            "GRN": 6.77,
+            "FFP": 2.09,
+            "OTH": 3.85
+          }
+        },
         {
           "year": "2007",
           "shares": {
@@ -2578,67 +2591,67 @@
         {
           "year": "2010",
           "shares": {
-            "CLP": 46.37,
-            "ON": 2.95,
             "GRN": 13.29,
             "ALP": 36.08,
+            "ON": 2.95,
+            "CLP": 46.37,
             "OTH": 1.31
           }
         },
         {
           "year": "2013",
           "shares": {
-            "GRN": 7.99,
-            "CLP": 44.69,
-            "TOP": 5.04,
-            "ASXP": 3.46,
             "ALP": 35.43,
+            "CLP": 44.69,
+            "ASXP": 3.46,
+            "GRN": 7.99,
+            "TOP": 5.04,
             "OTH": 3.4
           }
         },
         {
           "year": "2016",
           "shares": {
-            "IND": 3.01,
-            "HMP": 2.09,
-            "ALP": 40.87,
-            "LDP": 2.34,
-            "CLP": 34.45,
             "GRN": 10.17,
+            "HMP": 2.09,
+            "IND": 3.01,
+            "ALP": 40.87,
             "SFF": 2.79,
+            "CLP": 34.45,
+            "LDP": 2.34,
             "OTH": 4.28
           }
         },
         {
           "year": "2019",
           "shares": {
-            "CLP": 38.05,
             "RUA": 2.32,
-            "GRN": 11.84,
-            "TOP": 2.87,
+            "IND": 4.87,
+            "CLP": 38.05,
             "ALP": 40.04,
-            "IND": 4.87
+            "GRN": 11.84,
+            "TOP": 2.87
           }
         },
         {
           "year": "2022",
           "shares": {
-            "GRN": 14.81,
-            "ON": 5.35,
-            "TOP": 4.77,
             "LDP": 10.59,
             "CLP": 24.98,
-            "ALP": 39.5
+            "TOP": 4.77,
+            "ALP": 39.5,
+            "ON": 5.35,
+            "GRN": 14.81
           }
         },
         {
           "year": "2025",
           "shares": {
             "ON": 6.71,
-            "ALP": 32.85,
-            "IND": 13.63,
             "GRN": 10.26,
             "CLP": 35.99,
+            "ALP": 32.85,
+            "IND": 13.63,
             "OTH": 0.57
           }
         }

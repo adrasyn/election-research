@@ -3394,86 +3394,6 @@
       ]
     },
     {
-      "boothId": 7234,
-      "name": "Uraidla",
-      "formal": 757,
-      "winnerParty": "ca",
-      "winnerSurname": "SHARKIE",
-      "winnerPct": 69.75,
-      "swing": 69.75,
-      "lat": -34.9590107949111,
-      "lng": 138.743408828731,
-      "candidates": [
-        {
-          "surname": "SHARKIE",
-          "partyAb": "CA",
-          "party": "ca",
-          "votes": 248,
-          "pct": 32.76
-        },
-        {
-          "surname": "BASIC",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 170,
-          "pct": 22.46
-        },
-        {
-          "surname": "DAWSON-SCOTT",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 147,
-          "pct": 19.42
-        },
-        {
-          "surname": "BELL",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 130,
-          "pct": 17.17
-        },
-        {
-          "surname": "HEWETT",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 35,
-          "pct": 4.62
-        },
-        {
-          "surname": "BIDWELL",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 15,
-          "pct": 1.98
-        },
-        {
-          "surname": "HACKETT",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 12,
-          "pct": 1.59
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "SHARKIE",
-          "partyAb": "CA",
-          "party": "ca",
-          "votes": 528,
-          "elected": true,
-          "pct": 69.75
-        },
-        {
-          "surname": "BELL",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 229,
-          "elected": false,
-          "pct": 30.25
-        }
-      ]
-    },
-    {
       "boothId": 7227,
       "name": "Sellicks Beach",
       "formal": 757,
@@ -3550,6 +3470,86 @@
           "votes": 412,
           "elected": false,
           "pct": 54.43
+        }
+      ]
+    },
+    {
+      "boothId": 7234,
+      "name": "Uraidla",
+      "formal": 757,
+      "winnerParty": "ca",
+      "winnerSurname": "SHARKIE",
+      "winnerPct": 69.75,
+      "swing": 69.75,
+      "lat": -34.9590107949111,
+      "lng": 138.743408828731,
+      "candidates": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 248,
+          "pct": 32.76
+        },
+        {
+          "surname": "BASIC",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 170,
+          "pct": 22.46
+        },
+        {
+          "surname": "DAWSON-SCOTT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 147,
+          "pct": 19.42
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 130,
+          "pct": 17.17
+        },
+        {
+          "surname": "HEWETT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 35,
+          "pct": 4.62
+        },
+        {
+          "surname": "BIDWELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 1.98
+        },
+        {
+          "surname": "HACKETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 1.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "SHARKIE",
+          "partyAb": "CA",
+          "party": "ca",
+          "votes": 528,
+          "elected": true,
+          "pct": 69.75
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 229,
+          "elected": false,
+          "pct": 30.25
         }
       ]
     },
@@ -7165,6 +7165,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -7179,6 +7180,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            61.81,
             57.06,
             57.35,
             62.51,
@@ -7193,6 +7195,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            null,
             42.94,
             42.65,
             37.49,
@@ -7210,10 +7213,26 @@
             null,
             null,
             null,
+            null,
             54.97,
             55.14,
             62.26,
             64.89
+          ]
+        },
+        {
+          "id": "IND",
+          "party": "ind",
+          "label": "IND",
+          "points": [
+            38.19,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
           ]
         }
       ]
@@ -7221,23 +7240,34 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "FFP": 3.65,
+            "IND": 15.88,
+            "ALP": 16.49,
+            "LIB": 53.64,
+            "GRN": 7.6,
+            "OTH": 2.74
+          }
+        },
+        {
           "year": "2007",
           "shares": {
+            "GRN": 10.96,
             "LIB": 51.08,
             "FFP": 4.02,
             "ALP": 31.12,
-            "GRN": 10.96,
             "OTH": 2.82
           }
         },
         {
           "year": "2010",
           "shares": {
-            "FFP": 5.81,
-            "IND": 3.7,
-            "LIB": 46.76,
             "ALP": 25.02,
+            "IND": 3.7,
             "GRN": 16.97,
+            "LIB": 46.76,
+            "FFP": 5.81,
             "OTH": 1.74
           }
         },
@@ -7245,43 +7275,43 @@
           "year": "2013",
           "shares": {
             "GRN": 14.15,
+            "ALP": 21.14,
             "TOP": 3.76,
-            "FFP": 7.14,
             "LIB": 53.82,
-            "ALP": 21.14
+            "FFP": 7.14
           }
         },
         {
           "year": "2016",
           "shares": {
-            "CA": 34.86,
             "FFP": 4.6,
-            "GRN": 8.05,
-            "LIB": 37.76,
             "ALP": 13.52,
+            "LIB": 37.76,
+            "CA": 34.86,
+            "GRN": 8.05,
             "OTH": 1.21
           }
         },
         {
           "year": "2019",
           "shares": {
-            "TOP": 3.19,
-            "AJP": 2.04,
-            "ALP": 13.66,
+            "LIB": 37.65,
             "GRN": 9.26,
+            "TOP": 3.19,
+            "ALP": 13.66,
             "CA": 34.19,
-            "LIB": 37.65
+            "AJP": 2.04
           }
         },
         {
           "year": "2022",
           "shares": {
-            "GRN": 11.79,
-            "CA": 31.41,
-            "ON": 4.11,
-            "LIB": 27.03,
-            "ALP": 18.11,
             "TOP": 3.52,
+            "CA": 31.41,
+            "ALP": 18.11,
+            "LIB": 27.03,
+            "ON": 4.11,
+            "GRN": 11.79,
             "OTH": 4.03
           }
         },
@@ -7289,12 +7319,12 @@
           "year": "2025",
           "shares": {
             "GRN": 13.62,
-            "CA": 29.92,
-            "ALP": 21.34,
-            "FFP": 2.71,
             "CYA": 2.81,
             "ON": 5.99,
-            "LIB": 23.61
+            "FFP": 2.71,
+            "ALP": 21.34,
+            "LIB": 23.61,
+            "CA": 29.92
           }
         }
       ]

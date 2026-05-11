@@ -1127,79 +1127,6 @@
       ]
     },
     {
-      "boothId": 7014,
-      "name": "Edwardstown",
-      "formal": 1424,
-      "winnerParty": "alp",
-      "winnerSurname": "MILLER-FROST",
-      "winnerPct": 67.42,
-      "swing": 5.55,
-      "lat": -34.97453,
-      "lng": 138.56483,
-      "candidates": [
-        {
-          "surname": "MILLER-FROST",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 662,
-          "pct": 46.49
-        },
-        {
-          "surname": "FLINT",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 319,
-          "pct": 22.4
-        },
-        {
-          "surname": "WELLS",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 262,
-          "pct": 18.4
-        },
-        {
-          "surname": "HUSSEY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 66,
-          "pct": 4.63
-        },
-        {
-          "surname": "SCOTT",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 64,
-          "pct": 4.49
-        },
-        {
-          "surname": "PRIOR",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 51,
-          "pct": 3.58
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "MILLER-FROST",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 960,
-          "elected": true,
-          "pct": 67.42
-        },
-        {
-          "surname": "FLINT",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 464,
-          "elected": false,
-          "pct": 32.58
-        }
-      ]
-    },
-    {
       "boothId": 6860,
       "name": "Bellevue Heights",
       "formal": 1424,
@@ -1269,6 +1196,79 @@
           "votes": 499,
           "elected": false,
           "pct": 35.04
+        }
+      ]
+    },
+    {
+      "boothId": 7014,
+      "name": "Edwardstown",
+      "formal": 1424,
+      "winnerParty": "alp",
+      "winnerSurname": "MILLER-FROST",
+      "winnerPct": 67.42,
+      "swing": 5.55,
+      "lat": -34.97453,
+      "lng": 138.56483,
+      "candidates": [
+        {
+          "surname": "MILLER-FROST",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 662,
+          "pct": 46.49
+        },
+        {
+          "surname": "FLINT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 319,
+          "pct": 22.4
+        },
+        {
+          "surname": "WELLS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 262,
+          "pct": 18.4
+        },
+        {
+          "surname": "HUSSEY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 66,
+          "pct": 4.63
+        },
+        {
+          "surname": "SCOTT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 64,
+          "pct": 4.49
+        },
+        {
+          "surname": "PRIOR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 51,
+          "pct": 3.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "MILLER-FROST",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 960,
+          "elected": true,
+          "pct": 67.42
+        },
+        {
+          "surname": "FLINT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 464,
+          "elected": false,
+          "pct": 32.58
         }
       ]
     },
@@ -4561,6 +4561,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -4575,6 +4576,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            55.37,
             52.93,
             50.75,
             57.12,
@@ -4589,6 +4591,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            44.63,
             47.07,
             49.25,
             42.88,
@@ -4603,13 +4606,24 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "DEM": 2.03,
+            "GRN": 7.11,
+            "LIB": 50.62,
+            "FFP": 2.98,
+            "ALP": 35.84,
+            "OTH": 1.42
+          }
+        },
+        {
           "year": "2007",
           "shares": {
             "GRN": 10.22,
-            "ON": 0.35,
-            "ALP": 34.12,
             "FFP": 2.44,
             "IND": 4.91,
+            "ALP": 34.12,
+            "ON": 0.35,
             "LIB": 46.25,
             "OTH": 1.71
           }
@@ -4618,65 +4632,65 @@
           "year": "2010",
           "shares": {
             "GRN": 13.24,
-            "FFP": 2.48,
-            "LIB": 44.81,
             "ALP": 35.75,
+            "LIB": 44.81,
+            "FFP": 2.48,
             "OTH": 3.72
           }
         },
         {
           "year": "2013",
           "shares": {
+            "ALP": 30.77,
             "TOP": 3.01,
-            "FFP": 3.91,
-            "GRN": 11.97,
             "LIB": 50.35,
-            "ALP": 30.77
+            "GRN": 11.97,
+            "FFP": 3.91
           }
         },
         {
           "year": "2016",
           "shares": {
-            "GRN": 8.4,
-            "FFP": 2.6,
-            "CA": 20.66,
             "ALP": 24.52,
+            "FFP": 2.6,
+            "GRN": 8.4,
             "LIB": 41.24,
+            "CA": 20.66,
             "OTH": 2.58
           }
         },
         {
           "year": "2019",
           "shares": {
+            "AJP": 2.42,
             "ALP": 34.63,
+            "LIB": 45.19,
             "GRN": 11.96,
             "IND": 2.57,
-            "AJP": 2.42,
-            "LIB": 45.19,
             "OTH": 3.22
           }
         },
         {
           "year": "2022",
           "shares": {
+            "GRN": 15.2,
+            "IND": 7.47,
+            "LIB": 37.99,
+            "ON": 2.04,
             "TOP": 2.22,
             "ALP": 32.32,
-            "GRN": 15.2,
-            "LIB": 37.99,
-            "IND": 7.47,
-            "ON": 2.04,
             "OTH": 2.77
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 3.03,
-            "LIB": 32.48,
-            "GRN": 17.08,
-            "FFP": 2.0,
             "ALP": 42.62,
-            "CYA": 2.77
+            "CYA": 2.77,
+            "FFP": 2.0,
+            "ON": 3.03,
+            "GRN": 17.08,
+            "LIB": 32.48
           }
         }
       ]

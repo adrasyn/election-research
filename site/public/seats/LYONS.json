@@ -6822,93 +6822,6 @@
       ]
     },
     {
-      "boothId": 8550,
-      "name": "Avoca",
-      "formal": 152,
-      "winnerParty": "alp",
-      "winnerSurname": "WHITE",
-      "winnerPct": 61.18,
-      "swing": 10.37,
-      "lat": -41.7824646545139,
-      "lng": 147.719240484186,
-      "candidates": [
-        {
-          "surname": "WHITE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 59,
-          "pct": 38.82
-        },
-        {
-          "surname": "BOWER",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 37,
-          "pct": 24.34
-        },
-        {
-          "surname": "DI FALCO",
-          "partyAb": "SFF",
-          "party": "sff",
-          "votes": 16,
-          "pct": 10.53
-        },
-        {
-          "surname": "BROADBY",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 15,
-          "pct": 9.87
-        },
-        {
-          "surname": "ALLAN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 14,
-          "pct": 9.21
-        },
-        {
-          "surname": "OFFORD",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 7,
-          "pct": 4.61
-        },
-        {
-          "surname": "GRAHAM",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 3,
-          "pct": 1.97
-        },
-        {
-          "surname": "PHIBBS",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 1,
-          "pct": 0.66
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "WHITE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 93,
-          "elected": true,
-          "pct": 61.18
-        },
-        {
-          "surname": "BOWER",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 59,
-          "elected": false,
-          "pct": 38.82
-        }
-      ]
-    },
-    {
       "boothId": 8573,
       "name": "Coles Bay",
       "formal": 152,
@@ -6974,6 +6887,93 @@
           "party": "sff",
           "votes": 2,
           "pct": 1.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WHITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 93,
+          "elected": true,
+          "pct": 61.18
+        },
+        {
+          "surname": "BOWER",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 59,
+          "elected": false,
+          "pct": 38.82
+        }
+      ]
+    },
+    {
+      "boothId": 8550,
+      "name": "Avoca",
+      "formal": 152,
+      "winnerParty": "alp",
+      "winnerSurname": "WHITE",
+      "winnerPct": 61.18,
+      "swing": 10.37,
+      "lat": -41.7824646545139,
+      "lng": 147.719240484186,
+      "candidates": [
+        {
+          "surname": "WHITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 59,
+          "pct": 38.82
+        },
+        {
+          "surname": "BOWER",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 37,
+          "pct": 24.34
+        },
+        {
+          "surname": "DI FALCO",
+          "partyAb": "SFF",
+          "party": "sff",
+          "votes": 16,
+          "pct": 10.53
+        },
+        {
+          "surname": "BROADBY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 9.87
+        },
+        {
+          "surname": "ALLAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 9.21
+        },
+        {
+          "surname": "OFFORD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 7,
+          "pct": 4.61
+        },
+        {
+          "surname": "GRAHAM",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.97
+        },
+        {
+          "surname": "PHIBBS",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.66
         }
       ],
       "tcp": [
@@ -7538,6 +7538,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -7552,6 +7553,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            53.68,
             58.78,
             62.29,
             48.78,
@@ -7566,6 +7568,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            46.32,
             41.22,
             37.71,
             51.22,
@@ -7580,13 +7583,23 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "GRN": 9.95,
+            "FFP": 2.65,
+            "LIB": 42.33,
+            "ALP": 44.56,
+            "OTH": 0.51
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "LIB": 32.54,
-            "FFP": 2.25,
-            "ALP": 43.15,
             "IND": 9.6,
+            "FFP": 2.25,
+            "LIB": 32.54,
             "GRN": 11.17,
+            "ALP": 43.15,
             "OTH": 1.29
           }
         },
@@ -7602,58 +7615,58 @@
         {
           "year": "2013",
           "shares": {
-            "LIB": 44.39,
-            "GRN": 8.32,
-            "ALP": 36.82,
             "FFP": 2.55,
             "TOP": 7.03,
+            "GRN": 8.32,
+            "ALP": 36.82,
+            "LIB": 44.39,
             "OTH": 0.88
           }
         },
         {
           "year": "2016",
           "shares": {
-            "ARF": 6.31,
             "ALP": 38.57,
+            "GRN": 9.37,
             "LIB": 41.88,
             "REP": 2.3,
-            "GRN": 9.37,
+            "ARF": 6.31,
             "OTH": 1.57
           }
         },
         {
           "year": "2019",
           "shares": {
+            "TOP": 6.1,
+            "ALP": 36.46,
             "NAT": 15.68,
-            "GRN": 9.45,
             "LIB": 24.18,
             "ON": 8.13,
-            "TOP": 6.1,
-            "ALP": 36.46
+            "GRN": 9.45
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ALP": 29.04,
+            "LIB": 37.22,
             "JLN": 10.86,
             "GRN": 11.43,
-            "ON": 5.35,
             "TOP": 2.69,
-            "LIB": 37.22,
+            "ALP": 29.04,
+            "ON": 5.35,
             "OTH": 3.41
           }
         },
         {
           "year": "2025",
           "shares": {
+            "SFF": 4.5,
+            "ALP": 43.08,
+            "CYA": 4.72,
             "GRN": 10.88,
             "IND": 3.2,
-            "LIB": 26.21,
-            "SFF": 4.5,
-            "CYA": 4.72,
-            "ALP": 43.08,
             "ON": 6.72,
+            "LIB": 26.21,
             "OTH": 0.68
           }
         }

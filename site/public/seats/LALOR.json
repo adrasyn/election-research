@@ -1794,86 +1794,6 @@
       ]
     },
     {
-      "boothId": 31056,
-      "name": "Derrimut Heath",
-      "formal": 1001,
-      "winnerParty": "alp",
-      "winnerSurname": "RYAN",
-      "winnerPct": 57.54,
-      "swing": -0.47,
-      "lat": -37.85934,
-      "lng": 144.6913,
-      "candidates": [
-        {
-          "surname": "RYAN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 358,
-          "pct": 35.76
-        },
-        {
-          "surname": "D'SILVA",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 305,
-          "pct": 30.47
-        },
-        {
-          "surname": "PARRIS",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 175,
-          "pct": 17.48
-        },
-        {
-          "surname": "OOSTHUIZEN",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 84,
-          "pct": 8.39
-        },
-        {
-          "surname": "EMERSON",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 35,
-          "pct": 3.5
-        },
-        {
-          "surname": "MOINUDDIN",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 30,
-          "pct": 3.0
-        },
-        {
-          "surname": "BARCATTA",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 14,
-          "pct": 1.4
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "RYAN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 576,
-          "elected": true,
-          "pct": 57.54
-        },
-        {
-          "surname": "D'SILVA",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 425,
-          "elected": false,
-          "pct": 42.46
-        }
-      ]
-    },
-    {
       "boothId": 4259,
       "name": "Werribee Central",
       "formal": 1001,
@@ -1950,6 +1870,86 @@
           "votes": 386,
           "elected": false,
           "pct": 38.56
+        }
+      ]
+    },
+    {
+      "boothId": 31056,
+      "name": "Derrimut Heath",
+      "formal": 1001,
+      "winnerParty": "alp",
+      "winnerSurname": "RYAN",
+      "winnerPct": 57.54,
+      "swing": -0.47,
+      "lat": -37.85934,
+      "lng": 144.6913,
+      "candidates": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 358,
+          "pct": 35.76
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 305,
+          "pct": 30.47
+        },
+        {
+          "surname": "PARRIS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 175,
+          "pct": 17.48
+        },
+        {
+          "surname": "OOSTHUIZEN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 8.39
+        },
+        {
+          "surname": "EMERSON",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 35,
+          "pct": 3.5
+        },
+        {
+          "surname": "MOINUDDIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 30,
+          "pct": 3.0
+        },
+        {
+          "surname": "BARCATTA",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 14,
+          "pct": 1.4
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "RYAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 576,
+          "elected": true,
+          "pct": 57.54
+        },
+        {
+          "surname": "D'SILVA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 425,
+          "elected": false,
+          "pct": 42.46
         }
       ]
     },
@@ -3165,6 +3165,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -3179,6 +3180,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            58.79,
             65.53,
             72.15,
             62.16,
@@ -3193,6 +3195,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            41.21,
             34.47,
             27.85,
             37.84,
@@ -3207,33 +3210,43 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "LIB": 37.45,
+            "GRN": 4.12,
+            "FFP": 3.18,
+            "ALP": 53.25,
+            "OTH": 2.0
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "ALP": 59.89,
             "FFP": 4.4,
-            "LIB": 29.77,
             "GRN": 4.02,
+            "ALP": 59.89,
+            "LIB": 29.77,
             "OTH": 1.93
           }
         },
         {
           "year": "2010",
           "shares": {
-            "FFP": 2.79,
-            "GRN": 6.83,
             "ALP": 64.25,
+            "GRN": 6.83,
             "LIB": 23.06,
+            "FFP": 2.79,
             "OTH": 3.07
           }
         },
         {
           "year": "2013",
           "shares": {
-            "TOP": 5.8,
-            "ASXP": 3.22,
             "ALP": 45.17,
-            "LIB": 29.26,
             "FFP": 2.84,
+            "ASXP": 3.22,
+            "LIB": 29.26,
+            "TOP": 5.8,
             "GRN": 6.01,
             "OTH": 7.68
           }
@@ -3242,10 +3255,10 @@
           "year": "2016",
           "shares": {
             "ALP": 51.8,
-            "RUA": 4.39,
             "AFN": 3.03,
+            "LIB": 30.98,
             "GRN": 9.81,
-            "LIB": 30.98
+            "RUA": 4.39
           }
         },
         {
@@ -3253,22 +3266,22 @@
           "shares": {
             "LIB": 30.18,
             "TOP": 4.76,
-            "AFN": 4.38,
-            "GRN": 7.78,
             "ALP": 51.7,
+            "GRN": 7.78,
+            "AFN": 4.38,
             "OTH": 1.2
           }
         },
         {
           "year": "2022",
           "shares": {
-            "TOP": 7.16,
             "GRN": 10.38,
+            "TOP": 7.16,
             "LDP": 3.84,
+            "IND": 2.86,
+            "ON": 3.94,
             "ALP": 44.11,
             "LIB": 24.95,
-            "ON": 3.94,
-            "IND": 2.86,
             "OTH": 2.74
           }
         },
@@ -3276,11 +3289,11 @@
           "year": "2025",
           "shares": {
             "IND": 2.12,
+            "GRN": 15.29,
             "LIB": 26.06,
             "FFP": 4.61,
-            "GRN": 15.29,
-            "ALP": 43.6,
             "ON": 7.04,
+            "ALP": 43.6,
             "OTH": 1.29
           }
         }

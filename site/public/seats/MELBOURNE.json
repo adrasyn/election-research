@@ -1314,86 +1314,6 @@
       ]
     },
     {
-      "boothId": 83875,
-      "name": "South Yarra Central",
-      "formal": 1342,
-      "winnerParty": "alp",
-      "winnerSurname": "WITTY",
-      "winnerPct": 57.82,
-      "swing": 5.8,
-      "lat": -37.8344957596925,
-      "lng": 144.994581808935,
-      "candidates": [
-        {
-          "surname": "BANDT",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 469,
-          "pct": 34.95
-        },
-        {
-          "surname": "WITTY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 411,
-          "pct": 30.63
-        },
-        {
-          "surname": "HUNT",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 351,
-          "pct": 26.15
-        },
-        {
-          "surname": "SMITH",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 32,
-          "pct": 2.38
-        },
-        {
-          "surname": "CASEY",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 28,
-          "pct": 2.09
-        },
-        {
-          "surname": "KOUTOUFIDES",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 26,
-          "pct": 1.94
-        },
-        {
-          "surname": "HUANG",
-          "partyAb": "FUS",
-          "party": "fus",
-          "votes": 25,
-          "pct": 1.86
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "WITTY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 776,
-          "elected": true,
-          "pct": 57.82
-        },
-        {
-          "surname": "BANDT",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 566,
-          "elected": false,
-          "pct": 42.18
-        }
-      ]
-    },
-    {
       "boothId": 4626,
       "name": "Collingwood",
       "formal": 1342,
@@ -1470,6 +1390,86 @@
           "votes": 916,
           "elected": false,
           "pct": 68.26
+        }
+      ]
+    },
+    {
+      "boothId": 83875,
+      "name": "South Yarra Central",
+      "formal": 1342,
+      "winnerParty": "alp",
+      "winnerSurname": "WITTY",
+      "winnerPct": 57.82,
+      "swing": 5.8,
+      "lat": -37.8344957596925,
+      "lng": 144.994581808935,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 469,
+          "pct": 34.95
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 411,
+          "pct": 30.63
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 351,
+          "pct": 26.15
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 32,
+          "pct": 2.38
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 2.09
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 1.94
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 25,
+          "pct": 1.86
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 776,
+          "elected": true,
+          "pct": 57.82
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 566,
+          "elected": false,
+          "pct": 42.18
         }
       ]
     },
@@ -3885,6 +3885,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -3899,6 +3900,7 @@
           "party": "grn",
           "label": "GRN",
           "points": [
+            null,
             45.29,
             56.04,
             55.27,
@@ -3913,6 +3915,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            71.14,
             54.71,
             43.96,
             44.73,
@@ -3927,6 +3930,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            28.86,
             null,
             null,
             null,
@@ -3941,11 +3945,20 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "LIB": 25.09,
+            "GRN": 18.98,
+            "ALP": 51.78,
+            "OTH": 4.14
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "GRN": 22.8,
             "LIB": 23.49,
             "ALP": 49.51,
+            "GRN": 22.8,
             "OTH": 4.2
           }
         },
@@ -3961,9 +3974,9 @@
         {
           "year": "2013",
           "shares": {
-            "ALP": 26.6,
-            "LIB": 22.83,
             "GRN": 42.62,
+            "LIB": 22.83,
+            "ALP": 26.6,
             "OTH": 7.95
           }
         },
@@ -3980,9 +3993,9 @@
         {
           "year": "2019",
           "shares": {
-            "ALP": 19.74,
             "REAS": 5.11,
             "GRN": 49.3,
+            "ALP": 19.74,
             "LIB": 21.47,
             "OTH": 4.39
           }
@@ -3990,22 +4003,22 @@
         {
           "year": "2022",
           "shares": {
+            "LIB": 15.19,
+            "GRN": 49.62,
+            "ALP": 25.03,
             "VNS": 3.27,
             "ON": 0.97,
-            "ALP": 25.03,
-            "GRN": 49.62,
-            "LIB": 15.19,
             "OTH": 5.91
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 2.5,
+            "ALP": 31.34,
             "GRN": 39.46,
+            "ON": 2.5,
             "LIB": 19.77,
             "IND": 4.95,
-            "ALP": 31.34,
             "OTH": 1.98
           }
         }

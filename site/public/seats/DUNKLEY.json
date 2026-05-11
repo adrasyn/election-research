@@ -2733,93 +2733,6 @@
       ]
     },
     {
-      "boothId": 4160,
-      "name": "Seaford North",
-      "formal": 1056,
-      "winnerParty": "alp",
-      "winnerSurname": "BELYEA",
-      "winnerPct": 63.92,
-      "swing": 1.9,
-      "lat": -38.08923,
-      "lng": 145.13538,
-      "candidates": [
-        {
-          "surname": "BELYEA",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 449,
-          "pct": 42.52
-        },
-        {
-          "surname": "CONROY",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 259,
-          "pct": 24.53
-        },
-        {
-          "surname": "MABER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 151,
-          "pct": 14.3
-        },
-        {
-          "surname": "DAVIS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 76,
-          "pct": 7.2
-        },
-        {
-          "surname": "ABBOTT",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 45,
-          "pct": 4.26
-        },
-        {
-          "surname": "THURLEY",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 37,
-          "pct": 3.5
-        },
-        {
-          "surname": "NICHOLES",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 31,
-          "pct": 2.94
-        },
-        {
-          "surname": "GATLEY",
-          "partyAb": "FUS",
-          "party": "fus",
-          "votes": 8,
-          "pct": 0.76
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "BELYEA",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 675,
-          "elected": true,
-          "pct": 63.92
-        },
-        {
-          "surname": "CONROY",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 381,
-          "elected": false,
-          "pct": 36.08
-        }
-      ]
-    },
-    {
       "boothId": 31051,
       "name": "Carrum Downs South",
       "formal": 1056,
@@ -2903,6 +2816,93 @@
           "votes": 387,
           "elected": false,
           "pct": 36.65
+        }
+      ]
+    },
+    {
+      "boothId": 4160,
+      "name": "Seaford North",
+      "formal": 1056,
+      "winnerParty": "alp",
+      "winnerSurname": "BELYEA",
+      "winnerPct": 63.92,
+      "swing": 1.9,
+      "lat": -38.08923,
+      "lng": 145.13538,
+      "candidates": [
+        {
+          "surname": "BELYEA",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 449,
+          "pct": 42.52
+        },
+        {
+          "surname": "CONROY",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 259,
+          "pct": 24.53
+        },
+        {
+          "surname": "MABER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 151,
+          "pct": 14.3
+        },
+        {
+          "surname": "DAVIS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 76,
+          "pct": 7.2
+        },
+        {
+          "surname": "ABBOTT",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 45,
+          "pct": 4.26
+        },
+        {
+          "surname": "THURLEY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 37,
+          "pct": 3.5
+        },
+        {
+          "surname": "NICHOLES",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 2.94
+        },
+        {
+          "surname": "GATLEY",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 8,
+          "pct": 0.76
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BELYEA",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 675,
+          "elected": true,
+          "pct": 63.92
+        },
+        {
+          "surname": "CONROY",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 381,
+          "elected": false,
+          "pct": 36.08
         }
       ]
     },
@@ -4145,6 +4145,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -4159,6 +4160,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            59.38,
             54.04,
             51.02,
             55.57,
@@ -4173,6 +4175,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            40.62,
             45.96,
             48.98,
             44.43,
@@ -4187,20 +4190,30 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "GRN": 6.24,
+            "LIB": 55.54,
+            "ALP": 33.57,
+            "FFP": 2.35,
+            "OTH": 2.3
+          }
+        },
+        {
           "year": "2007",
           "shares": {
+            "LIB": 49.79,
+            "GRN": 7.75,
             "FFP": 2.59,
             "ALP": 38.26,
-            "GRN": 7.75,
-            "LIB": 49.79,
             "OTH": 1.61
           }
         },
         {
           "year": "2010",
           "shares": {
-            "ALP": 38.33,
             "LIB": 47.32,
+            "ALP": 38.33,
             "FFP": 2.65,
             "GRN": 11.69
           }
@@ -4209,32 +4222,32 @@
           "year": "2013",
           "shares": {
             "TOP": 4.22,
-            "GRN": 9.32,
             "ALP": 30.88,
-            "ASXP": 2.94,
             "LIB": 48.75,
+            "GRN": 9.32,
+            "ASXP": 2.94,
             "OTH": 3.88
           }
         },
         {
           "year": "2016",
           "shares": {
-            "AJP": 2.16,
             "GRN": 9.65,
-            "HJP": 6.17,
+            "AJP": 2.16,
             "ALP": 33.17,
             "LIB": 42.73,
+            "HJP": 6.17,
             "OTH": 6.12
           }
         },
         {
           "year": "2019",
           "shares": {
-            "TOP": 2.6,
             "ALP": 38.52,
-            "LIB": 39.88,
-            "HJP": 5.19,
             "GRN": 8.39,
+            "LIB": 39.88,
+            "TOP": 2.6,
+            "HJP": 5.19,
             "AJP": 3.06,
             "OTH": 2.36
           }
@@ -4242,27 +4255,27 @@
         {
           "year": "2022",
           "shares": {
-            "LIB": 32.5,
-            "ALP": 40.23,
-            "GRN": 10.34,
-            "TOP": 5.06,
-            "IND": 3.86,
-            "ON": 2.81,
             "AJP": 2.1,
+            "TOP": 5.06,
+            "ALP": 40.23,
+            "LIB": 32.5,
+            "ON": 2.81,
+            "GRN": 10.34,
             "LDP": 2.51,
+            "IND": 3.86,
             "OTH": 0.59
           }
         },
         {
           "year": "2025",
           "shares": {
-            "IND": 2.96,
-            "ON": 6.86,
-            "ALP": 38.28,
-            "LIB": 32.32,
-            "GRN": 11.59,
             "HMP": 4.8,
             "FFP": 2.29,
+            "IND": 2.96,
+            "LIB": 32.32,
+            "ON": 6.86,
+            "GRN": 11.59,
+            "ALP": 38.28,
             "OTH": 0.9
           }
         }

@@ -4080,100 +4080,6 @@
       ]
     },
     {
-      "boothId": 4028,
-      "name": "Bethanga",
-      "formal": 363,
-      "winnerParty": "ind",
-      "winnerSurname": "HAINES",
-      "winnerPct": 58.95,
-      "swing": 1.41,
-      "lat": -36.123886,
-      "lng": 147.098116,
-      "candidates": [
-        {
-          "surname": "HAINES",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 155,
-          "pct": 42.7
-        },
-        {
-          "surname": "TRENERY",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 111,
-          "pct": 30.58
-        },
-        {
-          "surname": "THOMAS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 38,
-          "pct": 10.47
-        },
-        {
-          "surname": "BRIDGES",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 19,
-          "pct": 5.23
-        },
-        {
-          "surname": "REGAN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 12,
-          "pct": 3.31
-        },
-        {
-          "surname": "QUILTY",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 9,
-          "pct": 2.48
-        },
-        {
-          "surname": "HOWMAN",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 8,
-          "pct": 2.2
-        },
-        {
-          "surname": "McFARLANE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 6,
-          "pct": 1.65
-        },
-        {
-          "surname": "WHITE",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 5,
-          "pct": 1.38
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "HAINES",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 214,
-          "elected": true,
-          "pct": 58.95
-        },
-        {
-          "surname": "TRENERY",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 149,
-          "elected": false,
-          "pct": 41.05
-        }
-      ]
-    },
-    {
       "boothId": 4077,
       "name": "Moyhu",
       "formal": 363,
@@ -4264,6 +4170,100 @@
           "votes": 194,
           "elected": false,
           "pct": 53.44
+        }
+      ]
+    },
+    {
+      "boothId": 4028,
+      "name": "Bethanga",
+      "formal": 363,
+      "winnerParty": "ind",
+      "winnerSurname": "HAINES",
+      "winnerPct": 58.95,
+      "swing": 1.41,
+      "lat": -36.123886,
+      "lng": 147.098116,
+      "candidates": [
+        {
+          "surname": "HAINES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 155,
+          "pct": 42.7
+        },
+        {
+          "surname": "TRENERY",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 111,
+          "pct": 30.58
+        },
+        {
+          "surname": "THOMAS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 38,
+          "pct": 10.47
+        },
+        {
+          "surname": "BRIDGES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "pct": 5.23
+        },
+        {
+          "surname": "REGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 3.31
+        },
+        {
+          "surname": "QUILTY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.48
+        },
+        {
+          "surname": "HOWMAN",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.2
+        },
+        {
+          "surname": "McFARLANE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 1.65
+        },
+        {
+          "surname": "WHITE",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 5,
+          "pct": 1.38
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAINES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 214,
+          "elected": true,
+          "pct": 58.95
+        },
+        {
+          "surname": "TRENERY",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 149,
+          "elected": false,
+          "pct": 41.05
         }
       ]
     },
@@ -7870,6 +7870,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -7884,6 +7885,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            66.29,
             59.19,
             59.94,
             49.75,
@@ -7900,6 +7902,7 @@
           "points": [
             null,
             null,
+            null,
             50.25,
             54.83,
             51.39,
@@ -7912,6 +7915,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            33.71,
             40.81,
             40.06,
             null,
@@ -7926,23 +7930,33 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "LIB": 62.63,
+            "ALP": 26.23,
+            "GRN": 6.43,
+            "FFP": 4.04,
+            "OTH": 0.67
+          }
+        },
+        {
           "year": "2007",
           "shares": {
+            "ALP": 32.12,
             "GRN": 7.58,
             "LIB": 54.38,
             "FFP": 3.82,
-            "ALP": 32.12,
             "OTH": 2.11
           }
         },
         {
           "year": "2010",
           "shares": {
-            "LIB": 52.62,
-            "FFP": 3.77,
-            "IND": 5.84,
             "GRN": 9.45,
+            "IND": 5.84,
+            "LIB": 52.62,
             "ALP": 27.2,
+            "FFP": 3.77,
             "OTH": 1.12
           }
         },
@@ -7950,22 +7964,22 @@
           "year": "2013",
           "shares": {
             "TOP": 2.71,
-            "ALP": 11.65,
             "GRN": 3.42,
-            "LIB": 44.68,
+            "ALP": 11.65,
             "IND": 32.12,
+            "LIB": 44.68,
             "OTH": 5.41
           }
         },
         {
           "year": "2016",
           "shares": {
-            "GRN": 3.82,
-            "IND": 37.23,
-            "NAT": 17.22,
             "LIB": 27.61,
+            "NAT": 17.22,
             "CYA": 2.07,
             "ALP": 9.79,
+            "IND": 37.23,
+            "GRN": 3.82,
             "OTH": 2.26
           }
         },
@@ -7973,37 +7987,37 @@
           "year": "2019",
           "shares": {
             "TOP": 3.94,
+            "GRN": 4.21,
             "NAT": 9.45,
-            "HJP": 2.86,
-            "LIB": 35.09,
             "IND": 32.35,
             "ALP": 12.09,
-            "GRN": 4.21
+            "HJP": 2.86,
+            "LIB": 35.09
           }
         },
         {
           "year": "2022",
           "shares": {
-            "IND": 40.68,
-            "ALP": 8.59,
-            "GRN": 3.57,
-            "TOP": 2.52,
-            "ON": 5.28,
-            "LIB": 30.52,
             "LDP": 2.26,
+            "LIB": 30.52,
+            "ON": 5.28,
+            "TOP": 2.52,
             "NAT": 3.79,
+            "ALP": 8.59,
+            "IND": 40.68,
+            "GRN": 3.57,
             "OTH": 2.78
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 7.2,
-            "HMP": 2.99,
-            "LIB": 30.71,
-            "IND": 43.72,
             "ALP": 8.34,
+            "LIB": 30.71,
+            "HMP": 2.99,
+            "IND": 43.72,
             "GRN": 3.63,
+            "ON": 7.2,
             "OTH": 3.41
           }
         }

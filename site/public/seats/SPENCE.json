@@ -3342,93 +3342,6 @@
       ]
     },
     {
-      "boothId": 31431,
-      "name": "One Tree Hill",
-      "formal": 874,
-      "winnerParty": "lib",
-      "winnerSurname": "WILD",
-      "winnerPct": 54.23,
-      "swing": -2.82,
-      "lat": -34.7127217943686,
-      "lng": 138.767308280271,
-      "candidates": [
-        {
-          "surname": "WILD",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 276,
-          "pct": 31.58
-        },
-        {
-          "surname": "BURNELL",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 273,
-          "pct": 31.24
-        },
-        {
-          "surname": "BOTHE",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 109,
-          "pct": 12.47
-        },
-        {
-          "surname": "SKINNER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 76,
-          "pct": 8.7
-        },
-        {
-          "surname": "BENNETT",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 54,
-          "pct": 6.18
-        },
-        {
-          "surname": "MORRELL",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 43,
-          "pct": 4.92
-        },
-        {
-          "surname": "SMITH",
-          "partyAb": "AJP",
-          "party": "ajp",
-          "votes": 23,
-          "pct": 2.63
-        },
-        {
-          "surname": "HANTON",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 20,
-          "pct": 2.29
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "BURNELL",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 400,
-          "elected": true,
-          "pct": 45.77
-        },
-        {
-          "surname": "WILD",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 474,
-          "elected": false,
-          "pct": 54.23
-        }
-      ]
-    },
-    {
       "boothId": 83496,
       "name": "Angle Vale North (Spence)",
       "formal": 874,
@@ -3512,6 +3425,93 @@
           "votes": 319,
           "elected": false,
           "pct": 36.5
+        }
+      ]
+    },
+    {
+      "boothId": 31431,
+      "name": "One Tree Hill",
+      "formal": 874,
+      "winnerParty": "lib",
+      "winnerSurname": "WILD",
+      "winnerPct": 54.23,
+      "swing": -2.82,
+      "lat": -34.7127217943686,
+      "lng": 138.767308280271,
+      "candidates": [
+        {
+          "surname": "WILD",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 276,
+          "pct": 31.58
+        },
+        {
+          "surname": "BURNELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 273,
+          "pct": 31.24
+        },
+        {
+          "surname": "BOTHE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 109,
+          "pct": 12.47
+        },
+        {
+          "surname": "SKINNER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 8.7
+        },
+        {
+          "surname": "BENNETT",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 54,
+          "pct": 6.18
+        },
+        {
+          "surname": "MORRELL",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 4.92
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 23,
+          "pct": 2.63
+        },
+        {
+          "surname": "HANTON",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 20,
+          "pct": 2.29
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BURNELL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 400,
+          "elected": true,
+          "pct": 45.77
+        },
+        {
+          "surname": "WILD",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 474,
+          "elected": false,
+          "pct": 54.23
         }
       ]
     },
@@ -5102,6 +5102,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -5120,6 +5121,7 @@
             null,
             null,
             null,
+            null,
             64.13,
             62.9,
             65.34
@@ -5130,6 +5132,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            null,
             null,
             null,
             null,
@@ -5147,35 +5150,35 @@
           "year": "2019",
           "shares": {
             "AJP": 3.57,
-            "TOP": 7.04,
-            "ALP": 50.96,
             "IND": 5.39,
+            "GRN": 7.21,
             "LIB": 25.83,
-            "GRN": 7.21
+            "ALP": 50.96,
+            "TOP": 7.04
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ALP": 43.86,
             "TOP": 6.74,
+            "ALP": 43.86,
             "LIB": 25.56,
-            "GRN": 11.35,
             "ON": 10.86,
+            "GRN": 11.35,
             "OTH": 1.63
           }
         },
         {
           "year": "2025",
           "shares": {
-            "GRN": 14.49,
-            "ALP": 44.33,
-            "LIB": 18.69,
-            "ON": 9.55,
-            "FFP": 4.39,
-            "CYA": 3.99,
             "AJP": 2.1,
-            "IND": 2.46
+            "IND": 2.46,
+            "CYA": 3.99,
+            "FFP": 4.39,
+            "ALP": 44.33,
+            "GRN": 14.49,
+            "ON": 9.55,
+            "LIB": 18.69
           }
         }
       ]

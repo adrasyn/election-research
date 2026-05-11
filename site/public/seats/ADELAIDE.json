@@ -3394,86 +3394,6 @@
       ]
     },
     {
-      "boothId": 7254,
-      "name": "Regency Park",
-      "formal": 1012,
-      "winnerParty": "alp",
-      "winnerSurname": "GEORGANAS",
-      "winnerPct": 76.48,
-      "swing": 6.3,
-      "lat": -34.87262,
-      "lng": 138.56837,
-      "candidates": [
-        {
-          "surname": "GEORGANAS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 556,
-          "pct": 54.94
-        },
-        {
-          "surname": "GRANTHAM",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 168,
-          "pct": 16.6
-        },
-        {
-          "surname": "MONTI",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 158,
-          "pct": 15.61
-        },
-        {
-          "surname": "SIZE",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 59,
-          "pct": 5.83
-        },
-        {
-          "surname": "PENGILLEY",
-          "partyAb": "AJP",
-          "party": "ajp",
-          "votes": 32,
-          "pct": 3.16
-        },
-        {
-          "surname": "MARKS",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 29,
-          "pct": 2.87
-        },
-        {
-          "surname": "McMILLAN",
-          "partyAb": "FUS",
-          "party": "fus",
-          "votes": 10,
-          "pct": 0.99
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "GEORGANAS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 774,
-          "elected": true,
-          "pct": 76.48
-        },
-        {
-          "surname": "GRANTHAM",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 238,
-          "elected": false,
-          "pct": 23.52
-        }
-      ]
-    },
-    {
       "boothId": 12086,
       "name": "Kilkenny North",
       "formal": 1012,
@@ -3550,6 +3470,86 @@
           "votes": 235,
           "elected": false,
           "pct": 23.22
+        }
+      ]
+    },
+    {
+      "boothId": 7254,
+      "name": "Regency Park",
+      "formal": 1012,
+      "winnerParty": "alp",
+      "winnerSurname": "GEORGANAS",
+      "winnerPct": 76.48,
+      "swing": 6.3,
+      "lat": -34.87262,
+      "lng": 138.56837,
+      "candidates": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 556,
+          "pct": 54.94
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 168,
+          "pct": 16.6
+        },
+        {
+          "surname": "MONTI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 158,
+          "pct": 15.61
+        },
+        {
+          "surname": "SIZE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 59,
+          "pct": 5.83
+        },
+        {
+          "surname": "PENGILLEY",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 32,
+          "pct": 3.16
+        },
+        {
+          "surname": "MARKS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 29,
+          "pct": 2.87
+        },
+        {
+          "surname": "McMILLAN",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 10,
+          "pct": 0.99
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GEORGANAS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 774,
+          "elected": true,
+          "pct": 76.48
+        },
+        {
+          "surname": "GRANTHAM",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 238,
+          "elected": false,
+          "pct": 23.52
         }
       ]
     },
@@ -5485,6 +5485,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -5499,6 +5500,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            51.33,
             58.53,
             57.69,
             53.95,
@@ -5513,6 +5515,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            48.67,
             41.47,
             42.31,
             46.05,
@@ -5527,11 +5530,21 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "LIB": 45.29,
+            "GRN": 7.99,
+            "FFP": 2.06,
+            "ALP": 41.92,
+            "OTH": 2.74
+          }
+        },
+        {
           "year": "2007",
           "shares": {
             "ALP": 48.26,
-            "LIB": 38.43,
             "FFP": 2.03,
+            "LIB": 38.43,
             "GRN": 9.75,
             "OTH": 1.53
           }
@@ -5549,9 +5562,9 @@
         {
           "year": "2013",
           "shares": {
+            "FFP": 2.37,
             "TOP": 2.12,
             "GRN": 10.12,
-            "FFP": 2.37,
             "ALP": 42.26,
             "LIB": 42.06,
             "OTH": 1.07
@@ -5561,8 +5574,8 @@
           "year": "2016",
           "shares": {
             "CA": 12.86,
-            "LIB": 36.43,
             "GRN": 10.44,
+            "LIB": 36.43,
             "ALP": 35.93,
             "OTH": 4.35
           }
@@ -5570,21 +5583,21 @@
         {
           "year": "2019",
           "shares": {
-            "ALP": 40.27,
-            "GRN": 15.72,
             "TOP": 3.25,
             "LIB": 36.16,
             "AJP": 2.7,
+            "GRN": 15.72,
+            "ALP": 40.27,
             "OTH": 1.9
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ALP": 39.98,
             "TOP": 2.71,
             "LIB": 32.0,
             "ON": 2.99,
+            "ALP": 39.98,
             "GRN": 20.1,
             "OTH": 2.22
           }
@@ -5592,11 +5605,11 @@
         {
           "year": "2025",
           "shares": {
+            "ON": 4.02,
             "GRN": 18.97,
+            "LIB": 24.17,
             "CYA": 2.76,
             "AJP": 2.41,
-            "LIB": 24.17,
-            "ON": 4.02,
             "ALP": 46.49,
             "OTH": 1.2
           }

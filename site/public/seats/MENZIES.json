@@ -558,93 +558,6 @@
       ]
     },
     {
-      "boothId": 3420,
-      "name": "Blackburn South",
-      "formal": 1691,
-      "winnerParty": "alp",
-      "winnerSurname": "NG",
-      "winnerPct": 59.49,
-      "swing": 2.09,
-      "lat": -37.8361368501762,
-      "lng": 145.146831902314,
-      "candidates": [
-        {
-          "surname": "NG",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 693,
-          "pct": 40.98
-        },
-        {
-          "surname": "WOLAHAN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 552,
-          "pct": 32.64
-        },
-        {
-          "surname": "PHEASANT",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 233,
-          "pct": 13.78
-        },
-        {
-          "surname": "YEE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 93,
-          "pct": 5.5
-        },
-        {
-          "surname": "SEELEY",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 37,
-          "pct": 2.19
-        },
-        {
-          "surname": "PALIOURAS",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 34,
-          "pct": 2.01
-        },
-        {
-          "surname": "EDWARDS-SCOTT",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 32,
-          "pct": 1.89
-        },
-        {
-          "surname": "UTOYO",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 17,
-          "pct": 1.01
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "NG",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 1006,
-          "elected": true,
-          "pct": 59.49
-        },
-        {
-          "surname": "WOLAHAN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 685,
-          "elected": false,
-          "pct": 40.51
-        }
-      ]
-    },
-    {
       "boothId": 4698,
       "name": "Doncaster Central",
       "formal": 1691,
@@ -728,6 +641,93 @@
           "votes": 779,
           "elected": false,
           "pct": 46.07
+        }
+      ]
+    },
+    {
+      "boothId": 3420,
+      "name": "Blackburn South",
+      "formal": 1691,
+      "winnerParty": "alp",
+      "winnerSurname": "NG",
+      "winnerPct": 59.49,
+      "swing": 2.09,
+      "lat": -37.8361368501762,
+      "lng": 145.146831902314,
+      "candidates": [
+        {
+          "surname": "NG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 693,
+          "pct": 40.98
+        },
+        {
+          "surname": "WOLAHAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 552,
+          "pct": 32.64
+        },
+        {
+          "surname": "PHEASANT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 233,
+          "pct": 13.78
+        },
+        {
+          "surname": "YEE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 93,
+          "pct": 5.5
+        },
+        {
+          "surname": "SEELEY",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 37,
+          "pct": 2.19
+        },
+        {
+          "surname": "PALIOURAS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 34,
+          "pct": 2.01
+        },
+        {
+          "surname": "EDWARDS-SCOTT",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 1.89
+        },
+        {
+          "surname": "UTOYO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 17,
+          "pct": 1.01
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "NG",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1006,
+          "elected": true,
+          "pct": 59.49
+        },
+        {
+          "surname": "WOLAHAN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 685,
+          "elected": false,
+          "pct": 40.51
         }
       ]
     },
@@ -5102,6 +5102,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -5116,6 +5117,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            60.67,
             56.02,
             58.72,
             64.45,
@@ -5130,6 +5132,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            39.33,
             43.98,
             41.28,
             35.55,
@@ -5144,32 +5147,42 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "FFP": 2.14,
+            "ALP": 32.79,
+            "LIB": 56.79,
+            "GRN": 6.46,
+            "OTH": 1.83
+          }
+        },
+        {
           "year": "2007",
           "shares": {
+            "ALP": 34.78,
             "GRN": 6.29,
+            "FFP": 2.42,
             "LIB": 51.6,
             "IND": 3.92,
-            "ALP": 34.78,
-            "FFP": 2.42,
             "OTH": 0.98
           }
         },
         {
           "year": "2010",
           "shares": {
-            "ALP": 32.09,
+            "LIB": 53.63,
             "GRN": 10.75,
-            "FFP": 3.53,
-            "LIB": 53.63
+            "ALP": 32.09,
+            "FFP": 3.53
           }
         },
         {
           "year": "2013",
           "shares": {
             "GRN": 8.63,
-            "TOP": 2.65,
             "ALP": 25.66,
             "FFP": 2.16,
+            "TOP": 2.65,
             "LIB": 58.88,
             "OTH": 2.02
           }
@@ -5177,47 +5190,47 @@
         {
           "year": "2016",
           "shares": {
+            "LIB": 51.72,
             "ALP": 24.6,
             "GRN": 9.08,
+            "AJP": 2.67,
             "FFP": 3.26,
             "IND": 7.56,
-            "AJP": 2.67,
-            "LIB": 51.72,
             "OTH": 1.12
           }
         },
         {
           "year": "2019",
           "shares": {
+            "TOP": 2.65,
             "DLP": 3.08,
             "ALP": 30.04,
             "REAS": 2.06,
             "LIB": 51.73,
-            "TOP": 2.65,
             "GRN": 10.44
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ALP": 33.3,
             "TOP": 3.61,
-            "LDP": 3.61,
-            "GRN": 14.14,
-            "LIB": 42.1,
+            "ALP": 33.3,
             "ON": 2.29,
+            "LIB": 42.1,
+            "GRN": 14.14,
+            "LDP": 3.61,
             "OTH": 0.96
           }
         },
         {
           "year": "2025",
           "shares": {
-            "LIB": 40.64,
-            "ON": 1.97,
+            "IND": 6.37,
+            "CYA": 2.47,
             "GRN": 10.96,
             "ALP": 34.74,
-            "CYA": 2.47,
-            "IND": 6.37,
+            "LIB": 40.64,
+            "ON": 1.97,
             "OTH": 2.85
           }
         }

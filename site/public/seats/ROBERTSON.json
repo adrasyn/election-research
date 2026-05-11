@@ -1154,86 +1154,6 @@
       ]
     },
     {
-      "boothId": 2629,
-      "name": "Umina",
-      "formal": 1251,
-      "winnerParty": "alp",
-      "winnerSurname": "REID",
-      "winnerPct": 64.35,
-      "swing": 6.75,
-      "lat": -33.5145,
-      "lng": 151.318,
-      "candidates": [
-        {
-          "surname": "REID",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 580,
-          "pct": 46.36
-        },
-        {
-          "surname": "WICKS",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 307,
-          "pct": 24.54
-        },
-        {
-          "surname": "WALLACE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 104,
-          "pct": 8.31
-        },
-        {
-          "surname": "LLOYD",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 97,
-          "pct": 7.75
-        },
-        {
-          "surname": "LILLICRAP",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 75,
-          "pct": 6.0
-        },
-        {
-          "surname": "BELLAMY",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 56,
-          "pct": 4.48
-        },
-        {
-          "surname": "BORG",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 32,
-          "pct": 2.56
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "REID",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 805,
-          "elected": true,
-          "pct": 64.35
-        },
-        {
-          "surname": "WICKS",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 446,
-          "elected": false,
-          "pct": 35.65
-        }
-      ]
-    },
-    {
       "boothId": 2592,
       "name": "Erina",
       "formal": 1251,
@@ -1310,6 +1230,86 @@
           "votes": 511,
           "elected": false,
           "pct": 40.85
+        }
+      ]
+    },
+    {
+      "boothId": 2629,
+      "name": "Umina",
+      "formal": 1251,
+      "winnerParty": "alp",
+      "winnerSurname": "REID",
+      "winnerPct": 64.35,
+      "swing": 6.75,
+      "lat": -33.5145,
+      "lng": 151.318,
+      "candidates": [
+        {
+          "surname": "REID",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 580,
+          "pct": 46.36
+        },
+        {
+          "surname": "WICKS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 307,
+          "pct": 24.54
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 104,
+          "pct": 8.31
+        },
+        {
+          "surname": "LLOYD",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 97,
+          "pct": 7.75
+        },
+        {
+          "surname": "LILLICRAP",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 75,
+          "pct": 6.0
+        },
+        {
+          "surname": "BELLAMY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 56,
+          "pct": 4.48
+        },
+        {
+          "surname": "BORG",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 32,
+          "pct": 2.56
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "REID",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 805,
+          "elected": true,
+          "pct": 64.35
+        },
+        {
+          "surname": "WICKS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 446,
+          "elected": false,
+          "pct": 35.65
         }
       ]
     },
@@ -4525,6 +4525,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -4535,24 +4536,11 @@
       ],
       "series": [
         {
-          "id": "ALP",
-          "party": "alp",
-          "label": "ALP",
-          "points": [
-            50.11,
-            51.0,
-            47.0,
-            48.86,
-            45.76,
-            52.26,
-            59.37
-          ]
-        },
-        {
           "id": "LIB",
           "party": "lib",
           "label": "LIB",
           "points": [
+            56.81,
             49.89,
             49.0,
             53.0,
@@ -4561,19 +4549,43 @@
             47.74,
             40.63
           ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            43.19,
+            50.11,
+            51.0,
+            47.0,
+            48.86,
+            45.76,
+            52.26,
+            59.37
+          ]
         }
       ]
     },
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "LIB": 53.62,
+            "ALP": 34.76,
+            "GRN": 7.95,
+            "OTH": 3.67
+          }
+        },
+        {
           "year": "2007",
           "shares": {
             "CDP": 2.21,
             "ALP": 42.93,
-            "ON": 1.06,
             "GRN": 7.2,
             "LIB": 45.63,
+            "ON": 1.06,
             "OTH": 0.97
           }
         },
@@ -4581,10 +4593,10 @@
           "year": "2010",
           "shares": {
             "ON": 0.67,
-            "IND": 3.68,
             "LIB": 43.53,
-            "ALP": 39.76,
+            "IND": 3.68,
             "GRN": 8.99,
+            "ALP": 39.76,
             "OTH": 3.37
           }
         },
@@ -4592,8 +4604,8 @@
           "year": "2013",
           "shares": {
             "TOP": 2.34,
-            "LIB": 43.42,
             "IND": 11.49,
+            "LIB": 43.42,
             "GRN": 5.57,
             "ALP": 34.83,
             "OTH": 2.35
@@ -4602,22 +4614,22 @@
         {
           "year": "2016",
           "shares": {
+            "IND": 2.86,
             "ALP": 38.43,
-            "GRN": 8.35,
             "CDP": 2.66,
             "LIB": 44.68,
-            "IND": 2.86,
+            "GRN": 8.35,
             "OTH": 3.01
           }
         },
         {
           "year": "2019",
           "shares": {
-            "IND": 3.03,
-            "ALP": 34.1,
             "GRN": 7.91,
-            "AJP": 2.08,
+            "ALP": 34.1,
             "LIB": 46.86,
+            "AJP": 2.08,
+            "IND": 3.03,
             "TOP": 2.81,
             "OTH": 3.2
           }
@@ -4625,25 +4637,25 @@
         {
           "year": "2022",
           "shares": {
+            "LIB": 39.96,
             "ON": 3.82,
             "GRN": 10.02,
-            "TOP": 2.9,
-            "AJP": 2.03,
-            "LIB": 39.96,
             "ALP": 37.66,
+            "AJP": 2.03,
+            "TOP": 2.9,
             "OTH": 3.6
           }
         },
         {
           "year": "2025",
           "shares": {
-            "CYA": 2.17,
-            "GRN": 8.99,
-            "ON": 6.93,
             "IND": 3.33,
+            "CYA": 2.17,
+            "HMP": 3.45,
             "ALP": 44.76,
-            "LIB": 30.39,
-            "HMP": 3.45
+            "ON": 6.93,
+            "GRN": 8.99,
+            "LIB": 30.39
           }
         }
       ]

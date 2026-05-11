@@ -4560,93 +4560,6 @@
       ]
     },
     {
-      "boothId": 3403,
-      "name": "St Andrews (Casey)",
-      "formal": 436,
-      "winnerParty": "alp",
-      "winnerSurname": "OAKLEY",
-      "winnerPct": 66.06,
-      "swing": 0.01,
-      "lat": -37.6022282172351,
-      "lng": 145.269611026807,
-      "candidates": [
-        {
-          "surname": "OAKLEY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 146,
-          "pct": 33.49
-        },
-        {
-          "surname": "VIOLI",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 101,
-          "pct": 23.17
-        },
-        {
-          "surname": "BLAIR",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 70,
-          "pct": 16.06
-        },
-        {
-          "surname": "FERRES MILES",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 62,
-          "pct": 14.22
-        },
-        {
-          "surname": "LIVORI",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 19,
-          "pct": 4.36
-        },
-        {
-          "surname": "COURTIS",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 15,
-          "pct": 3.44
-        },
-        {
-          "surname": "BOND",
-          "partyAb": "AJP",
-          "party": "ajp",
-          "votes": 12,
-          "pct": 2.75
-        },
-        {
-          "surname": "NEBAUER",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 11,
-          "pct": 2.52
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "VIOLI",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 148,
-          "elected": true,
-          "pct": 33.94
-        },
-        {
-          "surname": "OAKLEY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 288,
-          "elected": false,
-          "pct": 66.06
-        }
-      ]
-    },
-    {
       "boothId": 4896,
       "name": "Mooroolbark",
       "formal": 436,
@@ -4730,6 +4643,93 @@
           "votes": 235,
           "elected": false,
           "pct": 53.9
+        }
+      ]
+    },
+    {
+      "boothId": 3403,
+      "name": "St Andrews (Casey)",
+      "formal": 436,
+      "winnerParty": "alp",
+      "winnerSurname": "OAKLEY",
+      "winnerPct": 66.06,
+      "swing": 0.01,
+      "lat": -37.6022282172351,
+      "lng": 145.269611026807,
+      "candidates": [
+        {
+          "surname": "OAKLEY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 146,
+          "pct": 33.49
+        },
+        {
+          "surname": "VIOLI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 101,
+          "pct": 23.17
+        },
+        {
+          "surname": "BLAIR",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 70,
+          "pct": 16.06
+        },
+        {
+          "surname": "FERRES MILES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 62,
+          "pct": 14.22
+        },
+        {
+          "surname": "LIVORI",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 19,
+          "pct": 4.36
+        },
+        {
+          "surname": "COURTIS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 15,
+          "pct": 3.44
+        },
+        {
+          "surname": "BOND",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 12,
+          "pct": 2.75
+        },
+        {
+          "surname": "NEBAUER",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 11,
+          "pct": 2.52
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "VIOLI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 148,
+          "elected": true,
+          "pct": 33.94
+        },
+        {
+          "surname": "OAKLEY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 288,
+          "elected": false,
+          "pct": 66.06
         }
       ]
     },
@@ -5885,6 +5885,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -5899,6 +5900,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            61.35,
             55.93,
             54.18,
             57.17,
@@ -5913,6 +5915,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            38.65,
             44.07,
             45.82,
             42.83,
@@ -5927,84 +5930,94 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "GRN": 7.87,
+            "LIB": 56.27,
+            "ALP": 29.68,
+            "FFP": 4.05,
+            "OTH": 2.12
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "GRN": 7.32,
-            "ALP": 35.85,
-            "LIB": 50.15,
             "FFP": 4.19,
+            "GRN": 7.32,
+            "LIB": 50.15,
+            "ALP": 35.85,
             "OTH": 2.49
           }
         },
         {
           "year": "2010",
           "shares": {
-            "FFP": 4.87,
+            "ALP": 35.24,
             "GRN": 11.52,
             "LIB": 48.38,
-            "ALP": 35.24
+            "FFP": 4.87
           }
         },
         {
           "year": "2013",
           "shares": {
             "LIB": 49.18,
-            "ALP": 27.85,
-            "GRN": 10.89,
             "FFP": 2.68,
             "TOP": 4.98,
+            "ALP": 27.85,
+            "GRN": 10.89,
             "OTH": 4.41
           }
         },
         {
           "year": "2016",
           "shares": {
-            "IND": 3.12,
-            "AJP": 4.53,
-            "ALP": 28.37,
-            "RUA": 2.77,
             "LIB": 49.53,
-            "GRN": 11.69
+            "AJP": 4.53,
+            "GRN": 11.69,
+            "RUA": 2.77,
+            "ALP": 28.37,
+            "IND": 3.12
           }
         },
         {
           "year": "2019",
           "shares": {
-            "ALP": 28.6,
-            "DLP": 2.25,
-            "TOP": 2.61,
-            "LIB": 45.25,
-            "AJP": 3.11,
             "GRN": 10.94,
             "IND": 2.31,
+            "DLP": 2.25,
             "HJP": 3.31,
+            "LIB": 45.25,
+            "ALP": 28.6,
+            "AJP": 3.11,
+            "TOP": 2.61,
             "OTH": 1.62
           }
         },
         {
           "year": "2022",
           "shares": {
-            "LDP": 2.02,
-            "ALP": 24.87,
-            "ON": 3.27,
-            "LIB": 36.49,
-            "IND": 11.81,
-            "TOP": 4.85,
             "GRN": 12.94,
+            "IND": 11.81,
+            "ON": 3.27,
+            "ALP": 24.87,
+            "LIB": 36.49,
+            "TOP": 4.85,
+            "LDP": 2.02,
             "OTH": 3.75
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ALP": 24.26,
             "GRN": 10.95,
-            "IND": 10.48,
+            "AJP": 2.15,
             "LIB": 40.88,
-            "CYA": 3.36,
+            "IND": 10.48,
             "FFP": 2.85,
-            "ON": 5.07,
-            "AJP": 2.15
+            "ALP": 24.26,
+            "CYA": 3.36,
+            "ON": 5.07
           }
         }
       ]

@@ -2733,93 +2733,6 @@
       ]
     },
     {
-      "boothId": 31434,
-      "name": "Wilsonton West",
-      "formal": 666,
-      "winnerParty": "ind",
-      "winnerSurname": "HOLT",
-      "winnerPct": 51.05,
-      "swing": 3.52,
-      "lat": -27.5349971160247,
-      "lng": 151.910410836533,
-      "candidates": [
-        {
-          "surname": "HAMILTON",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 217,
-          "pct": 32.58
-        },
-        {
-          "surname": "HOLT",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 136,
-          "pct": 20.42
-        },
-        {
-          "surname": "EDWARDS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 128,
-          "pct": 19.22
-        },
-        {
-          "surname": "KONZ",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 67,
-          "pct": 10.06
-        },
-        {
-          "surname": "NELLIGAN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 43,
-          "pct": 6.46
-        },
-        {
-          "surname": "TODD",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 31,
-          "pct": 4.65
-        },
-        {
-          "surname": "SMOLENSKI",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 22,
-          "pct": 3.3
-        },
-        {
-          "surname": "MARR",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 22,
-          "pct": 3.3
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "HAMILTON",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 326,
-          "elected": true,
-          "pct": 48.95
-        },
-        {
-          "surname": "HOLT",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 340,
-          "elected": false,
-          "pct": 51.05
-        }
-      ]
-    },
-    {
       "boothId": 5641,
       "name": "East Toowoomba",
       "formal": 666,
@@ -2903,6 +2816,93 @@
           "votes": 348,
           "elected": false,
           "pct": 52.25
+        }
+      ]
+    },
+    {
+      "boothId": 31434,
+      "name": "Wilsonton West",
+      "formal": 666,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 51.05,
+      "swing": 3.52,
+      "lat": -27.5349971160247,
+      "lng": 151.910410836533,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 217,
+          "pct": 32.58
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 136,
+          "pct": 20.42
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 128,
+          "pct": 19.22
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 10.06
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 43,
+          "pct": 6.46
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 31,
+          "pct": 4.65
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 22,
+          "pct": 3.3
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 3.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 326,
+          "elected": true,
+          "pct": 48.95
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 340,
+          "elected": false,
+          "pct": 51.05
         }
       ]
     },
@@ -5363,6 +5363,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -5378,6 +5379,7 @@
           "label": "LNP",
           "points": [
             null,
+            null,
             68.53,
             66.47,
             65.31,
@@ -5391,6 +5393,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            31.05,
             41.78,
             31.47,
             33.53,
@@ -5410,6 +5413,7 @@
             null,
             null,
             null,
+            null,
             43.11,
             44.33
           ]
@@ -5419,6 +5423,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            68.95,
             58.22,
             null,
             null,
@@ -5433,66 +5438,77 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "GRN": 4.0,
+            "IND": 2.37,
+            "ALP": 23.98,
+            "FFP": 6.35,
+            "LIB": 60.36,
+            "OTH": 2.95
+          }
+        },
+        {
           "year": "2007",
           "shares": {
+            "GRN": 4.84,
+            "IND": 2.2,
             "ALP": 34.83,
             "LIB": 52.71,
             "FFP": 4.38,
-            "GRN": 4.84,
-            "IND": 2.2,
             "OTH": 1.05
           }
         },
         {
           "year": "2010",
           "shares": {
-            "GRN": 7.3,
-            "ALP": 22.67,
-            "IND": 3.23,
+            "LIB": 61.25,
             "FFP": 5.56,
-            "LIB": 61.25
+            "ALP": 22.67,
+            "GRN": 7.3,
+            "IND": 3.23
           }
         },
         {
           "year": "2013",
           "shares": {
+            "KAP": 3.69,
+            "FFP": 2.66,
+            "GRN": 4.34,
             "TOP": 9.35,
             "LIB": 55.64,
             "ALP": 22.1,
-            "FFP": 2.66,
-            "GRN": 4.34,
-            "KAP": 3.69,
             "OTH": 2.21
           }
         },
         {
           "year": "2016",
           "shares": {
-            "CA": 7.63,
             "ALP": 22.2,
             "GRN": 6.16,
-            "FFP": 10.02,
-            "LIB": 54.0
+            "LIB": 54.0,
+            "CA": 7.63,
+            "FFP": 10.02
           }
         },
         {
           "year": "2019",
           "shares": {
-            "TOP": 3.96,
-            "ALP": 18.66,
-            "FACN": 2.99,
             "LIB": 53.34,
-            "ON": 13.09,
-            "GRN": 7.96
+            "TOP": 3.96,
+            "FACN": 2.99,
+            "GRN": 7.96,
+            "ALP": 18.66,
+            "ON": 13.09
           }
         },
         {
           "year": "2022",
           "shares": {
             "LIB": 43.72,
-            "ALP": 18.73,
             "ON": 9.56,
             "GRN": 5.85,
+            "ALP": 18.73,
             "TOP": 5.13,
             "IND": 15.41,
             "OTH": 1.6
@@ -5501,12 +5517,12 @@
         {
           "year": "2025",
           "shares": {
-            "CYA": 2.75,
             "ALP": 16.64,
             "LIB": 40.98,
             "ON": 9.55,
-            "GRN": 5.58,
             "IND": 20.73,
+            "GRN": 5.58,
+            "CYA": 2.75,
             "FFP": 3.77
           }
         }

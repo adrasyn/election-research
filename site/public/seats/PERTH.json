@@ -2978,65 +2978,6 @@
       ]
     },
     {
-      "boothId": 83275,
-      "name": "Other Mobile Team 1",
-      "formal": 51,
-      "winnerParty": "alp",
-      "winnerSurname": "GORMAN",
-      "winnerPct": 68.63,
-      "swing": 2.84,
-      "lat": null,
-      "lng": null,
-      "candidates": [
-        {
-          "surname": "GORMAN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 24,
-          "pct": 47.06
-        },
-        {
-          "surname": "GREER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 13,
-          "pct": 25.49
-        },
-        {
-          "surname": "PANAIA",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 9,
-          "pct": 17.65
-        },
-        {
-          "surname": "HALLIFAX",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 5,
-          "pct": 9.8
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "GORMAN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 35,
-          "elected": true,
-          "pct": 68.63
-        },
-        {
-          "surname": "PANAIA",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 16,
-          "elected": false,
-          "pct": 31.37
-        }
-      ]
-    },
-    {
       "boothId": 119906,
       "name": "Special Hospital Team 4",
       "formal": 51,
@@ -3092,6 +3033,65 @@
           "votes": 18,
           "elected": false,
           "pct": 35.29
+        }
+      ]
+    },
+    {
+      "boothId": 83275,
+      "name": "Other Mobile Team 1",
+      "formal": 51,
+      "winnerParty": "alp",
+      "winnerSurname": "GORMAN",
+      "winnerPct": 68.63,
+      "swing": 2.84,
+      "lat": null,
+      "lng": null,
+      "candidates": [
+        {
+          "surname": "GORMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 24,
+          "pct": 47.06
+        },
+        {
+          "surname": "GREER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 13,
+          "pct": 25.49
+        },
+        {
+          "surname": "PANAIA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 9,
+          "pct": 17.65
+        },
+        {
+          "surname": "HALLIFAX",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 5,
+          "pct": 9.8
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "GORMAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 35,
+          "elected": true,
+          "pct": 68.63
+        },
+        {
+          "surname": "PANAIA",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 16,
+          "elected": false,
+          "pct": 31.37
         }
       ]
     },
@@ -3263,6 +3263,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -3277,6 +3278,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            56.73,
             58.85,
             55.88,
             54.35,
@@ -3291,6 +3293,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            43.27,
             41.15,
             44.12,
             45.65,
@@ -3305,34 +3308,44 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "ALP": 45.59,
+            "LIB": 36.88,
+            "CDP": 2.46,
+            "GRN": 9.58,
+            "OTH": 5.5
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "CDP": 2.04,
             "GRN": 10.63,
+            "ALP": 46.87,
+            "CDP": 2.04,
             "LIB": 35.98,
             "ON": 0.8,
-            "ALP": 46.87,
             "OTH": 3.68
           }
         },
         {
           "year": "2010",
           "shares": {
-            "CDP": 2.61,
+            "GRN": 16.15,
             "ALP": 40.19,
             "LIB": 38.74,
-            "GRN": 16.15,
+            "CDP": 2.61,
             "OTH": 2.32
           }
         },
         {
           "year": "2013",
           "shares": {
-            "AUC": 2.28,
-            "TOP": 3.49,
-            "ALP": 41.25,
-            "GRN": 10.61,
             "LIB": 39.81,
+            "ALP": 41.25,
+            "TOP": 3.49,
+            "GRN": 10.61,
+            "AUC": 2.28,
             "OTH": 2.56
           }
         },
@@ -3348,31 +3361,31 @@
         {
           "year": "2019",
           "shares": {
-            "WAP": 2.53,
             "LIB": 37.4,
-            "ALP": 34.44,
             "GRN": 18.87,
+            "WAP": 2.53,
             "ON": 2.66,
+            "ALP": 34.44,
             "OTH": 4.1
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ON": 2.69,
-            "GRN": 22.16,
             "LIB": 26.74,
             "ALP": 39.25,
+            "GRN": 22.16,
+            "ON": 2.69,
             "OTH": 9.16
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ALP": 43.05,
-            "GRN": 24.53,
             "LIB": 26.09,
-            "ON": 6.33
+            "ON": 6.33,
+            "ALP": 43.05,
+            "GRN": 24.53
           }
         }
       ]

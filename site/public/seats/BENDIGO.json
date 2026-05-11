@@ -5393,107 +5393,6 @@
       ]
     },
     {
-      "boothId": 3191,
-      "name": "Sailors Gully",
-      "formal": 270,
-      "winnerParty": "alp",
-      "winnerSurname": "CHESTERS",
-      "winnerPct": 51.85,
-      "swing": 51.85,
-      "lat": -36.70741,
-      "lng": 144.23727,
-      "candidates": [
-        {
-          "surname": "LETHLEAN",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 91,
-          "pct": 33.7
-        },
-        {
-          "surname": "CHESTERS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 82,
-          "pct": 30.37
-        },
-        {
-          "surname": "BARNETT-DACEY",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 31,
-          "pct": 11.48
-        },
-        {
-          "surname": "EVANS",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 22,
-          "pct": 8.15
-        },
-        {
-          "surname": "TAYLOR",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 18,
-          "pct": 6.67
-        },
-        {
-          "surname": "FREEMAN",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 10,
-          "pct": 3.7
-        },
-        {
-          "surname": "KEETELAAR",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 7,
-          "pct": 2.59
-        },
-        {
-          "surname": "TYLER",
-          "partyAb": "VNS",
-          "party": "oth",
-          "votes": 6,
-          "pct": 2.22
-        },
-        {
-          "surname": "VINCENT",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 3,
-          "pct": 1.11
-        },
-        {
-          "surname": "BANSEMER",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "CHESTERS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 140,
-          "elected": true,
-          "pct": 51.85
-        },
-        {
-          "surname": "LETHLEAN",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 130,
-          "elected": false,
-          "pct": 48.15
-        }
-      ]
-    },
-    {
       "boothId": 3321,
       "name": "Redesdale",
       "formal": 270,
@@ -5591,6 +5490,107 @@
           "votes": 147,
           "elected": false,
           "pct": 54.44
+        }
+      ]
+    },
+    {
+      "boothId": 3191,
+      "name": "Sailors Gully",
+      "formal": 270,
+      "winnerParty": "alp",
+      "winnerSurname": "CHESTERS",
+      "winnerPct": 51.85,
+      "swing": 51.85,
+      "lat": -36.70741,
+      "lng": 144.23727,
+      "candidates": [
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 91,
+          "pct": 33.7
+        },
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 82,
+          "pct": 30.37
+        },
+        {
+          "surname": "BARNETT-DACEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 31,
+          "pct": 11.48
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 22,
+          "pct": 8.15
+        },
+        {
+          "surname": "TAYLOR",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 6.67
+        },
+        {
+          "surname": "FREEMAN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 10,
+          "pct": 3.7
+        },
+        {
+          "surname": "KEETELAAR",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 2.59
+        },
+        {
+          "surname": "TYLER",
+          "partyAb": "VNS",
+          "party": "oth",
+          "votes": 6,
+          "pct": 2.22
+        },
+        {
+          "surname": "VINCENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 3,
+          "pct": 1.11
+        },
+        {
+          "surname": "BANSEMER",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CHESTERS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 140,
+          "elected": true,
+          "pct": 51.85
+        },
+        {
+          "surname": "LETHLEAN",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 130,
+          "elected": false,
+          "pct": 48.15
         }
       ]
     },
@@ -6949,6 +6949,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -6963,6 +6964,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            50.96,
             56.13,
             59.53,
             51.26,
@@ -6977,6 +6979,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            49.04,
             43.87,
             40.47,
             48.74,
@@ -6997,6 +7000,7 @@
             null,
             null,
             null,
+            null,
             48.6
           ]
         }
@@ -7005,34 +7009,44 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "ALP": 43.53,
+            "FFP": 3.67,
+            "GRN": 6.93,
+            "LIB": 45.44,
+            "OTH": 0.42
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "FFP": 3.55,
+            "LIB": 38.42,
             "ALP": 47.14,
             "GRN": 7.25,
             "IND": 2.78,
-            "LIB": 38.42,
+            "FFP": 3.55,
             "OTH": 0.87
           }
         },
         {
           "year": "2010",
           "shares": {
-            "LIB": 35.84,
-            "FFP": 4.22,
             "ALP": 47.65,
-            "GRN": 12.29
+            "FFP": 4.22,
+            "GRN": 12.29,
+            "LIB": 35.84
           }
         },
         {
           "year": "2013",
           "shares": {
             "TOP": 2.52,
-            "NAT": 5.02,
             "LIB": 39.67,
+            "GRN": 9.3,
             "ASXP": 2.4,
             "ALP": 36.56,
-            "GRN": 9.3,
+            "NAT": 5.02,
             "OTH": 4.53
           }
         },
@@ -7040,48 +7054,48 @@
           "year": "2016",
           "shares": {
             "FFP": 2.8,
+            "ALP": 38.35,
             "LIB": 37.9,
-            "NAT": 3.63,
-            "GRN": 11.02,
             "RUA": 2.11,
             "AJP": 2.2,
-            "ALP": 38.35,
+            "GRN": 11.02,
+            "NAT": 3.63,
             "OTH": 1.97
           }
         },
         {
           "year": "2019",
           "shares": {
-            "TOP": 4.25,
-            "LIB": 31.68,
-            "ALP": 43.62,
             "ON": 6.18,
+            "ALP": 43.62,
+            "LIB": 31.68,
             "GRN": 11.2,
+            "TOP": 4.25,
             "OTH": 3.08
           }
         },
         {
           "year": "2022",
           "shares": {
+            "GRN": 14.06,
+            "ON": 5.52,
             "IND": 4.33,
             "ALP": 42.98,
-            "ON": 5.52,
-            "LDP": 2.89,
             "LIB": 26.63,
-            "GRN": 14.06,
+            "LDP": 2.89,
             "TOP": 3.59
           }
         },
         {
           "year": "2025",
           "shares": {
-            "FFP": 2.96,
-            "ON": 4.94,
-            "NAT": 29.74,
             "GRN": 11.33,
-            "LIB": 10.48,
-            "HMP": 3.44,
             "ALP": 33.55,
+            "HMP": 3.44,
+            "NAT": 29.74,
+            "ON": 4.94,
+            "LIB": 10.48,
+            "FFP": 2.96,
             "OTH": 3.56
           }
         }

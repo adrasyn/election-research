@@ -7,11 +7,17 @@
 
 - **Live**: https://electionresearch.wlsn.me/ (Cloudflare Pages, custom domain on Hover)
 - **GitHub**: https://github.com/adrasyn/election-research (public; auto-deploys on push to main)
-- **Coverage**: 150/150 seats with bio + booth + history (1996–2025) + preferences + demographics + classification chips
+- **Coverage**: 150/150 seats with bio + booth + history (2004–2025) + preferences + demographics + classification chips
 - **Stack confirmed shipped**: Python+Polars pipeline → 2× simplified GeoJSON + per-seat JSON → Astro 5 + MapLibre (geojson sources, no PMTiles) → Cloudflare Pages
 - **QA**: pipeline/scripts/qa_check.py passes 6/6 categories; matches AEC declared 2025 outcome (ALP 94 / LIB 18 / LNP 16 / NAT 9 / IND 10 / GRN 1 / CA 1 / KAP 1)
 
 ## Session log
+
+### 2026-05-11 — Trend chart extended back to 2004
+
+Wired 2004 (event 12246) into the historical pipeline. AEC publishes the full structured CSV set for 2004 with the same schema as 2007+ — DOP / TPP / per-candidate FP — so the only adapter needed was a URL-path override (2004 lives under `/results/Downloads/`, 2007+ under `/Website/Downloads/`). Trend chart now spans 21 years (2004 → 2025) across all 150 seats. QA + deep QA both pass.
+
+Pre-2007 scrape ambitions for 1996/1998/2001 are deferred: AEC doesn't publish structured downloads for those years (1996/1998 aren't on results.aec.gov.au at all; 2001 is HTML virtual-tally-room only). Adding them would require a Wikipedia or Adam Carr scraper plus redistribution-aware division name mapping — different shape of work from this drop-in.
 
 ### 2026-05-11 — National analysis tab + pipeline QA fix
 
@@ -63,7 +69,7 @@ Prioritised order is up to the user; each is independent.
 
 4. **Booth-level demographic estimation (Voronoi × SA1)** — Voronoi tessellation of polling-place lat/lng clipped to electorate boundary, intersected with ABS SA1 polygons, area-weighted to derive synthetic per-booth demographics (income, age, born-overseas, etc.). Joins to existing booth results to support "this booth votes ALP and has median income $X" analyses. **Heaviest pipeline work** of remaining items.
 
-5. **1996–2004 historical scrape** — Currently history goes back to 2007 (AEC structured feeds). Pre-2007 needs HTML scraping from results.aec.gov.au/{event_id}/Website/... pages. Adds 4 more elections to the trend chart. **Lightest pickup** if you want a quick session.
+5. **1996–2004 historical scrape** — **Partially shipped 2026-05-11.** 2004 (event 12246) wired via the existing pipeline — AEC publishes the full CSV set with the same schema as 2007+, only the URL path differs (`/results/` vs `/Website/`). 1996/1998/2001 deferred: 1996/1998 aren't on results.aec.gov.au; 2001 is HTML-only. Adding them needs an external-source scraper (Wikipedia or Adam Carr) plus redistribution-aware division name mapping.
 
 ## Polish items deferred from Phase F code review
 

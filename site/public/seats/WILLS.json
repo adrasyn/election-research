@@ -4386,93 +4386,6 @@
       ]
     },
     {
-      "boothId": 108811,
-      "name": "Special Hospital Team 1",
-      "formal": 49,
-      "winnerParty": "alp",
-      "winnerSurname": "KHALIL",
-      "winnerPct": 77.55,
-      "swing": 15.81,
-      "lat": null,
-      "lng": null,
-      "candidates": [
-        {
-          "surname": "KHALIL",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 33,
-          "pct": 67.35
-        },
-        {
-          "surname": "KIDNEY",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 7,
-          "pct": 14.29
-        },
-        {
-          "surname": "BOLTON",
-          "partyAb": "SAL",
-          "party": "oth",
-          "votes": 4,
-          "pct": 8.16
-        },
-        {
-          "surname": "RATNAM",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 4,
-          "pct": 8.16
-        },
-        {
-          "surname": "MILLER",
-          "partyAb": "FUS",
-          "party": "fus",
-          "votes": 1,
-          "pct": 2.04
-        },
-        {
-          "surname": "GLOVER",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "VERSTEEGEN",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "STEVENS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "KHALIL",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 38,
-          "elected": true,
-          "pct": 77.55
-        },
-        {
-          "surname": "RATNAM",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 11,
-          "elected": false,
-          "pct": 22.45
-        }
-      ]
-    },
-    {
       "boothId": 124013,
       "name": "Melbourne CBD North East (Wills)",
       "formal": 49,
@@ -4556,6 +4469,93 @@
           "votes": 27,
           "elected": false,
           "pct": 55.1
+        }
+      ]
+    },
+    {
+      "boothId": 108811,
+      "name": "Special Hospital Team 1",
+      "formal": 49,
+      "winnerParty": "alp",
+      "winnerSurname": "KHALIL",
+      "winnerPct": 77.55,
+      "swing": 15.81,
+      "lat": null,
+      "lng": null,
+      "candidates": [
+        {
+          "surname": "KHALIL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 33,
+          "pct": 67.35
+        },
+        {
+          "surname": "KIDNEY",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 7,
+          "pct": 14.29
+        },
+        {
+          "surname": "BOLTON",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 4,
+          "pct": 8.16
+        },
+        {
+          "surname": "RATNAM",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 4,
+          "pct": 8.16
+        },
+        {
+          "surname": "MILLER",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 1,
+          "pct": 2.04
+        },
+        {
+          "surname": "GLOVER",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "VERSTEEGEN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "STEVENS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KHALIL",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 38,
+          "elected": true,
+          "pct": 77.55
+        },
+        {
+          "surname": "RATNAM",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 11,
+          "elected": false,
+          "pct": 22.45
         }
       ]
     },
@@ -4841,6 +4841,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -4855,6 +4856,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            66.9,
             72.4,
             72.64,
             65.2,
@@ -4871,6 +4873,7 @@
           "points": [
             null,
             null,
+            null,
             34.8,
             45.12,
             41.83,
@@ -4883,6 +4886,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            33.1,
             27.6,
             27.36,
             null,
@@ -4897,43 +4901,52 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "GRN": 13.0,
+            "ALP": 53.82,
+            "LIB": 28.7,
+            "OTH": 4.48
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "GRN": 13.82,
             "LIB": 24.55,
-            "ALP": 56.89,
+            "GRN": 13.82,
             "DEM": 2.33,
+            "ALP": 56.89,
             "OTH": 2.41
           }
         },
         {
           "year": "2010",
           "shares": {
+            "ALP": 51.81,
             "GRN": 20.6,
             "LIB": 23.79,
-            "ALP": 51.81,
             "OTH": 3.8
           }
         },
         {
           "year": "2013",
           "shares": {
+            "ASXP": 2.61,
             "IND": 2.25,
+            "LIB": 22.84,
+            "TOP": 2.38,
             "GRN": 22.23,
             "ALP": 45.14,
-            "TOP": 2.38,
-            "ASXP": 2.61,
-            "LIB": 22.84,
             "OTH": 2.55
           }
         },
         {
           "year": "2016",
           "shares": {
+            "ALP": 37.65,
             "LIB": 21.93,
             "GRN": 30.83,
             "ASXP": 2.77,
-            "ALP": 37.65,
             "OTH": 6.83
           }
         },
@@ -4941,35 +4954,35 @@
           "year": "2019",
           "shares": {
             "TOP": 3.1,
-            "GRN": 26.62,
             "LIB": 17.94,
-            "VNS": 4.52,
+            "AJP": 3.74,
             "ALP": 44.08,
-            "AJP": 3.74
+            "VNS": 4.52,
+            "GRN": 26.62
           }
         },
         {
           "year": "2022",
           "shares": {
-            "VNS": 2.98,
+            "GRN": 28.28,
             "SAL": 3.39,
-            "ON": 2.8,
-            "LIB": 17.29,
             "ALP": 38.87,
             "TOP": 3.68,
-            "GRN": 28.28,
+            "ON": 2.8,
+            "VNS": 2.98,
+            "LIB": 17.29,
             "OTH": 2.71
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ALP": 35.59,
-            "HMP": 2.79,
-            "LIB": 12.86,
-            "GRN": 35.37,
             "SAL": 8.02,
+            "GRN": 35.37,
+            "HMP": 2.79,
             "ON": 3.5,
+            "LIB": 12.86,
+            "ALP": 35.59,
             "OTH": 1.86
           }
         }

@@ -2834,86 +2834,6 @@
       ]
     },
     {
-      "boothId": 97885,
-      "name": "Holroyd",
-      "formal": 732,
-      "winnerParty": "alp",
-      "winnerSurname": "CLARE",
-      "winnerPct": 65.16,
-      "swing": 10.17,
-      "lat": -33.82880856,
-      "lng": 150.981851,
-      "candidates": [
-        {
-          "surname": "CLARE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 303,
-          "pct": 41.39
-        },
-        {
-          "surname": "NGUYEN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 172,
-          "pct": 23.5
-        },
-        {
-          "surname": "OUF",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 99,
-          "pct": 13.52
-        },
-        {
-          "surname": "SAKR",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 74,
-          "pct": 10.11
-        },
-        {
-          "surname": "KLIEVENS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 32,
-          "pct": 4.37
-        },
-        {
-          "surname": "LUO",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 27,
-          "pct": 3.69
-        },
-        {
-          "surname": "DI GIROLAMO",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 25,
-          "pct": 3.42
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "CLARE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 477,
-          "elected": true,
-          "pct": 65.16
-        },
-        {
-          "surname": "NGUYEN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 255,
-          "elected": false,
-          "pct": 34.84
-        }
-      ]
-    },
-    {
       "boothId": 97886,
       "name": "Granville North",
       "formal": 732,
@@ -2990,6 +2910,86 @@
           "votes": 169,
           "elected": false,
           "pct": 23.09
+        }
+      ]
+    },
+    {
+      "boothId": 97885,
+      "name": "Holroyd",
+      "formal": 732,
+      "winnerParty": "alp",
+      "winnerSurname": "CLARE",
+      "winnerPct": 65.16,
+      "swing": 10.17,
+      "lat": -33.82880856,
+      "lng": 150.981851,
+      "candidates": [
+        {
+          "surname": "CLARE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 303,
+          "pct": 41.39
+        },
+        {
+          "surname": "NGUYEN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 172,
+          "pct": 23.5
+        },
+        {
+          "surname": "OUF",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 99,
+          "pct": 13.52
+        },
+        {
+          "surname": "SAKR",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 74,
+          "pct": 10.11
+        },
+        {
+          "surname": "KLIEVENS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 32,
+          "pct": 4.37
+        },
+        {
+          "surname": "LUO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 27,
+          "pct": 3.69
+        },
+        {
+          "surname": "DI GIROLAMO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 25,
+          "pct": 3.42
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CLARE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 477,
+          "elected": true,
+          "pct": 65.16
+        },
+        {
+          "surname": "NGUYEN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 255,
+          "elected": false,
+          "pct": 34.84
         }
       ]
     },
@@ -4365,6 +4365,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -4379,6 +4380,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            62.87,
             68.37,
             62.23,
             61.43,
@@ -4393,6 +4395,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            37.13,
             31.63,
             37.77,
             38.57,
@@ -4407,11 +4410,22 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "ALP": 53.79,
+            "CDP": 3.45,
+            "GRN": 4.64,
+            "LIB": 31.02,
+            "HAN": 4.78,
+            "OTH": 2.31
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "LIB": 24.1,
-            "ALP": 61.32,
             "CDP": 2.39,
+            "ALP": 61.32,
+            "LIB": 24.1,
             "ON": 1.55,
             "GRN": 6.46,
             "OTH": 4.18
@@ -4420,32 +4434,32 @@
         {
           "year": "2010",
           "shares": {
-            "GRN": 6.26,
-            "IND": 4.45,
-            "ON": 1.83,
-            "SEP": 2.79,
-            "ALP": 50.98,
             "LIB": 33.3,
+            "ON": 1.83,
+            "GRN": 6.26,
+            "ALP": 50.98,
+            "SEP": 2.79,
+            "IND": 4.45,
             "OTH": 0.39
           }
         },
         {
           "year": "2013",
           "shares": {
-            "GRN": 3.09,
             "KAP": 2.46,
-            "LIB": 32.72,
             "TOP": 2.71,
             "CDP": 2.25,
             "ALP": 55.73,
+            "LIB": 32.72,
+            "GRN": 3.09,
             "OTH": 1.05
           }
         },
         {
           "year": "2016",
           "shares": {
-            "ALP": 63.31,
             "CDP": 6.02,
+            "ALP": 63.31,
             "GRN": 4.63,
             "LIB": 24.82,
             "OTH": 1.23
@@ -4454,32 +4468,32 @@
         {
           "year": "2019",
           "shares": {
-            "GRN": 5.36,
-            "CDP": 5.16,
-            "LIB": 28.82,
             "ALP": 57.78,
-            "TOP": 2.88
+            "TOP": 2.88,
+            "LIB": 28.82,
+            "CDP": 5.16,
+            "GRN": 5.36
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ALP": 54.98,
-            "ON": 5.41,
             "LIB": 27.01,
             "GRN": 6.35,
+            "ON": 5.41,
+            "ALP": 54.98,
             "TOP": 6.25
           }
         },
         {
           "year": "2025",
           "shares": {
+            "LTP": 2.18,
+            "ALP": 46.04,
+            "ON": 3.55,
+            "GRN": 7.89,
             "IND": 18.76,
             "LIB": 19.59,
-            "LTP": 2.18,
-            "ON": 3.55,
-            "ALP": 46.04,
-            "GRN": 7.89,
             "OTH": 1.99
           }
         }

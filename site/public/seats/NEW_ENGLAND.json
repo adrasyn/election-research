@@ -4754,86 +4754,6 @@
       ]
     },
     {
-      "boothId": 1939,
-      "name": "Glen Innes",
-      "formal": 279,
-      "winnerParty": "nat",
-      "winnerSurname": "JOYCE",
-      "winnerPct": 64.52,
-      "swing": -8.76,
-      "lat": -29.7356,
-      "lng": 151.739,
-      "candidates": [
-        {
-          "surname": "JOYCE",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 141,
-          "pct": 50.54
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 49,
-          "pct": 17.56
-        },
-        {
-          "surname": "WALES",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 31,
-          "pct": 11.11
-        },
-        {
-          "surname": "LARKHAM",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 26,
-          "pct": 9.32
-        },
-        {
-          "surname": "LEDGER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 14,
-          "pct": 5.02
-        },
-        {
-          "surname": "MASTERS",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 10,
-          "pct": 3.58
-        },
-        {
-          "surname": "JUCHAU",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 8,
-          "pct": 2.87
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "JOYCE",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 180,
-          "elected": true,
-          "pct": 64.52
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 99,
-          "elected": false,
-          "pct": 35.48
-        }
-      ]
-    },
-    {
       "boothId": 1169,
       "name": "Willow Tree",
       "formal": 279,
@@ -4910,6 +4830,86 @@
           "votes": 39,
           "elected": false,
           "pct": 13.98
+        }
+      ]
+    },
+    {
+      "boothId": 1939,
+      "name": "Glen Innes",
+      "formal": 279,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 64.52,
+      "swing": -8.76,
+      "lat": -29.7356,
+      "lng": 151.739,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 141,
+          "pct": 50.54
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 49,
+          "pct": 17.56
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 31,
+          "pct": 11.11
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 9.32
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 14,
+          "pct": 5.02
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 10,
+          "pct": 3.58
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 8,
+          "pct": 2.87
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 180,
+          "elected": true,
+          "pct": 64.52
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 99,
+          "elected": false,
+          "pct": 35.48
         }
       ]
     },
@@ -8685,6 +8685,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -8699,6 +8700,7 @@
           "party": "nat",
           "label": "NAT",
           "points": [
+            29.0,
             25.67,
             28.48,
             64.46,
@@ -8713,6 +8715,7 @@
           "party": "ind",
           "label": "IND",
           "points": [
+            71.0,
             74.33,
             71.52,
             35.54,
@@ -8732,6 +8735,7 @@
             null,
             null,
             null,
+            null,
             33.57,
             32.94
           ]
@@ -8741,36 +8745,47 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "GRN": 3.33,
+            "IND": 57.27,
+            "LIB": 10.03,
+            "CLR": 8.69,
+            "NAT": 18.69,
+            "OTH": 1.99
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "ON": 1.26,
-            "CLR": 9.83,
             "GRN": 3.4,
-            "IND": 61.94,
             "NAT": 23.31,
+            "ON": 1.26,
+            "IND": 61.94,
+            "CLR": 9.83,
             "OTH": 0.26
           }
         },
         {
           "year": "2010",
           "shares": {
-            "IND": 61.88,
-            "CLR": 8.13,
-            "GRN": 3.57,
-            "ON": 0.87,
             "NAT": 25.22,
+            "IND": 61.88,
+            "GRN": 3.57,
+            "CLR": 8.13,
+            "ON": 0.87,
             "OTH": 0.34
           }
         },
         {
           "year": "2013",
           "shares": {
-            "NAT": 54.21,
-            "CLR": 11.86,
-            "ON": 1.72,
             "GRN": 4.58,
+            "NAT": 54.21,
             "TOP": 5.2,
+            "CLR": 11.86,
             "IND": 20.41,
+            "ON": 1.72,
             "OTH": 2.03
           }
         },
@@ -8787,36 +8802,36 @@
         {
           "year": "2019",
           "shares": {
+            "NAT": 54.82,
             "CDP": 2.28,
-            "IND": 21.14,
-            "TOP": 4.58,
             "GRN": 4.43,
-            "ALP": 12.75,
-            "NAT": 54.82
+            "TOP": 4.58,
+            "IND": 21.14,
+            "ALP": 12.75
           }
         },
         {
           "year": "2022",
           "shares": {
-            "IND": 10.66,
             "LDP": 3.26,
-            "ALP": 18.56,
-            "NAT": 52.47,
-            "GRN": 7.74,
             "TOP": 2.62,
-            "ON": 4.7
+            "IND": 10.66,
+            "ON": 4.7,
+            "NAT": 52.47,
+            "ALP": 18.56,
+            "GRN": 7.74
           }
         },
         {
           "year": "2025",
           "shares": {
+            "CYA": 2.72,
             "GRN": 7.89,
-            "IND": 3.71,
             "ON": 9.96,
-            "FFP": 3.19,
-            "NAT": 52.22,
             "ALP": 20.32,
-            "CYA": 2.72
+            "IND": 3.71,
+            "NAT": 52.22,
+            "FFP": 3.19
           }
         }
       ]

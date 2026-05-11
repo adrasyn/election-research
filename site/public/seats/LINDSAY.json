@@ -4888,107 +4888,6 @@
       ]
     },
     {
-      "boothId": 123934,
-      "name": "Other Mobile Team 3",
-      "formal": 16,
-      "winnerParty": "lib",
-      "winnerSurname": "McINTOSH",
-      "winnerPct": 62.5,
-      "swing": 3.46,
-      "lat": null,
-      "lng": null,
-      "candidates": [
-        {
-          "surname": "McINTOSH",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 7,
-          "pct": 43.75
-        },
-        {
-          "surname": "BUCKLEY",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 3,
-          "pct": 18.75
-        },
-        {
-          "surname": "McLEAN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 3,
-          "pct": 18.75
-        },
-        {
-          "surname": "EMMANUEL",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 1,
-          "pct": 6.25
-        },
-        {
-          "surname": "HALLEY",
-          "partyAb": "SFF",
-          "party": "sff",
-          "votes": 1,
-          "pct": 6.25
-        },
-        {
-          "surname": "O'CONNOR",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 1,
-          "pct": 6.25
-        },
-        {
-          "surname": "SALEAM",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "BLAZI",
-          "partyAb": "AJP",
-          "party": "ajp",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "PALMER",
-          "partyAb": "IMO",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "McALLISTER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "McINTOSH",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 10,
-          "elected": true,
-          "pct": 62.5
-        },
-        {
-          "surname": "McLEAN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 6,
-          "elected": false,
-          "pct": 37.5
-        }
-      ]
-    },
-    {
       "boothId": 65411,
       "name": "EAV Lindsay PPVC",
       "formal": 16,
@@ -5086,6 +4985,107 @@
           "votes": 9,
           "elected": false,
           "pct": 56.25
+        }
+      ]
+    },
+    {
+      "boothId": 123934,
+      "name": "Other Mobile Team 3",
+      "formal": 16,
+      "winnerParty": "lib",
+      "winnerSurname": "McINTOSH",
+      "winnerPct": 62.5,
+      "swing": 3.46,
+      "lat": null,
+      "lng": null,
+      "candidates": [
+        {
+          "surname": "McINTOSH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 7,
+          "pct": 43.75
+        },
+        {
+          "surname": "BUCKLEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 18.75
+        },
+        {
+          "surname": "McLEAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "pct": 18.75
+        },
+        {
+          "surname": "EMMANUEL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "HALLEY",
+          "partyAb": "SFF",
+          "party": "sff",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "O'CONNOR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 6.25
+        },
+        {
+          "surname": "SALEAM",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "BLAZI",
+          "partyAb": "AJP",
+          "party": "ajp",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "PALMER",
+          "partyAb": "IMO",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "McALLISTER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McINTOSH",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 10,
+          "elected": true,
+          "pct": 62.5
+        },
+        {
+          "surname": "McLEAN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "elected": false,
+          "pct": 37.5
         }
       ]
     },
@@ -5535,6 +5535,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -5545,24 +5546,11 @@
       ],
       "series": [
         {
-          "id": "ALP",
-          "party": "alp",
-          "label": "ALP",
-          "points": [
-            56.78,
-            51.12,
-            47.01,
-            51.11,
-            44.96,
-            43.66,
-            47.22
-          ]
-        },
-        {
           "id": "LIB",
           "party": "lib",
           "label": "LIB",
           "points": [
+            55.26,
             43.22,
             48.88,
             52.99,
@@ -5571,18 +5559,44 @@
             56.34,
             52.78
           ]
+        },
+        {
+          "id": "ALP",
+          "party": "alp",
+          "label": "ALP",
+          "points": [
+            44.74,
+            56.78,
+            51.12,
+            47.01,
+            51.11,
+            44.96,
+            43.66,
+            47.22
+          ]
         }
       ]
     },
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "LIB": 48.07,
+            "SAS": 2.67,
+            "CDP": 2.77,
+            "GRN": 3.49,
+            "ALP": 37.12,
+            "OTH": 5.87
+          }
+        },
+        {
           "year": "2007",
           "shares": {
+            "ALP": 51.39,
             "IND": 2.06,
             "LIB": 38.15,
             "CDP": 3.06,
-            "ALP": 51.39,
             "GRN": 3.38,
             "OTH": 1.96
           }
@@ -5590,20 +5604,20 @@
         {
           "year": "2010",
           "shares": {
-            "CDP": 3.01,
+            "GRN": 4.74,
             "LIB": 43.39,
             "ALP": 44.55,
-            "GRN": 4.74,
+            "CDP": 3.01,
             "OTH": 4.31
           }
         },
         {
           "year": "2013",
           "shares": {
-            "ALP": 39.03,
-            "GRN": 3.06,
             "TOP": 5.15,
+            "ALP": 39.03,
             "LIB": 46.64,
+            "GRN": 3.06,
             "ON": 2.17,
             "CDP": 2.79,
             "OTH": 1.17
@@ -5612,48 +5626,48 @@
         {
           "year": "2016",
           "shares": {
-            "LIB": 39.29,
-            "ALP": 41.08,
+            "CA": 2.07,
             "GRN": 3.58,
             "CDP": 3.03,
+            "LIB": 39.29,
             "ALA": 2.36,
-            "CA": 2.07,
+            "ALP": 41.08,
             "OTH": 8.58
           }
         },
         {
           "year": "2019",
           "shares": {
-            "LIB": 46.45,
-            "CDP": 2.05,
-            "ALP": 35.61,
-            "IND": 2.86,
             "GRN": 4.91,
             "TOP": 2.91,
+            "ALP": 35.61,
             "FACN": 2.44,
+            "LIB": 46.45,
+            "IND": 2.86,
+            "CDP": 2.05,
             "OTH": 2.77
           }
         },
         {
           "year": "2022",
           "shares": {
-            "LIB": 46.73,
-            "TOP": 4.08,
             "GRN": 8.02,
-            "ALP": 31.71,
+            "LIB": 46.73,
             "ON": 5.92,
+            "TOP": 4.08,
+            "ALP": 31.71,
             "OTH": 3.53
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 6.86,
             "ALP": 32.1,
-            "FFP": 2.46,
             "LIB": 39.74,
-            "GRN": 9.59,
             "CYA": 3.05,
+            "ON": 6.86,
+            "FFP": 2.46,
+            "GRN": 9.59,
             "OTH": 6.2
           }
         }

@@ -2733,79 +2733,6 @@
       ]
     },
     {
-      "boothId": 109792,
-      "name": "Frankston HOLT PPVC",
-      "formal": 292,
-      "winnerParty": "alp",
-      "winnerSurname": "FERNANDO",
-      "winnerPct": 61.99,
-      "swing": 5.33,
-      "lat": -38.14722,
-      "lng": 145.12111,
-      "candidates": [
-        {
-          "surname": "FERNANDO",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 96,
-          "pct": 32.88
-        },
-        {
-          "surname": "SAMUEL",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 70,
-          "pct": 23.97
-        },
-        {
-          "surname": "TIWARI",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 54,
-          "pct": 18.49
-        },
-        {
-          "surname": "FOREMAN",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 30,
-          "pct": 10.27
-        },
-        {
-          "surname": "HAMMOND",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 24,
-          "pct": 8.22
-        },
-        {
-          "surname": "AICKIN",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 18,
-          "pct": 6.16
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "FERNANDO",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 181,
-          "elected": true,
-          "pct": 61.99
-        },
-        {
-          "surname": "SAMUEL",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 111,
-          "elected": false,
-          "pct": 38.01
-        }
-      ]
-    },
-    {
       "boothId": 63835,
       "name": "Narre Warren South East (Holt)",
       "formal": 292,
@@ -2875,6 +2802,79 @@
           "votes": 99,
           "elected": false,
           "pct": 33.9
+        }
+      ]
+    },
+    {
+      "boothId": 109792,
+      "name": "Frankston HOLT PPVC",
+      "formal": 292,
+      "winnerParty": "alp",
+      "winnerSurname": "FERNANDO",
+      "winnerPct": 61.99,
+      "swing": 5.33,
+      "lat": -38.14722,
+      "lng": 145.12111,
+      "candidates": [
+        {
+          "surname": "FERNANDO",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 96,
+          "pct": 32.88
+        },
+        {
+          "surname": "SAMUEL",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 70,
+          "pct": 23.97
+        },
+        {
+          "surname": "TIWARI",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 54,
+          "pct": 18.49
+        },
+        {
+          "surname": "FOREMAN",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 10.27
+        },
+        {
+          "surname": "HAMMOND",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 8.22
+        },
+        {
+          "surname": "AICKIN",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 18,
+          "pct": 6.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "FERNANDO",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 181,
+          "elected": true,
+          "pct": 61.99
+        },
+        {
+          "surname": "SAMUEL",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 111,
+          "elected": false,
+          "pct": 38.01
         }
       ]
     },
@@ -3174,6 +3174,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -3188,6 +3189,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            51.51,
             61.63,
             63.23,
             59.09,
@@ -3202,6 +3204,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            48.49,
             38.37,
             36.77,
             40.91,
@@ -3216,12 +3219,22 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "FFP": 4.17,
+            "ALP": 45.67,
+            "LIB": 42.85,
+            "GRN": 4.46,
+            "OTH": 2.85
+          }
+        },
+        {
           "year": "2007",
           "shares": {
+            "GRN": 4.12,
             "LIB": 34.22,
             "ALP": 55.65,
             "FFP": 4.39,
-            "GRN": 4.12,
             "OTH": 1.61
           }
         },
@@ -3229,66 +3242,66 @@
           "year": "2010",
           "shares": {
             "LIB": 30.62,
+            "FFP": 4.99,
             "GRN": 9.15,
             "ALP": 54.42,
-            "FFP": 4.99,
             "OTH": 0.81
           }
         },
         {
           "year": "2013",
           "shares": {
+            "ASXP": 2.81,
+            "GRN": 3.88,
             "ALP": 48.19,
-            "LIB": 32.63,
             "FFP": 2.5,
             "DLP": 2.05,
+            "LIB": 32.63,
             "TOP": 5.51,
-            "GRN": 3.88,
-            "ASXP": 2.81,
             "OTH": 2.42
           }
         },
         {
           "year": "2016",
           "shares": {
-            "RUA": 4.43,
+            "LIB": 29.89,
+            "FFP": 5.63,
             "GRN": 6.34,
             "ALP": 53.7,
-            "FFP": 5.63,
-            "LIB": 29.89
+            "RUA": 4.43
           }
         },
         {
           "year": "2019",
           "shares": {
+            "LIB": 35.87,
             "GRN": 7.11,
             "ALP": 50.73,
-            "LIB": 35.87,
             "TOP": 6.29
           }
         },
         {
           "year": "2022",
           "shares": {
-            "TOP": 9.67,
-            "IND": 3.01,
-            "ALP": 40.86,
-            "GRN": 8.53,
-            "ON": 4.83,
             "LIB": 29.56,
+            "GRN": 8.53,
+            "ALP": 40.86,
+            "TOP": 9.67,
+            "ON": 4.83,
             "LDP": 2.73,
+            "IND": 3.01,
             "OTH": 0.82
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 8.72,
-            "LIB": 25.03,
-            "HMP": 4.78,
-            "FFP": 5.23,
             "ALP": 45.03,
-            "GRN": 11.21
+            "LIB": 25.03,
+            "GRN": 11.21,
+            "FFP": 5.23,
+            "HMP": 4.78,
+            "ON": 8.72
           }
         }
       ]

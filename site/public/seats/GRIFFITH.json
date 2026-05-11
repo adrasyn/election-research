@@ -674,86 +674,6 @@
       ]
     },
     {
-      "boothId": 5570,
-      "name": "Cannon Hill",
-      "formal": 1481,
-      "winnerParty": "alp",
-      "winnerSurname": "COFFEY",
-      "winnerPct": 65.43,
-      "swing": 65.43,
-      "lat": -27.4699,
-      "lng": 153.084,
-      "candidates": [
-        {
-          "surname": "COFFEY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 586,
-          "pct": 39.57
-        },
-        {
-          "surname": "BISHOP",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 386,
-          "pct": 26.06
-        },
-        {
-          "surname": "CHANDLER-MATHER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 376,
-          "pct": 25.39
-        },
-        {
-          "surname": "HUNT",
-          "partyAb": "GRPF",
-          "party": "oth",
-          "votes": 48,
-          "pct": 3.24
-        },
-        {
-          "surname": "BELL",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 40,
-          "pct": 2.7
-        },
-        {
-          "surname": "HAYES",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 33,
-          "pct": 2.23
-        },
-        {
-          "surname": "CAMPBELL",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 12,
-          "pct": 0.81
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "COFFEY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 969,
-          "elected": true,
-          "pct": 65.43
-        },
-        {
-          "surname": "CHANDLER-MATHER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 512,
-          "elected": false,
-          "pct": 34.57
-        }
-      ]
-    },
-    {
       "boothId": 12056,
       "name": "Greenslopes",
       "formal": 1481,
@@ -830,6 +750,86 @@
           "votes": 716,
           "elected": false,
           "pct": 48.35
+        }
+      ]
+    },
+    {
+      "boothId": 5570,
+      "name": "Cannon Hill",
+      "formal": 1481,
+      "winnerParty": "alp",
+      "winnerSurname": "COFFEY",
+      "winnerPct": 65.43,
+      "swing": 65.43,
+      "lat": -27.4699,
+      "lng": 153.084,
+      "candidates": [
+        {
+          "surname": "COFFEY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 586,
+          "pct": 39.57
+        },
+        {
+          "surname": "BISHOP",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 386,
+          "pct": 26.06
+        },
+        {
+          "surname": "CHANDLER-MATHER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 376,
+          "pct": 25.39
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 48,
+          "pct": 3.24
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 40,
+          "pct": 2.7
+        },
+        {
+          "surname": "HAYES",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 33,
+          "pct": 2.23
+        },
+        {
+          "surname": "CAMPBELL",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 0.81
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COFFEY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 969,
+          "elected": true,
+          "pct": 65.43
+        },
+        {
+          "surname": "CHANDLER-MATHER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 512,
+          "elected": false,
+          "pct": 34.57
         }
       ]
     },
@@ -3885,6 +3885,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -3899,6 +3900,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            58.63,
             62.32,
             58.46,
             53.01,
@@ -3913,6 +3915,7 @@
           "party": "lnp",
           "label": "LNP",
           "points": [
+            null,
             null,
             41.54,
             46.99,
@@ -3932,6 +3935,7 @@
             null,
             null,
             null,
+            null,
             60.46,
             39.43
           ]
@@ -3941,6 +3945,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            41.37,
             37.68,
             null,
             null,
@@ -3955,12 +3960,21 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "LIB": 37.3,
+            "GRN": 8.99,
+            "ALP": 48.74,
+            "OTH": 4.97
+          }
+        },
+        {
           "year": "2007",
           "shares": {
+            "GRN": 7.85,
+            "LIB": 33.98,
             "IND": 2.73,
             "ALP": 53.09,
-            "LIB": 33.98,
-            "GRN": 7.85,
             "OTH": 2.35
           }
         },
@@ -3969,17 +3983,17 @@
           "shares": {
             "LIB": 35.8,
             "LDP": 2.32,
-            "GRN": 15.39,
             "ALP": 44.08,
+            "GRN": 15.39,
             "OTH": 2.42
           }
         },
         {
           "year": "2013",
           "shares": {
-            "TOP": 3.36,
             "LIB": 42.22,
             "GRN": 10.18,
+            "TOP": 3.36,
             "ALP": 40.36,
             "OTH": 3.87
           }
@@ -3988,40 +4002,40 @@
           "year": "2016",
           "shares": {
             "ALP": 33.18,
-            "LIB": 41.0,
             "GRN": 17.08,
             "LDP": 2.04,
+            "LIB": 41.0,
             "OTH": 6.69
           }
         },
         {
           "year": "2019",
           "shares": {
-            "ALP": 30.95,
             "LIB": 40.97,
-            "GRN": 23.65,
             "ON": 2.12,
+            "GRN": 23.65,
+            "ALP": 30.95,
             "OTH": 2.3
           }
         },
         {
           "year": "2022",
           "shares": {
-            "TOP": 2.43,
             "ON": 3.3,
+            "TOP": 2.43,
             "LIB": 30.74,
-            "ALP": 28.94,
-            "GRN": 34.59
+            "GRN": 34.59,
+            "ALP": 28.94
           }
         },
         {
           "year": "2025",
           "shares": {
-            "LIB": 26.58,
-            "ON": 2.46,
+            "GRN": 31.65,
             "ALP": 34.51,
             "GRPF": 2.31,
-            "GRN": 31.65,
+            "ON": 2.46,
+            "LIB": 26.58,
             "OTH": 2.49
           }
         }

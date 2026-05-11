@@ -60,7 +60,7 @@ def main(verbose: bool) -> None:
     )
 
 
-DEFAULT_HISTORY_YEARS = (2007, 2010, 2013, 2016, 2019, 2022, 2025)
+DEFAULT_HISTORY_YEARS = (2004, 2007, 2010, 2013, 2016, 2019, 2022, 2025)
 
 
 @main.command()

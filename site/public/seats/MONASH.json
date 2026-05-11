@@ -1824,100 +1824,6 @@
       ]
     },
     {
-      "boothId": 4436,
-      "name": "Warragul North",
-      "formal": 776,
-      "winnerParty": "alp",
-      "winnerSurname": "FLETCHER",
-      "winnerPct": 50.9,
-      "swing": 1.76,
-      "lat": -38.14739405,
-      "lng": 145.93948217,
-      "candidates": [
-        {
-          "surname": "ALDRED",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 212,
-          "pct": 27.32
-        },
-        {
-          "surname": "FLETCHER",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 159,
-          "pct": 20.49
-        },
-        {
-          "surname": "LEONARD",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 146,
-          "pct": 18.81
-        },
-        {
-          "surname": "BROADBENT",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 70,
-          "pct": 9.02
-        },
-        {
-          "surname": "ROBINSON",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 55,
-          "pct": 7.09
-        },
-        {
-          "surname": "STEELE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 48,
-          "pct": 6.19
-        },
-        {
-          "surname": "O'REILLY",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 34,
-          "pct": 4.38
-        },
-        {
-          "surname": "DETHLEFS",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 30,
-          "pct": 3.87
-        },
-        {
-          "surname": "WEHBE",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 22,
-          "pct": 2.84
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "ALDRED",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 381,
-          "elected": true,
-          "pct": 49.1
-        },
-        {
-          "surname": "FLETCHER",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 395,
-          "elected": false,
-          "pct": 50.9
-        }
-      ]
-    },
-    {
       "boothId": 4417,
       "name": "Newborough East",
       "formal": 776,
@@ -2008,6 +1914,100 @@
           "votes": 437,
           "elected": false,
           "pct": 56.31
+        }
+      ]
+    },
+    {
+      "boothId": 4436,
+      "name": "Warragul North",
+      "formal": 776,
+      "winnerParty": "alp",
+      "winnerSurname": "FLETCHER",
+      "winnerPct": 50.9,
+      "swing": 1.76,
+      "lat": -38.14739405,
+      "lng": 145.93948217,
+      "candidates": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 212,
+          "pct": 27.32
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 159,
+          "pct": 20.49
+        },
+        {
+          "surname": "LEONARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 146,
+          "pct": 18.81
+        },
+        {
+          "surname": "BROADBENT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 70,
+          "pct": 9.02
+        },
+        {
+          "surname": "ROBINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 7.09
+        },
+        {
+          "surname": "STEELE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 48,
+          "pct": 6.19
+        },
+        {
+          "surname": "O'REILLY",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 34,
+          "pct": 4.38
+        },
+        {
+          "surname": "DETHLEFS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 30,
+          "pct": 3.87
+        },
+        {
+          "surname": "WEHBE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 22,
+          "pct": 2.84
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALDRED",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 381,
+          "elected": true,
+          "pct": 49.1
+        },
+        {
+          "surname": "FLETCHER",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 395,
+          "elected": false,
+          "pct": 50.9
         }
       ]
     },
@@ -7494,6 +7494,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -7512,6 +7513,7 @@
             null,
             null,
             null,
+            null,
             57.36,
             52.9,
             54.09
@@ -7522,6 +7524,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            null,
             null,
             null,
             null,
@@ -7538,36 +7541,36 @@
         {
           "year": "2019",
           "shares": {
+            "LIB": 46.28,
+            "ON": 7.62,
+            "GRN": 7.01,
             "IND": 5.57,
             "TOP": 4.01,
-            "GRN": 7.01,
-            "ON": 7.62,
-            "ALP": 29.51,
-            "LIB": 46.28
+            "ALP": 29.51
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ON": 7.54,
-            "LDP": 3.67,
+            "GRN": 9.86,
             "LIB": 37.79,
             "IND": 10.72,
-            "TOP": 4.13,
-            "GRN": 9.86,
             "ALP": 25.6,
+            "TOP": 4.13,
+            "LDP": 3.67,
+            "ON": 7.54,
             "OTH": 0.7
           }
         },
         {
           "year": "2025",
           "shares": {
+            "GRN": 4.94,
             "HMP": 3.43,
+            "CYA": 2.54,
+            "ALP": 20.29,
             "IND": 27.29,
             "LIB": 31.78,
-            "ALP": 20.29,
-            "GRN": 4.94,
-            "CYA": 2.54,
             "ON": 7.97,
             "OTH": 1.76
           }

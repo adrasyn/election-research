@@ -2604,72 +2604,6 @@
       ]
     },
     {
-      "boothId": 65182,
-      "name": "Wynyard KINGSFORD SMITH PPVC",
-      "formal": 663,
-      "winnerParty": "alp",
-      "winnerSurname": "THISTLETHWAITE",
-      "winnerPct": 65.16,
-      "swing": -0.61,
-      "lat": -33.86727784,
-      "lng": 151.21199335,
-      "candidates": [
-        {
-          "surname": "THISTLETHWAITE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 319,
-          "pct": 48.11
-        },
-        {
-          "surname": "COLE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 193,
-          "pct": 29.11
-        },
-        {
-          "surname": "BROWN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 105,
-          "pct": 15.84
-        },
-        {
-          "surname": "JELIC",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 30,
-          "pct": 4.52
-        },
-        {
-          "surname": "PARKER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 16,
-          "pct": 2.41
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "THISTLETHWAITE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 432,
-          "elected": true,
-          "pct": 65.16
-        },
-        {
-          "surname": "COLE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 231,
-          "elected": false,
-          "pct": 34.84
-        }
-      ]
-    },
-    {
       "boothId": 83741,
       "name": "Matraville South",
       "formal": 663,
@@ -2732,6 +2666,72 @@
           "votes": 204,
           "elected": false,
           "pct": 30.77
+        }
+      ]
+    },
+    {
+      "boothId": 65182,
+      "name": "Wynyard KINGSFORD SMITH PPVC",
+      "formal": 663,
+      "winnerParty": "alp",
+      "winnerSurname": "THISTLETHWAITE",
+      "winnerPct": 65.16,
+      "swing": -0.61,
+      "lat": -33.86727784,
+      "lng": 151.21199335,
+      "candidates": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 319,
+          "pct": 48.11
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 193,
+          "pct": 29.11
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 105,
+          "pct": 15.84
+        },
+        {
+          "surname": "JELIC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 4.52
+        },
+        {
+          "surname": "PARKER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 2.41
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THISTLETHWAITE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 432,
+          "elected": true,
+          "pct": 65.16
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 231,
+          "elected": false,
+          "pct": 34.84
         }
       ]
     },
@@ -4184,6 +4184,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -4198,6 +4199,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            59.01,
             63.29,
             55.16,
             52.74,
@@ -4212,6 +4214,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            40.99,
             36.71,
             44.84,
             47.26,
@@ -4226,11 +4229,21 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "GRN": 7.37,
+            "LIB": 36.14,
+            "ALP": 49.6,
+            "IND": 3.4,
+            "OTH": 3.49
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "GRN": 10.37,
-            "LIB": 33.9,
             "ALP": 52.85,
+            "LIB": 33.9,
+            "GRN": 10.37,
             "OTH": 2.88
           }
         },
@@ -4238,17 +4251,17 @@
           "year": "2010",
           "shares": {
             "GRN": 12.05,
-            "ALP": 43.83,
-            "LIB": 41.25,
             "ON": 0.89,
+            "LIB": 41.25,
+            "ALP": 43.83,
             "OTH": 1.98
           }
         },
         {
           "year": "2013",
           "shares": {
-            "GRN": 9.79,
             "ALP": 42.02,
+            "GRN": 9.79,
             "LIB": 43.5,
             "OTH": 4.68
           }
@@ -4256,40 +4269,40 @@
         {
           "year": "2016",
           "shares": {
-            "LIB": 37.54,
-            "ALP": 47.37,
-            "FUT": 2.23,
             "CDP": 2.33,
-            "GRN": 10.53
+            "FUT": 2.23,
+            "GRN": 10.53,
+            "ALP": 47.37,
+            "LIB": 37.54
           }
         },
         {
           "year": "2019",
           "shares": {
+            "ALP": 45.17,
             "LIB": 36.43,
             "GRN": 12.1,
-            "ALP": 45.17,
             "OTH": 6.31
           }
         },
         {
           "year": "2022",
           "shares": {
-            "TOP": 3.48,
-            "LIB": 28.66,
-            "ALP": 47.91,
             "ON": 3.13,
+            "TOP": 3.48,
+            "ALP": 47.91,
+            "LIB": 28.66,
             "GRN": 16.83
           }
         },
         {
           "year": "2025",
           "shares": {
+            "GRN": 13.56,
             "IND": 3.59,
-            "LIB": 26.15,
-            "ON": 5.92,
             "ALP": 50.79,
-            "GRN": 13.56
+            "ON": 5.92,
+            "LIB": 26.15
           }
         }
       ]

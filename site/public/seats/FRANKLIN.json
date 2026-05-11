@@ -3171,79 +3171,6 @@
       ]
     },
     {
-      "boothId": 8513,
-      "name": "Glen Huon",
-      "formal": 308,
-      "winnerParty": "alp",
-      "winnerSurname": "COLLINS",
-      "winnerPct": 56.82,
-      "swing": 56.82,
-      "lat": -43.02768,
-      "lng": 146.9623,
-      "candidates": [
-        {
-          "surname": "COLLINS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 102,
-          "pct": 33.12
-        },
-        {
-          "surname": "GEORGE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 80,
-          "pct": 25.97
-        },
-        {
-          "surname": "GARVIN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 67,
-          "pct": 21.75
-        },
-        {
-          "surname": "FITZGERALD",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 26,
-          "pct": 8.44
-        },
-        {
-          "surname": "POPESCU",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 21,
-          "pct": 6.82
-        },
-        {
-          "surname": "BLOMELEY",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 12,
-          "pct": 3.9
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "COLLINS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 175,
-          "elected": true,
-          "pct": 56.82
-        },
-        {
-          "surname": "GEORGE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 133,
-          "elected": false,
-          "pct": 43.18
-        }
-      ]
-    },
-    {
       "boothId": 8515,
       "name": "Howden",
       "formal": 308,
@@ -3313,6 +3240,79 @@
           "votes": 146,
           "elected": false,
           "pct": 47.4
+        }
+      ]
+    },
+    {
+      "boothId": 8513,
+      "name": "Glen Huon",
+      "formal": 308,
+      "winnerParty": "alp",
+      "winnerSurname": "COLLINS",
+      "winnerPct": 56.82,
+      "swing": 56.82,
+      "lat": -43.02768,
+      "lng": 146.9623,
+      "candidates": [
+        {
+          "surname": "COLLINS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 102,
+          "pct": 33.12
+        },
+        {
+          "surname": "GEORGE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 80,
+          "pct": 25.97
+        },
+        {
+          "surname": "GARVIN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 67,
+          "pct": 21.75
+        },
+        {
+          "surname": "FITZGERALD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 26,
+          "pct": 8.44
+        },
+        {
+          "surname": "POPESCU",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 21,
+          "pct": 6.82
+        },
+        {
+          "surname": "BLOMELEY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 3.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "COLLINS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 175,
+          "elected": true,
+          "pct": 56.82
+        },
+        {
+          "surname": "GEORGE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 133,
+          "elected": false,
+          "pct": 43.18
         }
       ]
     },
@@ -4269,6 +4269,7 @@
   "history": {
     "trend": {
       "years": [
+        "2004",
         "2007",
         "2010",
         "2013",
@@ -4283,6 +4284,7 @@
           "party": "alp",
           "label": "ALP",
           "points": [
+            57.59,
             54.48,
             60.82,
             55.09,
@@ -4297,6 +4299,7 @@
           "party": "lib",
           "label": "LIB",
           "points": [
+            42.41,
             45.52,
             39.18,
             44.91,
@@ -4317,6 +4320,7 @@
             null,
             null,
             null,
+            null,
             42.22
           ]
         }
@@ -4325,12 +4329,22 @@
     "primary": {
       "rows": [
         {
+          "year": "2004",
+          "shares": {
+            "LIB": 38.67,
+            "GRN": 11.18,
+            "ALP": 46.42,
+            "FFP": 3.2,
+            "OTH": 0.53
+          }
+        },
+        {
           "year": "2007",
           "shares": {
-            "GRN": 14.44,
             "ALP": 41.39,
-            "LIB": 41.02,
             "FFP": 2.22,
+            "GRN": 14.44,
+            "LIB": 41.02,
             "OTH": 0.93
           }
         },
@@ -4339,61 +4353,61 @@
           "shares": {
             "GRN": 20.87,
             "ALP": 42.85,
-            "LIB": 33.48,
-            "IND": 2.81
+            "IND": 2.81,
+            "LIB": 33.48
           }
         },
         {
           "year": "2013",
           "shares": {
-            "GRN": 12.18,
             "ALP": 39.93,
             "TOP": 6.1,
             "LIB": 38.71,
+            "GRN": 12.18,
             "OTH": 3.08
           }
         },
         {
           "year": "2016",
           "shares": {
-            "ARTS": 2.4,
             "GRN": 13.35,
-            "ALP": 47.01,
             "LIB": 35.26,
+            "ALP": 47.01,
+            "ARTS": 2.4,
             "OTH": 1.98
           }
         },
         {
           "year": "2019",
           "shares": {
-            "GRN": 16.25,
-            "TOP": 6.7,
             "LIB": 31.27,
             "ALP": 43.99,
+            "GRN": 16.25,
+            "TOP": 6.7,
             "OTH": 1.79
           }
         },
         {
           "year": "2022",
           "shares": {
-            "TLOC": 4.96,
-            "GRN": 17.36,
-            "ALP": 36.69,
+            "LIB": 26.73,
             "JLN": 5.92,
             "LDP": 2.01,
             "ON": 2.85,
-            "LIB": 26.73,
+            "TLOC": 4.96,
+            "ALP": 36.69,
+            "GRN": 17.36,
             "OTH": 3.48
           }
         },
         {
           "year": "2025",
           "shares": {
-            "IND": 26.69,
+            "ON": 4.96,
             "GRN": 10.48,
-            "ALP": 39.03,
+            "IND": 26.69,
             "LIB": 18.84,
-            "ON": 4.96
+            "ALP": 39.03
           }
         }
       ]
