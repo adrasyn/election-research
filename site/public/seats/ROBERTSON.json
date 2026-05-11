@@ -7,8 +7,8 @@
     "name": "Robertson",
     "state": "NSW",
     "totalFormal": 101463,
-    "informalVotes": 4288,
-    "informalRate": 4.85,
+    "informalVotes": 4876,
+    "informalRate": 4.59,
     "enrolled": 114922,
     "votesCounted": 106339,
     "turnoutPct": 92.53,
@@ -32,8 +32,8 @@
       "givenName": "Gordon",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 38198,
-      "pct": 45.42
+      "votes": 45411,
+      "pct": 44.76
     },
     {
       "candidateId": "C41491",
@@ -41,8 +41,8 @@
       "givenName": "Lucy",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 25108,
-      "pct": 29.85
+      "votes": 30831,
+      "pct": 30.39
     },
     {
       "candidateId": "C41635",
@@ -50,8 +50,8 @@
       "givenName": "Cheryl",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 7586,
-      "pct": 9.02
+      "votes": 9119,
+      "pct": 8.99
     },
     {
       "candidateId": "C41903",
@@ -59,8 +59,8 @@
       "givenName": "Matt",
       "party": "on",
       "partyAb": "ON",
-      "votes": 5797,
-      "pct": 6.89
+      "votes": 7032,
+      "pct": 6.93
     },
     {
       "candidateId": "C41926",
@@ -68,8 +68,8 @@
       "givenName": "Tom",
       "party": "oth",
       "partyAb": "HMP",
-      "votes": 2844,
-      "pct": 3.38
+      "votes": 3497,
+      "pct": 3.45
     },
     {
       "candidateId": "C40729",
@@ -77,8 +77,8 @@
       "givenName": "Lisa",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 2788,
-      "pct": 3.31
+      "votes": 3376,
+      "pct": 3.33
     },
     {
       "candidateId": "C41690",
@@ -86,8 +86,8 @@
       "givenName": "David",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 1785,
-      "pct": 2.12
+      "votes": 2197,
+      "pct": 2.17
     }
   ],
   "tcp": [
@@ -1154,86 +1154,6 @@
       ]
     },
     {
-      "boothId": 2592,
-      "name": "Erina",
-      "formal": 1251,
-      "winnerParty": "alp",
-      "winnerSurname": "REID",
-      "winnerPct": 59.15,
-      "swing": 9.78,
-      "lat": -33.43973359,
-      "lng": 151.38124742,
-      "candidates": [
-        {
-          "surname": "REID",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 553,
-          "pct": 44.2
-        },
-        {
-          "surname": "WICKS",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 378,
-          "pct": 30.22
-        },
-        {
-          "surname": "WALLACE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 118,
-          "pct": 9.43
-        },
-        {
-          "surname": "LLOYD",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 87,
-          "pct": 6.95
-        },
-        {
-          "surname": "LILLICRAP",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 49,
-          "pct": 3.92
-        },
-        {
-          "surname": "BELLAMY",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 39,
-          "pct": 3.12
-        },
-        {
-          "surname": "BORG",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 27,
-          "pct": 2.16
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "REID",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 740,
-          "elected": true,
-          "pct": 59.15
-        },
-        {
-          "surname": "WICKS",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 511,
-          "elected": false,
-          "pct": 40.85
-        }
-      ]
-    },
-    {
       "boothId": 2629,
       "name": "Umina",
       "formal": 1251,
@@ -1310,6 +1230,86 @@
           "votes": 446,
           "elected": false,
           "pct": 35.65
+        }
+      ]
+    },
+    {
+      "boothId": 2592,
+      "name": "Erina",
+      "formal": 1251,
+      "winnerParty": "alp",
+      "winnerSurname": "REID",
+      "winnerPct": 59.15,
+      "swing": 9.78,
+      "lat": -33.43973359,
+      "lng": 151.38124742,
+      "candidates": [
+        {
+          "surname": "REID",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 553,
+          "pct": 44.2
+        },
+        {
+          "surname": "WICKS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 378,
+          "pct": 30.22
+        },
+        {
+          "surname": "WALLACE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 118,
+          "pct": 9.43
+        },
+        {
+          "surname": "LLOYD",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 87,
+          "pct": 6.95
+        },
+        {
+          "surname": "LILLICRAP",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 49,
+          "pct": 3.92
+        },
+        {
+          "surname": "BELLAMY",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 39,
+          "pct": 3.12
+        },
+        {
+          "surname": "BORG",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 27,
+          "pct": 2.16
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "REID",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 740,
+          "elected": true,
+          "pct": 59.15
+        },
+        {
+          "surname": "WICKS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 511,
+          "elected": false,
+          "pct": 40.85
         }
       ]
     },
@@ -4569,22 +4569,22 @@
         {
           "year": "2007",
           "shares": {
-            "LIB": 45.63,
-            "ON": 1.06,
             "CDP": 2.21,
             "ALP": 42.93,
+            "ON": 1.06,
             "GRN": 7.2,
+            "LIB": 45.63,
             "OTH": 0.97
           }
         },
         {
           "year": "2010",
           "shares": {
-            "ALP": 39.76,
             "ON": 0.67,
-            "GRN": 8.99,
             "IND": 3.68,
             "LIB": 43.53,
+            "ALP": 39.76,
+            "GRN": 8.99,
             "OTH": 3.37
           }
         },
@@ -4592,10 +4592,10 @@
           "year": "2013",
           "shares": {
             "TOP": 2.34,
-            "ALP": 34.83,
+            "LIB": 43.42,
             "IND": 11.49,
             "GRN": 5.57,
-            "LIB": 43.42,
+            "ALP": 34.83,
             "OTH": 2.35
           }
         },
@@ -4604,8 +4604,8 @@
           "shares": {
             "ALP": 38.43,
             "GRN": 8.35,
-            "LIB": 44.68,
             "CDP": 2.66,
+            "LIB": 44.68,
             "IND": 2.86,
             "OTH": 3.01
           }
@@ -4613,24 +4613,24 @@
         {
           "year": "2019",
           "shares": {
-            "GRN": 7.91,
-            "TOP": 2.81,
             "IND": 3.03,
             "ALP": 34.1,
-            "LIB": 46.86,
+            "GRN": 7.91,
             "AJP": 2.08,
+            "LIB": 46.86,
+            "TOP": 2.81,
             "OTH": 3.2
           }
         },
         {
           "year": "2022",
           "shares": {
-            "AJP": 2.03,
-            "TOP": 2.9,
-            "ALP": 37.66,
-            "GRN": 10.02,
-            "LIB": 39.96,
             "ON": 3.82,
+            "GRN": 10.02,
+            "TOP": 2.9,
+            "AJP": 2.03,
+            "LIB": 39.96,
+            "ALP": 37.66,
             "OTH": 3.6
           }
         },
@@ -4638,12 +4638,12 @@
           "year": "2025",
           "shares": {
             "CYA": 2.17,
-            "ALP": 44.76,
-            "LIB": 30.39,
+            "GRN": 8.99,
             "ON": 6.93,
             "IND": 3.33,
-            "HMP": 3.45,
-            "GRN": 8.99
+            "ALP": 44.76,
+            "LIB": 30.39,
+            "HMP": 3.45
           }
         }
       ]

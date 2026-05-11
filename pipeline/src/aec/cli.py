@@ -38,6 +38,8 @@ from .transform.results import (
     informal_for_division,
     load_candidates,
     load_first_prefs,
+    load_first_prefs_by_vote_type,
+    load_informal_by_division,
     load_polling_places,
     load_tcp,
     load_turnout,
@@ -139,6 +141,8 @@ def build(
     first_prefs = load_first_prefs(
         [files.first_prefs_by_polling_place(s) for s in STATES]
     )
+    fp_by_vote_type = load_first_prefs_by_vote_type(files.first_prefs_by_vote_type)
+    informal_by_div = load_informal_by_division(files.informal_by_division)
     coords = polling_place_coords(load_polling_places(files.polling_places))
 
     history_lookup: dict[str, dict] = {}
@@ -188,6 +192,8 @@ def build(
                 tcp=tcp,
                 turnout=turnout,
                 first_prefs=first_prefs,
+                fp_by_vote_type=fp_by_vote_type,
+                informal_by_div=informal_by_div,
                 coords=coords,
                 division_id=div_id,
                 year=year,
@@ -234,6 +240,8 @@ def _build_one(
     tcp: pl.DataFrame,
     turnout: pl.DataFrame,
     first_prefs: pl.DataFrame,
+    fp_by_vote_type: pl.DataFrame,
+    informal_by_div: pl.DataFrame,
     coords: dict[int, dict[str, float | None]] | None = None,
     division_id: int,
     year: int,
@@ -242,11 +250,11 @@ def _build_one(
     bios_lookup: dict[str, dict] | None = None,
 ) -> dict:
     meta = division_meta(candidates, division_id)
-    primary = primary_for_division(first_prefs, division_id)
+    primary = primary_for_division(fp_by_vote_type, division_id)
     tcp_rows = tcp_for_division(tcp, division_id)
     booths = booths_for_division(first_prefs, tcp, division_id, coords=coords)
     waterfall = waterfall_for_division(dop, division_id)
-    informal = informal_for_division(first_prefs, division_id)
+    informal = informal_for_division(informal_by_div, division_id)
     turnout_block = turnout_for_division(turnout, division_id)
     history = None
     if history_lookup:
@@ -301,7 +309,9 @@ def build_tiles(year: int, refresh: bool, out_path: Path, cache_dir: Path) -> No
     click.echo("▸ Election results (for winner-party fill)")
     files = fetch_event(year, cache_dir, refresh=refresh)
     candidates = load_candidates(files.candidates)
-    tcp = load_tcp(files.tcp_by_polling_place)
+    # Use the by-vote-type TCP so tile-level margins match AEC's published
+    # figures (booth-level TCP is ordinary-votes-only, off by ~1pp).
+    tcp = load_tcp(files.tcp_by_vote_type)
 
     geo_dir = cache_dir / "geo"
     raw_geojson = geo_dir / f"aec-{year}-raw.geojson"

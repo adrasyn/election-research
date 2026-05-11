@@ -7,8 +7,8 @@
     "name": "Herbert",
     "state": "QLD",
     "totalFormal": 98362,
-    "informalVotes": 4663,
-    "informalRate": 5.5,
+    "informalVotes": 5300,
+    "informalRate": 5.11,
     "enrolled": 121280,
     "votesCounted": 103662,
     "turnoutPct": 85.47,
@@ -32,8 +32,8 @@
       "givenName": "Phillip",
       "party": "lnp",
       "partyAb": "LNP",
-      "votes": 39086,
-      "pct": 48.8
+      "votes": 47941,
+      "pct": 48.74
     },
     {
       "candidateId": "C40745",
@@ -41,8 +41,8 @@
       "givenName": "Edwina",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 18751,
-      "pct": 23.41
+      "votes": 22646,
+      "pct": 23.02
     },
     {
       "candidateId": "C41245",
@@ -50,8 +50,8 @@
       "givenName": "Chris",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 7584,
-      "pct": 9.47
+      "votes": 9228,
+      "pct": 9.38
     },
     {
       "candidateId": "C42011",
@@ -59,8 +59,8 @@
       "givenName": "Darryn",
       "party": "kap",
       "partyAb": "KAP",
-      "votes": 5103,
-      "pct": 6.37
+      "votes": 6559,
+      "pct": 6.67
     },
     {
       "candidateId": "C40945",
@@ -68,8 +68,8 @@
       "givenName": "Ross",
       "party": "on",
       "partyAb": "ON",
-      "votes": 3921,
-      "pct": 4.9
+      "votes": 5100,
+      "pct": 5.18
     },
     {
       "candidateId": "C40973",
@@ -77,8 +77,8 @@
       "givenName": "Felicity",
       "party": "oth",
       "partyAb": "GRPF",
-      "votes": 2757,
-      "pct": 3.44
+      "votes": 3255,
+      "pct": 3.31
     },
     {
       "candidateId": "C41354",
@@ -86,8 +86,8 @@
       "givenName": "Martin",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 1742,
-      "pct": 2.18
+      "votes": 2173,
+      "pct": 2.21
     },
     {
       "candidateId": "C40900",
@@ -95,8 +95,8 @@
       "givenName": "Felicity",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 1144,
-      "pct": 1.43
+      "votes": 1460,
+      "pct": 1.48
     }
   ],
   "tcp": [
@@ -1167,93 +1167,6 @@
       ]
     },
     {
-      "boothId": 5678,
-      "name": "Mundingburra",
-      "formal": 1242,
-      "winnerParty": "lnp",
-      "winnerSurname": "THOMPSON",
-      "winnerPct": 52.01,
-      "swing": -2.45,
-      "lat": -19.2938209602597,
-      "lng": 146.789049953709,
-      "candidates": [
-        {
-          "surname": "THOMPSON",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 493,
-          "pct": 39.69
-        },
-        {
-          "surname": "ANDREW",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 349,
-          "pct": 28.1
-        },
-        {
-          "surname": "EVANS",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 201,
-          "pct": 16.18
-        },
-        {
-          "surname": "CASSON",
-          "partyAb": "KAP",
-          "party": "kap",
-          "votes": 60,
-          "pct": 4.83
-        },
-        {
-          "surname": "MacDONALD",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 55,
-          "pct": 4.43
-        },
-        {
-          "surname": "COLE",
-          "partyAb": "GRPF",
-          "party": "oth",
-          "votes": 40,
-          "pct": 3.22
-        },
-        {
-          "surname": "BREWSTER",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 25,
-          "pct": 2.01
-        },
-        {
-          "surname": "ROSER",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 19,
-          "pct": 1.53
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "THOMPSON",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 646,
-          "elected": true,
-          "pct": 52.01
-        },
-        {
-          "surname": "ANDREW",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 596,
-          "elected": false,
-          "pct": 47.99
-        }
-      ]
-    },
-    {
       "boothId": 83396,
       "name": "Burdell",
       "formal": 1242,
@@ -1337,6 +1250,93 @@
           "votes": 434,
           "elected": false,
           "pct": 34.94
+        }
+      ]
+    },
+    {
+      "boothId": 5678,
+      "name": "Mundingburra",
+      "formal": 1242,
+      "winnerParty": "lnp",
+      "winnerSurname": "THOMPSON",
+      "winnerPct": 52.01,
+      "swing": -2.45,
+      "lat": -19.2938209602597,
+      "lng": 146.789049953709,
+      "candidates": [
+        {
+          "surname": "THOMPSON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 493,
+          "pct": 39.69
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 349,
+          "pct": 28.1
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 201,
+          "pct": 16.18
+        },
+        {
+          "surname": "CASSON",
+          "partyAb": "KAP",
+          "party": "kap",
+          "votes": 60,
+          "pct": 4.83
+        },
+        {
+          "surname": "MacDONALD",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 55,
+          "pct": 4.43
+        },
+        {
+          "surname": "COLE",
+          "partyAb": "GRPF",
+          "party": "oth",
+          "votes": 40,
+          "pct": 3.22
+        },
+        {
+          "surname": "BREWSTER",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 25,
+          "pct": 2.01
+        },
+        {
+          "surname": "ROSER",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 19,
+          "pct": 1.53
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "THOMPSON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 646,
+          "elected": true,
+          "pct": 52.01
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 596,
+          "elected": false,
+          "pct": 47.99
         }
       ]
     },
@@ -4203,9 +4203,9 @@
         {
           "year": "2007",
           "shares": {
+            "ON": 0.91,
             "ALP": 43.79,
             "LIB": 45.7,
-            "ON": 0.91,
             "GRN": 5.13,
             "OTH": 4.46
           }
@@ -4214,29 +4214,29 @@
           "year": "2010",
           "shares": {
             "GRN": 8.85,
-            "FFP": 5.33,
+            "ALP": 40.15,
             "LIB": 45.67,
-            "ALP": 40.15
+            "FFP": 5.33
           }
         },
         {
           "year": "2013",
           "shares": {
-            "ON": 0.83,
+            "LIB": 43.34,
             "TOP": 8.88,
             "GRN": 5.24,
             "ALP": 29.38,
             "KAP": 8.08,
-            "LIB": 43.34,
+            "ON": 0.83,
             "OTH": 4.24
           }
         },
         {
           "year": "2016",
           "shares": {
-            "KAP": 6.87,
             "GRN": 6.26,
             "GLT": 2.19,
+            "KAP": 6.87,
             "LIB": 35.5,
             "ON": 13.53,
             "ALP": 30.45,
@@ -4247,38 +4247,38 @@
         {
           "year": "2019",
           "shares": {
-            "LIB": 37.11,
-            "KAP": 9.8,
-            "GRN": 7.31,
-            "ON": 11.09,
             "TOP": 5.7,
+            "ON": 11.09,
+            "KAP": 9.8,
             "ALP": 25.45,
+            "LIB": 37.11,
+            "GRN": 7.31,
             "OTH": 3.54
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ON": 5.27,
             "IND": 4.25,
-            "TOP": 2.58,
-            "LIB": 47.01,
             "GRN": 8.22,
             "ALP": 21.6,
+            "LIB": 47.01,
             "KAP": 7.0,
+            "ON": 5.27,
+            "TOP": 2.58,
             "OTH": 4.07
           }
         },
         {
           "year": "2025",
           "shares": {
-            "GRN": 9.38,
-            "CYA": 2.21,
-            "GRPF": 3.31,
-            "ON": 5.18,
-            "ALP": 23.02,
             "LIB": 48.74,
             "KAP": 6.67,
+            "ON": 5.18,
+            "CYA": 2.21,
+            "GRPF": 3.31,
+            "ALP": 23.02,
+            "GRN": 9.38,
             "OTH": 1.48
           }
         }

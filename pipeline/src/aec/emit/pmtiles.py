@@ -236,17 +236,18 @@ def geojsons_to_pmtiles(layers: dict[str, Path], pmtiles_out: Path) -> Path:
 def _build_winner_lookup(candidates: pl.DataFrame, tcp: pl.DataFrame) -> dict[str, dict[str, Any]]:
     """Per-division: who won, by how much, and what colour to render.
 
-    AEC's TCP-by-booth CSV is *ordinary votes only*; it can disagree with
-    the formal winner once postals/absents are added (see Bean 2025,
-    decided by 86 ordinary votes but flipped on declaration votes). We
-    sort with Elected='Y' first, then by ordinary votes — matches AEC's
-    declared winner while still giving a defensible runner-up.
+    Uses `TotalVotes` (all vote types) from
+    `HouseTcpByCandidateByVoteTypeDownload` so the tile-level margin
+    matches AEC's published TCP figure — agreeing with the panel
+    margin (which is DOP-canonical). Falls back to OrdinaryVotes if a
+    booth-level TCP frame is passed in.
     """
+    votes_col = "TotalVotes" if "TotalVotes" in tcp.columns else "OrdinaryVotes"
     grouped = (
         tcp.group_by(
             "DivisionID", "DivisionNm", "StateAb", "CandidateID", "Surname", "PartyAb", "Elected"
         )
-        .agg(pl.col("OrdinaryVotes").sum().alias("votes"))
+        .agg(pl.col(votes_col).sum().alias("votes"))
         .with_columns((pl.col("Elected") == "Y").cast(pl.Int8).alias("_elected_rank"))
     )
     out: dict[str, dict[str, Any]] = {}

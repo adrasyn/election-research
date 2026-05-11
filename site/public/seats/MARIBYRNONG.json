@@ -7,8 +7,8 @@
     "name": "Maribyrnong",
     "state": "VIC",
     "totalFormal": 111197,
-    "informalVotes": 2483,
-    "informalRate": 2.93,
+    "informalVotes": 3098,
+    "informalRate": 2.71,
     "enrolled": 123249,
     "votesCounted": 114295,
     "turnoutPct": 92.74,
@@ -32,8 +32,8 @@
       "givenName": "Jo",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 34190,
-      "pct": 41.52
+      "votes": 46064,
+      "pct": 41.43
     },
     {
       "candidateId": "C40781",
@@ -41,8 +41,8 @@
       "givenName": "Tim",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 24942,
-      "pct": 30.29
+      "votes": 33874,
+      "pct": 30.46
     },
     {
       "candidateId": "C41117",
@@ -50,8 +50,8 @@
       "givenName": "James",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 17864,
-      "pct": 21.69
+      "votes": 23594,
+      "pct": 21.22
     },
     {
       "candidateId": "C41606",
@@ -59,8 +59,8 @@
       "givenName": "Alannah",
       "party": "on",
       "partyAb": "ON",
-      "votes": 5349,
-      "pct": 6.5
+      "votes": 7665,
+      "pct": 6.89
     }
   ],
   "tcp": [
@@ -1031,65 +1031,6 @@
       ]
     },
     {
-      "boothId": 4591,
-      "name": "Glenroy West",
-      "formal": 1342,
-      "winnerParty": "alp",
-      "winnerSurname": "BRISKEY",
-      "winnerPct": 73.7,
-      "swing": 7.12,
-      "lat": -37.70607158628782,
-      "lng": 144.90875711246073,
-      "candidates": [
-        {
-          "surname": "BRISKEY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 633,
-          "pct": 47.17
-        },
-        {
-          "surname": "WILLIAMS",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 359,
-          "pct": 26.75
-        },
-        {
-          "surname": "BEDDOE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 250,
-          "pct": 18.63
-        },
-        {
-          "surname": "CASEY",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 100,
-          "pct": 7.45
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "BRISKEY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 989,
-          "elected": true,
-          "pct": 73.7
-        },
-        {
-          "surname": "BEDDOE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 353,
-          "elected": false,
-          "pct": 26.3
-        }
-      ]
-    },
-    {
       "boothId": 4601,
       "name": "Niddrie Central",
       "formal": 1342,
@@ -1145,6 +1086,65 @@
           "votes": 626,
           "elected": false,
           "pct": 46.65
+        }
+      ]
+    },
+    {
+      "boothId": 4591,
+      "name": "Glenroy West",
+      "formal": 1342,
+      "winnerParty": "alp",
+      "winnerSurname": "BRISKEY",
+      "winnerPct": 73.7,
+      "swing": 7.12,
+      "lat": -37.70607158628782,
+      "lng": 144.90875711246073,
+      "candidates": [
+        {
+          "surname": "BRISKEY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 633,
+          "pct": 47.17
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 359,
+          "pct": 26.75
+        },
+        {
+          "surname": "BEDDOE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 250,
+          "pct": 18.63
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 100,
+          "pct": 7.45
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BRISKEY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 989,
+          "elected": true,
+          "pct": 73.7
+        },
+        {
+          "surname": "BEDDOE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 353,
+          "elected": false,
+          "pct": 26.3
         }
       ]
     },
@@ -3012,63 +3012,63 @@
         {
           "year": "2007",
           "shares": {
-            "LIB": 30.02,
             "ALP": 57.57,
-            "FFP": 2.58,
             "GRN": 6.82,
+            "LIB": 30.02,
+            "FFP": 2.58,
             "OTH": 3.01
           }
         },
         {
           "year": "2010",
           "shares": {
-            "GRN": 11.85,
             "FFP": 2.6,
-            "LIB": 29.07,
             "ALP": 55.38,
+            "LIB": 29.07,
+            "GRN": 11.85,
             "OTH": 1.1
           }
         },
         {
           "year": "2013",
           "shares": {
-            "ASXP": 2.57,
-            "LIB": 33.03,
-            "TOP": 2.74,
             "GRN": 9.9,
             "ALP": 47.9,
+            "TOP": 2.74,
+            "ASXP": 2.57,
+            "LIB": 33.03,
             "OTH": 3.88
           }
         },
         {
           "year": "2016",
           "shares": {
+            "ALP": 50.52,
+            "GRN": 9.75,
             "IND": 3.38,
             "LIB": 32.27,
             "AJP": 2.32,
-            "GRN": 9.75,
-            "ALP": 50.52,
             "OTH": 1.76
           }
         },
         {
           "year": "2019",
           "shares": {
+            "TOP": 3.58,
             "ALP": 47.05,
-            "LIB": 34.56,
             "GRN": 14.81,
-            "TOP": 3.58
+            "LIB": 34.56
           }
         },
         {
           "year": "2022",
           "shares": {
             "GRN": 16.26,
-            "ON": 2.37,
-            "ALP": 42.35,
-            "TOP": 3.65,
-            "LIB": 27.13,
             "LDP": 3.81,
+            "ON": 2.37,
+            "LIB": 27.13,
+            "TOP": 3.65,
+            "ALP": 42.35,
             "OTH": 4.43
           }
         },
@@ -3076,9 +3076,9 @@
           "year": "2025",
           "shares": {
             "LIB": 30.46,
+            "ALP": 41.43,
             "GRN": 21.22,
-            "ON": 6.89,
-            "ALP": 41.43
+            "ON": 6.89
           }
         }
       ]

@@ -7,8 +7,8 @@
     "name": "Mallee",
     "state": "VIC",
     "totalFormal": 103707,
-    "informalVotes": 6812,
-    "informalRate": 7.19,
+    "informalVotes": 7540,
+    "informalRate": 6.78,
     "enrolled": 121604,
     "votesCounted": 111247,
     "turnoutPct": 91.48,
@@ -32,8 +32,8 @@
       "givenName": "Anne",
       "party": "nat",
       "partyAb": "NAT",
-      "votes": 44228,
-      "pct": 50.29
+      "votes": 51553,
+      "pct": 49.71
     },
     {
       "candidateId": "C40824",
@@ -41,8 +41,8 @@
       "givenName": "Greg",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 16544,
-      "pct": 18.81
+      "votes": 19839,
+      "pct": 19.13
     },
     {
       "candidateId": "C41613",
@@ -50,8 +50,8 @@
       "givenName": "Vaughan",
       "party": "on",
       "partyAb": "ON",
-      "votes": 9586,
-      "pct": 10.9
+      "votes": 11414,
+      "pct": 11.01
     },
     {
       "candidateId": "C41116",
@@ -59,8 +59,8 @@
       "givenName": "Nicole",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 7940,
-      "pct": 9.03
+      "votes": 9477,
+      "pct": 9.14
     },
     {
       "candidateId": "C41583",
@@ -68,8 +68,8 @@
       "givenName": "Ashleigh",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 3379,
-      "pct": 3.84
+      "votes": 3960,
+      "pct": 3.82
     },
     {
       "candidateId": "C41418",
@@ -77,7 +77,7 @@
       "givenName": "Adam Troy",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 3229,
+      "votes": 3810,
       "pct": 3.67
     },
     {
@@ -86,8 +86,8 @@
       "givenName": "Jeff",
       "party": "oth",
       "partyAb": "LTP",
-      "votes": 2218,
-      "pct": 2.52
+      "votes": 2671,
+      "pct": 2.58
     },
     {
       "candidateId": "C40699",
@@ -95,8 +95,8 @@
       "givenName": "Chris",
       "party": "oth",
       "partyAb": "CEC",
-      "votes": 827,
-      "pct": 0.94
+      "votes": 983,
+      "pct": 0.95
     }
   ],
   "tcp": [
@@ -3951,93 +3951,6 @@
       ]
     },
     {
-      "boothId": 4481,
-      "name": "Haven",
-      "formal": 446,
-      "winnerParty": "nat",
-      "winnerSurname": "WEBSTER",
-      "winnerPct": 72.65,
-      "swing": -0.68,
-      "lat": -36.758164,
-      "lng": 142.194158,
-      "candidates": [
-        {
-          "surname": "WEBSTER",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 208,
-          "pct": 46.64
-        },
-        {
-          "surname": "OLSEN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 67,
-          "pct": 15.02
-        },
-        {
-          "surname": "WILLIAMS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 67,
-          "pct": 15.02
-        },
-        {
-          "surname": "ROWAN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 37,
-          "pct": 8.3
-        },
-        {
-          "surname": "GRAY",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 28,
-          "pct": 6.28
-        },
-        {
-          "surname": "VEITCH",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 23,
-          "pct": 5.16
-        },
-        {
-          "surname": "BARRY",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 12,
-          "pct": 2.69
-        },
-        {
-          "surname": "LAHY",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 4,
-          "pct": 0.9
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "WEBSTER",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 324,
-          "elected": true,
-          "pct": 72.65
-        },
-        {
-          "surname": "OLSEN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 122,
-          "elected": false,
-          "pct": 27.35
-        }
-      ]
-    },
-    {
       "boothId": 4460,
       "name": "Cabarita",
       "formal": 446,
@@ -4121,6 +4034,93 @@
           "votes": 102,
           "elected": false,
           "pct": 22.87
+        }
+      ]
+    },
+    {
+      "boothId": 4481,
+      "name": "Haven",
+      "formal": 446,
+      "winnerParty": "nat",
+      "winnerSurname": "WEBSTER",
+      "winnerPct": 72.65,
+      "swing": -0.68,
+      "lat": -36.758164,
+      "lng": 142.194158,
+      "candidates": [
+        {
+          "surname": "WEBSTER",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 208,
+          "pct": 46.64
+        },
+        {
+          "surname": "OLSEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 67,
+          "pct": 15.02
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 67,
+          "pct": 15.02
+        },
+        {
+          "surname": "ROWAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 37,
+          "pct": 8.3
+        },
+        {
+          "surname": "GRAY",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 28,
+          "pct": 6.28
+        },
+        {
+          "surname": "VEITCH",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 5.16
+        },
+        {
+          "surname": "BARRY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 12,
+          "pct": 2.69
+        },
+        {
+          "surname": "LAHY",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 4,
+          "pct": 0.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WEBSTER",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 324,
+          "elected": true,
+          "pct": 72.65
+        },
+        {
+          "surname": "OLSEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 122,
+          "elected": false,
+          "pct": 27.35
         }
       ]
     },
@@ -4821,93 +4821,6 @@
       ]
     },
     {
-      "boothId": 4498,
-      "name": "Lake Boga",
-      "formal": 358,
-      "winnerParty": "nat",
-      "winnerSurname": "WEBSTER",
-      "winnerPct": 76.54,
-      "swing": -4.48,
-      "lat": -35.4643944851092,
-      "lng": 143.630313936246,
-      "candidates": [
-        {
-          "surname": "WEBSTER",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 210,
-          "pct": 58.66
-        },
-        {
-          "surname": "WILLIAMS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 44,
-          "pct": 12.29
-        },
-        {
-          "surname": "OLSEN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 43,
-          "pct": 12.01
-        },
-        {
-          "surname": "ROWAN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 16,
-          "pct": 4.47
-        },
-        {
-          "surname": "BARRY",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 13,
-          "pct": 3.63
-        },
-        {
-          "surname": "GRAY",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 12,
-          "pct": 3.35
-        },
-        {
-          "surname": "LAHY",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 11,
-          "pct": 3.07
-        },
-        {
-          "surname": "VEITCH",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 9,
-          "pct": 2.51
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "WEBSTER",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 274,
-          "elected": true,
-          "pct": 76.54
-        },
-        {
-          "surname": "OLSEN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 84,
-          "elected": false,
-          "pct": 23.46
-        }
-      ]
-    },
-    {
       "boothId": 4798,
       "name": "Pyramid Hill",
       "formal": 358,
@@ -4991,6 +4904,93 @@
           "votes": 97,
           "elected": false,
           "pct": 27.09
+        }
+      ]
+    },
+    {
+      "boothId": 4498,
+      "name": "Lake Boga",
+      "formal": 358,
+      "winnerParty": "nat",
+      "winnerSurname": "WEBSTER",
+      "winnerPct": 76.54,
+      "swing": -4.48,
+      "lat": -35.4643944851092,
+      "lng": 143.630313936246,
+      "candidates": [
+        {
+          "surname": "WEBSTER",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 210,
+          "pct": 58.66
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 12.29
+        },
+        {
+          "surname": "OLSEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 43,
+          "pct": 12.01
+        },
+        {
+          "surname": "ROWAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 16,
+          "pct": 4.47
+        },
+        {
+          "surname": "BARRY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 13,
+          "pct": 3.63
+        },
+        {
+          "surname": "GRAY",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 3.35
+        },
+        {
+          "surname": "LAHY",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 11,
+          "pct": 3.07
+        },
+        {
+          "surname": "VEITCH",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 2.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WEBSTER",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 274,
+          "elected": true,
+          "pct": 76.54
+        },
+        {
+          "surname": "OLSEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 84,
+          "elected": false,
+          "pct": 23.46
         }
       ]
     },
@@ -6213,93 +6213,6 @@
       ]
     },
     {
-      "boothId": 109058,
-      "name": "Special Hospital Team 5",
-      "formal": 227,
-      "winnerParty": "nat",
-      "winnerSurname": "WEBSTER",
-      "winnerPct": 63.0,
-      "swing": -5.99,
-      "lat": null,
-      "lng": null,
-      "candidates": [
-        {
-          "surname": "WEBSTER",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 129,
-          "pct": 56.83
-        },
-        {
-          "surname": "OLSEN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 80,
-          "pct": 35.24
-        },
-        {
-          "surname": "ROWAN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 6,
-          "pct": 2.64
-        },
-        {
-          "surname": "GRAY",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 6,
-          "pct": 2.64
-        },
-        {
-          "surname": "LAHY",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 2,
-          "pct": 0.88
-        },
-        {
-          "surname": "VEITCH",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 2,
-          "pct": 0.88
-        },
-        {
-          "surname": "WILLIAMS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 2,
-          "pct": 0.88
-        },
-        {
-          "surname": "BARRY",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "WEBSTER",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 143,
-          "elected": true,
-          "pct": 63.0
-        },
-        {
-          "surname": "OLSEN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 84,
-          "elected": false,
-          "pct": 37.0
-        }
-      ]
-    },
-    {
       "boothId": 4478,
       "name": "Goroke",
       "formal": 227,
@@ -6383,6 +6296,93 @@
           "votes": 38,
           "elected": false,
           "pct": 16.74
+        }
+      ]
+    },
+    {
+      "boothId": 109058,
+      "name": "Special Hospital Team 5",
+      "formal": 227,
+      "winnerParty": "nat",
+      "winnerSurname": "WEBSTER",
+      "winnerPct": 63.0,
+      "swing": -5.99,
+      "lat": null,
+      "lng": null,
+      "candidates": [
+        {
+          "surname": "WEBSTER",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 129,
+          "pct": 56.83
+        },
+        {
+          "surname": "OLSEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "pct": 35.24
+        },
+        {
+          "surname": "ROWAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 6,
+          "pct": 2.64
+        },
+        {
+          "surname": "GRAY",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 2.64
+        },
+        {
+          "surname": "LAHY",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.88
+        },
+        {
+          "surname": "VEITCH",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 2,
+          "pct": 0.88
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 2,
+          "pct": 0.88
+        },
+        {
+          "surname": "BARRY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WEBSTER",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 143,
+          "elected": true,
+          "pct": 63.0
+        },
+        {
+          "surname": "OLSEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 84,
+          "elected": false,
+          "pct": 37.0
         }
       ]
     },
@@ -7170,93 +7170,6 @@
       ]
     },
     {
-      "boothId": 4504,
-      "name": "Manangatang",
-      "formal": 177,
-      "winnerParty": "nat",
-      "winnerSurname": "WEBSTER",
-      "winnerPct": 82.49,
-      "swing": 1.2,
-      "lat": -35.0512630166614,
-      "lng": 142.882682552697,
-      "candidates": [
-        {
-          "surname": "WEBSTER",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 108,
-          "pct": 61.02
-        },
-        {
-          "surname": "WILLIAMS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 23,
-          "pct": 12.99
-        },
-        {
-          "surname": "OLSEN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 18,
-          "pct": 10.17
-        },
-        {
-          "surname": "ROWAN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 13,
-          "pct": 7.34
-        },
-        {
-          "surname": "VEITCH",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 9,
-          "pct": 5.08
-        },
-        {
-          "surname": "LAHY",
-          "partyAb": "CEC",
-          "party": "oth",
-          "votes": 3,
-          "pct": 1.69
-        },
-        {
-          "surname": "GRAY",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 2,
-          "pct": 1.13
-        },
-        {
-          "surname": "BARRY",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 1,
-          "pct": 0.56
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "WEBSTER",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 146,
-          "elected": true,
-          "pct": 82.49
-        },
-        {
-          "surname": "OLSEN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 31,
-          "elected": false,
-          "pct": 17.51
-        }
-      ]
-    },
-    {
       "boothId": 4802,
       "name": "Serpentine",
       "formal": 177,
@@ -7322,6 +7235,93 @@
           "party": "oth",
           "votes": 2,
           "pct": 1.13
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WEBSTER",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 146,
+          "elected": true,
+          "pct": 82.49
+        },
+        {
+          "surname": "OLSEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 31,
+          "elected": false,
+          "pct": 17.51
+        }
+      ]
+    },
+    {
+      "boothId": 4504,
+      "name": "Manangatang",
+      "formal": 177,
+      "winnerParty": "nat",
+      "winnerSurname": "WEBSTER",
+      "winnerPct": 82.49,
+      "swing": 1.2,
+      "lat": -35.0512630166614,
+      "lng": 142.882682552697,
+      "candidates": [
+        {
+          "surname": "WEBSTER",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 108,
+          "pct": 61.02
+        },
+        {
+          "surname": "WILLIAMS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 12.99
+        },
+        {
+          "surname": "OLSEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 18,
+          "pct": 10.17
+        },
+        {
+          "surname": "ROWAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 13,
+          "pct": 7.34
+        },
+        {
+          "surname": "VEITCH",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 5.08
+        },
+        {
+          "surname": "LAHY",
+          "partyAb": "CEC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.69
+        },
+        {
+          "surname": "GRAY",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 2,
+          "pct": 1.13
+        },
+        {
+          "surname": "BARRY",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.56
         }
       ],
       "tcp": [
@@ -9339,52 +9339,52 @@
             "NAT": 63.94,
             "ALP": 21.85,
             "FFP": 6.53,
-            "DEM": 2.79,
             "GRN": 4.17,
+            "DEM": 2.79,
             "OTH": 0.72
           }
         },
         {
           "year": "2010",
           "shares": {
-            "ALP": 19.89,
             "GRN": 7.86,
-            "FFP": 5.47,
-            "NAT": 66.79
+            "ALP": 19.89,
+            "NAT": 66.79,
+            "FFP": 5.47
           }
         },
         {
           "year": "2013",
           "shares": {
             "NAT": 38.76,
-            "LIB": 27.22,
+            "KAP": 3.72,
             "ALP": 17.5,
+            "LIB": 27.22,
             "TOP": 3.36,
             "ASXP": 2.47,
             "GRN": 3.07,
-            "KAP": 3.72,
             "OTH": 3.9
           }
         },
         {
           "year": "2016",
           "shares": {
-            "NAT": 64.31,
             "GRN": 7.11,
-            "ALP": 21.43,
             "RUA": 5.19,
+            "NAT": 64.31,
+            "ALP": 21.43,
             "OTH": 1.96
           }
         },
         {
           "year": "2019",
           "shares": {
+            "LIB": 18.83,
+            "GRN": 3.51,
+            "NAT": 27.86,
+            "IND": 21.5,
             "TOP": 3.38,
             "SFF": 5.87,
-            "LIB": 18.83,
-            "IND": 21.5,
-            "NAT": 27.86,
-            "GRN": 3.51,
             "ALP": 15.69,
             "OTH": 3.35
           }
@@ -9392,12 +9392,12 @@
         {
           "year": "2022",
           "shares": {
-            "ALP": 16.76,
-            "ON": 6.75,
-            "NAT": 49.09,
+            "GRN": 5.34,
             "IND": 12.18,
             "TOP": 9.07,
-            "GRN": 5.34,
+            "NAT": 49.09,
+            "ON": 6.75,
+            "ALP": 16.76,
             "OTH": 0.8
           }
         },
@@ -9405,12 +9405,12 @@
           "year": "2025",
           "shares": {
             "FFP": 3.82,
-            "ON": 11.01,
-            "NAT": 49.71,
-            "ALP": 19.13,
-            "GRN": 9.14,
-            "LTP": 2.58,
             "CYA": 3.67,
+            "ON": 11.01,
+            "ALP": 19.13,
+            "LTP": 2.58,
+            "NAT": 49.71,
+            "GRN": 9.14,
             "OTH": 0.95
           }
         }

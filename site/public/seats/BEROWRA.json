@@ -7,8 +7,8 @@
     "name": "Berowra",
     "state": "NSW",
     "totalFormal": 115568,
-    "informalVotes": 6685,
-    "informalRate": 6.64,
+    "informalVotes": 7892,
+    "informalRate": 6.39,
     "enrolled": 130869,
     "votesCounted": 123460,
     "turnoutPct": 94.34,
@@ -32,8 +32,8 @@
       "givenName": "Julian",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 38395,
-      "pct": 40.85
+      "votes": 48210,
+      "pct": 41.72
     },
     {
       "candidateId": "C41338",
@@ -41,17 +41,8 @@
       "givenName": "Benson",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 25420,
-      "pct": 27.04
-    },
-    {
-      "candidateId": "C41991",
-      "surname": "BROWN",
-      "givenName": "Tina",
-      "party": "ind",
-      "partyAb": "IND",
-      "votes": 11540,
-      "pct": 12.28
+      "votes": 31220,
+      "pct": 27.01
     },
     {
       "candidateId": "C41506",
@@ -59,8 +50,17 @@
       "givenName": "Martin",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 11397,
-      "pct": 12.13
+      "votes": 13781,
+      "pct": 11.92
+    },
+    {
+      "candidateId": "C41991",
+      "surname": "BROWN",
+      "givenName": "Tina",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 13135,
+      "pct": 11.37
     },
     {
       "candidateId": "C41879",
@@ -68,8 +68,8 @@
       "givenName": "Gerald",
       "party": "on",
       "partyAb": "ON",
-      "votes": 3734,
-      "pct": 3.97
+      "votes": 4705,
+      "pct": 4.07
     },
     {
       "candidateId": "C41697",
@@ -77,8 +77,8 @@
       "givenName": "Stephen",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 1764,
-      "pct": 1.88
+      "votes": 2199,
+      "pct": 1.9
     },
     {
       "candidateId": "C27974",
@@ -86,8 +86,8 @@
       "givenName": "Roger",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 926,
-      "pct": 0.99
+      "votes": 1236,
+      "pct": 1.07
     },
     {
       "candidateId": "C41855",
@@ -95,8 +95,8 @@
       "givenName": "Brendan Michael",
       "party": "fus",
       "partyAb": "FUS",
-      "votes": 818,
-      "pct": 0.87
+      "votes": 1082,
+      "pct": 0.94
     }
   ],
   "tcp": [
@@ -2559,93 +2559,6 @@
       ]
     },
     {
-      "boothId": 11930,
-      "name": "Dural",
-      "formal": 1248,
-      "winnerParty": "lib",
-      "winnerSurname": "LEESER",
-      "winnerPct": 67.87,
-      "swing": -3.17,
-      "lat": -33.68610716630846,
-      "lng": 151.02717678107345,
-      "candidates": [
-        {
-          "surname": "LEESER",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 691,
-          "pct": 55.37
-        },
-        {
-          "surname": "KOSCHINSKI",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 189,
-          "pct": 15.14
-        },
-        {
-          "surname": "COUSINS",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 145,
-          "pct": 11.62
-        },
-        {
-          "surname": "BROWN",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 88,
-          "pct": 7.05
-        },
-        {
-          "surname": "MATTINSON",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 84,
-          "pct": 6.73
-        },
-        {
-          "surname": "BASTIAN",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 37,
-          "pct": 2.96
-        },
-        {
-          "surname": "WOODWARD",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 11,
-          "pct": 0.88
-        },
-        {
-          "surname": "CLARKE",
-          "partyAb": "FUS",
-          "party": "fus",
-          "votes": 3,
-          "pct": 0.24
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "LEESER",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 847,
-          "elected": true,
-          "pct": 67.87
-        },
-        {
-          "surname": "KOSCHINSKI",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 401,
-          "elected": false,
-          "pct": 32.13
-        }
-      ]
-    },
-    {
       "boothId": 11929,
       "name": "Cherrybrook South",
       "formal": 1248,
@@ -2729,6 +2642,93 @@
           "votes": 572,
           "elected": false,
           "pct": 45.83
+        }
+      ]
+    },
+    {
+      "boothId": 11930,
+      "name": "Dural",
+      "formal": 1248,
+      "winnerParty": "lib",
+      "winnerSurname": "LEESER",
+      "winnerPct": 67.87,
+      "swing": -3.17,
+      "lat": -33.68610716630846,
+      "lng": 151.02717678107345,
+      "candidates": [
+        {
+          "surname": "LEESER",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 691,
+          "pct": 55.37
+        },
+        {
+          "surname": "KOSCHINSKI",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 189,
+          "pct": 15.14
+        },
+        {
+          "surname": "COUSINS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 145,
+          "pct": 11.62
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 88,
+          "pct": 7.05
+        },
+        {
+          "surname": "MATTINSON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 84,
+          "pct": 6.73
+        },
+        {
+          "surname": "BASTIAN",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 37,
+          "pct": 2.96
+        },
+        {
+          "surname": "WOODWARD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 11,
+          "pct": 0.88
+        },
+        {
+          "surname": "CLARKE",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 3,
+          "pct": 0.24
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LEESER",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 847,
+          "elected": true,
+          "pct": 67.87
+        },
+        {
+          "surname": "KOSCHINSKI",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 401,
+          "elected": false,
+          "pct": 32.13
         }
       ]
     },
@@ -6016,20 +6016,20 @@
         {
           "year": "2007",
           "shares": {
-            "CDP": 2.55,
+            "ALP": 30.67,
             "LIB": 53.42,
             "GRN": 9.18,
-            "ALP": 30.67,
+            "CDP": 2.55,
             "OTH": 4.18
           }
         },
         {
           "year": "2010",
           "shares": {
-            "LIB": 59.98,
-            "GRN": 11.39,
-            "IND": 2.86,
             "CDP": 2.74,
+            "LIB": 59.98,
+            "IND": 2.86,
+            "GRN": 11.39,
             "ALP": 22.05,
             "OTH": 0.98
           }
@@ -6037,58 +6037,58 @@
         {
           "year": "2013",
           "shares": {
-            "TOP": 2.68,
-            "CDP": 2.46,
-            "LIB": 61.44,
-            "ALP": 18.93,
-            "GRN": 10.02,
             "IND": 3.89,
+            "CDP": 2.46,
+            "TOP": 2.68,
+            "GRN": 10.02,
+            "ALP": 18.93,
+            "LIB": 61.44,
             "OTH": 0.57
           }
         },
         {
           "year": "2016",
           "shares": {
-            "GRN": 11.5,
-            "LIB": 57.09,
-            "ALP": 19.88,
             "FUT": 2.06,
-            "IND": 3.92,
-            "CDP": 5.54
+            "CDP": 5.54,
+            "GRN": 11.5,
+            "ALP": 19.88,
+            "LIB": 57.09,
+            "IND": 3.92
           }
         },
         {
           "year": "2019",
           "shares": {
-            "IND": 2.77,
-            "LIB": 57.2,
             "CDP": 2.3,
-            "ALP": 21.1,
+            "LIB": 57.2,
             "GRN": 11.88,
+            "IND": 2.77,
+            "ALP": 21.1,
             "OTH": 4.76
           }
         },
         {
           "year": "2022",
           "shares": {
-            "LIB": 49.08,
             "ON": 3.19,
-            "LDP": 2.47,
-            "IND": 2.9,
             "GRN": 15.58,
-            "ALP": 22.23,
+            "LIB": 49.08,
+            "LDP": 2.47,
             "TOP": 2.48,
+            "ALP": 22.23,
+            "IND": 2.9,
             "OTH": 2.07
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ALP": 27.01,
-            "GRN": 11.92,
-            "LIB": 41.72,
             "IND": 12.44,
             "ON": 4.07,
+            "LIB": 41.72,
+            "ALP": 27.01,
+            "GRN": 11.92,
             "OTH": 2.84
           }
         }

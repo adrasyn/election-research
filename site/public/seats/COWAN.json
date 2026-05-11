@@ -7,8 +7,8 @@
     "name": "Cowan",
     "state": "WA",
     "totalFormal": 96141,
-    "informalVotes": 6161,
-    "informalRate": 7.42,
+    "informalVotes": 7194,
+    "informalRate": 6.96,
     "enrolled": 116491,
     "votesCounted": 103335,
     "turnoutPct": 88.71,
@@ -32,8 +32,8 @@
       "givenName": "Anne",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 36295,
-      "pct": 47.25
+      "votes": 44826,
+      "pct": 46.63
     },
     {
       "candidateId": "C41241",
@@ -41,8 +41,8 @@
       "givenName": "Felicia",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 18544,
-      "pct": 24.14
+      "votes": 23233,
+      "pct": 24.17
     },
     {
       "candidateId": "C41898",
@@ -50,8 +50,8 @@
       "givenName": "Matthew",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 8110,
-      "pct": 10.56
+      "votes": 10367,
+      "pct": 10.78
     },
     {
       "candidateId": "C41655",
@@ -59,8 +59,8 @@
       "givenName": "Bradley",
       "party": "on",
       "partyAb": "ON",
-      "votes": 3712,
-      "pct": 4.83
+      "votes": 4869,
+      "pct": 5.06
     },
     {
       "candidateId": "C41740",
@@ -68,8 +68,8 @@
       "givenName": "John",
       "party": "oth",
       "partyAb": "HMP",
-      "votes": 3115,
-      "pct": 4.06
+      "votes": 4103,
+      "pct": 4.27
     },
     {
       "candidateId": "C40667",
@@ -77,8 +77,8 @@
       "givenName": "Wade",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 2824,
-      "pct": 3.68
+      "votes": 3417,
+      "pct": 3.55
     },
     {
       "candidateId": "C41087",
@@ -86,8 +86,8 @@
       "givenName": "Wesley",
       "party": "oth",
       "partyAb": "AUC",
-      "votes": 2405,
-      "pct": 3.13
+      "votes": 3015,
+      "pct": 3.14
     },
     {
       "candidateId": "C41636",
@@ -95,8 +95,8 @@
       "givenName": "Charles",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 1813,
-      "pct": 2.36
+      "votes": 2311,
+      "pct": 2.4
     }
   ],
   "tcp": [
@@ -1515,93 +1515,6 @@
       ]
     },
     {
-      "boothId": 7574,
-      "name": "Greenwood East",
-      "formal": 1338,
-      "winnerParty": "alp",
-      "winnerSurname": "ALY",
-      "winnerPct": 65.1,
-      "swing": 4.12,
-      "lat": -31.8288866090981,
-      "lng": 115.809030703457,
-      "candidates": [
-        {
-          "surname": "ALY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 550,
-          "pct": 41.11
-        },
-        {
-          "surname": "ADENIYI",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 307,
-          "pct": 22.94
-        },
-        {
-          "surname": "COUNT",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 215,
-          "pct": 16.07
-        },
-        {
-          "surname": "BELL",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 77,
-          "pct": 5.75
-        },
-        {
-          "surname": "YATES",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 66,
-          "pct": 4.93
-        },
-        {
-          "surname": "McDONALD",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 65,
-          "pct": 4.86
-        },
-        {
-          "surname": "D'COSTA",
-          "partyAb": "AUC",
-          "party": "oth",
-          "votes": 38,
-          "pct": 2.84
-        },
-        {
-          "surname": "SMITH",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 20,
-          "pct": 1.49
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "ALY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 871,
-          "elected": true,
-          "pct": 65.1
-        },
-        {
-          "surname": "ADENIYI",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 467,
-          "elected": false,
-          "pct": 34.9
-        }
-      ]
-    },
-    {
       "boothId": 7562,
       "name": "Balga",
       "formal": 1338,
@@ -1685,6 +1598,93 @@
           "votes": 381,
           "elected": false,
           "pct": 28.48
+        }
+      ]
+    },
+    {
+      "boothId": 7574,
+      "name": "Greenwood East",
+      "formal": 1338,
+      "winnerParty": "alp",
+      "winnerSurname": "ALY",
+      "winnerPct": 65.1,
+      "swing": 4.12,
+      "lat": -31.8288866090981,
+      "lng": 115.809030703457,
+      "candidates": [
+        {
+          "surname": "ALY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 550,
+          "pct": 41.11
+        },
+        {
+          "surname": "ADENIYI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 307,
+          "pct": 22.94
+        },
+        {
+          "surname": "COUNT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 215,
+          "pct": 16.07
+        },
+        {
+          "surname": "BELL",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 77,
+          "pct": 5.75
+        },
+        {
+          "surname": "YATES",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 66,
+          "pct": 4.93
+        },
+        {
+          "surname": "McDONALD",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 65,
+          "pct": 4.86
+        },
+        {
+          "surname": "D'COSTA",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 38,
+          "pct": 2.84
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.49
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "ALY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 871,
+          "elected": true,
+          "pct": 65.1
+        },
+        {
+          "surname": "ADENIYI",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 467,
+          "elected": false,
+          "pct": 34.9
         }
       ]
     },
@@ -4363,8 +4363,8 @@
         {
           "year": "2007",
           "shares": {
-            "GRN": 5.63,
             "ON": 0.92,
+            "GRN": 5.63,
             "LIB": 45.81,
             "ALP": 41.99,
             "OTH": 5.65
@@ -4373,31 +4373,31 @@
         {
           "year": "2010",
           "shares": {
-            "FFP": 2.36,
-            "LIB": 50.06,
+            "GRN": 12.53,
             "ALP": 32.45,
             "CDP": 2.6,
-            "GRN": 12.53
+            "FFP": 2.36,
+            "LIB": 50.06
           }
         },
         {
           "year": "2013",
           "shares": {
-            "ALP": 32.29,
-            "GRN": 7.91,
-            "TOP": 5.33,
-            "AUC": 2.14,
             "LIB": 49.59,
+            "GRN": 7.91,
+            "AUC": 2.14,
+            "TOP": 5.33,
+            "ALP": 32.29,
             "OTH": 2.74
           }
         },
         {
           "year": "2016",
           "shares": {
-            "GRN": 7.6,
+            "AUC": 3.29,
             "LIB": 42.22,
             "ALP": 41.68,
-            "AUC": 3.29,
+            "GRN": 7.6,
             "SFF": 2.81,
             "OTH": 2.41
           }
@@ -4405,22 +4405,22 @@
         {
           "year": "2019",
           "shares": {
+            "ALP": 38.13,
+            "GRN": 10.08,
+            "LIB": 39.41,
             "TOP": 2.56,
             "ON": 5.63,
             "AUC": 2.33,
-            "LIB": 39.41,
-            "GRN": 10.08,
-            "ALP": 38.13,
             "OTH": 1.86
           }
         },
         {
           "year": "2022",
           "shares": {
-            "GRN": 9.86,
-            "ON": 2.85,
-            "LIB": 30.42,
             "ALP": 46.86,
+            "LIB": 30.42,
+            "ON": 2.85,
+            "GRN": 9.86,
             "TOP": 2.43,
             "OTH": 7.57
           }
@@ -4428,14 +4428,14 @@
         {
           "year": "2025",
           "shares": {
-            "ALP": 46.63,
-            "ON": 5.06,
-            "AUC": 3.14,
+            "HMP": 4.27,
             "LIB": 24.17,
             "GRN": 10.78,
-            "CYA": 2.4,
+            "AUC": 3.14,
             "IND": 3.55,
-            "HMP": 4.27
+            "ON": 5.06,
+            "CYA": 2.4,
+            "ALP": 46.63
           }
         }
       ]

@@ -7,8 +7,8 @@
     "name": "Newcastle",
     "state": "NSW",
     "totalFormal": 108266,
-    "informalVotes": 7235,
-    "informalRate": 7.29,
+    "informalVotes": 8145,
+    "informalRate": 7.0,
     "enrolled": 126226,
     "votesCounted": 116411,
     "turnoutPct": 92.22,
@@ -32,8 +32,8 @@
       "givenName": "Sharon",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 41484,
-      "pct": 45.11
+      "votes": 49054,
+      "pct": 45.31
     },
     {
       "candidateId": "C41620",
@@ -41,8 +41,8 @@
       "givenName": "Charlotte",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 21083,
-      "pct": 22.92
+      "votes": 24061,
+      "pct": 22.22
     },
     {
       "candidateId": "C41488",
@@ -50,8 +50,8 @@
       "givenName": "Asarri",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 17299,
-      "pct": 18.81
+      "votes": 20638,
+      "pct": 19.06
     },
     {
       "candidateId": "C41893",
@@ -59,8 +59,8 @@
       "givenName": "Phillip",
       "party": "on",
       "partyAb": "ON",
-      "votes": 4759,
-      "pct": 5.17
+      "votes": 5789,
+      "pct": 5.35
     },
     {
       "candidateId": "C41695",
@@ -68,8 +68,8 @@
       "givenName": "Jennifer",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 3246,
-      "pct": 3.53
+      "votes": 3861,
+      "pct": 3.57
     },
     {
       "candidateId": "C41807",
@@ -77,8 +77,8 @@
       "givenName": "Jason",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 1948,
-      "pct": 2.12
+      "votes": 2319,
+      "pct": 2.14
     },
     {
       "candidateId": "C42049",
@@ -86,7 +86,7 @@
       "givenName": "Steve",
       "party": "oth",
       "partyAb": "SAL",
-      "votes": 1411,
+      "votes": 1656,
       "pct": 1.53
     },
     {
@@ -95,8 +95,8 @@
       "givenName": "Robert",
       "party": "oth",
       "partyAb": "NAFD",
-      "votes": 740,
-      "pct": 0.8
+      "votes": 888,
+      "pct": 0.82
     }
   ],
   "tcp": [
@@ -1341,93 +1341,6 @@
       ]
     },
     {
-      "boothId": 1883,
-      "name": "Maryland",
-      "formal": 1487,
-      "winnerParty": "alp",
-      "winnerSurname": "CLAYDON",
-      "winnerPct": 71.76,
-      "swing": 71.76,
-      "lat": -32.882,
-      "lng": 151.659,
-      "candidates": [
-        {
-          "surname": "CLAYDON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 733,
-          "pct": 49.29
-        },
-        {
-          "surname": "McCABE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 221,
-          "pct": 14.86
-        },
-        {
-          "surname": "McPHEE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 217,
-          "pct": 14.59
-        },
-        {
-          "surname": "HEYNE",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 132,
-          "pct": 8.88
-        },
-        {
-          "surname": "STEFANAC",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 90,
-          "pct": 6.05
-        },
-        {
-          "surname": "BRIGGS",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 60,
-          "pct": 4.03
-        },
-        {
-          "surname": "O'BRIEN",
-          "partyAb": "SAL",
-          "party": "oth",
-          "votes": 23,
-          "pct": 1.55
-        },
-        {
-          "surname": "CREECH",
-          "partyAb": "NAFD",
-          "party": "oth",
-          "votes": 11,
-          "pct": 0.74
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "CLAYDON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 1067,
-          "elected": true,
-          "pct": 71.76
-        },
-        {
-          "surname": "McCABE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 420,
-          "elected": false,
-          "pct": 28.24
-        }
-      ]
-    },
-    {
       "boothId": 2714,
       "name": "New Lambton South",
       "formal": 1487,
@@ -1511,6 +1424,93 @@
           "votes": 524,
           "elected": false,
           "pct": 35.24
+        }
+      ]
+    },
+    {
+      "boothId": 1883,
+      "name": "Maryland",
+      "formal": 1487,
+      "winnerParty": "alp",
+      "winnerSurname": "CLAYDON",
+      "winnerPct": 71.76,
+      "swing": 71.76,
+      "lat": -32.882,
+      "lng": 151.659,
+      "candidates": [
+        {
+          "surname": "CLAYDON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 733,
+          "pct": 49.29
+        },
+        {
+          "surname": "McCABE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 221,
+          "pct": 14.86
+        },
+        {
+          "surname": "McPHEE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 217,
+          "pct": 14.59
+        },
+        {
+          "surname": "HEYNE",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 132,
+          "pct": 8.88
+        },
+        {
+          "surname": "STEFANAC",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 90,
+          "pct": 6.05
+        },
+        {
+          "surname": "BRIGGS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 60,
+          "pct": 4.03
+        },
+        {
+          "surname": "O'BRIEN",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 23,
+          "pct": 1.55
+        },
+        {
+          "surname": "CREECH",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 11,
+          "pct": 0.74
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CLAYDON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1067,
+          "elected": true,
+          "pct": 71.76
+        },
+        {
+          "surname": "McCABE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 420,
+          "elected": false,
+          "pct": 28.24
         }
       ]
     },
@@ -5422,9 +5422,9 @@
           "year": "2007",
           "shares": {
             "GRN": 10.01,
+            "FFP": 2.28,
             "LIB": 25.56,
             "ALP": 50.78,
-            "FFP": 2.28,
             "IND": 8.33,
             "OTH": 3.03
           }
@@ -5432,8 +5432,8 @@
         {
           "year": "2010",
           "shares": {
-            "LIB": 31.33,
             "ALP": 47.89,
+            "LIB": 31.33,
             "GRN": 15.47,
             "OTH": 5.3
           }
@@ -5443,29 +5443,29 @@
           "shares": {
             "ALP": 43.73,
             "TOP": 4.11,
-            "LIB": 34.66,
             "GRN": 12.0,
+            "LIB": 34.66,
             "OTH": 5.5
           }
         },
         {
           "year": "2016",
           "shares": {
-            "GRN": 13.66,
-            "ALP": 47.12,
-            "LIB": 29.92,
             "IND": 2.76,
             "DRF": 3.42,
+            "LIB": 29.92,
+            "ALP": 47.12,
             "CDP": 2.15,
+            "GRN": 13.66,
             "OTH": 0.98
           }
         },
         {
           "year": "2019",
           "shares": {
-            "GRN": 15.56,
             "LIB": 29.21,
             "ALP": 45.73,
+            "GRN": 15.56,
             "TOP": 3.37,
             "AJP": 3.2,
             "OTH": 2.92
@@ -5474,11 +5474,11 @@
         {
           "year": "2022",
           "shares": {
-            "AJP": 2.41,
-            "TOP": 2.38,
-            "ALP": 44.07,
             "ON": 4.5,
+            "AJP": 2.41,
+            "ALP": 44.07,
             "LIB": 24.44,
+            "TOP": 2.38,
             "GRN": 20.07,
             "OTH": 2.12
           }
@@ -5486,12 +5486,12 @@
         {
           "year": "2025",
           "shares": {
-            "GRN": 22.22,
+            "ALP": 45.31,
+            "CYA": 3.57,
             "ON": 5.35,
             "FFP": 2.14,
-            "ALP": 45.31,
             "LIB": 19.06,
-            "CYA": 3.57,
+            "GRN": 22.22,
             "OTH": 2.35
           }
         }

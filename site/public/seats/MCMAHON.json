@@ -7,8 +7,8 @@
     "name": "McMahon",
     "state": "NSW",
     "totalFormal": 97835,
-    "informalVotes": 10464,
-    "informalRate": 11.49,
+    "informalVotes": 11581,
+    "informalRate": 10.58,
     "enrolled": 120536,
     "votesCounted": 109416,
     "turnoutPct": 90.77,
@@ -32,8 +32,8 @@
       "givenName": "Chris",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 37240,
-      "pct": 46.21
+      "votes": 44537,
+      "pct": 45.52
     },
     {
       "candidateId": "C41484",
@@ -41,8 +41,8 @@
       "givenName": "Carmen",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 21381,
-      "pct": 26.53
+      "votes": 26218,
+      "pct": 26.8
     },
     {
       "candidateId": "C42062",
@@ -50,8 +50,8 @@
       "givenName": "Matthew",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 8270,
-      "pct": 10.26
+      "votes": 9613,
+      "pct": 9.83
     },
     {
       "candidateId": "C41608",
@@ -59,8 +59,8 @@
       "givenName": "Ben",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 7153,
-      "pct": 8.88
+      "votes": 8923,
+      "pct": 9.12
     },
     {
       "candidateId": "C41884",
@@ -68,8 +68,8 @@
       "givenName": "Melissa",
       "party": "on",
       "partyAb": "ON",
-      "votes": 6552,
-      "pct": 8.13
+      "votes": 8544,
+      "pct": 8.73
     }
   ],
   "tcp": [
@@ -690,72 +690,6 @@
       ]
     },
     {
-      "boothId": 57174,
-      "name": "Blacktown South",
-      "formal": 1789,
-      "winnerParty": "alp",
-      "winnerSurname": "BOWEN",
-      "winnerPct": 67.08,
-      "swing": -1.19,
-      "lat": -33.7802054180174,
-      "lng": 150.905164095076,
-      "candidates": [
-        {
-          "surname": "BOWEN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 860,
-          "pct": 48.07
-        },
-        {
-          "surname": "LAZAR",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 331,
-          "pct": 18.5
-        },
-        {
-          "surname": "HAMMOND",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 240,
-          "pct": 13.42
-        },
-        {
-          "surname": "CAMENZULI",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 221,
-          "pct": 12.35
-        },
-        {
-          "surname": "JANICSKA",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 137,
-          "pct": 7.66
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "BOWEN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 1200,
-          "elected": true,
-          "pct": 67.08
-        },
-        {
-          "surname": "LAZAR",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 589,
-          "elected": false,
-          "pct": 32.92
-        }
-      ]
-    },
-    {
       "boothId": 401,
       "name": "Minchinbury (McMahon)",
       "formal": 1789,
@@ -818,6 +752,72 @@
           "votes": 726,
           "elected": false,
           "pct": 40.58
+        }
+      ]
+    },
+    {
+      "boothId": 57174,
+      "name": "Blacktown South",
+      "formal": 1789,
+      "winnerParty": "alp",
+      "winnerSurname": "BOWEN",
+      "winnerPct": 67.08,
+      "swing": -1.19,
+      "lat": -33.7802054180174,
+      "lng": 150.905164095076,
+      "candidates": [
+        {
+          "surname": "BOWEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 860,
+          "pct": 48.07
+        },
+        {
+          "surname": "LAZAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 331,
+          "pct": 18.5
+        },
+        {
+          "surname": "HAMMOND",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 240,
+          "pct": 13.42
+        },
+        {
+          "surname": "CAMENZULI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 221,
+          "pct": 12.35
+        },
+        {
+          "surname": "JANICSKA",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 137,
+          "pct": 7.66
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BOWEN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 1200,
+          "elected": true,
+          "pct": 67.08
+        },
+        {
+          "surname": "LAZAR",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 589,
+          "elected": false,
+          "pct": 32.92
         }
       ]
     },
@@ -3634,51 +3634,51 @@
         {
           "year": "2010",
           "shares": {
-            "LIB": 36.25,
-            "GRN": 8.05,
+            "ALP": 51.26,
             "CDP": 4.44,
-            "ALP": 51.26
+            "GRN": 8.05,
+            "LIB": 36.25
           }
         },
         {
           "year": "2013",
           "shares": {
             "ALP": 50.19,
-            "LIB": 40.59,
             "CDP": 2.82,
             "TOP": 3.48,
+            "LIB": 40.59,
             "GRN": 2.93
           }
         },
         {
           "year": "2016",
           "shares": {
-            "LIB": 30.05,
-            "CDP": 7.2,
-            "GRN": 5.42,
             "ALP": 53.44,
+            "LIB": 30.05,
             "AFN": 2.09,
+            "GRN": 5.42,
+            "CDP": 7.2,
             "OTH": 1.79
           }
         },
         {
           "year": "2019",
           "shares": {
-            "ALP": 46.08,
             "GRN": 4.94,
+            "CDP": 3.52,
             "TOP": 3.9,
             "ON": 8.25,
             "LIB": 33.31,
-            "CDP": 3.52
+            "ALP": 46.08
           }
         },
         {
           "year": "2022",
           "shares": {
+            "LDP": 3.33,
             "TOP": 9.11,
             "ALP": 47.98,
             "LIB": 28.33,
-            "LDP": 3.33,
             "ON": 5.44,
             "GRN": 5.81
           }
@@ -3686,11 +3686,11 @@
         {
           "year": "2025",
           "shares": {
-            "ON": 8.73,
-            "GRN": 9.12,
-            "ALP": 45.52,
             "LIB": 26.8,
-            "IND": 9.83
+            "IND": 9.83,
+            "GRN": 9.12,
+            "ON": 8.73,
+            "ALP": 45.52
           }
         }
       ]

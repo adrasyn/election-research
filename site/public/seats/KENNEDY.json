@@ -7,8 +7,8 @@
     "name": "Kennedy",
     "state": "QLD",
     "totalFormal": 97162,
-    "informalVotes": 5870,
-    "informalRate": 6.64,
+    "informalVotes": 6460,
+    "informalRate": 6.23,
     "enrolled": 123696,
     "votesCounted": 103622,
     "turnoutPct": 83.77,
@@ -32,8 +32,8 @@
       "givenName": "Bob",
       "party": "kap",
       "partyAb": "KAP",
-      "votes": 33975,
-      "pct": 41.17
+      "votes": 39219,
+      "pct": 40.36
     },
     {
       "candidateId": "C41184",
@@ -41,8 +41,8 @@
       "givenName": "Annette",
       "party": "lnp",
       "partyAb": "LNP",
-      "votes": 19268,
-      "pct": 23.35
+      "votes": 23135,
+      "pct": 23.81
     },
     {
       "candidateId": "C40760",
@@ -50,8 +50,8 @@
       "givenName": "Sharon",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 13543,
-      "pct": 16.41
+      "votes": 15917,
+      "pct": 16.38
     },
     {
       "candidateId": "C40950",
@@ -59,8 +59,8 @@
       "givenName": "Kate",
       "party": "on",
       "partyAb": "ON",
-      "votes": 6212,
-      "pct": 7.53
+      "votes": 7541,
+      "pct": 7.76
     },
     {
       "candidateId": "C41255",
@@ -68,8 +68,8 @@
       "givenName": "Carole",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 4793,
-      "pct": 5.81
+      "votes": 5761,
+      "pct": 5.93
     },
     {
       "candidateId": "C41364",
@@ -77,7 +77,7 @@
       "givenName": "Mark",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 1938,
+      "votes": 2283,
       "pct": 2.35
     },
     {
@@ -86,8 +86,8 @@
       "givenName": "Douglas",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 1435,
-      "pct": 1.74
+      "votes": 1681,
+      "pct": 1.73
     },
     {
       "candidateId": "C40636",
@@ -95,8 +95,8 @@
       "givenName": "Steven",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 1367,
-      "pct": 1.66
+      "votes": 1625,
+      "pct": 1.67
     }
   ],
   "tcp": [
@@ -2037,93 +2037,6 @@
       ]
     },
     {
-      "boothId": 5818,
-      "name": "Charters Towers",
-      "formal": 638,
-      "winnerParty": "kap",
-      "winnerSurname": "KATTER",
-      "winnerPct": 74.61,
-      "swing": 3.24,
-      "lat": -20.0726089375391,
-      "lng": 146.257670569421,
-      "candidates": [
-        {
-          "surname": "KATTER",
-          "partyAb": "KAP",
-          "party": "kap",
-          "votes": 344,
-          "pct": 53.92
-        },
-        {
-          "surname": "SWAINE",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 105,
-          "pct": 16.46
-        },
-        {
-          "surname": "WINN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 62,
-          "pct": 9.72
-        },
-        {
-          "surname": "HARRIS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 60,
-          "pct": 9.4
-        },
-        {
-          "surname": "STANFORD",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 29,
-          "pct": 4.55
-        },
-        {
-          "surname": "WESTCOTT",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 23,
-          "pct": 3.61
-        },
-        {
-          "surname": "CLARE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 9,
-          "pct": 1.41
-        },
-        {
-          "surname": "LUSH",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 6,
-          "pct": 0.94
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "KATTER",
-          "partyAb": "KAP",
-          "party": "kap",
-          "votes": 476,
-          "elected": true,
-          "pct": 74.61
-        },
-        {
-          "surname": "SWAINE",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 162,
-          "elected": false,
-          "pct": 25.39
-        }
-      ]
-    },
-    {
       "boothId": 108735,
       "name": "Aitkenvale KENNEDY PPVC",
       "formal": 638,
@@ -2207,6 +2120,93 @@
           "votes": 284,
           "elected": false,
           "pct": 44.51
+        }
+      ]
+    },
+    {
+      "boothId": 5818,
+      "name": "Charters Towers",
+      "formal": 638,
+      "winnerParty": "kap",
+      "winnerSurname": "KATTER",
+      "winnerPct": 74.61,
+      "swing": 3.24,
+      "lat": -20.0726089375391,
+      "lng": 146.257670569421,
+      "candidates": [
+        {
+          "surname": "KATTER",
+          "partyAb": "KAP",
+          "party": "kap",
+          "votes": 344,
+          "pct": 53.92
+        },
+        {
+          "surname": "SWAINE",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 105,
+          "pct": 16.46
+        },
+        {
+          "surname": "WINN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 62,
+          "pct": 9.72
+        },
+        {
+          "surname": "HARRIS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 9.4
+        },
+        {
+          "surname": "STANFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 29,
+          "pct": 4.55
+        },
+        {
+          "surname": "WESTCOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 23,
+          "pct": 3.61
+        },
+        {
+          "surname": "CLARE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 9,
+          "pct": 1.41
+        },
+        {
+          "surname": "LUSH",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 6,
+          "pct": 0.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KATTER",
+          "partyAb": "KAP",
+          "party": "kap",
+          "votes": 476,
+          "elected": true,
+          "pct": 74.61
+        },
+        {
+          "surname": "SWAINE",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 162,
+          "elected": false,
+          "pct": 25.39
         }
       ]
     },
@@ -4647,93 +4647,6 @@
       ]
     },
     {
-      "boothId": 5998,
-      "name": "South Johnstone",
-      "formal": 265,
-      "winnerParty": "kap",
-      "winnerSurname": "KATTER",
-      "winnerPct": 72.83,
-      "swing": 6.16,
-      "lat": -17.59338885603464,
-      "lng": 145.99991650423485,
-      "candidates": [
-        {
-          "surname": "KATTER",
-          "partyAb": "KAP",
-          "party": "kap",
-          "votes": 117,
-          "pct": 44.15
-        },
-        {
-          "surname": "SWAINE",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 50,
-          "pct": 18.87
-        },
-        {
-          "surname": "WINN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 40,
-          "pct": 15.09
-        },
-        {
-          "surname": "HARRIS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 22,
-          "pct": 8.3
-        },
-        {
-          "surname": "STANFORD",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 19,
-          "pct": 7.17
-        },
-        {
-          "surname": "WESTCOTT",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 7,
-          "pct": 2.64
-        },
-        {
-          "surname": "CLARE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 6,
-          "pct": 2.26
-        },
-        {
-          "surname": "LUSH",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 4,
-          "pct": 1.51
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "KATTER",
-          "partyAb": "KAP",
-          "party": "kap",
-          "votes": 193,
-          "elected": true,
-          "pct": 72.83
-        },
-        {
-          "surname": "SWAINE",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 72,
-          "elected": false,
-          "pct": 27.17
-        }
-      ]
-    },
-    {
       "boothId": 110746,
       "name": "Yarrabah PPVC",
       "formal": 265,
@@ -4817,6 +4730,93 @@
           "votes": 42,
           "elected": false,
           "pct": 15.85
+        }
+      ]
+    },
+    {
+      "boothId": 5998,
+      "name": "South Johnstone",
+      "formal": 265,
+      "winnerParty": "kap",
+      "winnerSurname": "KATTER",
+      "winnerPct": 72.83,
+      "swing": 6.16,
+      "lat": -17.59338885603464,
+      "lng": 145.99991650423485,
+      "candidates": [
+        {
+          "surname": "KATTER",
+          "partyAb": "KAP",
+          "party": "kap",
+          "votes": 117,
+          "pct": 44.15
+        },
+        {
+          "surname": "SWAINE",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 50,
+          "pct": 18.87
+        },
+        {
+          "surname": "WINN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 40,
+          "pct": 15.09
+        },
+        {
+          "surname": "HARRIS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 8.3
+        },
+        {
+          "surname": "STANFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 7.17
+        },
+        {
+          "surname": "WESTCOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.64
+        },
+        {
+          "surname": "CLARE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.26
+        },
+        {
+          "surname": "LUSH",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 4,
+          "pct": 1.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KATTER",
+          "partyAb": "KAP",
+          "party": "kap",
+          "votes": 193,
+          "elected": true,
+          "pct": 72.83
+        },
+        {
+          "surname": "SWAINE",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 72,
+          "elected": false,
+          "pct": 27.17
         }
       ]
     },
@@ -6909,93 +6909,6 @@
       ]
     },
     {
-      "boothId": 5810,
-      "name": "Biboohra",
-      "formal": 156,
-      "winnerParty": "kap",
-      "winnerSurname": "KATTER",
-      "winnerPct": 65.38,
-      "swing": 1.02,
-      "lat": -16.9161911513951,
-      "lng": 145.420104374294,
-      "candidates": [
-        {
-          "surname": "KATTER",
-          "partyAb": "KAP",
-          "party": "kap",
-          "votes": 72,
-          "pct": 46.15
-        },
-        {
-          "surname": "SWAINE",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 42,
-          "pct": 26.92
-        },
-        {
-          "surname": "WINN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 19,
-          "pct": 12.18
-        },
-        {
-          "surname": "HARRIS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 11,
-          "pct": 7.05
-        },
-        {
-          "surname": "STANFORD",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 7,
-          "pct": 4.49
-        },
-        {
-          "surname": "WESTCOTT",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 3,
-          "pct": 1.92
-        },
-        {
-          "surname": "CLARE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 1,
-          "pct": 0.64
-        },
-        {
-          "surname": "LUSH",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 1,
-          "pct": 0.64
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "KATTER",
-          "partyAb": "KAP",
-          "party": "kap",
-          "votes": 102,
-          "elected": true,
-          "pct": 65.38
-        },
-        {
-          "surname": "SWAINE",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 54,
-          "elected": false,
-          "pct": 34.62
-        }
-      ]
-    },
-    {
       "boothId": 5856,
       "name": "Karumba",
       "formal": 156,
@@ -7079,6 +6992,93 @@
           "votes": 51,
           "elected": false,
           "pct": 32.69
+        }
+      ]
+    },
+    {
+      "boothId": 5810,
+      "name": "Biboohra",
+      "formal": 156,
+      "winnerParty": "kap",
+      "winnerSurname": "KATTER",
+      "winnerPct": 65.38,
+      "swing": 1.02,
+      "lat": -16.9161911513951,
+      "lng": 145.420104374294,
+      "candidates": [
+        {
+          "surname": "KATTER",
+          "partyAb": "KAP",
+          "party": "kap",
+          "votes": 72,
+          "pct": 46.15
+        },
+        {
+          "surname": "SWAINE",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 42,
+          "pct": 26.92
+        },
+        {
+          "surname": "WINN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 19,
+          "pct": 12.18
+        },
+        {
+          "surname": "HARRIS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 11,
+          "pct": 7.05
+        },
+        {
+          "surname": "STANFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 4.49
+        },
+        {
+          "surname": "WESTCOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.92
+        },
+        {
+          "surname": "CLARE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 0.64
+        },
+        {
+          "surname": "LUSH",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.64
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KATTER",
+          "partyAb": "KAP",
+          "party": "kap",
+          "votes": 102,
+          "elected": true,
+          "pct": 65.38
+        },
+        {
+          "surname": "SWAINE",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 54,
+          "elected": false,
+          "pct": 34.62
         }
       ]
     },
@@ -8736,93 +8736,6 @@
       ]
     },
     {
-      "boothId": 109326,
-      "name": "Special Hospital Team 2",
-      "formal": 89,
-      "winnerParty": "kap",
-      "winnerSurname": "KATTER",
-      "winnerPct": 60.67,
-      "swing": 3.28,
-      "lat": null,
-      "lng": null,
-      "candidates": [
-        {
-          "surname": "KATTER",
-          "partyAb": "KAP",
-          "party": "kap",
-          "votes": 38,
-          "pct": 42.7
-        },
-        {
-          "surname": "SWAINE",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 25,
-          "pct": 28.09
-        },
-        {
-          "surname": "WINN",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 16,
-          "pct": 17.98
-        },
-        {
-          "surname": "HARRIS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 6,
-          "pct": 6.74
-        },
-        {
-          "surname": "CLARE",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 2,
-          "pct": 2.25
-        },
-        {
-          "surname": "STANFORD",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 1,
-          "pct": 1.12
-        },
-        {
-          "surname": "WESTCOTT",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 1,
-          "pct": 1.12
-        },
-        {
-          "surname": "LUSH",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "KATTER",
-          "partyAb": "KAP",
-          "party": "kap",
-          "votes": 54,
-          "elected": true,
-          "pct": 60.67
-        },
-        {
-          "surname": "SWAINE",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 35,
-          "elected": false,
-          "pct": 39.33
-        }
-      ]
-    },
-    {
       "boothId": 5866,
       "name": "Macknade",
       "formal": 89,
@@ -8906,6 +8819,93 @@
           "votes": 36,
           "elected": false,
           "pct": 40.45
+        }
+      ]
+    },
+    {
+      "boothId": 109326,
+      "name": "Special Hospital Team 2",
+      "formal": 89,
+      "winnerParty": "kap",
+      "winnerSurname": "KATTER",
+      "winnerPct": 60.67,
+      "swing": 3.28,
+      "lat": null,
+      "lng": null,
+      "candidates": [
+        {
+          "surname": "KATTER",
+          "partyAb": "KAP",
+          "party": "kap",
+          "votes": 38,
+          "pct": 42.7
+        },
+        {
+          "surname": "SWAINE",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 25,
+          "pct": 28.09
+        },
+        {
+          "surname": "WINN",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "pct": 17.98
+        },
+        {
+          "surname": "HARRIS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 6.74
+        },
+        {
+          "surname": "CLARE",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 2,
+          "pct": 2.25
+        },
+        {
+          "surname": "STANFORD",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 1,
+          "pct": 1.12
+        },
+        {
+          "surname": "WESTCOTT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 1.12
+        },
+        {
+          "surname": "LUSH",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "KATTER",
+          "partyAb": "KAP",
+          "party": "kap",
+          "votes": 54,
+          "elected": true,
+          "pct": 60.67
+        },
+        {
+          "surname": "SWAINE",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 35,
+          "elected": false,
+          "pct": 39.33
         }
       ]
     },
@@ -9785,11 +9785,11 @@
         {
           "year": "2007",
           "shares": {
+            "ON": 1.75,
             "FFP": 2.03,
             "GRN": 3.22,
-            "ALP": 28.09,
             "NAT": 24.65,
-            "ON": 1.75,
+            "ALP": 28.09,
             "IND": 39.53,
             "OTH": 0.73
           }
@@ -9797,21 +9797,21 @@
         {
           "year": "2010",
           "shares": {
+            "ALP": 20.21,
+            "IND": 46.71,
             "FFP": 2.0,
             "LIB": 26.6,
-            "ALP": 20.21,
-            "GRN": 4.49,
-            "IND": 46.71
+            "GRN": 4.49
           }
         },
         {
           "year": "2013",
           "shares": {
+            "KAP": 29.36,
+            "ALP": 16.38,
             "GRN": 3.24,
             "TOP": 7.63,
-            "ALP": 16.38,
             "LIB": 40.84,
-            "KAP": 29.36,
             "OTH": 2.55
           }
         },
@@ -9819,43 +9819,43 @@
           "year": "2016",
           "shares": {
             "ALP": 19.16,
-            "FFP": 3.76,
-            "LIB": 32.33,
+            "KAP": 39.85,
             "GRN": 4.9,
-            "KAP": 39.85
+            "LIB": 32.33,
+            "FFP": 3.76
           }
         },
         {
           "year": "2019",
           "shares": {
+            "GRN": 5.17,
+            "FACN": 2.75,
             "TOP": 6.66,
             "KAP": 40.96,
-            "GRN": 5.17,
             "LIB": 27.48,
-            "FACN": 2.75,
             "ALP": 16.98
           }
         },
         {
           "year": "2022",
           "shares": {
-            "KAP": 41.7,
-            "GRN": 6.42,
-            "TOP": 4.44,
+            "LIB": 28.19,
             "IND": 3.18,
             "ALP": 16.06,
-            "LIB": 28.19
+            "KAP": 41.7,
+            "GRN": 6.42,
+            "TOP": 4.44
           }
         },
         {
           "year": "2025",
           "shares": {
-            "LIB": 23.81,
-            "ON": 7.76,
-            "ALP": 16.38,
-            "CYA": 2.35,
-            "GRN": 5.93,
             "KAP": 40.36,
+            "CYA": 2.35,
+            "LIB": 23.81,
+            "ALP": 16.38,
+            "GRN": 5.93,
+            "ON": 7.76,
             "OTH": 3.4
           }
         }

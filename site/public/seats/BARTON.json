@@ -7,8 +7,8 @@
     "name": "Barton",
     "state": "NSW",
     "totalFormal": 99951,
-    "informalVotes": 9221,
-    "informalRate": 10.01,
+    "informalVotes": 10256,
+    "informalRate": 9.31,
     "enrolled": 120761,
     "votesCounted": 110207,
     "turnoutPct": 91.26,
@@ -32,8 +32,8 @@
       "givenName": "Ash",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 39476,
-      "pct": 47.61
+      "votes": 47098,
+      "pct": 47.12
     },
     {
       "candidateId": "C41448",
@@ -41,8 +41,8 @@
       "givenName": "Fiona",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 19701,
-      "pct": 23.76
+      "votes": 24162,
+      "pct": 24.17
     },
     {
       "candidateId": "C41494",
@@ -50,8 +50,8 @@
       "givenName": "Manal",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 13154,
-      "pct": 15.87
+      "votes": 15885,
+      "pct": 15.89
     },
     {
       "candidateId": "C41862",
@@ -59,8 +59,8 @@
       "givenName": "Christos",
       "party": "on",
       "partyAb": "ON",
-      "votes": 4510,
-      "pct": 5.44
+      "votes": 5573,
+      "pct": 5.58
     },
     {
       "candidateId": "C41768",
@@ -68,8 +68,8 @@
       "givenName": "Thomas",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 3162,
-      "pct": 3.81
+      "votes": 3814,
+      "pct": 3.82
     },
     {
       "candidateId": "C41874",
@@ -77,8 +77,8 @@
       "givenName": "Vinay",
       "party": "oth",
       "partyAb": "LTP",
-      "votes": 2905,
-      "pct": 3.5
+      "votes": 3419,
+      "pct": 3.42
     }
   ],
   "tcp": [
@@ -2295,79 +2295,6 @@
       ]
     },
     {
-      "boothId": 49,
-      "name": "Kogarah Bay",
-      "formal": 939,
-      "winnerParty": "lib",
-      "winnerSurname": "DOUSKOU",
-      "winnerPct": 54.63,
-      "swing": -10.62,
-      "lat": -33.983053,
-      "lng": 151.124779,
-      "candidates": [
-        {
-          "surname": "DOUSKOU",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 413,
-          "pct": 43.98
-        },
-        {
-          "surname": "AMBIHAIPAHAR",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 332,
-          "pct": 35.36
-        },
-        {
-          "surname": "BAHSA",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 71,
-          "pct": 7.56
-        },
-        {
-          "surname": "NICOLIS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 46,
-          "pct": 4.9
-        },
-        {
-          "surname": "PAMBRIS",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 46,
-          "pct": 4.9
-        },
-        {
-          "surname": "KOLHATKAR",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 31,
-          "pct": 3.3
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "AMBIHAIPAHAR",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 426,
-          "elected": true,
-          "pct": 45.37
-        },
-        {
-          "surname": "DOUSKOU",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 513,
-          "elected": false,
-          "pct": 54.63
-        }
-      ]
-    },
-    {
       "boothId": 83609,
       "name": "Earlwood",
       "formal": 939,
@@ -2437,6 +2364,79 @@
           "votes": 401,
           "elected": false,
           "pct": 42.71
+        }
+      ]
+    },
+    {
+      "boothId": 49,
+      "name": "Kogarah Bay",
+      "formal": 939,
+      "winnerParty": "lib",
+      "winnerSurname": "DOUSKOU",
+      "winnerPct": 54.63,
+      "swing": -10.62,
+      "lat": -33.983053,
+      "lng": 151.124779,
+      "candidates": [
+        {
+          "surname": "DOUSKOU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 413,
+          "pct": 43.98
+        },
+        {
+          "surname": "AMBIHAIPAHAR",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 332,
+          "pct": 35.36
+        },
+        {
+          "surname": "BAHSA",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 71,
+          "pct": 7.56
+        },
+        {
+          "surname": "NICOLIS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 4.9
+        },
+        {
+          "surname": "PAMBRIS",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 46,
+          "pct": 4.9
+        },
+        {
+          "surname": "KOLHATKAR",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 31,
+          "pct": 3.3
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "AMBIHAIPAHAR",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 426,
+          "elected": true,
+          "pct": 45.37
+        },
+        {
+          "surname": "DOUSKOU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 513,
+          "elected": false,
+          "pct": 54.63
         }
       ]
     },
@@ -5117,38 +5117,38 @@
           "year": "2007",
           "shares": {
             "LIB": 33.46,
-            "GRN": 8.28,
             "CDP": 3.01,
-            "ALP": 55.26
+            "ALP": 55.26,
+            "GRN": 8.28
           }
         },
         {
           "year": "2010",
           "shares": {
-            "GRN": 10.85,
+            "ALP": 48.48,
             "LIB": 40.67,
-            "ALP": 48.48
+            "GRN": 10.85
           }
         },
         {
           "year": "2013",
           "shares": {
+            "LIB": 42.35,
+            "IND": 3.84,
+            "ALP": 40.43,
             "ON": 0.86,
             "TOP": 3.89,
-            "ALP": 40.43,
-            "IND": 3.84,
             "GRN": 5.98,
-            "LIB": 42.35,
             "OTH": 2.65
           }
         },
         {
           "year": "2016",
           "shares": {
-            "CDP": 4.23,
-            "ALP": 47.75,
-            "LIB": 35.39,
             "IND": 2.55,
+            "CDP": 4.23,
+            "LIB": 35.39,
+            "ALP": 47.75,
             "GRN": 8.83,
             "OTH": 1.25
           }
@@ -5157,32 +5157,32 @@
           "year": "2019",
           "shares": {
             "LIB": 33.49,
-            "TOP": 2.29,
             "ALP": 49.19,
-            "GRN": 9.03,
+            "ON": 3.66,
             "CDP": 2.34,
-            "ON": 3.66
+            "GRN": 9.03,
+            "TOP": 2.29
           }
         },
         {
           "year": "2022",
           "shares": {
             "LIB": 26.19,
-            "ALP": 50.43,
             "ON": 4.77,
-            "GRN": 12.49,
-            "TOP": 6.12
+            "TOP": 6.12,
+            "ALP": 50.43,
+            "GRN": 12.49
           }
         },
         {
           "year": "2025",
           "shares": {
-            "CYA": 3.82,
             "ALP": 47.12,
-            "ON": 5.58,
             "LTP": 3.42,
-            "LIB": 24.17,
-            "GRN": 15.89
+            "ON": 5.58,
+            "GRN": 15.89,
+            "CYA": 3.82,
+            "LIB": 24.17
           }
         }
       ]

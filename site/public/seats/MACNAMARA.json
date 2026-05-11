@@ -7,8 +7,8 @@
     "name": "Macnamara",
     "state": "VIC",
     "totalFormal": 100338,
-    "informalVotes": 1618,
-    "informalRate": 2.36,
+    "informalVotes": 2246,
+    "informalRate": 2.19,
     "enrolled": 114579,
     "votesCounted": 102584,
     "turnoutPct": 89.53,
@@ -32,8 +32,8 @@
       "givenName": "Josh",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 24954,
-      "pct": 37.23
+      "votes": 36228,
+      "pct": 36.11
     },
     {
       "candidateId": "C40768",
@@ -41,8 +41,8 @@
       "givenName": "Benson",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 19685,
-      "pct": 29.37
+      "votes": 32606,
+      "pct": 32.5
     },
     {
       "candidateId": "C41110",
@@ -50,8 +50,8 @@
       "givenName": "Sonya",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 18814,
-      "pct": 28.07
+      "votes": 25561,
+      "pct": 25.47
     },
     {
       "candidateId": "C41628",
@@ -59,8 +59,8 @@
       "givenName": "Sean",
       "party": "on",
       "partyAb": "ON",
-      "votes": 1673,
-      "pct": 2.5
+      "votes": 2803,
+      "pct": 2.79
     },
     {
       "candidateId": "C37774",
@@ -68,8 +68,8 @@
       "givenName": "JB",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 1066,
-      "pct": 1.59
+      "votes": 1841,
+      "pct": 1.83
     },
     {
       "candidateId": "C42010",
@@ -77,8 +77,8 @@
       "givenName": "Michael",
       "party": "oth",
       "partyAb": "LTP",
-      "votes": 833,
-      "pct": 1.24
+      "votes": 1299,
+      "pct": 1.29
     }
   ],
   "tcp": [
@@ -1930,79 +1930,6 @@
       ]
     },
     {
-      "boothId": 82955,
-      "name": "Albert Park",
-      "formal": 1070,
-      "winnerParty": "alp",
-      "winnerSurname": "BURNS",
-      "winnerPct": 68.13,
-      "swing": 7.49,
-      "lat": -37.835809,
-      "lng": 144.972161,
-      "candidates": [
-        {
-          "surname": "BURNS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 417,
-          "pct": 38.97
-        },
-        {
-          "surname": "SEMMENS",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 321,
-          "pct": 30.0
-        },
-        {
-          "surname": "SAULO",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 281,
-          "pct": 26.26
-        },
-        {
-          "surname": "RUBIN",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 30,
-          "pct": 2.8
-        },
-        {
-          "surname": "MYERS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 13,
-          "pct": 1.21
-        },
-        {
-          "surname": "ABELMAN",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 8,
-          "pct": 0.75
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "BURNS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 729,
-          "elected": true,
-          "pct": 68.13
-        },
-        {
-          "surname": "SAULO",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 341,
-          "elected": false,
-          "pct": 31.87
-        }
-      ]
-    },
-    {
       "boothId": 104661,
       "name": "Elsternwick (Macnamara)",
       "formal": 1070,
@@ -2072,6 +1999,79 @@
           "votes": 369,
           "elected": false,
           "pct": 34.49
+        }
+      ]
+    },
+    {
+      "boothId": 82955,
+      "name": "Albert Park",
+      "formal": 1070,
+      "winnerParty": "alp",
+      "winnerSurname": "BURNS",
+      "winnerPct": 68.13,
+      "swing": 7.49,
+      "lat": -37.835809,
+      "lng": 144.972161,
+      "candidates": [
+        {
+          "surname": "BURNS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 417,
+          "pct": 38.97
+        },
+        {
+          "surname": "SEMMENS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 321,
+          "pct": 30.0
+        },
+        {
+          "surname": "SAULO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 281,
+          "pct": 26.26
+        },
+        {
+          "surname": "RUBIN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 30,
+          "pct": 2.8
+        },
+        {
+          "surname": "MYERS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 13,
+          "pct": 1.21
+        },
+        {
+          "surname": "ABELMAN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 8,
+          "pct": 0.75
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BURNS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 729,
+          "elected": true,
+          "pct": 68.13
+        },
+        {
+          "surname": "SAULO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 341,
+          "elected": false,
+          "pct": 31.87
         }
       ]
     },
@@ -3171,79 +3171,6 @@
       ]
     },
     {
-      "boothId": 65427,
-      "name": "EAV Macnamara PPVC",
-      "formal": 30,
-      "winnerParty": "alp",
-      "winnerSurname": "BURNS",
-      "winnerPct": 83.33,
-      "swing": 15.47,
-      "lat": -35.27731412,
-      "lng": 149.13122656,
-      "candidates": [
-        {
-          "surname": "BURNS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 16,
-          "pct": 53.33
-        },
-        {
-          "surname": "SEMMENS",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 7,
-          "pct": 23.33
-        },
-        {
-          "surname": "SAULO",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 4,
-          "pct": 13.33
-        },
-        {
-          "surname": "RUBIN",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 3,
-          "pct": 10.0
-        },
-        {
-          "surname": "ABELMAN",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "MYERS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "BURNS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 25,
-          "elected": true,
-          "pct": 83.33
-        },
-        {
-          "surname": "SAULO",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 5,
-          "elected": false,
-          "pct": 16.67
-        }
-      ]
-    },
-    {
       "boothId": 109141,
       "name": "Special Hospital Team 3",
       "formal": 30,
@@ -3313,6 +3240,79 @@
           "votes": 8,
           "elected": false,
           "pct": 26.67
+        }
+      ]
+    },
+    {
+      "boothId": 65427,
+      "name": "EAV Macnamara PPVC",
+      "formal": 30,
+      "winnerParty": "alp",
+      "winnerSurname": "BURNS",
+      "winnerPct": 83.33,
+      "swing": 15.47,
+      "lat": -35.27731412,
+      "lng": 149.13122656,
+      "candidates": [
+        {
+          "surname": "BURNS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 16,
+          "pct": 53.33
+        },
+        {
+          "surname": "SEMMENS",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 7,
+          "pct": 23.33
+        },
+        {
+          "surname": "SAULO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 4,
+          "pct": 13.33
+        },
+        {
+          "surname": "RUBIN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "surname": "ABELMAN",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MYERS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "BURNS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 25,
+          "elected": true,
+          "pct": 83.33
+        },
+        {
+          "surname": "SAULO",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 5,
+          "elected": false,
+          "pct": 16.67
         }
       ]
     }
@@ -3437,32 +3437,32 @@
         {
           "year": "2019",
           "shares": {
-            "IND": 2.09,
-            "GRN": 24.24,
-            "ALP": 31.78,
             "LIB": 37.37,
+            "IND": 2.09,
+            "ALP": 31.78,
+            "GRN": 24.24,
             "OTH": 4.53
           }
         },
         {
           "year": "2022",
           "shares": {
-            "TOP": 2.22,
-            "LIB": 29.0,
             "ON": 1.45,
+            "LIB": 29.0,
+            "ALP": 31.77,
+            "TOP": 2.22,
             "GRN": 29.65,
             "LDP": 2.09,
-            "ALP": 31.77,
             "OTH": 3.82
           }
         },
         {
           "year": "2025",
           "shares": {
+            "ALP": 36.11,
+            "ON": 2.79,
             "GRN": 25.47,
             "LIB": 32.5,
-            "ON": 2.79,
-            "ALP": 36.11,
             "OTH": 3.12
           }
         }

@@ -7,8 +7,8 @@
     "name": "New England",
     "state": "NSW",
     "totalFormal": 114346,
-    "informalVotes": 5416,
-    "informalRate": 5.09,
+    "informalVotes": 5816,
+    "informalRate": 4.84,
     "enrolled": 131238,
     "votesCounted": 120162,
     "turnoutPct": 91.56,
@@ -32,8 +32,8 @@
       "givenName": "Barnaby",
       "party": "nat",
       "partyAb": "NAT",
-      "votes": 52895,
-      "pct": 52.37
+      "votes": 59711,
+      "pct": 52.22
     },
     {
       "candidateId": "C41423",
@@ -41,8 +41,8 @@
       "givenName": "Laura",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 20698,
-      "pct": 20.49
+      "votes": 23233,
+      "pct": 20.32
     },
     {
       "candidateId": "C41894",
@@ -50,8 +50,8 @@
       "givenName": "Brent",
       "party": "on",
       "partyAb": "ON",
-      "votes": 10003,
-      "pct": 9.9
+      "votes": 11387,
+      "pct": 9.96
     },
     {
       "candidateId": "C41622",
@@ -59,8 +59,8 @@
       "givenName": "Wendy",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 7820,
-      "pct": 7.74
+      "votes": 9023,
+      "pct": 7.89
     },
     {
       "candidateId": "C33409",
@@ -68,8 +68,8 @@
       "givenName": "Natasha",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 3625,
-      "pct": 3.59
+      "votes": 4240,
+      "pct": 3.71
     },
     {
       "candidateId": "C41805",
@@ -77,8 +77,8 @@
       "givenName": "Holly",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 3240,
-      "pct": 3.21
+      "votes": 3646,
+      "pct": 3.19
     },
     {
       "candidateId": "C41681",
@@ -86,8 +86,8 @@
       "givenName": "Todd Charles",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 2720,
-      "pct": 2.69
+      "votes": 3106,
+      "pct": 2.72
     }
   ],
   "tcp": [
@@ -3554,86 +3554,6 @@
       ]
     },
     {
-      "boothId": 1130,
-      "name": "Murrurundi",
-      "formal": 617,
-      "winnerParty": "nat",
-      "winnerSurname": "JOYCE",
-      "winnerPct": 68.72,
-      "swing": -2.56,
-      "lat": -31.7640919870878,
-      "lng": 150.83461889474,
-      "candidates": [
-        {
-          "surname": "JOYCE",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 319,
-          "pct": 51.7
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 111,
-          "pct": 17.99
-        },
-        {
-          "surname": "LARKHAM",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 73,
-          "pct": 11.83
-        },
-        {
-          "surname": "WALES",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 62,
-          "pct": 10.05
-        },
-        {
-          "surname": "JUCHAU",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 26,
-          "pct": 4.21
-        },
-        {
-          "surname": "MASTERS",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 14,
-          "pct": 2.27
-        },
-        {
-          "surname": "LEDGER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 12,
-          "pct": 1.94
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "JOYCE",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 424,
-          "elected": true,
-          "pct": 68.72
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 193,
-          "elected": false,
-          "pct": 31.28
-        }
-      ]
-    },
-    {
       "boothId": 1166,
       "name": "Werris Creek",
       "formal": 617,
@@ -3710,6 +3630,86 @@
           "votes": 260,
           "elected": false,
           "pct": 42.14
+        }
+      ]
+    },
+    {
+      "boothId": 1130,
+      "name": "Murrurundi",
+      "formal": 617,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 68.72,
+      "swing": -2.56,
+      "lat": -31.7640919870878,
+      "lng": 150.83461889474,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 319,
+          "pct": 51.7
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 111,
+          "pct": 17.99
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 73,
+          "pct": 11.83
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 62,
+          "pct": 10.05
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 26,
+          "pct": 4.21
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 14,
+          "pct": 2.27
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 424,
+          "elected": true,
+          "pct": 68.72
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 193,
+          "elected": false,
+          "pct": 31.28
         }
       ]
     },
@@ -4754,86 +4754,6 @@
       ]
     },
     {
-      "boothId": 1169,
-      "name": "Willow Tree",
-      "formal": 279,
-      "winnerParty": "nat",
-      "winnerSurname": "JOYCE",
-      "winnerPct": 86.02,
-      "swing": 7.59,
-      "lat": -31.64539233,
-      "lng": 150.72618977,
-      "candidates": [
-        {
-          "surname": "JOYCE",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 201,
-          "pct": 72.04
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 25,
-          "pct": 8.96
-        },
-        {
-          "surname": "LARKHAM",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 24,
-          "pct": 8.6
-        },
-        {
-          "surname": "JUCHAU",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 11,
-          "pct": 3.94
-        },
-        {
-          "surname": "WALES",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 9,
-          "pct": 3.23
-        },
-        {
-          "surname": "LEDGER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 6,
-          "pct": 2.15
-        },
-        {
-          "surname": "MASTERS",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 3,
-          "pct": 1.08
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "JOYCE",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 240,
-          "elected": true,
-          "pct": 86.02
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 39,
-          "elected": false,
-          "pct": 13.98
-        }
-      ]
-    },
-    {
       "boothId": 1939,
       "name": "Glen Innes",
       "formal": 279,
@@ -4910,6 +4830,86 @@
           "votes": 99,
           "elected": false,
           "pct": 35.48
+        }
+      ]
+    },
+    {
+      "boothId": 1169,
+      "name": "Willow Tree",
+      "formal": 279,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 86.02,
+      "swing": 7.59,
+      "lat": -31.64539233,
+      "lng": 150.72618977,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 201,
+          "pct": 72.04
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 25,
+          "pct": 8.96
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 24,
+          "pct": 8.6
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 3.94
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 3.23
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 6,
+          "pct": 2.15
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 3,
+          "pct": 1.08
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 240,
+          "elected": true,
+          "pct": 86.02
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 39,
+          "elected": false,
+          "pct": 13.98
         }
       ]
     },
@@ -5314,86 +5314,6 @@
       ]
     },
     {
-      "boothId": 2070,
-      "name": "Drake",
-      "formal": 234,
-      "winnerParty": "nat",
-      "winnerSurname": "JOYCE",
-      "winnerPct": 52.99,
-      "swing": 3.69,
-      "lat": -28.9286,
-      "lng": 152.375,
-      "candidates": [
-        {
-          "surname": "JOYCE",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 87,
-          "pct": 37.18
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 61,
-          "pct": 26.07
-        },
-        {
-          "surname": "WALES",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 34,
-          "pct": 14.53
-        },
-        {
-          "surname": "LARKHAM",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 26,
-          "pct": 11.11
-        },
-        {
-          "surname": "MASTERS",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 12,
-          "pct": 5.13
-        },
-        {
-          "surname": "JUCHAU",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 9,
-          "pct": 3.85
-        },
-        {
-          "surname": "LEDGER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 5,
-          "pct": 2.14
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "JOYCE",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 124,
-          "elected": true,
-          "pct": 52.99
-        },
-        {
-          "surname": "HUGHES",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 110,
-          "elected": false,
-          "pct": 47.01
-        }
-      ]
-    },
-    {
       "boothId": 1095,
       "name": "Currabubula",
       "formal": 234,
@@ -5470,6 +5390,86 @@
           "votes": 50,
           "elected": false,
           "pct": 21.37
+        }
+      ]
+    },
+    {
+      "boothId": 2070,
+      "name": "Drake",
+      "formal": 234,
+      "winnerParty": "nat",
+      "winnerSurname": "JOYCE",
+      "winnerPct": 52.99,
+      "swing": 3.69,
+      "lat": -28.9286,
+      "lng": 152.375,
+      "candidates": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 87,
+          "pct": 37.18
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 61,
+          "pct": 26.07
+        },
+        {
+          "surname": "WALES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 34,
+          "pct": 14.53
+        },
+        {
+          "surname": "LARKHAM",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 26,
+          "pct": 11.11
+        },
+        {
+          "surname": "MASTERS",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 12,
+          "pct": 5.13
+        },
+        {
+          "surname": "JUCHAU",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 9,
+          "pct": 3.85
+        },
+        {
+          "surname": "LEDGER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 5,
+          "pct": 2.14
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "JOYCE",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 124,
+          "elected": true,
+          "pct": 52.99
+        },
+        {
+          "surname": "HUGHES",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 110,
+          "elected": false,
+          "pct": 47.01
         }
       ]
     },
@@ -8743,22 +8743,22 @@
         {
           "year": "2007",
           "shares": {
-            "NAT": 23.31,
-            "CLR": 9.83,
-            "IND": 61.94,
-            "GRN": 3.4,
             "ON": 1.26,
+            "CLR": 9.83,
+            "GRN": 3.4,
+            "IND": 61.94,
+            "NAT": 23.31,
             "OTH": 0.26
           }
         },
         {
           "year": "2010",
           "shares": {
+            "IND": 61.88,
+            "CLR": 8.13,
             "GRN": 3.57,
             "ON": 0.87,
-            "CLR": 8.13,
             "NAT": 25.22,
-            "IND": 61.88,
             "OTH": 0.34
           }
         },
@@ -8767,55 +8767,55 @@
           "shares": {
             "NAT": 54.21,
             "CLR": 11.86,
-            "IND": 20.41,
+            "ON": 1.72,
             "GRN": 4.58,
             "TOP": 5.2,
-            "ON": 1.72,
+            "IND": 20.41,
             "OTH": 2.03
           }
         },
         {
           "year": "2016",
           "shares": {
-            "ALP": 7.01,
-            "IND": 32.92,
             "GRN": 2.92,
             "NAT": 52.29,
+            "ALP": 7.01,
+            "IND": 32.92,
             "OTH": 4.86
           }
         },
         {
           "year": "2019",
           "shares": {
-            "GRN": 4.43,
             "CDP": 2.28,
-            "NAT": 54.82,
+            "IND": 21.14,
             "TOP": 4.58,
+            "GRN": 4.43,
             "ALP": 12.75,
-            "IND": 21.14
+            "NAT": 54.82
           }
         },
         {
           "year": "2022",
           "shares": {
-            "GRN": 7.74,
             "IND": 10.66,
             "LDP": 3.26,
             "ALP": 18.56,
-            "ON": 4.7,
             "NAT": 52.47,
-            "TOP": 2.62
+            "GRN": 7.74,
+            "TOP": 2.62,
+            "ON": 4.7
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ALP": 20.32,
-            "ON": 9.96,
-            "IND": 3.71,
             "GRN": 7.89,
-            "NAT": 52.22,
+            "IND": 3.71,
+            "ON": 9.96,
             "FFP": 3.19,
+            "NAT": 52.22,
+            "ALP": 20.32,
             "CYA": 2.72
           }
         }

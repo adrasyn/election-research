@@ -7,8 +7,8 @@
     "name": "Bowman",
     "state": "QLD",
     "totalFormal": 107987,
-    "informalVotes": 3425,
-    "informalRate": 3.91,
+    "informalVotes": 3986,
+    "informalRate": 3.56,
     "enrolled": 122940,
     "votesCounted": 111973,
     "turnoutPct": 91.08,
@@ -32,8 +32,8 @@
       "givenName": "Henry",
       "party": "lnp",
       "partyAb": "LNP",
-      "votes": 33335,
-      "pct": 39.63
+      "votes": 42777,
+      "pct": 39.61
     },
     {
       "candidateId": "C40730",
@@ -41,8 +41,8 @@
       "givenName": "Darcy",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 26804,
-      "pct": 31.87
+      "votes": 34247,
+      "pct": 31.71
     },
     {
       "candidateId": "C41259",
@@ -50,8 +50,8 @@
       "givenName": "Kristie",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 10084,
-      "pct": 11.99
+      "votes": 12689,
+      "pct": 11.75
     },
     {
       "candidateId": "C40930",
@@ -59,8 +59,8 @@
       "givenName": "Matthew",
       "party": "on",
       "partyAb": "ON",
-      "votes": 5691,
-      "pct": 6.77
+      "votes": 7650,
+      "pct": 7.08
     },
     {
       "candidateId": "C41334",
@@ -68,17 +68,8 @@
       "givenName": "Gary",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 3001,
-      "pct": 3.57
-    },
-    {
-      "candidateId": "C40852",
-      "surname": "TODD",
-      "givenName": "David",
-      "party": "ffp",
-      "partyAb": "FFP",
-      "votes": 2645,
-      "pct": 3.14
+      "votes": 3924,
+      "pct": 3.63
     },
     {
       "candidateId": "C40623",
@@ -86,8 +77,17 @@
       "givenName": "Shaun",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 2546,
-      "pct": 3.03
+      "votes": 3375,
+      "pct": 3.13
+    },
+    {
+      "candidateId": "C40852",
+      "surname": "TODD",
+      "givenName": "David",
+      "party": "ffp",
+      "partyAb": "FFP",
+      "votes": 3325,
+      "pct": 3.08
     }
   ],
   "tcp": [
@@ -3303,11 +3303,11 @@
         {
           "year": "2007",
           "shares": {
-            "ON": 0.53,
-            "FFP": 2.93,
-            "LIB": 46.16,
             "ALP": 44.11,
+            "LIB": 46.16,
+            "FFP": 2.93,
             "GRN": 5.45,
+            "ON": 0.53,
             "OTH": 0.82
           }
         },
@@ -3315,41 +3315,41 @@
           "year": "2010",
           "shares": {
             "FFP": 2.24,
-            "LIB": 55.63,
             "ALP": 30.17,
-            "ON": 1.06,
             "GRN": 9.97,
+            "ON": 1.06,
+            "LIB": 55.63,
             "OTH": 0.94
           }
         },
         {
           "year": "2013",
           "shares": {
-            "LIB": 49.28,
-            "FFP": 2.15,
-            "GRN": 5.98,
             "ALP": 29.88,
-            "TOP": 12.71
+            "GRN": 5.98,
+            "TOP": 12.71,
+            "LIB": 49.28,
+            "FFP": 2.15
           }
         },
         {
           "year": "2016",
           "shares": {
-            "FFP": 4.83,
-            "GRN": 9.76,
+            "ALP": 32.05,
             "LIB": 49.77,
-            "ALA": 3.59,
-            "ALP": 32.05
+            "GRN": 9.76,
+            "FFP": 4.83,
+            "ALA": 3.59
           }
         },
         {
           "year": "2019",
           "shares": {
-            "LIB": 48.67,
-            "ALP": 26.59,
             "GRN": 11.99,
-            "TOP": 3.6,
+            "LIB": 48.67,
             "ON": 7.3,
+            "ALP": 26.59,
+            "TOP": 3.6,
             "OTH": 1.85
           }
         },
@@ -3358,22 +3358,22 @@
           "shares": {
             "GRN": 13.02,
             "LIB": 42.37,
-            "ALP": 29.2,
             "TOP": 6.49,
             "ON": 7.69,
+            "ALP": 29.2,
             "OTH": 1.22
           }
         },
         {
           "year": "2025",
           "shares": {
-            "CYA": 3.63,
             "GRN": 11.75,
-            "FFP": 3.08,
-            "IND": 3.13,
-            "ON": 7.08,
+            "LIB": 39.61,
+            "CYA": 3.63,
             "ALP": 31.71,
-            "LIB": 39.61
+            "FFP": 3.08,
+            "ON": 7.08,
+            "IND": 3.13
           }
         }
       ]

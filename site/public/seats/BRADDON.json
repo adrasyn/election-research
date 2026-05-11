@@ -7,8 +7,8 @@
     "name": "Braddon",
     "state": "TAS",
     "totalFormal": 74840,
-    "informalVotes": 3284,
-    "informalRate": 4.8,
+    "informalVotes": 3553,
+    "informalRate": 4.53,
     "enrolled": 84244,
     "votesCounted": 78393,
     "turnoutPct": 93.05,
@@ -32,8 +32,8 @@
       "givenName": "Anne",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 25920,
-      "pct": 39.78
+      "votes": 29579,
+      "pct": 39.52
     },
     {
       "candidateId": "C40762",
@@ -41,8 +41,8 @@
       "givenName": "Mal",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 20618,
-      "pct": 31.64
+      "votes": 23700,
+      "pct": 31.67
     },
     {
       "candidateId": "C41321",
@@ -50,8 +50,8 @@
       "givenName": "Erin",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 5347,
-      "pct": 8.21
+      "votes": 6318,
+      "pct": 8.44
     },
     {
       "candidateId": "C42059",
@@ -59,8 +59,8 @@
       "givenName": "Adam",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 5347,
-      "pct": 8.21
+      "votes": 6174,
+      "pct": 8.25
     },
     {
       "candidateId": "C42065",
@@ -68,8 +68,8 @@
       "givenName": "Christopher",
       "party": "on",
       "partyAb": "ON",
-      "votes": 4994,
-      "pct": 7.66
+      "votes": 5709,
+      "pct": 7.63
     },
     {
       "candidateId": "C42109",
@@ -77,8 +77,8 @@
       "givenName": "Stephen John",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 2936,
-      "pct": 4.51
+      "votes": 3360,
+      "pct": 4.49
     }
   ],
   "tcp": [
@@ -1346,79 +1346,6 @@
       ]
     },
     {
-      "boothId": 8615,
-      "name": "Latrobe",
-      "formal": 1042,
-      "winnerParty": "alp",
-      "winnerSurname": "URQUHART",
-      "winnerPct": 56.81,
-      "swing": 17.32,
-      "lat": -41.2365,
-      "lng": 146.415,
-      "candidates": [
-        {
-          "surname": "URQUHART",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 408,
-          "pct": 39.16
-        },
-        {
-          "surname": "HINGSTON",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 332,
-          "pct": 31.86
-        },
-        {
-          "surname": "METHORST",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 94,
-          "pct": 9.02
-        },
-        {
-          "surname": "MARTIN",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 87,
-          "pct": 8.35
-        },
-        {
-          "surname": "MORROW",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 76,
-          "pct": 7.29
-        },
-        {
-          "surname": "KENNEY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 45,
-          "pct": 4.32
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "URQUHART",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 592,
-          "elected": true,
-          "pct": 56.81
-        },
-        {
-          "surname": "HINGSTON",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 450,
-          "elected": false,
-          "pct": 43.19
-        }
-      ]
-    },
-    {
       "boothId": 8359,
       "name": "Acton",
       "formal": 1042,
@@ -1488,6 +1415,79 @@
           "votes": 306,
           "elected": false,
           "pct": 29.37
+        }
+      ]
+    },
+    {
+      "boothId": 8615,
+      "name": "Latrobe",
+      "formal": 1042,
+      "winnerParty": "alp",
+      "winnerSurname": "URQUHART",
+      "winnerPct": 56.81,
+      "swing": 17.32,
+      "lat": -41.2365,
+      "lng": 146.415,
+      "candidates": [
+        {
+          "surname": "URQUHART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 408,
+          "pct": 39.16
+        },
+        {
+          "surname": "HINGSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 332,
+          "pct": 31.86
+        },
+        {
+          "surname": "METHORST",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 94,
+          "pct": 9.02
+        },
+        {
+          "surname": "MARTIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 87,
+          "pct": 8.35
+        },
+        {
+          "surname": "MORROW",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 7.29
+        },
+        {
+          "surname": "KENNEY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 45,
+          "pct": 4.32
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "URQUHART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 592,
+          "elected": true,
+          "pct": 56.81
+        },
+        {
+          "surname": "HINGSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 450,
+          "elected": false,
+          "pct": 43.19
         }
       ]
     },
@@ -3171,79 +3171,6 @@
       ]
     },
     {
-      "boothId": 108950,
-      "name": "Special Hospital Team 2",
-      "formal": 337,
-      "winnerParty": "alp",
-      "winnerSurname": "URQUHART",
-      "winnerPct": 53.41,
-      "swing": 13.78,
-      "lat": null,
-      "lng": null,
-      "candidates": [
-        {
-          "surname": "URQUHART",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 139,
-          "pct": 41.25
-        },
-        {
-          "surname": "HINGSTON",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 131,
-          "pct": 38.87
-        },
-        {
-          "surname": "METHORST",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 23,
-          "pct": 6.82
-        },
-        {
-          "surname": "MARTIN",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 16,
-          "pct": 4.75
-        },
-        {
-          "surname": "KENNEY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 14,
-          "pct": 4.15
-        },
-        {
-          "surname": "MORROW",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 14,
-          "pct": 4.15
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "URQUHART",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 180,
-          "elected": true,
-          "pct": 53.41
-        },
-        {
-          "surname": "HINGSTON",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 157,
-          "elected": false,
-          "pct": 46.59
-        }
-      ]
-    },
-    {
       "boothId": 8434,
       "name": "Wivenhoe",
       "formal": 337,
@@ -3313,6 +3240,79 @@
           "votes": 144,
           "elected": false,
           "pct": 42.73
+        }
+      ]
+    },
+    {
+      "boothId": 108950,
+      "name": "Special Hospital Team 2",
+      "formal": 337,
+      "winnerParty": "alp",
+      "winnerSurname": "URQUHART",
+      "winnerPct": 53.41,
+      "swing": 13.78,
+      "lat": null,
+      "lng": null,
+      "candidates": [
+        {
+          "surname": "URQUHART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 139,
+          "pct": 41.25
+        },
+        {
+          "surname": "HINGSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 131,
+          "pct": 38.87
+        },
+        {
+          "surname": "METHORST",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 23,
+          "pct": 6.82
+        },
+        {
+          "surname": "MARTIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 16,
+          "pct": 4.75
+        },
+        {
+          "surname": "KENNEY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 14,
+          "pct": 4.15
+        },
+        {
+          "surname": "MORROW",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 14,
+          "pct": 4.15
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "URQUHART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 180,
+          "elected": true,
+          "pct": 53.41
+        },
+        {
+          "surname": "HINGSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 157,
+          "elected": false,
+          "pct": 46.59
         }
       ]
     },
@@ -3682,79 +3682,6 @@
       ]
     },
     {
-      "boothId": 8420,
-      "name": "Stowport",
-      "formal": 283,
-      "winnerParty": "lib",
-      "winnerSurname": "HINGSTON",
-      "winnerPct": 53.71,
-      "swing": -8.35,
-      "lat": -41.1122286249902,
-      "lng": 145.928638181888,
-      "candidates": [
-        {
-          "surname": "HINGSTON",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 118,
-          "pct": 41.7
-        },
-        {
-          "surname": "URQUHART",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 89,
-          "pct": 31.45
-        },
-        {
-          "surname": "MARTIN",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 26,
-          "pct": 9.19
-        },
-        {
-          "surname": "METHORST",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 25,
-          "pct": 8.83
-        },
-        {
-          "surname": "MORROW",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 18,
-          "pct": 6.36
-        },
-        {
-          "surname": "KENNEY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 7,
-          "pct": 2.47
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "URQUHART",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 131,
-          "elected": true,
-          "pct": 46.29
-        },
-        {
-          "surname": "HINGSTON",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 152,
-          "elected": false,
-          "pct": 53.71
-        }
-      ]
-    },
-    {
       "boothId": 8402,
       "name": "North Motton",
       "formal": 283,
@@ -3824,6 +3751,79 @@
           "votes": 159,
           "elected": false,
           "pct": 56.18
+        }
+      ]
+    },
+    {
+      "boothId": 8420,
+      "name": "Stowport",
+      "formal": 283,
+      "winnerParty": "lib",
+      "winnerSurname": "HINGSTON",
+      "winnerPct": 53.71,
+      "swing": -8.35,
+      "lat": -41.1122286249902,
+      "lng": 145.928638181888,
+      "candidates": [
+        {
+          "surname": "HINGSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 118,
+          "pct": 41.7
+        },
+        {
+          "surname": "URQUHART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 89,
+          "pct": 31.45
+        },
+        {
+          "surname": "MARTIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 26,
+          "pct": 9.19
+        },
+        {
+          "surname": "METHORST",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 25,
+          "pct": 8.83
+        },
+        {
+          "surname": "MORROW",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 18,
+          "pct": 6.36
+        },
+        {
+          "surname": "KENNEY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 7,
+          "pct": 2.47
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "URQUHART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 131,
+          "elected": true,
+          "pct": 46.29
+        },
+        {
+          "surname": "HINGSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 152,
+          "elected": false,
+          "pct": 53.71
         }
       ]
     },
@@ -5434,79 +5434,6 @@
       ]
     },
     {
-      "boothId": 8679,
-      "name": "Tullah",
-      "formal": 102,
-      "winnerParty": "alp",
-      "winnerSurname": "URQUHART",
-      "winnerPct": 51.96,
-      "swing": 19.4,
-      "lat": -41.7378809960649,
-      "lng": 145.616019274326,
-      "candidates": [
-        {
-          "surname": "URQUHART",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 28,
-          "pct": 27.45
-        },
-        {
-          "surname": "HINGSTON",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 28,
-          "pct": 27.45
-        },
-        {
-          "surname": "METHORST",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 15,
-          "pct": 14.71
-        },
-        {
-          "surname": "MARTIN",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 12,
-          "pct": 11.76
-        },
-        {
-          "surname": "KENNEY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 10,
-          "pct": 9.8
-        },
-        {
-          "surname": "MORROW",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 9,
-          "pct": 8.82
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "URQUHART",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 53,
-          "elected": true,
-          "pct": 51.96
-        },
-        {
-          "surname": "HINGSTON",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 49,
-          "elected": false,
-          "pct": 48.04
-        }
-      ]
-    },
-    {
       "boothId": 8382,
       "name": "Grassy",
       "formal": 102,
@@ -5580,57 +5507,57 @@
       ]
     },
     {
-      "boothId": 65617,
-      "name": "EAV Braddon PPVC",
-      "formal": 4,
+      "boothId": 8679,
+      "name": "Tullah",
+      "formal": 102,
       "winnerParty": "alp",
       "winnerSurname": "URQUHART",
-      "winnerPct": 100.0,
-      "swing": 80.0,
-      "lat": -35.27731412,
-      "lng": 149.13122656,
+      "winnerPct": 51.96,
+      "swing": 19.4,
+      "lat": -41.7378809960649,
+      "lng": 145.616019274326,
       "candidates": [
         {
           "surname": "URQUHART",
           "partyAb": "ALP",
           "party": "alp",
-          "votes": 3,
-          "pct": 75.0
-        },
-        {
-          "surname": "MARTIN",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 1,
-          "pct": 25.0
-        },
-        {
-          "surname": "KENNEY",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "MORROW",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "METHORST",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 0,
-          "pct": 0.0
+          "votes": 28,
+          "pct": 27.45
         },
         {
           "surname": "HINGSTON",
           "partyAb": "LIB",
           "party": "lib",
-          "votes": 0,
-          "pct": 0.0
+          "votes": 28,
+          "pct": 27.45
+        },
+        {
+          "surname": "METHORST",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 15,
+          "pct": 14.71
+        },
+        {
+          "surname": "MARTIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 11.76
+        },
+        {
+          "surname": "KENNEY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 9.8
+        },
+        {
+          "surname": "MORROW",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 9,
+          "pct": 8.82
         }
       ],
       "tcp": [
@@ -5638,17 +5565,17 @@
           "surname": "URQUHART",
           "partyAb": "ALP",
           "party": "alp",
-          "votes": 4,
+          "votes": 53,
           "elected": true,
-          "pct": 100.0
+          "pct": 51.96
         },
         {
           "surname": "HINGSTON",
           "partyAb": "LIB",
           "party": "lib",
-          "votes": 0,
+          "votes": 49,
           "elected": false,
-          "pct": 0.0
+          "pct": 48.04
         }
       ]
     },
@@ -5722,6 +5649,79 @@
           "votes": 1,
           "elected": false,
           "pct": 25.0
+        }
+      ]
+    },
+    {
+      "boothId": 65617,
+      "name": "EAV Braddon PPVC",
+      "formal": 4,
+      "winnerParty": "alp",
+      "winnerSurname": "URQUHART",
+      "winnerPct": 100.0,
+      "swing": 80.0,
+      "lat": -35.27731412,
+      "lng": 149.13122656,
+      "candidates": [
+        {
+          "surname": "URQUHART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 3,
+          "pct": 75.0
+        },
+        {
+          "surname": "MARTIN",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 1,
+          "pct": 25.0
+        },
+        {
+          "surname": "KENNEY",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "MORROW",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "METHORST",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "HINGSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "URQUHART",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 4,
+          "elected": true,
+          "pct": 100.0
+        },
+        {
+          "surname": "HINGSTON",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 0,
+          "elected": false,
+          "pct": 0.0
         }
       ]
     }
@@ -5846,10 +5846,10 @@
         {
           "year": "2007",
           "shares": {
-            "FFP": 3.22,
-            "ALP": 43.69,
             "GRN": 8.14,
             "LIB": 44.0,
+            "FFP": 3.22,
+            "ALP": 43.69,
             "OTH": 0.95
           }
         },
@@ -5865,8 +5865,8 @@
           "year": "2013",
           "shares": {
             "LIB": 46.86,
-            "TOP": 9.29,
             "GRN": 5.17,
+            "TOP": 9.29,
             "ALP": 37.59,
             "OTH": 1.1
           }
@@ -5874,49 +5874,49 @@
         {
           "year": "2016",
           "shares": {
-            "ALP": 40.05,
+            "REP": 2.08,
             "LIB": 41.5,
             "GRN": 6.74,
-            "REP": 2.08,
             "LDP": 2.13,
             "ARF": 5.72,
+            "ALP": 40.05,
             "OTH": 1.78
           }
         },
         {
           "year": "2019",
           "shares": {
+            "NAT": 2.36,
+            "ALP": 32.06,
+            "GRN": 4.84,
+            "ON": 5.54,
             "LIB": 37.89,
             "IND": 12.61,
-            "NAT": 2.36,
-            "GRN": 4.84,
-            "ALP": 32.06,
             "TOP": 3.68,
-            "ON": 5.54,
             "OTH": 1.02
           }
         },
         {
           "year": "2022",
           "shares": {
-            "JLN": 9.87,
-            "IND": 7.84,
-            "ON": 4.34,
             "GRN": 6.72,
-            "ALP": 22.5,
+            "ON": 4.34,
+            "IND": 7.84,
             "LIB": 44.11,
+            "JLN": 9.87,
+            "ALP": 22.5,
             "OTH": 4.62
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 7.63,
-            "LIB": 31.67,
-            "CYA": 4.49,
-            "ALP": 39.52,
             "IND": 8.25,
-            "GRN": 8.44
+            "CYA": 4.49,
+            "GRN": 8.44,
+            "LIB": 31.67,
+            "ON": 7.63,
+            "ALP": 39.52
           }
         }
       ]

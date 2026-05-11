@@ -7,8 +7,8 @@
     "name": "Clark",
     "state": "TAS",
     "totalFormal": 67531,
-    "informalVotes": 1421,
-    "informalRate": 2.55,
+    "informalVotes": 1677,
+    "informalRate": 2.42,
     "enrolled": 74304,
     "votesCounted": 69208,
     "turnoutPct": 93.14,
@@ -32,8 +32,8 @@
       "givenName": "Andrew",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 26617,
-      "pct": 48.98
+      "votes": 33011,
+      "pct": 48.88
     },
     {
       "candidateId": "C41524",
@@ -41,17 +41,8 @@
       "givenName": "Heidi",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 10960,
-      "pct": 20.17
-    },
-    {
-      "candidateId": "C41157",
-      "surname": "SHELLEY",
-      "givenName": "Janet",
-      "party": "grn",
-      "partyAb": "GRN",
-      "votes": 7346,
-      "pct": 13.52
+      "votes": 13539,
+      "pct": 20.05
     },
     {
       "candidateId": "C40766",
@@ -59,8 +50,17 @@
       "givenName": "Marilena",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 7229,
-      "pct": 13.3
+      "votes": 9239,
+      "pct": 13.68
+    },
+    {
+      "candidateId": "C41157",
+      "surname": "SHELLEY",
+      "givenName": "Janet",
+      "party": "grn",
+      "partyAb": "GRN",
+      "votes": 8908,
+      "pct": 13.19
     },
     {
       "candidateId": "C42055",
@@ -68,8 +68,8 @@
       "givenName": "Cathy",
       "party": "on",
       "partyAb": "ON",
-      "votes": 2188,
-      "pct": 4.03
+      "votes": 2834,
+      "pct": 4.2
     }
   ],
   "tcp": [
@@ -3370,21 +3370,21 @@
         {
           "year": "2019",
           "shares": {
-            "TOP": 2.79,
-            "LIB": 17.37,
-            "GRN": 9.57,
             "ALP": 20.22,
-            "IND": 50.05
+            "TOP": 2.79,
+            "IND": 50.05,
+            "LIB": 17.37,
+            "GRN": 9.57
           }
         },
         {
           "year": "2022",
           "shares": {
-            "IND": 45.54,
-            "GRN": 13.45,
-            "ON": 2.6,
             "LIB": 15.85,
             "ALP": 18.76,
+            "ON": 2.6,
+            "GRN": 13.45,
+            "IND": 45.54,
             "OTH": 3.81
           }
         },
@@ -3392,10 +3392,10 @@
           "year": "2025",
           "shares": {
             "LIB": 13.68,
-            "IND": 48.88,
+            "ON": 4.2,
             "ALP": 20.05,
-            "GRN": 13.19,
-            "ON": 4.2
+            "IND": 48.88,
+            "GRN": 13.19
           }
         }
       ]

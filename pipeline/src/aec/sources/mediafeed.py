@@ -70,6 +70,28 @@ class FeedFiles:
         """Master polling-places list (PollingPlaceID → lat/lng + premises)."""
         return self._path(f"GeneralPollingPlacesDownload-{self.event_id}.csv")
 
+    @property
+    def first_prefs_by_vote_type(self) -> Path:
+        """Per-candidate FP split across Ordinary/Absent/Provisional/PrePoll/
+        Postal with a TotalVotes column. This is the canonical FP figure
+        AEC publishes — the by-polling-place file is ordinary-only."""
+        return self._path(
+            f"HouseFirstPrefsByCandidateByVoteTypeDownload-{self.event_id}.csv"
+        )
+
+    @property
+    def informal_by_division(self) -> Path:
+        """Per-division formal + informal totals (matches AEC's published
+        InformalPercent). The booth-level CSV only has ordinary informal."""
+        return self._path(f"HouseInformalByDivisionDownload-{self.event_id}.csv")
+
+    @property
+    def tcp_by_vote_type(self) -> Path:
+        """Per-candidate TCP split across all vote types; TotalVotes column
+        gives the canonical seat-level TCP figure (matches AEC's published
+        margins). The by-polling-place file is ordinary-votes-only."""
+        return self._path(f"HouseTcpByCandidateByVoteTypeDownload-{self.event_id}.csv")
+
     def first_prefs_by_polling_place(self, state: str) -> Path:
         return self._path(
             f"HouseStateFirstPrefsByPollingPlaceDownload-{self.event_id}-{state}.csv"
@@ -104,6 +126,9 @@ def fetch_event(year: int, cache_root: Path, *, refresh: bool = False) -> FeedFi
             files.tpp_by_division,
             files.turnout_by_division,
             files.polling_places,
+            files.first_prefs_by_vote_type,
+            files.informal_by_division,
+            files.tcp_by_vote_type,
             *(files.first_prefs_by_polling_place(s) for s in STATES),
         ]
         for target in targets:

@@ -7,8 +7,8 @@
     "name": "Capricornia",
     "state": "QLD",
     "totalFormal": 98658,
-    "informalVotes": 3192,
-    "informalRate": 3.8,
+    "informalVotes": 3547,
+    "informalRate": 3.47,
     "enrolled": 115141,
     "votesCounted": 102205,
     "turnoutPct": 88.77,
@@ -32,8 +32,8 @@
       "givenName": "Michelle",
       "party": "lnp",
       "partyAb": "LNP",
-      "votes": 28924,
-      "pct": 35.76
+      "votes": 36074,
+      "pct": 36.56
     },
     {
       "candidateId": "C40737",
@@ -41,8 +41,8 @@
       "givenName": "Emily",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 26449,
-      "pct": 32.7
+      "votes": 31483,
+      "pct": 31.91
     },
     {
       "candidateId": "C40936",
@@ -50,8 +50,8 @@
       "givenName": "Cheryl",
       "party": "on",
       "partyAb": "ON",
-      "votes": 12556,
-      "pct": 15.53
+      "votes": 15355,
+      "pct": 15.56
     },
     {
       "candidateId": "C41270",
@@ -59,8 +59,8 @@
       "givenName": "Mick",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 5059,
-      "pct": 6.26
+      "votes": 6101,
+      "pct": 6.18
     },
     {
       "candidateId": "C41340",
@@ -68,8 +68,8 @@
       "givenName": "Stephen",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 4857,
-      "pct": 6.01
+      "votes": 5999,
+      "pct": 6.08
     },
     {
       "candidateId": "C40858",
@@ -77,8 +77,8 @@
       "givenName": "Kerri",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 3028,
-      "pct": 3.74
+      "votes": 3646,
+      "pct": 3.7
     }
   ],
   "tcp": [
@@ -3682,79 +3682,6 @@
       ]
     },
     {
-      "boothId": 109728,
-      "name": "Blackwater CAPRICORNIA PPVC",
-      "formal": 106,
-      "winnerParty": "lnp",
-      "winnerSurname": "LANDRY",
-      "winnerPct": 70.75,
-      "swing": 13.81,
-      "lat": -23.58675,
-      "lng": 148.87993,
-      "candidates": [
-        {
-          "surname": "LANDRY",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 45,
-          "pct": 42.45
-        },
-        {
-          "surname": "KEMPTON",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 28,
-          "pct": 26.42
-        },
-        {
-          "surname": "MAWSON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 20,
-          "pct": 18.87
-        },
-        {
-          "surname": "ANDREW",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 10,
-          "pct": 9.43
-        },
-        {
-          "surname": "JONES",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 2,
-          "pct": 1.89
-        },
-        {
-          "surname": "HISLOP",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 1,
-          "pct": 0.94
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "LANDRY",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 75,
-          "elected": true,
-          "pct": 70.75
-        },
-        {
-          "surname": "MAWSON",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 31,
-          "elected": false,
-          "pct": 29.25
-        }
-      ]
-    },
-    {
       "boothId": 109781,
       "name": "Gracemere South (Capricornia)",
       "formal": 106,
@@ -3824,6 +3751,79 @@
           "votes": 46,
           "elected": false,
           "pct": 43.4
+        }
+      ]
+    },
+    {
+      "boothId": 109728,
+      "name": "Blackwater CAPRICORNIA PPVC",
+      "formal": 106,
+      "winnerParty": "lnp",
+      "winnerSurname": "LANDRY",
+      "winnerPct": 70.75,
+      "swing": 13.81,
+      "lat": -23.58675,
+      "lng": 148.87993,
+      "candidates": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 45,
+          "pct": 42.45
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 28,
+          "pct": 26.42
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 20,
+          "pct": 18.87
+        },
+        {
+          "surname": "ANDREW",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 10,
+          "pct": 9.43
+        },
+        {
+          "surname": "JONES",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 2,
+          "pct": 1.89
+        },
+        {
+          "surname": "HISLOP",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 1,
+          "pct": 0.94
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "LANDRY",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 75,
+          "elected": true,
+          "pct": 70.75
+        },
+        {
+          "surname": "MAWSON",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 31,
+          "elected": false,
+          "pct": 29.25
         }
       ]
     },
@@ -4254,22 +4254,22 @@
         {
           "year": "2007",
           "shares": {
-            "NAT": 18.41,
-            "IND": 2.19,
-            "LIB": 18.12,
-            "ALP": 55.84,
             "GRN": 2.92,
+            "IND": 2.19,
+            "NAT": 18.41,
+            "ALP": 55.84,
+            "LIB": 18.12,
             "OTH": 2.53
           }
         },
         {
           "year": "2010",
           "shares": {
-            "FFP": 3.49,
-            "IND": 4.29,
-            "ALP": 45.77,
-            "LIB": 40.42,
             "GRN": 5.52,
+            "FFP": 3.49,
+            "ALP": 45.77,
+            "IND": 4.29,
+            "LIB": 40.42,
             "OTH": 0.52
           }
         },
@@ -4277,60 +4277,60 @@
           "year": "2013",
           "shares": {
             "ALP": 37.04,
-            "TOP": 7.95,
             "GRN": 3.43,
-            "KAP": 5.54,
             "LIB": 39.58,
+            "TOP": 7.95,
             "FFP": 3.86,
+            "KAP": 5.54,
             "OTH": 2.61
           }
         },
         {
           "year": "2016",
           "shares": {
-            "FFP": 5.16,
-            "KAP": 7.08,
-            "LIB": 40.05,
             "IND": 4.89,
+            "GRN": 4.73,
+            "KAP": 7.08,
+            "FFP": 5.16,
             "ALP": 38.09,
-            "GRN": 4.73
+            "LIB": 40.05
           }
         },
         {
           "year": "2019",
           "shares": {
-            "TOP": 3.65,
-            "FACN": 2.14,
-            "LIB": 40.65,
-            "GRN": 4.84,
-            "ON": 16.98,
-            "KAP": 3.67,
             "ALP": 23.74,
             "IND": 2.49,
+            "GRN": 4.84,
+            "FACN": 2.14,
+            "TOP": 3.65,
+            "LIB": 40.65,
+            "KAP": 3.67,
+            "ON": 16.98,
             "OTH": 1.84
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ALP": 28.05,
-            "ON": 14.6,
-            "LIB": 39.44,
             "TOP": 3.94,
-            "IND": 3.38,
+            "ALP": 28.05,
             "GRN": 5.87,
+            "LIB": 39.44,
+            "IND": 3.38,
+            "ON": 14.6,
             "OTH": 4.72
           }
         },
         {
           "year": "2025",
           "shares": {
-            "CYA": 6.08,
-            "ON": 15.56,
-            "FFP": 3.7,
-            "ALP": 31.91,
             "GRN": 6.18,
-            "LIB": 36.56
+            "FFP": 3.7,
+            "ON": 15.56,
+            "CYA": 6.08,
+            "LIB": 36.56,
+            "ALP": 31.91
           }
         }
       ]

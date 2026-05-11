@@ -16,13 +16,31 @@ from ..sources.mediafeed import SKIP_ROWS
 
 
 def load_first_prefs(paths: list) -> pl.DataFrame:
-    """Concatenate per-state First Preferences CSVs into one frame."""
+    """Concatenate per-state First Preferences CSVs into one frame.
+
+    These per-booth files are ORDINARY-VOTES-ONLY. Per-candidate division
+    totals should use `load_first_prefs_by_vote_type` instead so that
+    postal/absent/prepoll/declaration votes are included.
+    """
     frames = [
         pl.read_csv(p, skip_rows=SKIP_ROWS, infer_schema_length=10000)
         for p in paths
         if p.exists()
     ]
     return pl.concat(frames, how="vertical_relaxed")
+
+
+def load_first_prefs_by_vote_type(path) -> pl.DataFrame:
+    """Per-candidate FP across all vote types (Ordinary + Absent +
+    Provisional + PrePoll + Postal). Use the `TotalVotes` column for the
+    AEC-canonical first-preference figure per candidate per division."""
+    return pl.read_csv(path, skip_rows=SKIP_ROWS, infer_schema_length=10000)
+
+
+def load_informal_by_division(path) -> pl.DataFrame:
+    """Per-division informal/formal totals matching AEC's published
+    InformalPercent (sums all vote types, not just ordinary)."""
+    return pl.read_csv(path, skip_rows=SKIP_ROWS, infer_schema_length=10000)
 
 
 def load_tcp(path) -> pl.DataFrame:
@@ -42,20 +60,40 @@ def load_polling_places(path) -> pl.DataFrame:
     return pl.read_csv(path, skip_rows=SKIP_ROWS, infer_schema_length=10000)
 
 
+# AEC publishes 0,0 for a handful of real fixed-location booths where the
+# geo lookup at their end didn't resolve. Patch in coordinates here so
+# these still appear on the booth inset map. Source: OpenStreetMap +
+# AEC's published premises address.
+MANUAL_COORDS: dict[int, tuple[float, float]] = {
+    # Henty Public School, 43 Sladen St, Henty NSW 2658 (Farrer)
+    792: (-35.51737, 147.03108),
+    # Don Moore Community Centre, Cnr North Rocks Rd & Farnell Ave,
+    # Carlingford NSW 2118 (Parramatta) — centroid of the Farnell Ave
+    # / North Rocks Rd vicinity; AEC publishes the premises address but
+    # not coords for this booth.
+    635: (-33.77000, 151.04000),
+}
+
+
 def polling_place_coords(polling_places: pl.DataFrame) -> dict[int, dict[str, float | None]]:
     """Index PollingPlaceID → {lat, lng}. AEC publishes blanks for some
     pre-poll/special locations — those return None so the inset just
-    omits the dot.
+    omits the dot. Real fixed-location booths missing coords get patched
+    from `MANUAL_COORDS`.
     """
     out: dict[int, dict[str, float | None]] = {}
     for row in polling_places.iter_rows(named=True):
         pid = int(row["PollingPlaceID"])
         lat = row.get("Latitude")
         lng = row.get("Longitude")
-        out[pid] = {
-            "lat": float(lat) if lat not in (None, 0, 0.0, "") else None,
-            "lng": float(lng) if lng not in (None, 0, 0.0, "") else None,
-        }
+        if lat in (None, 0, 0.0, "") or lng in (None, 0, 0.0, ""):
+            manual = MANUAL_COORDS.get(pid)
+            if manual:
+                out[pid] = {"lat": manual[0], "lng": manual[1]}
+                continue
+            out[pid] = {"lat": None, "lng": None}
+            continue
+        out[pid] = {"lat": float(lat), "lng": float(lng)}
     return out
 
 
@@ -72,18 +110,24 @@ def turnout_for_division(turnout: pl.DataFrame, division_id: int) -> dict[str, A
     }
 
 
-def primary_for_division(first_prefs: pl.DataFrame, division_id: int) -> list[dict[str, Any]]:
-    """Aggregate first-pref votes across all booths in a division.
+def primary_for_division(
+    fp_by_vote_type: pl.DataFrame, division_id: int
+) -> list[dict[str, Any]]:
+    """Aggregate first-pref votes for a division using AEC's canonical
+    per-candidate-by-vote-type file.
 
-    The AEC first-prefs CSV interleaves "Informal" rows alongside real
-    candidates — strip those out so percentages are of formal votes only.
+    Uses `TotalVotes` so postal/absent/prepoll/provisional are included.
+    Informal rows (PartyAb empty/null) are excluded from the candidate
+    list so percentages denominate against formal votes only.
     """
-    seat = first_prefs.filter(
-        (pl.col("DivisionID") == division_id) & (pl.col("PartyAb").is_not_null())
+    seat = fp_by_vote_type.filter(
+        (pl.col("DivisionID") == division_id)
+        & (pl.col("PartyAb").is_not_null())
+        & (pl.col("PartyAb") != "")
     )
     grouped = (
         seat.group_by("CandidateID", "Surname", "GivenNm", "PartyAb")
-        .agg(pl.col("OrdinaryVotes").sum().alias("votes"))
+        .agg(pl.col("TotalVotes").sum().alias("votes"))
         .sort("votes", descending=True)
     )
     total = int(grouped["votes"].sum())
@@ -104,19 +148,31 @@ def primary_for_division(first_prefs: pl.DataFrame, division_id: int) -> list[di
     return out
 
 
-def informal_for_division(first_prefs: pl.DataFrame, division_id: int) -> dict[str, Any]:
-    """Return the informal-vote total + rate for a division."""
-    seat = first_prefs.filter(pl.col("DivisionID") == division_id)
-    informal_rows = seat.filter(pl.col("PartyAb").is_null())
-    formal_rows = seat.filter(pl.col("PartyAb").is_not_null())
-    informal = int(informal_rows["OrdinaryVotes"].sum())
-    formal = int(formal_rows["OrdinaryVotes"].sum())
-    total = informal + formal
+def informal_for_division(
+    informal_by_div: pl.DataFrame, division_id: int
+) -> dict[str, Any]:
+    """Return informal-vote total + rate from AEC's per-division informal
+    CSV (which already sums every vote type, matching published figures)."""
+    row = informal_by_div.filter(pl.col("DivisionID") == division_id)
+    if row.is_empty():
+        return {
+            "informalVotes": 0,
+            "formalVotes": 0,
+            "totalCounted": 0,
+            "informalRate": 0.0,
+        }
+    r = row.row(0, named=True)
+    informal = int(r.get("InformalVotes") or 0)
+    formal = int(r.get("FormalVotes") or 0)
+    total = int(r.get("TotalVotes") or (informal + formal))
+    pct = r.get("InformalPercent")
     return {
         "informalVotes": informal,
         "formalVotes": formal,
         "totalCounted": total,
-        "informalRate": round(informal / total * 100, 2) if total else 0.0,
+        "informalRate": round(float(pct), 2) if pct is not None else (
+            round(informal / total * 100, 2) if total else 0.0
+        ),
     }
 
 

@@ -7,8 +7,8 @@
     "name": "Sturt",
     "state": "SA",
     "totalFormal": 117137,
-    "informalVotes": 3314,
-    "informalRate": 3.53,
+    "informalVotes": 4049,
+    "informalRate": 3.34,
     "enrolled": 130300,
     "votesCounted": 121186,
     "turnoutPct": 93.01,
@@ -32,8 +32,8 @@
       "givenName": "Claire",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 31885,
-      "pct": 35.22
+      "votes": 41333,
+      "pct": 35.29
     },
     {
       "candidateId": "C41042",
@@ -41,8 +41,8 @@
       "givenName": "James",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 30581,
-      "pct": 33.78
+      "votes": 40228,
+      "pct": 34.34
     },
     {
       "candidateId": "C41034",
@@ -50,8 +50,8 @@
       "givenName": "Katie",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 14672,
-      "pct": 16.21
+      "votes": 18295,
+      "pct": 15.62
     },
     {
       "candidateId": "C40618",
@@ -59,8 +59,8 @@
       "givenName": "Verity",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 6758,
-      "pct": 7.47
+      "votes": 8413,
+      "pct": 7.18
     },
     {
       "candidateId": "C42052",
@@ -68,8 +68,8 @@
       "givenName": "Peter",
       "party": "on",
       "partyAb": "ON",
-      "votes": 2982,
-      "pct": 3.29
+      "votes": 4035,
+      "pct": 3.44
     },
     {
       "candidateId": "C41052",
@@ -77,8 +77,8 @@
       "givenName": "Nicholas",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 1911,
-      "pct": 2.11
+      "votes": 2553,
+      "pct": 2.18
     },
     {
       "candidateId": "C41061",
@@ -86,8 +86,8 @@
       "givenName": null,
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 1740,
-      "pct": 1.92
+      "votes": 2280,
+      "pct": 1.95
     }
   ],
   "tcp": [
@@ -2194,86 +2194,6 @@
       ]
     },
     {
-      "boothId": 7296,
-      "name": "Glynde",
-      "formal": 1233,
-      "winnerParty": "alp",
-      "winnerSurname": "CLUTTERHAM",
-      "winnerPct": 55.96,
-      "swing": 4.89,
-      "lat": -34.89141,
-      "lng": 138.65627,
-      "candidates": [
-        {
-          "surname": "CLUTTERHAM",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 412,
-          "pct": 33.41
-        },
-        {
-          "surname": "STEVENS",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 384,
-          "pct": 31.14
-        },
-        {
-          "surname": "McCUSKER",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 205,
-          "pct": 16.63
-        },
-        {
-          "surname": "COOPER",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 93,
-          "pct": 7.54
-        },
-        {
-          "surname": "BOGATEC",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 66,
-          "pct": 5.35
-        },
-        {
-          "surname": "DUFFIELD",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 44,
-          "pct": 3.57
-        },
-        {
-          "surname": "MERVIN JOSHUA",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 29,
-          "pct": 2.35
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "CLUTTERHAM",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 690,
-          "elected": true,
-          "pct": 55.96
-        },
-        {
-          "surname": "STEVENS",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 543,
-          "elected": false,
-          "pct": 44.04
-        }
-      ]
-    },
-    {
       "boothId": 7299,
       "name": "Highbury East",
       "formal": 1233,
@@ -2350,6 +2270,86 @@
           "votes": 489,
           "elected": false,
           "pct": 39.66
+        }
+      ]
+    },
+    {
+      "boothId": 7296,
+      "name": "Glynde",
+      "formal": 1233,
+      "winnerParty": "alp",
+      "winnerSurname": "CLUTTERHAM",
+      "winnerPct": 55.96,
+      "swing": 4.89,
+      "lat": -34.89141,
+      "lng": 138.65627,
+      "candidates": [
+        {
+          "surname": "CLUTTERHAM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 412,
+          "pct": 33.41
+        },
+        {
+          "surname": "STEVENS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 384,
+          "pct": 31.14
+        },
+        {
+          "surname": "McCUSKER",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 205,
+          "pct": 16.63
+        },
+        {
+          "surname": "COOPER",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 93,
+          "pct": 7.54
+        },
+        {
+          "surname": "BOGATEC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 66,
+          "pct": 5.35
+        },
+        {
+          "surname": "DUFFIELD",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 44,
+          "pct": 3.57
+        },
+        {
+          "surname": "MERVIN JOSHUA",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 29,
+          "pct": 2.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CLUTTERHAM",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 690,
+          "elected": true,
+          "pct": 55.96
+        },
+        {
+          "surname": "STEVENS",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 543,
+          "elected": false,
+          "pct": 44.04
         }
       ]
     },
@@ -4889,10 +4889,10 @@
         {
           "year": "2007",
           "shares": {
-            "LIB": 47.17,
-            "GRN": 6.41,
             "ALP": 41.46,
+            "LIB": 47.17,
             "FFP": 3.42,
+            "GRN": 6.41,
             "OTH": 1.53
           }
         },
@@ -4900,20 +4900,20 @@
           "year": "2010",
           "shares": {
             "ALP": 36.23,
-            "FFP": 3.79,
-            "ON": 0.5,
-            "LIB": 48.05,
             "GRN": 10.01,
+            "ON": 0.5,
+            "FFP": 3.79,
+            "LIB": 48.05,
             "OTH": 1.42
           }
         },
         {
           "year": "2013",
           "shares": {
-            "FFP": 3.92,
-            "TOP": 2.99,
             "LIB": 54.4,
+            "TOP": 2.99,
             "ALP": 28.9,
+            "FFP": 3.92,
             "GRN": 9.8
           }
         },
@@ -4921,9 +4921,9 @@
           "year": "2016",
           "shares": {
             "FFP": 3.13,
+            "CA": 21.16,
             "LIB": 44.45,
             "GRN": 7.07,
-            "CA": 21.16,
             "ALP": 22.2,
             "OTH": 1.99
           }
@@ -4931,8 +4931,8 @@
         {
           "year": "2019",
           "shares": {
-            "LIB": 50.57,
             "IND": 2.65,
+            "LIB": 50.57,
             "GRN": 11.18,
             "ALP": 29.86,
             "TOP": 2.42,
@@ -4943,10 +4943,10 @@
           "year": "2022",
           "shares": {
             "GRN": 16.39,
+            "ALP": 30.66,
+            "LIB": 43.14,
             "TOP": 2.67,
             "ON": 2.57,
-            "LIB": 43.14,
-            "ALP": 30.66,
             "OTH": 4.57
           }
         },
@@ -4955,8 +4955,8 @@
           "shares": {
             "GRN": 15.62,
             "LIB": 34.34,
-            "ALP": 35.29,
             "ON": 3.44,
+            "ALP": 35.29,
             "CYA": 2.18,
             "IND": 7.18,
             "OTH": 1.95

@@ -7,8 +7,8 @@
     "name": "Shortland",
     "state": "NSW",
     "totalFormal": 108108,
-    "informalVotes": 5957,
-    "informalRate": 6.2,
+    "informalVotes": 6731,
+    "informalRate": 5.86,
     "enrolled": 122971,
     "votesCounted": 114839,
     "turnoutPct": 93.39,
@@ -32,8 +32,8 @@
       "givenName": "Pat",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 40059,
-      "pct": 44.44
+      "votes": 48222,
+      "pct": 44.61
     },
     {
       "candidateId": "C41545",
@@ -41,8 +41,8 @@
       "givenName": "Emma",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 23765,
-      "pct": 26.36
+      "votes": 28331,
+      "pct": 26.21
     },
     {
       "candidateId": "C41632",
@@ -50,8 +50,8 @@
       "givenName": "Therese",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 10343,
-      "pct": 11.47
+      "votes": 12257,
+      "pct": 11.34
     },
     {
       "candidateId": "C41908",
@@ -59,8 +59,8 @@
       "givenName": "Barry",
       "party": "on",
       "partyAb": "ON",
-      "votes": 8102,
-      "pct": 8.99
+      "votes": 9813,
+      "pct": 9.08
     },
     {
       "candidateId": "C40672",
@@ -68,8 +68,8 @@
       "givenName": "James",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 3985,
-      "pct": 4.42
+      "votes": 4805,
+      "pct": 4.44
     },
     {
       "candidateId": "C41825",
@@ -77,8 +77,8 @@
       "givenName": "Pietro",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 2530,
-      "pct": 2.81
+      "votes": 2958,
+      "pct": 2.74
     },
     {
       "candidateId": "C41861",
@@ -86,8 +86,8 @@
       "givenName": "Geoffrey Mark",
       "party": "oth",
       "partyAb": "LTP",
-      "votes": 1362,
-      "pct": 1.51
+      "votes": 1722,
+      "pct": 1.59
     }
   ],
   "tcp": [
@@ -1634,86 +1634,6 @@
       ]
     },
     {
-      "boothId": 2695,
-      "name": "Floraville",
-      "formal": 1259,
-      "winnerParty": "alp",
-      "winnerSurname": "CONROY",
-      "winnerPct": 59.57,
-      "swing": 4.38,
-      "lat": -33.014547,
-      "lng": 151.664706,
-      "candidates": [
-        {
-          "surname": "CONROY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 522,
-          "pct": 41.46
-        },
-        {
-          "surname": "KING",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 330,
-          "pct": 26.21
-        },
-        {
-          "surname": "DOYLE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 155,
-          "pct": 12.31
-        },
-        {
-          "surname": "REED",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 104,
-          "pct": 8.26
-        },
-        {
-          "surname": "DI GIROLAMO",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 71,
-          "pct": 5.64
-        },
-        {
-          "surname": "PHEILS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 57,
-          "pct": 4.53
-        },
-        {
-          "surname": "ROBERTSON",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 20,
-          "pct": 1.59
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "CONROY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 750,
-          "elected": true,
-          "pct": 59.57
-        },
-        {
-          "surname": "KING",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 509,
-          "elected": false,
-          "pct": 40.43
-        }
-      ]
-    },
-    {
       "boothId": 2691,
       "name": "Charlestown",
       "formal": 1259,
@@ -1790,6 +1710,86 @@
           "votes": 400,
           "elected": false,
           "pct": 31.77
+        }
+      ]
+    },
+    {
+      "boothId": 2695,
+      "name": "Floraville",
+      "formal": 1259,
+      "winnerParty": "alp",
+      "winnerSurname": "CONROY",
+      "winnerPct": 59.57,
+      "swing": 4.38,
+      "lat": -33.014547,
+      "lng": 151.664706,
+      "candidates": [
+        {
+          "surname": "CONROY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 522,
+          "pct": 41.46
+        },
+        {
+          "surname": "KING",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 330,
+          "pct": 26.21
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 155,
+          "pct": 12.31
+        },
+        {
+          "surname": "REED",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 104,
+          "pct": 8.26
+        },
+        {
+          "surname": "DI GIROLAMO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 71,
+          "pct": 5.64
+        },
+        {
+          "surname": "PHEILS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 57,
+          "pct": 4.53
+        },
+        {
+          "surname": "ROBERTSON",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 20,
+          "pct": 1.59
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CONROY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 750,
+          "elected": true,
+          "pct": 59.57
+        },
+        {
+          "surname": "KING",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 509,
+          "elected": false,
+          "pct": 40.43
         }
       ]
     },
@@ -3234,86 +3234,6 @@
       ]
     },
     {
-      "boothId": 377,
-      "name": "Warners Bay Central",
-      "formal": 780,
-      "winnerParty": "alp",
-      "winnerSurname": "CONROY",
-      "winnerPct": 64.23,
-      "swing": 5.63,
-      "lat": -32.9799537419652,
-      "lng": 151.648594397338,
-      "candidates": [
-        {
-          "surname": "CONROY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 381,
-          "pct": 48.85
-        },
-        {
-          "surname": "KING",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 177,
-          "pct": 22.69
-        },
-        {
-          "surname": "DOYLE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 85,
-          "pct": 10.9
-        },
-        {
-          "surname": "REED",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 60,
-          "pct": 7.69
-        },
-        {
-          "surname": "PHEILS",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 49,
-          "pct": 6.28
-        },
-        {
-          "surname": "DI GIROLAMO",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 22,
-          "pct": 2.82
-        },
-        {
-          "surname": "ROBERTSON",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 6,
-          "pct": 0.77
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "CONROY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 501,
-          "elected": true,
-          "pct": 64.23
-        },
-        {
-          "surname": "KING",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 279,
-          "elected": false,
-          "pct": 35.77
-        }
-      ]
-    },
-    {
       "boothId": 2690,
       "name": "Caves Beach",
       "formal": 780,
@@ -3390,6 +3310,86 @@
           "votes": 322,
           "elected": false,
           "pct": 41.28
+        }
+      ]
+    },
+    {
+      "boothId": 377,
+      "name": "Warners Bay Central",
+      "formal": 780,
+      "winnerParty": "alp",
+      "winnerSurname": "CONROY",
+      "winnerPct": 64.23,
+      "swing": 5.63,
+      "lat": -32.9799537419652,
+      "lng": 151.648594397338,
+      "candidates": [
+        {
+          "surname": "CONROY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 381,
+          "pct": 48.85
+        },
+        {
+          "surname": "KING",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 177,
+          "pct": 22.69
+        },
+        {
+          "surname": "DOYLE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 85,
+          "pct": 10.9
+        },
+        {
+          "surname": "REED",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 60,
+          "pct": 7.69
+        },
+        {
+          "surname": "PHEILS",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 49,
+          "pct": 6.28
+        },
+        {
+          "surname": "DI GIROLAMO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 22,
+          "pct": 2.82
+        },
+        {
+          "surname": "ROBERTSON",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 6,
+          "pct": 0.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CONROY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 501,
+          "elected": true,
+          "pct": 64.23
+        },
+        {
+          "surname": "KING",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 279,
+          "elected": false,
+          "pct": 35.77
         }
       ]
     },
@@ -5289,28 +5289,28 @@
         {
           "year": "2007",
           "shares": {
+            "GRN": 8.3,
             "LIB": 31.12,
             "ALP": 56.73,
-            "GRN": 8.3,
             "OTH": 3.85
           }
         },
         {
           "year": "2010",
           "shares": {
-            "LIB": 33.16,
-            "GRN": 10.33,
-            "ALP": 53.74,
             "ON": 2.06,
+            "ALP": 53.74,
+            "GRN": 10.33,
+            "LIB": 33.16,
             "OTH": 0.71
           }
         },
         {
           "year": "2013",
           "shares": {
-            "TOP": 6.21,
-            "ALP": 48.69,
             "GRN": 6.04,
+            "ALP": 48.69,
+            "TOP": 6.21,
             "LIB": 37.81,
             "OTH": 1.26
           }
@@ -5318,45 +5318,45 @@
         {
           "year": "2016",
           "shares": {
+            "LIB": 35.2,
             "ALP": 51.17,
             "GRN": 9.46,
-            "CDP": 4.16,
-            "LIB": 35.2
+            "CDP": 4.16
           }
         },
         {
           "year": "2019",
           "shares": {
+            "GRN": 8.26,
             "ALP": 41.13,
             "SPP": 3.1,
-            "GRN": 8.26,
+            "CDP": 2.01,
             "AJP": 3.6,
             "LIB": 37.37,
-            "TOP": 4.53,
-            "CDP": 2.01
+            "TOP": 4.53
           }
         },
         {
           "year": "2022",
           "shares": {
-            "GRN": 9.88,
             "ALP": 40.02,
-            "AJP": 2.97,
-            "IND": 2.55,
-            "TOP": 3.12,
+            "GRN": 9.88,
             "ON": 6.38,
+            "IND": 2.55,
             "LDP": 2.98,
+            "TOP": 3.12,
+            "AJP": 2.97,
             "LIB": 32.12
           }
         },
         {
           "year": "2025",
           "shares": {
+            "LIB": 26.21,
+            "FFP": 2.74,
             "GRN": 11.34,
             "ALP": 44.61,
             "ON": 9.08,
-            "LIB": 26.21,
-            "FFP": 2.74,
             "IND": 4.44,
             "OTH": 1.59
           }

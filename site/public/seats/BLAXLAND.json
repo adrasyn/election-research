@@ -7,8 +7,8 @@
     "name": "Blaxland",
     "state": "NSW",
     "totalFormal": 86886,
-    "informalVotes": 11131,
-    "informalRate": 13.95,
+    "informalVotes": 12822,
+    "informalRate": 12.86,
     "enrolled": 116715,
     "votesCounted": 99708,
     "turnoutPct": 85.43,
@@ -32,17 +32,8 @@
       "givenName": "Jason",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 31703,
-      "pct": 46.18
-    },
-    {
-      "candidateId": "C41982",
-      "surname": "OUF",
-      "givenName": "Ahmed",
-      "party": "ind",
-      "partyAb": "IND",
-      "votes": 14573,
-      "pct": 21.23
+      "votes": 40001,
+      "pct": 46.04
     },
     {
       "candidateId": "C41478",
@@ -50,8 +41,17 @@
       "givenName": "Courtney",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 12199,
-      "pct": 17.77
+      "votes": 17023,
+      "pct": 19.59
+    },
+    {
+      "candidateId": "C41982",
+      "surname": "OUF",
+      "givenName": "Ahmed",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 16302,
+      "pct": 18.76
     },
     {
       "candidateId": "C41578",
@@ -59,8 +59,8 @@
       "givenName": "Omar",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 5312,
-      "pct": 7.74
+      "votes": 6854,
+      "pct": 7.89
     },
     {
       "candidateId": "C41888",
@@ -68,8 +68,8 @@
       "givenName": "Mitchell",
       "party": "on",
       "partyAb": "ON",
-      "votes": 2086,
-      "pct": 3.04
+      "votes": 3086,
+      "pct": 3.55
     },
     {
       "candidateId": "C41850",
@@ -77,8 +77,8 @@
       "givenName": "Mike",
       "party": "oth",
       "partyAb": "LTP",
-      "votes": 1581,
-      "pct": 2.3
+      "votes": 1894,
+      "pct": 2.18
     },
     {
       "candidateId": "C41786",
@@ -86,8 +86,8 @@
       "givenName": "Jennifer",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 1202,
-      "pct": 1.75
+      "votes": 1726,
+      "pct": 1.99
     }
   ],
   "tcp": [
@@ -3714,86 +3714,6 @@
       ]
     },
     {
-      "boothId": 121878,
-      "name": "Rosehill (Blaxland)",
-      "formal": 196,
-      "winnerParty": "alp",
-      "winnerSurname": "CLARE",
-      "winnerPct": 59.69,
-      "swing": 5.46,
-      "lat": -33.82421595,
-      "lng": 151.01833584,
-      "candidates": [
-        {
-          "surname": "CLARE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 80,
-          "pct": 40.82
-        },
-        {
-          "surname": "NGUYEN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 65,
-          "pct": 33.16
-        },
-        {
-          "surname": "SAKR",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 19,
-          "pct": 9.69
-        },
-        {
-          "surname": "OUF",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 12,
-          "pct": 6.12
-        },
-        {
-          "surname": "LUO",
-          "partyAb": "LTP",
-          "party": "oth",
-          "votes": 7,
-          "pct": 3.57
-        },
-        {
-          "surname": "DI GIROLAMO",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 7,
-          "pct": 3.57
-        },
-        {
-          "surname": "KLIEVENS",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 6,
-          "pct": 3.06
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "CLARE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 117,
-          "elected": true,
-          "pct": 59.69
-        },
-        {
-          "surname": "NGUYEN",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 79,
-          "elected": false,
-          "pct": 40.31
-        }
-      ]
-    },
-    {
       "boothId": 98087,
       "name": "Haymarket BLAXLAND PPVC",
       "formal": 196,
@@ -3870,6 +3790,86 @@
           "votes": 74,
           "elected": false,
           "pct": 37.76
+        }
+      ]
+    },
+    {
+      "boothId": 121878,
+      "name": "Rosehill (Blaxland)",
+      "formal": 196,
+      "winnerParty": "alp",
+      "winnerSurname": "CLARE",
+      "winnerPct": 59.69,
+      "swing": 5.46,
+      "lat": -33.82421595,
+      "lng": 151.01833584,
+      "candidates": [
+        {
+          "surname": "CLARE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 80,
+          "pct": 40.82
+        },
+        {
+          "surname": "NGUYEN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 65,
+          "pct": 33.16
+        },
+        {
+          "surname": "SAKR",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 19,
+          "pct": 9.69
+        },
+        {
+          "surname": "OUF",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 6.12
+        },
+        {
+          "surname": "LUO",
+          "partyAb": "LTP",
+          "party": "oth",
+          "votes": 7,
+          "pct": 3.57
+        },
+        {
+          "surname": "DI GIROLAMO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 7,
+          "pct": 3.57
+        },
+        {
+          "surname": "KLIEVENS",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 6,
+          "pct": 3.06
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "CLARE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 117,
+          "elected": true,
+          "pct": 59.69
+        },
+        {
+          "surname": "NGUYEN",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 79,
+          "elected": false,
+          "pct": 40.31
         }
       ]
     },
@@ -4409,34 +4409,34 @@
         {
           "year": "2007",
           "shares": {
-            "ON": 1.55,
-            "GRN": 6.46,
+            "LIB": 24.1,
             "ALP": 61.32,
             "CDP": 2.39,
-            "LIB": 24.1,
+            "ON": 1.55,
+            "GRN": 6.46,
             "OTH": 4.18
           }
         },
         {
           "year": "2010",
           "shares": {
-            "LIB": 33.3,
-            "IND": 4.45,
-            "SEP": 2.79,
             "GRN": 6.26,
-            "ALP": 50.98,
+            "IND": 4.45,
             "ON": 1.83,
+            "SEP": 2.79,
+            "ALP": 50.98,
+            "LIB": 33.3,
             "OTH": 0.39
           }
         },
         {
           "year": "2013",
           "shares": {
+            "GRN": 3.09,
             "KAP": 2.46,
+            "LIB": 32.72,
             "TOP": 2.71,
             "CDP": 2.25,
-            "LIB": 32.72,
-            "GRN": 3.09,
             "ALP": 55.73,
             "OTH": 1.05
           }
@@ -4444,42 +4444,42 @@
         {
           "year": "2016",
           "shares": {
-            "LIB": 24.82,
-            "GRN": 4.63,
-            "CDP": 6.02,
             "ALP": 63.31,
+            "CDP": 6.02,
+            "GRN": 4.63,
+            "LIB": 24.82,
             "OTH": 1.23
           }
         },
         {
           "year": "2019",
           "shares": {
-            "TOP": 2.88,
-            "ALP": 57.78,
+            "GRN": 5.36,
             "CDP": 5.16,
             "LIB": 28.82,
-            "GRN": 5.36
+            "ALP": 57.78,
+            "TOP": 2.88
           }
         },
         {
           "year": "2022",
           "shares": {
-            "GRN": 6.35,
-            "LIB": 27.01,
-            "TOP": 6.25,
+            "ALP": 54.98,
             "ON": 5.41,
-            "ALP": 54.98
+            "LIB": 27.01,
+            "GRN": 6.35,
+            "TOP": 6.25
           }
         },
         {
           "year": "2025",
           "shares": {
-            "GRN": 7.89,
-            "ALP": 46.04,
+            "IND": 18.76,
+            "LIB": 19.59,
             "LTP": 2.18,
             "ON": 3.55,
-            "LIB": 19.59,
-            "IND": 18.76,
+            "ALP": 46.04,
+            "GRN": 7.89,
             "OTH": 1.99
           }
         }

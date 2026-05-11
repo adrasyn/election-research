@@ -7,8 +7,8 @@
     "name": "Sydney",
     "state": "NSW",
     "totalFormal": 107249,
-    "informalVotes": 3423,
-    "informalRate": 3.89,
+    "informalVotes": 4161,
+    "informalRate": 3.73,
     "enrolled": 127445,
     "votesCounted": 111410,
     "turnoutPct": 87.42,
@@ -32,8 +32,8 @@
       "givenName": "Tanya",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 47164,
-      "pct": 55.74
+      "votes": 59153,
+      "pct": 55.15
     },
     {
       "candidateId": "C41638",
@@ -41,8 +41,8 @@
       "givenName": "Luc",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 18471,
-      "pct": 21.83
+      "votes": 23162,
+      "pct": 21.6
     },
     {
       "candidateId": "C41561",
@@ -50,8 +50,8 @@
       "givenName": "Alex",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 14273,
-      "pct": 16.87
+      "votes": 18860,
+      "pct": 17.59
     },
     {
       "candidateId": "C41910",
@@ -59,8 +59,8 @@
       "givenName": "Vedran",
       "party": "on",
       "partyAb": "ON",
-      "votes": 2803,
-      "pct": 3.31
+      "votes": 3698,
+      "pct": 3.45
     },
     {
       "candidateId": "C41984",
@@ -68,8 +68,8 @@
       "givenName": "Rachel",
       "party": "oth",
       "partyAb": "SAL",
-      "votes": 1910,
-      "pct": 2.26
+      "votes": 2376,
+      "pct": 2.22
     }
   ],
   "tcp": [
@@ -3000,72 +3000,6 @@
       ]
     },
     {
-      "boothId": 2743,
-      "name": "Glebe East",
-      "formal": 733,
-      "winnerParty": "alp",
-      "winnerSurname": "PLIBERSEK",
-      "winnerPct": 64.8,
-      "swing": -6.87,
-      "lat": -33.883023370835446,
-      "lng": 151.1927282993701,
-      "candidates": [
-        {
-          "surname": "PLIBERSEK",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 390,
-          "pct": 53.21
-        },
-        {
-          "surname": "VELEZ",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 193,
-          "pct": 26.33
-        },
-        {
-          "surname": "XU",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 71,
-          "pct": 9.69
-        },
-        {
-          "surname": "TORBARAC",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 44,
-          "pct": 6.0
-        },
-        {
-          "surname": "EVANS",
-          "partyAb": "SAL",
-          "party": "oth",
-          "votes": 35,
-          "pct": 4.77
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "PLIBERSEK",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 475,
-          "elected": true,
-          "pct": 64.8
-        },
-        {
-          "surname": "VELEZ",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 258,
-          "elected": false,
-          "pct": 35.2
-        }
-      ]
-    },
-    {
       "boothId": 2744,
       "name": "Glebe North",
       "formal": 733,
@@ -3128,6 +3062,72 @@
           "votes": 251,
           "elected": false,
           "pct": 34.24
+        }
+      ]
+    },
+    {
+      "boothId": 2743,
+      "name": "Glebe East",
+      "formal": 733,
+      "winnerParty": "alp",
+      "winnerSurname": "PLIBERSEK",
+      "winnerPct": 64.8,
+      "swing": -6.87,
+      "lat": -33.883023370835446,
+      "lng": 151.1927282993701,
+      "candidates": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 390,
+          "pct": 53.21
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 193,
+          "pct": 26.33
+        },
+        {
+          "surname": "XU",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 71,
+          "pct": 9.69
+        },
+        {
+          "surname": "TORBARAC",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 44,
+          "pct": 6.0
+        },
+        {
+          "surname": "EVANS",
+          "partyAb": "SAL",
+          "party": "oth",
+          "votes": 35,
+          "pct": 4.77
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PLIBERSEK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 475,
+          "elected": true,
+          "pct": 64.8
+        },
+        {
+          "surname": "VELEZ",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 258,
+          "elected": false,
+          "pct": 35.2
         }
       ]
     },
@@ -4383,19 +4383,19 @@
         {
           "year": "2010",
           "shares": {
-            "ALP": 43.29,
             "LIB": 28.1,
             "GRN": 23.75,
+            "ALP": 43.29,
             "OTH": 4.85
           }
         },
         {
           "year": "2013",
           "shares": {
-            "ALP": 46.03,
-            "GRN": 17.33,
             "IND": 2.28,
+            "GRN": 17.33,
             "LIB": 30.52,
+            "ALP": 46.03,
             "OTH": 3.85
           }
         },
@@ -4403,40 +4403,40 @@
           "year": "2016",
           "shares": {
             "ALP": 43.74,
-            "LIB": 29.15,
             "GRN": 18.81,
+            "LIB": 29.15,
             "OTH": 8.3
           }
         },
         {
           "year": "2019",
           "shares": {
-            "LIB": 26.61,
-            "FUT": 3.42,
-            "GRN": 18.07,
             "ALP": 49.41,
+            "GRN": 18.07,
+            "FUT": 3.42,
+            "LIB": 26.61,
             "OTH": 2.49
           }
         },
         {
           "year": "2022",
           "shares": {
-            "TOP": 2.23,
-            "ALP": 50.82,
             "GRN": 23.01,
             "ON": 1.83,
+            "ALP": 50.82,
             "LIB": 19.66,
+            "TOP": 2.23,
             "OTH": 2.44
           }
         },
         {
           "year": "2025",
           "shares": {
-            "SAL": 2.22,
-            "ON": 3.45,
-            "ALP": 55.15,
             "LIB": 17.59,
-            "GRN": 21.6
+            "SAL": 2.22,
+            "GRN": 21.6,
+            "ON": 3.45,
+            "ALP": 55.15
           }
         }
       ]

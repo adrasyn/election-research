@@ -7,8 +7,8 @@
     "name": "Melbourne",
     "state": "VIC",
     "totalFormal": 97448,
-    "informalVotes": 1707,
-    "informalRate": 2.47,
+    "informalVotes": 2427,
+    "informalRate": 2.43,
     "enrolled": 113369,
     "votesCounted": 99875,
     "turnoutPct": 88.1,
@@ -32,8 +32,8 @@
       "givenName": "Adam",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 28393,
-      "pct": 42.14
+      "votes": 38457,
+      "pct": 39.46
     },
     {
       "candidateId": "C40817",
@@ -41,8 +41,8 @@
       "givenName": "Sarah",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 21125,
-      "pct": 31.35
+      "votes": 30541,
+      "pct": 31.34
     },
     {
       "candidateId": "C40765",
@@ -50,8 +50,8 @@
       "givenName": "Steph",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 11963,
-      "pct": 17.75
+      "votes": 19267,
+      "pct": 19.77
     },
     {
       "candidateId": "C42099",
@@ -59,8 +59,8 @@
       "givenName": "Anthony",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 2054,
-      "pct": 3.05
+      "votes": 3204,
+      "pct": 3.29
     },
     {
       "candidateId": "C41607",
@@ -68,8 +68,8 @@
       "givenName": "Melanie",
       "party": "on",
       "partyAb": "ON",
-      "votes": 1492,
-      "pct": 2.21
+      "votes": 2438,
+      "pct": 2.5
     },
     {
       "candidateId": "C41381",
@@ -77,8 +77,8 @@
       "givenName": "Helen",
       "party": "fus",
       "partyAb": "FUS",
-      "votes": 1276,
-      "pct": 1.89
+      "votes": 1926,
+      "pct": 1.98
     },
     {
       "candidateId": "C42101",
@@ -86,8 +86,8 @@
       "givenName": "Tim",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 1077,
-      "pct": 1.6
+      "votes": 1615,
+      "pct": 1.66
     }
   ],
   "tcp": [
@@ -1794,86 +1794,6 @@
       ]
     },
     {
-      "boothId": 4640,
-      "name": "North Melbourne",
-      "formal": 1114,
-      "winnerParty": "grn",
-      "winnerSurname": "BANDT",
-      "winnerPct": 57.63,
-      "swing": -7.71,
-      "lat": -37.80473,
-      "lng": 144.94837,
-      "candidates": [
-        {
-          "surname": "BANDT",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 581,
-          "pct": 52.15
-        },
-        {
-          "surname": "WITTY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 338,
-          "pct": 30.34
-        },
-        {
-          "surname": "HUNT",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 120,
-          "pct": 10.77
-        },
-        {
-          "surname": "HUANG",
-          "partyAb": "FUS",
-          "party": "fus",
-          "votes": 26,
-          "pct": 2.33
-        },
-        {
-          "surname": "CASEY",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 22,
-          "pct": 1.97
-        },
-        {
-          "surname": "KOUTOUFIDES",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 17,
-          "pct": 1.53
-        },
-        {
-          "surname": "SMITH",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 10,
-          "pct": 0.9
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "WITTY",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 472,
-          "elected": true,
-          "pct": 42.37
-        },
-        {
-          "surname": "BANDT",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 642,
-          "elected": false,
-          "pct": 57.63
-        }
-      ]
-    },
-    {
       "boothId": 4668,
       "name": "South Yarra South",
       "formal": 1114,
@@ -1950,6 +1870,86 @@
           "votes": 393,
           "elected": false,
           "pct": 35.28
+        }
+      ]
+    },
+    {
+      "boothId": 4640,
+      "name": "North Melbourne",
+      "formal": 1114,
+      "winnerParty": "grn",
+      "winnerSurname": "BANDT",
+      "winnerPct": 57.63,
+      "swing": -7.71,
+      "lat": -37.80473,
+      "lng": 144.94837,
+      "candidates": [
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 581,
+          "pct": 52.15
+        },
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 338,
+          "pct": 30.34
+        },
+        {
+          "surname": "HUNT",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 120,
+          "pct": 10.77
+        },
+        {
+          "surname": "HUANG",
+          "partyAb": "FUS",
+          "party": "fus",
+          "votes": 26,
+          "pct": 2.33
+        },
+        {
+          "surname": "CASEY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 22,
+          "pct": 1.97
+        },
+        {
+          "surname": "KOUTOUFIDES",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 17,
+          "pct": 1.53
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 10,
+          "pct": 0.9
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "WITTY",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 472,
+          "elected": true,
+          "pct": 42.37
+        },
+        {
+          "surname": "BANDT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 642,
+          "elected": false,
+          "pct": 57.63
         }
       ]
     },
@@ -3944,36 +3944,36 @@
           "year": "2007",
           "shares": {
             "GRN": 22.8,
-            "ALP": 49.51,
             "LIB": 23.49,
+            "ALP": 49.51,
             "OTH": 4.2
           }
         },
         {
           "year": "2010",
           "shares": {
-            "LIB": 21.0,
-            "ALP": 38.09,
             "GRN": 36.17,
+            "ALP": 38.09,
+            "LIB": 21.0,
             "OTH": 4.74
           }
         },
         {
           "year": "2013",
           "shares": {
+            "ALP": 26.6,
             "LIB": 22.83,
             "GRN": 42.62,
-            "ALP": 26.6,
             "OTH": 7.95
           }
         },
         {
           "year": "2016",
           "shares": {
-            "ALP": 24.46,
             "LIB": 25.25,
             "GRN": 43.75,
             "ASXP": 3.45,
+            "ALP": 24.46,
             "OTH": 3.1
           }
         },
@@ -3981,8 +3981,8 @@
           "year": "2019",
           "shares": {
             "ALP": 19.74,
-            "GRN": 49.3,
             "REAS": 5.11,
+            "GRN": 49.3,
             "LIB": 21.47,
             "OTH": 4.39
           }
@@ -3990,11 +3990,11 @@
         {
           "year": "2022",
           "shares": {
-            "GRN": 49.62,
             "VNS": 3.27,
-            "ALP": 25.03,
-            "LIB": 15.19,
             "ON": 0.97,
+            "ALP": 25.03,
+            "GRN": 49.62,
+            "LIB": 15.19,
             "OTH": 5.91
           }
         },
@@ -4002,8 +4002,8 @@
           "year": "2025",
           "shares": {
             "ON": 2.5,
-            "LIB": 19.77,
             "GRN": 39.46,
+            "LIB": 19.77,
             "IND": 4.95,
             "ALP": 31.34,
             "OTH": 1.98

@@ -7,8 +7,8 @@
     "name": "Durack",
     "state": "WA",
     "totalFormal": 87962,
-    "informalVotes": 5102,
-    "informalRate": 6.8,
+    "informalVotes": 5966,
+    "informalRate": 6.35,
     "enrolled": 119942,
     "votesCounted": 93928,
     "turnoutPct": 78.31,
@@ -32,8 +32,8 @@
       "givenName": "Melissa",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 22629,
-      "pct": 32.34
+      "votes": 28920,
+      "pct": 32.88
     },
     {
       "candidateId": "C41363",
@@ -41,8 +41,8 @@
       "givenName": "Karen",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 16886,
-      "pct": 24.13
+      "votes": 20583,
+      "pct": 23.4
     },
     {
       "candidateId": "C41848",
@@ -50,8 +50,8 @@
       "givenName": "Bailey",
       "party": "nat",
       "partyAb": "NAT",
-      "votes": 9369,
-      "pct": 13.39
+      "votes": 11972,
+      "pct": 13.61
     },
     {
       "candidateId": "C41659",
@@ -59,8 +59,8 @@
       "givenName": "Mark",
       "party": "on",
       "partyAb": "ON",
-      "votes": 6888,
-      "pct": 9.84
+      "votes": 8868,
+      "pct": 10.08
     },
     {
       "candidateId": "C41758",
@@ -68,8 +68,8 @@
       "givenName": "Brendan",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 5731,
-      "pct": 8.19
+      "votes": 7196,
+      "pct": 8.18
     },
     {
       "candidateId": "C41743",
@@ -77,17 +77,8 @@
       "givenName": "Kat",
       "party": "oth",
       "partyAb": "HMP",
-      "votes": 4281,
-      "pct": 6.12
-    },
-    {
-      "candidateId": "C42081",
-      "surname": "HUNTER",
-      "givenName": "Jason",
-      "party": "oth",
-      "partyAb": "IAP",
-      "votes": 1548,
-      "pct": 2.21
+      "votes": 5239,
+      "pct": 5.96
     },
     {
       "candidateId": "C41200",
@@ -95,8 +86,17 @@
       "givenName": "Eugenie Margaret",
       "party": "oth",
       "partyAb": "AUC",
-      "votes": 1536,
-      "pct": 2.2
+      "votes": 1880,
+      "pct": 2.14
+    },
+    {
+      "candidateId": "C42081",
+      "surname": "HUNTER",
+      "givenName": "Jason",
+      "party": "oth",
+      "partyAb": "IAP",
+      "votes": 1872,
+      "pct": 2.13
     },
     {
       "candidateId": "C41651",
@@ -104,8 +104,8 @@
       "givenName": "Maarten",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 1103,
-      "pct": 1.58
+      "votes": 1432,
+      "pct": 1.63
     }
   ],
   "tcp": [
@@ -4738,100 +4738,6 @@
       ]
     },
     {
-      "boothId": 8052,
-      "name": "Leeman",
-      "formal": 359,
-      "winnerParty": "lib",
-      "winnerSurname": "PRICE",
-      "winnerPct": 71.31,
-      "swing": 1.17,
-      "lat": -29.9489071682966,
-      "lng": 114.978444892135,
-      "candidates": [
-        {
-          "surname": "PRICE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 146,
-          "pct": 40.67
-        },
-        {
-          "surname": "KEMPTON",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 64,
-          "pct": 17.83
-        },
-        {
-          "surname": "WHEATLAND",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 56,
-          "pct": 15.6
-        },
-        {
-          "surname": "BERRY",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 46,
-          "pct": 12.81
-        },
-        {
-          "surname": "WRIGHT",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 26,
-          "pct": 7.24
-        },
-        {
-          "surname": "STURCKE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 12,
-          "pct": 3.34
-        },
-        {
-          "surname": "KORNAAT",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 5,
-          "pct": 1.39
-        },
-        {
-          "surname": "HARRIS",
-          "partyAb": "AUC",
-          "party": "oth",
-          "votes": 3,
-          "pct": 0.84
-        },
-        {
-          "surname": "HUNTER",
-          "partyAb": "IAP",
-          "party": "oth",
-          "votes": 1,
-          "pct": 0.28
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "PRICE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 256,
-          "elected": true,
-          "pct": 71.31
-        },
-        {
-          "surname": "WHEATLAND",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 103,
-          "elected": false,
-          "pct": 28.69
-        }
-      ]
-    },
-    {
       "boothId": 8009,
       "name": "Dalwallinu",
       "formal": 359,
@@ -4922,6 +4828,100 @@
           "votes": 77,
           "elected": false,
           "pct": 21.45
+        }
+      ]
+    },
+    {
+      "boothId": 8052,
+      "name": "Leeman",
+      "formal": 359,
+      "winnerParty": "lib",
+      "winnerSurname": "PRICE",
+      "winnerPct": 71.31,
+      "swing": 1.17,
+      "lat": -29.9489071682966,
+      "lng": 114.978444892135,
+      "candidates": [
+        {
+          "surname": "PRICE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 146,
+          "pct": 40.67
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 64,
+          "pct": 17.83
+        },
+        {
+          "surname": "WHEATLAND",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 56,
+          "pct": 15.6
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 46,
+          "pct": 12.81
+        },
+        {
+          "surname": "WRIGHT",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 26,
+          "pct": 7.24
+        },
+        {
+          "surname": "STURCKE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 12,
+          "pct": 3.34
+        },
+        {
+          "surname": "KORNAAT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 5,
+          "pct": 1.39
+        },
+        {
+          "surname": "HARRIS",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 0.84
+        },
+        {
+          "surname": "HUNTER",
+          "partyAb": "IAP",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.28
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PRICE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 256,
+          "elected": true,
+          "pct": 71.31
+        },
+        {
+          "surname": "WHEATLAND",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 103,
+          "elected": false,
+          "pct": 28.69
         }
       ]
     },
@@ -7370,100 +7370,6 @@
       ]
     },
     {
-      "boothId": 8000,
-      "name": "Carnamah",
-      "formal": 173,
-      "winnerParty": "lib",
-      "winnerSurname": "PRICE",
-      "winnerPct": 73.41,
-      "swing": -6.59,
-      "lat": -29.6872665947364,
-      "lng": 115.893110532912,
-      "candidates": [
-        {
-          "surname": "PRICE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 56,
-          "pct": 32.37
-        },
-        {
-          "surname": "KEMPTON",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 48,
-          "pct": 27.75
-        },
-        {
-          "surname": "WHEATLAND",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 24,
-          "pct": 13.87
-        },
-        {
-          "surname": "BERRY",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 20,
-          "pct": 11.56
-        },
-        {
-          "surname": "WRIGHT",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 11,
-          "pct": 6.36
-        },
-        {
-          "surname": "STURCKE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 8,
-          "pct": 4.62
-        },
-        {
-          "surname": "HARRIS",
-          "partyAb": "AUC",
-          "party": "oth",
-          "votes": 3,
-          "pct": 1.73
-        },
-        {
-          "surname": "HUNTER",
-          "partyAb": "IAP",
-          "party": "oth",
-          "votes": 2,
-          "pct": 1.16
-        },
-        {
-          "surname": "KORNAAT",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 1,
-          "pct": 0.58
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "PRICE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 127,
-          "elected": true,
-          "pct": 73.41
-        },
-        {
-          "surname": "WHEATLAND",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 46,
-          "elected": false,
-          "pct": 26.59
-        }
-      ]
-    },
-    {
       "boothId": 109580,
       "name": "Remote Mobile Team 12",
       "formal": 173,
@@ -7554,6 +7460,100 @@
           "votes": 131,
           "elected": false,
           "pct": 75.72
+        }
+      ]
+    },
+    {
+      "boothId": 8000,
+      "name": "Carnamah",
+      "formal": 173,
+      "winnerParty": "lib",
+      "winnerSurname": "PRICE",
+      "winnerPct": 73.41,
+      "swing": -6.59,
+      "lat": -29.6872665947364,
+      "lng": 115.893110532912,
+      "candidates": [
+        {
+          "surname": "PRICE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 56,
+          "pct": 32.37
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 48,
+          "pct": 27.75
+        },
+        {
+          "surname": "WHEATLAND",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 24,
+          "pct": 13.87
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 20,
+          "pct": 11.56
+        },
+        {
+          "surname": "WRIGHT",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 11,
+          "pct": 6.36
+        },
+        {
+          "surname": "STURCKE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 8,
+          "pct": 4.62
+        },
+        {
+          "surname": "HARRIS",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 1.73
+        },
+        {
+          "surname": "HUNTER",
+          "partyAb": "IAP",
+          "party": "oth",
+          "votes": 2,
+          "pct": 1.16
+        },
+        {
+          "surname": "KORNAAT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 1,
+          "pct": 0.58
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PRICE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 127,
+          "elected": true,
+          "pct": 73.41
+        },
+        {
+          "surname": "WHEATLAND",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 46,
+          "elected": false,
+          "pct": 26.59
         }
       ]
     },
@@ -8404,100 +8404,6 @@
       ]
     },
     {
-      "boothId": 7916,
-      "name": "Badgingarra",
-      "formal": 134,
-      "winnerParty": "lib",
-      "winnerSurname": "PRICE",
-      "winnerPct": 88.81,
-      "swing": 9.4,
-      "lat": -30.3868124,
-      "lng": 115.4986776,
-      "candidates": [
-        {
-          "surname": "PRICE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 70,
-          "pct": 52.24
-        },
-        {
-          "surname": "KEMPTON",
-          "partyAb": "NAT",
-          "party": "nat",
-          "votes": 42,
-          "pct": 31.34
-        },
-        {
-          "surname": "BERRY",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 7,
-          "pct": 5.22
-        },
-        {
-          "surname": "WHEATLAND",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 6,
-          "pct": 4.48
-        },
-        {
-          "surname": "WRIGHT",
-          "partyAb": "HMP",
-          "party": "oth",
-          "votes": 3,
-          "pct": 2.24
-        },
-        {
-          "surname": "HUNTER",
-          "partyAb": "IAP",
-          "party": "oth",
-          "votes": 3,
-          "pct": 2.24
-        },
-        {
-          "surname": "HARRIS",
-          "partyAb": "AUC",
-          "party": "oth",
-          "votes": 3,
-          "pct": 2.24
-        },
-        {
-          "surname": "KORNAAT",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 0,
-          "pct": 0.0
-        },
-        {
-          "surname": "STURCKE",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 0,
-          "pct": 0.0
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "PRICE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 119,
-          "elected": true,
-          "pct": 88.81
-        },
-        {
-          "surname": "WHEATLAND",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 15,
-          "elected": false,
-          "pct": 11.19
-        }
-      ]
-    },
-    {
       "boothId": 7861,
       "name": "Meekatharra",
       "formal": 134,
@@ -8588,6 +8494,100 @@
           "votes": 62,
           "elected": false,
           "pct": 46.27
+        }
+      ]
+    },
+    {
+      "boothId": 7916,
+      "name": "Badgingarra",
+      "formal": 134,
+      "winnerParty": "lib",
+      "winnerSurname": "PRICE",
+      "winnerPct": 88.81,
+      "swing": 9.4,
+      "lat": -30.3868124,
+      "lng": 115.4986776,
+      "candidates": [
+        {
+          "surname": "PRICE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 70,
+          "pct": 52.24
+        },
+        {
+          "surname": "KEMPTON",
+          "partyAb": "NAT",
+          "party": "nat",
+          "votes": 42,
+          "pct": 31.34
+        },
+        {
+          "surname": "BERRY",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 7,
+          "pct": 5.22
+        },
+        {
+          "surname": "WHEATLAND",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 6,
+          "pct": 4.48
+        },
+        {
+          "surname": "WRIGHT",
+          "partyAb": "HMP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.24
+        },
+        {
+          "surname": "HUNTER",
+          "partyAb": "IAP",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.24
+        },
+        {
+          "surname": "HARRIS",
+          "partyAb": "AUC",
+          "party": "oth",
+          "votes": 3,
+          "pct": 2.24
+        },
+        {
+          "surname": "KORNAAT",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 0,
+          "pct": 0.0
+        },
+        {
+          "surname": "STURCKE",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 0,
+          "pct": 0.0
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "PRICE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 119,
+          "elected": true,
+          "pct": 88.81
+        },
+        {
+          "surname": "WHEATLAND",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 15,
+          "elected": false,
+          "pct": 11.19
         }
       ]
     },
@@ -10748,73 +10748,73 @@
         {
           "year": "2010",
           "shares": {
-            "NAT": 17.7,
             "GRN": 9.25,
             "ALP": 24.03,
-            "FFP": 2.4,
             "LIB": 45.07,
+            "NAT": 17.7,
+            "FFP": 2.4,
             "OTH": 1.56
           }
         },
         {
           "year": "2013",
           "shares": {
-            "NAT": 23.16,
-            "ALP": 20.28,
-            "LIB": 38.01,
             "TOP": 6.75,
             "GRN": 7.06,
+            "NAT": 23.16,
+            "LIB": 38.01,
+            "ALP": 20.28,
             "OTH": 4.73
           }
         },
         {
           "year": "2016",
           "shares": {
-            "NAT": 15.98,
-            "GRN": 10.05,
-            "AUC": 2.56,
             "ALP": 25.9,
-            "LIB": 41.74,
-            "RUA": 3.76
+            "GRN": 10.05,
+            "NAT": 15.98,
+            "RUA": 3.76,
+            "AUC": 2.56,
+            "LIB": 41.74
           }
         },
         {
           "year": "2019",
           "shares": {
-            "WAP": 3.72,
-            "NAT": 10.14,
-            "ALP": 21.54,
             "GRN": 8.09,
+            "ALP": 21.54,
             "LIB": 44.3,
+            "WAP": 3.72,
+            "TOP": 2.68,
             "ON": 9.53,
-            "TOP": 2.68
+            "NAT": 10.14
           }
         },
         {
           "year": "2022",
           "shares": {
-            "LIB": 34.33,
-            "GAP": 3.06,
-            "ALP": 29.15,
             "TOP": 2.49,
-            "GRN": 9.45,
-            "WAP": 2.77,
-            "NAT": 10.23,
+            "LIB": 34.33,
             "ON": 6.9,
+            "WAP": 2.77,
+            "ALP": 29.15,
+            "GRN": 9.45,
+            "GAP": 3.06,
+            "NAT": 10.23,
             "OTH": 1.62
           }
         },
         {
           "year": "2025",
           "shares": {
-            "HMP": 5.96,
             "LIB": 32.88,
-            "IAP": 2.13,
             "ON": 10.08,
-            "NAT": 13.61,
-            "GRN": 8.18,
+            "IAP": 2.13,
             "ALP": 23.4,
+            "NAT": 13.61,
             "AUC": 2.14,
+            "HMP": 5.96,
+            "GRN": 8.18,
             "OTH": 1.63
           }
         }

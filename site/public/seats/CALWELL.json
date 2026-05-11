@@ -7,8 +7,8 @@
     "name": "Calwell",
     "state": "VIC",
     "totalFormal": 89831,
-    "informalVotes": 8824,
-    "informalRate": 11.86,
+    "informalVotes": 10657,
+    "informalRate": 10.61,
     "enrolled": 115542,
     "votesCounted": 100488,
     "turnoutPct": 86.97,
@@ -32,8 +32,8 @@
       "givenName": "Basem",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 20003,
-      "pct": 30.5
+      "votes": 27423,
+      "pct": 30.53
     },
     {
       "candidateId": "C40752",
@@ -41,17 +41,8 @@
       "givenName": "Usman",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 9904,
-      "pct": 15.1
-    },
-    {
-      "candidateId": "C40654",
-      "surname": "YOUHANA",
-      "givenName": "Joseph",
-      "party": "ind",
-      "partyAb": "IND",
-      "votes": 8235,
-      "pct": 12.56
+      "votes": 14102,
+      "pct": 15.7
     },
     {
       "candidateId": "C40630",
@@ -59,8 +50,17 @@
       "givenName": "Carly",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 7810,
-      "pct": 11.91
+      "votes": 10735,
+      "pct": 11.95
+    },
+    {
+      "candidateId": "C40654",
+      "surname": "YOUHANA",
+      "givenName": "Joseph",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 9628,
+      "pct": 10.72
     },
     {
       "candidateId": "C41084",
@@ -68,8 +68,8 @@
       "givenName": "Ravneet Kaur",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 5195,
-      "pct": 7.92
+      "votes": 7439,
+      "pct": 8.28
     },
     {
       "candidateId": "C42008",
@@ -77,8 +77,8 @@
       "givenName": "Samim",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 5087,
-      "pct": 7.76
+      "votes": 6155,
+      "pct": 6.85
     },
     {
       "candidateId": "C41525",
@@ -86,17 +86,8 @@
       "givenName": "Luay",
       "party": "on",
       "partyAb": "ON",
-      "votes": 1971,
-      "pct": 3.01
-    },
-    {
-      "candidateId": "C40700",
-      "surname": "HAWLI",
-      "givenName": "Bassima",
-      "party": "oth",
-      "partyAb": "CEC",
-      "votes": 1952,
-      "pct": 2.98
+      "votes": 3375,
+      "pct": 3.76
     },
     {
       "candidateId": "C41232",
@@ -104,8 +95,17 @@
       "givenName": "Gianni",
       "party": "oth",
       "partyAb": "HMP",
-      "votes": 1831,
-      "pct": 2.79
+      "votes": 2843,
+      "pct": 3.16
+    },
+    {
+      "candidateId": "C40700",
+      "surname": "HAWLI",
+      "givenName": "Bassima",
+      "party": "oth",
+      "partyAb": "CEC",
+      "votes": 2624,
+      "pct": 2.92
     },
     {
       "candidateId": "C41604",
@@ -113,8 +113,8 @@
       "givenName": "Maria",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 1475,
-      "pct": 2.25
+      "votes": 2308,
+      "pct": 2.57
     },
     {
       "candidateId": "C41362",
@@ -122,8 +122,8 @@
       "givenName": "Assaad",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 1432,
-      "pct": 2.18
+      "votes": 2211,
+      "pct": 2.46
     },
     {
       "candidateId": "C41940",
@@ -131,8 +131,8 @@
       "givenName": "Ravi",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 386,
-      "pct": 0.59
+      "votes": 501,
+      "pct": 0.56
     },
     {
       "candidateId": "C41196",
@@ -140,8 +140,8 @@
       "givenName": "Morgan",
       "party": "oth",
       "partyAb": "NAFD",
-      "votes": 294,
-      "pct": 0.45
+      "votes": 487,
+      "pct": 0.54
     }
   ],
   "tcp": [
@@ -5187,9 +5187,9 @@
           "year": "2007",
           "shares": {
             "CEC": 2.11,
-            "FFP": 4.34,
-            "LIB": 26.55,
             "ALP": 60.22,
+            "LIB": 26.55,
+            "FFP": 4.34,
             "GRN": 4.36,
             "OTH": 2.43
           }
@@ -5197,24 +5197,24 @@
         {
           "year": "2010",
           "shares": {
-            "ALP": 56.63,
             "GRN": 11.86,
-            "LIB": 25.76,
+            "ALP": 56.63,
             "FFP": 4.4,
+            "LIB": 25.76,
             "OTH": 1.35
           }
         },
         {
           "year": "2013",
           "shares": {
+            "LIB": 28.49,
+            "ALP": 49.81,
+            "AUC": 2.47,
+            "GRN": 5.39,
+            "ASXP": 2.75,
             "FFP": 2.53,
             "KAP": 2.23,
-            "GRN": 5.39,
-            "AUC": 2.47,
-            "ASXP": 2.75,
             "TOP": 4.34,
-            "ALP": 49.81,
-            "LIB": 28.49,
             "OTH": 2.0
           }
         },
@@ -5222,34 +5222,34 @@
           "year": "2016",
           "shares": {
             "LIB": 27.66,
-            "ALP": 56.81,
             "GRN": 8.47,
-            "AJP": 3.59,
-            "IND": 3.47
+            "ALP": 56.81,
+            "IND": 3.47,
+            "AJP": 3.59
           }
         },
         {
           "year": "2019",
           "shares": {
-            "CEC": 3.26,
-            "LIB": 25.13,
             "VNS": 4.56,
+            "CEC": 3.26,
+            "GRN": 6.74,
             "TOP": 3.47,
             "FACN": 2.03,
+            "LIB": 25.13,
             "ALP": 53.88,
-            "GRN": 6.74,
             "OTH": 0.94
           }
         },
         {
           "year": "2022",
           "shares": {
+            "LIB": 23.66,
             "TOP": 8.92,
+            "ON": 7.01,
+            "VNS": 4.04,
             "GRN": 9.74,
             "ALP": 44.86,
-            "ON": 7.01,
-            "LIB": 23.66,
-            "VNS": 4.04,
             "OTH": 1.78
           }
         },
@@ -5257,14 +5257,14 @@
           "year": "2025",
           "shares": {
             "GRN": 8.28,
-            "CYA": 2.46,
-            "LIB": 15.7,
-            "CEC": 2.92,
-            "ALP": 30.53,
             "IND": 30.08,
-            "HMP": 3.16,
+            "CYA": 2.46,
             "FFP": 2.57,
+            "CEC": 2.92,
+            "LIB": 15.7,
+            "ALP": 30.53,
             "ON": 3.76,
+            "HMP": 3.16,
             "OTH": 0.54
           }
         }

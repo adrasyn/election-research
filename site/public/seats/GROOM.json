@@ -7,8 +7,8 @@
     "name": "Groom",
     "state": "QLD",
     "totalFormal": 103219,
-    "informalVotes": 4537,
-    "informalRate": 5.48,
+    "informalVotes": 5276,
+    "informalRate": 4.86,
     "enrolled": 119008,
     "votesCounted": 108495,
     "turnoutPct": 91.17,
@@ -32,8 +32,8 @@
       "givenName": "Garth",
       "party": "lnp",
       "partyAb": "LNP",
-      "votes": 30775,
-      "pct": 39.3
+      "votes": 42302,
+      "pct": 40.98
     },
     {
       "candidateId": "C36178",
@@ -41,8 +41,8 @@
       "givenName": "Suzie",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 14247,
-      "pct": 18.2
+      "votes": 17694,
+      "pct": 17.14
     },
     {
       "candidateId": "C40741",
@@ -50,8 +50,8 @@
       "givenName": "Richard",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 13104,
-      "pct": 16.74
+      "votes": 17172,
+      "pct": 16.64
     },
     {
       "candidateId": "C40942",
@@ -59,8 +59,8 @@
       "givenName": "Rebecca",
       "party": "on",
       "partyAb": "ON",
-      "votes": 7381,
-      "pct": 9.43
+      "votes": 9860,
+      "pct": 9.55
     },
     {
       "candidateId": "C41242",
@@ -68,8 +68,8 @@
       "givenName": "Alyce",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 4522,
-      "pct": 5.78
+      "votes": 5757,
+      "pct": 5.58
     },
     {
       "candidateId": "C40896",
@@ -77,8 +77,8 @@
       "givenName": "Alexandra",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 3165,
-      "pct": 4.04
+      "votes": 3894,
+      "pct": 3.77
     },
     {
       "candidateId": "C37615",
@@ -86,8 +86,8 @@
       "givenName": "Kirstie",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 2906,
-      "pct": 3.71
+      "votes": 3701,
+      "pct": 3.59
     },
     {
       "candidateId": "C41349",
@@ -95,8 +95,8 @@
       "givenName": "Jamie",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 2198,
-      "pct": 2.81
+      "votes": 2839,
+      "pct": 2.75
     }
   ],
   "tcp": [
@@ -2733,93 +2733,6 @@
       ]
     },
     {
-      "boothId": 5641,
-      "name": "East Toowoomba",
-      "formal": 666,
-      "winnerParty": "ind",
-      "winnerSurname": "HOLT",
-      "winnerPct": 52.25,
-      "swing": 0.29,
-      "lat": -27.56086199,
-      "lng": 151.97016054,
-      "candidates": [
-        {
-          "surname": "HAMILTON",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 245,
-          "pct": 36.79
-        },
-        {
-          "surname": "HOLT",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 173,
-          "pct": 25.98
-        },
-        {
-          "surname": "EDWARDS",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 91,
-          "pct": 13.66
-        },
-        {
-          "surname": "SMOLENSKI",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 52,
-          "pct": 7.81
-        },
-        {
-          "surname": "NELLIGAN",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 51,
-          "pct": 7.66
-        },
-        {
-          "surname": "KONZ",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 34,
-          "pct": 5.11
-        },
-        {
-          "surname": "MARR",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 11,
-          "pct": 1.65
-        },
-        {
-          "surname": "TODD",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 9,
-          "pct": 1.35
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "HAMILTON",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 318,
-          "elected": true,
-          "pct": 47.75
-        },
-        {
-          "surname": "HOLT",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 348,
-          "elected": false,
-          "pct": 52.25
-        }
-      ]
-    },
-    {
       "boothId": 31434,
       "name": "Wilsonton West",
       "formal": 666,
@@ -2903,6 +2816,93 @@
           "votes": 340,
           "elected": false,
           "pct": 51.05
+        }
+      ]
+    },
+    {
+      "boothId": 5641,
+      "name": "East Toowoomba",
+      "formal": 666,
+      "winnerParty": "ind",
+      "winnerSurname": "HOLT",
+      "winnerPct": 52.25,
+      "swing": 0.29,
+      "lat": -27.56086199,
+      "lng": 151.97016054,
+      "candidates": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 245,
+          "pct": 36.79
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 173,
+          "pct": 25.98
+        },
+        {
+          "surname": "EDWARDS",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 91,
+          "pct": 13.66
+        },
+        {
+          "surname": "SMOLENSKI",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 52,
+          "pct": 7.81
+        },
+        {
+          "surname": "NELLIGAN",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 51,
+          "pct": 7.66
+        },
+        {
+          "surname": "KONZ",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 34,
+          "pct": 5.11
+        },
+        {
+          "surname": "MARR",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 11,
+          "pct": 1.65
+        },
+        {
+          "surname": "TODD",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 9,
+          "pct": 1.35
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "HAMILTON",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 318,
+          "elected": true,
+          "pct": 47.75
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 348,
+          "elected": false,
+          "pct": 52.25
         }
       ]
     },
@@ -5435,11 +5435,11 @@
         {
           "year": "2007",
           "shares": {
-            "IND": 2.2,
+            "ALP": 34.83,
             "LIB": 52.71,
             "FFP": 4.38,
-            "ALP": 34.83,
             "GRN": 4.84,
+            "IND": 2.2,
             "OTH": 1.05
           }
         },
@@ -5447,67 +5447,67 @@
           "year": "2010",
           "shares": {
             "GRN": 7.3,
-            "FFP": 5.56,
             "ALP": 22.67,
-            "LIB": 61.25,
-            "IND": 3.23
+            "IND": 3.23,
+            "FFP": 5.56,
+            "LIB": 61.25
           }
         },
         {
           "year": "2013",
           "shares": {
-            "GRN": 4.34,
-            "FFP": 2.66,
             "TOP": 9.35,
-            "ALP": 22.1,
-            "KAP": 3.69,
             "LIB": 55.64,
+            "ALP": 22.1,
+            "FFP": 2.66,
+            "GRN": 4.34,
+            "KAP": 3.69,
             "OTH": 2.21
           }
         },
         {
           "year": "2016",
           "shares": {
-            "FFP": 10.02,
             "CA": 7.63,
-            "LIB": 54.0,
+            "ALP": 22.2,
             "GRN": 6.16,
-            "ALP": 22.2
+            "FFP": 10.02,
+            "LIB": 54.0
           }
         },
         {
           "year": "2019",
           "shares": {
-            "GRN": 7.96,
-            "FACN": 2.99,
-            "ON": 13.09,
-            "ALP": 18.66,
             "TOP": 3.96,
-            "LIB": 53.34
+            "ALP": 18.66,
+            "FACN": 2.99,
+            "LIB": 53.34,
+            "ON": 13.09,
+            "GRN": 7.96
           }
         },
         {
           "year": "2022",
           "shares": {
-            "TOP": 5.13,
-            "ALP": 18.73,
             "LIB": 43.72,
-            "GRN": 5.85,
-            "IND": 15.41,
+            "ALP": 18.73,
             "ON": 9.56,
+            "GRN": 5.85,
+            "TOP": 5.13,
+            "IND": 15.41,
             "OTH": 1.6
           }
         },
         {
           "year": "2025",
           "shares": {
-            "ON": 9.55,
+            "CYA": 2.75,
+            "ALP": 16.64,
             "LIB": 40.98,
+            "ON": 9.55,
             "GRN": 5.58,
             "IND": 20.73,
-            "FFP": 3.77,
-            "ALP": 16.64,
-            "CYA": 2.75
+            "FFP": 3.77
           }
         }
       ]

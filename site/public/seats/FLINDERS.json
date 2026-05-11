@@ -7,8 +7,8 @@
     "name": "Flinders",
     "state": "VIC",
     "totalFormal": 114923,
-    "informalVotes": 3495,
-    "informalRate": 3.86,
+    "informalVotes": 4246,
+    "informalRate": 3.56,
     "enrolled": 127540,
     "votesCounted": 119169,
     "turnoutPct": 93.44,
@@ -32,17 +32,8 @@
       "givenName": "Zoe",
       "party": "lib",
       "partyAb": "LIB",
-      "votes": 34265,
-      "pct": 39.34
-    },
-    {
-      "candidateId": "C40838",
-      "surname": "SMITH",
-      "givenName": "Ben",
-      "party": "ind",
-      "partyAb": "IND",
-      "votes": 20247,
-      "pct": 23.25
+      "votes": 47375,
+      "pct": 41.22
     },
     {
       "candidateId": "C40853",
@@ -50,8 +41,17 @@
       "givenName": "Sarah",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 19678,
-      "pct": 22.59
+      "votes": 25622,
+      "pct": 22.29
+    },
+    {
+      "candidateId": "C40838",
+      "surname": "SMITH",
+      "givenName": "Ben",
+      "party": "ind",
+      "partyAb": "IND",
+      "votes": 24406,
+      "pct": 21.24
     },
     {
       "candidateId": "C41131",
@@ -59,8 +59,8 @@
       "givenName": "Adam",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 5371,
-      "pct": 6.17
+      "votes": 7305,
+      "pct": 6.36
     },
     {
       "candidateId": "C41509",
@@ -68,8 +68,8 @@
       "givenName": "Mike",
       "party": "on",
       "partyAb": "ON",
-      "votes": 4672,
-      "pct": 5.36
+      "votes": 6091,
+      "pct": 5.3
     },
     {
       "candidateId": "C41371",
@@ -77,8 +77,8 @@
       "givenName": "Jason",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 2181,
-      "pct": 2.5
+      "votes": 3144,
+      "pct": 2.74
     },
     {
       "candidateId": "C40892",
@@ -86,8 +86,8 @@
       "givenName": "Joseph",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 685,
-      "pct": 0.79
+      "votes": 980,
+      "pct": 0.85
     }
   ],
   "tcp": [
@@ -1314,86 +1314,6 @@
       ]
     },
     {
-      "boothId": 3667,
-      "name": "Tyabb",
-      "formal": 1006,
-      "winnerParty": "lib",
-      "winnerSurname": "McKENZIE",
-      "winnerPct": 52.68,
-      "swing": 52.68,
-      "lat": -38.261009,
-      "lng": 145.190033,
-      "candidates": [
-        {
-          "surname": "McKENZIE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 355,
-          "pct": 35.29
-        },
-        {
-          "surname": "RACE",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 245,
-          "pct": 24.35
-        },
-        {
-          "surname": "SMITH",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 181,
-          "pct": 17.99
-        },
-        {
-          "surname": "BROWN",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 94,
-          "pct": 9.34
-        },
-        {
-          "surname": "FROGLEY",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 76,
-          "pct": 7.55
-        },
-        {
-          "surname": "SMART",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 43,
-          "pct": 4.27
-        },
-        {
-          "surname": "TOSCANO",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 12,
-          "pct": 1.19
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "McKENZIE",
-          "partyAb": "LIB",
-          "party": "lib",
-          "votes": 530,
-          "elected": true,
-          "pct": 52.68
-        },
-        {
-          "surname": "SMITH",
-          "partyAb": "IND",
-          "party": "ind",
-          "votes": 476,
-          "elected": false,
-          "pct": 47.32
-        }
-      ]
-    },
-    {
       "boothId": 3656,
       "name": "Rosebud East",
       "formal": 1006,
@@ -1470,6 +1390,86 @@
           "votes": 571,
           "elected": false,
           "pct": 56.76
+        }
+      ]
+    },
+    {
+      "boothId": 3667,
+      "name": "Tyabb",
+      "formal": 1006,
+      "winnerParty": "lib",
+      "winnerSurname": "McKENZIE",
+      "winnerPct": 52.68,
+      "swing": 52.68,
+      "lat": -38.261009,
+      "lng": 145.190033,
+      "candidates": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 355,
+          "pct": 35.29
+        },
+        {
+          "surname": "RACE",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 245,
+          "pct": 24.35
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 181,
+          "pct": 17.99
+        },
+        {
+          "surname": "BROWN",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 94,
+          "pct": 9.34
+        },
+        {
+          "surname": "FROGLEY",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 76,
+          "pct": 7.55
+        },
+        {
+          "surname": "SMART",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 43,
+          "pct": 4.27
+        },
+        {
+          "surname": "TOSCANO",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 12,
+          "pct": 1.19
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "McKENZIE",
+          "partyAb": "LIB",
+          "party": "lib",
+          "votes": 530,
+          "elected": true,
+          "pct": 52.68
+        },
+        {
+          "surname": "SMITH",
+          "partyAb": "IND",
+          "party": "ind",
+          "votes": 476,
+          "elected": false,
+          "pct": 47.32
         }
       ]
     },
@@ -4263,8 +4263,8 @@
         {
           "year": "2007",
           "shares": {
-            "FFP": 2.24,
             "LIB": 54.47,
+            "FFP": 2.24,
             "GRN": 8.48,
             "ALP": 33.88,
             "OTH": 0.93
@@ -4273,9 +4273,9 @@
         {
           "year": "2010",
           "shares": {
-            "GRN": 11.5,
-            "ALP": 31.76,
             "LIB": 54.3,
+            "ALP": 31.76,
+            "GRN": 11.5,
             "FFP": 2.43
           }
         },
@@ -4283,58 +4283,58 @@
           "year": "2013",
           "shares": {
             "LIB": 55.34,
+            "ALP": 25.2,
             "GRN": 9.74,
             "TOP": 6.0,
-            "ALP": 25.2,
             "OTH": 3.72
           }
         },
         {
           "year": "2016",
           "shares": {
-            "GRN": 10.7,
-            "AJP": 4.28,
-            "IND": 3.06,
+            "RUA": 3.33,
             "ALP": 27.03,
+            "GRN": 10.7,
             "LIB": 51.6,
-            "RUA": 3.33
+            "IND": 3.06,
+            "AJP": 4.28
           }
         },
         {
           "year": "2019",
           "shares": {
-            "IND": 15.73,
             "GRN": 6.81,
             "TOP": 2.52,
-            "LIB": 46.72,
-            "AJP": 2.38,
+            "IND": 15.73,
             "ALP": 24.74,
+            "AJP": 2.38,
+            "LIB": 46.72,
             "OTH": 1.11
           }
         },
         {
           "year": "2022",
           "shares": {
-            "ON": 3.41,
-            "IND": 12.49,
-            "TOP": 4.52,
             "GRN": 9.4,
             "AJP": 2.08,
+            "IND": 12.49,
             "ALP": 21.73,
             "LDP": 2.39,
             "LIB": 43.49,
+            "TOP": 4.52,
+            "ON": 3.41,
             "OTH": 0.49
           }
         },
         {
           "year": "2025",
           "shares": {
-            "LIB": 41.22,
-            "ALP": 22.29,
-            "ON": 5.3,
-            "IND": 22.09,
             "CYA": 2.74,
-            "GRN": 6.36
+            "IND": 22.09,
+            "GRN": 6.36,
+            "ON": 5.3,
+            "LIB": 41.22,
+            "ALP": 22.29
           }
         }
       ]

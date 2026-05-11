@@ -7,8 +7,8 @@
     "name": "Oxley",
     "state": "QLD",
     "totalFormal": 104062,
-    "informalVotes": 3445,
-    "informalRate": 4.21,
+    "informalVotes": 4128,
+    "informalRate": 3.82,
     "enrolled": 122449,
     "votesCounted": 108190,
     "turnoutPct": 88.36,
@@ -32,8 +32,8 @@
       "givenName": "Milton",
       "party": "alp",
       "partyAb": "ALP",
-      "votes": 42020,
-      "pct": 53.6
+      "votes": 54891,
+      "pct": 52.75
     },
     {
       "candidateId": "C41181",
@@ -41,8 +41,8 @@
       "givenName": "Kevin",
       "party": "lnp",
       "partyAb": "LNP",
-      "votes": 16340,
-      "pct": 20.84
+      "votes": 21976,
+      "pct": 21.12
     },
     {
       "candidateId": "C41281",
@@ -50,8 +50,8 @@
       "givenName": "Brandan",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 10679,
-      "pct": 13.62
+      "votes": 13979,
+      "pct": 13.43
     },
     {
       "candidateId": "C40952",
@@ -59,8 +59,8 @@
       "givenName": "Darren",
       "party": "on",
       "partyAb": "ON",
-      "votes": 3895,
-      "pct": 4.97
+      "votes": 5738,
+      "pct": 5.51
     },
     {
       "candidateId": "C40913",
@@ -68,8 +68,8 @@
       "givenName": "William",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 2228,
-      "pct": 2.84
+      "votes": 3058,
+      "pct": 2.94
     },
     {
       "candidateId": "C41397",
@@ -77,8 +77,8 @@
       "givenName": "Mark",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 2186,
-      "pct": 2.79
+      "votes": 2985,
+      "pct": 2.87
     },
     {
       "candidateId": "C41465",
@@ -86,8 +86,8 @@
       "givenName": "Mike",
       "party": "oth",
       "partyAb": "NAFD",
-      "votes": 1050,
-      "pct": 1.34
+      "votes": 1435,
+      "pct": 1.38
     }
   ],
   "tcp": [
@@ -1474,86 +1474,6 @@
       ]
     },
     {
-      "boothId": 83435,
-      "name": "Augustine Heights",
-      "formal": 1190,
-      "winnerParty": "alp",
-      "winnerSurname": "DICK",
-      "winnerPct": 57.39,
-      "swing": 3.48,
-      "lat": -27.655298,
-      "lng": 152.876299,
-      "candidates": [
-        {
-          "surname": "DICK",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 502,
-          "pct": 42.18
-        },
-        {
-          "surname": "BURNS",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 357,
-          "pct": 30.0
-        },
-        {
-          "surname": "HOLT",
-          "partyAb": "GRN",
-          "party": "grn",
-          "votes": 155,
-          "pct": 13.03
-        },
-        {
-          "surname": "BAKER",
-          "partyAb": "ON",
-          "party": "on",
-          "votes": 69,
-          "pct": 5.8
-        },
-        {
-          "surname": "MAGUIRE",
-          "partyAb": "CYA",
-          "party": "oth",
-          "votes": 47,
-          "pct": 3.95
-        },
-        {
-          "surname": "TENTO",
-          "partyAb": "FFP",
-          "party": "ffp",
-          "votes": 42,
-          "pct": 3.53
-        },
-        {
-          "surname": "HEAD",
-          "partyAb": "NAFD",
-          "party": "oth",
-          "votes": 18,
-          "pct": 1.51
-        }
-      ],
-      "tcp": [
-        {
-          "surname": "DICK",
-          "partyAb": "ALP",
-          "party": "alp",
-          "votes": 683,
-          "elected": true,
-          "pct": 57.39
-        },
-        {
-          "surname": "BURNS",
-          "partyAb": "LNP",
-          "party": "lnp",
-          "votes": 507,
-          "elected": false,
-          "pct": 42.61
-        }
-      ]
-    },
-    {
       "boothId": 6473,
       "name": "Richlands",
       "formal": 1190,
@@ -1630,6 +1550,86 @@
           "votes": 224,
           "elected": false,
           "pct": 18.82
+        }
+      ]
+    },
+    {
+      "boothId": 83435,
+      "name": "Augustine Heights",
+      "formal": 1190,
+      "winnerParty": "alp",
+      "winnerSurname": "DICK",
+      "winnerPct": 57.39,
+      "swing": 3.48,
+      "lat": -27.655298,
+      "lng": 152.876299,
+      "candidates": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 502,
+          "pct": 42.18
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 357,
+          "pct": 30.0
+        },
+        {
+          "surname": "HOLT",
+          "partyAb": "GRN",
+          "party": "grn",
+          "votes": 155,
+          "pct": 13.03
+        },
+        {
+          "surname": "BAKER",
+          "partyAb": "ON",
+          "party": "on",
+          "votes": 69,
+          "pct": 5.8
+        },
+        {
+          "surname": "MAGUIRE",
+          "partyAb": "CYA",
+          "party": "oth",
+          "votes": 47,
+          "pct": 3.95
+        },
+        {
+          "surname": "TENTO",
+          "partyAb": "FFP",
+          "party": "ffp",
+          "votes": 42,
+          "pct": 3.53
+        },
+        {
+          "surname": "HEAD",
+          "partyAb": "NAFD",
+          "party": "oth",
+          "votes": 18,
+          "pct": 1.51
+        }
+      ],
+      "tcp": [
+        {
+          "surname": "DICK",
+          "partyAb": "ALP",
+          "party": "alp",
+          "votes": 683,
+          "elected": true,
+          "pct": 57.39
+        },
+        {
+          "surname": "BURNS",
+          "partyAb": "LNP",
+          "party": "lnp",
+          "votes": 507,
+          "elected": false,
+          "pct": 42.61
         }
       ]
     },
@@ -4263,8 +4263,8 @@
         {
           "year": "2007",
           "shares": {
-            "LIB": 32.68,
             "FFP": 2.09,
+            "LIB": 32.68,
             "ALP": 58.56,
             "GRN": 5.13,
             "OTH": 1.54
@@ -4273,41 +4273,41 @@
         {
           "year": "2010",
           "shares": {
-            "FFP": 5.15,
             "LIB": 38.35,
-            "ALP": 44.71,
-            "GRN": 11.79
+            "FFP": 5.15,
+            "GRN": 11.79,
+            "ALP": 44.71
           }
         },
         {
           "year": "2013",
           "shares": {
-            "GRN": 5.38,
-            "LIB": 38.44,
-            "ALP": 43.1,
             "TOP": 7.1,
+            "LIB": 38.44,
             "FFP": 2.05,
+            "GRN": 5.38,
+            "ALP": 43.1,
             "OTH": 3.93
           }
         },
         {
           "year": "2016",
           "shares": {
+            "GRN": 8.76,
             "FFP": 3.28,
             "ON": 8.42,
-            "GRN": 8.76,
-            "LIB": 32.08,
             "ALP": 46.09,
+            "LIB": 32.08,
             "OTH": 1.36
           }
         },
         {
           "year": "2019",
           "shares": {
-            "TOP": 2.62,
-            "ALP": 42.53,
             "ON": 6.3,
             "LIB": 34.57,
+            "TOP": 2.62,
+            "ALP": 42.53,
             "GRN": 11.64,
             "OTH": 2.35
           }
@@ -4317,20 +4317,20 @@
           "shares": {
             "ON": 5.84,
             "ALP": 45.89,
-            "GRN": 14.25,
             "TOP": 5.32,
-            "LIB": 28.7
+            "LIB": 28.7,
+            "GRN": 14.25
           }
         },
         {
           "year": "2025",
           "shares": {
-            "FFP": 2.94,
-            "ALP": 52.75,
             "ON": 5.51,
-            "LIB": 21.12,
-            "CYA": 2.87,
             "GRN": 13.43,
+            "LIB": 21.12,
+            "FFP": 2.94,
+            "CYA": 2.87,
+            "ALP": 52.75,
             "OTH": 1.38
           }
         }

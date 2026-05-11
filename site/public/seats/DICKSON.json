@@ -7,8 +7,8 @@
     "name": "Dickson",
     "state": "QLD",
     "totalFormal": 105579,
-    "informalVotes": 3825,
-    "informalRate": 4.61,
+    "informalVotes": 4676,
+    "informalRate": 4.24,
     "enrolled": 119375,
     "votesCounted": 110255,
     "turnoutPct": 92.36,
@@ -27,22 +27,22 @@
   },
   "primary": [
     {
-      "candidateId": "C40742",
-      "surname": "FRANCE",
-      "givenName": "Ali",
-      "party": "alp",
-      "partyAb": "ALP",
-      "votes": 26971,
-      "pct": 34.04
-    },
-    {
       "candidateId": "C41208",
       "surname": "DUTTON",
       "givenName": "Peter",
       "party": "lnp",
       "partyAb": "LNP",
-      "votes": 26921,
-      "pct": 33.98
+      "votes": 36628,
+      "pct": 34.69
+    },
+    {
+      "candidateId": "C40742",
+      "surname": "FRANCE",
+      "givenName": "Ali",
+      "party": "alp",
+      "partyAb": "ALP",
+      "votes": 35502,
+      "pct": 33.63
     },
     {
       "candidateId": "C40629",
@@ -50,8 +50,8 @@
       "givenName": "Ellie",
       "party": "ind",
       "partyAb": "IND",
-      "votes": 10435,
-      "pct": 13.17
+      "votes": 12874,
+      "pct": 12.19
     },
     {
       "candidateId": "C41275",
@@ -59,8 +59,8 @@
       "givenName": "Vinnie",
       "party": "grn",
       "partyAb": "GRN",
-      "votes": 5951,
-      "pct": 7.51
+      "votes": 8061,
+      "pct": 7.64
     },
     {
       "candidateId": "C40941",
@@ -68,8 +68,8 @@
       "givenName": "Joel",
       "party": "on",
       "partyAb": "ON",
-      "votes": 3056,
-      "pct": 3.86
+      "votes": 4429,
+      "pct": 4.19
     },
     {
       "candidateId": "C40931",
@@ -77,8 +77,8 @@
       "givenName": "David",
       "party": "oth",
       "partyAb": "HMP",
-      "votes": 2204,
-      "pct": 2.78
+      "votes": 2950,
+      "pct": 2.79
     },
     {
       "candidateId": "C40867",
@@ -86,7 +86,7 @@
       "givenName": "Suniti",
       "party": "ffp",
       "partyAb": "FFP",
-      "votes": 1729,
+      "votes": 2299,
       "pct": 2.18
     },
     {
@@ -95,8 +95,8 @@
       "givenName": "Michael",
       "party": "oth",
       "partyAb": "CYA",
-      "votes": 1353,
-      "pct": 1.71
+      "votes": 1900,
+      "pct": 1.8
     },
     {
       "candidateId": "C41539",
@@ -104,8 +104,8 @@
       "givenName": "Maureen",
       "party": "ajp",
       "partyAb": "AJP",
-      "votes": 606,
-      "pct": 0.76
+      "votes": 936,
+      "pct": 0.89
     }
   ],
   "tcp": [
@@ -4168,21 +4168,21 @@
         {
           "year": "2007",
           "shares": {
+            "LIB": 46.15,
             "ALP": 43.67,
             "GRN": 6.0,
             "FFP": 2.54,
-            "LIB": 46.15,
             "OTH": 1.66
           }
         },
         {
           "year": "2010",
           "shares": {
+            "FFP": 2.87,
+            "LIB": 48.96,
             "GRN": 10.91,
             "IND": 3.14,
             "ALP": 33.47,
-            "FFP": 2.87,
-            "LIB": 48.96,
             "OTH": 0.64
           }
         },
@@ -4191,8 +4191,8 @@
           "shares": {
             "TOP": 9.79,
             "GRN": 6.42,
-            "ALP": 31.32,
             "LIB": 48.01,
+            "ALP": 31.32,
             "OTH": 4.46
           }
         },
@@ -4201,21 +4201,21 @@
           "shares": {
             "FFP": 4.25,
             "LDP": 2.85,
-            "GRN": 9.87,
             "LIB": 44.56,
             "IND": 3.54,
+            "GRN": 9.87,
             "ALP": 34.94
           }
         },
         {
           "year": "2019",
           "shares": {
+            "ALP": 31.33,
+            "LIB": 45.93,
             "GRN": 9.98,
             "ON": 5.18,
-            "ALP": 31.33,
-            "TOP": 2.24,
             "IND": 2.37,
-            "LIB": 45.93,
+            "TOP": 2.24,
             "OTH": 2.97
           }
         },
@@ -4223,10 +4223,10 @@
           "year": "2022",
           "shares": {
             "TOP": 2.74,
-            "ALP": 31.7,
+            "GRN": 13.0,
             "ON": 5.36,
             "IND": 3.88,
-            "GRN": 13.0,
+            "ALP": 31.7,
             "LIB": 42.07,
             "OTH": 1.25
           }
@@ -4234,13 +4234,13 @@
         {
           "year": "2025",
           "shares": {
-            "GRN": 7.64,
             "HMP": 2.79,
-            "ON": 4.19,
             "ALP": 33.63,
-            "LIB": 34.69,
-            "IND": 12.19,
             "FFP": 2.18,
+            "LIB": 34.69,
+            "ON": 4.19,
+            "GRN": 7.64,
+            "IND": 12.19,
             "OTH": 2.69
           }
         }
