@@ -97,6 +97,41 @@
   input { font: inherit; color: inherit; background: transparent; border: 0; outline: 0; }
   table { border-collapse: collapse; }
 
+  /* ──────────────────────────────────────────────────────────
+     SCROLLBARS — Mac-style overlay capsules
+     Windows default scrollbars are chunky and grey; this thins
+     them to a subtle translucent thumb floating in a trackless
+     gutter. The 2px transparent border + padding-box clip insets
+     the thumb so it reads as a rounded capsule, like macOS.
+     ────────────────────────────────────────────────────────── */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(150, 165, 185, 0.26) transparent;
+  }
+  /* WebKit / Chromium (Edge + Chrome on Windows) */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(150, 165, 185, 0.24);
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    transition: background-color 120ms var(--ease);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(162, 178, 198, 0.42);
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background-color: rgba(172, 188, 208, 0.58);
+  }
+
   .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
   .num  { font-family: var(--mono); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
 
